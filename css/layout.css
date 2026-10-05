@@ -1,0 +1,197 @@
+/* ==========================================================================
+   QURRA Mufradat al-Qur'an — App shell layout
+   Desktop/tablet: left sidebar + main content.
+   Mobile: top bar + main content + bottom navigation.
+   ========================================================================== */
+
+.qm-app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* ---------------- Sidebar (desktop/tablet) ---------------- */
+.qm-sidebar {
+  display: none; /* shown from the tablet breakpoint up, see responsive.css */
+  position: fixed;
+  inset-inline-start: 0;
+  top: 0;
+  bottom: 0;
+  width: var(--qm-sidebar-width);
+  background: var(--qm-green-900);
+  color: var(--qm-cream-100);
+  flex-direction: column;
+  padding: var(--qm-space-5) var(--qm-space-4) var(--qm-space-4);
+  border-inline-end: 1px solid rgba(255, 255, 255, 0.06);
+  z-index: 50;
+}
+
+.qm-sidebar__brand { margin-bottom: var(--qm-space-6); }
+
+.qm-brand-link {
+  display: flex;
+  align-items: center;
+  gap: var(--qm-space-3);
+}
+
+.qm-brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--qm-radius-md);
+  border: 1px solid var(--qm-gold-500);
+  color: var(--qm-gold-300);
+  font-family: var(--qm-font-arabic);
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.qm-brand-text { display: flex; flex-direction: column; }
+.qm-brand-title {
+  font-family: var(--qm-font-heading);
+  font-weight: 700;
+  font-size: var(--qm-fs-xl);
+  letter-spacing: 0.04em;
+  color: var(--qm-cream-50);
+}
+.qm-brand-subtitle {
+  font-size: var(--qm-fs-xs);
+  color: var(--qm-gold-300);
+}
+
+.qm-sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--qm-space-1);
+  flex: 1;
+}
+
+.qm-nav-link {
+  display: flex;
+  align-items: center;
+  gap: var(--qm-space-3);
+  padding: var(--qm-space-3) var(--qm-space-3);
+  border-radius: var(--qm-radius-md);
+  color: var(--qm-cream-100);
+  font-size: var(--qm-fs-sm);
+  font-weight: 500;
+  transition: background var(--qm-duration-fast) var(--qm-ease), color var(--qm-duration-fast) var(--qm-ease);
+}
+.qm-nav-icon { width: 1.25em; text-align: center; opacity: 0.85; }
+
+.qm-nav-link:hover { background: rgba(255,255,255,0.06); }
+.qm-nav-link.is-active {
+  background: var(--qm-green-700);
+  color: var(--qm-gold-300);
+  box-shadow: inset 2px 0 0 var(--qm-gold-500);
+}
+
+.qm-sidebar__search { margin: var(--qm-space-5) 0 var(--qm-space-3); position: relative; }
+
+.qm-sidebar__footer {
+  margin-top: auto;
+  padding-top: var(--qm-space-3);
+}
+
+/* ---------------- Top bar (mobile) ---------------- */
+.qm-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--qm-topbar-height);
+  padding: 0 var(--qm-space-4);
+  background: var(--qm-green-900);
+  color: var(--qm-cream-50);
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+.qm-topbar__brand { display: flex; align-items: center; gap: var(--qm-space-2); }
+.qm-topbar__brand .qm-brand-mark { width: 30px; height: 30px; font-size: 1rem; }
+.qm-topbar__title { font-family: var(--qm-font-heading); font-weight: 600; font-size: var(--qm-fs-md); }
+.qm-topbar__search-toggle {
+  background: none;
+  border: none;
+  color: var(--qm-cream-50);
+  font-size: 1.2rem;
+  width: 36px; height: 36px;
+  border-radius: var(--qm-radius-md);
+  display: flex; align-items: center; justify-content: center;
+}
+.qm-topbar__search-toggle:hover { background: rgba(255,255,255,0.08); }
+
+.qm-mobile-search {
+  background: var(--qm-green-900);
+  padding: 0 var(--qm-space-4) var(--qm-space-3);
+  position: relative;
+}
+
+/* ---------------- Main content ---------------- */
+.qm-main {
+  padding: var(--qm-space-5) var(--qm-space-4) var(--qm-space-8);
+}
+.qm-view {
+  max-width: var(--qm-content-max-width);
+  margin: 0 auto;
+}
+
+/* ---------------- Bottom nav (mobile) ---------------- */
+.qm-bottomnav {
+  display: flex;
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  height: var(--qm-bottomnav-height);
+  background: var(--qm-cream-50);
+  border-top: 1px solid var(--qm-border);
+  z-index: 40;
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+.qm-bottomnav__link {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  font-size: 0.65rem;
+  color: var(--qm-ink-500);
+  font-weight: 500;
+}
+.qm-bottomnav__link .qm-nav-icon { font-size: 1.1rem; }
+.qm-bottomnav__link.is-active { color: var(--qm-green-900); }
+.qm-bottomnav__link.is-active .qm-nav-icon { color: var(--qm-gold-700); }
+
+/* ---------------- Section / page scaffolding ---------------- */
+.qm-page-header {
+  margin-bottom: var(--qm-space-5);
+}
+.qm-page-header__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: var(--qm-fs-xs);
+  color: var(--qm-gold-700);
+  font-weight: 600;
+  margin-bottom: var(--qm-space-1);
+}
+.qm-breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--qm-space-1);
+  font-size: var(--qm-fs-sm);
+  color: var(--qm-ink-500);
+  margin-bottom: var(--qm-space-3);
+}
+.qm-breadcrumbs a:hover { color: var(--qm-green-900); text-decoration: underline; }
+.qm-breadcrumbs__sep { color: var(--qm-border-strong); }
+
+.qm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: var(--qm-space-3);
+}
+
+.qm-stack { display: flex; flex-direction: column; gap: var(--qm-space-3); }
+.qm-row { display: flex; align-items: center; gap: var(--qm-space-3); flex-wrap: wrap; }
+.qm-row--between { justify-content: space-between; }

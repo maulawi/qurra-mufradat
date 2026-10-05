@@ -1,0 +1,127 @@
+/* ==========================================================================
+   QURRA Mufradat al-Qur'an — Base element styles & resets
+   ========================================================================== */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: var(--qm-cream-50);
+  color: var(--qm-ink-900);
+  font-family: var(--qm-font-ui);
+  font-size: var(--qm-fs-md);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--qm-font-heading);
+  font-weight: 600;
+  color: var(--qm-green-900);
+  line-height: 1.2;
+  margin: 0 0 var(--qm-space-2);
+}
+
+h1 { font-size: var(--qm-fs-3xl); }
+h2 { font-size: var(--qm-fs-2xl); }
+h3 { font-size: var(--qm-fs-xl); }
+h4 { font-size: var(--qm-fs-lg); }
+
+p { margin: 0 0 var(--qm-space-3); color: var(--qm-ink-700); }
+
+a { color: inherit; text-decoration: none; }
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+  font-size: var(--qm-fs-sm);
+}
+
+ul, ol { margin: 0; padding: 0; list-style: none; }
+
+/* ---- Arabic text defaults ---- */
+.qm-arabic {
+  font-family: var(--qm-font-arabic);
+  direction: rtl;
+  unicode-bidi: isolate;
+  line-height: 2;
+}
+
+/* ---- Focus visibility (accessibility) ---- */
+:focus-visible {
+  outline: 2px solid var(--qm-gold-500);
+  outline-offset: 2px;
+  border-radius: var(--qm-radius-sm);
+}
+:focus:not(:focus-visible) { outline: none; }
+
+/* ---- Skip link ---- */
+.qm-skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--qm-green-900);
+  color: var(--qm-white);
+  padding: var(--qm-space-2) var(--qm-space-4);
+  z-index: 1000;
+  border-radius: 0 0 var(--qm-radius-sm) 0;
+}
+.qm-skip-link:focus {
+  left: 0;
+}
+
+.qm-visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ---- Small reusable bits ---- */
+.qm-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--qm-space-1);
+  font-size: var(--qm-fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 3px var(--qm-space-2);
+  border-radius: 999px;
+  border: var(--qm-border-width) solid var(--qm-border);
+  background: var(--qm-cream-100);
+  color: var(--qm-ink-700);
+  white-space: nowrap;
+}
+.qm-badge--demo {
+  background: var(--qm-demo-bg);
+  border-color: var(--qm-demo-border);
+  color: var(--qm-demo-text);
+}
+.qm-badge--pos-ism  { color: var(--qm-pos-ism);  border-color: var(--qm-pos-ism); background: var(--qm-green-100); }
+.qm-badge--pos-fil  { color: var(--qm-pos-fil);  border-color: var(--qm-gold-300); background: #fbf1e0; }
+.qm-badge--pos-harf { color: var(--qm-pos-harf); border-color: #cfd1e6; background: #f1f1fa; }
+
+.qm-muted { color: var(--qm-ink-500); }
+
+.qm-divider {
+  height: 1px;
+  background: var(--qm-border);
+  border: none;
+  margin: var(--qm-space-4) 0;
+}
+
+/* Scrollbar: subtle, consistent with the editorial feel */
+* { scrollbar-width: thin; scrollbar-color: var(--qm-border-strong) transparent; }
+*::-webkit-scrollbar { width: 8px; height: 8px; }
+*::-webkit-scrollbar-thumb { background: var(--qm-border-strong); border-radius: 8px; }

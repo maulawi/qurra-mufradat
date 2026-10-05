@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>QURRA Mufradat al-Qur'an — Qur'anic Vocabulary Explorer</title>
+<meta name="description" content="Explore the vocabulary of the Qur'an systematically — Juz by Juz, Surah by Ayah, word by word. A QURRA product prototype." />
+
+<!-- Fonts: Inter (UI), Cormorant Garamond (headings), Amiri (Qur'anic Arabic) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/vocabulary.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+<a class="qm-skip-link" href="#qm-main" data-i18n="common.skipToMain">Skip to main content</a>
+
+<div id="qm-app" class="qm-app">
+
+  <!-- ===================== Desktop / tablet side navigation ===================== -->
+  <header class="qm-sidebar" id="qm-sidebar" aria-label="Primary">
+    <div class="qm-sidebar__brand">
+      <a href="#/home" class="qm-brand-link" data-route-link>
+        <span class="qm-brand-mark" aria-hidden="true">ق</span>
+        <span class="qm-brand-text">
+          <span class="qm-brand-title">QURRA</span>
+          <span class="qm-brand-subtitle">Mufradat al-Qur'an</span>
+        </span>
+      </a>
+    </div>
+
+    <nav class="qm-sidebar__nav" aria-label="Sections">
+      <a href="#/home" class="qm-nav-link" data-route-link data-nav="home">
+        <span class="qm-nav-icon" aria-hidden="true">⌂</span> <span data-i18n="nav.home">Home</span>
+      </a>
+      <a href="#/juz/1" class="qm-nav-link" data-route-link data-nav="juz">
+        <span class="qm-nav-icon" aria-hidden="true">◫</span> <span data-i18n="nav.juz">Juz</span>
+      </a>
+      <a href="#/surahs" class="qm-nav-link" data-route-link data-nav="surahs">
+        <span class="qm-nav-icon" aria-hidden="true">﴾﴿</span> <span data-i18n="nav.surahs">Surahs</span>
+      </a>
+      <a href="#/roots" class="qm-nav-link" data-route-link data-nav="roots">
+        <span class="qm-nav-icon" aria-hidden="true">⟨⟩</span> <span data-i18n="nav.roots">Roots</span>
+      </a>
+      <a href="#/lemmas" class="qm-nav-link" data-route-link data-nav="lemmas">
+        <span class="qm-nav-icon" aria-hidden="true">⌘</span> <span data-i18n="nav.lemmas">Lemmas</span>
+      </a>
+    </nav>
+
+    <div class="qm-sidebar__search">
+      <label for="qm-search-input" class="qm-visually-hidden" data-i18n="common.searchVocabularyLabel">Search vocabulary</label>
+      <input type="search" id="qm-search-input" class="qm-search-input" data-i18n-placeholder="common.searchPlaceholder" placeholder="Search word, lemma, or root…" autocomplete="off" />
+      <div id="qm-search-results" class="qm-search-results" hidden></div>
+    </div>
+
+    <div class="qm-sidebar__footer">
+      <div class="qm-lang-switch" role="group" data-i18n-aria-label="common.languageLabel" aria-label="Language">
+        <button type="button" class="qm-lang-switch__btn" data-lang-switch="en" data-i18n-aria-label="common.languageEn" aria-label="English">EN</button>
+        <span class="qm-lang-switch__sep" aria-hidden="true">|</span>
+        <button type="button" class="qm-lang-switch__btn" data-lang-switch="ms" data-i18n-aria-label="common.languageMs" aria-label="Bahasa Melayu">BM</button>
+      </div>
+      <span class="qm-badge qm-badge--demo" data-i18n="badge.demo">Prototype · Demo data</span>
+    </div>
+  </header>
+
+  <!-- ===================== Mobile top bar ===================== -->
+  <header class="qm-topbar" aria-label="Primary">
+    <a href="#/home" class="qm-topbar__brand" data-route-link>
+      <span class="qm-brand-mark" aria-hidden="true">ق</span>
+      <span class="qm-topbar__title">QURRA Mufradat</span>
+    </a>
+    <div class="qm-lang-switch qm-lang-switch--mobile" role="group" data-i18n-aria-label="common.languageLabel" aria-label="Language">
+      <button type="button" class="qm-lang-switch__btn" data-lang-switch="en" data-i18n-aria-label="common.languageEn" aria-label="English">EN</button>
+      <span class="qm-lang-switch__sep" aria-hidden="true">/</span>
+      <button type="button" class="qm-lang-switch__btn" data-lang-switch="ms" data-i18n-aria-label="common.languageMs" aria-label="Bahasa Melayu">BM</button>
+    </div>
+    <button type="button" class="qm-topbar__search-toggle" id="qm-mobile-search-toggle" data-i18n-aria-label="common.search" aria-label="Search" aria-expanded="false" aria-controls="qm-mobile-search">
+      <span aria-hidden="true">⌕</span>
+    </button>
+  </header>
+  <div class="qm-mobile-search" id="qm-mobile-search" hidden>
+    <label for="qm-mobile-search-input" class="qm-visually-hidden" data-i18n="common.searchVocabularyLabel">Search vocabulary</label>
+    <input type="search" id="qm-mobile-search-input" class="qm-search-input" data-i18n-placeholder="common.searchPlaceholder" placeholder="Search word, lemma, or root…" autocomplete="off" />
+    <div id="qm-mobile-search-results" class="qm-search-results" hidden></div>
+  </div>
+
+  <!-- ===================== Main content ===================== -->
+  <main id="qm-main" class="qm-main" tabindex="-1">
+    <div id="qm-view" class="qm-view"></div>
+  </main>
+
+  <!-- ===================== Mobile bottom navigation ===================== -->
+  <nav class="qm-bottomnav" aria-label="Sections">
+    <a href="#/home" class="qm-bottomnav__link" data-route-link data-nav="home">
+      <span class="qm-nav-icon" aria-hidden="true">⌂</span><span data-i18n="nav.home">Home</span>
+    </a>
+    <a href="#/juz/1" class="qm-bottomnav__link" data-route-link data-nav="juz">
+      <span class="qm-nav-icon" aria-hidden="true">◫</span><span data-i18n="nav.juz">Juz</span>
+    </a>
+    <a href="#/surahs" class="qm-bottomnav__link" data-route-link data-nav="surahs">
+      <span class="qm-nav-icon" aria-hidden="true">﴾﴿</span><span data-i18n="nav.surahs">Surahs</span>
+    </a>
+    <a href="#/roots" class="qm-bottomnav__link" data-route-link data-nav="roots">
+      <span class="qm-nav-icon" aria-hidden="true">⟨⟩</span><span data-i18n="nav.roots">Roots</span>
+    </a>
+  </nav>
+
+  <!-- ===================== Word detail overlay (drawer on mobile, panel on desktop) ===================== -->
+  <div id="qm-detail-overlay" class="qm-detail-overlay" hidden>
+    <div class="qm-detail-overlay__scrim" data-detail-close></div>
+    <section class="qm-detail-panel" id="qm-detail-panel" role="dialog" aria-modal="true" aria-labelledby="qm-detail-title">
+      <button type="button" class="qm-detail-panel__close" data-detail-close data-i18n-aria-label="detailOverlay.closeAriaLabel" aria-label="Close word details">✕</button>
+      <div id="qm-detail-content" class="qm-detail-content"></div>
+    </section>
+  </div>
+
+</div>
+
+<script src="js/translations/en.js"></script>
+<script src="js/translations/ms.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/state.js"></script>
+<script src="js/demoData.js"></script>
+<script src="js/data.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/wordDetail.js"></script>
+<script src="js/render.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/router.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

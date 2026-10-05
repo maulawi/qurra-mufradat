@@ -1,0 +1,64 @@
+/* ==========================================================================
+   QURRA Mufradat al-Qur'an — Responsive breakpoints
+   Mobile-first. Tested conceptually at ~390 / 768 / 1440.
+   ========================================================================== */
+
+/* ---- Base (mobile, < 768px): top bar + bottom nav, sidebar hidden ---- */
+.qm-main { padding-bottom: calc(var(--qm-bottomnav-height) + var(--qm-space-6)); }
+
+@media (min-width: 560px) {
+  .qm-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+}
+
+/* ---- Tablet and up (>= 768px): side navigation appears, bottom nav/topbar hide ---- */
+@media (min-width: 768px) {
+  .qm-topbar, .qm-mobile-search, .qm-bottomnav { display: none; }
+
+  .qm-sidebar { display: flex; }
+
+  .qm-main {
+    margin-inline-start: var(--qm-sidebar-width);
+    padding: var(--qm-space-6) var(--qm-space-6) var(--qm-space-8);
+  }
+
+  .qm-hero { padding: var(--qm-space-8) var(--qm-space-6); }
+  .qm-hero__arabic { font-size: 3.2rem; }
+
+  .qm-detail-panel { width: 440px; }
+}
+
+/* ---- Desktop (>= 1280px): slightly roomier content column ---- */
+@media (min-width: 1280px) {
+  .qm-view { max-width: 1040px; }
+  .qm-main { padding-inline: var(--qm-space-8); }
+}
+
+/* ---- Small phones (<= 390px): tighten spacing, smaller Arabic display size still comfortable ---- */
+@media (max-width: 390px) {
+  .qm-main { padding-left: var(--qm-space-3); padding-right: var(--qm-space-3); }
+  .qm-hero { padding: var(--qm-space-6) var(--qm-space-3); }
+  .qm-hero__arabic { font-size: 2.1rem; }
+  .qm-ayah__text { font-size: 1.5rem; line-height: 2.1; }
+  .qm-fieldlist { grid-template-columns: 1fr; }
+  .qm-fieldlist dt { font-weight: 600; }
+}
+
+/* ---- Prevent horizontal overflow globally ---- */
+html, body { overflow-x: hidden; }
+img, svg { max-width: 100%; }
+
+/* ---- Detail panel becomes a bottom sheet on narrow screens for easier thumb reach ---- */
+@media (max-width: 767px) {
+  .qm-detail-overlay { align-items: flex-end; }
+  .qm-detail-panel {
+    width: 100%;
+    height: auto;
+    max-height: 86vh;
+    border-radius: var(--qm-radius-lg) var(--qm-radius-lg) 0 0;
+    animation: qm-slide-in-bottom var(--qm-duration-base) var(--qm-ease);
+  }
+  @keyframes qm-slide-in-bottom {
+    from { transform: translateY(24px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+}

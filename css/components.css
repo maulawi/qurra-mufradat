@@ -1,0 +1,340 @@
+/* ==========================================================================
+   QURRA Mufradat al-Qur'an — Reusable UI components
+   ========================================================================== */
+
+/* ---------------- Buttons ---------------- */
+.qm-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--qm-space-2);
+  padding: var(--qm-space-3) var(--qm-space-5);
+  border-radius: var(--qm-radius-md);
+  font-size: var(--qm-fs-sm);
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: background var(--qm-duration-fast) var(--qm-ease), border-color var(--qm-duration-fast) var(--qm-ease), transform var(--qm-duration-fast) var(--qm-ease);
+  min-height: 44px; /* touch target */
+}
+.qm-btn:active { transform: translateY(1px); }
+
+.qm-btn--primary {
+  background: var(--qm-green-900);
+  color: var(--qm-cream-50);
+}
+.qm-btn--primary:hover { background: var(--qm-green-700); }
+
+.qm-btn--secondary {
+  background: transparent;
+  color: var(--qm-green-900);
+  border-color: var(--qm-border-strong);
+}
+.qm-btn--secondary:hover { border-color: var(--qm-gold-500); color: var(--qm-gold-700); }
+
+.qm-btn--ghost {
+  background: transparent;
+  color: var(--qm-ink-700);
+  padding: var(--qm-space-2) var(--qm-space-3);
+  min-height: 36px;
+}
+.qm-btn--ghost:hover { background: var(--qm-cream-200); }
+
+.qm-btn--sm { padding: var(--qm-space-2) var(--qm-space-3); min-height: 36px; font-size: var(--qm-fs-xs); }
+
+/* ---------------- Search ---------------- */
+.qm-search-input {
+  width: 100%;
+  padding: var(--qm-space-3) var(--qm-space-3);
+  border-radius: var(--qm-radius-md);
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.08);
+  color: var(--qm-cream-50);
+}
+.qm-search-input::placeholder { color: rgba(250,245,234,0.55); }
+.qm-search-input:focus-visible { outline-color: var(--qm-gold-300); }
+
+.qm-mobile-search .qm-search-input,
+.qm-mobile-search .qm-search-results { background: var(--qm-cream-50); }
+
+.qm-search-results {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0; right: 0;
+  background: var(--qm-cream-50);
+  border: 1px solid var(--qm-border);
+  border-radius: var(--qm-radius-md);
+  box-shadow: var(--qm-shadow-lg);
+  max-height: 340px;
+  overflow-y: auto;
+  z-index: 60;
+  padding: var(--qm-space-2);
+}
+.qm-search-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--qm-space-2);
+  padding: var(--qm-space-2) var(--qm-space-2);
+  border-radius: var(--qm-radius-sm);
+  color: var(--qm-ink-900);
+}
+.qm-search-result:hover, .qm-search-result:focus-visible { background: var(--qm-cream-200); }
+.qm-search-result__word { font-family: var(--qm-font-arabic); font-size: 1.1rem; direction: rtl; }
+.qm-search-result__meta { font-size: var(--qm-fs-xs); color: var(--qm-ink-500); white-space: nowrap; }
+.qm-search-empty { padding: var(--qm-space-3); color: var(--qm-ink-500); font-size: var(--qm-fs-sm); }
+
+/* ---------------- Language switcher ---------------- */
+/* Appears in the dark sidebar footer (desktop/tablet, "EN | BM") and in the
+   dark mobile top bar (mobile, "EN / BM"). A language choice, not a country
+   choice — no flags, just clear active/inactive text state. */
+.qm-lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--qm-space-2);
+  margin-bottom: var(--qm-space-3);
+}
+.qm-lang-switch__btn {
+  background: none;
+  border: none;
+  padding: var(--qm-space-1, 4px) 2px;
+  min-height: 32px;
+  font-size: var(--qm-fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(250, 245, 234, 0.55);
+  cursor: pointer;
+}
+.qm-lang-switch__btn:hover { color: var(--qm-cream-50); }
+.qm-lang-switch__btn.is-active {
+  color: var(--qm-gold-300);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.qm-lang-switch__sep { color: rgba(250, 245, 234, 0.35); font-size: var(--qm-fs-xs); }
+
+.qm-lang-switch--mobile { margin-bottom: 0; }
+
+/* ---------------- Cards ---------------- */
+.qm-card {
+  background: var(--qm-cream-100);
+  border: 1px solid var(--qm-border);
+  border-radius: var(--qm-radius-lg);
+  padding: var(--qm-space-4);
+  box-shadow: var(--qm-shadow-sm);
+}
+
+.qm-card--interactive {
+  transition: box-shadow var(--qm-duration-base) var(--qm-ease), border-color var(--qm-duration-base) var(--qm-ease), transform var(--qm-duration-base) var(--qm-ease);
+  cursor: pointer;
+}
+.qm-card--interactive:hover, .qm-card--interactive:focus-visible {
+  box-shadow: var(--qm-shadow-md);
+  border-color: var(--qm-gold-300);
+  transform: translateY(-1px);
+}
+
+/* Juz card */
+.qm-juz-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--qm-space-2);
+  min-height: 108px;
+  text-align: start;
+  background: var(--qm-cream-100);
+}
+.qm-juz-card[disabled], .qm-juz-card.is-unavailable {
+  opacity: 0.55;
+  cursor: default;
+  box-shadow: none;
+}
+.qm-juz-card.is-unavailable:hover { transform: none; box-shadow: none; border-color: var(--qm-border); }
+.qm-juz-card__number {
+  font-family: var(--qm-font-heading);
+  font-size: var(--qm-fs-2xl);
+  color: var(--qm-green-900);
+}
+.qm-juz-card__ar { font-family: var(--qm-font-arabic); direction: rtl; font-size: var(--qm-fs-lg); color: var(--qm-ink-700); }
+
+/* Surah card */
+.qm-surah-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--qm-space-4);
+  width: 100%;
+  text-align: start;
+}
+.qm-surah-card__num {
+  width: 36px; height: 36px;
+  border: 1px solid var(--qm-gold-500);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: var(--qm-fs-sm);
+  color: var(--qm-gold-700);
+  flex-shrink: 0;
+}
+.qm-surah-card__names { flex: 1; min-width: 0; }
+.qm-surah-card__ar { font-family: var(--qm-font-arabic); direction: rtl; font-size: var(--qm-fs-lg); }
+.qm-surah-card__en { font-size: var(--qm-fs-sm); color: var(--qm-ink-500); }
+.qm-surah-card__meta { font-size: var(--qm-fs-xs); color: var(--qm-ink-500); white-space: nowrap; }
+
+/* Root / Lemma list cards */
+.qm-rootlemma-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--qm-space-3);
+  width: 100%;
+  text-align: start;
+}
+.qm-rootlemma-card__ar { font-family: var(--qm-font-arabic); direction: rtl; font-size: var(--qm-fs-xl); }
+.qm-rootlemma-card__gloss { font-size: var(--qm-fs-sm); color: var(--qm-ink-500); }
+
+/* ---------------- Empty / placeholder states ---------------- */
+.qm-empty-state {
+  border: 1px dashed var(--qm-border-strong);
+  border-radius: var(--qm-radius-lg);
+  padding: var(--qm-space-6) var(--qm-space-5);
+  text-align: center;
+  color: var(--qm-ink-500);
+  background: var(--qm-cream-200);
+}
+.qm-empty-state h3 { color: var(--qm-ink-700); margin-bottom: var(--qm-space-2); }
+
+.qm-demo-note {
+  display: flex;
+  gap: var(--qm-space-2);
+  align-items: flex-start;
+  background: var(--qm-demo-bg);
+  border: 1px solid var(--qm-demo-border);
+  color: var(--qm-demo-text);
+  border-radius: var(--qm-radius-md);
+  padding: var(--qm-space-3) var(--qm-space-4);
+  font-size: var(--qm-fs-sm);
+  margin-bottom: var(--qm-space-4);
+}
+
+/* ---------------- Filter chips ---------------- */
+.qm-filterbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--qm-space-2);
+  margin-bottom: var(--qm-space-4);
+}
+.qm-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: var(--qm-space-2) var(--qm-space-4);
+  border-radius: 999px;
+  border: 1px solid var(--qm-border-strong);
+  background: var(--qm-cream-50);
+  color: var(--qm-ink-700);
+  font-size: var(--qm-fs-sm);
+  font-weight: 500;
+  min-height: 40px;
+}
+.qm-chip:hover { border-color: var(--qm-gold-500); }
+.qm-chip.is-active {
+  background: var(--qm-green-900);
+  border-color: var(--qm-green-900);
+  color: var(--qm-cream-50);
+}
+.qm-chip__count { font-size: var(--qm-fs-xs); opacity: 0.75; }
+
+.qm-filter-select {
+  padding: var(--qm-space-2) var(--qm-space-3);
+  border-radius: var(--qm-radius-md);
+  border: 1px solid var(--qm-border-strong);
+  background: var(--qm-cream-50);
+  color: var(--qm-ink-700);
+  font-size: var(--qm-fs-sm);
+  min-height: 40px;
+}
+
+/* ---------------- Detail overlay (drawer/panel + modal scrim) ---------------- */
+.qm-detail-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: flex-end;
+}
+.qm-detail-overlay[hidden] { display: none; }
+
+.qm-detail-overlay__scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(14, 42, 32, 0.38);
+  animation: qm-fade-in var(--qm-duration-base) var(--qm-ease);
+}
+
+.qm-detail-panel {
+  position: relative;
+  background: var(--qm-cream-50);
+  width: min(460px, 100%);
+  height: 100%;
+  overflow-y: auto;
+  padding: var(--qm-space-6) var(--qm-space-5) var(--qm-space-7);
+  box-shadow: var(--qm-shadow-lg);
+  animation: qm-slide-in-end var(--qm-duration-base) var(--qm-ease);
+}
+
+.qm-detail-panel__close {
+  position: absolute;
+  top: var(--qm-space-4);
+  inset-inline-end: var(--qm-space-4);
+  background: var(--qm-cream-200);
+  border: 1px solid var(--qm-border);
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--qm-ink-700);
+}
+.qm-detail-panel__close:hover { background: var(--qm-border); }
+
+@keyframes qm-fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes qm-slide-in-end { from { transform: translateX(16px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .qm-detail-overlay__scrim, .qm-detail-panel { animation: none; }
+}
+
+/* ---------------- Expandable section (progressive disclosure) ---------------- */
+.qm-expand {
+  border: 1px solid var(--qm-border);
+  border-radius: var(--qm-radius-md);
+  margin-bottom: var(--qm-space-3);
+  overflow: hidden;
+  background: var(--qm-cream-100);
+}
+.qm-expand__trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--qm-space-3) var(--qm-space-4);
+  background: none;
+  border: none;
+  font-weight: 600;
+  color: var(--qm-green-900);
+  font-size: var(--qm-fs-sm);
+  min-height: 48px;
+}
+.qm-expand__trigger:hover { background: var(--qm-cream-200); }
+.qm-expand__icon { transition: transform var(--qm-duration-base) var(--qm-ease); color: var(--qm-gold-700); }
+.qm-expand.is-open .qm-expand__icon { transform: rotate(180deg); }
+.qm-expand__body {
+  padding: 0 var(--qm-space-4) var(--qm-space-4);
+  display: none;
+}
+.qm-expand.is-open .qm-expand__body { display: block; }
+
+/* ---------------- Field list (label/value rows inside the detail panel) ---------------- */
+.qm-fieldlist { display: grid; grid-template-columns: auto 1fr; gap: var(--qm-space-2) var(--qm-space-4); font-size: var(--qm-fs-sm); }
+.qm-fieldlist dt { color: var(--qm-ink-500); }
+.qm-fieldlist dd { margin: 0; color: var(--qm-ink-900); font-weight: 500; }
+.qm-fieldlist dd[dir="rtl"], .qm-fieldlist .qm-arabic { font-family: var(--qm-font-arabic); }
+
+/* ---------------- Pagination / "view more" ---------------- */
+.qm-loadmore { display: flex; justify-content: center; margin-top: var(--qm-space-5); }

@@ -1,0 +1,97 @@
+/* ==========================================================================
+   QURRA Mufradat al-Qur'an — Design tokens
+   The QURRA visual identity: deep forest green, warm cream, muted gold.
+   Premium Islamic-scholarly / editorial feel. Kept separate from base.css
+   so the whole palette/type scale can be tuned from one file.
+   ========================================================================== */
+
+:root {
+  /* ---- Color: core palette ---- */
+  --qm-green-900: #0e2a20;   /* deep forest green — primary surfaces, sidebar */
+  --qm-green-700: #1c4634;   /* hover/active states on green surfaces */
+  --qm-green-600: #24543f;
+  --qm-green-100: #e7efe9;   /* faint green tint for selected/active chips */
+
+  --qm-cream-50:  #fffdf8;   /* page background */
+  --qm-cream-100: #faf5ea;   /* card background */
+  --qm-cream-200: #f3ead6;   /* subtle section background */
+
+  --qm-gold-300:  #e2c88a;
+  --qm-gold-500:  #b4883a;   /* muted gold — accents, active underline */
+  --qm-gold-700:  #8f6a28;   /* gold text-on-light, hover */
+
+  --qm-ink-900:   #201d16;   /* primary text */
+  --qm-ink-700:   #4a473d;   /* secondary text */
+  --qm-ink-500:   #726d5e;   /* tertiary / muted text */
+
+  --qm-border:    #e6dcc3;   /* thin borders throughout */
+  --qm-border-strong: #d8c9a3;
+
+  --qm-white:     #ffffff;
+
+  /* Semantic */
+  --qm-success: #3c6b4a;
+  --qm-info:    #35586f;
+  --qm-demo-bg: #fbf0da;
+  --qm-demo-border: #e3c680;
+  --qm-demo-text: #6b4f13;
+
+  /* ---- Part-of-speech accent colors (used sparingly, as thin left-borders / small tags, never as big blocks) ---- */
+  --qm-pos-ism:  #2f5d46;   /* noun — green family */
+  --qm-pos-fil:  #8a5a22;   /* verb — warm brown/gold family */
+  --qm-pos-harf: #4a4f73;  /* particle — muted indigo, kept restrained */
+
+  /* ---- Typography ---- */
+  --qm-font-ui: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --qm-font-heading: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --qm-font-arabic: "Amiri", "Scheherazade New", "Traditional Arabic", serif;
+
+  --qm-fs-xs: 0.75rem;
+  --qm-fs-sm: 0.875rem;
+  --qm-fs-md: 1rem;
+  --qm-fs-lg: 1.125rem;
+  --qm-fs-xl: 1.375rem;
+  --qm-fs-2xl: 1.75rem;
+  --qm-fs-3xl: 2.25rem;
+
+  --qm-fs-arabic-md: 1.6rem;
+  --qm-fs-arabic-lg: 2.1rem;
+  --qm-fs-arabic-xl: 2.75rem;
+
+  /* ---- Spacing scale ---- */
+  --qm-space-1: 4px;
+  --qm-space-2: 8px;
+  --qm-space-3: 12px;
+  --qm-space-4: 16px;
+  --qm-space-5: 24px;
+  --qm-space-6: 32px;
+  --qm-space-7: 48px;
+  --qm-space-8: 64px;
+
+  /* ---- Radius / shadow / border ---- */
+  --qm-radius-sm: 6px;
+  --qm-radius-md: 10px;
+  --qm-radius-lg: 16px;
+  --qm-border-width: 1px;
+  --qm-shadow-sm: 0 1px 2px rgba(14, 42, 32, 0.06);
+  --qm-shadow-md: 0 4px 16px rgba(14, 42, 32, 0.08);
+  --qm-shadow-lg: 0 12px 32px rgba(14, 42, 32, 0.14);
+
+  /* ---- Layout ---- */
+  --qm-sidebar-width: 272px;
+  --qm-topbar-height: 56px;
+  --qm-bottomnav-height: 60px;
+  --qm-content-max-width: 920px;
+
+  /* ---- Motion ---- */
+  --qm-ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --qm-duration-fast: 120ms;
+  --qm-duration-base: 200ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --qm-duration-fast: 0ms;
+    --qm-duration-base: 0ms;
+  }
+}

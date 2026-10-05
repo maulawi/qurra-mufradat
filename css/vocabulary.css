@@ -1,0 +1,195 @@
+/* ==========================================================================
+   QURRA Mufradat al-Qur'an — Vocabulary-specific UI
+   The Qur'anic text reading experience, word tokens, segmentation
+   breakdown, and the word-detail content itself.
+   ========================================================================== */
+
+/* ---------------- Home hero ---------------- */
+.qm-hero {
+  text-align: center;
+  padding: var(--qm-space-7) var(--qm-space-4) var(--qm-space-6);
+  border-radius: var(--qm-radius-lg);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(180, 136, 58, 0.10), transparent 60%),
+    var(--qm-green-900);
+  color: var(--qm-cream-50);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: var(--qm-space-6);
+}
+.qm-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(45deg, rgba(226,200,138,0.05) 0 2px, transparent 2px 28px),
+    repeating-linear-gradient(-45deg, rgba(226,200,138,0.05) 0 2px, transparent 2px 28px);
+  pointer-events: none;
+}
+.qm-hero__content { position: relative; max-width: 560px; margin: 0 auto; }
+.qm-hero__arabic {
+  font-family: var(--qm-font-arabic);
+  font-size: var(--qm-fs-arabic-xl);
+  direction: rtl;
+  color: var(--qm-gold-300);
+  margin-bottom: var(--qm-space-2);
+}
+.qm-hero__tagline {
+  font-family: var(--qm-font-heading);
+  font-size: var(--qm-fs-xl);
+  color: var(--qm-cream-50);
+  margin-bottom: var(--qm-space-3);
+}
+.qm-hero__desc { color: rgba(250,245,234,0.82); margin-bottom: var(--qm-space-5); }
+.qm-hero__actions { display: flex; justify-content: center; gap: var(--qm-space-3); flex-wrap: wrap; }
+.qm-hero .qm-btn--secondary { color: var(--qm-cream-50); border-color: rgba(250,245,234,0.4); }
+.qm-hero .qm-btn--secondary:hover { border-color: var(--qm-gold-300); color: var(--qm-gold-300); }
+
+/* ---------------- Ayah block (Surah/Ayah screen) ---------------- */
+.qm-ayah {
+  padding: var(--qm-space-5) 0;
+  border-bottom: 1px solid var(--qm-border);
+}
+.qm-ayah:last-child { border-bottom: none; }
+
+.qm-ayah__marker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px; height: 28px;
+  border: 1px solid var(--qm-gold-500);
+  border-radius: 50%;
+  font-size: var(--qm-fs-xs);
+  color: var(--qm-gold-700);
+  margin-inline-start: var(--qm-space-2);
+  vertical-align: middle;
+}
+
+.qm-ayah__text {
+  direction: rtl;
+  font-family: var(--qm-font-arabic);
+  font-size: var(--qm-fs-arabic-lg);
+  line-height: 2.3;
+  color: var(--qm-ink-900);
+  text-align: justify;
+}
+
+.qm-word {
+  display: inline-block;
+  padding: 2px 4px;
+  margin: 0 1px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background var(--qm-duration-fast) var(--qm-ease), opacity var(--qm-duration-fast) var(--qm-ease);
+  border-bottom: 2px solid transparent;
+  background: none;
+  border-top: none;
+  border-inline: none;
+  font: inherit;
+  color: inherit;
+}
+.qm-word--dimmed { opacity: 0.4; }
+.qm-word--match { background: var(--qm-green-100); border-bottom-color: var(--qm-gold-500); }
+.qm-word:hover, .qm-word:focus-visible {
+  background: var(--qm-green-100);
+  border-bottom-color: var(--qm-gold-500);
+}
+.qm-word.is-selected {
+  background: var(--qm-green-100);
+  border-bottom-color: var(--qm-gold-500);
+}
+.qm-word--not-tokenized {
+  cursor: default;
+}
+.qm-word--not-tokenized:hover { background: none; border-bottom-color: transparent; }
+
+/* Pos-aware thin underline shown only once a word has been explored (Explore mode), never a default rainbow */
+.qm-word[data-pos="ism"].is-selected  { border-bottom-color: var(--qm-pos-ism); }
+.qm-word[data-pos="fiʿl"].is-selected { border-bottom-color: var(--qm-pos-fil); }
+.qm-word[data-pos="harf"].is-selected { border-bottom-color: var(--qm-pos-harf); }
+
+.qm-ayah__translation-toggle {
+  margin-top: var(--qm-space-2);
+}
+
+/* ---------------- Word detail content ---------------- */
+.qm-worddetail__header { margin-bottom: var(--qm-space-4); }
+.qm-worddetail__surface {
+  font-family: var(--qm-font-arabic);
+  font-size: var(--qm-fs-arabic-xl);
+  direction: rtl;
+  color: var(--qm-green-900);
+  margin-bottom: var(--qm-space-2);
+}
+.qm-worddetail__gloss { font-size: var(--qm-fs-lg); color: var(--qm-ink-700); margin-bottom: var(--qm-space-2); }
+.qm-worddetail__location { font-size: var(--qm-fs-xs); color: var(--qm-ink-500); }
+.qm-worddetail__location a { text-decoration: underline; }
+
+.qm-worddetail__tags { display: flex; gap: var(--qm-space-2); margin: var(--qm-space-3) 0; flex-wrap: wrap; }
+
+/* Segmentation breakdown */
+.qm-breakdown {
+  display: flex;
+  align-items: stretch;
+  gap: var(--qm-space-2);
+  flex-wrap: wrap;
+  margin: var(--qm-space-3) 0;
+}
+.qm-segment {
+  border: 1px solid var(--qm-border-strong);
+  border-radius: var(--qm-radius-md);
+  padding: var(--qm-space-2) var(--qm-space-3);
+  text-align: center;
+  background: var(--qm-cream-50);
+  min-width: 64px;
+}
+.qm-segment--stem { background: var(--qm-green-100); border-color: var(--qm-pos-ism); }
+.qm-segment--proclitic, .qm-segment--enclitic { background: var(--qm-cream-200); }
+.qm-segment__surface { font-family: var(--qm-font-arabic); direction: rtl; font-size: var(--qm-fs-lg); display: block; }
+.qm-segment__label { font-size: 0.65rem; color: var(--qm-ink-500); text-transform: uppercase; letter-spacing: 0.04em; display: block; margin-top: 2px; }
+.qm-segment__plus { align-self: center; color: var(--qm-ink-500); }
+
+/* Conjugation triplet */
+.qm-conjugation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--qm-space-2);
+  margin: var(--qm-space-2) 0;
+}
+.qm-conjugation__cell {
+  text-align: center;
+  padding: var(--qm-space-2);
+  background: var(--qm-cream-200);
+  border-radius: var(--qm-radius-sm);
+}
+.qm-conjugation__word { font-family: var(--qm-font-arabic); direction: rtl; font-size: var(--qm-fs-lg); }
+.qm-conjugation__label { font-size: var(--qm-fs-xs); color: var(--qm-ink-500); display: block; }
+
+.qm-worddetail__links { display: flex; flex-wrap: wrap; gap: var(--qm-space-2); margin-top: var(--qm-space-4); }
+
+/* ---------------- Root / Lemma detail pages ---------------- */
+.qm-headword {
+  text-align: center;
+  padding: var(--qm-space-6) var(--qm-space-4);
+  margin-bottom: var(--qm-space-5);
+}
+.qm-headword__arabic {
+  font-family: var(--qm-font-arabic);
+  direction: rtl;
+  font-size: var(--qm-fs-arabic-xl);
+  color: var(--qm-green-900);
+  letter-spacing: 0.15em;
+}
+.qm-headword__gloss { color: var(--qm-ink-700); margin-top: var(--qm-space-2); }
+
+.qm-occurrence-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--qm-space-3);
+  padding: var(--qm-space-3) 0;
+  border-bottom: 1px solid var(--qm-border);
+}
+.qm-occurrence-row:last-child { border-bottom: none; }
+.qm-occurrence-row__word { font-family: var(--qm-font-arabic); direction: rtl; font-size: var(--qm-fs-lg); }
+.qm-occurrence-row__ref { font-size: var(--qm-fs-xs); color: var(--qm-ink-500); white-space: nowrap; }
