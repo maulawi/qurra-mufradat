@@ -6,6 +6,9 @@
 <title>QURRA Mufradat al-Qur'an — Qur'anic Vocabulary Explorer</title>
 <meta name="description" content="Explore the vocabulary of the Qur'an systematically — Juz by Juz, Surah by Ayah, word by word. A QURRA product prototype." />
 
+<!-- Favicon: the sidebar's ق brand mark, inline (no extra request, no external service) -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e2a20'/%3E%3Crect x='3' y='3' width='58' height='58' rx='11' fill='none' stroke='%23b4883a' stroke-width='2'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%23e2c88a' font-family='Amiri,Traditional Arabic,serif'%3E%26%231602%3B%3C/text%3E%3C/svg%3E" />
+
 <!-- Fonts: Inter (UI), Cormorant Garamond (headings), Amiri (Qur'anic Arabic) -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -94,6 +97,9 @@
   <!-- ===================== Main content ===================== -->
   <main id="qm-main" class="qm-main" tabindex="-1">
     <div id="qm-view" class="qm-view"></div>
+    <footer class="qm-attribution">
+      <a href="https://tanzil.net" target="_blank" rel="noopener noreferrer" data-i18n="status.attribution">Qur'anic text: Tanzil Project (tanzil.net), Creative Commons Attribution 3.0.</a>
+    </footer>
   </main>
 
   <!-- ===================== Mobile bottom navigation ===================== -->
@@ -109,6 +115,9 @@
     </a>
     <a href="#/roots" class="qm-bottomnav__link" data-route-link data-nav="roots">
       <span class="qm-nav-icon" aria-hidden="true">⟨⟩</span><span data-i18n="nav.roots">Roots</span>
+    </a>
+    <a href="#/lemmas" class="qm-bottomnav__link" data-route-link data-nav="lemmas">
+      <span class="qm-nav-icon" aria-hidden="true">⌘</span><span data-i18n="nav.lemmas">Lemmas</span>
     </a>
   </nav>
 
@@ -127,7 +136,9 @@
 <script src="js/translations/ms.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/state.js"></script>
-<script src="js/demoData.js"></script>
+<script src="js/normalize.js"></script>
+<script src="js/generated/dataset.js"></script>
+<script src="js/generated/search-index.js"></script>
 <script src="js/data.js"></script>
 <script src="js/filters.js"></script>
 <script src="js/wordDetail.js"></script>

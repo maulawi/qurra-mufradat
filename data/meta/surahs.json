@@ -1,0 +1,1719 @@
+{
+  "_notice": [
+    "// Quran Metadata (ver 1.0) ",
+    "// Copyright (C) 2008-2009 Tanzil.info",
+    "// License: Creative Commons Attribution 3.0"
+  ],
+  "surahs": [
+    {
+      "surah_id": "s001",
+      "number": 1,
+      "name_ar": "الفاتحة",
+      "name_en": "Al-Faatiha",
+      "name_ms": null,
+      "meaning_en": "The Opening",
+      "ayah_count": 7,
+      "revelation": "Meccan",
+      "revelation_order": 5,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s002",
+      "number": 2,
+      "name_ar": "البقرة",
+      "name_en": "Al-Baqara",
+      "name_ms": null,
+      "meaning_en": "The Cow",
+      "ayah_count": 286,
+      "revelation": "Medinan",
+      "revelation_order": 87,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s003",
+      "number": 3,
+      "name_ar": "آل عمران",
+      "name_en": "Aal-i-Imraan",
+      "name_ms": null,
+      "meaning_en": "The Family of Imraan",
+      "ayah_count": 200,
+      "revelation": "Medinan",
+      "revelation_order": 89,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s004",
+      "number": 4,
+      "name_ar": "النساء",
+      "name_en": "An-Nisaa",
+      "name_ms": null,
+      "meaning_en": "The Women",
+      "ayah_count": 176,
+      "revelation": "Medinan",
+      "revelation_order": 92,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s005",
+      "number": 5,
+      "name_ar": "المائدة",
+      "name_en": "Al-Maaida",
+      "name_ms": null,
+      "meaning_en": "The Table",
+      "ayah_count": 120,
+      "revelation": "Medinan",
+      "revelation_order": 112,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s006",
+      "number": 6,
+      "name_ar": "الأنعام",
+      "name_en": "Al-An'aam",
+      "name_ms": null,
+      "meaning_en": "The Cattle",
+      "ayah_count": 165,
+      "revelation": "Meccan",
+      "revelation_order": 55,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s007",
+      "number": 7,
+      "name_ar": "الأعراف",
+      "name_en": "Al-A'raaf",
+      "name_ms": null,
+      "meaning_en": "The Heights",
+      "ayah_count": 206,
+      "revelation": "Meccan",
+      "revelation_order": 39,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s008",
+      "number": 8,
+      "name_ar": "الأنفال",
+      "name_en": "Al-Anfaal",
+      "name_ms": null,
+      "meaning_en": "The Spoils of War",
+      "ayah_count": 75,
+      "revelation": "Medinan",
+      "revelation_order": 88,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s009",
+      "number": 9,
+      "name_ar": "التوبة",
+      "name_en": "At-Tawba",
+      "name_ms": null,
+      "meaning_en": "The Repentance",
+      "ayah_count": 129,
+      "revelation": "Medinan",
+      "revelation_order": 113,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s010",
+      "number": 10,
+      "name_ar": "يونس",
+      "name_en": "Yunus",
+      "name_ms": null,
+      "meaning_en": "Jonas",
+      "ayah_count": 109,
+      "revelation": "Meccan",
+      "revelation_order": 51,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s011",
+      "number": 11,
+      "name_ar": "هود",
+      "name_en": "Hud",
+      "name_ms": null,
+      "meaning_en": "Hud",
+      "ayah_count": 123,
+      "revelation": "Meccan",
+      "revelation_order": 52,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s012",
+      "number": 12,
+      "name_ar": "يوسف",
+      "name_en": "Yusuf",
+      "name_ms": null,
+      "meaning_en": "Joseph",
+      "ayah_count": 111,
+      "revelation": "Meccan",
+      "revelation_order": 53,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s013",
+      "number": 13,
+      "name_ar": "الرعد",
+      "name_en": "Ar-Ra'd",
+      "name_ms": null,
+      "meaning_en": "The Thunder",
+      "ayah_count": 43,
+      "revelation": "Medinan",
+      "revelation_order": 96,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s014",
+      "number": 14,
+      "name_ar": "ابراهيم",
+      "name_en": "Ibrahim",
+      "name_ms": null,
+      "meaning_en": "Abraham",
+      "ayah_count": 52,
+      "revelation": "Meccan",
+      "revelation_order": 72,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s015",
+      "number": 15,
+      "name_ar": "الحجر",
+      "name_en": "Al-Hijr",
+      "name_ms": null,
+      "meaning_en": "The Rock",
+      "ayah_count": 99,
+      "revelation": "Meccan",
+      "revelation_order": 54,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s016",
+      "number": 16,
+      "name_ar": "النحل",
+      "name_en": "An-Nahl",
+      "name_ms": null,
+      "meaning_en": "The Bee",
+      "ayah_count": 128,
+      "revelation": "Meccan",
+      "revelation_order": 70,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s017",
+      "number": 17,
+      "name_ar": "الإسراء",
+      "name_en": "Al-Israa",
+      "name_ms": null,
+      "meaning_en": "The Night Journey",
+      "ayah_count": 111,
+      "revelation": "Meccan",
+      "revelation_order": 50,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s018",
+      "number": 18,
+      "name_ar": "الكهف",
+      "name_en": "Al-Kahf",
+      "name_ms": null,
+      "meaning_en": "The Cave",
+      "ayah_count": 110,
+      "revelation": "Meccan",
+      "revelation_order": 69,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s019",
+      "number": 19,
+      "name_ar": "مريم",
+      "name_en": "Maryam",
+      "name_ms": null,
+      "meaning_en": "Mary",
+      "ayah_count": 98,
+      "revelation": "Meccan",
+      "revelation_order": 44,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s020",
+      "number": 20,
+      "name_ar": "طه",
+      "name_en": "Taa-Haa",
+      "name_ms": null,
+      "meaning_en": "Taa-Haa",
+      "ayah_count": 135,
+      "revelation": "Meccan",
+      "revelation_order": 45,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s021",
+      "number": 21,
+      "name_ar": "الأنبياء",
+      "name_en": "Al-Anbiyaa",
+      "name_ms": null,
+      "meaning_en": "The Prophets",
+      "ayah_count": 112,
+      "revelation": "Meccan",
+      "revelation_order": 73,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s022",
+      "number": 22,
+      "name_ar": "الحج",
+      "name_en": "Al-Hajj",
+      "name_ms": null,
+      "meaning_en": "The Pilgrimage",
+      "ayah_count": 78,
+      "revelation": "Medinan",
+      "revelation_order": 103,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s023",
+      "number": 23,
+      "name_ar": "المؤمنون",
+      "name_en": "Al-Muminoon",
+      "name_ms": null,
+      "meaning_en": "The Believers",
+      "ayah_count": 118,
+      "revelation": "Meccan",
+      "revelation_order": 74,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s024",
+      "number": 24,
+      "name_ar": "النور",
+      "name_en": "An-Noor",
+      "name_ms": null,
+      "meaning_en": "The Light",
+      "ayah_count": 64,
+      "revelation": "Medinan",
+      "revelation_order": 102,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s025",
+      "number": 25,
+      "name_ar": "الفرقان",
+      "name_en": "Al-Furqaan",
+      "name_ms": null,
+      "meaning_en": "The Criterion",
+      "ayah_count": 77,
+      "revelation": "Meccan",
+      "revelation_order": 42,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s026",
+      "number": 26,
+      "name_ar": "الشعراء",
+      "name_en": "Ash-Shu'araa",
+      "name_ms": null,
+      "meaning_en": "The Poets",
+      "ayah_count": 227,
+      "revelation": "Meccan",
+      "revelation_order": 47,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s027",
+      "number": 27,
+      "name_ar": "النمل",
+      "name_en": "An-Naml",
+      "name_ms": null,
+      "meaning_en": "The Ant",
+      "ayah_count": 93,
+      "revelation": "Meccan",
+      "revelation_order": 48,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s028",
+      "number": 28,
+      "name_ar": "القصص",
+      "name_en": "Al-Qasas",
+      "name_ms": null,
+      "meaning_en": "The Stories",
+      "ayah_count": 88,
+      "revelation": "Meccan",
+      "revelation_order": 49,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s029",
+      "number": 29,
+      "name_ar": "العنكبوت",
+      "name_en": "Al-Ankaboot",
+      "name_ms": null,
+      "meaning_en": "The Spider",
+      "ayah_count": 69,
+      "revelation": "Meccan",
+      "revelation_order": 85,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s030",
+      "number": 30,
+      "name_ar": "الروم",
+      "name_en": "Ar-Room",
+      "name_ms": null,
+      "meaning_en": "The Romans",
+      "ayah_count": 60,
+      "revelation": "Meccan",
+      "revelation_order": 84,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s031",
+      "number": 31,
+      "name_ar": "لقمان",
+      "name_en": "Luqman",
+      "name_ms": null,
+      "meaning_en": "Luqman",
+      "ayah_count": 34,
+      "revelation": "Meccan",
+      "revelation_order": 57,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s032",
+      "number": 32,
+      "name_ar": "السجدة",
+      "name_en": "As-Sajda",
+      "name_ms": null,
+      "meaning_en": "The Prostration",
+      "ayah_count": 30,
+      "revelation": "Meccan",
+      "revelation_order": 75,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s033",
+      "number": 33,
+      "name_ar": "الأحزاب",
+      "name_en": "Al-Ahzaab",
+      "name_ms": null,
+      "meaning_en": "The Clans",
+      "ayah_count": 73,
+      "revelation": "Medinan",
+      "revelation_order": 90,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s034",
+      "number": 34,
+      "name_ar": "سبإ",
+      "name_en": "Saba",
+      "name_ms": null,
+      "meaning_en": "Sheba",
+      "ayah_count": 54,
+      "revelation": "Meccan",
+      "revelation_order": 58,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s035",
+      "number": 35,
+      "name_ar": "فاطر",
+      "name_en": "Faatir",
+      "name_ms": null,
+      "meaning_en": "The Originator",
+      "ayah_count": 45,
+      "revelation": "Meccan",
+      "revelation_order": 43,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s036",
+      "number": 36,
+      "name_ar": "يس",
+      "name_en": "Yaseen",
+      "name_ms": null,
+      "meaning_en": "Yaseen",
+      "ayah_count": 83,
+      "revelation": "Meccan",
+      "revelation_order": 41,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s037",
+      "number": 37,
+      "name_ar": "الصافات",
+      "name_en": "As-Saaffaat",
+      "name_ms": null,
+      "meaning_en": "Those drawn up in Ranks",
+      "ayah_count": 182,
+      "revelation": "Meccan",
+      "revelation_order": 56,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s038",
+      "number": 38,
+      "name_ar": "ص",
+      "name_en": "Saad",
+      "name_ms": null,
+      "meaning_en": "The letter Saad",
+      "ayah_count": 88,
+      "revelation": "Meccan",
+      "revelation_order": 38,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s039",
+      "number": 39,
+      "name_ar": "الزمر",
+      "name_en": "Az-Zumar",
+      "name_ms": null,
+      "meaning_en": "The Groups",
+      "ayah_count": 75,
+      "revelation": "Meccan",
+      "revelation_order": 59,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s040",
+      "number": 40,
+      "name_ar": "غافر",
+      "name_en": "Al-Ghaafir",
+      "name_ms": null,
+      "meaning_en": "The Forgiver",
+      "ayah_count": 85,
+      "revelation": "Meccan",
+      "revelation_order": 60,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s041",
+      "number": 41,
+      "name_ar": "فصلت",
+      "name_en": "Fussilat",
+      "name_ms": null,
+      "meaning_en": "Explained in detail",
+      "ayah_count": 54,
+      "revelation": "Meccan",
+      "revelation_order": 61,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s042",
+      "number": 42,
+      "name_ar": "الشورى",
+      "name_en": "Ash-Shura",
+      "name_ms": null,
+      "meaning_en": "Consultation",
+      "ayah_count": 53,
+      "revelation": "Meccan",
+      "revelation_order": 62,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s043",
+      "number": 43,
+      "name_ar": "الزخرف",
+      "name_en": "Az-Zukhruf",
+      "name_ms": null,
+      "meaning_en": "Ornaments of gold",
+      "ayah_count": 89,
+      "revelation": "Meccan",
+      "revelation_order": 63,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s044",
+      "number": 44,
+      "name_ar": "الدخان",
+      "name_en": "Ad-Dukhaan",
+      "name_ms": null,
+      "meaning_en": "The Smoke",
+      "ayah_count": 59,
+      "revelation": "Meccan",
+      "revelation_order": 64,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s045",
+      "number": 45,
+      "name_ar": "الجاثية",
+      "name_en": "Al-Jaathiya",
+      "name_ms": null,
+      "meaning_en": "Crouching",
+      "ayah_count": 37,
+      "revelation": "Meccan",
+      "revelation_order": 65,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s046",
+      "number": 46,
+      "name_ar": "الأحقاف",
+      "name_en": "Al-Ahqaf",
+      "name_ms": null,
+      "meaning_en": "The Dunes",
+      "ayah_count": 35,
+      "revelation": "Meccan",
+      "revelation_order": 66,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s047",
+      "number": 47,
+      "name_ar": "محمد",
+      "name_en": "Muhammad",
+      "name_ms": null,
+      "meaning_en": "Muhammad",
+      "ayah_count": 38,
+      "revelation": "Medinan",
+      "revelation_order": 95,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s048",
+      "number": 48,
+      "name_ar": "الفتح",
+      "name_en": "Al-Fath",
+      "name_ms": null,
+      "meaning_en": "The Victory",
+      "ayah_count": 29,
+      "revelation": "Medinan",
+      "revelation_order": 111,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s049",
+      "number": 49,
+      "name_ar": "الحجرات",
+      "name_en": "Al-Hujuraat",
+      "name_ms": null,
+      "meaning_en": "The Inner Apartments",
+      "ayah_count": 18,
+      "revelation": "Medinan",
+      "revelation_order": 106,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s050",
+      "number": 50,
+      "name_ar": "ق",
+      "name_en": "Qaaf",
+      "name_ms": null,
+      "meaning_en": "The letter Qaaf",
+      "ayah_count": 45,
+      "revelation": "Meccan",
+      "revelation_order": 34,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s051",
+      "number": 51,
+      "name_ar": "الذاريات",
+      "name_en": "Adh-Dhaariyat",
+      "name_ms": null,
+      "meaning_en": "The Winnowing Winds",
+      "ayah_count": 60,
+      "revelation": "Meccan",
+      "revelation_order": 67,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s052",
+      "number": 52,
+      "name_ar": "الطور",
+      "name_en": "At-Tur",
+      "name_ms": null,
+      "meaning_en": "The Mount",
+      "ayah_count": 49,
+      "revelation": "Meccan",
+      "revelation_order": 76,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s053",
+      "number": 53,
+      "name_ar": "النجم",
+      "name_en": "An-Najm",
+      "name_ms": null,
+      "meaning_en": "The Star",
+      "ayah_count": 62,
+      "revelation": "Meccan",
+      "revelation_order": 23,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s054",
+      "number": 54,
+      "name_ar": "القمر",
+      "name_en": "Al-Qamar",
+      "name_ms": null,
+      "meaning_en": "The Moon",
+      "ayah_count": 55,
+      "revelation": "Meccan",
+      "revelation_order": 37,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s055",
+      "number": 55,
+      "name_ar": "الرحمن",
+      "name_en": "Ar-Rahmaan",
+      "name_ms": null,
+      "meaning_en": "The Beneficent",
+      "ayah_count": 78,
+      "revelation": "Medinan",
+      "revelation_order": 97,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s056",
+      "number": 56,
+      "name_ar": "الواقعة",
+      "name_en": "Al-Waaqia",
+      "name_ms": null,
+      "meaning_en": "The Inevitable",
+      "ayah_count": 96,
+      "revelation": "Meccan",
+      "revelation_order": 46,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s057",
+      "number": 57,
+      "name_ar": "الحديد",
+      "name_en": "Al-Hadid",
+      "name_ms": null,
+      "meaning_en": "The Iron",
+      "ayah_count": 29,
+      "revelation": "Medinan",
+      "revelation_order": 94,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s058",
+      "number": 58,
+      "name_ar": "المجادلة",
+      "name_en": "Al-Mujaadila",
+      "name_ms": null,
+      "meaning_en": "The Pleading Woman",
+      "ayah_count": 22,
+      "revelation": "Medinan",
+      "revelation_order": 105,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s059",
+      "number": 59,
+      "name_ar": "الحشر",
+      "name_en": "Al-Hashr",
+      "name_ms": null,
+      "meaning_en": "The Exile",
+      "ayah_count": 24,
+      "revelation": "Medinan",
+      "revelation_order": 101,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s060",
+      "number": 60,
+      "name_ar": "الممتحنة",
+      "name_en": "Al-Mumtahana",
+      "name_ms": null,
+      "meaning_en": "She that is to be examined",
+      "ayah_count": 13,
+      "revelation": "Medinan",
+      "revelation_order": 91,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s061",
+      "number": 61,
+      "name_ar": "الصف",
+      "name_en": "As-Saff",
+      "name_ms": null,
+      "meaning_en": "The Ranks",
+      "ayah_count": 14,
+      "revelation": "Medinan",
+      "revelation_order": 109,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s062",
+      "number": 62,
+      "name_ar": "الجمعة",
+      "name_en": "Al-Jumu'a",
+      "name_ms": null,
+      "meaning_en": "Friday",
+      "ayah_count": 11,
+      "revelation": "Medinan",
+      "revelation_order": 110,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s063",
+      "number": 63,
+      "name_ar": "المنافقون",
+      "name_en": "Al-Munaafiqoon",
+      "name_ms": null,
+      "meaning_en": "The Hypocrites",
+      "ayah_count": 11,
+      "revelation": "Medinan",
+      "revelation_order": 104,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s064",
+      "number": 64,
+      "name_ar": "التغابن",
+      "name_en": "At-Taghaabun",
+      "name_ms": null,
+      "meaning_en": "Mutual Disillusion",
+      "ayah_count": 18,
+      "revelation": "Medinan",
+      "revelation_order": 108,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s065",
+      "number": 65,
+      "name_ar": "الطلاق",
+      "name_en": "At-Talaaq",
+      "name_ms": null,
+      "meaning_en": "Divorce",
+      "ayah_count": 12,
+      "revelation": "Medinan",
+      "revelation_order": 99,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s066",
+      "number": 66,
+      "name_ar": "التحريم",
+      "name_en": "At-Tahrim",
+      "name_ms": null,
+      "meaning_en": "The Prohibition",
+      "ayah_count": 12,
+      "revelation": "Medinan",
+      "revelation_order": 107,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s067",
+      "number": 67,
+      "name_ar": "الملك",
+      "name_en": "Al-Mulk",
+      "name_ms": null,
+      "meaning_en": "The Sovereignty",
+      "ayah_count": 30,
+      "revelation": "Meccan",
+      "revelation_order": 77,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s068",
+      "number": 68,
+      "name_ar": "القلم",
+      "name_en": "Al-Qalam",
+      "name_ms": null,
+      "meaning_en": "The Pen",
+      "ayah_count": 52,
+      "revelation": "Meccan",
+      "revelation_order": 2,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s069",
+      "number": 69,
+      "name_ar": "الحاقة",
+      "name_en": "Al-Haaqqa",
+      "name_ms": null,
+      "meaning_en": "The Reality",
+      "ayah_count": 52,
+      "revelation": "Meccan",
+      "revelation_order": 78,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s070",
+      "number": 70,
+      "name_ar": "المعارج",
+      "name_en": "Al-Ma'aarij",
+      "name_ms": null,
+      "meaning_en": "The Ascending Stairways",
+      "ayah_count": 44,
+      "revelation": "Meccan",
+      "revelation_order": 79,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s071",
+      "number": 71,
+      "name_ar": "نوح",
+      "name_en": "Nooh",
+      "name_ms": null,
+      "meaning_en": "Noah",
+      "ayah_count": 28,
+      "revelation": "Meccan",
+      "revelation_order": 71,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s072",
+      "number": 72,
+      "name_ar": "الجن",
+      "name_en": "Al-Jinn",
+      "name_ms": null,
+      "meaning_en": "The Jinn",
+      "ayah_count": 28,
+      "revelation": "Meccan",
+      "revelation_order": 40,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s073",
+      "number": 73,
+      "name_ar": "المزمل",
+      "name_en": "Al-Muzzammil",
+      "name_ms": null,
+      "meaning_en": "The Enshrouded One",
+      "ayah_count": 20,
+      "revelation": "Meccan",
+      "revelation_order": 3,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s074",
+      "number": 74,
+      "name_ar": "المدثر",
+      "name_en": "Al-Muddaththir",
+      "name_ms": null,
+      "meaning_en": "The Cloaked One",
+      "ayah_count": 56,
+      "revelation": "Meccan",
+      "revelation_order": 4,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s075",
+      "number": 75,
+      "name_ar": "القيامة",
+      "name_en": "Al-Qiyaama",
+      "name_ms": null,
+      "meaning_en": "The Resurrection",
+      "ayah_count": 40,
+      "revelation": "Meccan",
+      "revelation_order": 31,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s076",
+      "number": 76,
+      "name_ar": "الانسان",
+      "name_en": "Al-Insaan",
+      "name_ms": null,
+      "meaning_en": "Man",
+      "ayah_count": 31,
+      "revelation": "Medinan",
+      "revelation_order": 98,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s077",
+      "number": 77,
+      "name_ar": "المرسلات",
+      "name_en": "Al-Mursalaat",
+      "name_ms": null,
+      "meaning_en": "The Emissaries",
+      "ayah_count": 50,
+      "revelation": "Meccan",
+      "revelation_order": 33,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s078",
+      "number": 78,
+      "name_ar": "النبإ",
+      "name_en": "An-Naba",
+      "name_ms": null,
+      "meaning_en": "The Announcement",
+      "ayah_count": 40,
+      "revelation": "Meccan",
+      "revelation_order": 80,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s079",
+      "number": 79,
+      "name_ar": "النازعات",
+      "name_en": "An-Naazi'aat",
+      "name_ms": null,
+      "meaning_en": "Those who drag forth",
+      "ayah_count": 46,
+      "revelation": "Meccan",
+      "revelation_order": 81,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s080",
+      "number": 80,
+      "name_ar": "عبس",
+      "name_en": "Abasa",
+      "name_ms": null,
+      "meaning_en": "He frowned",
+      "ayah_count": 42,
+      "revelation": "Meccan",
+      "revelation_order": 24,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s081",
+      "number": 81,
+      "name_ar": "التكوير",
+      "name_en": "At-Takwir",
+      "name_ms": null,
+      "meaning_en": "The Overthrowing",
+      "ayah_count": 29,
+      "revelation": "Meccan",
+      "revelation_order": 7,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s082",
+      "number": 82,
+      "name_ar": "الإنفطار",
+      "name_en": "Al-Infitaar",
+      "name_ms": null,
+      "meaning_en": "The Cleaving",
+      "ayah_count": 19,
+      "revelation": "Meccan",
+      "revelation_order": 82,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s083",
+      "number": 83,
+      "name_ar": "المطففين",
+      "name_en": "Al-Mutaffifin",
+      "name_ms": null,
+      "meaning_en": "Defrauding",
+      "ayah_count": 36,
+      "revelation": "Meccan",
+      "revelation_order": 86,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s084",
+      "number": 84,
+      "name_ar": "الإنشقاق",
+      "name_en": "Al-Inshiqaaq",
+      "name_ms": null,
+      "meaning_en": "The Splitting Open",
+      "ayah_count": 25,
+      "revelation": "Meccan",
+      "revelation_order": 83,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s085",
+      "number": 85,
+      "name_ar": "البروج",
+      "name_en": "Al-Burooj",
+      "name_ms": null,
+      "meaning_en": "The Constellations",
+      "ayah_count": 22,
+      "revelation": "Meccan",
+      "revelation_order": 27,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s086",
+      "number": 86,
+      "name_ar": "الطارق",
+      "name_en": "At-Taariq",
+      "name_ms": null,
+      "meaning_en": "The Morning Star",
+      "ayah_count": 17,
+      "revelation": "Meccan",
+      "revelation_order": 36,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s087",
+      "number": 87,
+      "name_ar": "الأعلى",
+      "name_en": "Al-A'laa",
+      "name_ms": null,
+      "meaning_en": "The Most High",
+      "ayah_count": 19,
+      "revelation": "Meccan",
+      "revelation_order": 8,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s088",
+      "number": 88,
+      "name_ar": "الغاشية",
+      "name_en": "Al-Ghaashiya",
+      "name_ms": null,
+      "meaning_en": "The Overwhelming",
+      "ayah_count": 26,
+      "revelation": "Meccan",
+      "revelation_order": 68,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s089",
+      "number": 89,
+      "name_ar": "الفجر",
+      "name_en": "Al-Fajr",
+      "name_ms": null,
+      "meaning_en": "The Dawn",
+      "ayah_count": 30,
+      "revelation": "Meccan",
+      "revelation_order": 10,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s090",
+      "number": 90,
+      "name_ar": "البلد",
+      "name_en": "Al-Balad",
+      "name_ms": null,
+      "meaning_en": "The City",
+      "ayah_count": 20,
+      "revelation": "Meccan",
+      "revelation_order": 35,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s091",
+      "number": 91,
+      "name_ar": "الشمس",
+      "name_en": "Ash-Shams",
+      "name_ms": null,
+      "meaning_en": "The Sun",
+      "ayah_count": 15,
+      "revelation": "Meccan",
+      "revelation_order": 26,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s092",
+      "number": 92,
+      "name_ar": "الليل",
+      "name_en": "Al-Lail",
+      "name_ms": null,
+      "meaning_en": "The Night",
+      "ayah_count": 21,
+      "revelation": "Meccan",
+      "revelation_order": 9,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s093",
+      "number": 93,
+      "name_ar": "الضحى",
+      "name_en": "Ad-Dhuhaa",
+      "name_ms": null,
+      "meaning_en": "The Morning Hours",
+      "ayah_count": 11,
+      "revelation": "Meccan",
+      "revelation_order": 11,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s094",
+      "number": 94,
+      "name_ar": "الشرح",
+      "name_en": "Ash-Sharh",
+      "name_ms": null,
+      "meaning_en": "The Consolation",
+      "ayah_count": 8,
+      "revelation": "Meccan",
+      "revelation_order": 12,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s095",
+      "number": 95,
+      "name_ar": "التين",
+      "name_en": "At-Tin",
+      "name_ms": null,
+      "meaning_en": "The Fig",
+      "ayah_count": 8,
+      "revelation": "Meccan",
+      "revelation_order": 28,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s096",
+      "number": 96,
+      "name_ar": "العلق",
+      "name_en": "Al-Alaq",
+      "name_ms": null,
+      "meaning_en": "The Clot",
+      "ayah_count": 19,
+      "revelation": "Meccan",
+      "revelation_order": 1,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s097",
+      "number": 97,
+      "name_ar": "القدر",
+      "name_en": "Al-Qadr",
+      "name_ms": null,
+      "meaning_en": "The Power, Fate",
+      "ayah_count": 5,
+      "revelation": "Meccan",
+      "revelation_order": 25,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s098",
+      "number": 98,
+      "name_ar": "البينة",
+      "name_en": "Al-Bayyina",
+      "name_ms": null,
+      "meaning_en": "The Evidence",
+      "ayah_count": 8,
+      "revelation": "Medinan",
+      "revelation_order": 100,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s099",
+      "number": 99,
+      "name_ar": "الزلزلة",
+      "name_en": "Az-Zalzala",
+      "name_ms": null,
+      "meaning_en": "The Earthquake",
+      "ayah_count": 8,
+      "revelation": "Medinan",
+      "revelation_order": 93,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s100",
+      "number": 100,
+      "name_ar": "العاديات",
+      "name_en": "Al-Aadiyaat",
+      "name_ms": null,
+      "meaning_en": "The Chargers",
+      "ayah_count": 11,
+      "revelation": "Meccan",
+      "revelation_order": 14,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s101",
+      "number": 101,
+      "name_ar": "القارعة",
+      "name_en": "Al-Qaari'a",
+      "name_ms": null,
+      "meaning_en": "The Calamity",
+      "ayah_count": 11,
+      "revelation": "Meccan",
+      "revelation_order": 30,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s102",
+      "number": 102,
+      "name_ar": "التكاثر",
+      "name_en": "At-Takaathur",
+      "name_ms": null,
+      "meaning_en": "Competition",
+      "ayah_count": 8,
+      "revelation": "Meccan",
+      "revelation_order": 16,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s103",
+      "number": 103,
+      "name_ar": "العصر",
+      "name_en": "Al-Asr",
+      "name_ms": null,
+      "meaning_en": "The Declining Day, Epoch",
+      "ayah_count": 3,
+      "revelation": "Meccan",
+      "revelation_order": 13,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s104",
+      "number": 104,
+      "name_ar": "الهمزة",
+      "name_en": "Al-Humaza",
+      "name_ms": null,
+      "meaning_en": "The Traducer",
+      "ayah_count": 9,
+      "revelation": "Meccan",
+      "revelation_order": 32,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s105",
+      "number": 105,
+      "name_ar": "الفيل",
+      "name_en": "Al-Fil",
+      "name_ms": null,
+      "meaning_en": "The Elephant",
+      "ayah_count": 5,
+      "revelation": "Meccan",
+      "revelation_order": 19,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s106",
+      "number": 106,
+      "name_ar": "قريش",
+      "name_en": "Quraish",
+      "name_ms": null,
+      "meaning_en": "Quraysh",
+      "ayah_count": 4,
+      "revelation": "Meccan",
+      "revelation_order": 29,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s107",
+      "number": 107,
+      "name_ar": "الماعون",
+      "name_en": "Al-Maa'un",
+      "name_ms": null,
+      "meaning_en": "Almsgiving",
+      "ayah_count": 7,
+      "revelation": "Meccan",
+      "revelation_order": 17,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s108",
+      "number": 108,
+      "name_ar": "الكوثر",
+      "name_en": "Al-Kawthar",
+      "name_ms": null,
+      "meaning_en": "Abundance",
+      "ayah_count": 3,
+      "revelation": "Meccan",
+      "revelation_order": 15,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s109",
+      "number": 109,
+      "name_ar": "الكافرون",
+      "name_en": "Al-Kaafiroon",
+      "name_ms": null,
+      "meaning_en": "The Disbelievers",
+      "ayah_count": 6,
+      "revelation": "Meccan",
+      "revelation_order": 18,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s110",
+      "number": 110,
+      "name_ar": "النصر",
+      "name_en": "An-Nasr",
+      "name_ms": null,
+      "meaning_en": "Divine Support",
+      "ayah_count": 3,
+      "revelation": "Medinan",
+      "revelation_order": 114,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s111",
+      "number": 111,
+      "name_ar": "المسد",
+      "name_en": "Al-Masad",
+      "name_ms": null,
+      "meaning_en": "The Palm Fibre",
+      "ayah_count": 5,
+      "revelation": "Meccan",
+      "revelation_order": 6,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s112",
+      "number": 112,
+      "name_ar": "الإخلاص",
+      "name_en": "Al-Ikhlaas",
+      "name_ms": null,
+      "meaning_en": "Sincerity",
+      "ayah_count": 4,
+      "revelation": "Meccan",
+      "revelation_order": 22,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s113",
+      "number": 113,
+      "name_ar": "الفلق",
+      "name_en": "Al-Falaq",
+      "name_ms": null,
+      "meaning_en": "The Dawn",
+      "ayah_count": 5,
+      "revelation": "Meccan",
+      "revelation_order": 20,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "surah_id": "s114",
+      "number": 114,
+      "name_ar": "الناس",
+      "name_en": "An-Naas",
+      "name_ms": null,
+      "meaning_en": "Mankind",
+      "ayah_count": 6,
+      "revelation": "Meccan",
+      "revelation_order": 21,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    }
+  ]
+}

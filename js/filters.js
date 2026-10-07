@@ -8,10 +8,10 @@
 
 const QMFilters = (function () {
 
-  // Arabic chip terms never change with UI language; the label text beside
-  // them comes from QMI18n.t("filters.*").
-  const POS_AR = { all: "الكل", ism: "اسم", "fiʿl": "فعل", harf: "حرف" };
-  const POS_KEY = { all: "filters.all", ism: "filters.noun", "fiʿl": "filters.verb", harf: "filters.particle" };
+  // Arabic chip terms never change with UI language (they come from data/taxonomy.json via QMData);
+  // the label text beside them comes from QMI18n.t("filters.*").
+  const POS_AR = Object.assign({ all: "الكل" }, ...QMData.listPos().map(p => ({ [p.id]: p.ar })));
+  const POS_KEY = { all: "filters.all", noun: "filters.noun", verb: "filters.verb", particle: "filters.particle" };
 
   function filterTokensByPos(tokens, filter) {
     if (!filter || filter === "all") return tokens;

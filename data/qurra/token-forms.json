@@ -1,0 +1,435 @@
+{
+  "_comment": "Token -> Form assignments for the analysed tokens only. Every other token of the Qur'an exists (derived deterministically from the ayah text) but has no Form yet: unanalysed, not guessed.",
+  "token_forms": [
+    {
+      "token_id": "1:1:1",
+      "form_id": "frm-ism-1-54fd0386",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:1:2",
+      "form_id": "frm-allah-1-77aa1b4d",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:1:3",
+      "form_id": "frm-rahman-1-ffbf90db",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:1:4",
+      "form_id": "frm-raheem-1-744988b2",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:2:1",
+      "form_id": "frm-hamd-1-11807b5e",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:2:2",
+      "form_id": "frm-allah-1-87819724",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:2:3",
+      "form_id": "frm-rabb-1-0ac86256",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:2:4",
+      "form_id": "frm-alam-1-19635301",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:3:1",
+      "form_id": "frm-rahman-1-ffbf90db",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:3:2",
+      "form_id": "frm-raheem-1-744988b2",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:4:1",
+      "form_id": "frm-malik-1-7d22f3bf",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:4:2",
+      "form_id": "frm-yawm-1-c4e3b258",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:4:3",
+      "form_id": "frm-deen-1-2cbc8685",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:5:1",
+      "form_id": "frm-iyyaa-1-f94ef300",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:5:2",
+      "form_id": "frm-abada-1-02940c35",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:5:3",
+      "form_id": "frm-iyyaa-1-b3825d9f",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:5:4",
+      "form_id": "frm-istaana-1-be7cbcb6",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:6:1",
+      "form_id": "frm-hada-1-bba35b1e",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:6:2",
+      "form_id": "frm-sirat-1-c3390b12",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:6:3",
+      "form_id": "frm-mustaqim-1-3266788d",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:7:1",
+      "form_id": "frm-sirat-1-e1034b6d",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:7:2",
+      "form_id": "frm-alladhina-1-31dd51a8",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:7:3",
+      "form_id": "frm-anama-1-6119bcfc",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:7:4",
+      "form_id": "frm-ala-1-3576379e",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:7:5",
+      "form_id": "frm-ghayr-1-81cd35eb",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:7:6",
+      "form_id": "frm-maghdub-1-aa031338",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:7:7",
+      "form_id": "frm-ala-1-3576379e",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:7:8",
+      "form_id": "frm-la-1-20773b6c",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "1:7:9",
+      "form_id": "frm-dall-1-a82fa725",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "2:2:1",
+      "form_id": "frm-dhalika-1-4eafd05a",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "2:2:2",
+      "form_id": "frm-kitab-1-497770a3",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "2:2:3",
+      "form_id": "frm-la-1-221d1bfb",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "2:2:4",
+      "form_id": "frm-rayb-1-cec9b29c",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "2:2:5",
+      "form_id": "frm-fi-1-533d89e7",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "2:2:6",
+      "form_id": "frm-huda-1-8734a0ff",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "2:2:7",
+      "form_id": "frm-muttaqin-1-c5896566",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "105:1:1",
+      "form_id": "frm-lam-1-2066269a",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "105:1:2",
+      "form_id": "frm-raa-1-7c4bda20",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "105:1:3",
+      "form_id": "frm-kayfa-1-2e00e360",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "105:1:4",
+      "form_id": "frm-faala-1-42ba0ca5",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "105:1:5",
+      "form_id": "frm-rabb-1-e6a972e0",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "105:1:6",
+      "form_id": "frm-sahib-1-6405813e",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "token_id": "105:1:7",
+      "form_id": "frm-fil-1-488fc95f",
+      "status": "provisional",
+      "provenance": {
+        "form": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    }
+  ]
+}

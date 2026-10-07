@@ -57,6 +57,16 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   line-height: 2;
 }
 
+/* Inline Arabic grammatical term inside UI-language text (badges, field values):
+   Arabic face, without the tall line-height of a block-level .qm-arabic. */
+.qm-ar-term {
+  font-family: var(--qm-font-arabic);
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-size: 1.15em;
+  line-height: 1;
+}
+
 /* ---- Focus visibility (accessibility) ---- */
 :focus-visible {
   outline: 2px solid var(--qm-gold-500);
@@ -64,6 +74,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   border-radius: var(--qm-radius-sm);
 }
 :focus:not(:focus-visible) { outline: none; }
+/* <main> is only focused programmatically (skip link) — no ring around the whole page. */
+.qm-main:focus { outline: none; }
 
 /* ---- Skip link ---- */
 .qm-skip-link {
@@ -102,8 +114,19 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   background: var(--qm-cream-100);
   color: var(--qm-ink-700);
   white-space: nowrap;
+  max-width: 100%;
+}
+/* Long labels (e.g. BM derivation/root-type names) must wrap on narrow screens, not clip. */
+@media (max-width: 480px) {
+  .qm-badge { display: inline-block; white-space: normal; border-radius: 14px; line-height: 1.4; }
 }
 .qm-badge--demo {
+  background: var(--qm-demo-bg);
+  border-color: var(--qm-demo-border);
+  color: var(--qm-demo-text);
+}
+/* Unreviewed / provisional content label (roots, conjugation): same palette as the demo badge, never hidden. */
+.qm-badge--provisional {
   background: var(--qm-demo-bg);
   border-color: var(--qm-demo-border);
   color: var(--qm-demo-text);
@@ -125,3 +148,13 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 * { scrollbar-width: thin; scrollbar-color: var(--qm-border-strong) transparent; }
 *::-webkit-scrollbar { width: 8px; height: 8px; }
 *::-webkit-scrollbar-thumb { background: var(--qm-border-strong); border-radius: 8px; }
+
+/* Required attribution for the Qur'anic text (Tanzil terms: source clearly indicated + link to tanzil.net). */
+.qm-attribution {
+  margin-top: var(--qm-space-6);
+  padding: var(--qm-space-4) 0;
+  border-top: 1px solid var(--qm-border);
+  font-size: var(--qm-fs-xs);
+  color: var(--qm-ink-500);
+}
+.qm-attribution a { text-decoration: underline; text-underline-offset: 2px; }

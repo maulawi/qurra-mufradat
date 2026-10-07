@@ -1,0 +1,27 @@
+# Line endings. Several files here must be byte-exact on every platform:
+#   - data/raw/** are the official Tanzil files, kept verbatim (their SHA-256 is recorded in data/sources.json);
+#   - js/generated/** is compared byte-for-byte by `node scripts/build-dataset.js --check`.
+# A Windows checkout with core.autocrlf=true would otherwise rewrite them as CRLF.
+
+# Default: normalise text files to LF in the repository and in working trees.
+* text=auto eol=lf
+
+# Verbatim source files: never convert, never normalise (git stores and returns the exact bytes).
+data/raw/** -text
+
+# Generated and data files: always LF.
+js/generated/** text eol=lf
+data/**/*.json text eol=lf
+data/sources.json text eol=lf
+data/taxonomy.json text eol=lf
+NOTICE text eol=lf
+
+# Code, styles, markup and docs: LF.
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+.gitattributes text eol=lf
+.gitkeep text eol=lf

@@ -18,27 +18,10 @@
 
 const QMWordDetail = (function () {
 
-  // Arabic grammatical terms shown alongside the (translated) field value —
-  // e.g. "جمع تكسير" next to "Broken plural" / "Jamak Taksir". Never
-  // translated, never duplicated per-language. `null` means no standard
-  // short Arabic term applies (e.g. a primitive/jamid noun).
-  const ARABIC_TERMS = {
-    pluralType: { "jamʿ_mudhakkar_salim": "جمع مذكر سالم", "jamʿ_muannath_salim": "جمع مؤنث سالم", "jamʿ_taksir": "جمع تكسير" },
-    definitenessState: { "maʿrifa": null, nakira: null },
-    referenceClass: { alam: "علم", ishara: "اسم إشارة", mawsul: "اسم موصول", istifham: "اسم استفهام", pronoun: "ضمير" },
-    derivationType: { jamid: "جامد", masdar: "مصدر", "ism_faʿil": "اسم فاعل", "ism_mafʿul": "اسم مفعول", sifa_mushabbaha: "صفة مشبهة" },
-    declension: { mabni: "مبني", "muʿrab": "معرب" },
-    form: { maadi: "ماضي", "mudariʿ": "مضارع", amr: "أمر" },
-    functionHere: {
-      jarr: "حرف جر", atf: "حرف عطف", "nafy_al_jins": "لا النافية للجنس", "nafy_simple": null,
-      nahy: "نهي", "duʿa": null, "jazm_nafy": "جزم / نفي", istifham: null
-    },
-    rootType: {
-      sahih_salim: "صحيح سالم", ajwaf: "أجوف", naqis: "ناقص",
-      mudaaf: "مضعّف", lafif_mafruq: "لفيف مفروق", lafif_maqrun: "لفيف مقرون"
-    },
-    pos: { ism: "اسم", "fiʿl": "فعل", harf: "حرف" }
-  };
+  // Arabic grammatical terms shown alongside the (translated) field value — e.g. "جمع تكسير" next to
+  // "Broken plural" / "Jamak Taksir". Never translated. Built from data/taxonomy.json (via QMData), not
+  // hard-coded here; `null` means no standard short Arabic term applies (e.g. a primitive/jamid noun).
+  const ARABIC_TERMS = QMData.arabicTerms();
 
   /** Translated label for an enum value, e.g. enumLabel('pluralType', 'jamʿ_taksir') → "Broken plural" / "Jamak Taksir". */
   function enumLabel(category, key) {
@@ -46,12 +29,17 @@ const QMWordDetail = (function () {
     return QMI18n.t(`enum.${category}.${key}`);
   }
 
+  /** An Arabic grammatical term set in the Arabic face, inline within UI-language text (never translated). */
+  function arSpan(text) {
+    return `<span class="qm-ar-term" lang="ar">${text}</span>`;
+  }
+
   /** Same, but paired with its (untranslated) Arabic term when one exists: "Broken plural · جمع تكسير". */
   function enumLabelWithArabic(category, key) {
     if (key === null || key === undefined) return "—";
     const label = enumLabel(category, key);
     const ar = ARABIC_TERMS[category] && ARABIC_TERMS[category][key];
-    return ar ? `${label} · ${ar}` : label;
+    return ar ? `${label} · ${arSpan(ar)}` : label;
   }
 
   function expandSection(id, title, bodyHtml, openByDefault) {
@@ -87,7 +75,7 @@ const QMWordDetail = (function () {
 
   function morphologyFieldsForFil(m) {
     let rows = "";
-    rows += fieldRow(QMI18n.t("verb.form"), enumLabelWithArabic("form", m.form));
+    rows += fieldRow(QMI18n.t("verb.form"), enumLabelWithArabic("form", m.aspect));
     rows += fieldRow(QMI18n.t("verb.person"), m.person ? QMI18n.t("person." + m.person) : "—");
     rows += fieldRow(QMI18n.t("fields.number"), enumLabel("number", m.number));
     rows += fieldRow(QMI18n.t("fields.gender"), enumLabel("gender", m.gender));
@@ -100,16 +88,18 @@ const QMWordDetail = (function () {
   }
 
   function conjugationBlock(lemma) {
-    if (!lemma.conjugation) return "";
-    const c = lemma.conjugation;
-    if (c.generationMethod !== "stored_verified" && c.generationMethod !== "stored_verified_partial") {
+    if (lemma.conjugationWithheld) {
       return `<p class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("detail.conjugationWithheld")}</p>`;
     }
+    const c = lemma.conjugation;
+    if (!c) return "";
     const cell = (label, word) => word
       ? `<div class="qm-conjugation__cell"><span class="qm-conjugation__word qm-arabic">${word}</span><span class="qm-conjugation__label">${label}</span></div>`
       : `<div class="qm-conjugation__cell"><span class="qm-conjugation__word qm-muted">—</span><span class="qm-conjugation__label">${label}</span></div>`;
     const note = c.note ? `<p class="qm-muted" style="font-size:var(--qm-fs-xs);margin-top:var(--qm-space-2)">${QMI18n.pick(c.note)}</p>` : "";
-    return `<div class="qm-conjugation">${cell(QMI18n.t("conjugation.perfective"), c.maadi)}${cell(QMI18n.t("conjugation.imperfective"), c.mudari)}${cell(QMI18n.t("conjugation.imperative"), c.amr)}</div>${note}`;
+    // Provisional (unreviewed) conjugations are shown, but never without a visible label.
+    const badge = c.state === "show_with_badge" ? `<p class="qm-muted" style="font-size:var(--qm-fs-xs);margin-top:var(--qm-space-2)"><span class="qm-badge qm-badge--provisional">${QMI18n.t("rootState.provisionalBadge")}</span> ${QMI18n.t("status.conjugationProvisional")}</p>` : "";
+    return `<div class="qm-conjugation">${cell(QMI18n.t("conjugation.perfective"), c.maadi)}${cell(QMI18n.t("conjugation.imperfective"), c.mudari)}${cell(QMI18n.t("conjugation.imperative"), c.amr)}</div>${badge}${note}`;
   }
 
   function segmentChip(seg) {
@@ -134,43 +124,78 @@ const QMWordDetail = (function () {
     return `<div class="qm-breakdown">${chips}</div>${note}`;
   }
 
-  function provenanceBlock(token, lemma) {
-    const ids = new Set();
-    Object.values(token.provenance || {}).forEach(id => ids.add(id));
-    if (lemma && lemma.gloss && lemma.gloss.source) ids.add(lemma.gloss.source);
-    if (lemma && lemma.conjugation && lemma.conjugation.source) ids.add(lemma.conjugation.source);
-    if (lemma && lemma.root && lemma.root.provenance && lemma.root.provenance.coreField) ids.add(lemma.root.provenance.coreField);
-
-    const rows = Array.from(ids).map(id => {
+  function provenanceBlock(token) {
+    const rows = token.sourceIds.map(id => {
+      const src = QMData.getSource(id);
       const name = QMI18n.t(`source.${id}.name`);
       const status = QMI18n.t(`source.${id}.status`);
-      return `<li><strong>${name}</strong><br><span class="qm-muted" style="font-size:var(--qm-fs-xs)">${status}</span></li>`;
+      const licence = src ? `${QMI18n.t("detail.licenceLabel")}: ${QMI18n.t("licenceStatus." + src.licence_status)}` : "";
+      return `<li><strong>${name}</strong><br><span class="qm-muted" style="font-size:var(--qm-fs-xs)">${licence}${licence ? " — " : ""}${status}</span></li>`;
     }).join("");
     return `<ul class="qm-stack" style="gap:var(--qm-space-3)">${rows}</ul>`;
   }
 
+  /** The root part of the lemma/root section: a root only when the display policy allows it, otherwise an honest note. */
+  function rootBlock(lemma) {
+    if (lemma.root) {
+      const badge = lemma.rootState === "show_with_badge"
+        ? `<div><span class="qm-badge qm-badge--provisional">${QMI18n.t("rootState.provisionalBadge")}</span> <span class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("rootState.provisionalNote")}</span></div>` : "";
+      return `<div>
+            <div class="qm-arabic" style="font-size:var(--qm-fs-lg)">${lemma.root.display}</div>
+            <div class="qm-muted" style="font-size:var(--qm-fs-sm)">${QMI18n.pick(lemma.root.coreField)}</div>
+            ${badge}
+          </div>`;
+    }
+    if (lemma.rootState === "under_review") return `<p class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("rootState.underReview")}</p>`;
+    if (lemma.rootState === "not_applicable") return `<p class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("rootState.notApplicable")}</p>`;
+    return "";
+  }
+
+  /**
+   * A word of the Qur'an that has no word analysis yet (the large majority until a cleared morphology
+   * source exists). Shows only what is known (the canonical text and its location) and says plainly that
+   * the analysis is not available: no placeholder part of speech, lemma or root is shown.
+   */
+  function renderUnanalysed(token) {
+    const surahName = QMData.getSurah(token.surahId);
+    const locationText = QMI18n.t("detail.locationTemplate", { surah: token.surahId, ayah: token.ayahId, position: token.position });
+    const locationHtml = `<a href="#/surah/${token.surahId}/ayah/${token.ayahId}" data-route-link>${surahName ? surahName.nameEn : "Surah " + token.surahId} ${token.surahId}:${token.ayahId}</a>`;
+    return `
+      <div class="qm-worddetail__header">
+        <div class="qm-worddetail__surface qm-arabic" id="qm-detail-title" lang="ar">${token.surfaceForm}</div>
+        <div class="qm-worddetail__location">${locationText} — ${locationHtml}</div>
+      </div>
+      <div class="qm-card" style="margin-bottom:var(--qm-space-4)">
+        <p style="margin:0"><strong>${QMI18n.t("detail.notAnalysedTitle")}</strong></p>
+        <p class="qm-muted" style="margin:var(--qm-space-2) 0 0">${QMI18n.t("detail.notAnalysedBody")}</p>
+      </div>
+      ${expandSection("source", QMI18n.t("detail.sourceInfo"), provenanceBlock(token), false)}
+    `;
+  }
+
   function render(tokenId) {
     const token = QMData.getToken(tokenId);
-    if (!token) return `<div class="qm-empty-state"><h3>${QMI18n.t("detail.wordNotFoundTitle")}</h3><p>${QMI18n.t("detail.wordNotFoundBody")}</p></div>`;
+    if (!token) return `<div class="qm-empty-state"><h3 id="qm-detail-title">${QMI18n.t("detail.wordNotFoundTitle")}</h3><p>${QMI18n.t("detail.wordNotFoundBody")}</p></div>`;
+    if (!token.analysed) return renderUnanalysed(token);
     const lemma = token.lemma;
-    const posClass = `qm-badge--pos-${token.pos === "fiʿl" ? "fil" : token.pos}`;
+    const posClass = `qm-badge--pos-${QMData.posCss(token.pos)}`;
 
     let morphologyRows = "";
-    if (token.pos === "ism") morphologyRows = morphologyFieldsForIsm(token.morphology);
-    else if (token.pos === "fiʿl") morphologyRows = morphologyFieldsForFil(token.morphology);
+    if (token.pos === "noun") morphologyRows = morphologyFieldsForIsm(token.morphology);
+    else if (token.pos === "verb") morphologyRows = morphologyFieldsForFil(token.morphology);
     else morphologyRows = morphologyFieldsForHarf(token.morphology);
 
-    const conj = token.pos === "fiʿl" ? conjugationBlock(lemma) : "";
+    const conj = token.pos === "verb" && lemma ? conjugationBlock(lemma) : "";
 
     const surahName = QMData.getSurah(token.surahId);
     const locationText = QMI18n.t("detail.locationTemplate", { surah: token.surahId, ayah: token.ayahId, position: token.position });
     const locationHtml = `<a href="#/surah/${token.surahId}/ayah/${token.ayahId}" data-route-link>${surahName ? surahName.nameEn : "Surah " + token.surahId} ${token.surahId}:${token.ayahId}</a>`;
 
-    const posLabel = `${ARABIC_TERMS.pos[token.pos]} · ${QMI18n.t("enum.pos." + token.pos)}`;
+    const posLabel = `${arSpan(ARABIC_TERMS.pos[token.pos])} · ${QMI18n.t("enum.pos." + token.pos)}`;
 
     const html = `
       <div class="qm-worddetail__header">
-        <div class="qm-worddetail__surface qm-arabic">${token.surfaceForm}</div>
+        <div class="qm-worddetail__surface qm-arabic" id="qm-detail-title" lang="ar">${token.surfaceForm}</div>
         <div class="qm-worddetail__gloss">${lemma ? QMI18n.pick(lemma.gloss) : ""}</div>
         <div class="qm-worddetail__tags">
           <span class="qm-badge ${posClass}">${posLabel}</span>
@@ -183,24 +208,22 @@ const QMWordDetail = (function () {
 
       ${expandSection("breakdown", QMI18n.t("detail.breakdown"), breakdownBlock(token), false)}
 
-      ${lemma ? expandSection("links", QMI18n.t("detail.lemmaRoot"), `
+      ${expandSection("links", QMI18n.t("detail.lemmaRoot"), lemma ? `
         <div class="qm-stack">
           <div>
             <div class="qm-arabic" style="font-size:var(--qm-fs-lg)">${lemma.form}</div>
             <div class="qm-muted" style="font-size:var(--qm-fs-sm)">${QMI18n.pick(lemma.gloss)}</div>
+            ${lemma.learnerNote ? `<div class="qm-muted" style="font-size:var(--qm-fs-xs);margin-top:var(--qm-space-1)">${QMI18n.pick(lemma.learnerNote)}</div>` : ""}
           </div>
-          ${lemma.root ? `<div>
-            <div class="qm-arabic" style="font-size:var(--qm-fs-lg)">${lemma.root.letters.split("").join(" ")}</div>
-            <div class="qm-muted" style="font-size:var(--qm-fs-sm)">${QMI18n.pick(lemma.root.coreField)}</div>
-          </div>` : `<p class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("detail.noRootRecorded")}</p>`}
+          ${rootBlock(lemma)}
           <div class="qm-worddetail__links">
             <a class="qm-btn qm-btn--secondary qm-btn--sm" href="#/lemma/${lemma.id}" data-route-link>${QMI18n.t("detail.viewLemma")}</a>
             ${lemma.root ? `<a class="qm-btn qm-btn--secondary qm-btn--sm" href="#/root/${lemma.root.id}" data-route-link>${QMI18n.t("detail.viewRoot")}</a>` : ""}
             <a class="qm-btn qm-btn--ghost qm-btn--sm" href="#/surah/${token.surahId}/ayah/${token.ayahId}" data-route-link>${QMI18n.t("detail.viewInQuran")}</a>
           </div>
-        </div>`, false) : ""}
+        </div>` : `<p class="qm-muted">${QMI18n.t("detail.lemmaUnresolved")}</p>`, false)}
 
-      ${expandSection("source", QMI18n.t("detail.sourceInfo"), provenanceBlock(token, lemma), false)}
+      ${expandSection("source", QMI18n.t("detail.sourceInfo"), provenanceBlock(token), false)}
     `;
     return html;
   }
@@ -215,5 +238,5 @@ const QMWordDetail = (function () {
     });
   }
 
-  return { render, wireExpandables, ARABIC_TERMS };
+  return { render, wireExpandables, ARABIC_TERMS, arSpan };
 })();

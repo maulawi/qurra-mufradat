@@ -1,0 +1,533 @@
+{
+  "roots": [
+    {
+      "root_id": "root-3-b-d",
+      "letters": [
+        "ع",
+        "ب",
+        "د"
+      ],
+      "display": "ع ب د",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "worship, servitude",
+        "ms": "ibadah, penghambaan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-3-l-m",
+      "letters": [
+        "ع",
+        "ل",
+        "م"
+      ],
+      "display": "ع ل م",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "knowledge; a world/realm (a distinct, lexically specialized sense — see the alam-1 lemma note)",
+        "ms": "ilmu, pengetahuan; alam/dunia (makna leksikal yang berbeza dan khusus — rujuk nota lemma alam-1)"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-3-w-n",
+      "letters": [
+        "ع",
+        "و",
+        "ن"
+      ],
+      "display": "ع و ن",
+      "root_type": "ajwaf",
+      "core_field": {
+        "en": "help, assistance, support",
+        "ms": "bantuan, pertolongan, sokongan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-d-y-n",
+      "letters": [
+        "د",
+        "ي",
+        "ن"
+      ],
+      "display": "د ي ن",
+      "root_type": "ajwaf",
+      "core_field": {
+        "en": "judgment, recompense; religion, a way of life",
+        "ms": "pembalasan, ganjaran; agama, cara hidup"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-d2-l-l",
+      "letters": [
+        "ض",
+        "ل",
+        "ل"
+      ],
+      "display": "ض ل ل",
+      "root_type": "mudaaf",
+      "core_field": {
+        "en": "going astray, error",
+        "ms": "kesesatan, kekeliruan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-f-3-l",
+      "letters": [
+        "ف",
+        "ع",
+        "ل"
+      ],
+      "display": "ف ع ل",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "doing, acting",
+        "ms": "melakukan, bertindak"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-f-y-l",
+      "letters": [
+        "ف",
+        "ي",
+        "ل"
+      ],
+      "display": "ف ي ل",
+      "root_type": "ajwaf",
+      "core_field": {
+        "en": "elephant",
+        "ms": "gajah"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-gh-d2-b",
+      "letters": [
+        "غ",
+        "ض",
+        "ب"
+      ],
+      "display": "غ ض ب",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "anger, wrath",
+        "ms": "kemarahan, kemurkaan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-gh-y-r",
+      "letters": [
+        "غ",
+        "ي",
+        "ر"
+      ],
+      "display": "غ ي ر",
+      "root_type": "ajwaf",
+      "core_field": {
+        "en": "otherness, difference",
+        "ms": "selain, perbezaan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-h-d-y",
+      "letters": [
+        "ه",
+        "د",
+        "ي"
+      ],
+      "display": "ه د ي",
+      "root_type": "naqis",
+      "core_field": {
+        "en": "guidance",
+        "ms": "petunjuk, hidayah"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-h2-m-d",
+      "letters": [
+        "ح",
+        "م",
+        "د"
+      ],
+      "display": "ح م د",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "praise, commendation",
+        "ms": "pujian, sanjungan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-k-t-b",
+      "letters": [
+        "ك",
+        "ت",
+        "ب"
+      ],
+      "display": "ك ت ب",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "writing, prescription, that which is written",
+        "ms": "penulisan, ketetapan, apa yang tertulis"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-m-l-k",
+      "letters": [
+        "م",
+        "ل",
+        "ك"
+      ],
+      "display": "م ل ك",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "ownership, dominion, sovereignty",
+        "ms": "pemilikan, kekuasaan, kedaulatan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-n-3-m",
+      "letters": [
+        "ن",
+        "ع",
+        "م"
+      ],
+      "display": "ن ع م",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "blessing, favor, bestowal",
+        "ms": "nikmat, kurniaan, anugerah"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-q-w-m",
+      "letters": [
+        "ق",
+        "و",
+        "م"
+      ],
+      "display": "ق و م",
+      "root_type": "ajwaf",
+      "core_field": {
+        "en": "standing, uprightness",
+        "ms": "berdiri tegak, keteguhan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-r-2-y",
+      "letters": [
+        "ر",
+        "ء",
+        "ي"
+      ],
+      "display": "ر ء ي",
+      "root_type": "naqis",
+      "core_field": {
+        "en": "seeing, perceiving (also hamzated on the middle radical)",
+        "ms": "melihat, memerhati (turut berhamzah pada huruf tengah)"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-r-b-b",
+      "letters": [
+        "ر",
+        "ب",
+        "ب"
+      ],
+      "display": "ر ب ب",
+      "root_type": "mudaaf",
+      "core_field": {
+        "en": "lordship, nurturing, ownership",
+        "ms": "ketuhanan, pemeliharaan, pemilikan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-r-h2-m",
+      "letters": [
+        "ر",
+        "ح",
+        "م"
+      ],
+      "display": "ر ح م",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "mercy, compassion, gentleness",
+        "ms": "rahmat, kasih sayang, kelembutan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-r-y-b",
+      "letters": [
+        "ر",
+        "ي",
+        "ب"
+      ],
+      "display": "ر ي ب",
+      "root_type": "ajwaf",
+      "core_field": {
+        "en": "doubt, suspicion",
+        "ms": "keraguan, syak wasangka"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-s2-h2-b",
+      "letters": [
+        "ص",
+        "ح",
+        "ب"
+      ],
+      "display": "ص ح ب",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "companionship, accompanying",
+        "ms": "persahabatan, menemani"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-s2-r-t2",
+      "letters": [
+        "ص",
+        "ر",
+        "ط"
+      ],
+      "display": "ص ر ط",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "a path, a way",
+        "ms": "jalan, lorong"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-w-q-y",
+      "letters": [
+        "و",
+        "ق",
+        "ي"
+      ],
+      "display": "و ق ي",
+      "root_type": "lafif_mafruq",
+      "core_field": {
+        "en": "guarding, protecting, being mindful of",
+        "ms": "menjaga, melindungi, bertakwa/berwaspada terhadap"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-y-w-m",
+      "letters": [
+        "ي",
+        "و",
+        "م"
+      ],
+      "display": "ي و م",
+      "root_type": "lafif_maqrun",
+      "core_field": {
+        "en": "day, time",
+        "ms": "hari, masa"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "taxonomy_version": "1.0.0",
+  "_comment": "Single source of truth for coded values. Codes are ASCII-safe; display labels live in js/translations/*.js (enum.<category>.<id>); Arabic terms live here and are never translated. Classifications are independent attributes, not one mutually-exclusive 'type'.",
+
+  "pos": [
+    { "id": "noun",     "ar": "اسم", "css": "ism" },
+    { "id": "verb",     "ar": "فعل", "css": "fil" },
+    { "id": "particle", "ar": "حرف", "css": "harf" }
+  ],
+
+  "segment_type": [
+    { "id": "proclitic", "ar": null },
+    { "id": "stem",      "ar": null },
+    { "id": "enclitic",  "ar": null }
+  ],
+
+  "segment_function": [
+    { "id": "definite_article", "ar": null },
+    { "id": "jarr",             "ar": "حرف جر" },
+    { "id": "atf",              "ar": "حرف عطف" },
+    { "id": "istifham",         "ar": null }
+  ],
+
+  "number":            [ { "id": "mufrad", "ar": null }, { "id": "muthanna", "ar": null }, { "id": "jama", "ar": null } ],
+  "gender":            [ { "id": "mudhakkar", "ar": null }, { "id": "muannath", "ar": null } ],
+  "voice":             [ { "id": "active", "ar": null }, { "id": "passive", "ar": null } ],
+  "plural_type":       [
+    { "id": "jama_mudhakkar_salim", "ar": "جمع مذكر سالم" },
+    { "id": "jama_muannath_salim",  "ar": "جمع مؤنث سالم" },
+    { "id": "jama_taksir",          "ar": "جمع تكسير" }
+  ],
+  "definiteness_state": [ { "id": "marifa", "ar": null }, { "id": "nakira", "ar": null } ],
+  "definiteness_cause": [
+    { "id": "bi_al", "ar": null }, { "id": "idafa", "ar": null }, { "id": "alam", "ar": null },
+    { "id": "ishara", "ar": null }, { "id": "mawsul", "ar": null }
+  ],
+  "reference_class": [
+    { "id": "alam", "ar": "علم" }, { "id": "ishara", "ar": "اسم إشارة" }, { "id": "mawsul", "ar": "اسم موصول" },
+    { "id": "istifham", "ar": "اسم استفهام" }, { "id": "pronoun", "ar": "ضمير" }
+  ],
+  "declension": [ { "id": "mabni", "ar": "مبني" }, { "id": "murab", "ar": "معرب" } ],
+  "derivation_type": [
+    { "id": "jamid", "ar": "جامد" }, { "id": "masdar", "ar": "مصدر" }, { "id": "ism_fail", "ar": "اسم فاعل" },
+    { "id": "ism_mafool", "ar": "اسم مفعول" }, { "id": "sifa_mushabbaha", "ar": "صفة مشبهة" }
+  ],
+  "verb_aspect": [ { "id": "maadi", "ar": "ماضي" }, { "id": "mudari", "ar": "مضارع" }, { "id": "amr", "ar": "أمر" } ],
+  "verb_form": [
+    { "id": "I" }, { "id": "II" }, { "id": "III" }, { "id": "IV" }, { "id": "V" },
+    { "id": "VI" }, { "id": "VII" }, { "id": "VIII" }, { "id": "IX" }, { "id": "X" }
+  ],
+  "particle_function": [
+    { "id": "jarr", "ar": "حرف جر" }, { "id": "atf", "ar": "حرف عطف" },
+    { "id": "nafy_al_jins", "ar": "لا النافية للجنس" }, { "id": "nafy_simple", "ar": null },
+    { "id": "nahy", "ar": "نهي" }, { "id": "dua", "ar": null },
+    { "id": "jazm_nafy", "ar": "جزم / نفي" }, { "id": "istifham", "ar": null }
+  ],
+  "person": [ { "id": "1" }, { "id": "2" }, { "id": "3" } ],
+  "root_type": [
+    { "id": "sahih_salim", "ar": "صحيح سالم" }, { "id": "ajwaf", "ar": "أجوف" }, { "id": "naqis", "ar": "ناقص" },
+    { "id": "mudaaf", "ar": "مضعّف" }, { "id": "lafif_mafruq", "ar": "لفيف مفروق" }, { "id": "lafif_maqrun", "ar": "لفيف مقرون" }
+  ],
+
+  "root_letters": {
+    "_comment": "Allowed canonical root letters (QURRA canonical spelling): no diacritics, hamza only as ء, weak radicals only و / ي. The ASCII slug table is QURRA's own (not copied from any corpus); root ids are 'root-' + slugs joined by '-'.",
+    "letters": {
+      "ء": "2", "ب": "b", "ت": "t", "ث": "th", "ج": "j", "ح": "h2", "خ": "kh", "د": "d", "ذ": "dh", "ر": "r",
+      "ز": "z", "س": "s", "ش": "sh", "ص": "s2", "ض": "d2", "ط": "t2", "ظ": "z2", "ع": "3", "غ": "gh", "ف": "f",
+      "ق": "q", "ك": "k", "ل": "l", "م": "m", "ن": "n", "ه": "h", "و": "w", "ي": "y"
+    }
+  },
+
+  "status": [
+    { "id": "imported",    "authoritative": false, "description": "Verbatim from a registered source; not edited by QURRA." },
+    { "id": "draft",       "authoritative": false, "description": "Work in progress; never shown to learners." },
+    { "id": "provisional", "authoritative": false, "description": "Usable for the prototype but not reviewed; shown only with a visible label." },
+    { "id": "reviewed",    "authoritative": true,  "description": "A qualified reviewer checked the evidence and the rule application." },
+    { "id": "verified",    "authoritative": true,  "description": "Reviewed plus second-reviewer or audit confirmation under the frozen protocol." },
+    { "id": "disputed",    "authoritative": false, "description": "Documented scholarly disagreement; no value is asserted." },
+    { "id": "unresolved",  "authoritative": false, "description": "Insufficient evidence or a pending decision; no value is asserted." },
+    { "id": "null_policy", "authoritative": false, "description": "Intentionally empty by policy (for example, closed-class words carry no root)." }
+  ],
+
+  "display_policy": {
+    "_comment": "What a learner sees per layer and status. show = plain (provisional glosses and morphology rely on the page-level prototype banner and the Source information panel); show_with_badge = shown with an inline 'provisional' label (roots, conjugation); under_review = the field is replaced by an 'under review' note; not_applicable = replaced by a neutral 'none for this kind of word' note; hide = nothing. Change a value here and rebuild to change the whole app.",
+    "root": {
+      "verified": "show", "reviewed": "show", "provisional": "show_with_badge",
+      "imported": "hide", "draft": "hide", "disputed": "under_review", "unresolved": "under_review", "null_policy": "not_applicable"
+    },
+    "gloss": {
+      "verified": "show", "reviewed": "show", "provisional": "show", "imported": "show", "draft": "hide",
+      "disputed": "hide", "unresolved": "hide", "null_policy": "hide"
+    },
+    "conjugation": {
+      "verified": "show", "reviewed": "show", "provisional": "show_with_badge", "imported": "hide", "draft": "hide",
+      "disputed": "hide", "unresolved": "hide", "null_policy": "hide"
+    },
+    "morphology": {
+      "verified": "show", "reviewed": "show", "provisional": "show", "imported": "show", "draft": "hide",
+      "disputed": "hide", "unresolved": "hide", "null_policy": "hide"
+    }
+  },
+
+  "review_gate": {
+    "_comment": "Encodes the structural part of the root production gate. A root assignment with one of these statuses must carry evidence and a reviewer; one with a 'must_be_null' status must not carry a root value.",
+    "root_requires_evidence": ["reviewed", "verified"],
+    "root_must_be_null": ["disputed", "unresolved", "null_policy"]
+  }
+}

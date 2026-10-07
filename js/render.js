@@ -9,8 +9,8 @@
    plus router.js's hashchange listener do the rest.
 
    These functions only ever call QMData / QMFilters / QMWordDetail — never
-   QM_TOKENS / QM_LEMMAS / etc. directly. That is what makes it possible to
-   replace demoData.js later without touching this file (ARCHITECTURE.md).
+   the raw dataset directly. That is what makes it possible to
+   replace the generated dataset later without touching this file (ARCHITECTURE.md).
 
    Every learner-facing string here comes from QMI18n.t() (UI chrome) or
    QMI18n.pick() (multilingual data fields like gloss/coreField/translation
@@ -58,9 +58,9 @@ const QMRender = (function () {
   }
 
   function posBadge(pos) {
-    const cls = pos === "fiʿl" ? "qm-badge--pos-fil" : pos === "ism" ? "qm-badge--pos-ism" : "qm-badge--pos-harf";
+    const cls = `qm-badge--pos-${QMData.posCss(pos)}`;
     const ar = QMWordDetail.ARABIC_TERMS.pos[pos] || "";
-    return `<span class="qm-badge ${cls}">${ar} · ${QMI18n.t("enum.pos." + pos)}</span>`;
+    return `<span class="qm-badge ${cls}">${QMWordDetail.arSpan(ar)} · ${QMI18n.t("enum.pos." + pos)}</span>`;
   }
 
   function notFound(kind) {
@@ -77,15 +77,15 @@ const QMRender = (function () {
 
   function renderHome() {
     const juzList = QMData.listJuz();
-    const availableCount = juzList.filter(j => j.available).length;
+    const analysedAyahs = QMData.listSurahs().reduce((n, x) => n + x.analysedAyahs.length, 0);
 
     const juzGrid = juzList.map(j => `
-      <a href="#/juz/${j.number}" class="qm-card qm-card--interactive qm-juz-card${j.available ? "" : " is-unavailable"}" data-route-link>
+      <a href="#/juz/${j.number}" class="qm-card qm-card--interactive qm-juz-card" data-route-link>
         <span class="qm-juz-card__number">${j.number}</span>
         <span class="qm-juz-card__ar qm-arabic">${j.nameAr}</span>
-        ${j.available
-          ? `<span class="qm-badge qm-badge--demo">${QMI18n.t("juzCard.demo")}</span>`
-          : `<span class="qm-badge qm-muted">${QMI18n.t("juzCard.notAvailable")}</span>`}
+        ${j.analysedAyahCount > 0
+          ? `<span class="qm-badge qm-badge--demo">${QMI18n.t("juzCard.analysed")}</span>`
+          : `<span class="qm-badge qm-muted">${QMI18n.t("juzCard.textOnly")}</span>`}
       </a>`).join("");
 
     const html = `
@@ -101,7 +101,7 @@ const QMRender = (function () {
         </div>
       </section>
 
-      ${demoNote(QMI18n.t("home.demoNoteTemplate", { available: availableCount, total: juzList.length }))}
+      ${demoNote(QMI18n.t("home.demoNoteTemplate", { analysed: analysedAyahs }))}
 
       <h2>${QMI18n.t("home.browseByJuz")}</h2>
       <div class="qm-grid">${juzGrid}</div>
@@ -110,6 +110,11 @@ const QMRender = (function () {
   }
 
   /* ---------------- Juz ---------------- */
+
+  function juzMeta(juz) {
+    const first = QMData.getSurah(juz.start.surah);
+    return QMI18n.t("juz.startsAtTemplate", { surah: first ? first.nameEn : juz.start.surah, ayah: juz.start.ayah });
+  }
 
   function renderJuz(juzNumber) {
     const juz = QMData.getJuz(juzNumber);
@@ -120,11 +125,11 @@ const QMRender = (function () {
       title: QMI18n.t("juz.titleTemplate", { n: juz.number }),
       titleAr: juz.nameAr,
       breadcrumbs: [{ label: QMI18n.t("nav.home"), href: "#/home" }, { label: QMI18n.t("juz.titleTemplate", { n: juz.number }) }],
-      meta: QMI18n.pick(juz.note)
+      meta: juzMeta(juz)
     });
 
     let body;
-    if (!juz.available) {
+    if (!juz.surahs.length) {
       body = emptyState(
         QMI18n.t("juz.notAvailableTitle"),
         QMI18n.t("juz.notAvailableBody"),
@@ -134,7 +139,7 @@ const QMRender = (function () {
         </div>`
       );
     } else {
-      body = `<h2>${QMI18n.t("juz.surahsInJuz")}</h2><div class="qm-stack">${juz.surahs.map(s => surahCard(s)).join("")}</div>`;
+      body = `<h2>${QMI18n.t("juz.surahsInJuz")}</h2><div class="qm-stack">${juz.surahs.map(s => surahCard(s, juz.number)).join("")}</div>`;
     }
 
     return { html: `${header}${body}` };
@@ -142,15 +147,17 @@ const QMRender = (function () {
 
   /* ---------------- Surah list ---------------- */
 
-  function surahCard(s) {
+  // juzNumber (optional): keeps the Juz context in the link, via #/juz/:n/surah/:m.
+  function surahCard(s, juzNumber) {
+    const href = juzNumber ? `#/juz/${juzNumber}/surah/${s.number}` : `#/surah/${s.number}`;
     return `
-      <a href="#/surah/${s.number}" class="qm-card qm-card--interactive qm-surah-card" data-route-link>
+      <a href="${href}" class="qm-card qm-card--interactive qm-surah-card" data-route-link>
         <span class="qm-surah-card__num">${s.number}</span>
         <span class="qm-surah-card__names">
           <span class="qm-surah-card__ar qm-arabic">${s.nameAr}</span>
           <span class="qm-surah-card__en">${esc(s.nameEn)} · ${QMI18n.t("enum.revelation." + s.revelation)}</span>
         </span>
-        <span class="qm-surah-card__meta">${QMI18n.t("surahCard.demoAyahsTemplate", { demo: s.demoAyahs.length, total: s.ayahCount })}</span>
+        <span class="qm-surah-card__meta">${s.analysedAyahs.length ? QMI18n.t("surahCard.ayahsAnalysedTemplate", { total: s.ayahCount, analysed: s.analysedAyahs.length }) : QMI18n.t("surahCard.ayahsTemplate", { total: s.ayahCount })}</span>
       </a>`;
   }
 
@@ -161,15 +168,15 @@ const QMRender = (function () {
       title: QMI18n.t("surahs.title"),
       breadcrumbs: [{ label: QMI18n.t("nav.home"), href: "#/home" }, { label: QMI18n.t("surahs.title") }]
     });
-    const note = demoNote(QMI18n.t("surahs.demoNoteTemplate", { list: surahs.map(s => s.nameEn).join(", ") }));
-    const list = `<div class="qm-stack">${surahs.map(surahCard).join("")}</div>`;
+    const note = demoNote(QMI18n.t("surahs.noteTemplate", { list: surahs.filter(s => s.analysedAyahs.length).map(s => s.nameEn).join(", ") }));
+    const list = `<div class="qm-stack">${surahs.map(s => surahCard(s)).join("")}</div>`;
     return { html: `${header}${note}${list}` };
   }
 
   /* ---------------- Surah / Ayah ---------------- */
 
   function wordAnchor(t) {
-    return `<a href="#/word/${t.id}" data-route-link class="qm-word qm-arabic" data-token="${t.id}" data-pos="${t.pos}">${t.surfaceForm}</a>`;
+    return `<a href="#/word/${t.id}" data-route-link class="qm-word qm-arabic" data-token="${t.id}" data-pos="${t.pos || ""}">${t.surfaceForm}</a>`;
   }
 
   function ayahBlock(ayah) {
@@ -177,10 +184,11 @@ const QMRender = (function () {
     return `
       <div class="qm-ayah" id="ayah-${ayah.ayahId}" data-ayah="${ayah.ayahId}">
         <p class="qm-ayah__text">${words}<span class="qm-ayah__marker">${ayah.ayahId}</span></p>
-        <details class="qm-ayah__translation-toggle">
+        ${ayah.translation ? `<details class="qm-ayah__translation-toggle">
           <summary class="qm-muted" style="cursor:pointer">${QMI18n.t("surah.showTranslation")}</summary>
           <p class="qm-muted">${esc(QMI18n.pick(ayah.translation))}</p>
-        </details>
+          <p class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("surah.translationNote")}</p>
+        </details>` : ""}
       </div>`;
   }
 
@@ -197,25 +205,54 @@ const QMRender = (function () {
     opts = opts || {};
     const surah = QMData.getSurah(surahNumber);
     if (!surah) return notFound("surah");
+
+    // Optional Juz context (#/juz/:n/surah/:m): only valid if that Juz really lists this surah.
+    let juz = null;
+    if (opts.juz !== undefined && opts.juz !== null) {
+      juz = QMData.getJuz(opts.juz);
+      if (!juz || !juz.surahIds.includes(surah.number)) return notFound("surah");
+    }
+    const ayahTarget = opts.highlightAyah !== undefined && opts.highlightAyah !== null ? Number(opts.highlightAyah) : null;
+
     const ayahs = QMData.listAyahsInSurah(surahNumber);
     const allTokens = ayahs.flatMap(a => a.tokens);
+
+    const home = { label: QMI18n.t("nav.home"), href: "#/home" };
+    const breadcrumbs = juz
+      ? [home, { label: QMI18n.t("juz.titleTemplate", { n: juz.number }), href: `#/juz/${juz.number}` }, { label: surah.nameEn }]
+      : [home, { label: QMI18n.t("surahs.title"), href: "#/surahs" }, { label: surah.nameEn }];
 
     const header = pageHeader({
       eyebrow: "SURAH " + surah.number,
       title: surah.nameEn,
       titleAr: surah.nameAr,
-      breadcrumbs: [{ label: QMI18n.t("nav.home"), href: "#/home" }, { label: QMI18n.t("surahs.title"), href: "#/surahs" }, { label: surah.nameEn }],
-      meta: QMI18n.t("surah.metaTemplate", { revelation: QMI18n.t("enum.revelation." + surah.revelation), ayahCount: surah.ayahCount, demoCount: surah.demoAyahs.length })
+      breadcrumbs,
+      meta: surah.analysedAyahs.length
+        ? QMI18n.t("surah.metaAnalysedTemplate", { revelation: QMI18n.t("enum.revelation." + surah.revelation), ayahCount: surah.ayahCount, analysedCount: surah.analysedAyahs.length })
+        : QMI18n.t("surah.metaTemplate", { revelation: QMI18n.t("enum.revelation." + surah.revelation), ayahCount: surah.ayahCount })
     });
 
-    const note = surah.demoAyahs.length < surah.ayahCount
-      ? demoNote(QMI18n.t("surah.demoNoteTemplate", { list: surah.demoAyahs.join(", ") }))
-      : "";
+    // A specific ayah was requested but this demo has no data for it: say so
+    // plainly instead of silently showing the rest of the surah.
+    if (ayahTarget !== null && !(Number.isInteger(ayahTarget) && ayahTarget >= 1 && ayahTarget <= surah.ayahCount)) {
+      const surahHref = juz ? `#/juz/${juz.number}/surah/${surah.number}` : `#/surah/${surah.number}`;
+      return {
+        html: `${header}${emptyState(
+          QMI18n.t("surah.ayahMissingTitle", { ayah: ayahTarget }),
+          esc(QMI18n.t("surah.ayahMissingBody", { surah: surah.nameEn, count: surah.ayahCount })),
+          `<a class="qm-btn qm-btn--primary" href="${surahHref}" data-route-link>${esc(QMI18n.t("surah.viewSurahTemplate", { surah: surah.nameEn }))}</a>`
+        )}`
+      };
+    }
+
+    const note = surah.analysedAyahs.length
+      ? demoNote(QMI18n.t("surah.demoNoteTemplate", { list: surah.analysedAyahs.join(", ") }))
+      : demoNote(QMI18n.t("surah.textOnlyNote"));
 
     const html = `
       ${header}
       ${note}
-      <div id="qm-filterbar" class="qm-filterbar" role="group" aria-label="${QMI18n.t("filters.all")}"></div>
+      <div id="qm-filterbar" class="qm-filterbar" role="group" aria-label="${QMI18n.t("filters.groupLabel")}"></div>
       <div id="qm-ayahs">${ayahs.map(a => ayahBlock(a)).join("")}</div>
     `;
 
@@ -235,15 +272,16 @@ const QMRender = (function () {
       refreshBar();
       applyFilterToWords(viewEl, currentFilter);
 
-      if (opts.highlightAyah) {
-        const target = viewEl.querySelector(`#ayah-${opts.highlightAyah}`);
+      if (ayahTarget !== null) {
+        const target = viewEl.querySelector(`#ayah-${ayahTarget}`);
         if (target) {
-          target.scrollIntoView({ block: "center", behavior: "smooth" });
+          target.scrollIntoView({ block: "center", behavior: "auto" }); // instant: smooth-scrolling a 50,000 px page takes seconds
         }
       }
     }
 
-    return { html, mount };
+    // keepScroll: this route scrolls to its own target, so the router must not reset to the top.
+    return { html, mount, keepScroll: ayahTarget !== null };
   }
 
   /* ---------------- Roots ---------------- */
@@ -255,10 +293,10 @@ const QMRender = (function () {
       title: QMI18n.t("roots.title"),
       breadcrumbs: [{ label: QMI18n.t("nav.home"), href: "#/home" }, { label: QMI18n.t("roots.title") }]
     });
-    const note = demoNote(QMI18n.t("roots.demoNoteTemplate", { count: roots.length }));
+    const note = demoNote(QMI18n.t("roots.demoNoteTemplate", { count: roots.length }) + " " + QMI18n.t("roots.provisionalNote"));
     const rows = roots.map(r => `
       <a href="#/root/${r.id}" class="qm-card qm-card--interactive qm-rootlemma-card" data-route-link>
-        <span class="qm-rootlemma-card__ar">${r.letters.split("").join(" ")}</span>
+        <span class="qm-rootlemma-card__ar">${r.display}</span>
         <span class="qm-rootlemma-card__gloss">${esc(QMI18n.pick(r.coreField))}</span>
       </a>`).join("");
     return { html: `${header}${note}<div class="qm-stack">${rows}</div>` };
@@ -270,18 +308,19 @@ const QMRender = (function () {
 
     const header = pageHeader({
       eyebrow: QMI18n.t("root.eyebrow"),
-      title: root.letters,
-      breadcrumbs: [{ label: QMI18n.t("nav.home"), href: "#/home" }, { label: QMI18n.t("roots.title"), href: "#/roots" }, { label: root.letters }]
+      title: root.display,
+      breadcrumbs: [{ label: QMI18n.t("nav.home"), href: "#/home" }, { label: QMI18n.t("roots.title"), href: "#/roots" }, { label: root.display }]
     });
 
     const rootTypeAr = QMWordDetail.ARABIC_TERMS.rootType[root.rootType];
-    const rootTypeLabel = `${QMI18n.t("enum.rootType." + root.rootType)}${rootTypeAr ? " · " + rootTypeAr : ""}`;
+    const rootTypeLabel = `${QMI18n.t("enum.rootType." + root.rootType)}${rootTypeAr ? " · " + QMWordDetail.arSpan(rootTypeAr) : ""}`;
 
     const headword = `
       <div class="qm-headword qm-card">
-        <div class="qm-headword__arabic">${root.letters.split("").join(" ")}</div>
+        <div class="qm-headword__arabic">${root.display}</div>
         <div class="qm-headword__gloss">${esc(QMI18n.pick(root.coreField))}</div>
-        <div style="margin-top:var(--qm-space-3)"><span class="qm-badge">${rootTypeLabel}</span></div>
+        <div style="margin-top:var(--qm-space-3)"><span class="qm-badge">${rootTypeLabel}</span>${root.state === "show_with_badge" ? ` <span class="qm-badge qm-badge--provisional">${QMI18n.t("rootState.provisionalBadge")}</span>` : ""}</div>
+        ${root.state === "show_with_badge" ? `<p class="qm-muted" style="font-size:var(--qm-fs-xs);margin:var(--qm-space-2) 0 0">${QMI18n.t("rootState.provisionalNote")}</p>` : ""}
       </div>`;
 
     const lemmaRows = root.lemmas.map(l => `
@@ -296,7 +335,7 @@ const QMRender = (function () {
       ? occurrences.map(occurrenceRow).join("")
       : `<p class="qm-muted">${QMI18n.t("root.noOccurrences")}</p>`;
 
-    const sourceId = root.provenance && root.provenance.coreField;
+    const sourceId = root.provenance && root.provenance.core_field && root.provenance.core_field.source_id;
 
     const html = `
       ${header}
@@ -350,7 +389,7 @@ const QMRender = (function () {
 
     const derivationAr = lemma.derivationType && QMWordDetail.ARABIC_TERMS.derivationType[lemma.derivationType];
     const derivationLabel = lemma.derivationType
-      ? `${QMI18n.t("enum.derivationType." + lemma.derivationType)}${derivationAr ? " · " + derivationAr : ""}`
+      ? `${QMI18n.t("enum.derivationType." + lemma.derivationType)}${derivationAr ? " · " + QMWordDetail.arSpan(derivationAr) : ""}`
       : "";
 
     const headword = `
@@ -364,8 +403,12 @@ const QMRender = (function () {
     fields += `<dt>${QMI18n.t("lemma.fieldPos")}</dt><dd>${posBadge(lemma.pos)}</dd>`;
     if (derivationLabel) fields += `<dt>${QMI18n.t("lemma.fieldDerivation")}</dt><dd>${derivationLabel}</dd>`;
     if (lemma.verbForm) fields += `<dt>${QMI18n.t("lemma.fieldVerbForm")}</dt><dd>${esc(lemma.verbForm)}</dd>`;
-    if (lemma.root) fields += `<dt>${QMI18n.t("lemma.fieldRoot")}</dt><dd><a href="#/root/${lemma.root.id}" data-route-link class="qm-arabic">${lemma.root.letters.split("").join(" ")}</a></dd>`;
+    if (lemma.root) {
+      fields += `<dt>${QMI18n.t("lemma.fieldRoot")}</dt><dd><a href="#/root/${lemma.root.id}" data-route-link class="qm-arabic">${lemma.root.display}</a>${lemma.rootState === "show_with_badge" ? ` <span class="qm-badge qm-badge--provisional">${QMI18n.t("rootState.provisionalBadge")}</span>` : ""}</dd>`;
+    } else if (lemma.rootState === "under_review") fields += `<dt>${QMI18n.t("lemma.fieldRoot")}</dt><dd class="qm-muted">${QMI18n.t("rootState.underReview")}</dd>`;
+    else if (lemma.rootState === "not_applicable") fields += `<dt>${QMI18n.t("lemma.fieldRoot")}</dt><dd class="qm-muted">${QMI18n.t("rootState.notApplicable")}</dd>`;
     else fields += `<dt>${QMI18n.t("lemma.fieldRoot")}</dt><dd class="qm-muted">${QMI18n.t("lemma.noRoot")}</dd>`;
+    if (lemma.learnerNote) fields += `<dt>${QMI18n.t("lemma.fieldLearnerNote")}</dt><dd>${esc(QMI18n.pick(lemma.learnerNote))}</dd>`;
 
     const occurrences = QMData.getOccurrencesForLemma(lemma.id);
     const occHtml = occurrences.length

@@ -16,14 +16,14 @@ const QM_I18N_EN = {
     searchVocabularyLabel: "Search vocabulary",
     close: "Close",
     back: "Back",
-    noMatchesTemplate: 'No matches in the demo dataset for "{query}".',
+    noMatchesTemplate: 'No matches for "{query}".',
     languageLabel: "Language",
     languageEn: "English",
     languageMs: "Bahasa Melayu"
   },
 
   badge: {
-    demo: "Prototype · Demo data"
+    demo: "Prototype · Word analysis: pilot"
   },
 
   nav: {
@@ -40,16 +40,16 @@ const QM_I18N_EN = {
 
   home: {
     tagline: "Explore the words of the Qur'an, one Juz at a time.",
-    description: "QURRA Mufradat is a vocabulary-and-morphology reference for the Qur'an — every word broken down into its root, lemma, and grammatical form, without flashcards, quizzes, or a full-text search engine to get in the way.",
+    description: "QURRA Mufradat is a vocabulary explorer for the Qur'an: the complete Qur'anic text, word by word, Juz by Juz. Word analysis (root, lemma, grammatical form) is so far available only for a limited pilot sample and is provisional.",
     ctaExplore: "Explore the Qur'an",
     ctaBrowse: "Browse Vocabulary",
-    demoNoteTemplate: 'This is an early architecture &amp; UI prototype. Only <strong>{available} of {total}</strong> Juz (Juz 1 and Juz 30) carry real demo word data right now — the rest are shown so the full structure is visible, and are clearly marked "Not yet available."',
+    demoNoteTemplate: 'The complete Qur\'anic text (114 surahs, 6,236 ayahs) is included. Word-by-word analysis (lemma, root, morphology) exists so far only for a small pilot sample of <strong>{analysed} ayahs</strong> and is provisional; every other word shows its text only, marked "not yet analysed".',
     browseByJuz: "Browse by Juz"
   },
 
   juzCard: {
-    demo: "Demo data",
-    notAvailable: "Not yet available"
+    analysed: "Word analysis (pilot)",
+    textOnly: "Text only"
   },
 
   juz: {
@@ -59,29 +59,39 @@ const QM_I18N_EN = {
     notAvailableBody: "This Juz doesn't carry demo word data yet. Full Qur'an coverage is a later development stage — see ROADMAP.md in the project files.",
     viewJuz1: "View Juz 1 demo",
     viewJuz30: "View Juz 30 demo",
-    surahsInJuz: "Surahs in this Juz (demo)"
+    surahsInJuz: "Surahs in this Juz",
+    startsAtTemplate: "Begins at {surah} {ayah}",
+    unavailableNote: "Not yet available in this prototype. Full coverage is a later stage — see ROADMAP.md."
   },
 
   surahs: {
     eyebrow: "VOCABULARY",
     title: "Surahs",
-    demoNoteTemplate: "This prototype includes a small, representative set of surahs ({list}) rather than the complete Qur'an."
+    noteTemplate: "All 114 surahs are included. Word-by-word analysis is available only for a pilot sample in: {list}."
   },
 
   surahCard: {
-    demoAyahsTemplate: "{demo} of {total} ayahs in demo"
+    ayahsTemplate: "{total} ayahs",
+    ayahsAnalysedTemplate: "{total} ayahs · {analysed} with word analysis"
   },
 
   surah: {
-    metaTemplate: "{revelation} · {ayahCount} ayahs in the full Mushaf — {demoCount} included in this demo",
-    demoNoteTemplate: "Only the following ayah(s) of this surah are included in this prototype: {list}.",
-    showTranslation: "Show translation (English, paraphrase)"
+    metaTemplate: "{revelation} · {ayahCount} ayahs",
+    metaAnalysedTemplate: "{revelation} · {ayahCount} ayahs — {analysedCount} with word analysis (pilot)",
+    demoNoteTemplate: "Word-by-word analysis is available only for ayah(s) {list} of this surah (pilot). Every other word shows the Qur'anic text only.",
+    textOnlyNote: "No word-by-word analysis is available for this surah yet. Words show the Qur'anic text only.",
+    showTranslation: "Show translation (English, paraphrase)",
+    translationNote: "Working rendering written for the prototype — not an authoritative translation.",
+    ayahMissingTitle: "Ayah {ayah} doesn't exist in this surah",
+    ayahMissingBody: "{surah} has {count} ayahs.",
+    viewSurahTemplate: "View {surah}"
   },
 
   roots: {
     eyebrow: "VOCABULARY",
     title: "Roots",
-    demoNoteTemplate: "{count} roots are included in this demo dataset — enough to show a root with multiple lemmas (و ق ي, ر ح م, هـ د ي), not a complete root index."
+    demoNoteTemplate: "{count} roots are included in this demo dataset — enough to show a root with multiple lemmas (و ق ي, ر ح م, هـ د ي), not a complete root index.",
+    provisionalNote: "Every root shown here is a provisional placeholder from the Stage 1 demo: none has been assigned under QURRA's root verification process yet, and none is reviewed."
   },
 
   root: {
@@ -106,6 +116,7 @@ const QM_I18N_EN = {
     fieldVerbForm: "Verb form",
     fieldRoot: "Root",
     noRoot: "None recorded (common for particles and frozen forms)",
+    fieldLearnerNote: "Learner note",
     occurrencesTitle: "Occurrences (Juz / Surah / Ayah)",
     noOccurrences: "This lemma has no token occurrences in the current demo dataset — included to show how the lemma/root structure stays honest about coverage gaps rather than inventing an example."
   },
@@ -113,13 +124,14 @@ const QM_I18N_EN = {
   notfound: {
     eyebrow: "Not found",
     title: "Page not found",
-    bodyTitleTemplate: "This {kind} isn't in the demo dataset",
-    body: "This prototype covers a small, clearly-labelled demo dataset rather than the full Qur'an. Try Surah Al-Fatihah, Al-Baqarah ayah 2, or Surah Al-Fil ayah 1.",
+    bodyTitleTemplate: "This {kind} doesn't exist",
+    body: "Check the address, or start from the list of Juz or surahs.",
     backHome: "Back to Home",
     kind: { word: "word", page: "page", juz: "Juz", surah: "Surah", root: "root", lemma: "lemma" }
   },
 
   filters: {
+    groupLabel: "Filter by part of speech",
     all: "All",
     noun: "Noun",
     verb: "Verb",
@@ -139,8 +151,13 @@ const QM_I18N_EN = {
     viewInQuran: "View in Qur'an",
     locationTemplate: "Qur'an {surah}:{ayah}, word {position}",
     wordNotFoundTitle: "Word not found",
-    wordNotFoundBody: "This token isn't in the demo dataset.",
-    pronounTemplate: "{person} pronoun"
+    wordNotFoundBody: "This word doesn't exist.",
+    pronounTemplate: "{person} pronoun",
+    lemmaUnresolved: "No lemma has been identified for this word yet.",
+    notAnalysedTitle: "Word analysis not available yet",
+    notAnalysedBody: "This word has no lemma, root or morphology recorded yet. Nothing is guessed: the analysis will appear here once it comes from a reviewed, licensed source.",
+    licenceLabel: "Licence status",
+    inUseNote: "In use"
   },
 
   fields: {
@@ -176,18 +193,20 @@ const QM_I18N_EN = {
     posVerb: "verb",
     posParticle: "particle",
     lemmaPrefix: "lemma",
-    rootLabel: "root"
+    rootLabel: "root",
+    surahLabel: "surah",
+    ayahLabel: "ayah"
   },
 
   enum: {
-    number: { mufrad: "Singular", muthanna: "Dual", "jamʿ": "Plural" },
+    number: { mufrad: "Singular", muthanna: "Dual", jama: "Plural" },
     pluralType: {
-      jamʿ_mudhakkar_salim: "Sound masculine plural",
-      jamʿ_muannath_salim: "Sound feminine plural",
-      jamʿ_taksir: "Broken plural"
+      jama_mudhakkar_salim: "Sound masculine plural",
+      jama_muannath_salim: "Sound feminine plural",
+      jama_taksir: "Broken plural"
     },
     gender: { mudhakkar: "Masculine", muannath: "Feminine" },
-    definitenessState: { "maʿrifa": "Definite", nakira: "Indefinite" },
+    definitenessState: { marifa: "Definite", nakira: "Indefinite" },
     definitenessCause: {
       bi_al: "the definite article (ال)",
       idafa: "a construct/possessive structure (إضافة)",
@@ -202,12 +221,12 @@ const QM_I18N_EN = {
     derivationType: {
       jamid: "Primitive noun (not derived from a verb)",
       masdar: "Verbal noun",
-      ism_faʿil: "Active participle",
-      ism_mafʿul: "Passive participle",
+      ism_fail: "Active participle",
+      ism_mafool: "Passive participle",
       sifa_mushabbaha: "Assimilate adjective"
     },
-    declension: { mabni: "Indeclinable", "muʿrab": "Declinable" },
-    form: { maadi: "Perfective", "mudariʿ": "Imperfective", amr: "Imperative" },
+    declension: { mabni: "Indeclinable", murab: "Declinable" },
+    form: { maadi: "Perfective", mudari: "Imperfective", amr: "Imperative" },
     voice: { active: "Active", passive: "Passive" },
     functionHere: {
       jarr: "Preposition",
@@ -215,7 +234,7 @@ const QM_I18N_EN = {
       nafy_al_jins: "Categorical negation",
       nafy_simple: "Simple negation",
       nahy: "Prohibition",
-      "duʿa": "Supplication marker",
+      dua: "Supplication marker",
       jazm_nafy: "Negates + jussive marker",
       istifham: "Interrogative prefix"
     },
@@ -228,7 +247,7 @@ const QM_I18N_EN = {
       naqis: "Defective (weak final letter)", mudaaf: "Doubled",
       lafif_mafruq: "Doubly-weak, separated", lafif_maqrun: "Doubly-weak, adjacent"
     },
-    pos: { ism: "Noun", "fiʿl": "Verb", harf: "Particle" },
+    pos: { noun: "Noun", verb: "Verb", particle: "Particle" },
     revelation: { Meccan: "Meccan", Medinan: "Medinan" }
   },
 
@@ -238,26 +257,58 @@ const QM_I18N_EN = {
     imperative: "Imperative"
   },
 
+  licenceStatus: {
+    verified: "Licence verified",
+    conditional: "Conditional licence",
+    unresolved: "Licence unresolved",
+    internal: "QURRA-authored",
+    provisional: "Provisional (QURRA-authored draft)"
+  },
+
   source: {
-    "src-quran-text": {
-      name: "Qur'anic text source",
-      status: "PLACEHOLDER. The blueprint (§10) recommends Tanzil.net's verified Uthmani text as the real V1 source. This demo's Arabic text was carefully hand-checked for a handful of extremely well-known verses, but has not been run through the real two-source verification check (blueprint §11) and must not be treated as production-ready."
+    TANZIL_TEXT: {
+      name: "Tanzil Qur'an text (Uthmani)",
+      status: "Official Tanzil Quran text, Uthmani version 1.1, displayed unmodified. The licence terms and the exact source are recorded in the source registry; attribution to the Tanzil Project (tanzil.net) is shown in the page footer."
     },
-    "src-morphology": {
-      name: "Morphology analysis",
-      status: "PLACEHOLDER. Real candidates and their licensing trade-offs are discussed in blueprint §10 (Quranic Arabic Corpus, MASAQ). The segmentation and morphological tags in this demo were written by hand for illustration only, not drawn from either corpus."
+    QURRA_EDITORIAL: {
+      name: "QURRA editorial metadata",
+      status: "Surah and Juz metadata prepared by QURRA for the prototype; not yet checked against a primary metadata source."
     },
-    "src-qurra-editorial": {
-      name: "QURRA editorial gloss / demo classification",
-      status: "Demo/sample content written for this prototype. Not reviewed by a qualified Arabic-grammar scholar (blueprint §11 Stage 5)."
+    QURRA_DEMO_MORPHOLOGY: {
+      name: "QURRA demo segmentation and morphology",
+      status: "Written by hand for the Stage 1 demo. Not imported from any corpus and not reviewed by a qualified Arabic-grammar scholar."
     },
-    "src-verified-conjugation": {
-      name: "Verified conjugation",
-      status: "Demo/sample conjugations shown for UI-demonstration purposes. Marked 'stored_verified' only so the prototype can show what a verified citation triplet looks like once it exists — these specific forms have not actually been through scholarly review."
+    QURRA_GLOSS: {
+      name: "QURRA vocabulary glosses",
+      status: "Short vocabulary glosses drafted by QURRA (not a translation of the Qur'an). Unreviewed drafts."
     },
-    "src-raghib-mufradat": {
-      name: "al-Raghib al-Isfahani — Mufradat al-Qur'an (classical reference)",
-      status: "PLACEHOLDER, not consulted for this demo. Discussed in blueprint §2 as a future (Later-stage, not V1) source for deeper lexical notes, properly page-cited from the actual edition. No page numbers are asserted anywhere in this prototype."
+    QURRA_DEMO_TRANSLATION: {
+      name: "QURRA demo ayah renderings",
+      status: "Working renderings written for the prototype. Not quoted from any published translation and not reviewed."
+    },
+    QURRA_DEMO_CONJUGATION: {
+      name: "QURRA demo conjugation forms",
+      status: "Citation forms entered by hand for the prototype. Not reviewed."
+    },
+    QURRA_DEMO_ROOTS: {
+      name: "QURRA demo root placeholders",
+      status: "Root letters entered by hand in the Stage 1 demo. They have not been assigned under QURRA's root verification process and carry no recorded evidence, so they are shown only as provisional placeholders."
+    },
+    QURRA_ROOT_PROTOCOL: {
+      name: "QURRA root verification protocol",
+      status: "Pending expert review. No root shown in the app has been assigned under it yet."
     }
+  },
+
+  rootState: {
+    provisionalBadge: "Provisional",
+    provisionalNote: "Provisional placeholder root: not yet assigned under QURRA's root verification process and not reviewed.",
+    underReview: "Root under review",
+    notApplicable: "No root is assigned for this kind of word."
+  },
+
+  status: {
+    attribution: "Qur'anic text: Tanzil Project (tanzil.net), Creative Commons Attribution 3.0.",
+    conjugationProvisional: "Provisional — not yet reviewed."
   }
 };

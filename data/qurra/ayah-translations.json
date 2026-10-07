@@ -1,0 +1,103 @@
+{
+  "ayah_translations": [
+    {
+      "ayah_id": "1:1",
+      "text": {
+        "en": "In the name of Allah, the Most Gracious, the Most Merciful.",
+        "ms": "Dengan nama Allah, Yang Maha Pemurah, Yang Maha Penyayang."
+      },
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_DEMO_TRANSLATION"
+      }
+    },
+    {
+      "ayah_id": "1:2",
+      "text": {
+        "en": "All praise belongs to Allah, Lord of all the worlds.",
+        "ms": "Segala puji bagi Allah, Tuhan sekalian alam."
+      },
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_DEMO_TRANSLATION"
+      }
+    },
+    {
+      "ayah_id": "1:3",
+      "text": {
+        "en": "The Most Gracious, the Most Merciful.",
+        "ms": "Yang Maha Pemurah, Yang Maha Penyayang."
+      },
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_DEMO_TRANSLATION"
+      }
+    },
+    {
+      "ayah_id": "1:4",
+      "text": {
+        "en": "Master of the Day of Judgment.",
+        "ms": "Yang Menguasai hari Pembalasan."
+      },
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_DEMO_TRANSLATION"
+      }
+    },
+    {
+      "ayah_id": "1:5",
+      "text": {
+        "en": "You alone we worship, and You alone we ask for help.",
+        "ms": "Hanya Engkaulah yang kami sembah, dan hanya kepada Engkaulah kami memohon pertolongan."
+      },
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_DEMO_TRANSLATION"
+      }
+    },
+    {
+      "ayah_id": "1:6",
+      "text": {
+        "en": "Guide us to the straight path.",
+        "ms": "Tunjukilah kami jalan yang lurus."
+      },
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_DEMO_TRANSLATION"
+      }
+    },
+    {
+      "ayah_id": "1:7",
+      "text": {
+        "en": "The path of those You have blessed — not of those who have earned anger, nor of those who have gone astray.",
+        "ms": "Iaitu jalan orang-orang yang telah Engkau kurniakan nikmat ke atas mereka — bukan jalan orang-orang yang dimurkai, dan bukan pula jalan orang-orang yang sesat."
+      },
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_DEMO_TRANSLATION"
+      }
+    },
+    {
+      "ayah_id": "2:2",
+      "text": {
+        "en": "This is the Book; there is no doubt in it — a guidance for the God-conscious.",
+        "ms": "Inilah Kitab yang tidak ada keraguan padanya; menjadi petunjuk bagi orang-orang yang bertakwa."
+      },
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_DEMO_TRANSLATION"
+      }
+    },
+    {
+      "ayah_id": "105:1",
+      "text": {
+        "en": "Have you not seen how your Lord dealt with the companions of the elephant?",
+        "ms": "Tidakkah engkau perhatikan bagaimana Tuhanmu bertindak terhadap angkatan tentera bergajah?"
+      },
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_DEMO_TRANSLATION"
+      }
+    }
+  ]
+}

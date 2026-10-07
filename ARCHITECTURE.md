@@ -1,7 +1,14 @@
 # QURRA Mufradat al-Qur'an — Architecture
 
 Stage 1 deliverable: a static, dependency-free frontend prototype. No
-backend, no database, no build step, no framework. This document explains
+backend, no database, no framework. **Stage 2 update:** the data now comes from
+hand-editable JSON under `data/`, validated and compiled to `js/generated/*` by
+`node scripts/build.js` (Node is needed only for that step; the app itself still
+needs no build to *run*). See **STAGE_2_IMPLEMENTATION.md** for the data model,
+source registry, statuses and pipeline; the sections below describe the UI
+architecture, which is unchanged. **Stage 3:** the dataset is now the complete Qur'anic text
+(`data/raw/tanzil/` verbatim → `scripts/import-tanzil.js` → `data/qurra/ayahs.json`); tokens are derived
+from it (`scripts/lib/tokenize.js`); see **STAGE_3_REPORT.md**. This document explains
 how the pieces fit together and — most importantly — **how to swap the
 demo dataset for a real one later without rewriting the UI.**
 
@@ -23,7 +30,8 @@ can call every other one directly — no bundler, no `import`/`export`, no
 ```
 index.html
  └─ css/ (tokens → base → layout → components → vocabulary → responsive)
- └─ js/  (translations/en → translations/ms → i18n → state → demoData → data →
+ └─ js/  (translations/en → translations/ms → i18n → state → normalize →
+          generated/dataset → generated/search-index → data →
           filters → wordDetail → render → navigation → router → main)
 ```
 
@@ -37,8 +45,9 @@ loaded before it.
 | `js/translations/en.js`, `js/translations/ms.js` | `QM_I18N_EN`/`QM_I18N_MS` — every learner-facing UI string, keyed identically in both files. No JS logic; plain nested string dictionaries. See §11. |
 | `js/i18n.js` | `QMI18n` — the translation engine: key lookup (`t()`), multilingual-data-field lookup (`pick()`), current-language persistence, and applying `[data-i18n*]` attributes in `index.html`'s static chrome. See §11. |
 | `js/state.js` | `QMState` — the few bits of UI state not encoded in the URL (active filter, open/closed detail panel, search term). A plain object + subscribe/notify, no framework. |
-| `js/demoData.js` | The raw demo dataset (`QM_ROOTS`, `QM_LEMMAS`, `QM_TOKENS`, `QM_AYAHS`, `QM_SURAHS`, `QM_JUZ`, `QM_SOURCE_REGISTRY`). **The only file a real-data replacement needs to touch** — see §7. |
-| `js/data.js` | `QMData` — the repository/data-access layer. Every other module calls `QMData.getX()`/`listX()` functions; nothing outside this file ever reads `QM_TOKENS` etc. directly. |
+| `js/generated/dataset.js`, `js/generated/search-index.js` | **Generated** (never edited): `QM_DATASET` and `QM_SEARCH_INDEX`, compiled from `data/` by `scripts/build.js`. Replaces the Stage 1 `demoData.js` (still in git history, commit `398f4f4`). |
+| `js/normalize.js` | `QMNormalize` — Arabic search normalisation, shared by the build (index keys) and the browser (query). Matching only; never used for display. |
+| `js/data.js` | `QMData` — the repository/data-access layer. Every other module calls `QMData.getX()`/`listX()` functions; nothing outside this file ever reads `QM_DATASET` directly. It also applies the taxonomy display policy, so unresolved data is never presented as settled. |
 | `js/filters.js` | `QMFilters` — the All/اسم/فعل/حرف chip bar; only renders chips for parts of speech actually present in the tokens being shown. |
 | `js/wordDetail.js` | `QMWordDetail` — builds the progressive-disclosure HTML for one token's detail panel (always-visible header, then four expandable sections). |
 | `js/render.js` | `QMRender` — one function per screen (Home, Juz, Surahs, Surah/Ayah, Roots, Root, Lemmas, Lemma). Each returns `{ html, mount }`; `mount(viewEl)` wires up anything plain links can't do (the filter bar). |
@@ -57,11 +66,11 @@ survives a refresh on any route (the server only ever sees a request for
 |---|---|
 | `#/home` (or empty) | Home — hero + 30-card Juz grid |
 | `#/juz/:n` | Juz screen — Surah list, or an honest "not yet available" state |
-| `#/juz/:n/surah/:m` | Same as `#/surah/:m` (Juz→Surah drill-down) |
+| `#/juz/:n/surah/:m` | The Surah screen with Juz context (breadcrumb Home / Juz n / Surah, "Juz" nav highlighted); linked from the Juz screen. Not-found if Juz `n` doesn't list surah `m` |
 | `#/surahs` | All demo surahs |
 | `#/surah/:n` | Surah/Ayah reading screen, with the POS filter bar |
-| `#/surah/:n/ayah/:m` | Same screen, scrolled to and highlighting ayah `m` |
-| `#/word/:tokenId` | Resolves the token's Surah/Ayah, renders that screen, and auto-opens the word-detail overlay for it — this is what makes a word "shareable" as a direct link |
+| `#/surah/:n/ayah/:m` | Same screen, scrolled to and highlighting ayah `m`; if the demo has no data for ayah `m`, a "not available in this demo dataset" state instead |
+| `#/word/:tokenId` | Resolves the token's Surah/Ayah, renders that screen, and auto-opens the word-detail overlay for it — this is what makes a word "shareable" as a direct link. Closing the overlay swaps the URL (`replaceState`, no re-render) for `#/surah/:n/ayah/:m`, so the same word can be clicked again; navigating to any other route closes the overlay |
 | `#/roots`, `#/root/:id` | Root index / Root detail (related lemmas + occurrences) |
 | `#/lemmas`, `#/lemma/:id` | Lemma index / Lemma detail (fields + occurrences) |
 | anything else | A clearly-labelled "not in the demo dataset" state, never a blank screen |
@@ -108,7 +117,7 @@ library; a `Set` of subscriber callbacks is enough at this scale.
 
 ## 7. Future data replacement (the most important part)
 
-**Goal: swap `js/demoData.js` for a real dataset without touching
+**Goal: grow or replace the dataset (`data/` → `js/generated/`) without touching
 `render.js`, `wordDetail.js`, `filters.js`, `router.js`, `navigation.js`,
 or any CSS.**
 

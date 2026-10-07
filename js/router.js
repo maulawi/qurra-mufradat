@@ -13,7 +13,7 @@ const QMRouter = (function () {
     { pattern: /^\/home\/?$/, navKey: "home", handler: () => QMRender.renderHome() },
     { pattern: /^\/?$/, navKey: "home", handler: () => QMRender.renderHome() },
 
-    { pattern: /^\/juz\/(\d+)\/surah\/(\d+)\/?$/, navKey: "juz", handler: (m) => QMRender.renderSurah(m[2]) },
+    { pattern: /^\/juz\/(\d+)\/surah\/(\d+)\/?$/, navKey: "juz", handler: (m) => QMRender.renderSurah(m[2], { juz: m[1] }) },
     { pattern: /^\/juz\/(\d+)\/?$/, navKey: "juz", handler: (m) => QMRender.renderJuz(m[1]) },
 
     { pattern: /^\/surahs\/?$/, navKey: "surahs", handler: () => QMRender.renderSurahs() },
@@ -43,9 +43,26 @@ const QMRouter = (function () {
     return result;
   }
 
-  function parseAndRender() {
+  // <body> (not the window) is the page's scroll container — see the
+  // `html, body { height: 100% }` rules — so every plausible scroller is reset.
+  function resetScroll() {
+    window.scrollTo(0, 0);
+    [document.scrollingElement, document.documentElement, document.body, document.getElementById("qm-main")]
+      .forEach(el => { if (el) el.scrollTop = 0; });
+  }
+
+  // opts.preserveScroll: re-render in place (e.g. after a language switch)
+  // without jumping back to the top.
+  function parseAndRender(opts) {
+    opts = opts || {};
     const raw = window.location.hash || "#/home";
     const path = raw.replace(/^#/, "");
+
+    // Any route other than a word route dismisses the word-detail overlay
+    // (a word route re-opens it itself, via its mount below).
+    if (!/^\/word\//.test(path) && window.QMDetailOverlay && window.QMDetailOverlay.isOpen()) {
+      window.QMDetailOverlay.close({ restoreFocus: false });
+    }
 
     let matched = null;
     let match = null;
@@ -63,22 +80,20 @@ const QMRouter = (function () {
     }
 
     view.innerHTML = result.html;
+
+    // Start every navigation at the top, unless the screen deliberately
+    // scrolls to a target itself (result.keepScroll — the ayah/word routes).
+    if (!opts.preserveScroll && !result.keepScroll) resetScroll();
+
     if (result.mount) result.mount(view);
 
     QMState.setRoute({ path });
     QMNavigation.setActiveNav(matched ? matched.navKey : null);
-
-    // Don't fight a deliberate scroll-to-ayah from the Surah mount above.
-    if (!/\/(surah|word)\//.test(path) && !/^\/surah\/\d+\/ayah\//.test(path)) {
-      window.scrollTo({ top: 0, behavior: "auto" });
-      const main = document.getElementById("qm-main");
-      if (main) main.scrollTop = 0;
-    }
   }
 
   function init() {
-    window.addEventListener("hashchange", parseAndRender);
-    window.addEventListener("DOMContentLoaded", parseAndRender);
+    window.addEventListener("hashchange", () => parseAndRender());
+    window.addEventListener("DOMContentLoaded", () => parseAndRender());
     // In case the script runs after DOMContentLoaded already fired.
     if (document.readyState !== "loading") parseAndRender();
   }

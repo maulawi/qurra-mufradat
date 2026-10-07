@@ -1,3 +1,10 @@
+> **Superseded for stored shapes.** This document describes the Stage 1 demo model (`js/demoData.js`).
+> The Stage 2 model (Token → Form → Segments → Lemma → Root, statuses, provenance, source registry)
+> is documented in **STAGE_2_IMPLEMENTATION.md** and enforced by `scripts/lib/validate.js`.
+> The *concepts* below (independent attributes, lemma explanations not duplicated onto tokens,
+> multilingual `{en, ms}` fields, never translating Arabic terminology) still hold; field names, ids
+> and codes (e.g. `ism`/`fiʿl`/`harf`, `jamʿ`) are the old ones — now `noun`/`verb`/`particle`, `jama`, …
+
 # QURRA Mufradat al-Qur'an — Data Schema
 
 This document explains the conceptual data model behind `js/demoData.js`, so

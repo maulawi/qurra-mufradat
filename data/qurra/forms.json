@@ -1,0 +1,1306 @@
+{
+  "forms": [
+    {
+      "form_id": "frm-abada-1-02940c35",
+      "surface": "نَعْبُدُ",
+      "segments": [
+        {
+          "segment_id": "frm-abada-1-02940c35.s1",
+          "type": "stem",
+          "surface": "نَعْبُدُ",
+          "pos": "verb",
+          "lemma_id": "abada-1"
+        }
+      ],
+      "morphology": {
+        "aspect": "mudari",
+        "person": 1,
+        "number": "jama",
+        "gender": null,
+        "voice": "active"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-ala-1-3576379e",
+      "surface": "عَلَيْهِمْ",
+      "segments": [
+        {
+          "segment_id": "frm-ala-1-3576379e.s1",
+          "type": "stem",
+          "surface": "عَلَيْ",
+          "pos": "particle",
+          "lemma_id": "ala-1"
+        },
+        {
+          "segment_id": "frm-ala-1-3576379e.s2",
+          "type": "enclitic",
+          "surface": "هِمْ",
+          "pos": "noun",
+          "pronoun_features": {
+            "person": 3,
+            "number": "jama",
+            "gender": "mudhakkar"
+          }
+        }
+      ],
+      "morphology": {
+        "function_here": "jarr"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-alam-1-19635301",
+      "surface": "ٱلْعَٰلَمِينَ",
+      "segments": [
+        {
+          "segment_id": "frm-alam-1-19635301.s1",
+          "type": "proclitic",
+          "surface": "ٱلْ",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-alam-1-19635301.s2",
+          "type": "stem",
+          "surface": "عَٰلَمِينَ",
+          "pos": "noun",
+          "lemma_id": "alam-1"
+        }
+      ],
+      "morphology": {
+        "number": "jama",
+        "plural_type": "jama_mudhakkar_salim",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "bi_al"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-alladhina-1-31dd51a8",
+      "surface": "ٱلَّذِينَ",
+      "segments": [
+        {
+          "segment_id": "frm-alladhina-1-31dd51a8.s1",
+          "type": "stem",
+          "surface": "ٱلَّذِينَ",
+          "pos": "noun",
+          "lemma_id": "alladhina-1"
+        }
+      ],
+      "morphology": {
+        "number": "jama",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "mawsul"
+        },
+        "reference_class": "mawsul",
+        "declension": "mabni"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-allah-1-77aa1b4d",
+      "surface": "ٱللَّهِ",
+      "segments": [
+        {
+          "segment_id": "frm-allah-1-77aa1b4d.s1",
+          "type": "stem",
+          "surface": "ٱللَّهِ",
+          "pos": "noun",
+          "lemma_id": "allah-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "alam"
+        },
+        "reference_class": "alam"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-allah-1-87819724",
+      "surface": "لِلَّهِ",
+      "segments": [
+        {
+          "segment_id": "frm-allah-1-87819724.s1",
+          "type": "proclitic",
+          "surface": "لِ",
+          "pos": "particle",
+          "function": "jarr",
+          "gloss_en": "for/to"
+        },
+        {
+          "segment_id": "frm-allah-1-87819724.s2",
+          "type": "stem",
+          "surface": "ٱللَّهِ",
+          "pos": "noun",
+          "lemma_id": "allah-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "alam"
+        },
+        "reference_class": "alam"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      },
+      "segmentation_note": {
+        "en": "Arabic spelling merges لِ + اللَّه into one written form (لِلَّهِ) — the breakdown shown here is the underlying morphemic analysis, not a literal letter-by-letter split. See DATA_SCHEMA.md.",
+        "ms": "Ejaan Arab menggabungkan لِ + اللَّه menjadi satu bentuk tulisan (لِلَّهِ) — pecahan yang dipaparkan di sini ialah analisis morfem yang mendasari, bukan pemisahan huruf demi huruf secara literal. Rujuk DATA_SCHEMA.md."
+      }
+    },
+    {
+      "form_id": "frm-anama-1-6119bcfc",
+      "surface": "أَنْعَمْتَ",
+      "segments": [
+        {
+          "segment_id": "frm-anama-1-6119bcfc.s1",
+          "type": "stem",
+          "surface": "أَنْعَمْ",
+          "pos": "verb",
+          "lemma_id": "anama-1"
+        },
+        {
+          "segment_id": "frm-anama-1-6119bcfc.s2",
+          "type": "enclitic",
+          "surface": "تَ",
+          "pos": "noun",
+          "pronoun_features": {
+            "person": 2,
+            "number": "mufrad",
+            "gender": "mudhakkar"
+          }
+        }
+      ],
+      "morphology": {
+        "aspect": "maadi",
+        "person": 2,
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "voice": "active"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-dall-1-a82fa725",
+      "surface": "ٱلضَّآلِّينَ",
+      "segments": [
+        {
+          "segment_id": "frm-dall-1-a82fa725.s1",
+          "type": "proclitic",
+          "surface": "ٱل",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-dall-1-a82fa725.s2",
+          "type": "stem",
+          "surface": "ضَّآلِّينَ",
+          "pos": "noun",
+          "lemma_id": "dall-1"
+        }
+      ],
+      "morphology": {
+        "number": "jama",
+        "plural_type": "jama_mudhakkar_salim",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "bi_al"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-deen-1-2cbc8685",
+      "surface": "ٱلدِّينِ",
+      "segments": [
+        {
+          "segment_id": "frm-deen-1-2cbc8685.s1",
+          "type": "proclitic",
+          "surface": "ٱل",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-deen-1-2cbc8685.s2",
+          "type": "stem",
+          "surface": "دِّينِ",
+          "pos": "noun",
+          "lemma_id": "deen-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "bi_al"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-dhalika-1-4eafd05a",
+      "surface": "ذَٰلِكَ",
+      "segments": [
+        {
+          "segment_id": "frm-dhalika-1-4eafd05a.s1",
+          "type": "stem",
+          "surface": "ذَٰلِكَ",
+          "pos": "noun",
+          "lemma_id": "dhalika-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "ishara"
+        },
+        "reference_class": "ishara",
+        "declension": "mabni"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-faala-1-42ba0ca5",
+      "surface": "فَعَلَ",
+      "segments": [
+        {
+          "segment_id": "frm-faala-1-42ba0ca5.s1",
+          "type": "stem",
+          "surface": "فَعَلَ",
+          "pos": "verb",
+          "lemma_id": "faala-1"
+        }
+      ],
+      "morphology": {
+        "aspect": "maadi",
+        "person": 3,
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "voice": "active"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-fi-1-533d89e7",
+      "surface": "فِيهِ",
+      "segments": [
+        {
+          "segment_id": "frm-fi-1-533d89e7.s1",
+          "type": "stem",
+          "surface": "فِي",
+          "pos": "particle",
+          "lemma_id": "fi-1"
+        },
+        {
+          "segment_id": "frm-fi-1-533d89e7.s2",
+          "type": "enclitic",
+          "surface": "هِ",
+          "pos": "noun",
+          "pronoun_features": {
+            "person": 3,
+            "number": "mufrad",
+            "gender": "mudhakkar"
+          }
+        }
+      ],
+      "morphology": {
+        "function_here": "jarr"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-fil-1-488fc95f",
+      "surface": "ٱلْفِيلِ",
+      "segments": [
+        {
+          "segment_id": "frm-fil-1-488fc95f.s1",
+          "type": "proclitic",
+          "surface": "ٱلْ",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-fil-1-488fc95f.s2",
+          "type": "stem",
+          "surface": "فِيلِ",
+          "pos": "noun",
+          "lemma_id": "fil-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "idafa"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-ghayr-1-81cd35eb",
+      "surface": "غَيْرِ",
+      "segments": [
+        {
+          "segment_id": "frm-ghayr-1-81cd35eb.s1",
+          "type": "stem",
+          "surface": "غَيْرِ",
+          "pos": "noun",
+          "lemma_id": "ghayr-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "idafa"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-hada-1-bba35b1e",
+      "surface": "ٱهْدِنَا",
+      "segments": [
+        {
+          "segment_id": "frm-hada-1-bba35b1e.s1",
+          "type": "stem",
+          "surface": "ٱهْدِ",
+          "pos": "verb",
+          "lemma_id": "hada-1"
+        },
+        {
+          "segment_id": "frm-hada-1-bba35b1e.s2",
+          "type": "enclitic",
+          "surface": "نَا",
+          "pos": "noun",
+          "pronoun_features": {
+            "person": 1,
+            "number": "jama",
+            "gender": null
+          }
+        }
+      ],
+      "morphology": {
+        "aspect": "amr",
+        "person": 2,
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "voice": "active"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-hamd-1-11807b5e",
+      "surface": "ٱلْحَمْدُ",
+      "segments": [
+        {
+          "segment_id": "frm-hamd-1-11807b5e.s1",
+          "type": "proclitic",
+          "surface": "ٱلْ",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-hamd-1-11807b5e.s2",
+          "type": "stem",
+          "surface": "حَمْدُ",
+          "pos": "noun",
+          "lemma_id": "hamd-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "bi_al"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-huda-1-8734a0ff",
+      "surface": "هُدًى",
+      "segments": [
+        {
+          "segment_id": "frm-huda-1-8734a0ff.s1",
+          "type": "stem",
+          "surface": "هُدًى",
+          "pos": "noun",
+          "lemma_id": "huda-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "nakira"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-ism-1-54fd0386",
+      "surface": "بِسْمِ",
+      "segments": [
+        {
+          "segment_id": "frm-ism-1-54fd0386.s1",
+          "type": "proclitic",
+          "surface": "بِ",
+          "pos": "particle",
+          "function": "jarr",
+          "gloss_en": "with/by"
+        },
+        {
+          "segment_id": "frm-ism-1-54fd0386.s2",
+          "type": "stem",
+          "surface": "سْمِ",
+          "pos": "noun",
+          "lemma_id": "ism-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "idafa"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-istaana-1-be7cbcb6",
+      "surface": "نَسْتَعِينُ",
+      "segments": [
+        {
+          "segment_id": "frm-istaana-1-be7cbcb6.s1",
+          "type": "stem",
+          "surface": "نَسْتَعِينُ",
+          "pos": "verb",
+          "lemma_id": "istaana-1"
+        }
+      ],
+      "morphology": {
+        "aspect": "mudari",
+        "person": 1,
+        "number": "jama",
+        "gender": null,
+        "voice": "active"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-iyyaa-1-b3825d9f",
+      "surface": "وَإِيَّاكَ",
+      "segments": [
+        {
+          "segment_id": "frm-iyyaa-1-b3825d9f.s1",
+          "type": "proclitic",
+          "surface": "وَ",
+          "pos": "particle",
+          "function": "atf",
+          "gloss_en": "and"
+        },
+        {
+          "segment_id": "frm-iyyaa-1-b3825d9f.s2",
+          "type": "stem",
+          "surface": "إِيَّا",
+          "pos": "noun",
+          "lemma_id": "iyyaa-1"
+        },
+        {
+          "segment_id": "frm-iyyaa-1-b3825d9f.s3",
+          "type": "enclitic",
+          "surface": "كَ",
+          "pos": "noun",
+          "pronoun_features": {
+            "person": 2,
+            "number": "mufrad",
+            "gender": "mudhakkar"
+          }
+        }
+      ],
+      "morphology": {
+        "number": null,
+        "gender": null,
+        "definiteness": null,
+        "reference_class": "pronoun",
+        "declension": "mabni"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-iyyaa-1-f94ef300",
+      "surface": "إِيَّاكَ",
+      "segments": [
+        {
+          "segment_id": "frm-iyyaa-1-f94ef300.s1",
+          "type": "stem",
+          "surface": "إِيَّا",
+          "pos": "noun",
+          "lemma_id": "iyyaa-1"
+        },
+        {
+          "segment_id": "frm-iyyaa-1-f94ef300.s2",
+          "type": "enclitic",
+          "surface": "كَ",
+          "pos": "noun",
+          "pronoun_features": {
+            "person": 2,
+            "number": "mufrad",
+            "gender": "mudhakkar"
+          }
+        }
+      ],
+      "morphology": {
+        "number": null,
+        "gender": null,
+        "definiteness": null,
+        "reference_class": "pronoun",
+        "declension": "mabni"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-kayfa-1-2e00e360",
+      "surface": "كَيْفَ",
+      "segments": [
+        {
+          "segment_id": "frm-kayfa-1-2e00e360.s1",
+          "type": "stem",
+          "surface": "كَيْفَ",
+          "pos": "noun",
+          "lemma_id": "kayfa-1"
+        }
+      ],
+      "morphology": {
+        "number": null,
+        "gender": null,
+        "definiteness": null,
+        "reference_class": "istifham",
+        "declension": "mabni"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-kitab-1-497770a3",
+      "surface": "ٱلْكِتَٰبُ",
+      "segments": [
+        {
+          "segment_id": "frm-kitab-1-497770a3.s1",
+          "type": "proclitic",
+          "surface": "ٱلْ",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-kitab-1-497770a3.s2",
+          "type": "stem",
+          "surface": "كِتَٰبُ",
+          "pos": "noun",
+          "lemma_id": "kitab-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "bi_al"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-la-1-20773b6c",
+      "surface": "وَلَا",
+      "segments": [
+        {
+          "segment_id": "frm-la-1-20773b6c.s1",
+          "type": "proclitic",
+          "surface": "وَ",
+          "pos": "particle",
+          "function": "atf",
+          "gloss_en": "and"
+        },
+        {
+          "segment_id": "frm-la-1-20773b6c.s2",
+          "type": "stem",
+          "surface": "لَا",
+          "pos": "particle",
+          "lemma_id": "la-1"
+        }
+      ],
+      "morphology": {
+        "function_here": "nafy_simple"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-la-1-221d1bfb",
+      "surface": "لَا",
+      "segments": [
+        {
+          "segment_id": "frm-la-1-221d1bfb.s1",
+          "type": "stem",
+          "surface": "لَا",
+          "pos": "particle",
+          "lemma_id": "la-1"
+        }
+      ],
+      "morphology": {
+        "function_here": "nafy_al_jins"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-lam-1-2066269a",
+      "surface": "أَلَمْ",
+      "segments": [
+        {
+          "segment_id": "frm-lam-1-2066269a.s1",
+          "type": "proclitic",
+          "surface": "أَ",
+          "pos": "particle",
+          "function": "istifham",
+          "gloss_en": "(interrogative prefix)"
+        },
+        {
+          "segment_id": "frm-lam-1-2066269a.s2",
+          "type": "stem",
+          "surface": "لَمْ",
+          "pos": "particle",
+          "lemma_id": "lam-1"
+        }
+      ],
+      "morphology": {
+        "function_here": "jazm_nafy"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-maghdub-1-aa031338",
+      "surface": "ٱلْمَغْضُوبِ",
+      "segments": [
+        {
+          "segment_id": "frm-maghdub-1-aa031338.s1",
+          "type": "proclitic",
+          "surface": "ٱلْ",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-maghdub-1-aa031338.s2",
+          "type": "stem",
+          "surface": "مَغْضُوبِ",
+          "pos": "noun",
+          "lemma_id": "maghdub-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "bi_al"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-malik-1-7d22f3bf",
+      "surface": "مَٰلِكِ",
+      "segments": [
+        {
+          "segment_id": "frm-malik-1-7d22f3bf.s1",
+          "type": "stem",
+          "surface": "مَٰلِكِ",
+          "pos": "noun",
+          "lemma_id": "malik-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "idafa"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-mustaqim-1-3266788d",
+      "surface": "ٱلْمُسْتَقِيمَ",
+      "segments": [
+        {
+          "segment_id": "frm-mustaqim-1-3266788d.s1",
+          "type": "proclitic",
+          "surface": "ٱلْ",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-mustaqim-1-3266788d.s2",
+          "type": "stem",
+          "surface": "مُسْتَقِيمَ",
+          "pos": "noun",
+          "lemma_id": "mustaqim-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "bi_al"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-muttaqin-1-c5896566",
+      "surface": "لِّلْمُتَّقِينَ",
+      "segments": [
+        {
+          "segment_id": "frm-muttaqin-1-c5896566.s1",
+          "type": "proclitic",
+          "surface": "لِ",
+          "pos": "particle",
+          "function": "jarr",
+          "gloss_en": "for"
+        },
+        {
+          "segment_id": "frm-muttaqin-1-c5896566.s2",
+          "type": "proclitic",
+          "surface": "ٱل",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-muttaqin-1-c5896566.s3",
+          "type": "stem",
+          "surface": "مُتَّقِينَ",
+          "pos": "noun",
+          "lemma_id": "muttaqin-1"
+        }
+      ],
+      "morphology": {
+        "number": "jama",
+        "plural_type": "jama_mudhakkar_salim",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "bi_al"
+        },
+        "reference_class": null,
+        "grammatical_case": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      },
+      "segmentation_note": {
+        "en": "Arabic spelling merges لِ + ال into one doubled-lam form (لِّ) — the breakdown shown here is the underlying morphemic analysis, not a literal letter-by-letter split. See DATA_SCHEMA.md.",
+        "ms": "Ejaan Arab menggabungkan لِ + ال menjadi satu bentuk lam bergeganda (لِّ) — pecahan yang dipaparkan di sini ialah analisis morfem yang mendasari, bukan pemisahan huruf demi huruf secara literal. Rujuk DATA_SCHEMA.md."
+      }
+    },
+    {
+      "form_id": "frm-raa-1-7c4bda20",
+      "surface": "تَرَ",
+      "segments": [
+        {
+          "segment_id": "frm-raa-1-7c4bda20.s1",
+          "type": "stem",
+          "surface": "تَرَ",
+          "pos": "verb",
+          "lemma_id": "raa-1"
+        }
+      ],
+      "morphology": {
+        "aspect": "mudari",
+        "person": 2,
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "voice": "active"
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-rabb-1-0ac86256",
+      "surface": "رَبِّ",
+      "segments": [
+        {
+          "segment_id": "frm-rabb-1-0ac86256.s1",
+          "type": "stem",
+          "surface": "رَبِّ",
+          "pos": "noun",
+          "lemma_id": "rabb-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "idafa"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-rabb-1-e6a972e0",
+      "surface": "رَبُّكَ",
+      "segments": [
+        {
+          "segment_id": "frm-rabb-1-e6a972e0.s1",
+          "type": "stem",
+          "surface": "رَبُّ",
+          "pos": "noun",
+          "lemma_id": "rabb-1"
+        },
+        {
+          "segment_id": "frm-rabb-1-e6a972e0.s2",
+          "type": "enclitic",
+          "surface": "كَ",
+          "pos": "noun",
+          "pronoun_features": {
+            "person": 2,
+            "number": "mufrad",
+            "gender": "mudhakkar"
+          }
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "idafa"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-raheem-1-744988b2",
+      "surface": "ٱلرَّحِيمِ",
+      "segments": [
+        {
+          "segment_id": "frm-raheem-1-744988b2.s1",
+          "type": "proclitic",
+          "surface": "ٱل",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-raheem-1-744988b2.s2",
+          "type": "stem",
+          "surface": "رَّحِيمِ",
+          "pos": "noun",
+          "lemma_id": "raheem-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "bi_al"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-rahman-1-ffbf90db",
+      "surface": "ٱلرَّحْمَٰنِ",
+      "segments": [
+        {
+          "segment_id": "frm-rahman-1-ffbf90db.s1",
+          "type": "proclitic",
+          "surface": "ٱل",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-rahman-1-ffbf90db.s2",
+          "type": "stem",
+          "surface": "رَّحْمَٰنِ",
+          "pos": "noun",
+          "lemma_id": "rahman-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "bi_al"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-rayb-1-cec9b29c",
+      "surface": "رَيْبَ",
+      "segments": [
+        {
+          "segment_id": "frm-rayb-1-cec9b29c.s1",
+          "type": "stem",
+          "surface": "رَيْبَ",
+          "pos": "noun",
+          "lemma_id": "rayb-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "nakira"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-sahib-1-6405813e",
+      "surface": "بِأَصْحَٰبِ",
+      "segments": [
+        {
+          "segment_id": "frm-sahib-1-6405813e.s1",
+          "type": "proclitic",
+          "surface": "بِ",
+          "pos": "particle",
+          "function": "jarr",
+          "gloss_en": "with/against"
+        },
+        {
+          "segment_id": "frm-sahib-1-6405813e.s2",
+          "type": "stem",
+          "surface": "أَصْحَٰبِ",
+          "pos": "noun",
+          "lemma_id": "sahib-1"
+        }
+      ],
+      "morphology": {
+        "number": "jama",
+        "plural_type": "jama_taksir",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "idafa"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-sirat-1-c3390b12",
+      "surface": "ٱلصِّرَٰطَ",
+      "segments": [
+        {
+          "segment_id": "frm-sirat-1-c3390b12.s1",
+          "type": "proclitic",
+          "surface": "ٱل",
+          "pos": "particle",
+          "function": "definite_article"
+        },
+        {
+          "segment_id": "frm-sirat-1-c3390b12.s2",
+          "type": "stem",
+          "surface": "صِّرَٰطَ",
+          "pos": "noun",
+          "lemma_id": "sirat-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "bi_al"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-sirat-1-e1034b6d",
+      "surface": "صِرَٰطَ",
+      "segments": [
+        {
+          "segment_id": "frm-sirat-1-e1034b6d.s1",
+          "type": "stem",
+          "surface": "صِرَٰطَ",
+          "pos": "noun",
+          "lemma_id": "sirat-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "idafa"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "form_id": "frm-yawm-1-c4e3b258",
+      "surface": "يَوْمِ",
+      "segments": [
+        {
+          "segment_id": "frm-yawm-1-c4e3b258.s1",
+          "type": "stem",
+          "surface": "يَوْمِ",
+          "pos": "noun",
+          "lemma_id": "yawm-1"
+        }
+      ],
+      "morphology": {
+        "number": "mufrad",
+        "gender": "mudhakkar",
+        "definiteness": {
+          "state": "marifa",
+          "cause": "idafa"
+        },
+        "reference_class": null
+      },
+      "status": "provisional",
+      "provenance": {
+        "morphology": {
+          "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    }
+  ]
+}

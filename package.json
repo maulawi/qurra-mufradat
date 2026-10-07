@@ -1,0 +1,13 @@
+{
+  "name": "qurra-mufradat",
+  "version": "0.3.0-stage3",
+  "private": true,
+  "description": "QURRA Mufradat al-Qur'an: static vanilla-JS app. No runtime dependencies; Node is only needed to validate data and regenerate js/generated/*.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "validate": "node scripts/validate-data.js",
+    "test": "node scripts/tests/test-validate.js && node scripts/tests/test-data-layer.js",
+    "check": "node scripts/validate-data.js && node scripts/build-dataset.js --check"
+  },
+  "license": "UNLICENSED"
+}

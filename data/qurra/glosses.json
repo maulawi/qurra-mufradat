@@ -1,0 +1,625 @@
+{
+  "glosses": [
+    {
+      "gloss_id": "gloss-abada-1",
+      "lemma_id": "abada-1",
+      "lexical": {
+        "en": "to worship",
+        "ms": "menyembah, beribadah"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-ala-1",
+      "lemma_id": "ala-1",
+      "lexical": {
+        "en": "on, upon",
+        "ms": "atas, ke atas"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-alam-1",
+      "lemma_id": "alam-1",
+      "lexical": {
+        "en": "world, realm (of creation)",
+        "ms": "alam, dunia (ciptaan)"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": "A distinct lexeme from عَالِم ('knower' — the ism fa'il of عَلِمَ), historically related to the same root but not derivationally the same word; classed here as jamid rather than as an ism fa'il.",
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-alladhina-1",
+      "lemma_id": "alladhina-1",
+      "lexical": {
+        "en": "those who",
+        "ms": "mereka yang / orang-orang yang"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-allah-1",
+      "lemma_id": "allah-1",
+      "lexical": {
+        "en": "Allah — the One God",
+        "ms": "Allah — Tuhan Yang Maha Esa"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-anama-1",
+      "lemma_id": "anama-1",
+      "lexical": {
+        "en": "to bestow favor/blessing upon",
+        "ms": "mengurniakan nikmat ke atas"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-dall-1",
+      "lemma_id": "dall-1",
+      "lexical": {
+        "en": "one who has gone astray",
+        "ms": "orang yang sesat"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-deen-1",
+      "lemma_id": "deen-1",
+      "lexical": {
+        "en": "judgment, recompense; religion, a way of life",
+        "ms": "pembalasan, ganjaran; agama, cara hidup"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-dhalika-1",
+      "lemma_id": "dhalika-1",
+      "lexical": {
+        "en": "that",
+        "ms": "itu"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-faala-1",
+      "lemma_id": "faala-1",
+      "lexical": {
+        "en": "to do, to act",
+        "ms": "melakukan, bertindak"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-fi-1",
+      "lemma_id": "fi-1",
+      "lexical": {
+        "en": "in",
+        "ms": "di dalam"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-fil-1",
+      "lemma_id": "fil-1",
+      "lexical": {
+        "en": "elephant",
+        "ms": "gajah"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-ghayr-1",
+      "lemma_id": "ghayr-1",
+      "lexical": {
+        "en": "other than, not",
+        "ms": "selain, bukan"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-hada-1",
+      "lemma_id": "hada-1",
+      "lexical": {
+        "en": "to guide",
+        "ms": "memberi petunjuk"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-hamd-1",
+      "lemma_id": "hamd-1",
+      "lexical": {
+        "en": "praise",
+        "ms": "pujian"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-huda-1",
+      "lemma_id": "huda-1",
+      "lexical": {
+        "en": "guidance",
+        "ms": "petunjuk, hidayah"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-ism-1",
+      "lemma_id": "ism-1",
+      "lexical": {
+        "en": "name",
+        "ms": "nama"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": "Root debated among grammarians (س-م-و vs و-س-م) — intentionally omitted here rather than asserted.",
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-istaana-1",
+      "lemma_id": "istaana-1",
+      "lexical": {
+        "en": "to seek help, to ask for assistance",
+        "ms": "memohon pertolongan, meminta bantuan"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-ittaqa-1",
+      "lemma_id": "ittaqa-1",
+      "lexical": {
+        "en": "to be mindful of God, to guard oneself against wrongdoing",
+        "ms": "bertakwa kepada Allah, menjaga diri daripada kesalahan"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": "Included to demonstrate that one root (و ق ي) carries more than one lemma. It has no token occurrences in this small demo — see its Lemma page for how the UI handles that honestly.",
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-iyyaa-1",
+      "lemma_id": "iyyaa-1",
+      "lexical": {
+        "en": "(object-pronoun base)",
+        "ms": "(kata dasar ganti nama objek)"
+      },
+      "contextual_explanations": [],
+      "learner_note": {
+        "en": "A pronoun base that always takes an attached object-pronoun suffix, e.g. إِيَّاكَ \"You alone\".",
+        "ms": "Kata dasar ganti nama yang sentiasa disertai akhiran kata ganti objek, cth. إِيَّاكَ \"Engkau sahaja\"."
+      },
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-kayfa-1",
+      "lemma_id": "kayfa-1",
+      "lexical": {
+        "en": "how",
+        "ms": "bagaimana"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-kitab-1",
+      "lemma_id": "kitab-1",
+      "lexical": {
+        "en": "book, decree, that which is written",
+        "ms": "kitab, ketetapan, apa yang tertulis"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-la-1",
+      "lemma_id": "la-1",
+      "lexical": {
+        "en": "no, not",
+        "ms": "tidak"
+      },
+      "contextual_explanations": [],
+      "learner_note": {
+        "en": "A negation particle whose exact grammatical role depends on context (see its occurrences in this demo).",
+        "ms": "Kata nafi yang peranan nahunya bergantung kepada konteks (rujuk kemunculannya dalam demo ini)."
+      },
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-lam-1",
+      "lemma_id": "lam-1",
+      "lexical": {
+        "en": "not",
+        "ms": "tidak"
+      },
+      "contextual_explanations": [],
+      "learner_note": {
+        "en": "Negates a مضارع verb with past-time meaning; also a jussive/jazm marker.",
+        "ms": "Menafikan kata kerja مضارع dengan makna lampau; turut berfungsi sebagai penanda jazam."
+      },
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-maghdub-1",
+      "lemma_id": "maghdub-1",
+      "lexical": {
+        "en": "one who is the object of [divine] anger",
+        "ms": "orang yang dimurkai [Allah]"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-malik-1",
+      "lemma_id": "malik-1",
+      "lexical": {
+        "en": "Master, Owner, Sovereign",
+        "ms": "Pemilik, Penguasa, Raja"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-mustaqim-1",
+      "lemma_id": "mustaqim-1",
+      "lexical": {
+        "en": "straight, upright",
+        "ms": "lurus, tegak"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-muttaqin-1",
+      "lemma_id": "muttaqin-1",
+      "lexical": {
+        "en": "one who is God-conscious / mindful of God",
+        "ms": "orang-orang yang bertakwa"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-raa-1",
+      "lemma_id": "raa-1",
+      "lexical": {
+        "en": "to see",
+        "ms": "melihat"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-rabb-1",
+      "lemma_id": "rabb-1",
+      "lexical": {
+        "en": "Lord, Master, Sustainer",
+        "ms": "Tuhan, Pemilik, Pemelihara"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-raheem-1",
+      "lemma_id": "raheem-1",
+      "lexical": {
+        "en": "the Most Merciful",
+        "ms": "Yang Maha Penyayang"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-rahman-1",
+      "lemma_id": "rahman-1",
+      "lexical": {
+        "en": "the Most Gracious / All-Merciful",
+        "ms": "Yang Maha Pemurah / Maha Pengasih"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-rayb-1",
+      "lemma_id": "rayb-1",
+      "lexical": {
+        "en": "doubt, suspicion",
+        "ms": "keraguan, syak wasangka"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-sahib-1",
+      "lemma_id": "sahib-1",
+      "lexical": {
+        "en": "companion, one who accompanies",
+        "ms": "sahabat, teman yang menemani"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-sirat-1",
+      "lemma_id": "sirat-1",
+      "lexical": {
+        "en": "path, way",
+        "ms": "jalan, lorong"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    },
+    {
+      "gloss_id": "gloss-yawm-1",
+      "lemma_id": "yawm-1",
+      "lexical": {
+        "en": "day",
+        "ms": "hari"
+      },
+      "contextual_explanations": [],
+      "learner_note": null,
+      "usage_note": null,
+      "example": null,
+      "editor_note": null,
+      "status": "provisional",
+      "provenance": {
+        "source_id": "QURRA_GLOSS"
+      }
+    }
+  ]
+}

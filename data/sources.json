@@ -1,0 +1,162 @@
+{
+  "registry_version": "1.0.0",
+  "_comment": "Every substantive data layer points here by source_id. licence_status is one of: verified | conditional | unresolved | internal | provisional. in_use=false entries are registered for traceability only: nothing in the dataset is derived from them. No entry claims commercial clearance, because research has not established it for any source.",
+  "sources": [
+    {
+      "source_id": "TANZIL_TEXT",
+      "name": "Tanzil Quran text (Uthmani)",
+      "type": "text",
+      "version": "1.1 (release of 12 Feb 2021; file header reads 'Uthmani, Version 1.1', copyright 2007-2026)",
+      "url": "https://tanzil.net/download/",
+      "licence": "Creative Commons Attribution 3.0 (Tanzil Project). Terms read on https://tanzil.net/docs/Text_License : verbatim copies only, changing the text is not allowed; the source (Tanzil Project) must be clearly indicated with a link to tanzil.net; the copyright block must be kept in verbatim copies and reproduced in derived files.",
+      "licence_status": "verified",
+      "in_use": true,
+      "allowed_use": "Display and search of the Qur'anic text unmodified, with attribution + link (shown in the app footer and Source panel); the copyright block is retained in data/raw/tanzil/quran-uthmani.txt. Normalised forms are stored separately and never displayed.",
+      "notes": "Downloaded from tanzil.net/pub/download/index.php on 2026-10-06 with parameters quranType=uthmani, outType=txt-2, and every optional symbol switched off (no pause marks, no sajdah signs, no rub-el-hizb signs, no tatweel), after the terms checkbox was ticked on QURRA's behalf with the owner's approval. File SHA-256: bf4f57b968d03f4131c070b1e285da9be0e0a108a21c910e872801ca273312c8 (6,236 ayah lines). The official file prefixes the basmala onto ayah 1 of every surah except 1 and 9 (two spellings: 110 lines use 'بِسْمِ', and 95:1 and 97:1 use 'بِّسْمِ' with an extra shadda in the official file); the raw file keeps it verbatim and data/qurra/ayahs.json separates it as source_prefix. 'Verified' here means the text and its licence terms come from the official source and the Stage 2 pilot was diffed against it (see STAGE_3_REPORT.md); it does not assert any wider commercial clearance beyond the CC BY 3.0 terms. Pause marks are omitted by choice (a Tanzil-supported option) to keep word tokens clean; they can be re-added from a new official download."
+    },
+    {
+      "source_id": "QURRA_EDITORIAL",
+      "name": "QURRA editorial metadata",
+      "type": "editorial",
+      "version": "stage-2-pilot",
+      "url": null,
+      "licence": "QURRA-authored",
+      "licence_status": "internal",
+      "in_use": true,
+      "allowed_use": "Taxonomy, UI labels.",
+      "notes": "General QURRA editorial metadata. Since Stage 3 the surah and juz metadata come from TANZIL_METADATA, not from here."
+    },
+    {
+      "source_id": "QURRA_DEMO_MORPHOLOGY",
+      "name": "QURRA Stage 1 demo segmentation and morphology",
+      "type": "editorial",
+      "version": "stage-1-demo",
+      "url": null,
+      "licence": "QURRA-authored",
+      "licence_status": "provisional",
+      "in_use": true,
+      "allowed_use": "Prototype display only, with a provisional label.",
+      "notes": "Hand-authored for the Stage 1 demo for 9 ayahs. NOT imported from QAC, MASAQ, QuranMorph or any corpus. Not reviewed by a qualified Arabic-grammar scholar. Segment spellings were adapted to the Uthmani text during the Stage 2 migration."
+    },
+    {
+      "source_id": "QURRA_GLOSS",
+      "name": "QURRA vocabulary glosses",
+      "type": "editorial",
+      "version": "stage-1-demo drafts",
+      "url": null,
+      "licence": "QURRA-authored",
+      "licence_status": "provisional",
+      "in_use": true,
+      "allowed_use": "Lexical glosses, learner notes and root core-field descriptions authored by QURRA.",
+      "notes": "Short vocabulary glosses, not Qur'an translation. Drafts, unreviewed. No third-party dictionary text is copied."
+    },
+    {
+      "source_id": "QURRA_DEMO_TRANSLATION",
+      "name": "QURRA demo ayah renderings",
+      "type": "editorial",
+      "version": "stage-1-demo",
+      "url": null,
+      "licence": "QURRA-authored",
+      "licence_status": "provisional",
+      "in_use": true,
+      "allowed_use": "Prototype display only.",
+      "notes": "Working renderings written for the prototype, not quoted from any published translation and not reviewed. They are not an authoritative translation."
+    },
+    {
+      "source_id": "QURRA_DEMO_CONJUGATION",
+      "name": "QURRA demo conjugation triplets",
+      "type": "editorial",
+      "version": "stage-1-demo",
+      "url": null,
+      "licence": "QURRA-authored",
+      "licence_status": "provisional",
+      "in_use": true,
+      "allowed_use": "Prototype display only, with a provisional label.",
+      "notes": "Perfective / imperfective / imperative citation forms entered by hand. Not reviewed."
+    },
+    {
+      "source_id": "QURRA_DEMO_ROOTS",
+      "name": "QURRA Stage 1 demo root placeholders",
+      "type": "editorial",
+      "version": "stage-1-demo",
+      "url": null,
+      "licence": "QURRA-authored",
+      "licence_status": "provisional",
+      "in_use": true,
+      "allowed_use": "Prototype display only, with a provisional label.",
+      "notes": "Root letters entered by hand in the Stage 1 demo. They were NOT assigned under the QURRA Root Verification Protocol, carry no evidence, and are not derived from QAC or Wikidata. They must be re-assigned under the frozen protocol before being shown as authoritative."
+    },
+    {
+      "source_id": "QURRA_ROOT_PROTOCOL",
+      "name": "QURRA Root Verification Protocol",
+      "type": "methodology",
+      "version": "1.0-rc (NOT frozen)",
+      "url": null,
+      "licence": "QURRA-authored",
+      "licence_status": "internal",
+      "in_use": true,
+      "allowed_use": "Governs how verified roots will be assigned.",
+      "notes": "PENDING EXPERT REVIEW. Not frozen. The expert sign-off checklist is in docs/expert-review/ and has not been sent to anyone. No root in the dataset has been assigned under this protocol."
+    },
+    {
+      "source_id": "MASAQ_MORPHOLOGY",
+      "name": "MASAQ Qur'anic morphology dataset",
+      "type": "corpus",
+      "version": "not imported",
+      "url": null,
+      "licence": "Conflicting labels (CC BY 4.0 vs CC BY-NC 3.0) on identical files.",
+      "licence_status": "unresolved",
+      "in_use": false,
+      "allowed_use": "None until the licence is clarified.",
+      "notes": "Registered for traceability. Nothing in this dataset is derived from it."
+    },
+    {
+      "source_id": "QURANMORPH",
+      "name": "QuranMorph / Qabas lemma layer",
+      "type": "corpus",
+      "version": "not imported",
+      "url": null,
+      "licence": "Gated access; upstream lexicon terms unresolved.",
+      "licence_status": "unresolved",
+      "in_use": false,
+      "allowed_use": "None.",
+      "notes": "Registered for traceability. Nothing in this dataset is derived from it."
+    },
+    {
+      "source_id": "QAC",
+      "name": "Quranic Arabic Corpus",
+      "type": "corpus",
+      "version": "not imported",
+      "url": null,
+      "licence": "GPL with a no-modification clause; the site FAQ states non-commercial use.",
+      "licence_status": "unresolved",
+      "in_use": false,
+      "allowed_use": "None. Not used as data, fallback or evidence.",
+      "notes": "Registered so that its absence is explicit."
+    },
+    {
+      "source_id": "WIKIDATA_LEXEMES",
+      "name": "Wikidata Arabic lexemes",
+      "type": "dataset",
+      "version": "not imported",
+      "url": null,
+      "licence": "CC0 platform; root statements have weak provenance.",
+      "licence_status": "unresolved",
+      "in_use": false,
+      "allowed_use": "None as production data. Comparison and QA only, after a decision is logged.",
+      "notes": "Registered so that its absence is explicit."
+    },
+    {
+      "source_id": "TANZIL_METADATA",
+      "name": "Tanzil Quran Metadata",
+      "type": "metadata",
+      "version": "1.0 (file header: ver 1.0, copyright 2008-2009 Tanzil.info)",
+      "url": "https://tanzil.net/docs/Quran_Metadata",
+      "licence": "Creative Commons Attribution 3.0 (stated in the file header).",
+      "licence_status": "verified",
+      "in_use": true,
+      "allowed_use": "Surah names, ayah counts, revelation place and order, juz start positions; attribution to Tanzil shown with the text.",
+      "notes": "data/raw/tanzil/quran-data.js downloaded unmodified from https://tanzil.net/res/text/metadata/quran-data.js on 2026-10-06 (SHA-256 9e9930c592aaa34b5c7a79ff4e99ffdc782263a266090bfe2c49e4ed4bac4ca4). Surah transliterations (name_en) are Tanzil's own, e.g. 'Al-Faatiha'."
+    }
+  ]
+}

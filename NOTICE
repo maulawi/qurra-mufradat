@@ -1,0 +1,64 @@
+QURRA Mufradat al-Qur'an: third-party notices
+=============================================
+
+This project contains the Qur'anic text and structural metadata of the Tanzil Project (https://tanzil.net).
+
+
+1. Tanzil Quran Text (Uthmani, Version 1.1)
+-------------------------------------------
+
+Source:   https://tanzil.net/download/  (terms: https://tanzil.net/docs/Text_License)
+Kept as:  data/raw/tanzil/quran-uthmani.txt, the file exactly as supplied by Tanzil, including its copyright block.
+Used in:  data/qurra/ayahs.json, js/generated/dataset.js (the text), js/generated/search-index.js (a normalised copy
+          used only for matching, never displayed) and the web app, where the text is displayed unmodified.
+Changes:  none to the text. The basmala that Tanzil places in front of ayah 1 of most surahs is stored separately from
+          the ayah text (data/qurra/ayahs.json, field source_prefix) and is not shown as part of the ayah. See data/sources.json.
+
+The copyright and terms block supplied by Tanzil with its text, reproduced exactly:
+
+    #  Tanzil Quran Text (Uthmani, Version 1.1)
+    #  Copyright (C) 2007-2026 Tanzil Project
+    #  License: Creative Commons Attribution 3.0
+    #
+    #  This copy of the Quran text is carefully produced, highly 
+    #  verified and continuously monitored by a group of specialists 
+    #  at Tanzil Project.
+    #
+    #  TERMS OF USE:
+    #
+    #  - Permission is granted to copy and distribute verbatim copies 
+    #    of this text, but CHANGING IT IS NOT ALLOWED.
+    #
+    #  - This Quran text can be used in any website or application, 
+    #    provided that its source (Tanzil Project) is clearly indicated, 
+    #    and a link is made to tanzil.net to enable users to keep
+    #    track of changes.
+    #
+    #  - This copyright notice shall be included in all verbatim copies 
+    #    of the text, and shall be reproduced appropriately in all files 
+    #    derived from or containing substantial portion of this text.
+    #
+    #  Please check updates at: http://tanzil.net/updates/
+
+
+2. Tanzil Quran Metadata (version 1.0)
+--------------------------------------
+
+Source:   https://tanzil.net/docs/Quran_Metadata  (file https://tanzil.net/res/text/metadata/quran-data.js)
+Kept as:  data/raw/tanzil/quran-data.js, unmodified.
+Used in:  data/meta/surahs.json and data/meta/juz.json (surah names, ayah counts, revelation place and order, juz start
+          positions) and js/generated/dataset.js.
+
+The header supplied by Tanzil with the metadata file, reproduced exactly:
+
+    // Quran Metadata (ver 1.0) 
+    // Copyright (C) 2008-2009 Tanzil.info
+    // License: Creative Commons Attribution 3.0
+
+
+3. Where attribution appears in the application
+-----------------------------------------------
+
+- Footer of every page, with a link to https://tanzil.net (index.html, text in js/translations/en.js and ms.js).
+- The "Source information" panel of every word (sources are listed from data/sources.json).
+- data/sources.json records the source, version, download details, licence terms and allowed use.

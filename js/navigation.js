@@ -19,8 +19,8 @@ const QMNavigation = (function () {
   function resultLabel(result) {
     if (result.kind === "token") {
       const t = result.token;
-      const posShort = t.pos === "fiʿl" ? QMI18n.t("search.posVerb")
-        : t.pos === "ism" ? QMI18n.t("search.posNoun")
+      const posShort = t.pos === "verb" ? QMI18n.t("search.posVerb")
+        : t.pos === "noun" ? QMI18n.t("search.posNoun")
         : QMI18n.t("search.posParticle");
       return {
         href: `#/word/${t.id}`,
@@ -32,8 +32,17 @@ const QMNavigation = (function () {
       const l = result.lemma;
       return { href: `#/lemma/${l.id}`, word: l.form, meta: `${QMI18n.t("search.lemmaPrefix")} · ${QMI18n.pick(l.gloss)}` };
     }
+    if (result.kind === "surah") {
+      const s = result.surah;
+      return { href: `#/surah/${s.number}`, word: s.nameAr, meta: `${QMI18n.t("search.surahLabel")} ${s.number} · ${s.nameEn}` };
+    }
+    if (result.kind === "ayah") {
+      const a = result.ayah;
+      const s = QMData.getSurah(a.surahId);
+      return { href: `#/surah/${a.surahId}/ayah/${a.ayahId}`, word: `${a.surahId}:${a.ayahId}`, meta: `${QMI18n.t("search.ayahLabel")} · ${s ? s.nameEn : ""}` };
+    }
     const r = result.root;
-    return { href: `#/root/${r.id}`, word: r.letters.split("").join(" "), meta: QMI18n.t("search.rootLabel") };
+    return { href: `#/root/${r.id}`, word: r.display, meta: QMI18n.t("search.rootLabel") };
   }
 
   function wireSearch(inputEl, resultsEl) {

@@ -16,14 +16,14 @@ const QM_I18N_MS = {
     searchVocabularyLabel: "Cari kosa kata",
     close: "Tutup",
     back: "Kembali",
-    noMatchesTemplate: 'Tiada padanan dalam set data demo untuk "{query}".',
+    noMatchesTemplate: 'Tiada padanan untuk "{query}".',
     languageLabel: "Bahasa",
     languageEn: "Bahasa Inggeris",
     languageMs: "Bahasa Melayu"
   },
 
   badge: {
-    demo: "Prototaip · Data demo"
+    demo: "Prototaip · Analisis perkataan: perintis"
   },
 
   nav: {
@@ -40,16 +40,16 @@ const QM_I18N_MS = {
 
   home: {
     tagline: "Terokai setiap patah kata dalam al-Quran, Juzuk demi Juzuk.",
-    description: "QURRA Mufradat ialah rujukan kosa kata dan morfologi al-Quran — setiap perkataan dipecahkan kepada akar kata, lemma, dan bentuk tatabahasanya, tanpa kad imbas, kuiz, atau enjin carian teks penuh yang mengganggu.",
+    description: "QURRA Mufradat ialah penjelajah kosa kata al-Quran: teks al-Quran yang lengkap, perkataan demi perkataan, Juzuk demi Juzuk. Analisis perkataan (akar kata, lemma, bentuk tatabahasa) setakat ini hanya ada bagi sampel perintis yang terhad dan bersifat sementara.",
     ctaExplore: "Terokai al-Quran",
     ctaBrowse: "Layari Kosa Kata",
-    demoNoteTemplate: 'Ini adalah prototaip awal seni bina &amp; antara muka pengguna. Hanya <strong>{available} daripada {total}</strong> Juzuk (Juzuk 1 dan Juzuk 30) mempunyai data perkataan demo sebenar buat masa ini — selebihnya dipaparkan supaya struktur penuh kelihatan, dan ditanda dengan jelas sebagai "Belum tersedia."',
+    demoNoteTemplate: 'Teks al-Quran yang lengkap (114 surah, 6,236 ayat) disertakan. Analisis perkataan demi perkataan (lemma, akar kata, morfologi) setakat ini hanya ada bagi sampel perintis yang kecil iaitu <strong>{analysed} ayat</strong> dan bersifat sementara; setiap perkataan lain hanya memaparkan teksnya, ditanda "belum dianalisis".',
     browseByJuz: "Layari mengikut Juzuk"
   },
 
   juzCard: {
-    demo: "Data demo",
-    notAvailable: "Belum tersedia"
+    analysed: "Analisis perkataan (perintis)",
+    textOnly: "Teks sahaja"
   },
 
   juz: {
@@ -59,29 +59,39 @@ const QM_I18N_MS = {
     notAvailableBody: "Juzuk ini masih belum mempunyai data perkataan demo. Liputan penuh al-Quran adalah peringkat pembangunan akan datang — rujuk ROADMAP.md dalam fail projek.",
     viewJuz1: "Lihat demo Juzuk 1",
     viewJuz30: "Lihat demo Juzuk 30",
-    surahsInJuz: "Surah dalam Juzuk ini (demo)"
+    surahsInJuz: "Surah dalam Juzuk ini",
+    startsAtTemplate: "Bermula di {surah} {ayah}",
+    unavailableNote: "Belum tersedia dalam prototaip ini. Liputan penuh adalah peringkat akan datang — rujuk ROADMAP.md."
   },
 
   surahs: {
     eyebrow: "KOSA KATA",
     title: "Surah",
-    demoNoteTemplate: "Prototaip ini merangkumi set surah yang kecil dan mewakili ({list}), bukan keseluruhan al-Quran."
+    noteTemplate: "Kesemua 114 surah disertakan. Analisis perkataan demi perkataan hanya ada bagi sampel perintis dalam: {list}."
   },
 
   surahCard: {
-    demoAyahsTemplate: "{demo} daripada {total} ayat dalam demo"
+    ayahsTemplate: "{total} ayat",
+    ayahsAnalysedTemplate: "{total} ayat · {analysed} dengan analisis perkataan"
   },
 
   surah: {
-    metaTemplate: "{revelation} · {ayahCount} ayat dalam Mushaf penuh — {demoCount} disertakan dalam demo ini",
-    demoNoteTemplate: "Hanya ayat berikut bagi surah ini disertakan dalam prototaip ini: {list}.",
-    showTranslation: "Tunjuk terjemahan (parafrasa Bahasa Melayu)"
+    metaTemplate: "{revelation} · {ayahCount} ayat",
+    metaAnalysedTemplate: "{revelation} · {ayahCount} ayat — {analysedCount} dengan analisis perkataan (perintis)",
+    demoNoteTemplate: "Analisis perkataan demi perkataan hanya ada bagi ayat {list} surah ini (perintis). Setiap perkataan lain hanya memaparkan teks al-Quran.",
+    textOnlyNote: "Belum ada analisis perkataan demi perkataan bagi surah ini. Perkataan hanya memaparkan teks al-Quran.",
+    showTranslation: "Tunjuk terjemahan (parafrasa Bahasa Melayu)",
+    translationNote: "Terjemahan kerja yang ditulis untuk prototaip ini — bukan terjemahan yang berautoriti.",
+    ayahMissingTitle: "Ayat {ayah} tiada dalam surah ini",
+    ayahMissingBody: "{surah} mempunyai {count} ayat.",
+    viewSurahTemplate: "Lihat {surah}"
   },
 
   roots: {
     eyebrow: "KOSA KATA",
     title: "Akar Kata",
-    demoNoteTemplate: "{count} akar kata disertakan dalam set data demo ini — cukup untuk menunjukkan satu akar kata dengan beberapa lemma (و ق ي, ر ح م, هـ د ي), bukan indeks akar kata yang lengkap."
+    demoNoteTemplate: "{count} akar kata disertakan dalam set data demo ini — cukup untuk menunjukkan satu akar kata dengan beberapa lemma (و ق ي, ر ح م, هـ د ي), bukan indeks akar kata yang lengkap.",
+    provisionalNote: "Setiap akar kata yang dipaparkan di sini ialah pemegang tempat sementara daripada demo Peringkat 1: belum ada yang ditetapkan di bawah proses pengesahan akar kata QURRA, dan belum ada yang disemak."
   },
 
   root: {
@@ -106,6 +116,7 @@ const QM_I18N_MS = {
     fieldVerbForm: "Wazan",
     fieldRoot: "Akar Kata",
     noRoot: "Tiada direkodkan (lazim bagi kata tugas dan beberapa bentuk beku)",
+    fieldLearnerNote: "Nota pelajar",
     occurrencesTitle: "Kemunculan (Juzuk / Surah / Ayat)",
     noOccurrences: "Lemma ini tiada kemunculan perkataan dalam set data demo semasa — disertakan untuk menunjukkan bagaimana struktur lemma/akar kata kekal jujur tentang jurang liputan data, bukan mereka-reka contoh."
   },
@@ -113,13 +124,14 @@ const QM_I18N_MS = {
   notfound: {
     eyebrow: "Tidak dijumpai",
     title: "Halaman tidak dijumpai",
-    bodyTitleTemplate: "{kind} ini tiada dalam set data demo",
-    body: "Prototaip ini merangkumi set data demo yang kecil dan ditanda jelas, bukan keseluruhan al-Quran. Cuba Surah al-Fatihah, al-Baqarah ayat 2, atau Surah al-Fil ayat 1.",
+    bodyTitleTemplate: "{kind} ini tidak wujud",
+    body: "Semak alamat, atau mulakan daripada senarai Juzuk atau surah.",
     backHome: "Kembali ke Laman Utama",
     kind: { word: "Perkataan", page: "Halaman", juz: "Juzuk", surah: "Surah", root: "Akar kata", lemma: "Lemma" }
   },
 
   filters: {
+    groupLabel: "Tapis mengikut jenis kata",
     all: "Semua",
     noun: "Kata Nama",
     verb: "Kata Kerja",
@@ -139,8 +151,13 @@ const QM_I18N_MS = {
     viewInQuran: "Lihat dalam al-Quran",
     locationTemplate: "al-Quran {surah}:{ayah}, perkataan {position}",
     wordNotFoundTitle: "Perkataan Tidak Dijumpai",
-    wordNotFoundBody: "Unit perkataan ini tiada dalam set data demo.",
-    pronounTemplate: "Kata ganti nama {person}"
+    wordNotFoundBody: "Perkataan ini tidak wujud.",
+    pronounTemplate: "Kata ganti nama {person}",
+    lemmaUnresolved: "Lemma bagi perkataan ini belum dikenal pasti.",
+    notAnalysedTitle: "Analisis perkataan belum tersedia",
+    notAnalysedBody: "Perkataan ini belum mempunyai lemma, akar kata atau morfologi yang direkodkan. Tiada apa yang diteka: analisis akan dipaparkan di sini apabila diperoleh daripada sumber berlesen yang telah disemak.",
+    licenceLabel: "Status lesen",
+    inUseNote: "Sedang digunakan"
   },
 
   fields: {
@@ -176,18 +193,20 @@ const QM_I18N_MS = {
     posVerb: "kata kerja",
     posParticle: "kata tugas",
     lemmaPrefix: "lemma",
-    rootLabel: "akar kata"
+    rootLabel: "akar kata",
+    surahLabel: "surah",
+    ayahLabel: "ayat"
   },
 
   enum: {
-    number: { mufrad: "Tunggal", muthanna: "Dwi (Mutsanna)", "jamʿ": "Jamak" },
+    number: { mufrad: "Tunggal", muthanna: "Dwi (Mutsanna)", jama: "Jamak" },
     pluralType: {
-      jamʿ_mudhakkar_salim: "Jamak Muzakkar Salim",
-      jamʿ_muannath_salim: "Jamak Muannath Salim",
-      jamʿ_taksir: "Jamak Taksir"
+      jama_mudhakkar_salim: "Jamak Muzakkar Salim",
+      jama_muannath_salim: "Jamak Muannath Salim",
+      jama_taksir: "Jamak Taksir"
     },
     gender: { mudhakkar: "Lelaki (Muzakkar)", muannath: "Perempuan (Muannath)" },
-    definitenessState: { "maʿrifa": "Makrifah", nakira: "Nakirah" },
+    definitenessState: { marifa: "Makrifah", nakira: "Nakirah" },
     definitenessCause: {
       bi_al: "kata sandang ال",
       idafa: "struktur idafah/sandaran (إضافة)",
@@ -202,12 +221,12 @@ const QM_I18N_MS = {
     derivationType: {
       jamid: "Kata Nama Asal (bukan terbitan daripada kata kerja)",
       masdar: "Kata Nama Terbitan (Masdar)",
-      ism_faʿil: "Isim Fa'il",
-      ism_mafʿul: "Isim Maf'ul",
+      ism_fail: "Isim Fa'il",
+      ism_mafool: "Isim Maf'ul",
       sifa_mushabbaha: "Sifah Musyabbahah"
     },
-    declension: { mabni: "Mabni (tidak berubah)", "muʿrab": "Mu'rab (boleh berubah)" },
-    form: { maadi: "Fi'il Madhi", "mudariʿ": "Fi'il Mudhari'", amr: "Fi'il Amar" },
+    declension: { mabni: "Mabni (tidak berubah)", murab: "Mu'rab (boleh berubah)" },
+    form: { maadi: "Fi'il Madhi", mudari: "Fi'il Mudhari'", amr: "Fi'il Amar" },
     voice: { active: "Aktif", passive: "Pasif" },
     functionHere: {
       jarr: "Kata Sendi Nama",
@@ -215,7 +234,7 @@ const QM_I18N_MS = {
       nafy_al_jins: "Nafi Jenis",
       nafy_simple: "Nafi Mudah",
       nahy: "Larangan",
-      "duʿa": "Penanda Doa",
+      dua: "Penanda Doa",
       jazm_nafy: "Menafi + Penanda Jazam",
       istifham: "Awalan Soal"
     },
@@ -228,7 +247,7 @@ const QM_I18N_MS = {
       naqis: "Naqis (huruf lemah di akhir)", mudaaf: "Mudha'af (berganda)",
       lafif_mafruq: "Lafif Mafruq (dua huruf lemah berasingan)", lafif_maqrun: "Lafif Maqrun (dua huruf lemah berturutan)"
     },
-    pos: { ism: "Kata Nama", "fiʿl": "Kata Kerja", harf: "Kata Tugas" },
+    pos: { noun: "Kata Nama", verb: "Kata Kerja", particle: "Kata Tugas" },
     revelation: { Meccan: "Makkiyyah", Medinan: "Madaniyyah" }
   },
 
@@ -238,26 +257,58 @@ const QM_I18N_MS = {
     imperative: "Fi'il Amar"
   },
 
+  licenceStatus: {
+    verified: "Lesen disahkan",
+    conditional: "Lesen bersyarat",
+    unresolved: "Lesen belum selesai",
+    internal: "Ditulis oleh QURRA",
+    provisional: "Sementara (draf ditulis oleh QURRA)"
+  },
+
   source: {
-    "src-quran-text": {
-      name: "Sumber teks al-Quran",
-      status: "PLACEHOLDER. Cetak biru (§10) mengesyorkan teks Uthmani yang disahkan daripada Tanzil.net sebagai sumber V1 sebenar. Teks Arab dalam demo ini telah disemak secara manual untuk beberapa ayat yang sangat dikenali, tetapi belum melalui semakan dua-sumber sebenar (cetak biru §11) dan tidak boleh dianggap sedia untuk pengeluaran."
+    TANZIL_TEXT: {
+      name: "Teks al-Quran Tanzil (Uthmani)",
+      status: "Teks al-Quran Tanzil yang rasmi, Uthmani versi 1.1, dipaparkan tanpa sebarang pengubahsuaian. Terma lesen dan sumber yang tepat direkodkan dalam daftar sumber; atribusi kepada Projek Tanzil (tanzil.net) dipaparkan pada pengaki halaman."
     },
-    "src-morphology": {
-      name: "Analisis morfologi",
-      status: "PLACEHOLDER. Calon sumber sebenar dan pertimbangan lesen dibincangkan dalam cetak biru §10 (Quranic Arabic Corpus, MASAQ). Segmentasi dan tag morfologi dalam demo ini ditulis secara manual untuk tujuan ilustrasi sahaja, tidak diambil daripada mana-mana korpus tersebut."
+    QURRA_EDITORIAL: {
+      name: "Metadata editorial QURRA",
+      status: "Metadata surah dan Juzuk disediakan oleh QURRA untuk prototaip ini; belum disemak terhadap sumber metadata utama."
     },
-    "src-qurra-editorial": {
-      name: "Makna editorial QURRA / pengelasan demo",
-      status: "Kandungan demo/contoh ditulis khas untuk prototaip ini. Belum disemak oleh pakar tatabahasa Arab yang bertauliah (cetak biru §11 Peringkat 5)."
+    QURRA_DEMO_MORPHOLOGY: {
+      name: "Segmentasi dan morfologi demo QURRA",
+      status: "Ditulis secara manual untuk demo Peringkat 1. Tidak diimport daripada mana-mana korpus dan belum disemak oleh pakar tatabahasa Arab yang bertauliah."
     },
-    "src-verified-conjugation": {
-      name: "Tasrif disahkan",
-      status: "Tasrif demo/contoh dipaparkan untuk tujuan demonstrasi antara muka sahaja. Ditanda 'stored_verified' semata-mata supaya prototaip dapat menunjukkan rupa tasrif tiga-bentuk yang telah disahkan — bentuk-bentuk ini sebenarnya belum melalui semakan ilmiah."
+    QURRA_GLOSS: {
+      name: "Makna kosa kata QURRA",
+      status: "Makna kosa kata ringkas yang digubal oleh QURRA (bukan terjemahan al-Quran). Draf yang belum disemak."
     },
-    "src-raghib-mufradat": {
-      name: "al-Raghib al-Isfahani — Mufradat al-Qur'an (rujukan klasik)",
-      status: "PLACEHOLDER, tidak dirujuk untuk demo ini. Dibincangkan dalam cetak biru §2 sebagai sumber masa hadapan (peringkat kemudian, bukan V1) untuk nota leksikal yang lebih mendalam, dengan petikan muka surat daripada edisi sebenar. Tiada nombor muka surat didakwa di mana-mana dalam prototaip ini."
+    QURRA_DEMO_TRANSLATION: {
+      name: "Terjemahan kerja ayat demo QURRA",
+      status: "Terjemahan kerja yang ditulis untuk prototaip ini. Tidak dipetik daripada mana-mana terjemahan yang diterbitkan dan belum disemak."
+    },
+    QURRA_DEMO_CONJUGATION: {
+      name: "Bentuk tasrif demo QURRA",
+      status: "Bentuk rujukan yang dimasukkan secara manual untuk prototaip ini. Belum disemak."
+    },
+    QURRA_DEMO_ROOTS: {
+      name: "Akar kata sementara demo QURRA",
+      status: "Huruf akar kata yang dimasukkan secara manual dalam demo Peringkat 1. Belum ditetapkan di bawah proses pengesahan akar kata QURRA dan tiada bukti direkodkan, maka hanya dipaparkan sebagai pemegang tempat sementara."
+    },
+    QURRA_ROOT_PROTOCOL: {
+      name: "Protokol pengesahan akar kata QURRA",
+      status: "Menunggu semakan pakar. Tiada akar kata yang dipaparkan dalam aplikasi ini telah ditetapkan di bawahnya."
     }
+  },
+
+  rootState: {
+    provisionalBadge: "Sementara",
+    provisionalNote: "Akar kata sementara (pemegang tempat): belum ditetapkan di bawah proses pengesahan akar kata QURRA dan belum disemak.",
+    underReview: "Akar kata dalam semakan",
+    notApplicable: "Tiada akar kata ditetapkan bagi jenis perkataan ini."
+  },
+
+  status: {
+    attribution: "Teks al-Quran: Projek Tanzil (tanzil.net), Creative Commons Attribution 3.0.",
+    conjugationProvisional: "Sementara — belum disemak."
   }
 };

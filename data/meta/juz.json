@@ -1,0 +1,399 @@
+{
+  "_notice": [
+    "// Quran Metadata (ver 1.0) ",
+    "// Copyright (C) 2008-2009 Tanzil.info",
+    "// License: Creative Commons Attribution 3.0"
+  ],
+  "juz": [
+    {
+      "juz": 1,
+      "name_ar": "الجزء الأول",
+      "start": {
+        "surah": 1,
+        "ayah": 1
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 2,
+      "name_ar": "الجزء الثاني",
+      "start": {
+        "surah": 2,
+        "ayah": 142
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 3,
+      "name_ar": "الجزء الثالث",
+      "start": {
+        "surah": 2,
+        "ayah": 253
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 4,
+      "name_ar": "الجزء الرابع",
+      "start": {
+        "surah": 3,
+        "ayah": 93
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 5,
+      "name_ar": "الجزء الخامس",
+      "start": {
+        "surah": 4,
+        "ayah": 24
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 6,
+      "name_ar": "الجزء السادس",
+      "start": {
+        "surah": 4,
+        "ayah": 148
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 7,
+      "name_ar": "الجزء السابع",
+      "start": {
+        "surah": 5,
+        "ayah": 82
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 8,
+      "name_ar": "الجزء الثامن",
+      "start": {
+        "surah": 6,
+        "ayah": 111
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 9,
+      "name_ar": "الجزء التاسع",
+      "start": {
+        "surah": 7,
+        "ayah": 88
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 10,
+      "name_ar": "الجزء العاشر",
+      "start": {
+        "surah": 8,
+        "ayah": 41
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 11,
+      "name_ar": "الجزء الحادي عشر",
+      "start": {
+        "surah": 9,
+        "ayah": 93
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 12,
+      "name_ar": "الجزء الثاني عشر",
+      "start": {
+        "surah": 11,
+        "ayah": 6
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 13,
+      "name_ar": "الجزء الثالث عشر",
+      "start": {
+        "surah": 12,
+        "ayah": 53
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 14,
+      "name_ar": "الجزء الرابع عشر",
+      "start": {
+        "surah": 15,
+        "ayah": 1
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 15,
+      "name_ar": "الجزء الخامس عشر",
+      "start": {
+        "surah": 17,
+        "ayah": 1
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 16,
+      "name_ar": "الجزء السادس عشر",
+      "start": {
+        "surah": 18,
+        "ayah": 75
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 17,
+      "name_ar": "الجزء السابع عشر",
+      "start": {
+        "surah": 21,
+        "ayah": 1
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 18,
+      "name_ar": "الجزء الثامن عشر",
+      "start": {
+        "surah": 23,
+        "ayah": 1
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 19,
+      "name_ar": "الجزء التاسع عشر",
+      "start": {
+        "surah": 25,
+        "ayah": 21
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 20,
+      "name_ar": "الجزء العشرون",
+      "start": {
+        "surah": 27,
+        "ayah": 56
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 21,
+      "name_ar": "الجزء الحادي والعشرون",
+      "start": {
+        "surah": 29,
+        "ayah": 46
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 22,
+      "name_ar": "الجزء الثاني والعشرون",
+      "start": {
+        "surah": 33,
+        "ayah": 31
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 23,
+      "name_ar": "الجزء الثالث والعشرون",
+      "start": {
+        "surah": 36,
+        "ayah": 28
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 24,
+      "name_ar": "الجزء الرابع والعشرون",
+      "start": {
+        "surah": 39,
+        "ayah": 32
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 25,
+      "name_ar": "الجزء الخامس والعشرون",
+      "start": {
+        "surah": 41,
+        "ayah": 47
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 26,
+      "name_ar": "الجزء السادس والعشرون",
+      "start": {
+        "surah": 46,
+        "ayah": 1
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 27,
+      "name_ar": "الجزء السابع والعشرون",
+      "start": {
+        "surah": 51,
+        "ayah": 31
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 28,
+      "name_ar": "الجزء الثامن والعشرون",
+      "start": {
+        "surah": 58,
+        "ayah": 1
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 29,
+      "name_ar": "الجزء التاسع والعشرون",
+      "start": {
+        "surah": 67,
+        "ayah": 1
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    },
+    {
+      "juz": 30,
+      "name_ar": "الجزء الثلاثون",
+      "start": {
+        "surah": 78,
+        "ayah": 1
+      },
+      "note": null,
+      "status": "imported",
+      "provenance": {
+        "source_id": "TANZIL_METADATA"
+      }
+    }
+  ]
+}

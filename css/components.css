@@ -69,6 +69,13 @@
   z-index: 60;
   padding: var(--qm-space-2);
 }
+/* The sidebar search sits at the bottom of the sidebar, so its dropdown opens
+   upward and is capped to the viewport (scrolling inside if needed). */
+.qm-sidebar__search .qm-search-results {
+  top: auto;
+  bottom: calc(100% + 6px);
+  max-height: min(340px, 60vh);
+}
 .qm-search-result {
   display: flex;
   align-items: center;
@@ -333,8 +340,11 @@
 /* ---------------- Field list (label/value rows inside the detail panel) ---------------- */
 .qm-fieldlist { display: grid; grid-template-columns: auto 1fr; gap: var(--qm-space-2) var(--qm-space-4); font-size: var(--qm-fs-sm); }
 .qm-fieldlist dt { color: var(--qm-ink-500); }
-.qm-fieldlist dd { margin: 0; color: var(--qm-ink-900); font-weight: 500; }
+.qm-fieldlist dd { margin: 0; color: var(--qm-ink-900); font-weight: 500; min-width: 0; }
 .qm-fieldlist dd[dir="rtl"], .qm-fieldlist .qm-arabic { font-family: var(--qm-font-arabic); }
 
 /* ---------------- Pagination / "view more" ---------------- */
 .qm-loadmore { display: flex; justify-content: center; margin-top: var(--qm-space-5); }
+
+/* Juz-card badges carry longer labels (e.g. "Word analysis (pilot)"): wrap inside the card instead of overflowing it. */
+.qm-juz-card .qm-badge { white-space: normal; text-align: center; line-height: 1.3; }
