@@ -49,15 +49,47 @@
     { "id": "VI" }, { "id": "VII" }, { "id": "VIII" }, { "id": "IX" }, { "id": "X" }
   ],
   "particle_function": [
-    { "id": "jarr", "ar": "حرف جر" }, { "id": "atf", "ar": "حرف عطف" },
+    { "id": "jarr", "ar": "حرف جر" }, { "id": "atf", "ar": "حرف عطف" }, { "id": "shart", "ar": "حرف شرط" },
     { "id": "nafy_al_jins", "ar": "لا النافية للجنس" }, { "id": "nafy_simple", "ar": null },
     { "id": "nahy", "ar": "نهي" }, { "id": "dua", "ar": null },
-    { "id": "jazm_nafy", "ar": "جزم / نفي" }, { "id": "istifham", "ar": null }
+    { "id": "jazm_nafy", "ar": "جزم / نفي" }, { "id": "istifham", "ar": null },
+    { "id": "tawkid", "ar": "حرف توكيد ونصب" }, { "id": "nasb", "ar": "حرف نصب" }, { "id": "nafy_nasb", "ar": "نفي ونصب" },
+    { "id": "istithna", "ar": "استثناء" }, { "id": "qad", "ar": "قد" }, { "id": "tarajji", "ar": "ترجٍّ" },
+    { "id": "tanbih", "ar": "تنبيه" }, { "id": "nida", "ar": "نداء" }, { "id": "ghaya", "ar": "غاية" }
   ],
   "person": [ { "id": "1" }, { "id": "2" }, { "id": "3" } ],
+  "root_category": [
+    { "id": "thulathi", "ar": "ثلاثي", "radicals": 3, "description": "Triliteral root (three radicals)." },
+    { "id": "rubai", "ar": "رباعي", "radicals": 4, "description": "Quadriliteral root (four radicals), including reduplicated ones such as ز ل ز ل. It is a root in its own right: it is never reduced to a related triliteral root. Further categories (for example a five-radical one) are added here, with their radicals count, without any code change." }
+  ],
   "root_type": [
     { "id": "sahih_salim", "ar": "صحيح سالم" }, { "id": "ajwaf", "ar": "أجوف" }, { "id": "naqis", "ar": "ناقص" },
-    { "id": "mudaaf", "ar": "مضعّف" }, { "id": "lafif_mafruq", "ar": "لفيف مفروق" }, { "id": "lafif_maqrun", "ar": "لفيف مقرون" }
+    { "id": "mudaaf", "ar": "مضعّف" }, { "id": "lafif_mafruq", "ar": "لفيف مفروق" }, { "id": "lafif_maqrun", "ar": "لفيف مقرون" },
+    { "id": "mithal", "ar": "مثال" }, { "id": "mahmuz", "ar": "مهموز" }
+  ],
+
+  "origin": [
+    { "id": "source_derived", "description": "Taken from a registered, cleared external source; carries source_id, source_version and source_ref." },
+    { "id": "qurra_editorial", "description": "Authored or decided by QURRA editors (not from an external dataset). Never implies review." },
+    { "id": "qurra_root_assignment", "description": "A QURRA root assignment made under the Root Verification Protocol (only once the protocol is frozen)." },
+    { "id": "expert_reviewed", "description": "Checked by a qualified reviewer. Only valid together with status reviewed/verified and a review block." },
+    { "id": "unresolved", "description": "No analysis asserted." }
+  ],
+  "language": [ { "id": "en" }, { "id": "ms" } ],
+  "clearance": [
+    { "id": "CLEAR", "description": "Licence chain established; may be bundled, with its recorded attribution." },
+    { "id": "CONDITIONAL", "description": "Permission exists but depends on conditions or confirmation that are not yet resolved; never bundled." },
+    { "id": "UNCLEAR", "description": "Licence or upstream provenance not established; never bundled." },
+    { "id": "NOT_CLEARED", "description": "Known to forbid or not to permit the intended use; never bundled." }
+  ],
+  "gate_decision": [ { "id": "USE" }, { "id": "DO_NOT_USE" }, { "id": "REFERENCE_ONLY" }, { "id": "PENDING_CLARIFICATION" } ],
+  "translation_scope": [ { "id": "full" }, { "id": "partial" } ],
+  "conflict_type": [
+    { "id": "segmentation" }, { "id": "lemma" }, { "id": "pos" }, { "id": "feature" }, { "id": "root" }
+  ],
+  "lemma_scope": [
+    { "id": "segment", "description": "The analysis assigns the lemma to the specific stem segment (QURRA's native shape)." },
+    { "id": "token", "description": "The analysis asserted one lemma for the whole token; it is attached to the form's single stem. Only valid for forms with exactly one stem." }
   ],
 
   "root_letters": {
@@ -92,6 +124,10 @@
     },
     "conjugation": {
       "verified": "show", "reviewed": "show", "provisional": "show_with_badge", "imported": "hide", "draft": "hide",
+      "disputed": "hide", "unresolved": "hide", "null_policy": "hide"
+    },
+    "translation": {
+      "verified": "show", "reviewed": "show", "provisional": "show_with_badge", "imported": "show", "draft": "hide",
       "disputed": "hide", "unresolved": "hide", "null_policy": "hide"
     },
     "morphology": {

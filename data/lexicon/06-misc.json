@@ -1,0 +1,12 @@
+{
+  "_comment": "QURRA-authored lexicon, part 6: verbs and nouns that compete with a prefix reading of another word, plus irregular items.",
+  "entries": [
+    {"lemma_id":"aqama-1","lemma":"أَقَامَ","pos":"verb","vf":"IV","root":"ق و م","en":"to establish; to keep up (prayer)","ms":"mendirikan; menegakkan","verb":{"perf":{"long":"أَقَام","short":"أَقَم"},"impf":{"long":"يُقِيم","short":"يُقِم"},"imv":{"long":"أَقِيم","short":"أَقِم"},"pimpf":{"long":"يُقَام"}}},
+    {"lemma_id":"amadda-1","lemma":"أَمَدَّ","pos":"verb","vf":"IV","root":"م د د","en":"to supply; to extend","ms":"membekalkan; memanjangkan","verb":{"perf":{"long":"أَمَدّ","short":"أَمْدَد"},"impf":{"long":"يُمِدّ","short":"يُمْدِد"}}},
+    {"lemma_id":"amina-1","lemma":"أَمِنَ","pos":"verb","vf":"I","root":"ء م ن","en":"to feel safe; to trust","ms":"berasa aman; mempercayai","letters":"أ م ن","sv":"a","pv":"i"},
+    {"lemma_id":"ittabaa-1","lemma":"ٱتَّبَعَ","pos":"verb","vf":"VIII","root":"ت ب ع","root_en":"to follow","root_ms":"mengikut","en":"to follow","ms":"mengikut","verb":{"perf":{"long":"ٱتَّبَع"},"impf":{"long":"يَتَّبِع","short":"يَتَّبِع"},"imv":{"long":"ٱتَّبِع","short":"ٱتَّبِع"},"pperf":{"long":"ٱتُّبِع"}}},
+    {"lemma_id":"ab-1","existing":true,"n":["أَب"],"bp":["ءَابَآء"],"stems":[{"s":"أَبَا","bound":true},{"s":"أَبُو","bound":true},{"s":"أَبَوَىَّ","bound":false},{"s":"أَبَوَيْ","bound":true},{"s":"ءَابَآئِ","bound":true},{"s":"ءَابَآؤُ","bound":true}]},
+    {"lemma_id":"ahaqq-1","lemma":"أَحَقّ","pos":"noun","dt":"jamid","root":"ح ق ق","en":"more entitled; more deserving","ms":"lebih berhak","noun":[{"b":"أَحَقّ","t":"dip"}]},
+    {"lemma_id":"laysa-1","lemma":"لَيْسَ","pos":"verb","vf":"I","rs":"unresolved","en":"to not be; is not","ms":"bukan; tidak ada","verb":{"x":["لَيْسَ|maadi|3ms","لَيْسَتْ|maadi|3fs","لَيْسُوا۟|maadi|3mp","لَيْسَا|maadi|3md","لَسْتَ|maadi|2ms","لَسْتُمْ|maadi|2mp","لَسْتُ|maadi|1s","لَسْنَ|maadi|3fp","لَسْتِ|maadi|2fs","لَسْتُنَّ|maadi|2fp"]}}
+  ]
+}

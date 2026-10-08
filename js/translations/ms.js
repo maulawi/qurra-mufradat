@@ -23,7 +23,7 @@ const QM_I18N_MS = {
   },
 
   badge: {
-    demo: "Prototaip · Analisis perkataan: perintis"
+    demo: "Prototaip · Analisis perkataan sementara"
   },
 
   nav: {
@@ -40,19 +40,24 @@ const QM_I18N_MS = {
 
   home: {
     tagline: "Terokai setiap patah kata dalam al-Quran, Juzuk demi Juzuk.",
-    description: "QURRA Mufradat ialah penjelajah kosa kata al-Quran: teks al-Quran yang lengkap, perkataan demi perkataan, Juzuk demi Juzuk. Analisis perkataan (akar kata, lemma, bentuk tatabahasa) setakat ini hanya ada bagi sampel perintis yang terhad dan bersifat sementara.",
+    description: "QURRA Mufradat ialah penjelajah kosa kata al-Quran: teks al-Quran yang lengkap, perkataan demi perkataan, Juzuk demi Juzuk. Analisis perkataan (lemma, akar kata, bentuk tatabahasa, makna) meliputi sebahagian besar teks dan bersifat sementara: ditulis oleh QURRA dan dijana melalui peraturan, belum disemak oleh sarjana.",
     ctaExplore: "Terokai al-Quran",
     ctaBrowse: "Layari Kosa Kata",
-    demoNoteTemplate: 'Teks al-Quran yang lengkap (114 surah, 6,236 ayat) disertakan. Analisis perkataan demi perkataan (lemma, akar kata, morfologi) setakat ini hanya ada bagi sampel perintis yang kecil iaitu <strong>{analysed} ayat</strong> dan bersifat sementara; setiap perkataan lain hanya memaparkan teksnya, ditanda "belum dianalisis".',
+    demoNoteTemplate: 'Teks al-Quran yang lengkap (114 surah, 6,236 ayat) disertakan. Analisis perkataan sementara (lemma, akar kata, morfologi, makna) meliputi <strong>{pct}% perkataan</strong> ({analysed} daripada {total}). Ia ditulis oleh QURRA dan dijana melalui peraturan, belum disemak oleh sarjana. Perkataan tanpa analisis hanya memaparkan teksnya, ditanda "belum dianalisis".',
     browseByJuz: "Layari mengikut Juzuk"
   },
 
   juzCard: {
-    analysed: "Analisis perkataan (perintis)",
+    analysed: "Analisis perkataan (sementara)",
     textOnly: "Teks sahaja"
   },
 
   juz: {
+    ayahRangeTemplate: "ayat {range}",
+    wholeSurahTemplate: "seluruh surah · {count} ayat",
+    partOfSurahTemplate: "{count} daripada {total} ayat",
+    totalAyahsTemplate: "{count} ayat dalam Juz ini",
+    surahInJuzTemplate: "Juz {juz}: ayat {from}–{to} daripada {total}",
     eyebrow: "JUZUK",
     titleTemplate: "Juzuk {n}",
     notAvailableTitle: "Belum tersedia dalam prototaip ini",
@@ -67,20 +72,22 @@ const QM_I18N_MS = {
   surahs: {
     eyebrow: "KOSA KATA",
     title: "Surah",
-    noteTemplate: "Kesemua 114 surah disertakan. Analisis perkataan demi perkataan hanya ada bagi sampel perintis dalam: {list}."
+    noteTemplate: "Kesemua 114 surah disertakan. Analisis perkataan sementara meliputi {pct}% semua perkataan; setiap perkataan teks dipaparkan."
   },
 
   surahCard: {
     ayahsTemplate: "{total} ayat",
-    ayahsAnalysedTemplate: "{total} ayat · {analysed} dengan analisis perkataan"
+    ayahsAnalysedTemplate: "{total} ayat · {pct}% perkataan dianalisis"
   },
 
   surah: {
     metaTemplate: "{revelation} · {ayahCount} ayat",
-    metaAnalysedTemplate: "{revelation} · {ayahCount} ayat — {analysedCount} dengan analisis perkataan (perintis)",
-    demoNoteTemplate: "Analisis perkataan demi perkataan hanya ada bagi ayat {list} surah ini (perintis). Setiap perkataan lain hanya memaparkan teks al-Quran.",
+    metaAnalysedTemplate: "{revelation} · {ayahCount} ayat — {analysedCount} daripada {tokenCount} perkataan dianalisis (sementara)",
+    demoNoteTemplate: "Analisis perkataan meliputi {analysedCount} daripada {tokenCount} perkataan ({pct}%) dalam surah ini. Ia bersifat sementara: ditulis oleh QURRA dan dijana melalui peraturan, belum disemak oleh sarjana. Perkataan tanpa analisis hanya memaparkan teks al-Quran.",
     textOnlyNote: "Belum ada analisis perkataan demi perkataan bagi surah ini. Perkataan hanya memaparkan teks al-Quran.",
-    showTranslation: "Tunjuk terjemahan (parafrasa Bahasa Melayu)",
+    showTranslation: "Tunjuk terjemahan",
+    langName: { en: "Inggeris", ms: "Melayu" },
+    noTranslationInLang: "Tiada terjemahan dalam bahasa pilihan anda untuk ayat ini (terjemahan Bahasa Melayu yang dibenarkan belum ada).",
     translationNote: "Terjemahan kerja yang ditulis untuk prototaip ini — bukan terjemahan yang berautoriti.",
     ayahMissingTitle: "Ayat {ayah} tiada dalam surah ini",
     ayahMissingBody: "{surah} mempunyai {count} ayat.",
@@ -90,14 +97,14 @@ const QM_I18N_MS = {
   roots: {
     eyebrow: "KOSA KATA",
     title: "Akar Kata",
-    demoNoteTemplate: "{count} akar kata disertakan dalam set data demo ini — cukup untuk menunjukkan satu akar kata dengan beberapa lemma (و ق ي, ر ح م, هـ د ي), bukan indeks akar kata yang lengkap.",
-    provisionalNote: "Setiap akar kata yang dipaparkan di sini ialah pemegang tempat sementara daripada demo Peringkat 1: belum ada yang ditetapkan di bawah proses pengesahan akar kata QURRA, dan belum ada yang disemak."
+    demoNoteTemplate: "{count} akar kata direkodkan, setiap satu dipautkan kepada lemma yang menggunakannya. Ini leksikon sementara QURRA, bukan indeks akar kata yang lengkap.",
+    provisionalNote: "Setiap akar kata yang dipaparkan di sini bersifat sementara: ditetapkan oleh penyunting QURRA, belum disemak di bawah proses pengesahan akar kata QURRA. Akar kata yang dipertikaikan atau tidak pasti tidak dipaparkan sebagai akar kata."
   },
 
   root: {
     eyebrow: "AKAR KATA",
     relatedLemmas: "Lemma Berkaitan",
-    occurrencesTitle: "Kemunculan dalam al-Quran (demo)",
+    occurrencesTitle: "Kemunculan dalam al-Quran",
     noOccurrences: "Tiada lemma bagi akar kata ini yang muncul dalam set data demo buat masa ini.",
     noLemmas: "Tiada lemma direkodkan bagi akar kata ini dalam set data demo.",
     coreFieldSourceTemplate: "Sumber makna teras: {name} — {status}"
@@ -106,10 +113,12 @@ const QM_I18N_MS = {
   lemmas: {
     eyebrow: "KOSA KATA",
     title: "Lemma",
-    demoNoteTemplate: "{count} lemma (bentuk kamus) disertakan dalam set data demo ini."
+    demoNoteTemplate: "{count} lemma (bentuk kamus) direkodkan. Ini leksikon sementara QURRA dan bertambah dengan setiap keluaran."
   },
 
   lemma: {
+    occurrencesCountTemplate: "{total} kemunculan",
+    occurrencesPartialTemplate: "{total} kemunculan; memaparkan {shown} yang pertama mengikut susunan al-Quran",
     eyebrow: "LEMMA",
     fieldPos: "Jenis Kata",
     fieldDerivation: "Terbitan",
@@ -139,6 +148,8 @@ const QM_I18N_MS = {
   },
 
   detail: {
+    status: {"provisional":"Analisis sementara","reviewed":"Telah disemak","verified":"Telah disahkan","imported":"Diimport"},
+    basis: {"rule_default":"Bacaan lalai bagi ejaan ini (ditulis oleh QURRA); mungkin berbeza dalam ayat ini.","pilot":"Dianalisis oleh QURRA bagi perkataan ini; belum disemak oleh sarjana."},
     morphDetails: "Butiran Morfologi",
     breakdown: "Pecahan Perkataan",
     lemmaRoot: "Lemma &amp; Akar Kata",
@@ -155,7 +166,7 @@ const QM_I18N_MS = {
     pronounTemplate: "Kata ganti nama {person}",
     lemmaUnresolved: "Lemma bagi perkataan ini belum dikenal pasti.",
     notAnalysedTitle: "Analisis perkataan belum tersedia",
-    notAnalysedBody: "Perkataan ini belum mempunyai lemma, akar kata atau morfologi yang direkodkan. Tiada apa yang diteka: analisis akan dipaparkan di sini apabila diperoleh daripada sumber berlesen yang telah disemak.",
+    notAnalysedBody: "Perkataan ini belum mempunyai lemma, akar kata atau morfologi yang direkodkan. Tiada apa yang diteka. Liputan sedang bertambah, dan setiap analisis datang daripada leksikon QURRA sendiri serta ditanda sementara sehingga disemak oleh sarjana.",
     licenceLabel: "Status lesen",
     inUseNote: "Sedang digunakan"
   },
@@ -230,13 +241,23 @@ const QM_I18N_MS = {
     voice: { active: "Aktif", passive: "Pasif" },
     functionHere: {
       jarr: "Kata Sendi Nama",
-      atf: 'Kata Hubung ("dan")',
+      atf: "Kata Hubung",
+      shart: "Kata Syarat",
       nafy_al_jins: "Nafi Jenis",
       nafy_simple: "Nafi Mudah",
       nahy: "Larangan",
       dua: "Penanda Doa",
       jazm_nafy: "Menafi + Penanda Jazam",
-      istifham: "Awalan Soal"
+      istifham: "Partikel Soal",
+      tawkid: "Partikel penegas (inna / anna)",
+      nasb: "Partikel subjunktif",
+      nafy_nasb: "Penafian + subjunktif",
+      istithna: "Partikel pengecualian",
+      qad: "Partikel qad (kepastian)",
+      tarajji: "Partikel harapan (la'alla)",
+      tanbih: "Partikel peringatan",
+      nida: "Partikel panggilan",
+      ghaya: "Partikel had (sehingga)"
     },
     segmentFunction: {
       jarr: "kata sendi nama", atf: 'kata hubung ("dan")', definite_article: "kata sandang tertentu",
@@ -245,7 +266,9 @@ const QM_I18N_MS = {
     rootType: {
       sahih_salim: "Akar Sahih Salim", ajwaf: "Ajwaf (huruf lemah di tengah)",
       naqis: "Naqis (huruf lemah di akhir)", mudaaf: "Mudha'af (berganda)",
-      lafif_mafruq: "Lafif Mafruq (dua huruf lemah berasingan)", lafif_maqrun: "Lafif Maqrun (dua huruf lemah berturutan)"
+      lafif_mafruq: "Lafif Mafruq (dua huruf lemah berasingan)", lafif_maqrun: "Lafif Maqrun (dua huruf lemah berturutan)",
+      mithal: "Mithal (huruf pertama lemah)",
+      mahmuz: "Akar berhamzah (hamzah sebagai huruf akar)"
     },
     pos: { noun: "Kata Nama", verb: "Kata Kerja", particle: "Kata Tugas" },
     revelation: { Meccan: "Makkiyyah", Medinan: "Madaniyyah" }
@@ -289,6 +312,16 @@ const QM_I18N_MS = {
     QURRA_DEMO_CONJUGATION: {
       name: "Bentuk tasrif demo QURRA",
       status: "Bentuk rujukan yang dimasukkan secara manual untuk prototaip ini. Belum disemak."
+    },
+    QURRA_PILOT_ANALYSIS: {
+      name: "Analisis perintis QURRA yang diperluas",
+      status: "Analisis segmentasi, lemma dan ciri yang ditulis secara manual oleh QURRA bagi set ujian kira-kira 50 perkataan. Tidak disalin daripada mana-mana set data dan belum disemak oleh pakar tatabahasa Arab yang bertauliah."
+    },
+    QURRA_LEXICON: { name: "Leksikon QURRA", status: "Lemma, makna dan akar kata ditulis oleh penyunting QURRA berdasarkan pengetahuan bahasa Arab mereka sendiri. Sementara: belum disemak oleh sarjana yang layak, dan tidak disalin daripada mana-mana kamus atau set data." },
+    QURRA_RULE_ANALYSIS: { name: "Analisis berasaskan peraturan QURRA", status: "Bacaan lalai bagi setiap ejaan: peraturan QURRA untuk awalan, akhiran dan kata ganti diterapkan pada ejaan al-Quran yang tepat. Konteks tidak dirujuk, jadi ia mungkin berbeza dalam ayat tertentu. Sementara." },
+    QURRA_PILOT_ROOTS: {
+      name: "Akar kata sementara perintis QURRA yang diperluas",
+      status: "Huruf akar kata yang dimasukkan secara manual bagi beberapa kata kerja yang jelas biasa. Belum ditetapkan di bawah proses pengesahan akar kata QURRA dan tiada bukti direkodkan, maka hanya dipaparkan sebagai pemegang tempat sementara."
     },
     QURRA_DEMO_ROOTS: {
       name: "Akar kata sementara demo QURRA",

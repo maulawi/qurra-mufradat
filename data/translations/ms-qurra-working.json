@@ -1,0 +1,78 @@
+{
+ "translation_id": "ms-qurra-working",
+ "_comment": "QURRA working rendering of a few demo ayahs (not a published translation).",
+ "records": [
+  {
+   "ayah_id": "1:1",
+   "text": "Dengan nama Allah, Yang Maha Pemurah, Yang Maha Penyayang.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:2",
+   "text": "Segala puji bagi Allah, Tuhan sekalian alam.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:3",
+   "text": "Yang Maha Pemurah, Yang Maha Penyayang.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:4",
+   "text": "Yang Menguasai hari Pembalasan.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:5",
+   "text": "Hanya Engkaulah yang kami sembah, dan hanya kepada Engkaulah kami memohon pertolongan.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:6",
+   "text": "Tunjukilah kami jalan yang lurus.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:7",
+   "text": "Iaitu jalan orang-orang yang telah Engkau kurniakan nikmat ke atas mereka — bukan jalan orang-orang yang dimurkai, dan bukan pula jalan orang-orang yang sesat.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "2:2",
+   "text": "Inilah Kitab yang tidak ada keraguan padanya; menjadi petunjuk bagi orang-orang yang bertakwa.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "105:1",
+   "text": "Tidakkah engkau perhatikan bagaimana Tuhanmu bertindak terhadap angkatan tentera bergajah?",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  }
+ ]
+}

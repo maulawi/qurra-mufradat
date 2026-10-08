@@ -1,0 +1,1045 @@
+{
+  "_comment": "Analysis sets: one record per token that has candidate analyses. See STAGE_4_ANALYSIS_LAYER.md.",
+  "analysis_sets": [
+    {
+      "token_id": "112:1:1",
+      "chosen": "an-112.1.1-a",
+      "candidates": [
+        {
+          "analysis_id": "an-112.1.1-a",
+          "form_id": "frm-qaala-1-8f57c492",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "112:1:2",
+      "chosen": "an-112.1.2-a",
+      "candidates": [
+        {
+          "analysis_id": "an-112.1.2-a",
+          "form_id": "frm-huwa-1-a69e9809",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "112:1:3",
+      "chosen": "an-112.1.3-a",
+      "candidates": [
+        {
+          "analysis_id": "an-112.1.3-a",
+          "form_id": "frm-allah-1-b2664847",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "112:1:4",
+      "chosen": "an-112.1.4-a",
+      "candidates": [
+        {
+          "analysis_id": "an-112.1.4-a",
+          "form_id": "frm-ahad-1-751b9ccd",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "112:2:2",
+      "chosen": "an-112.2.2-a",
+      "candidates": [
+        {
+          "analysis_id": "an-112.2.2-a",
+          "form_id": "frm-samad-1-bcb37324",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "112:3:1",
+      "chosen": "an-112.3.1-a",
+      "candidates": [
+        {
+          "analysis_id": "an-112.3.1-a",
+          "form_id": "frm-lam-1-f0b66c3b",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "112:3:2",
+      "chosen": "an-112.3.2-a",
+      "candidates": [
+        {
+          "analysis_id": "an-112.3.2-a",
+          "form_id": "frm-walada-1-2737ee78",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "112:3:4",
+      "chosen": "an-112.3.4-a",
+      "candidates": [
+        {
+          "analysis_id": "an-112.3.4-a",
+          "form_id": "frm-walada-1-489b0e05",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "112:4:2",
+      "chosen": "an-112.4.2-a",
+      "candidates": [
+        {
+          "analysis_id": "an-112.4.2-a",
+          "form_id": "frm-kaana-1-711f13bc",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "112:4:4",
+      "chosen": null,
+      "candidates": [
+        {
+          "analysis_id": "an-112.4.4-a",
+          "form_id": "frm-kufu-1-37c4fc7d",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        },
+        {
+          "analysis_id": "an-112.4.4-b",
+          "form_id": "frm-kufu-2-5293708a",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment",
+          "note": "lemma كُفُؤ (kufu-2)"
+        }
+      ]
+    },
+    {
+      "token_id": "112:4:5",
+      "chosen": "an-112.4.5-a",
+      "candidates": [
+        {
+          "analysis_id": "an-112.4.5-a",
+          "form_id": "frm-ahad-1-e740962d",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "111:1:1",
+      "chosen": "an-111.1.1-a",
+      "candidates": [
+        {
+          "analysis_id": "an-111.1.1-a",
+          "form_id": "frm-tabba-1-51a3cbe0",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "111:1:2",
+      "chosen": "an-111.1.2-a",
+      "candidates": [
+        {
+          "analysis_id": "an-111.1.2-a",
+          "form_id": "frm-yad-1-2a20c34a",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "111:1:3",
+      "chosen": "an-111.1.3-a",
+      "candidates": [
+        {
+          "analysis_id": "an-111.1.3-a",
+          "form_id": "frm-ab-1-a5882fdc",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "111:1:5",
+      "chosen": "an-111.1.5-a",
+      "candidates": [
+        {
+          "analysis_id": "an-111.1.5-a",
+          "form_id": "frm-tabba-1-6e98676e",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "111:2:1",
+      "chosen": "an-111.2.1-a",
+      "candidates": [
+        {
+          "analysis_id": "an-111.2.1-a",
+          "form_id": "frm-ma-1-d3cbe97e",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        },
+        {
+          "analysis_id": "an-111.2.1-b",
+          "form_id": "frm-ma-2-3f6a3b4b",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment",
+          "note": "interrogative noun (ma-2)"
+        }
+      ]
+    },
+    {
+      "token_id": "111:4:1",
+      "chosen": "an-111.4.1-a",
+      "candidates": [
+        {
+          "analysis_id": "an-111.4.1-a",
+          "form_id": "frm-imraa-1-f5a69086",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "114:1:2",
+      "chosen": "an-114.1.2-a",
+      "candidates": [
+        {
+          "analysis_id": "an-114.1.2-a",
+          "form_id": "frm-aadha-1-099d52f5",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "114:1:3",
+      "chosen": "an-114.1.3-a",
+      "candidates": [
+        {
+          "analysis_id": "an-114.1.3-a",
+          "form_id": "frm-rabb-1-a7308f7a",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "114:2:1",
+      "chosen": "an-114.2.1-a",
+      "candidates": [
+        {
+          "analysis_id": "an-114.2.1-a",
+          "form_id": "frm-malik-2-b311a0f5",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "114:4:3",
+      "chosen": "an-114.4.3-a",
+      "candidates": [
+        {
+          "analysis_id": "an-114.4.3-a",
+          "form_id": "frm-waswas-1-7eb622b0",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "114:5:2",
+      "chosen": "an-114.5.2-a",
+      "candidates": [
+        {
+          "analysis_id": "an-114.5.2-a",
+          "form_id": "frm-waswasa-1-a8c56a77",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "99:1:2",
+      "chosen": "an-99.1.2-a",
+      "candidates": [
+        {
+          "analysis_id": "an-99.1.2-a",
+          "form_id": "frm-zalzala-1-9230845f",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "99:1:4",
+      "chosen": "an-99.1.4-a",
+      "candidates": [
+        {
+          "analysis_id": "an-99.1.4-a",
+          "form_id": "frm-zilzal-1-b6877673",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "91:14:3",
+      "chosen": "an-91.14.3-a",
+      "candidates": [
+        {
+          "analysis_id": "an-91.14.3-a",
+          "form_id": "frm-damdama-1-123200b7",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:255:1",
+      "chosen": "an-2.255.1-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.255.1-a",
+          "form_id": "frm-allah-1-b2664847",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:255:3",
+      "chosen": "an-2.255.3-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.255.3-a",
+          "form_id": "frm-ilah-1-25a0c27b",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        },
+        {
+          "analysis_id": "an-2.255.3-b",
+          "form_id": "frm-allah-1-bddf0f74",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment",
+          "note": "lemma اللَّه (allah-1)"
+        }
+      ]
+    },
+    {
+      "token_id": "2:255:6",
+      "chosen": "an-2.255.6-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.255.6-a",
+          "form_id": "frm-hayy-1-15609028",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:255:7",
+      "chosen": "an-2.255.7-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.255.7-a",
+          "form_id": "frm-qayyum-1-ad606d26",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:255:9",
+      "chosen": "an-2.255.9-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.255.9-a",
+          "form_id": "frm-akhadha-1-275ba8ce",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:255:14",
+      "chosen": "an-2.255.14-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.255.14-a",
+          "form_id": "frm-ma-2-168c5a72",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:255:20",
+      "chosen": "an-2.255.20-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.255.20-a",
+          "form_id": "frm-man-1-892b1b2d",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:255:26",
+      "chosen": "an-2.255.26-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.255.26-a",
+          "form_id": "frm-idhn-1-3d82d5ab",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:255:30",
+      "chosen": "an-2.255.30-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.255.30-a",
+          "form_id": "frm-yad-1-1a721730",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:255:41",
+      "chosen": "an-2.255.41-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.255.41-a",
+          "form_id": "frm-wasia-1-c9cb445f",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "101:2:1",
+      "chosen": "an-101.2.1-a",
+      "candidates": [
+        {
+          "analysis_id": "an-101.2.1-a",
+          "form_id": "frm-ma-2-c66a5f6e",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:34:3",
+      "chosen": "an-2.34.3-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.34.3-a",
+          "form_id": "frm-malak-1-bb02c597",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:34:8",
+      "chosen": "an-2.34.8-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.34.8-a",
+          "form_id": "frm-iblis-1-9c68db78",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:34:9",
+      "chosen": "an-2.34.9-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.34.9-a",
+          "form_id": "frm-abaa-1-2a496eb7",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:34:11",
+      "chosen": "an-2.34.11-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.34.11-a",
+          "form_id": "frm-kaana-1-958efe67",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        },
+        {
+          "analysis_id": "an-2.34.11-b",
+          "form_id": "frm-x-9fa72808",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment",
+          "note": "auxiliary particle, no lemma asserted"
+        }
+      ]
+    },
+    {
+      "token_id": "96:1:1",
+      "chosen": "an-96.1.1-a",
+      "candidates": [
+        {
+          "analysis_id": "an-96.1.1-a",
+          "form_id": "frm-qaraa-1-c645bce6",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "96:1:2",
+      "chosen": "an-96.1.2-a",
+      "candidates": [
+        {
+          "analysis_id": "an-96.1.2-a",
+          "form_id": "frm-ism-1-bbae3d2d",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "8:17:7",
+      "chosen": "an-8.17.7-a",
+      "candidates": [
+        {
+          "analysis_id": "an-8.17.7-a",
+          "form_id": "frm-rama-1-b3e4142b",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "8:17:12",
+      "chosen": "an-8.17.12-a",
+      "candidates": [
+        {
+          "analysis_id": "an-8.17.12-a",
+          "form_id": "frm-rama-1-56b54173",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "13:3:3",
+      "chosen": "an-13.3.3-a",
+      "candidates": [
+        {
+          "analysis_id": "an-13.3.3-a",
+          "form_id": "frm-madda-1-29451c0a",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:87:11",
+      "chosen": "an-2.87.11-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.87.11-a",
+          "form_id": "frm-ibn-1-84792ba5",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:23:1",
+      "chosen": "an-2.23.1-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.23.1-a",
+          "form_id": "frm-in-1-05f03848",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "6:29:2",
+      "chosen": "an-6.29.2-a",
+      "candidates": [
+        {
+          "analysis_id": "an-6.29.2-a",
+          "form_id": "frm-in-1-ee4da7db",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    },
+    {
+      "token_id": "2:23:11",
+      "chosen": "an-2.23.11-a",
+      "candidates": [
+        {
+          "analysis_id": "an-2.23.11-a",
+          "form_id": "frm-min-1-264b8247",
+          "origin": "qurra_editorial",
+          "status": "provisional",
+          "source": {
+            "source_id": "QURRA_PILOT_ANALYSIS",
+            "source_version": "stage-4-pilot",
+            "source_ref": null,
+            "raw_tags": [],
+            "external_ids": []
+          },
+          "lemma_scope": "segment"
+        }
+      ]
+    }
+  ]
+}

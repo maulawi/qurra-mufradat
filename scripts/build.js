@@ -13,10 +13,17 @@ function run(label, args) {
   if (r.status !== 0) { console.error(`\nbuild: step failed: ${label}`); process.exit(r.status || 1); }
 }
 
+run("rule-based analysis layer (lexicon -> data/qurra/generated)", ["scripts/analyse/generate.js"]);
 run("validate data", ["scripts/validate-data.js"]);
 run("validator tests", ["scripts/tests/test-validate.js"]);
+run("analysis/staging layer tests (synthetic source only)", ["scripts/tests/test-analysis.js"]);
 run("generate dataset + search index", ["scripts/build-dataset.js"]);
 run("data-layer tests (display policy, model separations)", ["scripts/tests/test-data-layer.js"]);
+run("content tests (licensing gate, alignment, translations, coverage, search)", ["scripts/tests/test-content.js"]);
+run("word-analysis tests (every token resolves, pilot intact, roots held back)", ["scripts/tests/test-wordanalysis.js"]);
+run("juz membership tests", ["scripts/tests/test-juz.js"]);
+run("coverage report", ["scripts/report/coverage.js"]);
+run("source research document", ["scripts/report/source-research.js"]);
 
 // "lint": syntax-check every JS file the browser loads or the build runs (no third-party linter is used in this repo).
 const files = [];

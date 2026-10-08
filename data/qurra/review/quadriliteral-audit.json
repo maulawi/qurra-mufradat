@@ -1,0 +1,460 @@
+{
+  "schema": "qurra-quadriliteral-audit/1",
+  "note": "Read-only audit. Every entry is a flag for editorial review; no root was assigned, changed or removed. Section D is a spelling heuristic and will include false positives (for example words that merely repeat a pair of letters) and may miss quadriliteral words that are not reduplicated.",
+  "A_root_inventory_by_letter_count": [
+    {
+      "letters": 3,
+      "category": "thulathi",
+      "count": 285
+    }
+  ],
+  "B_lemmas_with_four_letter_root_candidates": [
+    {
+      "lemma_id": "damdama-1",
+      "form": "دَمْدَمَ",
+      "pos": "verb",
+      "status": "disputed",
+      "root_id": null,
+      "four_letter_candidates": [
+        "د م د م"
+      ],
+      "all_candidates": [
+        "د م د م",
+        "د م م"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "waswas-1",
+      "form": "وَسْوَاس",
+      "pos": "noun",
+      "status": "disputed",
+      "root_id": null,
+      "four_letter_candidates": [
+        "و س و س"
+      ],
+      "all_candidates": [
+        "و س و س",
+        "و س س"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "waswasa-1",
+      "form": "وَسْوَسَ",
+      "pos": "verb",
+      "status": "disputed",
+      "root_id": null,
+      "four_letter_candidates": [
+        "و س و س"
+      ],
+      "all_candidates": [
+        "و س و س",
+        "و س س"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "zalzala-1",
+      "form": "زَلْزَلَ",
+      "pos": "verb",
+      "status": "disputed",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ز ل ز ل"
+      ],
+      "all_candidates": [
+        "ز ل ز ل",
+        "ز ل ل"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "zilzal-1",
+      "form": "زِلْزَال",
+      "pos": "noun",
+      "status": "disputed",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ز ل ز ل"
+      ],
+      "all_candidates": [
+        "ز ل ز ل",
+        "ز ل ل"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    }
+  ],
+  "C_lemma_spellings_flagged": [
+    {
+      "lemma_id": "damdama-1",
+      "form": "دَمْدَمَ",
+      "pos": "verb",
+      "skeleton": "دمدم",
+      "root_status": "disputed",
+      "candidates": [
+        "د م د م",
+        "د م م"
+      ],
+      "reasons": [
+        "reduplicated spelling (c1 c2 c1 c2)",
+        "verb of four consonants without a verb_form and without an assigned root"
+      ]
+    },
+    {
+      "lemma_id": "waswas-1",
+      "form": "وَسْوَاس",
+      "pos": "noun",
+      "skeleton": "وسوس",
+      "root_status": "disputed",
+      "candidates": [
+        "و س و س",
+        "و س س"
+      ],
+      "reasons": [
+        "reduplicated spelling (c1 c2 c1 c2)"
+      ]
+    },
+    {
+      "lemma_id": "waswasa-1",
+      "form": "وَسْوَسَ",
+      "pos": "verb",
+      "skeleton": "وسوس",
+      "root_status": "disputed",
+      "candidates": [
+        "و س و س",
+        "و س س"
+      ],
+      "reasons": [
+        "reduplicated spelling (c1 c2 c1 c2)",
+        "verb of four consonants without a verb_form and without an assigned root"
+      ]
+    },
+    {
+      "lemma_id": "zalzala-1",
+      "form": "زَلْزَلَ",
+      "pos": "verb",
+      "skeleton": "زلزل",
+      "root_status": "disputed",
+      "candidates": [
+        "ز ل ز ل",
+        "ز ل ل"
+      ],
+      "reasons": [
+        "reduplicated spelling (c1 c2 c1 c2)",
+        "verb of four consonants without a verb_form and without an assigned root"
+      ]
+    },
+    {
+      "lemma_id": "zilzal-1",
+      "form": "زِلْزَال",
+      "pos": "noun",
+      "skeleton": "زلزل",
+      "root_status": "disputed",
+      "candidates": [
+        "ز ل ز ل",
+        "ز ل ل"
+      ],
+      "reasons": [
+        "reduplicated spelling (c1 c2 c1 c2)"
+      ]
+    }
+  ],
+  "D_reduplicated_words_in_the_text": [
+    {
+      "stem_skeleton": "ولول",
+      "count": 28,
+      "analysed": 0,
+      "surfaces": [
+        "وَلَوْلَا",
+        "وَلَوْلَآ",
+        "وَٱلْأُولَىٰ",
+        "وَٱلْأَوَّلِينَ",
+        "وَٱلْأُولَىٰٓ"
+      ],
+      "refs": [
+        "2:251:14",
+        "4:83:22",
+        "4:113:1",
+        "10:19:8"
+      ]
+    },
+    {
+      "stem_skeleton": "لولو",
+      "count": 8,
+      "analysed": 0,
+      "surfaces": [
+        "لَّوَلَّوْا۟",
+        "ٱلْأَوَّلُونَ",
+        "لَوَلَّوُا۟"
+      ],
+      "refs": [
+        "9:57:8",
+        "9:100:2",
+        "17:59:10",
+        "21:5:14"
+      ]
+    },
+    {
+      "stem_skeleton": "لؤلؤ",
+      "count": 6,
+      "analysed": 0,
+      "surfaces": [
+        "وَلُؤْلُؤًا",
+        "لُؤْلُؤٌ",
+        "ٱللُّؤْلُؤُ",
+        "ٱللُّؤْلُؤِ",
+        "لُؤْلُؤًا"
+      ],
+      "refs": [
+        "22:23:19",
+        "35:33:10",
+        "52:24:6",
+        "55:22:3"
+      ]
+    },
+    {
+      "stem_skeleton": "لثلث",
+      "count": 5,
+      "analysed": 0,
+      "surfaces": [
+        "ٱلثُّلُثُ",
+        "ٱلثُّلُثِ",
+        "ٱلثُّلُثَانِ",
+        "ٱلثَّلَٰثَةِ",
+        "ٱلثَّالِثَةَ"
+      ],
+      "refs": [
+        "4:11:42",
+        "4:12:73",
+        "4:176:30",
+        "9:118:2"
+      ]
+    },
+    {
+      "stem_skeleton": "لهله",
+      "count": 4,
+      "analysed": 0,
+      "surfaces": [
+        "ٱلْأَهِلَّةِ",
+        "لِأَهْلِهِ",
+        "لِأَهْلِهِۦٓ"
+      ],
+      "refs": [
+        "2:189:3",
+        "20:10:5",
+        "27:7:4",
+        "28:29:13"
+      ]
+    },
+    {
+      "stem_skeleton": "صلصل",
+      "count": 4,
+      "analysed": 0,
+      "surfaces": [
+        "صَلْصَٰلٍ"
+      ],
+      "refs": [
+        "15:26:5",
+        "15:28:9",
+        "15:33:8",
+        "55:14:4"
+      ]
+    },
+    {
+      "stem_skeleton": "زلزل",
+      "count": 4,
+      "analysed": 2,
+      "surfaces": [
+        "زَلْزَلَةَ",
+        "زِلْزَالًا",
+        "زُلْزِلَتِ",
+        "زِلْزَالَهَا"
+      ],
+      "refs": [
+        "22:1:6",
+        "33:11:5",
+        "99:1:2",
+        "99:1:4"
+      ]
+    },
+    {
+      "stem_skeleton": "وسوس",
+      "count": 3,
+      "analysed": 1,
+      "surfaces": [
+        "فَوَسْوَسَ",
+        "ٱلْوَسْوَاسِ"
+      ],
+      "refs": [
+        "7:20:1",
+        "20:120:1",
+        "114:4:3"
+      ]
+    },
+    {
+      "stem_skeleton": "ودود",
+      "count": 3,
+      "analysed": 0,
+      "surfaces": [
+        "وَدُودٌ",
+        "وَدَاوُۥدَ",
+        "ٱلْوَدُودُ"
+      ],
+      "refs": [
+        "11:90:9",
+        "21:78:1",
+        "85:14:3"
+      ]
+    },
+    {
+      "stem_skeleton": "صرصر",
+      "count": 3,
+      "analysed": 0,
+      "surfaces": [
+        "صَرْصَرًا",
+        "صَرْصَرٍ"
+      ],
+      "refs": [
+        "41:16:4",
+        "54:19:5",
+        "69:6:5"
+      ]
+    },
+    {
+      "stem_skeleton": "سلسل",
+      "count": 2,
+      "analysed": 0,
+      "surfaces": [
+        "سِلْسِلَةٍ",
+        "سَلَٰسِلَا۟"
+      ],
+      "refs": [
+        "69:32:3",
+        "76:4:4"
+      ]
+    },
+    {
+      "stem_skeleton": "زحزح",
+      "count": 1,
+      "analysed": 0,
+      "surfaces": [
+        "زُحْزِحَ"
+      ],
+      "refs": [
+        "3:185:11"
+      ]
+    },
+    {
+      "stem_skeleton": "فوفو",
+      "count": 1,
+      "analysed": 0,
+      "surfaces": [
+        "فَأَوْفُوا۟"
+      ],
+      "refs": [
+        "7:85:19"
+      ]
+    },
+    {
+      "stem_skeleton": "حصحص",
+      "count": 1,
+      "analysed": 0,
+      "surfaces": [
+        "حَصْحَصَ"
+      ],
+      "refs": [
+        "12:51:21"
+      ]
+    },
+    {
+      "stem_skeleton": "صفصف",
+      "count": 1,
+      "analysed": 0,
+      "surfaces": [
+        "صَفْصَفًا"
+      ],
+      "refs": [
+        "20:106:3"
+      ]
+    },
+    {
+      "stem_skeleton": "هدهد",
+      "count": 1,
+      "analysed": 0,
+      "surfaces": [
+        "ٱلْهُدْهُدَ"
+      ],
+      "refs": [
+        "27:20:8"
+      ]
+    },
+    {
+      "stem_skeleton": "صيصي",
+      "count": 1,
+      "analysed": 0,
+      "surfaces": [
+        "صَيَاصِيهِمْ"
+      ],
+      "refs": [
+        "33:26:8"
+      ]
+    },
+    {
+      "stem_skeleton": "ليلي",
+      "count": 1,
+      "analysed": 0,
+      "surfaces": [
+        "لَيَالِىَ"
+      ],
+      "refs": [
+        "34:18:15"
+      ]
+    },
+    {
+      "stem_skeleton": "رفرف",
+      "count": 1,
+      "analysed": 0,
+      "surfaces": [
+        "رَفْرَفٍ"
+      ],
+      "refs": [
+        "55:76:3"
+      ]
+    },
+    {
+      "stem_skeleton": "عسعس",
+      "count": 1,
+      "analysed": 0,
+      "surfaces": [
+        "عَسْعَسَ"
+      ],
+      "refs": [
+        "81:17:3"
+      ]
+    },
+    {
+      "stem_skeleton": "دمدم",
+      "count": 1,
+      "analysed": 1,
+      "surfaces": [
+        "فَدَمْدَمَ"
+      ],
+      "refs": [
+        "91:14:3"
+      ]
+    },
+    {
+      "stem_skeleton": "ينين",
+      "count": 1,
+      "analysed": 0,
+      "surfaces": [
+        "سِينِينَ"
+      ],
+      "refs": [
+        "95:2:2"
+      ]
+    }
+  ],
+  "not_covered": "Non-reduplicated quadriliteral words (for example a verb built on four different consonants) cannot be found by spelling alone; they need the lexicon or an editor."
+}

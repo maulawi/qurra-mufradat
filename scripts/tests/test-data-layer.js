@@ -60,7 +60,8 @@ const variants = basmalaForms(official.lines);
   ok("every ayah's text equals the official Tanzil text (minus the separated basmala header)", verbatim === 6236 && mismatch.length === 0, mismatch.slice(0, 3).join(","));
   ok("token count matches the build", tokenTotal === 77441, String(tokenTotal));
 
-  const analysed = D.getToken("1:5:3"), plain = D.getToken("2:255:1");
+  const analysed = D.getToken("1:5:3");
+  const plain = (function () { for (let s = 1; s <= 114; s++) for (const a of D.listAyahsInSurah(s)) for (const t of a.tokens) if (!t.analysed) return t; return null; })();   // the first word with no analysis at all
   ok("an unanalysed token carries no invented analysis", plain && !plain.analysed && plain.pos === null && plain.lemma === null && plain.segments.length === 0 && plain.formId === null);
   ok("analysed token has a Form with ordered segments", analysed.analysed && analysed.segments.map(s => s.type).join(",") === "proclitic,stem,enclitic");
   ok("token ids are strict (no padding, no out-of-range)", D.getToken("01:1:1") === null && D.getToken("1:1:99") === null && D.getToken("1:1:0") === null && D.getToken("115:1:1") === null && D.getToken("x") === null);
@@ -73,13 +74,30 @@ const variants = basmalaForms(official.lines);
 
   ok("juz derived from the official start table", D.getAyah(2, 141).juz === 1 && D.getAyah(2, 142).juz === 2 && D.getAyah(78, 1).juz === 30 && D.getAyah(114, 6).juz === 30 && D.getAyah(1, 1).juz === 1);
   ok("30 juz, a surah may span juz", D.listJuz().length === 30 && D.getJuz(1).surahIds.join() === "1,2" && D.getJuz(2).surahIds.includes(2));
-  ok("pilot analysis is counted per juz", D.getJuz(1).analysedAyahCount === 8 && D.getJuz(30).analysedAyahCount === 1 && D.getJuz(15).analysedAyahCount === 0);
+  // expected counts are computed independently from the source files (not hard-coded), then compared with the data layer
+  {
+    const { loadDataset } = require("../lib/load-data");
+    const ds = loadDataset(ROOT);
+    const juzOfAyah = new Map();
+    ds.ayahs.forEach(a => { let n = 1; ds.juz.forEach(j => { if (j.start.surah < a.surah || (j.start.surah === a.surah && j.start.ayah <= a.ayah)) n = j.juz; }); juzOfAyah.set(a.ayah_id, n); });
+    const ruleSurfaces = new Set(ds.forms.filter(f => f.basis === "rule_default").map(f => f.surface));
+    const pilotIds = new Set(ds.effectiveTokenForms.map(t => t.token_id));
+    const analysedAyahs = new Set(ds.tokens.filter(t => pilotIds.has(t.token_id) || ruleSurfaces.has(t.text)).map(t => t.ayah_id));
+    const perJuz = {}; analysedAyahs.forEach(id => { const j = juzOfAyah.get(id); perJuz[j] = (perJuz[j] || 0) + 1; });
+    ok("analysed ayahs are counted per juz (checked against the source files)", Object.keys(perJuz).every(j => D.getJuz(Number(j)).analysedAyahCount === perJuz[j])&&  D.listJuz().reduce((n, j) => n + j.analysedAyahCount, 0) === analysedAyahs.size);
+    const formById = new Map(ds.forms.map(f => [f.form_id, f]));
+    const ruleBySurface = new Map(ds.forms.filter(f => f.basis === "rule_default").map(f => [f.surface, f]));
+    const pilotForm = new Map(ds.effectiveTokenForms.map(t => [t.token_id, t.form_id]));
+    const hasRabb = f => !!f && f.segments.some(x => x.type === "stem" && x.lemma_id === "rabb-1");
+    const expectedRabb = ds.tokens.filter(t => hasRabb(pilotForm.has(t.token_id) ? formById.get(pilotForm.get(t.token_id)) : ruleBySurface.get(t.text))).map(t => t.token_id);
+    ok("occurrences only list analysed tokens, and match the source files (pilot assignment first, else the spelling's default)", D.getOccurrencesForLemma("rabb-1").map(t => t.id).join() === expectedRabb.join() && D.getOccurrenceCount("rabb-1") === expectedRabb.length && D.getOccurrencesForLemma("rabb-1").every(t => t.analysed));
+  }
 
   ok("provisional root is shown with a badge state", D.getLemma("rahman-1").rootState === "show_with_badge" && D.getLemma("rahman-1").root.display === "ر ح م");
   ok("disputed lemma: no root, under_review", D.getLemma("ism-1").root === null && D.getLemma("ism-1").rootState === "under_review");
   ok("unresolved lemma: no root, under_review", D.getLemma("allah-1").root === null && D.getLemma("allah-1").rootState === "under_review");
   ok("null-policy lemma: no root, not_applicable", D.getLemma("la-1").root === null && D.getLemma("la-1").rootState === "not_applicable");
-  ok("disputed candidates never leak into search", D.searchVocabulary("س م و").every(r => r.kind !== "root") && D.searchVocabulary("و س م").every(r => r.kind !== "root"));
+  ok("disputed candidates never leak into search (the other candidate of ism-1)", D.searchVocabulary("و س م").every(r => r.kind !== "root") && D.getLemma("ism-1").root === null);
   ok("search finds a provisional root by letters", D.searchVocabulary("ر ح م").some(r => r.kind === "root"));
 
   /* search on the full text */
@@ -93,12 +111,14 @@ const variants = basmalaForms(official.lines);
   ok("results are capped", D.searchVocabulary("ا").length <= 20);
   ok("gloss search (EN + BM) still works", D.searchVocabulary("merciful").some(r => r.kind === "lemma") && D.searchVocabulary("pemurah").some(r => r.kind === "lemma"));
 
+  ok("a token held by an unresolved conflict is shown as unanalysed (112:4:4)", D.getToken("112:4:4").analysed === false && D.getToken("112:4:4").lemma === null);
+  ok("a token analysed through an analysis set resolves like any other (2:255:3)", D.getToken("2:255:3").analysed && D.getToken("2:255:3").lemma.id === "ilah-1");
+  ok("disputed root of a new lemma is hidden and not searchable (أحد)", D.getLemma("ahad-1").root === null && D.getLemma("ahad-1").rootState === "under_review" && D.searchVocabulary("ء ح د").every(r => r.kind !== "root"));
   const u = D.getToken("1:5:2");
   ok("Token != Form != Lemma != Root", u.id !== u.formId && u.lemma.id !== u.formId && u.lemma.root.id !== u.lemma.id);
   ok("repeated analysis shares one Form", D.getToken("1:1:3").formId === D.getToken("1:3:1").formId);
   ok("gloss layers kept apart", D.getLemma("la-1").gloss.en === "no, not" && !!D.getLemma("la-1").learnerNote && D.getLemma("la-1").usageNote === null);
   ok("arabic terms come from the taxonomy", D.arabicTerms().pos.noun === "اسم" && D.arabicTerms().pluralType.jama_taksir === "جمع تكسير");
-  ok("occurrences only list analysed tokens", D.getOccurrencesForLemma("rabb-1").length === 2 && D.getOccurrencesForLemma("rabb-1").every(t => t.analysed));
 }
 
 /* ---- policy flipped: provisional roots hidden ---- */

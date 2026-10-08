@@ -1,0 +1,78 @@
+{
+ "translation_id": "en-qurra-working",
+ "_comment": "QURRA working rendering of a few demo ayahs (not a published translation).",
+ "records": [
+  {
+   "ayah_id": "1:1",
+   "text": "In the name of Allah, the Most Gracious, the Most Merciful.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:2",
+   "text": "All praise belongs to Allah, Lord of all the worlds.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:3",
+   "text": "The Most Gracious, the Most Merciful.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:4",
+   "text": "Master of the Day of Judgment.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:5",
+   "text": "You alone we worship, and You alone we ask for help.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:6",
+   "text": "Guide us to the straight path.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "1:7",
+   "text": "The path of those You have blessed — not of those who have earned anger, nor of those who have gone astray.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "2:2",
+   "text": "This is the Book; there is no doubt in it — a guidance for the God-conscious.",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  },
+  {
+   "ayah_id": "105:1",
+   "text": "Have you not seen how your Lord dealt with the companions of the elephant?",
+   "status": "provisional",
+   "provenance": {
+    "source_id": "QURRA_DEMO_TRANSLATION"
+   }
+  }
+ ]
+}

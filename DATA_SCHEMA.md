@@ -31,8 +31,8 @@ form — "مُتَّقٍ", "فَعَلَ", "لَمْ"). Proclitics and enclitics
 (proclitics) or `pronounFeatures` (enclitics) instead, because they are
 function words or pronoun markers, not separate dictionary entries.
 
-A Lemma may point to a **Root** (the three-or-so-letter consonantal root,
-e.g. و ق ي). Particles and a handful of frozen/pronoun-like nouns
+A Lemma may point to a **Root** (the consonantal root, e.g. و ق ي; three or
+four radicals today, see "Root length and root category" below). Particles and a handful of frozen/pronoun-like nouns
 (كَيْفَ، ذَٰلِكَ) have `rootId: null` — this is linguistically correct, not
 a data gap, and the UI shows it as "no recorded root" rather than hiding
 the field or inventing one.
@@ -207,13 +207,52 @@ blueprint):
 - `naqis` — defective (weak final radical)
 - `mudaaf` — doubled/geminate (two identical radicals, e.g. ر ب ب)
 - `lafif_mafruq` — two weak radicals, **not** adjacent (e.g. و ق ي — 1st and 3rd)
-- `lafif_maqrun` — two weak radicals, adjacent (e.g. ي و م — 2nd and 3rd)
+- `lafif_maqrun` — two weak radicals, adjacent (e.g. ط و ي — 2nd and 3rd)
 
 *(Editorial note: an earlier version of the product blueprint's own sample
 JSON classified و ق ي as `naqis`. That undercounts it — a weak letter in
 **both** the first and third position makes it `lafif_mafruq`, which is the
 classification used here. Worth fixing in the blueprint doc at some point;
 not corrected retroactively as part of this build to avoid scope creep.)*
+
+## 6a. Root length and root category — roots are not always three letters
+
+The number of radicals is **not fixed**. A root is an ordered list of canonical letters; the allowed lengths
+come from `data/taxonomy.json` → `root_category` (each entry has an `id`, an Arabic label and an integer
+`radicals`):
+
+| `root_category` | Arabic | radicals | Example |
+|---|---|---|---|
+| `thulathi` | ثلاثي | 3 | ع ب د |
+| `rubai` | رباعي | 4 | ز ل ز ل |
+
+- A **quadriliteral** root (رباعي) such as ز ل ز ل is a root in its own right. It is **never reduced** to a related
+  triliteral (ز ل ل) because a classical source discusses it in that family.
+- A new category (for example a five-radical one) is added by adding one `root_category` entry. No schema or
+  validator change is needed.
+- `roots[].root_category` is optional. When present it must equal the category of the root's letter count; when absent
+  it is derived from the number of letters. Existing three-letter roots do not carry it.
+- `roots[].root_type` (soundness/weakness class, section 6) is independent of the length. The traditional classes are
+  defined for three-letter roots. A four-letter root with no weak letter and no hamza is `sahih_salim`; a four-letter
+  root with a weak letter or hamza has **no defined class** and the generator refuses to guess (an editor must set it).
+- Root candidates (`lemma.root.candidates[]`) are validated for length (an error) and for canonical letters (a warning,
+  because candidates are editorial and are never assigned).
+
+### QURRA root assignment versus source indexing
+
+Two different things are stored, and they are not necessarily the same:
+
+1. **QURRA root assignment** — the root QURRA assigns to the lemma (`lemma.root.root_id`, or a candidate while the
+   status is `disputed`/`unresolved`).
+2. **Source indexing** — the root, family or heading under which a classical source happens to discuss the word.
+   Optional `lemma.root.source_indexing[]`, each entry `{ source_id, indexed_under, location?, note? }`.
+   `indexed_under` is written as spaced letters and may have a different length (two letters are allowed, because a
+   source can index a word such as يد under a biliteral heading).
+
+Source indexing is **evidence only**. The validator rejects an entry that carries a `root_id`, and nothing in the build
+copies an indexing heading into `root_id` or `candidates`. The classical cross-check (`data/qurra/review/`) uses the same
+separation: `source_indexing` and `source_entry_heading` describe where the book discusses the word; `qurra_value`
+describes the QURRA root.
 
 ## 7. Segmentation is sample data, not a stripping algorithm
 

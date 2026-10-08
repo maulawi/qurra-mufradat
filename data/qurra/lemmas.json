@@ -1,6 +1,78 @@
 {
   "lemmas": [
     {
+      "lemma_id": "aadha-1",
+      "form_vocalized": "عَاذَ",
+      "pos": "verb",
+      "verb_form": "I",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "ab-1",
+      "form_vocalized": "أَب",
+      "pos": "noun",
+      "derivation_type": "jamid",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "abaa-1",
+      "form_vocalized": "أَبَى",
+      "pos": "verb",
+      "verb_form": "I",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
       "lemma_id": "abada-1",
       "form_vocalized": "عَبَدَ",
       "pos": "verb",
@@ -31,6 +103,56 @@
       "provenance": {
         "lemma": {
           "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "lemma_id": "ahad-1",
+      "form_vocalized": "أَحَد",
+      "pos": "noun",
+      "root": {
+        "root_id": null,
+        "status": "disputed",
+        "candidates": [
+          "ء ح د",
+          "و ح د"
+        ],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "akhadha-1",
+      "form_vocalized": "أَخَذَ",
+      "pos": "verb",
+      "verb_form": "I",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
         }
       }
     },
@@ -111,7 +233,9 @@
       "root": {
         "root_id": null,
         "status": "unresolved",
-        "candidates": [],
+        "candidates": [
+          "ء ل ه"
+        ],
         "rule_ids": [],
         "evidence": [],
         "provenance": {
@@ -181,6 +305,32 @@
       "provenance": {
         "lemma": {
           "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "lemma_id": "damdama-1",
+      "form_vocalized": "دَمْدَمَ",
+      "pos": "verb",
+      "root": {
+        "root_id": null,
+        "status": "disputed",
+        "candidates": [
+          "د م د م",
+          "د م م"
+        ],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
         }
       }
     },
@@ -392,6 +542,30 @@
       }
     },
     {
+      "lemma_id": "hayy-1",
+      "form_vocalized": "حَيّ",
+      "pos": "noun",
+      "derivation_type": "sifa_mushabbaha",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
       "lemma_id": "huda-1",
       "form_vocalized": "هُدًى",
       "pos": "noun",
@@ -411,6 +585,179 @@
       "provenance": {
         "lemma": {
           "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "lemma_id": "huwa-1",
+      "form_vocalized": "هُوَ",
+      "pos": "noun",
+      "root": {
+        "root_id": null,
+        "status": "null_policy",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "iblis-1",
+      "form_vocalized": "إِبْلِيس",
+      "pos": "noun",
+      "derivation_type": "jamid",
+      "root": {
+        "root_id": null,
+        "status": "disputed",
+        "candidates": [
+          "ب ل س"
+        ],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "ibn-1",
+      "form_vocalized": "ٱبْن",
+      "pos": "noun",
+      "derivation_type": "jamid",
+      "root": {
+        "root_id": null,
+        "status": "disputed",
+        "candidates": [
+          "ب ن و",
+          "ب ن ي"
+        ],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "idhn-1",
+      "form_vocalized": "إِذْن",
+      "pos": "noun",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "ilah-1",
+      "form_vocalized": "إِلَٰه",
+      "pos": "noun",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "imraa-1",
+      "form_vocalized": "امْرَأَة",
+      "pos": "noun",
+      "derivation_type": "jamid",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "in-1",
+      "form_vocalized": "إِنْ",
+      "pos": "particle",
+      "function_inventory": [
+        "shart",
+        "nafy_simple"
+      ],
+      "root": {
+        "root_id": null,
+        "status": "null_policy",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
         }
       }
     },
@@ -531,6 +878,30 @@
       }
     },
     {
+      "lemma_id": "kaana-1",
+      "form_vocalized": "كَانَ",
+      "pos": "verb",
+      "verb_form": "I",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
       "lemma_id": "kayfa-1",
       "form_vocalized": "كَيْفَ",
       "pos": "noun",
@@ -572,6 +943,52 @@
       "provenance": {
         "lemma": {
           "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "lemma_id": "kufu-1",
+      "form_vocalized": "كُفُو",
+      "pos": "noun",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "kufu-2",
+      "form_vocalized": "كُفُؤ",
+      "pos": "noun",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
         }
       }
     },
@@ -629,6 +1046,79 @@
       }
     },
     {
+      "lemma_id": "ma-1",
+      "form_vocalized": "مَا",
+      "pos": "particle",
+      "function_inventory": [
+        "nafy_simple"
+      ],
+      "root": {
+        "root_id": null,
+        "status": "null_policy",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "ma-2",
+      "form_vocalized": "مَا",
+      "pos": "noun",
+      "root": {
+        "root_id": null,
+        "status": "null_policy",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "madda-1",
+      "form_vocalized": "مَدَّ",
+      "pos": "verb",
+      "verb_form": "I",
+      "root": {
+        "root_id": "root-m-d-d",
+        "status": "provisional",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_PILOT_ROOTS",
+          "status": "provisional_not_assigned_under_protocol"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
       "lemma_id": "maghdub-1",
       "form_vocalized": "مَغْضُوب",
       "pos": "noun",
@@ -653,6 +1143,32 @@
       }
     },
     {
+      "lemma_id": "malak-1",
+      "form_vocalized": "مَلَك",
+      "pos": "noun",
+      "root": {
+        "root_id": null,
+        "status": "disputed",
+        "candidates": [
+          "م ل ك",
+          "ء ل ك"
+        ],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
       "lemma_id": "malik-1",
       "form_vocalized": "مَالِك",
       "pos": "noun",
@@ -673,6 +1189,78 @@
       "provenance": {
         "lemma": {
           "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "lemma_id": "malik-2",
+      "form_vocalized": "مَلِك",
+      "pos": "noun",
+      "root": {
+        "root_id": "root-m-l-k",
+        "status": "provisional",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_DEMO_ROOTS",
+          "status": "provisional_not_assigned_under_protocol"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "man-1",
+      "form_vocalized": "مَن",
+      "pos": "noun",
+      "root": {
+        "root_id": null,
+        "status": "null_policy",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "min-1",
+      "form_vocalized": "مِنْ",
+      "pos": "particle",
+      "function_inventory": [
+        "jarr"
+      ],
+      "root": {
+        "root_id": null,
+        "status": "null_policy",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
         }
       }
     },
@@ -725,6 +1313,77 @@
       }
     },
     {
+      "lemma_id": "qaala-1",
+      "form_vocalized": "قَالَ",
+      "pos": "verb",
+      "verb_form": "I",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "qaraa-1",
+      "form_vocalized": "قَرَأَ",
+      "pos": "verb",
+      "verb_form": "I",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "qayyum-1",
+      "form_vocalized": "قَيُّوم",
+      "pos": "noun",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
       "lemma_id": "raa-1",
       "form_vocalized": "رَأَى",
       "pos": "verb",
@@ -770,7 +1429,10 @@
       "root": {
         "root_id": "root-r-b-b",
         "status": "provisional",
-        "candidates": [],
+        "candidates": [
+          "ر ب ب",
+          "ر ب و"
+        ],
         "rule_ids": [],
         "evidence": [],
         "provenance": {
@@ -832,6 +1494,30 @@
       }
     },
     {
+      "lemma_id": "rama-1",
+      "form_vocalized": "رَمَى",
+      "pos": "verb",
+      "verb_form": "I",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
       "lemma_id": "rayb-1",
       "form_vocalized": "رَيْب",
       "pos": "noun",
@@ -879,6 +1565,29 @@
       }
     },
     {
+      "lemma_id": "samad-1",
+      "form_vocalized": "صَمَد",
+      "pos": "noun",
+      "root": {
+        "root_id": "root-s2-m-d",
+        "status": "provisional",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_PILOT_ROOTS",
+          "status": "provisional_not_assigned_under_protocol"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
       "lemma_id": "sirat-1",
       "form_vocalized": "صِرَاط",
       "pos": "noun",
@@ -902,6 +1611,155 @@
       }
     },
     {
+      "lemma_id": "tabba-1",
+      "form_vocalized": "تَبَّ",
+      "pos": "verb",
+      "verb_form": "I",
+      "root": {
+        "root_id": "root-t-b-b",
+        "status": "provisional",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_PILOT_ROOTS",
+          "status": "provisional_not_assigned_under_protocol"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "walada-1",
+      "form_vocalized": "وَلَدَ",
+      "pos": "verb",
+      "verb_form": "I",
+      "root": {
+        "root_id": "root-w-l-d",
+        "status": "provisional",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_PILOT_ROOTS",
+          "status": "provisional_not_assigned_under_protocol"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "wasia-1",
+      "form_vocalized": "وَسِعَ",
+      "pos": "verb",
+      "verb_form": "I",
+      "root": {
+        "root_id": "root-w-s-3",
+        "status": "provisional",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_PILOT_ROOTS",
+          "status": "provisional_not_assigned_under_protocol"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "waswas-1",
+      "form_vocalized": "وَسْوَاس",
+      "pos": "noun",
+      "derivation_type": "masdar",
+      "root": {
+        "root_id": null,
+        "status": "disputed",
+        "candidates": [
+          "و س و س",
+          "و س س"
+        ],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "waswasa-1",
+      "form_vocalized": "وَسْوَسَ",
+      "pos": "verb",
+      "root": {
+        "root_id": null,
+        "status": "disputed",
+        "candidates": [
+          "و س و س",
+          "و س س"
+        ],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "yad-1",
+      "form_vocalized": "يَد",
+      "pos": "noun",
+      "derivation_type": "jamid",
+      "root": {
+        "root_id": null,
+        "status": "unresolved",
+        "candidates": [],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
       "lemma_id": "yawm-1",
       "form_vocalized": "يَوْم",
       "pos": "noun",
@@ -921,6 +1779,59 @@
       "provenance": {
         "lemma": {
           "source_id": "QURRA_DEMO_MORPHOLOGY"
+        }
+      }
+    },
+    {
+      "lemma_id": "zalzala-1",
+      "form_vocalized": "زَلْزَلَ",
+      "pos": "verb",
+      "root": {
+        "root_id": null,
+        "status": "disputed",
+        "candidates": [
+          "ز ل ز ل",
+          "ز ل ل"
+        ],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
+        }
+      }
+    },
+    {
+      "lemma_id": "zilzal-1",
+      "form_vocalized": "زِلْزَال",
+      "pos": "noun",
+      "derivation_type": "masdar",
+      "root": {
+        "root_id": null,
+        "status": "disputed",
+        "candidates": [
+          "ز ل ز ل",
+          "ز ل ل"
+        ],
+        "rule_ids": [],
+        "evidence": [],
+        "origin": "qurra_editorial",
+        "provenance": {
+          "source_id": "QURRA_ROOT_PROTOCOL",
+          "status": "pending_expert_review"
+        }
+      },
+      "status": "provisional",
+      "provenance": {
+        "lemma": {
+          "source_id": "QURRA_PILOT_ANALYSIS"
         }
       }
     }

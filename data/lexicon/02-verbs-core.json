@@ -1,0 +1,15 @@
+{
+  "_comment": "QURRA-authored lexicon, part 2: verbs that already have a pilot lemma. Weak verbs use the hollow / defective templates in scripts/analyse/templates.js; every generated spelling is kept only if it occurs in the Qur'an.",
+  "entries": [
+    {"lemma_id":"qaala-1","existing":true,"letters":"ق و ل","hv":"u"},
+    {"lemma_id":"kaana-1","existing":true,"letters":"ك و ن","hv":"u"},
+    {"lemma_id":"hada-1","existing":true,"nq":{"pb":"هَد","ib":"يَهْد","k":"y","iv":"i","imvb":"ٱهْد"}},
+    {"lemma_id":"ittaqa-1","existing":true,"nq":{"pb":"ٱتَّق","ib":"يَتَّق","k":"y","iv":"i","imvb":"ٱتَّق"}},
+    {"lemma_id":"raa-1","existing":true,"nq":{"pb":"رَأ","ib":"يَر","k":"y","iv":"a"}},
+    {"lemma_id":"akhadha-1","existing":true,"sv":"u","letters":"ء خ ذ","x":["أَخَذَ|maadi|3ms","أَخَذُوا۟|maadi|3mp","أَخَذْنَا|maadi|1p","أَخَذَتْ|maadi|3fs","أَخَذَهُمُ|maadi|3ms","يَأْخُذُ|mudari|3ms","تَأْخُذُوا۟|mudari|2mp","خُذْ|amr|2ms","خُذُوا۟|amr|2mp","أُخِذَ|maadi|3ms|passive"]},
+    {"lemma_id":"faala-1","existing":true,"sv":"a","letters":"ف ع ل"},
+    {"lemma_id":"abada-1","existing":true,"sv":"u","letters":"ع ب د"},
+    {"lemma_id":"madda-1","existing":true,"letters":"م د د","x":["مَدَّ|maadi|3ms","مَدَدْنَا|maadi|1p","نَمُدُّ|mudari|1p","يَمُدُّ|mudari|3ms","وَمُدَّ|amr|2ms"]},
+    {"lemma_id":"walada-1","existing":true,"letters":"و ل د","x":["وَلَدَ|maadi|3ms","وَلَدَتْ|maadi|3fs","وُلِدَ|maadi|3ms|passive","يَلِدُ|mudari|3ms","تَلِدُ|mudari|3fs","يُولَدُ|mudari|3ms|passive","وَلَدْنَهُمْ|maadi|3fp"]}
+  ]
+}

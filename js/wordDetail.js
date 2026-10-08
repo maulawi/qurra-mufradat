@@ -201,6 +201,7 @@ const QMWordDetail = (function () {
           <span class="qm-badge ${posClass}">${posLabel}</span>
           ${lemma && lemma.derivationType ? `<span class="qm-badge">${enumLabelWithArabic("derivationType", lemma.derivationType)}</span>` : ""}
         </div>
+        <div class="qm-worddetail__status" style="margin:var(--qm-space-2) 0"><span class="qm-badge qm-badge--provisional" data-analysis-status="${token.status}">${QMI18n.t("detail.status." + token.status)}</span> <span class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("detail.basis." + token.analysisBasis)}</span></div>
         <div class="qm-worddetail__location">${locationText} — ${locationHtml}</div>
       </div>
 

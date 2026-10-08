@@ -11,11 +11,13 @@ const base = loadDataset(ROOT);
 // Fast clone: the two big arrays (ayahs, tokens) are copied one level deep (the tests only mutate their top-level fields);
 // everything else is deep-cloned. Strings (raw text) are immutable and shared.
 const BIG = new Set(["ayahs", "tokens"]);
+// Large read-only parts that no test mutates are shared instead of deep-cloned (keeps memory low; deep-cloning them dozens of times made the suites fail intermittently on a memory-constrained machine).
+const SHARED = new Set(["effectiveTokenForms", "tagMaps", "alignments"]);
 const clone = () => {
   const c = { ...base };
   for (const k of Object.keys(base)) {
     if (k === "_files" || typeof base[k] === "string") continue;
-    c[k] = BIG.has(k) ? base[k].map(x => ({ ...x })) : structuredClone(base[k]);
+    c[k] = BIG.has(k) ? base[k].map(x => ({ ...x })) : SHARED.has(k) ? base[k] : structuredClone(base[k]);
   }
   return c;
 };
@@ -123,6 +125,26 @@ check("baseline dataset is valid", clone(), null);
   f.segments = f.segments.filter(s => s.type !== "stem");
   check("form without a stem", ds, /at least one stem/);
 }
+
+/* ---- R3: unknown morphology / feature keys are rejected ---- */
+const formWith = (ds, lemmaId) => ds.forms.find(f => f.segments.some(s => s.lemma_id === lemmaId));
+{ const ds = clone(); formWith(ds, "kitab-1").morphology.grammatical_case = null; check("R3: an unknown morphology key (the old stray grammatical_case) is rejected", ds, /unknown morphology key "grammatical_case"/); }
+{ const ds = clone(); formWith(ds, "kitab-1").morphology.nmber = "mufrad"; check("R3: a misspelt feature key is rejected", ds, /unknown morphology key "nmber"/); }
+{ const ds = clone(); formWith(ds, "kitab-1").morphology.definiteness.kind = "x"; check("R3: an unknown definiteness key is rejected", ds, /unknown definiteness key "kind"/); }
+{ const ds = clone(); formWith(ds, "hada-1").segments.find(s => s.type === "enclitic").pronoun_features.case = "acc"; check("R3: an unknown pronoun_features key is rejected", ds, /unknown pronoun_features key "case"/); }
+{ const ds = clone(); check("R3: every supported key still validates (production data)", ds, null); }
+
+/* ---- R4: stem POS must agree with lemma POS; function_here must belong to the lemma's function_inventory ---- */
+{ const ds = clone(); formWith(ds, "kitab-1").segments.find(s => s.type === "stem").pos = "verb"; check("R4: a stem whose POS differs from its lemma's POS is rejected", ds, /has pos "verb" but its lemma kitab-1 has pos "noun"/); }
+{ const ds = clone(); formWith(ds, "min-1").morphology.function_here = "shart"; check("R4: function_here outside the lemma's declared function_inventory is rejected", ds, /function_here "shart" is not in the declared function_inventory/); }
+{ const ds = clone(); formWith(ds, "kitab-1").morphology.function_here = "jarr"; check("R4: function_here on a noun lemma (no inventory) is rejected", ds, /function_here "jarr" is not in the declared function_inventory/); }
+{ const ds = clone(); const l = ds.lemmas.find(l => l.lemma_id === "in-1"); l.function_inventory = ["shart"]; check("R4: shrinking an inventory so an existing function_here no longer belongs is rejected", ds, /function_here "nafy_simple" is not in the declared function_inventory/); }
+{ const ds = clone(); formWith(ds, "min-1").morphology.function_here = null; check("R4: function_here = null is allowed", ds, null); }
+{ const ds = clone(); const f = formWith(ds, "min-1"); f.segments.find(s => s.type === "stem").lemma_id = null; f.morphology.function_here = "shart"; check("R4: a stem with lemma_id null is not checked against an inventory (unresolved lemma stays valid)", ds, null); }
+
+/* ---- lemma and conflict must agree on the candidates (consistency only) ---- */
+{ const ds = clone(); ds.lemmas.find(l => l.lemma_id === "rabb-1").root.candidates = ["ر ب ب"]; check("a conflict value missing from the lemma's root.candidates is rejected", ds, /competing value "ر ب و" is not listed in lemma rabb-1's root.candidates/); }
+{ const ds = clone(); ds.lemmas.find(l => l.lemma_id === "allah-1").root.candidates = []; check("allah-1: an empty candidate list that disagrees with its conflict is rejected", ds, /competing value "ء ل ه" is not listed in lemma allah-1/); }
 
 console.log(`test-validate: ${passed} passed, ${failed} failed`);
 process.exit(failed ? 1 : 0);

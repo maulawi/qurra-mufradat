@@ -1,0 +1,400 @@
+{
+  "_comment": "Explicit records of disagreement between analyses (or between lemma-root candidates). See STAGE_4_ANALYSIS_LAYER.md.",
+  "conflicts": [
+    {
+      "conflict_id": "cf-root-ism",
+      "type": "root",
+      "subject": {
+        "lemma_ids": [
+          "ism-1"
+        ]
+      },
+      "competing": [
+        {
+          "id": "smw",
+          "label": "س م و",
+          "value": "س م و"
+        },
+        {
+          "id": "wsm",
+          "label": "و س م",
+          "value": "و س م"
+        }
+      ],
+      "decision": {
+        "chosen": null,
+        "origin": "unresolved",
+        "rationale": ""
+      },
+      "status": "disputed"
+    },
+    {
+      "conflict_id": "cf-root-allah",
+      "type": "root",
+      "subject": {
+        "lemma_ids": [
+          "allah-1"
+        ]
+      },
+      "competing": [
+        {
+          "id": "alh",
+          "label": "ء ل ه",
+          "value": "ء ل ه"
+        },
+        {
+          "id": "none",
+          "label": "no derivation (a proper name)",
+          "value": null
+        }
+      ],
+      "decision": {
+        "chosen": null,
+        "origin": "unresolved",
+        "rationale": ""
+      },
+      "status": "unresolved"
+    },
+    {
+      "conflict_id": "cf-root-ahad",
+      "type": "root",
+      "subject": {
+        "lemma_ids": [
+          "ahad-1"
+        ]
+      },
+      "competing": [
+        {
+          "id": "ahd",
+          "label": "ء ح د",
+          "value": "ء ح د"
+        },
+        {
+          "id": "whd",
+          "label": "و ح د",
+          "value": "و ح د"
+        }
+      ],
+      "decision": {
+        "chosen": null,
+        "origin": "unresolved",
+        "rationale": ""
+      },
+      "status": "disputed"
+    },
+    {
+      "conflict_id": "cf-root-ibn",
+      "type": "root",
+      "subject": {
+        "lemma_ids": [
+          "ibn-1"
+        ]
+      },
+      "competing": [
+        {
+          "id": "bnw",
+          "label": "ب ن و",
+          "value": "ب ن و"
+        },
+        {
+          "id": "bny",
+          "label": "ب ن ي",
+          "value": "ب ن ي"
+        }
+      ],
+      "decision": {
+        "chosen": null,
+        "origin": "unresolved",
+        "rationale": ""
+      },
+      "status": "disputed"
+    },
+    {
+      "conflict_id": "cf-root-iblis",
+      "type": "root",
+      "subject": {
+        "lemma_ids": [
+          "iblis-1"
+        ]
+      },
+      "competing": [
+        {
+          "id": "bls",
+          "label": "ب ل س",
+          "value": "ب ل س"
+        },
+        {
+          "id": "foreign",
+          "label": "a non-Arabic name (no root)",
+          "value": null
+        }
+      ],
+      "decision": {
+        "chosen": null,
+        "origin": "unresolved",
+        "rationale": ""
+      },
+      "status": "disputed"
+    },
+    {
+      "conflict_id": "cf-root-malak",
+      "type": "root",
+      "subject": {
+        "lemma_ids": [
+          "malak-1"
+        ]
+      },
+      "competing": [
+        {
+          "id": "mlk",
+          "label": "م ل ك",
+          "value": "م ل ك"
+        },
+        {
+          "id": "alk",
+          "label": "ء ل ك",
+          "value": "ء ل ك"
+        }
+      ],
+      "decision": {
+        "chosen": null,
+        "origin": "unresolved",
+        "rationale": ""
+      },
+      "status": "disputed"
+    },
+    {
+      "conflict_id": "cf-root-rabb",
+      "type": "root",
+      "subject": {
+        "lemma_ids": [
+          "rabb-1"
+        ]
+      },
+      "competing": [
+        {
+          "id": "rbb",
+          "label": "ر ب ب",
+          "value": "ر ب ب"
+        },
+        {
+          "id": "rbw",
+          "label": "ر ب و",
+          "value": "ر ب و"
+        }
+      ],
+      "decision": {
+        "chosen": "rbb",
+        "origin": "qurra_editorial",
+        "rationale": "Class-B variation. The Stage 1 placeholder ر ب ب is kept provisionally and ر ب و is recorded as the alternative; evidence from at least two classical lexica is still required under the protocol."
+      },
+      "status": "provisional"
+    },
+    {
+      "conflict_id": "cf-root-waswas",
+      "type": "root",
+      "subject": {
+        "lemma_ids": [
+          "waswas-1",
+          "waswasa-1"
+        ]
+      },
+      "competing": [
+        {
+          "id": "wswsw",
+          "label": "و س و س (four-letter)",
+          "value": "و س و س"
+        },
+        {
+          "id": "wss",
+          "label": "و س س (doubled triliteral)",
+          "value": "و س س"
+        }
+      ],
+      "decision": {
+        "chosen": null,
+        "origin": "unresolved",
+        "rationale": ""
+      },
+      "status": "disputed"
+    },
+    {
+      "conflict_id": "cf-root-zalzal",
+      "type": "root",
+      "subject": {
+        "lemma_ids": [
+          "zalzala-1",
+          "zilzal-1"
+        ]
+      },
+      "competing": [
+        {
+          "id": "zlzl",
+          "label": "ز ل ز ل (four-letter)",
+          "value": "ز ل ز ل"
+        },
+        {
+          "id": "zll",
+          "label": "ز ل ل (doubled triliteral)",
+          "value": "ز ل ل"
+        }
+      ],
+      "decision": {
+        "chosen": null,
+        "origin": "unresolved",
+        "rationale": ""
+      },
+      "status": "disputed"
+    },
+    {
+      "conflict_id": "cf-root-damdam",
+      "type": "root",
+      "subject": {
+        "lemma_ids": [
+          "damdama-1"
+        ]
+      },
+      "competing": [
+        {
+          "id": "dmdm",
+          "label": "د م د م (four-letter)",
+          "value": "د م د م"
+        },
+        {
+          "id": "dmm",
+          "label": "د م م (doubled triliteral)",
+          "value": "د م م"
+        }
+      ],
+      "decision": {
+        "chosen": null,
+        "origin": "unresolved",
+        "rationale": ""
+      },
+      "status": "disputed"
+    },
+    {
+      "conflict_id": "cf-lemma-ilah",
+      "type": "lemma",
+      "subject": {
+        "token_id": "2:255:3"
+      },
+      "competing": [
+        {
+          "id": "ilah",
+          "label": "lemma إِلَٰه (ilah-1)",
+          "analysis_id": "an-2.255.3-a"
+        },
+        {
+          "id": "allah",
+          "label": "lemma اللَّه (allah-1)",
+          "analysis_id": "an-2.255.3-b"
+        }
+      ],
+      "decision": {
+        "chosen": "ilah",
+        "origin": "qurra_editorial",
+        "rationale": "Here the word is indefinite, in the negation 'no god', so it is treated as a different lemma from the proper name; the alternative is kept visible."
+      },
+      "status": "provisional"
+    },
+    {
+      "conflict_id": "cf-lemma-kufu",
+      "type": "lemma",
+      "subject": {
+        "token_id": "112:4:4"
+      },
+      "competing": [
+        {
+          "id": "kufu1",
+          "label": "lemma كُفُو (kufu-1)",
+          "analysis_id": "an-112.4.4-a"
+        },
+        {
+          "id": "kufu2",
+          "label": "lemma كُفُؤ (kufu-2)",
+          "analysis_id": "an-112.4.4-b"
+        }
+      ],
+      "decision": {
+        "chosen": null,
+        "origin": "unresolved",
+        "rationale": ""
+      },
+      "status": "unresolved"
+    },
+    {
+      "conflict_id": "cf-pos-kaana",
+      "type": "pos",
+      "subject": {
+        "token_id": "2:34:11"
+      },
+      "competing": [
+        {
+          "id": "verb",
+          "label": "verb with a lemma (kaana-1)",
+          "analysis_id": "an-2.34.11-a"
+        },
+        {
+          "id": "aux",
+          "label": "auxiliary particle, no lemma asserted",
+          "analysis_id": "an-2.34.11-b"
+        }
+      ],
+      "decision": {
+        "chosen": "verb",
+        "origin": "qurra_editorial",
+        "rationale": "Traditional grammar treats كان as a verb that inflects for person, number and gender; the particle reading is kept as an alternative."
+      },
+      "status": "provisional"
+    },
+    {
+      "conflict_id": "cf-feature-ma",
+      "type": "feature",
+      "subject": {
+        "token_id": "111:2:1"
+      },
+      "competing": [
+        {
+          "id": "nafy",
+          "label": "negation (particle ma-1)",
+          "analysis_id": "an-111.2.1-a"
+        },
+        {
+          "id": "istifham",
+          "label": "interrogative noun (ma-2)",
+          "analysis_id": "an-111.2.1-b"
+        }
+      ],
+      "decision": {
+        "chosen": "nafy",
+        "origin": "qurra_editorial",
+        "rationale": "The negative reading is the common one for 'ma aghna...'; the interrogative reading is recorded as an alternative and not excluded."
+      },
+      "status": "provisional"
+    },
+    {
+      "conflict_id": "cf-seg-iyyaka",
+      "type": "segmentation",
+      "subject": {
+        "token_id": "1:5:1"
+      },
+      "competing": [
+        {
+          "id": "split",
+          "label": "stem إِيَّا + enclitic pronoun كَ (as in the Stage 1 pilot)"
+        },
+        {
+          "id": "single",
+          "label": "one unit إِيَّاكَ"
+        }
+      ],
+      "decision": {
+        "chosen": "split",
+        "origin": "qurra_editorial",
+        "rationale": "Kept as segmented in the Stage 1 pilot; grammarians differ on whether the kaf is a pronoun, so the single-unit analysis is recorded as an alternative."
+      },
+      "status": "provisional"
+    }
+  ]
+}

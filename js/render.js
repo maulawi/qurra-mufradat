@@ -73,18 +73,29 @@ const QMRender = (function () {
     };
   }
 
+  /** percentage with one decimal, or a whole number when exact */
+  function pctOf(n, d) { return d ? (Math.round(1000 * n / d) / 10).toString() : "0"; }
+  function coverageOf(surahs) {
+    const analysed = surahs.reduce((n, x) => n + x.analysedTokenCount, 0), total = surahs.reduce((n, x) => n + x.tokenCount, 0);
+    return { analysed, total, pct: pctOf(analysed, total) };
+  }
+
+  function occCaption(total, shown) {
+    return total > shown ? QMI18n.t("lemma.occurrencesPartialTemplate", { total: total.toLocaleString("en-US"), shown }) : QMI18n.t("lemma.occurrencesCountTemplate", { total: total.toLocaleString("en-US") });
+  }
+
   /* ---------------- Home ---------------- */
 
   function renderHome() {
     const juzList = QMData.listJuz();
-    const analysedAyahs = QMData.listSurahs().reduce((n, x) => n + x.analysedAyahs.length, 0);
+    const cov = coverageOf(QMData.listSurahs());
 
     const juzGrid = juzList.map(j => `
       <a href="#/juz/${j.number}" class="qm-card qm-card--interactive qm-juz-card" data-route-link>
         <span class="qm-juz-card__number">${j.number}</span>
         <span class="qm-juz-card__ar qm-arabic">${j.nameAr}</span>
-        ${j.analysedAyahCount > 0
-          ? `<span class="qm-badge qm-badge--demo">${QMI18n.t("juzCard.analysed")}</span>`
+        ${j.analysedTokenCount > 0
+          ? `<span class="qm-badge qm-badge--demo">${QMI18n.t("juzCard.analysed")} · ${pctOf(j.analysedTokenCount, j.tokenCount)}%</span>`
           : `<span class="qm-badge qm-muted">${QMI18n.t("juzCard.textOnly")}</span>`}
       </a>`).join("");
 
@@ -101,7 +112,7 @@ const QMRender = (function () {
         </div>
       </section>
 
-      ${demoNote(QMI18n.t("home.demoNoteTemplate", { analysed: analysedAyahs }))}
+      ${demoNote(QMI18n.t("home.demoNoteTemplate", { analysed: cov.analysed.toLocaleString("en-US"), total: cov.total.toLocaleString("en-US"), pct: cov.pct }))}
 
       <h2>${QMI18n.t("home.browseByJuz")}</h2>
       <div class="qm-grid">${juzGrid}</div>
@@ -125,7 +136,7 @@ const QMRender = (function () {
       title: QMI18n.t("juz.titleTemplate", { n: juz.number }),
       titleAr: juz.nameAr,
       breadcrumbs: [{ label: QMI18n.t("nav.home"), href: "#/home" }, { label: QMI18n.t("juz.titleTemplate", { n: juz.number }) }],
-      meta: juzMeta(juz)
+      meta: juzMeta(juz) + " · " + QMI18n.t("juz.totalAyahsTemplate", { count: juz.totalAyahs })
     });
 
     let body;
@@ -139,10 +150,25 @@ const QMRender = (function () {
         </div>`
       );
     } else {
-      body = `<h2>${QMI18n.t("juz.surahsInJuz")}</h2><div class="qm-stack">${juz.surahs.map(s => surahCard(s, juz.number)).join("")}</div>`;
+      body = `<h2>${QMI18n.t("juz.surahsInJuz")}</h2><div class="qm-stack">${juz.ranges.map(r => rangeCard(r, juz.number)).join("")}</div>`;
     }
 
     return { html: `${header}${body}` };
+  }
+
+  /** One surah's share of a Juz: "Al-Baqarah 1–141", linking to just that range. */
+  function rangeCard(r, juzNumber) {
+    const s = r.surah, whole = r.from === 1 && r.to === s.ayahCount;
+    const label = r.from === r.to ? String(r.from) : r.from + "–" + r.to;
+    return `
+      <a href="#/juz/${juzNumber}/surah/${s.number}" class="qm-card qm-card--interactive qm-surah-card" data-route-link data-range="${s.number}:${r.from}-${r.to}">
+        <span class="qm-surah-card__num">${s.number}</span>
+        <span class="qm-surah-card__names">
+          <span class="qm-surah-card__ar qm-arabic">${s.nameAr}</span>
+          <span class="qm-surah-card__en">${esc(s.nameEn)} · ${QMI18n.t("juz.ayahRangeTemplate", { range: label })}</span>
+        </span>
+        <span class="qm-surah-card__meta">${QMI18n.t(whole ? "juz.wholeSurahTemplate" : "juz.partOfSurahTemplate", { count: r.count, total: s.ayahCount })}</span>
+      </a>`;
   }
 
   /* ---------------- Surah list ---------------- */
@@ -157,7 +183,7 @@ const QMRender = (function () {
           <span class="qm-surah-card__ar qm-arabic">${s.nameAr}</span>
           <span class="qm-surah-card__en">${esc(s.nameEn)} · ${QMI18n.t("enum.revelation." + s.revelation)}</span>
         </span>
-        <span class="qm-surah-card__meta">${s.analysedAyahs.length ? QMI18n.t("surahCard.ayahsAnalysedTemplate", { total: s.ayahCount, analysed: s.analysedAyahs.length }) : QMI18n.t("surahCard.ayahsTemplate", { total: s.ayahCount })}</span>
+        <span class="qm-surah-card__meta">${s.analysedTokenCount ? QMI18n.t("surahCard.ayahsAnalysedTemplate", { total: s.ayahCount, pct: pctOf(s.analysedTokenCount, s.tokenCount) }) : QMI18n.t("surahCard.ayahsTemplate", { total: s.ayahCount })}</span>
       </a>`;
   }
 
@@ -168,7 +194,7 @@ const QMRender = (function () {
       title: QMI18n.t("surahs.title"),
       breadcrumbs: [{ label: QMI18n.t("nav.home"), href: "#/home" }, { label: QMI18n.t("surahs.title") }]
     });
-    const note = demoNote(QMI18n.t("surahs.noteTemplate", { list: surahs.filter(s => s.analysedAyahs.length).map(s => s.nameEn).join(", ") }));
+    const note = demoNote(QMI18n.t("surahs.noteTemplate", { pct: coverageOf(surahs).pct }));
     const list = `<div class="qm-stack">${surahs.map(s => surahCard(s)).join("")}</div>`;
     return { html: `${header}${note}${list}` };
   }
@@ -179,16 +205,29 @@ const QMRender = (function () {
     return `<a href="#/word/${t.id}" data-route-link class="qm-word qm-arabic" data-token="${t.id}" data-pos="${t.pos || ""}">${t.surfaceForm}</a>`;
   }
 
+  /** Every available translation of the ayah, each labelled with its translator and language; nothing is shown when there is none. */
+  function translationBlock(ayah) {
+    if (!ayah.translations.length) return "";
+    const lang = QMI18n.getLang();
+    const items = ayah.translations.map(t => `
+          <div class="qm-ayah__translation" data-translation="${esc(t.id)}" lang="${esc(t.language)}">
+            <p class="qm-muted"><strong>${esc(t.translator)}${t.year ? " (" + t.year + ")" : ""} · ${esc(QMI18n.t("surah.langName." + t.language))}</strong></p>
+            <p class="qm-muted">${esc(t.text)}</p>
+            ${t.published ? "" : `<p class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("surah.translationNote")}</p>`}
+          </div>`).join("");
+    const hasLang = ayah.translations.some(t => t.language === lang && t.published);
+    const gap = hasLang ? "" : `<p class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("surah.noTranslationInLang")}</p>`;
+    return `<details class="qm-ayah__translation-toggle">
+          <summary class="qm-muted" style="cursor:pointer">${QMI18n.t("surah.showTranslation")}</summary>${items}${gap}
+        </details>`;
+  }
+
   function ayahBlock(ayah) {
     const words = ayah.tokens.map(wordAnchor).join(" ");
     return `
       <div class="qm-ayah" id="ayah-${ayah.ayahId}" data-ayah="${ayah.ayahId}">
         <p class="qm-ayah__text">${words}<span class="qm-ayah__marker">${ayah.ayahId}</span></p>
-        ${ayah.translation ? `<details class="qm-ayah__translation-toggle">
-          <summary class="qm-muted" style="cursor:pointer">${QMI18n.t("surah.showTranslation")}</summary>
-          <p class="qm-muted">${esc(QMI18n.pick(ayah.translation))}</p>
-          <p class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("surah.translationNote")}</p>
-        </details>` : ""}
+        ${translationBlock(ayah)}
       </div>`;
   }
 
@@ -207,14 +246,15 @@ const QMRender = (function () {
     if (!surah) return notFound("surah");
 
     // Optional Juz context (#/juz/:n/surah/:m): only valid if that Juz really lists this surah.
-    let juz = null;
+    let juz = null, juzRange = null;
     if (opts.juz !== undefined && opts.juz !== null) {
       juz = QMData.getJuz(opts.juz);
       if (!juz || !juz.surahIds.includes(surah.number)) return notFound("surah");
+      juzRange = juz.ranges.find(r => r.surahId === surah.number);
     }
     const ayahTarget = opts.highlightAyah !== undefined && opts.highlightAyah !== null ? Number(opts.highlightAyah) : null;
 
-    const ayahs = QMData.listAyahsInSurah(surahNumber);
+    const ayahs = QMData.listAyahsInSurah(surahNumber).filter(a => !juzRange || (a.ayahId >= juzRange.from && a.ayahId <= juzRange.to));
     const allTokens = ayahs.flatMap(a => a.tokens);
 
     const home = { label: QMI18n.t("nav.home"), href: "#/home" };
@@ -227,14 +267,14 @@ const QMRender = (function () {
       title: surah.nameEn,
       titleAr: surah.nameAr,
       breadcrumbs,
-      meta: surah.analysedAyahs.length
-        ? QMI18n.t("surah.metaAnalysedTemplate", { revelation: QMI18n.t("enum.revelation." + surah.revelation), ayahCount: surah.ayahCount, analysedCount: surah.analysedAyahs.length })
+      meta: juzRange ? QMI18n.t("juz.surahInJuzTemplate", { juz: juz.number, from: juzRange.from, to: juzRange.to, total: surah.ayahCount }) : surah.analysedTokenCount
+        ? QMI18n.t("surah.metaAnalysedTemplate", { revelation: QMI18n.t("enum.revelation." + surah.revelation), ayahCount: surah.ayahCount, analysedCount: surah.analysedTokenCount.toLocaleString("en-US"), tokenCount: surah.tokenCount.toLocaleString("en-US") })
         : QMI18n.t("surah.metaTemplate", { revelation: QMI18n.t("enum.revelation." + surah.revelation), ayahCount: surah.ayahCount })
     });
 
     // A specific ayah was requested but this demo has no data for it: say so
     // plainly instead of silently showing the rest of the surah.
-    if (ayahTarget !== null && !(Number.isInteger(ayahTarget) && ayahTarget >= 1 && ayahTarget <= surah.ayahCount)) {
+    if (ayahTarget !== null && !(Number.isInteger(ayahTarget) && ayahTarget >= (juzRange ? juzRange.from : 1) && ayahTarget <= (juzRange ? juzRange.to : surah.ayahCount))) {
       const surahHref = juz ? `#/juz/${juz.number}/surah/${surah.number}` : `#/surah/${surah.number}`;
       return {
         html: `${header}${emptyState(
@@ -245,8 +285,8 @@ const QMRender = (function () {
       };
     }
 
-    const note = surah.analysedAyahs.length
-      ? demoNote(QMI18n.t("surah.demoNoteTemplate", { list: surah.analysedAyahs.join(", ") }))
+    const note = surah.analysedTokenCount
+      ? demoNote(QMI18n.t("surah.demoNoteTemplate", { analysedCount: surah.analysedTokenCount.toLocaleString("en-US"), tokenCount: surah.tokenCount.toLocaleString("en-US"), pct: pctOf(surah.analysedTokenCount, surah.tokenCount) }))
       : demoNote(QMI18n.t("surah.textOnlyNote"));
 
     const html = `
@@ -330,7 +370,8 @@ const QMRender = (function () {
         ${posBadge(l.pos)}
       </a>`).join("");
 
-    const occurrences = root.lemmas.flatMap(l => QMData.getOccurrencesForLemma(l.id));
+    const occTotal = root.lemmas.reduce((n, l) => n + QMData.getOccurrenceCount(l.id), 0);
+    const occurrences = root.lemmas.flatMap(l => QMData.getOccurrencesForLemma(l.id, 100)).slice(0, 200);
     const occRows = occurrences.length
       ? occurrences.map(occurrenceRow).join("")
       : `<p class="qm-muted">${QMI18n.t("root.noOccurrences")}</p>`;
@@ -343,6 +384,7 @@ const QMRender = (function () {
       <h2>${QMI18n.t("root.relatedLemmas")}</h2>
       <div class="qm-stack">${lemmaRows || `<p class="qm-muted">${QMI18n.t("root.noLemmas")}</p>`}</div>
       <h2 style="margin-top:var(--qm-space-6)">${QMI18n.t("root.occurrencesTitle")}</h2>
+      <p class="qm-muted">${occCaption(occTotal, occurrences.length)}</p>
       <div class="qm-card">${occRows}</div>
       ${sourceId ? `<p class="qm-muted" style="font-size:var(--qm-fs-xs);margin-top:var(--qm-space-4)">${QMI18n.t("root.coreFieldSourceTemplate", { name: QMI18n.t("source." + sourceId + ".name"), status: QMI18n.t("source." + sourceId + ".status") })}</p>` : ""}
     `;
@@ -410,7 +452,7 @@ const QMRender = (function () {
     else fields += `<dt>${QMI18n.t("lemma.fieldRoot")}</dt><dd class="qm-muted">${QMI18n.t("lemma.noRoot")}</dd>`;
     if (lemma.learnerNote) fields += `<dt>${QMI18n.t("lemma.fieldLearnerNote")}</dt><dd>${esc(QMI18n.pick(lemma.learnerNote))}</dd>`;
 
-    const occurrences = QMData.getOccurrencesForLemma(lemma.id);
+    const occTotal = QMData.getOccurrenceCount(lemma.id), occurrences = QMData.getOccurrencesForLemma(lemma.id, 200);
     const occHtml = occurrences.length
       ? occurrences.map(occurrenceRow).join("")
       : `<p class="qm-muted">${QMI18n.t("lemma.noOccurrences")}</p>`;
@@ -420,6 +462,7 @@ const QMRender = (function () {
       ${headword}
       <dl class="qm-fieldlist qm-card" style="margin-bottom:var(--qm-space-5)">${fields}</dl>
       <h2>${QMI18n.t("lemma.occurrencesTitle")}</h2>
+      <p class="qm-muted">${occCaption(occTotal, occurrences.length)}</p>
       <div class="qm-card">${occHtml}</div>
     `;
     return { html };

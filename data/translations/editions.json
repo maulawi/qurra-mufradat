@@ -1,0 +1,52 @@
+{
+ "_comment": "Registry of translation editions. Only editions with clearance CLEAR (or QURRA-owned working renderings) may carry text. published=false editions are never shown as a translation of record.",
+ "editions": [
+  {
+   "translation_id": "en-pickthall-1930",
+   "language": "en",
+   "title": "The Meaning of the Glorious Koran",
+   "translator": "Marmaduke Pickthall",
+   "year": 1930,
+   "source_id": "PICKTHALL_EN_1930",
+   "version": "1930 text, e-text #16955 (2005, updated 2020)",
+   "clearance": "CLEAR",
+   "scope": "full",
+   "status": "imported",
+   "published": true,
+   "file": "data/translations/en-pickthall-1930.json",
+   "alignment_report": "data/translations/en-pickthall-1930.alignment.json",
+   "attribution": "Marmaduke Pickthall (1930), public domain; transcription via gutenberg.org e-text #16955.",
+   "note": "Archaic English; a 1930 translation."
+  },
+  {
+   "translation_id": "en-qurra-working",
+   "language": "en",
+   "title": "QURRA working rendering (demo)",
+   "translator": "QURRA editors",
+   "source_id": "QURRA_DEMO_TRANSLATION",
+   "version": "0.1",
+   "clearance": "CLEAR",
+   "scope": "partial",
+   "status": "provisional",
+   "published": false,
+   "file": "data/translations/en-qurra-working.json",
+   "attribution": "QURRA",
+   "note": "Prototype rendering of a few ayahs; not reviewed."
+  },
+  {
+   "translation_id": "ms-qurra-working",
+   "language": "ms",
+   "title": "Terjemahan kerja QURRA (demo)",
+   "translator": "QURRA editors",
+   "source_id": "QURRA_DEMO_TRANSLATION",
+   "version": "0.1",
+   "clearance": "CLEAR",
+   "scope": "partial",
+   "status": "provisional",
+   "published": false,
+   "file": "data/translations/ms-qurra-working.json",
+   "attribution": "QURRA",
+   "note": "Prototype rendering of a few ayahs; not reviewed. No cleared Malay translation exists yet."
+  }
+ ]
+}

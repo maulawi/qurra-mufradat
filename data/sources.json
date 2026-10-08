@@ -12,7 +12,21 @@
       "licence_status": "verified",
       "in_use": true,
       "allowed_use": "Display and search of the Qur'anic text unmodified, with attribution + link (shown in the app footer and Source panel); the copyright block is retained in data/raw/tanzil/quran-uthmani.txt. Normalised forms are stored separately and never displayed.",
-      "notes": "Downloaded from tanzil.net/pub/download/index.php on 2026-10-06 with parameters quranType=uthmani, outType=txt-2, and every optional symbol switched off (no pause marks, no sajdah signs, no rub-el-hizb signs, no tatweel), after the terms checkbox was ticked on QURRA's behalf with the owner's approval. File SHA-256: bf4f57b968d03f4131c070b1e285da9be0e0a108a21c910e872801ca273312c8 (6,236 ayah lines). The official file prefixes the basmala onto ayah 1 of every surah except 1 and 9 (two spellings: 110 lines use 'بِسْمِ', and 95:1 and 97:1 use 'بِّسْمِ' with an extra shadda in the official file); the raw file keeps it verbatim and data/qurra/ayahs.json separates it as source_prefix. 'Verified' here means the text and its licence terms come from the official source and the Stage 2 pilot was diffed against it (see STAGE_3_REPORT.md); it does not assert any wider commercial clearance beyond the CC BY 3.0 terms. Pause marks are omitted by choice (a Tanzil-supported option) to keep word tokens clean; they can be re-added from a new official download."
+      "notes": "Downloaded from tanzil.net/pub/download/index.php on 2026-10-06 with parameters quranType=uthmani, outType=txt-2, and every optional symbol switched off (no pause marks, no sajdah signs, no rub-el-hizb signs, no tatweel), after the terms checkbox was ticked on QURRA's behalf with the owner's approval. File SHA-256: bf4f57b968d03f4131c070b1e285da9be0e0a108a21c910e872801ca273312c8 (6,236 ayah lines). The official file prefixes the basmala onto ayah 1 of every surah except 1 and 9 (two spellings: 110 lines use 'بِسْمِ', and 95:1 and 97:1 use 'بِّسْمِ' with an extra shadda in the official file); the raw file keeps it verbatim and data/qurra/ayahs.json separates it as source_prefix. 'Verified' here means the text and its licence terms come from the official source and the Stage 2 pilot was diffed against it (see STAGE_3_REPORT.md); it does not assert any wider commercial clearance beyond the CC BY 3.0 terms. Pause marks are omitted by choice (a Tanzil-supported option) to keep word tokens clean; they can be re-added from a new official download.",
+      "clearance": "CLEAR",
+      "licence_url": "https://tanzil.net/docs/Text_License",
+      "gate": {
+        "commercial_use": "permitted (CC BY 3.0 has no non-commercial clause)",
+        "redistribution": "verbatim copies only",
+        "static_bundling": "yes: 'can be used in any website or application' with the source indicated and a link",
+        "derivatives": "text must not be changed; normalised search forms are stored separately and never displayed",
+        "attribution": "required: Tanzil Project + link to tanzil.net + the copyright block in derived files",
+        "modification": "not allowed",
+        "third_party_material": "none stated",
+        "upstream": "none",
+        "decision": "USE",
+        "reason": "Official source, terms read at tanzil.net; notice carried in every derived file."
+      }
     },
     {
       "source_id": "QURRA_EDITORIAL",
@@ -24,7 +38,21 @@
       "licence_status": "internal",
       "in_use": true,
       "allowed_use": "Taxonomy, UI labels.",
-      "notes": "General QURRA editorial metadata. Since Stage 3 the surah and juz metadata come from TANZIL_METADATA, not from here."
+      "notes": "General QURRA editorial metadata. Since Stage 3 the surah and juz metadata come from TANZIL_METADATA, not from here.",
+      "clearance": "CLEAR",
+      "licence_url": null,
+      "gate": {
+        "commercial_use": "QURRA-owned",
+        "redistribution": "QURRA-owned",
+        "static_bundling": "yes",
+        "derivatives": "QURRA-owned",
+        "attribution": "none required",
+        "modification": "QURRA-owned",
+        "third_party_material": "none: written by QURRA editors without copying any dataset",
+        "upstream": "none",
+        "decision": "USE",
+        "reason": "Taxonomy and UI labels."
+      }
     },
     {
       "source_id": "QURRA_DEMO_MORPHOLOGY",
@@ -36,7 +64,21 @@
       "licence_status": "provisional",
       "in_use": true,
       "allowed_use": "Prototype display only, with a provisional label.",
-      "notes": "Hand-authored for the Stage 1 demo for 9 ayahs. NOT imported from QAC, MASAQ, QuranMorph or any corpus. Not reviewed by a qualified Arabic-grammar scholar. Segment spellings were adapted to the Uthmani text during the Stage 2 migration."
+      "notes": "Hand-authored for the Stage 1 demo for 9 ayahs. NOT imported from QAC, MASAQ, QuranMorph or any corpus. Not reviewed by a qualified Arabic-grammar scholar. Segment spellings were adapted to the Uthmani text during the Stage 2 migration.",
+      "clearance": "CLEAR",
+      "licence_url": null,
+      "gate": {
+        "commercial_use": "QURRA-owned",
+        "redistribution": "QURRA-owned",
+        "static_bundling": "yes",
+        "derivatives": "QURRA-owned",
+        "attribution": "none required",
+        "modification": "QURRA-owned",
+        "third_party_material": "none: written by QURRA editors without copying any dataset",
+        "upstream": "none",
+        "decision": "USE",
+        "reason": "Hand-written pilot segmentation (provisional content, owned by QURRA)."
+      }
     },
     {
       "source_id": "QURRA_GLOSS",
@@ -48,7 +90,21 @@
       "licence_status": "provisional",
       "in_use": true,
       "allowed_use": "Lexical glosses, learner notes and root core-field descriptions authored by QURRA.",
-      "notes": "Short vocabulary glosses, not Qur'an translation. Drafts, unreviewed. No third-party dictionary text is copied."
+      "notes": "Short vocabulary glosses, not Qur'an translation. Drafts, unreviewed. No third-party dictionary text is copied.",
+      "clearance": "CLEAR",
+      "licence_url": null,
+      "gate": {
+        "commercial_use": "QURRA-owned",
+        "redistribution": "QURRA-owned",
+        "static_bundling": "yes",
+        "derivatives": "QURRA-owned",
+        "attribution": "none required",
+        "modification": "QURRA-owned",
+        "third_party_material": "none: written by QURRA editors without copying any dataset",
+        "upstream": "none",
+        "decision": "USE",
+        "reason": "QURRA vocabulary glosses (provisional drafts, owned by QURRA)."
+      }
     },
     {
       "source_id": "QURRA_DEMO_TRANSLATION",
@@ -60,7 +116,21 @@
       "licence_status": "provisional",
       "in_use": true,
       "allowed_use": "Prototype display only.",
-      "notes": "Working renderings written for the prototype, not quoted from any published translation and not reviewed. They are not an authoritative translation."
+      "notes": "Working renderings written for the prototype, not quoted from any published translation and not reviewed. They are not an authoritative translation.",
+      "clearance": "CLEAR",
+      "licence_url": null,
+      "gate": {
+        "commercial_use": "QURRA-owned",
+        "redistribution": "QURRA-owned",
+        "static_bundling": "yes",
+        "derivatives": "QURRA-owned",
+        "attribution": "none required",
+        "modification": "QURRA-owned",
+        "third_party_material": "none: written by QURRA editors without copying any dataset",
+        "upstream": "none",
+        "decision": "USE",
+        "reason": "Nine working ayah renderings written for the prototype (provisional; not a published translation)."
+      }
     },
     {
       "source_id": "QURRA_DEMO_CONJUGATION",
@@ -72,7 +142,21 @@
       "licence_status": "provisional",
       "in_use": true,
       "allowed_use": "Prototype display only, with a provisional label.",
-      "notes": "Perfective / imperfective / imperative citation forms entered by hand. Not reviewed."
+      "notes": "Perfective / imperfective / imperative citation forms entered by hand. Not reviewed.",
+      "clearance": "CLEAR",
+      "licence_url": null,
+      "gate": {
+        "commercial_use": "QURRA-owned",
+        "redistribution": "QURRA-owned",
+        "static_bundling": "yes",
+        "derivatives": "QURRA-owned",
+        "attribution": "none required",
+        "modification": "QURRA-owned",
+        "third_party_material": "none: written by QURRA editors without copying any dataset",
+        "upstream": "none",
+        "decision": "USE",
+        "reason": "Hand-entered citation forms (provisional)."
+      }
     },
     {
       "source_id": "QURRA_DEMO_ROOTS",
@@ -84,7 +168,73 @@
       "licence_status": "provisional",
       "in_use": true,
       "allowed_use": "Prototype display only, with a provisional label.",
-      "notes": "Root letters entered by hand in the Stage 1 demo. They were NOT assigned under the QURRA Root Verification Protocol, carry no evidence, and are not derived from QAC or Wikidata. They must be re-assigned under the frozen protocol before being shown as authoritative."
+      "notes": "Root letters entered by hand in the Stage 1 demo. They were NOT assigned under the QURRA Root Verification Protocol, carry no evidence, and are not derived from QAC or Wikidata. They must be re-assigned under the frozen protocol before being shown as authoritative.",
+      "clearance": "CLEAR",
+      "licence_url": null,
+      "gate": {
+        "commercial_use": "QURRA-owned",
+        "redistribution": "QURRA-owned",
+        "static_bundling": "yes",
+        "derivatives": "QURRA-owned",
+        "attribution": "none required",
+        "modification": "QURRA-owned",
+        "third_party_material": "none: written by QURRA editors without copying any dataset",
+        "upstream": "none",
+        "decision": "USE",
+        "reason": "Stage 1 root placeholders (provisional, not assigned under the protocol)."
+      }
+    },
+    {
+      "source_id": "QURRA_PILOT_ANALYSIS",
+      "name": "QURRA expanded pilot analyses",
+      "type": "editorial",
+      "version": "stage-4-pilot",
+      "url": null,
+      "licence": "QURRA-authored",
+      "licence_status": "provisional",
+      "in_use": true,
+      "allowed_use": "Prototype display only, with a provisional label.",
+      "notes": "Segmentation, lemma, part-of-speech and feature analyses written by hand by QURRA for the Stage 4 test set (49 tokens in 22 ayahs), from the editors' own knowledge of Arabic grammar. NOT copied or derived from QAC, QuranMorph, MASAQ, QAMAR, QUL, EQTB, Wikidata or any other dataset. Not reviewed by a qualified Arabic-grammar scholar; origin is qurra_editorial and status provisional throughout.",
+      "clearance": "CLEAR",
+      "licence_url": null,
+      "gate": {
+        "commercial_use": "QURRA-owned",
+        "redistribution": "QURRA-owned",
+        "static_bundling": "yes",
+        "derivatives": "QURRA-owned",
+        "attribution": "none required",
+        "modification": "QURRA-owned",
+        "third_party_material": "none: written by QURRA editors without copying any dataset",
+        "upstream": "none",
+        "decision": "USE",
+        "reason": "Stage 4 pilot analyses (provisional)."
+      }
+    },
+    {
+      "source_id": "QURRA_PILOT_ROOTS",
+      "name": "QURRA expanded pilot root placeholders",
+      "type": "editorial",
+      "version": "stage-4-pilot",
+      "url": null,
+      "licence": "QURRA-authored",
+      "licence_status": "provisional",
+      "in_use": true,
+      "allowed_use": "Prototype display only, with a provisional label.",
+      "notes": "A few root letters entered by hand for plainly regular verbs in the Stage 4 test set. They were NOT assigned under the QURRA Root Verification Protocol (which is not frozen), carry no evidence, and are not derived from QAC, Wikidata or any other dataset. Every other new lemma has an unresolved or disputed root.",
+      "clearance": "CLEAR",
+      "licence_url": null,
+      "gate": {
+        "commercial_use": "QURRA-owned",
+        "redistribution": "QURRA-owned",
+        "static_bundling": "yes",
+        "derivatives": "QURRA-owned",
+        "attribution": "none required",
+        "modification": "QURRA-owned",
+        "third_party_material": "none: written by QURRA editors without copying any dataset",
+        "upstream": "none",
+        "decision": "USE",
+        "reason": "Stage 4 placeholder roots (provisional)."
+      }
     },
     {
       "source_id": "QURRA_ROOT_PROTOCOL",
@@ -96,7 +246,21 @@
       "licence_status": "internal",
       "in_use": true,
       "allowed_use": "Governs how verified roots will be assigned.",
-      "notes": "PENDING EXPERT REVIEW. Not frozen. The expert sign-off checklist is in docs/expert-review/ and has not been sent to anyone. No root in the dataset has been assigned under this protocol."
+      "notes": "PENDING EXPERT REVIEW. Not frozen. The expert sign-off checklist is in docs/expert-review/ and has not been sent to anyone. No root in the dataset has been assigned under this protocol.",
+      "clearance": "CLEAR",
+      "licence_url": null,
+      "gate": {
+        "commercial_use": "QURRA-owned",
+        "redistribution": "QURRA-owned",
+        "static_bundling": "yes",
+        "derivatives": "QURRA-owned",
+        "attribution": "none required",
+        "modification": "QURRA-owned",
+        "third_party_material": "none: written by QURRA editors without copying any dataset",
+        "upstream": "none",
+        "decision": "USE",
+        "reason": "Methodology document (not frozen)."
+      }
     },
     {
       "source_id": "MASAQ_MORPHOLOGY",
@@ -108,7 +272,21 @@
       "licence_status": "unresolved",
       "in_use": false,
       "allowed_use": "None until the licence is clarified.",
-      "notes": "Registered for traceability. Nothing in this dataset is derived from it."
+      "notes": "Registered for traceability. Nothing in this dataset is derived from it.",
+      "clearance": "UNCLEAR",
+      "licence_url": "https://data.mendeley.com/datasets/9yvrzxktmr/6",
+      "gate": {
+        "commercial_use": "latest version (v6) labelled CC BY NC 3.0: no; v5 labelled CC BY 4.0: contradictory",
+        "redistribution": "depends on which label governs",
+        "static_bundling": "not established",
+        "derivatives": "not established",
+        "attribution": "required under either label",
+        "modification": "not established",
+        "third_party_material": "yes: gloss column found to be copied from QAC (earlier investigation)",
+        "upstream": "Tanzil text; QAC for glosses",
+        "decision": "DO_NOT_USE",
+        "reason": "Identical files carry conflicting licence labels and part of the data is QAC-derived; needs written clarification from the authors."
+      }
     },
     {
       "source_id": "QURANMORPH",
@@ -120,7 +298,21 @@
       "licence_status": "unresolved",
       "in_use": false,
       "allowed_use": "None.",
-      "notes": "Registered for traceability. Nothing in this dataset is derived from it."
+      "notes": "Registered for traceability. Nothing in this dataset is derived from it.",
+      "clearance": "UNCLEAR",
+      "licence_url": "https://arxiv.org/html/2506.18148v1",
+      "gate": {
+        "commercial_use": "paper says CC BY 4.0; project page states no licence",
+        "redistribution": "download is by form; terms not published on the page",
+        "static_bundling": "not established",
+        "derivatives": "not established",
+        "attribution": "required if CC BY 4.0",
+        "modification": "not established",
+        "third_party_material": "yes: lemmas come from the Qabas lexicon",
+        "upstream": "Qabas (Birzeit): the Qabas page says CC-BY-ND-4.0 while a secondary source says CC BY-NC 4.0",
+        "decision": "DO_NOT_USE",
+        "reason": "The upstream lexicon's licence is stated inconsistently (no-derivatives vs non-commercial); needs written clarification from Birzeit/SinaLab."
+      }
     },
     {
       "source_id": "QAC",
@@ -132,7 +324,21 @@
       "licence_status": "unresolved",
       "in_use": false,
       "allowed_use": "None. Not used as data, fallback or evidence.",
-      "notes": "Registered so that its absence is explicit."
+      "notes": "Registered so that its absence is explicit.",
+      "clearance": "NOT_CLEARED",
+      "licence_url": "https://corpus.quran.com/license.jsp",
+      "gate": {
+        "commercial_use": "contradictory: licence page says GPL v3; FAQ says non-commercial research only",
+        "redistribution": "download terms: verbatim only",
+        "static_bundling": "not permitted as modified/derived data",
+        "derivatives": "download terms: 'CHANGING IT IS NOT ALLOWED'",
+        "attribution": "required",
+        "modification": "not allowed per download terms",
+        "third_party_material": "n/a",
+        "upstream": "none",
+        "decision": "DO_NOT_USE",
+        "reason": "The three official statements conflict; QURRA cannot publish derived data from it. Anything derived from QAC inherits the problem."
+      }
     },
     {
       "source_id": "WIKIDATA_LEXEMES",
@@ -144,7 +350,21 @@
       "licence_status": "unresolved",
       "in_use": false,
       "allowed_use": "None as production data. Comparison and QA only, after a decision is logged.",
-      "notes": "Registered so that its absence is explicit."
+      "notes": "Registered so that its absence is explicit.",
+      "clearance": "UNCLEAR",
+      "licence_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+      "gate": {
+        "commercial_use": "yes (CC0)",
+        "redistribution": "yes (CC0)",
+        "static_bundling": "yes (CC0)",
+        "derivatives": "yes (CC0)",
+        "attribution": "none required",
+        "modification": "permitted",
+        "third_party_material": "yes: many root statements originate from a rights-reserved dictionary and from QAC identifiers",
+        "upstream": "mixed; only 4 of 73,261 audited root statements carried a reference",
+        "decision": "DO_NOT_USE",
+        "reason": "The licence is clear but the provenance of the morphology/root claims is not; unreferenced root statements may not be used as production data."
+      }
     },
     {
       "source_id": "TANZIL_METADATA",
@@ -156,7 +376,333 @@
       "licence_status": "verified",
       "in_use": true,
       "allowed_use": "Surah names, ayah counts, revelation place and order, juz start positions; attribution to Tanzil shown with the text.",
-      "notes": "data/raw/tanzil/quran-data.js downloaded unmodified from https://tanzil.net/res/text/metadata/quran-data.js on 2026-10-06 (SHA-256 9e9930c592aaa34b5c7a79ff4e99ffdc782263a266090bfe2c49e4ed4bac4ca4). Surah transliterations (name_en) are Tanzil's own, e.g. 'Al-Faatiha'."
+      "notes": "data/raw/tanzil/quran-data.js downloaded unmodified from https://tanzil.net/res/text/metadata/quran-data.js on 2026-10-06 (SHA-256 9e9930c592aaa34b5c7a79ff4e99ffdc782263a266090bfe2c49e4ed4bac4ca4). Surah transliterations (name_en) are Tanzil's own, e.g. 'Al-Faatiha'.",
+      "clearance": "CLEAR",
+      "licence_url": "https://tanzil.net/docs/Quran_Metadata",
+      "gate": {
+        "commercial_use": "permitted (CC BY 3.0)",
+        "redistribution": "permitted with attribution",
+        "static_bundling": "yes",
+        "derivatives": "permitted with attribution",
+        "attribution": "required (header kept)",
+        "modification": "permitted with attribution",
+        "third_party_material": "none stated",
+        "upstream": "none",
+        "decision": "USE",
+        "reason": "Surah and juz structure; header carried in derived files."
+      }
+    },
+    {
+      "source_id": "PICKTHALL_EN_1930",
+      "name": "Marmaduke Pickthall, The Meaning of the Glorious Koran (1930), English translation",
+      "type": "translation",
+      "version": "1930 text, as transcribed in gutenberg.org e-text #16955 (release 27 Oct 2005, updated 12 Dec 2020)",
+      "url": "https://www.gutenberg.org/ebooks/16955",
+      "licence": "Public domain: the translator died in 1936 and the work was first published in 1930. The transcription's catalogue record states 'Public domain in the USA'.",
+      "licence_url": "https://www.gutenberg.org/ebooks/16955",
+      "licence_status": "verified",
+      "clearance": "CLEAR",
+      "in_use": true,
+      "allowed_use": "Display of the translation text verbatim; searchable.",
+      "notes": "Only the Pickthall column was taken (the e-text also holds two other translations, which were NOT taken: their copyright status is not as clear). The raw download is kept outside git in staging/ (ignored) and identified by SHA-256 3b96fa3ad318ab9d91db53b25100d5169fafe3a1ecb993e7c36ffff55bf9d8bc; data/translations/en-pickthall-1930.json is derived from it by scripts/import/import-pickthall.js, which only joins wrapped lines. The e-text's own header and licence notice are not part of the shipped data. 8 ayahs (17:32-33, 39:45-46, 45:31-32, 56:25-26) are excluded because the e-text merges each pair under one verse number; they are listed in the alignment report, not guessed. The e-text was 're-proofed against paper copies' by a volunteer from a file of unknown origin, so typographical errors are possible.",
+      "gate": {
+        "commercial_use": "yes: the work is in the public domain",
+        "redistribution": "yes",
+        "static_bundling": "yes",
+        "derivatives": "yes",
+        "attribution": "none required by law; credited anyway (NOTICE and the app footer)",
+        "modification": "permitted (QURRA joins wrapped lines only; text is otherwise verbatim)",
+        "third_party_material": "the e-text bundles two other translations (not used); a volunteer's re-proofing of the transcription",
+        "upstream": "print edition (1930) -> volunteer transcription (2005) -> this import",
+        "decision": "USE",
+        "reason": "Public-domain work; transcription catalogued as public domain in the USA. Archaic English ('Thou/Thee'), so it is labelled as a 1930 translation."
+      }
+    },
+    {
+      "source_id": "QURANENC_EN",
+      "name": "QuranEnc English editions (Rowwad Translation Center; Saheeh; Hilali and Khan)",
+      "type": "translation",
+      "version": "api v1 (list read 2026-10-07; english_rwwad 1.0.19)",
+      "url": "https://quranenc.com",
+      "licence": "Republishing permitted verbatim under seven stated conditions (no modification, credit publisher and source, state the version, keep the transcript information, notify the source of notes, keep the translation up to date, no inappropriate advertising).",
+      "licence_url": "https://quranenc.com/en/browse/urdu_saadi",
+      "licence_status": "conditional",
+      "clearance": "CONDITIONAL",
+      "in_use": false,
+      "allowed_use": "None until the conditions are resolved.",
+      "notes": "The terms do not say whether commercial use is allowed, and condition 6 (follow the latest version) is a continuing obligation that a static bundle cannot meet automatically. The Hilali-Khan and Saheeh editions are third-party works. Not imported.",
+      "gate": {
+        "commercial_use": "not stated",
+        "redistribution": "verbatim, with conditions",
+        "static_bundling": "not established (condition 6 requires staying current)",
+        "derivatives": "no modification, addition or deletion",
+        "attribution": "required: publisher, source and version",
+        "modification": "not allowed",
+        "third_party_material": "yes for Saheeh and Hilali-Khan",
+        "upstream": "publisher-held translations",
+        "decision": "PENDING_CLARIFICATION",
+        "reason": "A modern readable English option, but commercial use and the update obligation need a written answer."
+      }
+    },
+    {
+      "source_id": "BASMEIH_MS",
+      "name": "Abdullah Muhammad Basmeih, Tafsir Pimpinan Ar-Rahman (Malay)",
+      "type": "translation",
+      "version": "n/a",
+      "url": "https://qul.tarteel.ai/resources/translation",
+      "licence": "Copyright: published by the Department of Islamic Affairs (JAKIM); no redistribution licence found. The Tanzil copy is 'for non-commercial purposes only'.",
+      "licence_url": "https://tanzil.net/trans/",
+      "licence_status": "unresolved",
+      "clearance": "NOT_CLEARED",
+      "in_use": false,
+      "allowed_use": "None.",
+      "notes": "Offered by Tanzil, QUL and other aggregators, but none of them gives a licence that reaches commercial or bundled use. QuranEnc does not host a Malay edition (its 'malayalam_kunhi' is Malayalam, a different language). Not imported; no Malay translation is cleared.",
+      "gate": {
+        "commercial_use": "no licence found; Tanzil copy non-commercial only",
+        "redistribution": "no",
+        "static_bundling": "no",
+        "derivatives": "no",
+        "attribution": "n/a",
+        "modification": "no",
+        "third_party_material": "n/a",
+        "upstream": "JAKIM",
+        "decision": "DO_NOT_USE",
+        "reason": "Rights holder has not been shown to permit redistribution; asking JAKIM is the way forward."
+      }
+    },
+    {
+      "source_id": "TANZIL_TRANSLATIONS",
+      "name": "Tanzil translation files",
+      "type": "translation",
+      "version": "n/a",
+      "url": "https://tanzil.net/trans/",
+      "licence": "Tanzil: translations are 'for non-commercial purposes only'; commercial use needs permission from the translator or publisher.",
+      "licence_url": "https://tanzil.net/trans/",
+      "licence_status": "unresolved",
+      "clearance": "NOT_CLEARED",
+      "in_use": false,
+      "allowed_use": "None.",
+      "notes": "The CC BY 3.0 clearance of the Tanzil Arabic text does NOT extend to the translations Tanzil redistributes, including its copy of Pickthall (the Pickthall used here comes from a different, public-domain route).",
+      "gate": {
+        "commercial_use": "no",
+        "redistribution": "no (needs Tanzil permission)",
+        "static_bundling": "no",
+        "derivatives": "no",
+        "attribution": "n/a",
+        "modification": "no",
+        "third_party_material": "yes: translators' copyrights",
+        "upstream": "individual translators and publishers",
+        "decision": "DO_NOT_USE",
+        "reason": "Explicitly non-commercial."
+      }
+    },
+    {
+      "source_id": "QUL_TRANSLATIONS_WBW",
+      "name": "Quranic Universal Library (Tarteel): translations and word-by-word resources",
+      "type": "dataset",
+      "version": "n/a",
+      "url": "https://qul.tarteel.ai/resources/translation",
+      "licence": "Not stated per resource (the site links a general terms page); two resources note a copyright.",
+      "licence_url": "https://qul.tarteel.ai/resources/translation",
+      "licence_status": "unresolved",
+      "clearance": "UNCLEAR",
+      "in_use": false,
+      "allowed_use": "None.",
+      "notes": "Site-wide statement: 'The information on this page comes from external sources and may contain errors.' No provenance or licence for the English or Indonesian word-by-word sets or the Malay translations.",
+      "gate": {
+        "commercial_use": "not stated",
+        "redistribution": "not stated",
+        "static_bundling": "not stated",
+        "derivatives": "not stated",
+        "attribution": "not stated",
+        "modification": "not stated",
+        "third_party_material": "yes (aggregates third-party translations)",
+        "upstream": "unstated",
+        "decision": "DO_NOT_USE",
+        "reason": "No licence or provenance per resource."
+      }
+    },
+    {
+      "source_id": "QURANWBW",
+      "name": "quranwbw.com word-by-word translations and transliterations",
+      "type": "dataset",
+      "version": "n/a",
+      "url": "https://old.quranwbw.com",
+      "licence": "The site states that the data belongs to its respective owners/authors and copying is not allowed.",
+      "licence_url": "https://old.quranwbw.com",
+      "licence_status": "unresolved",
+      "clearance": "NOT_CLEARED",
+      "in_use": false,
+      "allowed_use": "None.",
+      "notes": "Also the upstream of the CC0-labelled Quran-MD dataset, which therefore cannot be treated as cleared.",
+      "gate": {
+        "commercial_use": "no",
+        "redistribution": "no",
+        "static_bundling": "no",
+        "derivatives": "no",
+        "attribution": "n/a",
+        "modification": "no",
+        "third_party_material": "yes",
+        "upstream": "individual owners",
+        "decision": "DO_NOT_USE",
+        "reason": "Copying is expressly not allowed."
+      }
+    },
+    {
+      "source_id": "AGGREGATOR_DATASETS",
+      "name": "Third-party aggregated Qur'an datasets (quran-json, the Kaggle 'Holy Quran' set, Quran-MD)",
+      "type": "dataset",
+      "version": "n/a",
+      "url": "https://github.com/risan/quran-json",
+      "licence": "Labels such as CC BY-SA 4.0 (quran-json) and CC0 (Kaggle, Quran-MD) describe the aggregator, not the underlying texts.",
+      "licence_url": "https://github.com/risan/quran-json",
+      "licence_status": "unresolved",
+      "clearance": "UNCLEAR",
+      "in_use": false,
+      "allowed_use": "None.",
+      "notes": "A licence label on a compilation cannot clear its upstream sources: quran-json mixes QuranEnc, CC BY-ND and public-domain editions; Quran-MD cites quranwbw. Used only to locate original sources.",
+      "gate": {
+        "commercial_use": "depends on each upstream",
+        "redistribution": "depends on each upstream",
+        "static_bundling": "depends on each upstream",
+        "derivatives": "depends on each upstream (some are no-derivatives)",
+        "attribution": "varies",
+        "modification": "varies",
+        "third_party_material": "yes",
+        "upstream": "Tanzil, QuranEnc, ClearQuran, quranwbw and others",
+        "decision": "REFERENCE_ONLY",
+        "reason": "Licence chain not established."
+      }
+    },
+    {
+      "source_id": "QAMAR",
+      "name": "QAMAR: Quranic Arabic Morphological Analysis Resource (2026)",
+      "type": "corpus",
+      "version": "paper only (ACL Anthology 2026.abjadnlp-1.38)",
+      "url": "https://aclanthology.org/2026.abjadnlp-1.38/",
+      "licence": "The CC BY 4.0 statement on the page covers the paper. The paper says the corpus 'will be released as an open-source resource for the academic community following the completion of the peer-review process'.",
+      "licence_url": "https://aclanthology.org/2026.abjadnlp-1.38/",
+      "licence_status": "unresolved",
+      "clearance": "UNCLEAR",
+      "in_use": false,
+      "allowed_use": "None: the dataset is not available.",
+      "notes": "Stem, lemma, root and POS for every word, apparently independent of QAC. No download link or licence for the data exists yet.",
+      "gate": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "static_bundling": "unknown",
+        "derivatives": "unknown",
+        "attribution": "unknown",
+        "modification": "unknown",
+        "third_party_material": "unknown",
+        "upstream": "Tanzil text; own annotation",
+        "decision": "PENDING_CLARIFICATION",
+        "reason": "Not released; 'for the academic community' may not cover commercial use."
+      }
+    },
+    {
+      "source_id": "EQTB",
+      "name": "Extended Quranic Treebank (Mendeley Data, 2025)",
+      "type": "corpus",
+      "version": "1",
+      "url": "https://data.mendeley.com/datasets/rk96pn66m4/1",
+      "licence": "CC BY 4.0 (dataset label).",
+      "licence_url": "https://data.mendeley.com/datasets/rk96pn66m4/1",
+      "licence_status": "unresolved",
+      "clearance": "NOT_CLEARED",
+      "in_use": false,
+      "allowed_use": "None.",
+      "notes": "States that it started from Tanzil text and 'initial morphological/syntactic data from the Quranic Corpus project'; the label cannot clear what it inherited from QAC.",
+      "gate": {
+        "commercial_use": "label allows; upstream QAC does not",
+        "redistribution": "label allows; upstream QAC does not",
+        "static_bundling": "not established",
+        "derivatives": "inherits QAC's terms",
+        "attribution": "required",
+        "modification": "inherits QAC's terms",
+        "third_party_material": "yes: QAC data",
+        "upstream": "QAC",
+        "decision": "DO_NOT_USE",
+        "reason": "QAC-derived."
+      }
+    },
+    {
+      "source_id": "LANE_LEXICON",
+      "name": "Lane's Arabic-English Lexicon (Alpheios/Perseus digital edition)",
+      "type": "reference",
+      "version": "alpheios-project/lan",
+      "url": "https://github.com/alpheios-project/lan",
+      "licence": "CC BY-SA 3.0 US for the digital edition; the 1863 work is in the public domain.",
+      "licence_url": "https://github.com/alpheios-project/lan",
+      "licence_status": "conditional",
+      "clearance": "CONDITIONAL",
+      "in_use": false,
+      "allowed_use": "None in production data; consultation as classical evidence only.",
+      "notes": "A dictionary, not a Qur'an corpus: not used to populate any layer. Share-alike applies to the digital edition if extracted as data.",
+      "gate": {
+        "commercial_use": "yes with share-alike (edition)",
+        "redistribution": "share-alike",
+        "static_bundling": "only with share-alike",
+        "derivatives": "share-alike",
+        "attribution": "required",
+        "modification": "share-alike",
+        "third_party_material": "no",
+        "upstream": "1863 print -> Perseus -> Alpheios",
+        "decision": "REFERENCE_ONLY",
+        "reason": "Evidence for roots, not a dataset to ingest."
+      }
+    },
+    {
+      "source_id": "QURRA_LEXICON",
+      "name": "QURRA lexicon: lemmas, glosses and roots written by QURRA editors",
+      "allowed_use": "Display as provisional, unreviewed analysis.",
+      "notes": "data/lexicon/*.json. Provisional: not reviewed by a qualified scholar. Glosses are QURRA's own wording, not copied from any dictionary or word-by-word dataset.",
+      "gate": {
+        "commercial_use": "yes: QURRA's own work",
+        "redistribution": "yes",
+        "static_bundling": "yes",
+        "derivatives": "yes",
+        "attribution": "QURRA",
+        "modification": "permitted",
+        "third_party_material": "none: written by hand from the editors' own knowledge of Arabic grammar; checked against nothing copied from any corpus",
+        "upstream": "none (QURRA-authored)",
+        "decision": "USE",
+        "reason": "QURRA-authored; provisional and unreviewed."
+      },
+      "type": "editorial",
+      "version": "v1-provisional",
+      "url": null,
+      "licence": "QURRA-owned content; to be licensed by the project",
+      "licence_url": null,
+      "licence_status": "provisional",
+      "clearance": "CLEAR",
+      "in_use": true
+    },
+    {
+      "source_id": "QURRA_RULE_ANALYSIS",
+      "name": "QURRA rule-based word analysis (default reading of each spelling)",
+      "allowed_use": "Display as provisional, unreviewed analysis.",
+      "notes": "Generated by scripts/analyse from the QURRA lexicon: clitic and ending rules applied to the exact Qur'anic spelling. Context-free: it is the default reading of a spelling, not a decision about a specific verse.",
+      "gate": {
+        "commercial_use": "yes: QURRA's own work",
+        "redistribution": "yes",
+        "static_bundling": "yes",
+        "derivatives": "yes",
+        "attribution": "QURRA",
+        "modification": "permitted",
+        "third_party_material": "none: written by hand from the editors' own knowledge of Arabic grammar; checked against nothing copied from any corpus",
+        "upstream": "none (QURRA-authored)",
+        "decision": "USE",
+        "reason": "QURRA-generated from QURRA-authored rules; provisional."
+      },
+      "type": "editorial",
+      "version": "v1-provisional",
+      "url": null,
+      "licence": "QURRA-owned content; to be licensed by the project",
+      "licence_url": null,
+      "licence_status": "provisional",
+      "clearance": "CLEAR",
+      "in_use": true
     }
   ]
 }

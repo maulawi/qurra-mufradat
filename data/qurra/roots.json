@@ -277,6 +277,29 @@
       }
     },
     {
+      "root_id": "root-m-d-d",
+      "letters": [
+        "م",
+        "د",
+        "د"
+      ],
+      "display": "م د د",
+      "root_type": "mudaaf",
+      "core_field": {
+        "en": "stretching out, extending",
+        "ms": "membentang, menghulurkan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_PILOT_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
       "root_id": "root-m-l-k",
       "letters": [
         "م",
@@ -461,6 +484,29 @@
       }
     },
     {
+      "root_id": "root-s2-m-d",
+      "letters": [
+        "ص",
+        "م",
+        "د"
+      ],
+      "display": "ص م د",
+      "root_type": "sahih_salim",
+      "core_field": {
+        "en": "being self-sufficient; being the one all turn to",
+        "ms": "kecukupan; tempat bergantung"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_PILOT_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
       "root_id": "root-s2-r-t2",
       "letters": [
         "ص",
@@ -484,6 +530,52 @@
       }
     },
     {
+      "root_id": "root-t-b-b",
+      "letters": [
+        "ت",
+        "ب",
+        "ب"
+      ],
+      "display": "ت ب ب",
+      "root_type": "mudaaf",
+      "core_field": {
+        "en": "perishing, ruin",
+        "ms": "kebinasaan, kerugian"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_PILOT_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-w-l-d",
+      "letters": [
+        "و",
+        "ل",
+        "د"
+      ],
+      "display": "و ل د",
+      "root_type": "mithal",
+      "core_field": {
+        "en": "birth, offspring",
+        "ms": "kelahiran, keturunan"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_PILOT_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
       "root_id": "root-w-q-y",
       "letters": [
         "و",
@@ -500,6 +592,29 @@
       "provenance": {
         "letters": {
           "source_id": "QURRA_DEMO_ROOTS"
+        },
+        "core_field": {
+          "source_id": "QURRA_GLOSS"
+        }
+      }
+    },
+    {
+      "root_id": "root-w-s-3",
+      "letters": [
+        "و",
+        "س",
+        "ع"
+      ],
+      "display": "و س ع",
+      "root_type": "mithal",
+      "core_field": {
+        "en": "being wide, encompassing",
+        "ms": "keluasan, meliputi"
+      },
+      "status": "provisional",
+      "provenance": {
+        "letters": {
+          "source_id": "QURRA_PILOT_ROOTS"
         },
         "core_field": {
           "source_id": "QURRA_GLOSS"

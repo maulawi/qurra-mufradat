@@ -1,0 +1,24 @@
+{
+  "_SYNTHETIC": "This file is INVENTED test data. It is not derived from any real morphology dataset, and its tags and ids are made up. It exists only to exercise alignment, tag mapping and source-derived records. It must never be copied under data/.",
+  "source": { "source_id": "SYNTHETIC_TEST", "source_version": "synthetic-0", "name": "Synthetic test source (not real)" },
+  "records": [
+    { "ref": "SYN-0001", "surah": 112, "ayah": 1, "position": 1, "text": "قُلْ" },
+    { "ref": "SYN-0002", "surah": 112, "ayah": 1, "position": 2, "text": "هُوَ" },
+    { "ref": "SYN-0003", "surah": 112, "ayah": 1, "position": 3, "text": "ٱللَّهُ" },
+    { "ref": "SYN-0004", "surah": 112, "ayah": 1, "position": 4, "text": "أَحَدٌ" },
+    { "ref": "SYN-0005", "surah": 112, "ayah": 1, "position": 4, "text": "أَحَدٌ" },
+    { "ref": "SYN-0006", "surah": 112, "ayah": 2, "position": 1, "text": "غَيْرُ" },
+    { "ref": "SYN-0007", "surah": 112, "ayah": 2, "position": 9, "text": "ٱلصَّمَدُ" },
+    { "ref": "SYN-0008", "surah": 9999, "ayah": 1, "position": 1, "text": "قُلْ" }
+  ],
+  "tagmap": {
+    "source_id": "SYNTHETIC_TEST",
+    "tagset": "SYNTHETIC-TAGS-0",
+    "synthetic": true,
+    "tags": {
+      "SYN_N": { "pos": "noun", "features": { "number": "mufrad", "gender": "mudhakkar" }, "fine": "synthetic_noun" },
+      "SYN_V_PERF": { "pos": "verb", "features": { "verb_aspect": "maadi", "voice": "active" }, "fine": "synthetic_verb_perfect" },
+      "SYN_PREP": { "pos": "particle", "features": { "particle_function": "jarr" }, "fine": "synthetic_preposition" }
+    }
+  }
+}

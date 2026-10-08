@@ -1,0 +1,62 @@
+{
+ "translation_id": "en-pickthall-1930",
+ "source_sha256": "3b96fa3ad318ab9d91db53b25100d5169fafe3a1ecb993e7c36ffff55bf9d8bc",
+ "summary": {
+  "source_records": 6232,
+  "qurra_ayahs": 6236,
+  "exact": 6228,
+  "missing": 4,
+  "extra": 0,
+  "duplicate_ids": 0,
+  "numbering_mismatch": 4,
+  "normalization_differences": 0,
+  "unresolved": 8
+ },
+ "unresolved_ayahs": [
+  "17:32",
+  "17:33",
+  "39:45",
+  "39:46",
+  "45:31",
+  "45:32",
+  "56:25",
+  "56:26"
+ ],
+ "numbering_mismatch": [
+  {
+   "ayah_id": "17:32",
+   "ref": "pg16955 017.032",
+   "reason": "2 text entries are folded under this one verse number (the following verse number(s) are absent)"
+  },
+  {
+   "ayah_id": "39:45",
+   "ref": "pg16955 039.045",
+   "reason": "2 text entries are folded under this one verse number (the following verse number(s) are absent)"
+  },
+  {
+   "ayah_id": "45:31",
+   "ref": "pg16955 045.031",
+   "reason": "2 text entries are folded under this one verse number (the following verse number(s) are absent)"
+  },
+  {
+   "ayah_id": "56:25",
+   "ref": "pg16955 056.025",
+   "reason": "2 text entries are folded under this one verse number (the following verse number(s) are absent)"
+  }
+ ],
+ "missing": [
+  "17:33",
+  "39:46",
+  "45:32",
+  "56:26"
+ ],
+ "extra": [],
+ "duplicates": [],
+ "count_mismatch": [],
+ "basmala": {
+  "source_header_surahs": [],
+  "attached_to_ayahs": 0,
+  "note": "A basmala header line printed by the source before ayah 1 is not an ayah and is never added to an ayah's text."
+ },
+ "normalization": []
+}

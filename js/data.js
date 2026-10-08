@@ -34,10 +34,39 @@ const QMData = (function () {
   const AYAH = index(D.ayahs, "ayah_id");
   const TOKEN_FORM = index(D.token_forms, "token_id");
   const FORM = index(D.forms, "form_id");
+  // Rule-based default analyses (provisional, QURRA-generated): one compact record per spelling, applied to every token with that spelling.
+  // A pilot analysis of a specific token always wins over the default for its spelling.
+  const RULE_FORMS = D.rule_forms || [];
+  const RULE_BY_SURFACE = new Map(RULE_FORMS.map(r => [r[1], r]));
+  const RULE_BY_ID = new Map(RULE_FORMS.map(r => ["frm-sd-" + r[0], r]));
+  const POS_NAME = { n: "noun", v: "verb", p: "particle" }, SEG_TYPE = { p: "proclitic", s: "stem", e: "enclitic" };
+  const ruleCache = new Map();
+  function expandRule(r) {
+    const id = "frm-sd-" + r[0];
+    let f = ruleCache.get(id);
+    if (!f) {
+      f = { form_id: id, surface: r[1], morphology: r[3], status: "provisional", basis: "rule_default", provenance: { form: { source_id: "QURRA_RULE_ANALYSIS" }, morphology: { source_id: "QURRA_RULE_ANALYSIS" } },
+        segmentation_note: r[4] || undefined,
+        segments: r[2].map((s, i) => { const o = { segment_id: id + ".s" + (i + 1), type: SEG_TYPE[s[0]], surface: s[1], pos: POS_NAME[s[2]] };
+          if (s[3]) o.function = s[3]; if (s[0] === "s") o.lemma_id = s[4] || null;
+          if (s[5]) o.pronoun_features = { person: s[5][0], number: s[5][1], ...(s[5][2] ? { gender: s[5][2] } : {}) }; return o; }) };
+      ruleCache.set(id, f);
+    }
+    return f;
+  }
+  /** the Token -> Form assignment in force for a token: the pilot's own, else the default for its spelling, else none */
+  function formAssignment(tokenId, word) {
+    const tf = TOKEN_FORM.get(tokenId);
+    if (tf) return tf;
+    const r = RULE_BY_SURFACE.get(word);
+    return r ? { token_id: tokenId, form_id: "frm-sd-" + r[0], status: "provisional", basis: "rule_default", provenance: { form: { source_id: "QURRA_RULE_ANALYSIS" } } } : null;
+  }
   const LEMMA = index(D.lemmas, "lemma_id");
   const ROOT = index(D.roots, "root_id");
   const GLOSS = index(D.glosses, "lemma_id");
-  const TRANSLATION = index(D.ayah_translations, "ayah_id");
+  const T = (typeof QM_TRANSLATIONS !== "undefined") ? QM_TRANSLATIONS : { texts: {}, working_status: {} };
+  const EDITIONS = D.translation_editions || [];
+  const EDITION = index(EDITIONS, "translation_id");
   const SOURCE = index(D.sources, "source_id");
 
   /* ---------------- taxonomy & display policy ---------------- */
@@ -78,29 +107,37 @@ const QMData = (function () {
   /* ---------------- structure indexes (derived once at load) ---------------- */
 
   const AYAHS_BY_SURAH = new Map();        // surah number -> ayah records in order
-  const JUZ_SURAHS = new Map();            // juz number -> sorted surah numbers that have ayahs in it
+  const JUZ_SURAHS = new Map();
+  const JUZ_RANGES = new Map();            // juz number -> [{surahId, from, to, count}] in Qur'an order
   D.ayahs.forEach(a => {
     if (!AYAHS_BY_SURAH.has(a.surah)) AYAHS_BY_SURAH.set(a.surah, []);
     AYAHS_BY_SURAH.get(a.surah).push(a);
     if (!JUZ_SURAHS.has(a.juz)) JUZ_SURAHS.set(a.juz, new Set());
     JUZ_SURAHS.get(a.juz).add(a.surah);
+    // juz membership: ayah ranges per surah (an ayah belongs to exactly one juz; juz.start in the metadata is the only input)
+    if (!JUZ_RANGES.has(a.juz)) JUZ_RANGES.set(a.juz, []);
+    const rs = JUZ_RANGES.get(a.juz), last = rs[rs.length - 1];
+    if (last && last.surahId === a.surah && last.to === a.ayah - 1) { last.to = a.ayah; last.count++; }
+    else rs.push({ surahId: a.surah, from: a.ayah, to: a.ayah, count: 1 });
   });
   const ANALYSED_AYAHS = new Map();        // surah number -> sorted ayah numbers with at least one analysed token
   const ANALYSED_BY_JUZ = new Map();       // juz number -> count of such ayahs
+  const TOKENS_BY_SURAH = new Map(), ANALYSED_TOKENS_BY_SURAH = new Map();   // surah number -> words / analysed words
+  const TOKENS_BY_JUZ = new Map(), ANALYSED_TOKENS_BY_JUZ = new Map();
   (function () {
-    const seen = new Set();
-    D.token_forms.forEach(tf => {
-      const [s, a] = tf.token_id.split(":");
-      const key = s + ":" + a;
-      if (seen.has(key)) return;
-      seen.add(key);
-      const sn = Number(s), an = Number(a);
-      if (!ANALYSED_AYAHS.has(sn)) ANALYSED_AYAHS.set(sn, []);
-      ANALYSED_AYAHS.get(sn).push(an);
-      const ay = AYAH.get(key);
-      if (ay) ANALYSED_BY_JUZ.set(ay.juz, (ANALYSED_BY_JUZ.get(ay.juz) || 0) + 1);
+    const bump = (m, k, n) => m.set(k, (m.get(k) || 0) + n);
+    D.ayahs.forEach(a => {
+      const words = a.text.split(" ");
+      let analysed = 0;
+      words.forEach((w, i) => { if (TOKEN_FORM.has(a.ayah_id + ":" + (i + 1)) || RULE_BY_SURFACE.has(w)) analysed++; });
+      bump(TOKENS_BY_SURAH, a.surah, words.length); bump(ANALYSED_TOKENS_BY_SURAH, a.surah, analysed);
+      bump(TOKENS_BY_JUZ, a.juz, words.length); bump(ANALYSED_TOKENS_BY_JUZ, a.juz, analysed);
+      if (analysed) {
+        if (!ANALYSED_AYAHS.has(a.surah)) ANALYSED_AYAHS.set(a.surah, []);
+        ANALYSED_AYAHS.get(a.surah).push(a.ayah);
+        bump(ANALYSED_BY_JUZ, a.juz, 1);
+      }
     });
-    ANALYSED_AYAHS.forEach(list => list.sort((x, y) => x - y));
   })();
 
   /* ---------------- Surah / Juz ---------------- */
@@ -109,12 +146,17 @@ const QMData = (function () {
     return {
       id: s.surah_id, number: s.number, nameAr: s.name_ar, nameEn: s.name_en, nameMs: s.name_ms, meaningEn: s.meaning_en,
       ayahCount: s.ayah_count, revelation: s.revelation, revelationOrder: s.revelation_order, status: s.status,
-      analysedAyahs: (ANALYSED_AYAHS.get(s.number) || []).slice()     // ayahs with word-by-word analysis (pilot)
+      analysedAyahs: (ANALYSED_AYAHS.get(s.number) || []).slice(),    // ayahs with at least one analysed word
+      tokenCount: TOKENS_BY_SURAH.get(s.number) || 0, analysedTokenCount: ANALYSED_TOKENS_BY_SURAH.get(s.number) || 0
     };
   }
   function juzView(j) {
     const surahIds = Array.from(JUZ_SURAHS.get(j.juz) || []).sort((a, b) => a - b);
-    return { number: j.juz, nameAr: j.name_ar, start: { ...j.start }, surahIds, note: j.note, analysedAyahCount: ANALYSED_BY_JUZ.get(j.juz) || 0 };
+    const ranges = (JUZ_RANGES.get(j.juz) || []).map(r => ({ ...r }));
+    const first = ranges[0], last = ranges[ranges.length - 1];
+    return { number: j.juz, nameAr: j.name_ar, start: { ...j.start }, surahIds, note: j.note, analysedAyahCount: ANALYSED_BY_JUZ.get(j.juz) || 0, tokenCount: TOKENS_BY_JUZ.get(j.juz) || 0, analysedTokenCount: ANALYSED_TOKENS_BY_JUZ.get(j.juz) || 0,
+      ranges, totalAyahs: ranges.reduce((n, r) => n + r.count, 0),
+      firstAyah: first ? { surah: first.surahId, ayah: first.from } : null, lastAyah: last ? { surah: last.surahId, ayah: last.to } : null };
   }
 
   function listJuz() { return D.juz.map(juzView).sort((a, b) => a.number - b.number); }
@@ -122,7 +164,7 @@ const QMData = (function () {
     const j = JUZ.get(Number(juzNumber));
     if (!j) return null;
     const v = juzView(j);
-    return { ...v, surahs: v.surahIds.map(getSurah).filter(Boolean) };
+    return { ...v, surahs: v.surahIds.map(getSurah).filter(Boolean), ranges: v.ranges.map(r => ({ ...r, surah: getSurah(r.surahId) })) };
   }
   function listSurahs() { return D.surahs.map(surahView).sort((a, b) => a.number - b.number); }
   function getSurah(surahNumber) {
@@ -152,17 +194,31 @@ const QMData = (function () {
     return a ? ayahView(a) : null;
   }
   function ayahView(a) {
-    const tr = TRANSLATION.get(a.ayah_id);
+    const translations = translationsFor(a.ayah_id);
     const words = wordsOf(a);
     return {
       id: a.ayah_id, surahId: a.surah, ayahId: a.ayah, juz: a.juz,
       text: a.text,                                   // canonical text, verbatim — never a normalised form
       tokenIds: words.map((w, i) => `${a.ayah_id}:${i + 1}`),
       tokens: words.map((w, i) => getToken(`${a.ayah_id}:${i + 1}`)),
-      translation: tr ? { en: tr.text.en, ms: tr.text.ms } : null,
-      translationStatus: tr ? tr.status : null
+      translations                                     // [] when no edition has text for this ayah (missing stays missing)
     };
   }
+
+  /** Every edition that has text for the ayah: published editions first, QURRA working renderings after. */
+  function translationsFor(ayahId) {
+    const out = [];
+    EDITIONS.forEach(ed => {
+      const text = (T.texts[ed.translation_id] || {})[ayahId];
+      if (typeof text !== "string") return;
+      const st = (T.working_status[ed.translation_id] || {})[ayahId] || ed.status;
+      if (!["show", "show_with_badge"].includes(POLICY.translation[st])) return;           // the display policy decides
+      out.push({ id: ed.translation_id, language: ed.language, title: ed.title, translator: ed.translator, year: ed.year || null,
+        published: ed.published, status: st, attribution: ed.attribution, note: ed.note || null, text });
+    });
+    return out.sort((x, y) => (y.published - x.published) || x.id.localeCompare(y.id));
+  }
+  function listTranslationEditions() { return EDITIONS.map(e => ({ ...e })); }
 
   /* ---------------- Token / Form / Segment ---------------- */
 
@@ -177,7 +233,7 @@ const QMData = (function () {
   }
 
   function getForm(formId) {
-    const f = FORM.get(formId);
+    const f = FORM.get(formId) || (RULE_BY_ID.has(formId) ? expandRule(RULE_BY_ID.get(formId)) : null);
     if (!f) return null;
     const segments = f.segments.map(segmentView);
     const stems = segments.filter(s => s.type === "stem");
@@ -206,7 +262,7 @@ const QMData = (function () {
     if (position < 1 || position > words.length) return null;
     const canonicalId = `${ayah.ayah_id}:${position}`;
     if (canonicalId !== tokenId) return null;                // "01:1:1" is not a token id
-    const tf = TOKEN_FORM.get(tokenId);
+    const tf = formAssignment(tokenId, words[position - 1]);
     const form = tf ? getForm(tf.form_id) : null;
     const lemma = form && form.primaryLemmaId ? getLemma(form.primaryLemmaId) : null;
     const view = {
@@ -219,8 +275,15 @@ const QMData = (function () {
       segmentationNote: form ? form.segmentationNote : null,
       formId: form ? form.id : null, stemCount: form ? form.stemCount : 0,
       status: tf ? tf.status : "imported",
+      analysisBasis: tf ? (tf.basis || "pilot") : null,       // "rule_default" (default reading of the spelling) | "pilot" (analysed for this token)
       lemma,
-      sourceIds: sourceIdsForToken(ayah, form, lemma)
+      sourceIds: sourceIdsForToken(ayah, form, lemma),
+      // what is known about this word, said plainly: "unavailable" means no cleared value exists, never a guess
+      coverage: {
+        text: "complete", form: form ? "available" : "unavailable", lemma: lemma ? "available" : "unavailable",
+        root: lemma ? displayState("root", lemma.rootStatus) : "unavailable",
+        glossEn: !!(lemma && lemma.gloss.en && lemma.gloss.en !== "—"), glossMs: !!(lemma && lemma.gloss.ms && lemma.gloss.ms !== "—")
+      }
     };
     tokenCache.set(tokenId, view);
     return view;
@@ -317,9 +380,28 @@ const QMData = (function () {
   }
 
   /** Every analysed token whose form has a stem pointing at this lemma, in Qur'an order. */
-  function getOccurrencesForLemma(lemmaId) {
-    const formIds = new Set(D.forms.filter(f => f.segments.some(s => s.type === "stem" && s.lemma_id === lemmaId)).map(f => f.form_id));
-    return D.token_forms.filter(tf => formIds.has(tf.form_id)).map(tf => getToken(tf.token_id)).filter(Boolean).sort(byQuranOrder);
+  // lemma id -> token ids in Qur'an order, built once on first use from every token's form (pilot assignment first, else the spelling's default)
+  let LEMMA_TOKENS = null;
+  function lemmaTokenIndex() {
+    if (LEMMA_TOKENS) return LEMMA_TOKENS;
+    LEMMA_TOKENS = new Map();
+    const lemmasOfForm = new Map();
+    const lemmasFor = formId => {
+      let l = lemmasOfForm.get(formId);
+      if (!l) { const f = FORM.get(formId) || (RULE_BY_ID.has(formId) ? expandRule(RULE_BY_ID.get(formId)) : null); l = f ? [...new Set(f.segments.filter(s => s.type === "stem" && s.lemma_id).map(s => s.lemma_id))] : []; lemmasOfForm.set(formId, l); }
+      return l;
+    };
+    D.ayahs.forEach(a => a.text.split(" ").forEach((w, i) => {
+      const tid = a.ayah_id + ":" + (i + 1), tf = formAssignment(tid, w);
+      if (tf) lemmasFor(tf.form_id).forEach(l => { if (!LEMMA_TOKENS.has(l)) LEMMA_TOKENS.set(l, []); LEMMA_TOKENS.get(l).push(tid); });
+    }));
+    return LEMMA_TOKENS;
+  }
+  function getOccurrenceCount(lemmaId) { return (lemmaTokenIndex().get(lemmaId) || []).length; }
+  /** occurrences in Qur'an order; limit caps how many token views are built (a very common lemma has thousands) */
+  function getOccurrencesForLemma(lemmaId, limit) {
+    const ids = lemmaTokenIndex().get(lemmaId) || [];
+    return ids.slice(0, limit === undefined ? ids.length : limit).map(getToken).filter(Boolean);
   }
 
   /* ---------------- Sources / provenance ---------------- */
@@ -364,7 +446,7 @@ const QMData = (function () {
     const q = (query || "").trim();
     if (!q) return [];
     const hits = [];               // [kind, id]
-    const push = (kind, id) => hits.push([kind, id]);
+    const push = (kind, id, via) => hits.push([kind, id, via || null]);
 
     const ref = q.match(/^(\d{1,3})\s*[:.\/]\s*(\d{1,3})$/);
     if (ref && AYAH.has(`${Number(ref[1])}:${Number(ref[2])}`)) push("ayah", `${Number(ref[1])}:${Number(ref[2])}`);
@@ -394,11 +476,19 @@ const QMData = (function () {
       if (latin) IDX.latin.forEach(([key, kind, id]) => { if (key.includes(latin)) push(kind, id); });
       const lower = q.toLowerCase();
       IDX.latin_text.forEach(([text, kind, id]) => { if (text.includes(lower)) push(kind, id); });
+      // full-ayah translations: published editions only, lowercase substring, Qur'an order
+      if (lower.length >= 3) {
+        let n = 0;
+        for (let i = 0; i < D.ayahs.length && n < MAX_RESULTS; i++) {
+          const id = D.ayahs[i].ayah_id;
+          if (EDITIONS.some(ed => ed.published && ((T.texts[ed.translation_id] || {})[id] || "").toLowerCase().includes(lower))) { push("ayah", id, "translation"); n++; }
+        }
+      }
     }
 
     const seen = new Set();
     const results = [];
-    hits.forEach(([kind, id]) => {
+    hits.forEach(([kind, id, via]) => {
       const key = kind + ":" + id;
       if (seen.has(key)) return;
       seen.add(key);
@@ -407,16 +497,17 @@ const QMData = (function () {
       else if (kind === "lemma") { const lemma = getLemma(id); if (lemma) r = { kind, lemma }; }
       else if (kind === "root") { const root = getRoot(id); if (root) r = { kind, root }; }
       else if (kind === "surah") { const surah = getSurah(id); if (surah) r = { kind, surah }; }
-      else if (kind === "ayah") { const [s, a] = id.split(":"); const ayah = getAyah(s, a); if (ayah) r = { kind, ayah }; }
+      else if (kind === "ayah") { const [s, a] = id.split(":"); const ayah = getAyah(s, a); if (ayah) r = via ? { kind, ayah, via } : { kind, ayah }; }
       if (r) results.push(r);
     });
-    const order = r => KIND_ORDER[r.kind];
+    const order = r => r.via ? 5 : KIND_ORDER[r.kind];
     const tokenKey = r => r.kind === "token" ? r.token.surahId * 1e6 + r.token.ayahId * 1e3 + r.token.position
       : r.kind === "ayah" ? r.ayah.surahId * 1e6 + r.ayah.ayahId * 1e3 : 0;
     // A very common word must not crowd out the lemma / root / surah hits: structured results get up to 12 slots, words fill the rest.
-    const others = results.filter(r => r.kind !== "token").sort((a, b) => order(a) - order(b) || tokenKey(a) - tokenKey(b)).slice(0, 12);
-    const words = results.filter(r => r.kind === "token").sort((a, b) => tokenKey(a) - tokenKey(b)).slice(0, MAX_RESULTS - others.length);
-    return others.concat(words).sort((a, b) => order(a) - order(b) || tokenKey(a) - tokenKey(b));
+    const byTranslation = results.filter(r => r.via).sort((a, b) => tokenKey(a) - tokenKey(b)).slice(0, 5);   // translation-text hits never crowd out lemma / root / surah hits
+    const others = results.filter(r => r.kind !== "token" && !r.via).sort((a, b) => order(a) - order(b) || tokenKey(a) - tokenKey(b)).slice(0, 12);
+    const words = results.filter(r => r.kind === "token").sort((a, b) => tokenKey(a) - tokenKey(b)).slice(0, MAX_RESULTS - others.length - byTranslation.length);
+    return others.concat(words, byTranslation).sort((a, b) => order(a) - order(b) || tokenKey(a) - tokenKey(b));
   }
 
   /* ---------------- Filters ---------------- */
@@ -438,9 +529,9 @@ const QMData = (function () {
   return {
     listJuz, getJuz,
     listSurahs, getSurah, getJuzForSurah,
-    listAyahsInSurah, getAyah,
+    listAyahsInSurah, getAyah, listTranslationEditions,
     getToken, getForm,
-    getLemma, getOccurrencesForLemma, listLemmas,
+    getLemma, getOccurrencesForLemma, getOccurrenceCount, listLemmas,
     getRoot, listRoots,
     getSource,
     searchVocabulary,

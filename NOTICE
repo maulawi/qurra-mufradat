@@ -56,7 +56,21 @@ The header supplied by Tanzil with the metadata file, reproduced exactly:
     // License: Creative Commons Attribution 3.0
 
 
-3. Where attribution appears in the application
+3. Pickthall English translation (1930)
+-----------------------------------------
+
+Work:     Marmaduke Pickthall, The Meaning of the Glorious Koran (first published 1930; the translator died in 1936).
+          Public domain.
+Text via: the Project Gutenberg e-text #16955 (https://www.gutenberg.org/ebooks/16955), catalogued as "Public domain in the
+          USA". Only the Pickthall column was used; the e-text's header and licence wording are not part of QURRA's data.
+          The e-text was proofed by a volunteer from a file of unknown origin, so typographical errors are possible.
+Kept as:  not redistributed raw (staging/ is outside git); SHA-256 3b96fa3ad318ab9d91db53b25100d5169fafe3a1ecb993e7c36ffff55bf9d8bc.
+Used in:  data/translations/en-pickthall-1930.json (wrapped lines joined, text otherwise verbatim) and js/generated/translations.js.
+          Eight ayahs (17:32-33, 39:45-46, 45:31-32, 56:25-26) are left without text because the e-text merges each pair
+          under one verse number; see data/translations/en-pickthall-1930.alignment.json.
+
+
+4. Where attribution appears in the application
 -----------------------------------------------
 
 - Footer of every page, with a link to https://tanzil.net (index.html, text in js/translations/en.js and ms.js).
