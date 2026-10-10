@@ -6,8 +6,8 @@
   "scripts": {
     "build": "node scripts/build.js",
     "validate": "node scripts/validate-data.js",
-    "test": "node --max-old-space-size=4096 scripts/tests/test-validate.js && node --max-old-space-size=4096 scripts/tests/test-analysis.js && node scripts/tests/test-data-layer.js && node --max-old-space-size=4096 scripts/tests/test-content.js && node scripts/tests/test-wordanalysis.js && node scripts/tests/test-juz.js && node --max-old-space-size=4096 scripts/tests/test-roots.js",
-    "check": "node scripts/validate-data.js && node scripts/analyse/generate.js --check && node scripts/build-dataset.js --check && node scripts/report/coverage.js --check && node scripts/report/source-research.js --check"
+    "test": "node --max-old-space-size=8192 scripts/tests/test-validate.js && node --max-old-space-size=8192 scripts/tests/test-analysis.js && node scripts/tests/test-data-layer.js && node --max-old-space-size=8192 scripts/tests/test-content.js && node scripts/tests/test-wordanalysis.js && node scripts/tests/test-juz.js && node scripts/tests/test-juz-nav.js && node --max-old-space-size=8192 scripts/tests/test-roots.js && node --max-old-space-size=8192 scripts/tests/test-coverage.js",
+    "check": "node scripts/validate-data.js && node scripts/analyse/generate.js --check && node scripts/build-dataset.js --check && node scripts/report/coverage.js --check && node scripts/report/source-research.js --check && node scripts/report/unanalysed-audit.js --check"
   },
   "license": "UNLICENSED"
 }

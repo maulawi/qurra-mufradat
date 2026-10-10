@@ -1,0 +1,4122 @@
+{
+ "_comment": "QURRA-authored lexicon, part 35 (batch Y). Glosses and root core meanings are QURRA's own wording (provisional).",
+ "root_gloss": {
+  "ء و ي": [
+   "to take shelter",
+   "berlindung"
+  ],
+  "ء ي د": [
+   "to support",
+   "menyokong"
+  ],
+  "ء ذ ي": [
+   "to harm",
+   "menyakiti"
+  ],
+  "ء ل و": [
+   "to swear; to fall short",
+   "bersumpah; mengurangkan"
+  ],
+  "ء ل ف": [
+   "to compose",
+   "menyatukan"
+  ],
+  "س ء ل": [
+   "a request",
+   "permintaan"
+  ],
+  "ء ت م ن": [
+   "to entrust",
+   "mengamanahkan"
+  ],
+  "ء ث ر": [
+   "to prefer",
+   "mengutamakan"
+  ],
+  "ء خ ذ": [
+   "to seize",
+   "menghukum"
+  ],
+  "ء ز ز": [
+   "to incite",
+   "menghasut"
+  ],
+  "ء ت ي": [
+   "to give",
+   "memberi"
+  ],
+  "ب ح ث": [
+   "to search",
+   "menggali"
+  ],
+  "ب د ء": [
+   "to appear",
+   "nyata"
+  ],
+  "ب د ر": [
+   "Badr",
+   "Badar"
+  ],
+  "ب ر م": [
+   "to contrive",
+   "menetapkan"
+  ],
+  "ب س ل": [
+   "to be given up to ruin",
+   "dibinasakan"
+  ],
+  "ب ص ط": [
+   "to expand",
+   "melapangkan"
+  ],
+  "ب ط ء": [
+   "to lag behind",
+   "berlambat-lambat"
+  ],
+  "ب ه ت": [
+   "to confound",
+   "memeranjatkan"
+  ],
+  "ب ي ع": [
+   "to pledge",
+   "berbaiah"
+  ],
+  "ب غ ل": [
+   "a mule",
+   "baghal"
+  ],
+  "ب ق ع": [
+   "a spot",
+   "bidang"
+  ],
+  "ب ك ي": [
+   "to weep",
+   "menangis"
+  ],
+  "ب ل ء": [
+   "a trial",
+   "ujian"
+  ],
+  "ب ل ع": [
+   "to swallow",
+   "menelan"
+  ],
+  "ب ر ز خ": [
+   "a barrier",
+   "dinding pemisah"
+  ],
+  "ب ه د": [
+   "a guidance",
+   "petunjuk"
+  ],
+  "ء ت و": [
+   "to give",
+   "memberi"
+  ],
+  "ب و ء": [
+   "to prepare a dwelling",
+   "menyediakan tempat"
+  ],
+  "ت ب ب": [
+   "to perish",
+   "binasa"
+  ],
+  "ب غ ي": [
+   "to seek",
+   "mencari"
+  ],
+  "ب س م": [
+   "to smile",
+   "tersenyum"
+  ],
+  "ب ص ر": [
+   "to see",
+   "melihat"
+  ],
+  "ب ي ض": [
+   "to be white",
+   "putih"
+  ],
+  "ب ع ث": [
+   "to resurrect",
+   "membangkitkan"
+  ],
+  "ت ر ي": [
+   "successive",
+   "berturut-turut"
+  ],
+  "ث ر ب": [
+   "reproach",
+   "celaan"
+  ],
+  "ث ق ف": [
+   "to overtake",
+   "menemui"
+  ],
+  "و ج ه": [
+   "to turn towards",
+   "menghadap"
+  ],
+  "ج ر ع": [
+   "to gulp",
+   "meneguk"
+  ],
+  "ج س س": [
+   "to spy",
+   "mengintip"
+  ],
+  "ج و ع": [
+   "to hunger",
+   "lapar"
+  ],
+  "ج ن ب": [
+   "to avoid",
+   "menjauhi"
+  ],
+  "ح ب ر": [
+   "to rejoice",
+   "bergembira"
+  ],
+  "ح ب س": [
+   "to detain",
+   "menahan"
+  ],
+  "ح ي د": [
+   "to shun",
+   "lari"
+  ],
+  "ح و ر": [
+   "to converse",
+   "berbincang"
+  ],
+  "ح ر ث": [
+   "to till",
+   "membajak"
+  ],
+  "ح ر ص": [
+   "to be eager",
+   "bersungguh-sungguh"
+  ],
+  "ح س د": [
+   "to envy",
+   "dengki"
+  ],
+  "ح س س": [
+   "to feel; to search",
+   "merasa; mencari"
+  ],
+  "ح و ض": [
+   "to urge",
+   "menggalakkan"
+  ],
+  "ح ك م": [
+   "to refer to judgement",
+   "bertahkim"
+  ],
+  "ح ل ق": [
+   "to shave",
+   "mencukur"
+  ],
+  "ح ن ث": [
+   "to break an oath",
+   "melanggar sumpah"
+  ],
+  "خ ب ت": [
+   "to be humble",
+   "tunduk"
+  ],
+  "خ ب ط": [
+   "to strike",
+   "memukul"
+  ],
+  "خ و ن": [
+   "to betray",
+   "mengkhianati"
+  ],
+  "خ ر ق": [
+   "to pierce",
+   "menembusi"
+  ],
+  "خ ز ي": [
+   "to disgrace",
+   "memalukan"
+  ]
+ },
+ "entries": [
+  {
+   "lemma_id": "ayyada-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3ms": [
+      "يُؤَيِّدُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "adhaa-1",
+   "more": true,
+   "f": {
+    "pmudari": {
+     "3fp": [
+      "يُؤْذَيْنَ"
+     ]
+    },
+    "mudari": {
+     "2mp": [
+      "تُؤْذُوا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "alaa-3",
+   "lemma": "آلَىٰ",
+   "pos": "verb",
+   "vf": "IV",
+   "root": "ء ل و",
+   "en": "to swear (an oath)",
+   "ms": "bersumpah",
+   "f": {
+    "mudari": {
+     "3mp": [
+      "يُؤْلُونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "allafa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3ms": [
+      "يُؤَلِّفُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "sul-1",
+   "lemma": "سُؤْل",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "س ء ل",
+   "en": "a request",
+   "ms": "permintaan",
+   "stems": [
+    {
+     "s": "سُؤْلَكَ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "saib-1",
+   "lemma": "سَائِبَة",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "س ي ب",
+   "root_en": "to roam freely",
+   "root_ms": "bebas berkeliaran",
+   "en": "a camel set free (saiba)",
+   "ms": "saibah (unta yang dibebaskan)",
+   "stems": [
+    {
+     "s": "سَآئِبَةٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "saih-1",
+   "lemma": "سَائِح",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "س ي ح",
+   "en": "one who roams",
+   "ms": "pengembara",
+   "sf": [
+    "سَٰٓئِح"
+   ]
+  },
+  {
+   "lemma_id": "saiq-2",
+   "lemma": "سَائِق",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "س و ق",
+   "en": "a driver",
+   "ms": "penghalau",
+   "stems": [
+    {
+     "s": "سَآئِقٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "saala-1",
+   "more": true,
+   "f": {
+    "pmaadi": {
+     "3fs": [
+      "سُئِلَتْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "laim-1",
+   "lemma": "لَائِم",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ل و م",
+   "en": "a blamer",
+   "ms": "pencela",
+   "stems": [
+    {
+     "s": "لَآئِمٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "sayyi-1",
+   "more": true,
+   "stems": [
+    {
+     "s": "سَيِّئًا",
+     "ending": "indef"
+    },
+    {
+     "s": "سَيِّئُ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "ayy-1",
+   "more": true,
+   "stems": [
+    {
+     "s": "أَيًّا",
+     "ending": "indef"
+    },
+    {
+     "s": "أَيِّ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "ibtada-1",
+   "lemma": "ٱبْتَدَعَ",
+   "pos": "verb",
+   "vf": "VIII",
+   "root": "ب د ع",
+   "en": "to invent",
+   "ms": "mereka-reka",
+   "sv": true
+  },
+  {
+   "lemma_id": "abtar-1",
+   "lemma": "أَبْتَر",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ب ت ر",
+   "root_en": "to cut off",
+   "root_ms": "terputus",
+   "en": "cut off (without posterity)",
+   "ms": "yang terputus",
+   "stems": [
+    {
+     "s": "ٱلْأَبْتَرُ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "ibtagha-1",
+   "f": {
+    "maadi": {
+     "3mp": [
+      "ٱبْتَغَوُا۟"
+     ]
+    },
+    "mudari": {
+     "2ms": [
+      "تَبْتَغِىَ"
+     ]
+    }
+   },
+   "more": true
+  },
+  {
+   "lemma_id": "ibtigha-1",
+   "stems": [
+    {
+     "s": "ٱبْتِغَآؤُ",
+     "bound": true
+    }
+   ],
+   "more": true
+  },
+  {
+   "lemma_id": "bahatha-1",
+   "lemma": "بَحَثَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ب ح ث",
+   "en": "to search; to dig",
+   "ms": "menggali",
+   "f": {
+    "mudari": {
+     "3ms": [
+      "يَبْحَثُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "bada-1",
+   "more": true,
+   "f": {
+    "maadi": {
+     "3fs": [
+      "بَدَتِ",
+      "بَدَتْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "badr-1",
+   "lemma": "بَدْر",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ب د ر",
+   "en": "Badr",
+   "ms": "Badar",
+   "stems": [
+    {
+     "s": "بِبَدْرٍ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "baddala-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3ms": [
+      "يُبَدِّلَنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "abrama-1",
+   "lemma": "أَبْرَمَ",
+   "pos": "verb",
+   "vf": "IV",
+   "root": "ب ر م",
+   "en": "to contrive; to settle (a matter)",
+   "ms": "menetapkan",
+   "f": {
+    "maadi": {
+     "3mp": [
+      "أَبْرَمُوٓا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "absala-1",
+   "lemma": "أُبْسِلَ",
+   "pos": "verb",
+   "vf": "IV",
+   "root": "ب س ل",
+   "en": "to be given up to destruction",
+   "ms": "diserahkan kepada kebinasaan",
+   "f": {
+    "pmaadi": {
+     "3mp": [
+      "أُبْسِلُوا۟"
+     ]
+    },
+    "pmudari": {
+     "3fs": [
+      "تُبْسَلَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "basata-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3ms": [
+      "يَبْصُۜطُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "battaa-1",
+   "lemma": "بَطَّأَ",
+   "pos": "verb",
+   "vf": "II",
+   "root": "ب ط ء",
+   "en": "to lag behind",
+   "ms": "berlambat-lambat",
+   "f": {
+    "mudari": {
+     "3ms": [
+      "لَّيُبَطِّئَنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "abtala-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3ms": [
+      "سَيُبْطِلُهُۥٓ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "baya-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3fp": [
+      "يُبَايِعْنَ"
+     ],
+     "3ms": [
+      "يُبَايِعْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "baghl-1",
+   "lemma": "بَغْل",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ب غ ل",
+   "en": "a mule",
+   "ms": "baghal",
+   "bp": [
+    "بِغَال"
+   ]
+  },
+  {
+   "lemma_id": "buqa-1",
+   "lemma": "بُقْعَة",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ب ق ع",
+   "en": "a spot of land",
+   "ms": "bidang tanah",
+   "stems": [
+    {
+     "s": "ٱلْبُقْعَةِ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "baka-1",
+   "more": true,
+   "f": {
+    "maadi": {
+     "3fs": [
+      "بَكَتْ"
+     ]
+    },
+    "mudari": {
+     "2mp": [
+      "تَبْكُونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "bakka-1",
+   "lemma": "بَكَّة",
+   "pos": "noun",
+   "dt": "jamid",
+   "en": "Bakka (Makkah)",
+   "ms": "Bakkah (Makkah)",
+   "stems": [
+    {
+     "s": "بِبَكَّةَ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "bala-5",
+   "lemma": "بَلَآء",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ب ل ء",
+   "en": "a trial",
+   "ms": "ujian",
+   "stems": [
+    {
+     "s": "ٱلْبَلَٰٓؤُا۟",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "ablasa-1",
+   "lemma": "أَبْلَسَ",
+   "pos": "verb",
+   "vf": "IV",
+   "root": "ب ل س",
+   "en": "to despair",
+   "ms": "berputus asa",
+   "f": {
+    "mudari": {
+     "3ms": [
+      "يُبْلِسُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "bala-6",
+   "lemma": "بَلَعَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ب ل ع",
+   "root_en": "to swallow",
+   "root_ms": "menelan",
+   "en": "to swallow up",
+   "ms": "menelan",
+   "f": {
+    "amr": {
+     "2fs": [
+      "ٱبْلَعِى"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "mirsad-1",
+   "lemma": "مِرْصَاد",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ر ص د",
+   "en": "an ambush",
+   "ms": "tempat mengintai",
+   "stems": [
+    {
+     "s": "لَبِٱلْمِرْصَادِ",
+     "bare": true
+    },
+    {
+     "s": "مِرْصَادًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "balaa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3ms": [
+      "لَيَبْلُوَنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "bahita-1",
+   "lemma": "بُهِتَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ب ه ت",
+   "en": "to be confounded",
+   "ms": "terpana",
+   "f": {
+    "pmaadi": {
+     "3ms": [
+      "فَبُهِتَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "aata-1",
+   "more": true,
+   "f": {
+    "pmudari": {
+     "2mp": [
+      "تُؤْتَوْنَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "athara-6",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تُؤْثِرُونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "aakhadha-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2ms": [
+      "تُؤَاخِذْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "addaa-1",
+   "lemma": "أَدَّىٰ",
+   "pos": "verb",
+   "vf": "II",
+   "root": "ء د ي",
+   "en": "to render",
+   "ms": "menunaikan",
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تُؤَدُّوا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "adhaa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تُؤْذُوا۟",
+      "تُؤْذُونَنِى"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "azza-1",
+   "lemma": "أَزَّ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ء ز ز",
+   "en": "to incite",
+   "ms": "menghasut",
+   "f": {
+    "mudari": {
+     "3fs": [
+      "تَؤُزُّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "aamana-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2mp": [
+      "لَتُؤْمِنُنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "ita-1",
+   "more": true,
+   "stems": [
+    {
+     "s": "إِيتَآئِ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "bawwaa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2ms": [
+      "تُبَوِّئُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tabab-1",
+   "lemma": "تَبَاب",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ت ب ب",
+   "en": "ruin; perdition",
+   "ms": "kebinasaan",
+   "stems": [
+    {
+     "s": "تَبَابٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "tabattala-1",
+   "more": true,
+   "stems": [
+    {
+     "s": "تَبْتِيلًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "tabassama-1",
+   "lemma": "تَبَسَّمَ",
+   "pos": "verb",
+   "vf": "V",
+   "root": "ب س م",
+   "en": "to smile",
+   "ms": "tersenyum",
+   "f": {
+    "maadi": {
+     "3ms": [
+      "فَتَبَسَّمَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tabsira-1",
+   "lemma": "تَبْصِرَة",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ب ص ر",
+   "en": "a reminder; insight",
+   "ms": "peringatan",
+   "stems": [
+    {
+     "s": "تَبْصِرَةً",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "ibyadda-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3fs": [
+      "تَبْيَضُّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tabaaya-1",
+   "lemma": "تَبَايَعَ",
+   "pos": "verb",
+   "vf": "VI",
+   "root": "ب ي ع",
+   "en": "to trade with one another",
+   "ms": "berjual beli",
+   "f": {
+    "maadi": {
+     "2mp": [
+      "تَبَايَعْتُمْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "baatha-1",
+   "more": true,
+   "f": {
+    "pmudari": {
+     "2mp": [
+      "لَتُبْعَثُنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "atbaa-1",
+   "more": true,
+   "f": {
+    "maadi": {
+     "1p": [
+      "أَتْبَعْنَٰ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "abqa-2",
+   "f": {
+    "mudari": {
+     "2ms": [
+      "تُبْقِى"
+     ]
+    }
+   },
+   "lemma": "أَبْقَىٰ",
+   "pos": "verb",
+   "vf": "IV",
+   "root": "ب ق ي",
+   "en": "to leave remaining",
+   "ms": "menyisakan"
+  },
+  {
+   "lemma_id": "tabayyana-1",
+   "more": true,
+   "f": {
+    "maadi": {
+     "3fs": [
+      "تَبَيَّنَتِ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "bayyana-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2mp": [
+      "لَتُبَيِّنُنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "bahata-1",
+   "lemma": "بَهَتَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ب ه ت",
+   "en": "to confound",
+   "ms": "memeranjatkan",
+   "f": {
+    "mudari": {
+     "3fs": [
+      "تَبْهَتُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "ataa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3fs": [
+      "تَأْتِىَ"
+     ],
+     "1p": [
+      "لَنَأْتِيَنَّ"
+     ],
+     "2mp": [
+      "لَتَأْتُنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tatbib-1",
+   "lemma": "تَتْبِيب",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ت ب ب",
+   "en": "ruin",
+   "ms": "kerugian",
+   "stems": [
+    {
+     "s": "تَتْبِيبٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "tabaddala-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تَتَبَدَّلُوا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "ittabaa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2d": [
+      "تَتَّبِعَآنِّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tajafa-1",
+   "lemma": "تَجَافَىٰ",
+   "pos": "verb",
+   "vf": "VI",
+   "root": "ج ف و",
+   "en": "to draw away",
+   "ms": "menjauhkan diri",
+   "f": {
+    "mudari": {
+     "3fs": [
+      "تَتَجَافَىٰ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tatra-1",
+   "lemma": "تَتْرَا",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "و ت ر",
+   "en": "in succession",
+   "ms": "berturut-turut",
+   "stems": [
+    {
+     "s": "تَتْرَا",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "taqallaba-1",
+   "lemma": "تَقَلَّبَ",
+   "pos": "verb",
+   "vf": "V",
+   "root": "ق ل ب",
+   "en": "to turn about",
+   "ms": "berbolak-balik",
+   "f": {
+    "mudari": {
+     "3fs": [
+      "تَتَقَلَّبُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tamara-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3fs": [
+      "تَتَمَارَىٰ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tamanna-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تَتَمَنَّوْا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tanajaa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تَتَنَٰجَوْا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tanazzala-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3fs": [
+      "تَتَنَزَّلُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tathrib-1",
+   "lemma": "تَثْرِيب",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ث ر ب",
+   "en": "reproach",
+   "ms": "celaan",
+   "stems": [
+    {
+     "s": "تَثْرِيبَ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "thaqifa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2ms": [
+      "تَثْقَفَنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tawajjaha-1",
+   "lemma": "تَوَجَّهَ",
+   "pos": "verb",
+   "vf": "V",
+   "root": "و ج ه",
+   "en": "to turn one's face",
+   "ms": "menghadap",
+   "f": {
+    "maadi": {
+     "3ms": [
+      "تَوَجَّهَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tajarraa-1",
+   "lemma": "تَجَرَّعَ",
+   "pos": "verb",
+   "vf": "V",
+   "root": "ج ر ع",
+   "root_en": "to gulp",
+   "root_ms": "meneguk",
+   "en": "to sip with difficulty",
+   "ms": "meneguk dengan susah",
+   "f": {
+    "mudari": {
+     "3ms": [
+      "يَتَجَرَّعُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "ajara-2",
+   "lemma": "ءَاجَرَ",
+   "pos": "verb",
+   "vf": "III",
+   "root": "ء ج ر",
+   "en": "to hire",
+   "ms": "mengupah",
+   "f": {
+    "mudari": {
+     "2ms": [
+      "تَأْجُرَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tajawaza-1",
+   "lemma": "تَجَاوَزَ",
+   "pos": "verb",
+   "vf": "VI",
+   "root": "ج و ز",
+   "en": "to overlook; to pass over",
+   "ms": "mengabaikan",
+   "f": {
+    "mudari": {
+     "1p": [
+      "نَتَجَاوَزُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tajassasa-1",
+   "lemma": "تَجَسَّسَ",
+   "pos": "verb",
+   "vf": "V",
+   "root": "ج س س",
+   "en": "to spy",
+   "ms": "mengintip",
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تَجَسَّسُوا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "jaa-2",
+   "lemma": "جَاعَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ج و ع",
+   "en": "to be hungry",
+   "ms": "lapar",
+   "f": {
+    "mudari": {
+     "2ms": [
+      "تَجُوعَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tajannaba-1",
+   "lemma": "تَجَنَّبَ",
+   "pos": "verb",
+   "vf": "V",
+   "root": "ج ن ب",
+   "en": "to avoid",
+   "ms": "menjauhi",
+   "f": {
+    "mudari": {
+     "3ms": [
+      "يَتَجَنَّبُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "hubira-1",
+   "more": true,
+   "f": {
+    "pmudari": {
+     "2mp": [
+      "تُحْبَرُونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "habasa-1",
+   "lemma": "حَبَسَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ح ب س",
+   "en": "to detain",
+   "ms": "menahan",
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تَحْبِسُونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "hajja-3",
+   "lemma": "حَاجَّ",
+   "pos": "verb",
+   "vf": "III",
+   "root": "ح ج ج",
+   "en": "to dispute with",
+   "ms": "berbantah dengan",
+   "f": {
+    "mudari": {
+     "2mp": [
+      "أَتُحَٰٓجُّوٓنِّى"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "hada-3",
+   "lemma": "حَادَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ح ي د",
+   "en": "to shun",
+   "ms": "lari menghindar",
+   "f": {
+    "mudari": {
+     "2ms": [
+      "تَحِيدُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "haratha-1",
+   "lemma": "حَرَثَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ح ر ث",
+   "en": "to till",
+   "ms": "membajak",
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تَحْرُثُونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "harasa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2ms": [
+      "تَحْرِصْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "hasada-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تَحْسُدُونَنَا"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tahassasa-1",
+   "lemma": "تَحَسَّسَ",
+   "pos": "verb",
+   "vf": "V",
+   "root": "ح س س",
+   "en": "to search out",
+   "ms": "mencari-cari",
+   "f": {
+    "amr": {
+     "2mp": [
+      "فَتَحَسَّسُوا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "hadda-2",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تَحَٰٓضُّونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "tahakama-1",
+   "lemma": "تَحَاكَمَ",
+   "pos": "verb",
+   "vf": "VI",
+   "root": "ح ك م",
+   "en": "to seek judgement",
+   "ms": "bertahkim",
+   "f": {
+    "mudari": {
+     "3mp": [
+      "يَتَحَاكَمُوٓا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "halaqa-1",
+   "lemma": "حَلَقَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ح ل ق",
+   "en": "to shave",
+   "ms": "mencukur",
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تَحْلِقُوا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "hanitha-1",
+   "lemma": "حَنِثَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ح ن ث",
+   "en": "to break an oath",
+   "ms": "melanggar sumpah",
+   "f": {
+    "mudari": {
+     "2ms": [
+      "تَحْنَثْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "akhbata-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2ms": [
+      "فَتُخْبِتَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "takhabbata-1",
+   "lemma": "تَخَبَّطَ",
+   "pos": "verb",
+   "vf": "V",
+   "root": "خ ب ط",
+   "en": "to strike (as with madness)",
+   "ms": "menjadikan gila",
+   "f": {
+    "mudari": {
+     "3ms": [
+      "يَتَخَبَّطُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "ikhtana-1",
+   "lemma": "ٱخْتَانَ",
+   "pos": "verb",
+   "vf": "VIII",
+   "root": "خ و ن",
+   "en": "to betray oneself",
+   "ms": "mengkhianati diri",
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تَخْتَانُونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "ittakhadha-1",
+   "more": true,
+   "f": {
+    "maadi": {
+     "2mp": [
+      "أَتَّخَذْتُمْ"
+     ],
+     "1p": [
+      "أَتَّخَذْنَٰ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "kharasa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2mp": [
+      "تَخْرُصُونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "khaqaqa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2ms": [
+      "تَخْرِقَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "akhza-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "2ms": [
+      "تُخْزِنِى"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "muhdath-1",
+   "lemma": "مُحْدَث",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ح د ث",
+   "en": "newly sent; recent",
+   "ms": "yang baru",
+   "stems": [
+    {
+     "s": "مُّحْدَثٍ",
+     "ending": "indef"
+    },
+    {
+     "s": "مُحْدَثٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mujib-1",
+   "lemma": "مُجِيب",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ج و ب",
+   "en": "one who responds",
+   "ms": "yang menyahut",
+   "n": [
+    "مُّجِيب",
+    "مُجِيب"
+   ],
+   "noun": [
+    {
+     "b": "مُجِيب",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ]
+  },
+  {
+   "lemma_id": "majuj-1",
+   "lemma": "مَأْجُوج",
+   "pos": "noun",
+   "dt": "jamid",
+   "en": "Ma'juj (Magog)",
+   "ms": "Makjuj",
+   "noun": [
+    {
+     "b": "مَأْجُوج",
+     "t": "dip"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mahjur-1",
+   "lemma": "مَحْجُور",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ح ج ر",
+   "en": "forbidden",
+   "ms": "terlarang",
+   "stems": [
+    {
+     "s": "مَّحْجُورًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mahfuz-1",
+   "lemma": "مَحْفُوظ",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ح ف ظ",
+   "en": "guarded; preserved",
+   "ms": "terpelihara",
+   "stems": [
+    {
+     "s": "مَّحْفُوظًا",
+     "ending": "indef"
+    },
+    {
+     "s": "مَّحْفُوظٍۭ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mahaqa-1",
+   "lemma": "مَحَقَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "م ح ق",
+   "root_en": "to blot out",
+   "root_ms": "menghapuskan",
+   "en": "to blot out",
+   "ms": "membinasakan",
+   "f": {
+    "mudari": {
+     "3ms": [
+      "يَمْحَقَ",
+      "يَمْحَقُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "muhkam-1",
+   "lemma": "مُحْكَم",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ح ك م",
+   "en": "firmly constructed; precise",
+   "ms": "yang kukuh",
+   "stems": [
+    {
+     "s": "مُّحْكَمَةٌ",
+     "ending": "indef"
+    },
+    {
+     "s": "مُّحْكَمَٰتٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mawakhir-1",
+   "lemma": "مَاخِر",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "م خ ر",
+   "root_en": "to cleave (the waves)",
+   "root_ms": "membelah (ombak)",
+   "en": "cleaving (the waves)",
+   "ms": "membelah ombak",
+   "stems": [
+    {
+     "s": "مَوَاخِرَ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mukhalladun-1",
+   "lemma": "مُخَلَّد",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "خ ل د",
+   "en": "ever-youthful (immortal)",
+   "ms": "kekal muda",
+   "noun": [
+    {
+     "b": "مُّخَلَّد",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mukhallaqa-1",
+   "lemma": "مُخَلَّقَة",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "خ ل ق",
+   "en": "fully formed",
+   "ms": "sempurna kejadiannya",
+   "stems": [
+    {
+     "s": "مُّخَلَّقَةٍ",
+     "ending": "indef"
+    },
+    {
+     "s": "مُخَلَّقَةٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "makhmasa-1",
+   "lemma": "مَخْمَصَة",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "خ م ص",
+   "root_en": "hunger",
+   "root_ms": "kelaparan",
+   "en": "hunger; famine",
+   "ms": "kelaparan",
+   "stems": [
+    {
+     "s": "مَخْمَصَةٌ",
+     "ending": "indef"
+    },
+    {
+     "s": "مَخْمَصَةٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mudda-1",
+   "lemma": "مُدَّة",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "م د د",
+   "en": "a term; a period",
+   "ms": "tempoh",
+   "stems": [
+    {
+     "s": "مُدَّتِ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "madda-1",
+   "more": true,
+   "f": {
+    "pmaadi": {
+     "3fs": [
+      "مُدَّتْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "madad-1",
+   "lemma": "مَدَد",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "م د د",
+   "en": "extension; ink",
+   "ms": "bantuan; dakwat",
+   "stems": [
+    {
+     "s": "مَدَدًا",
+     "ending": "indef"
+    },
+    {
+     "s": "مِدَادًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "madin-1",
+   "lemma": "مَدِين",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "د ي ن",
+   "en": "requited; held to account",
+   "ms": "yang dibalas",
+   "noun": [
+    {
+     "b": "مَدِين",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ]
+  },
+  {
+   "lemma_id": "muddhakkir-1",
+   "lemma": "مُذَكِّر",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ذ ك ر",
+   "en": "one who reminds",
+   "ms": "pemberi peringatan",
+   "stems": [
+    {
+     "s": "مُذَكِّرٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "madhkur-1",
+   "lemma": "مَذْكُور",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ذ ك ر",
+   "en": "mentioned",
+   "ms": "disebut",
+   "stems": [
+    {
+     "s": "مَّذْكُورًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "murtafaq-1",
+   "lemma": "مُرْتَفَق",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ر ف ق",
+   "root_en": "to be kind; a support",
+   "root_ms": "lembut; sandaran",
+   "en": "a resting-place",
+   "ms": "tempat bersandar",
+   "stems": [
+    {
+     "s": "مُرْتَفَقًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mirath-1",
+   "lemma": "مِيرَاث",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "و ر ث",
+   "en": "inheritance",
+   "ms": "pusaka",
+   "stems": [
+    {
+     "s": "مِيرَٰثُ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "marah-1",
+   "lemma": "مَرَح",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "م ر ح",
+   "root_en": "to be exultant",
+   "root_ms": "bongkak",
+   "en": "exultation; insolence",
+   "ms": "kesombongan",
+   "stems": [
+    {
+     "s": "مَرَحًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "marhaba-1",
+   "lemma": "مَرْحَب",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ر ح ب",
+   "en": "welcome",
+   "ms": "selamat datang",
+   "stems": [
+    {
+     "s": "مَرْحَبًۢا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mardud-1",
+   "lemma": "مَرْدُود",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ر د د",
+   "en": "returned; turned back",
+   "ms": "yang dikembalikan",
+   "noun": [
+    {
+     "b": "مَرْدُود",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ],
+   "stems": [
+    {
+     "s": "مَرْدُودٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "marsad-1",
+   "lemma": "مَرْصَد",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ر ص د",
+   "en": "a place of ambush",
+   "ms": "tempat mengintai",
+   "stems": [
+    {
+     "s": "مَرْصَدٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "murdia-1",
+   "lemma": "مُرْضِعَة",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ر ض ع",
+   "en": "a nursing mother",
+   "ms": "ibu yang menyusukan",
+   "stems": [
+    {
+     "s": "مُرْضِعَةٍ",
+     "ending": "indef"
+    }
+   ],
+   "bp": [
+    "مَرَاضِع"
+   ]
+  },
+  {
+   "lemma_id": "maraa-1",
+   "lemma": "مَرْعَى",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ر ع ي",
+   "en": "pasture",
+   "ms": "padang ragut",
+   "noun": [
+    {
+     "b": "مَرْعَىٰ",
+     "t": "inv",
+     "s": [
+      "مَرْعَىٰ"
+     ]
+    }
+   ],
+   "stems": [
+    {
+     "s": "مَرْعَىٰهَا",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "mirfaq-1",
+   "lemma": "مِرْفَق",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ر ف ق",
+   "en": "an elbow; a support",
+   "ms": "siku; sokongan",
+   "stems": [
+    {
+     "s": "مِّرْفَقًا",
+     "ending": "indef"
+    }
+   ],
+   "bp": [
+    "مَرَافِق"
+   ]
+  },
+  {
+   "lemma_id": "marqum-1",
+   "lemma": "مَرْقُوم",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ر ق م",
+   "root_en": "to inscribe",
+   "root_ms": "menulis",
+   "en": "inscribed",
+   "ms": "yang tertulis",
+   "stems": [
+    {
+     "s": "مَّرْقُومٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "amara-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "1s": [
+      "لَأَمُرَنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "mazid-1",
+   "lemma": "مَزِيد",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ز ي د",
+   "en": "more; an increase",
+   "ms": "tambahan",
+   "n": [
+    "مَزِيد",
+    "مَّزِيد"
+   ]
+  },
+  {
+   "lemma_id": "musabbih-1",
+   "lemma": "مُسَبِّح",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "س ب ح",
+   "en": "one who glorifies",
+   "ms": "orang yang bertasbih",
+   "noun": [
+    {
+     "b": "مُسَبِّح",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ]
+  },
+  {
+   "lemma_id": "masbuq-1",
+   "lemma": "مَسْبُوق",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "س ب ق",
+   "en": "outstripped",
+   "ms": "yang terdahului",
+   "noun": [
+    {
+     "b": "مَسْبُوق",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mustawdaa-1",
+   "lemma": "مُسْتَوْدَع",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "و د ع",
+   "en": "a depository",
+   "ms": "tempat simpanan",
+   "stems": [
+    {
+     "s": "مُسْتَوْدَعٌ",
+     "ending": "indef"
+    },
+    {
+     "s": "مُسْتَوْدَعَ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "mustatir-1",
+   "lemma": "مُسْتَطِير",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ط ي ر",
+   "en": "spreading far and wide",
+   "ms": "menyebar luas",
+   "stems": [
+    {
+     "s": "مُسْتَطِيرًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mustatar-1",
+   "lemma": "مُسْتَطَر",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "س ط ر",
+   "en": "written down",
+   "ms": "tertulis",
+   "stems": [
+    {
+     "s": "مُّسْتَطَرٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mustaan-1",
+   "lemma": "مُسْتَعَان",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ع و ن",
+   "en": "the One whose help is sought",
+   "ms": "tempat memohon pertolongan",
+   "stems": [
+    {
+     "s": "ٱلْمُسْتَعَانُ"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mustamirr-1",
+   "lemma": "مُسْتَمِرّ",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "م ر ر",
+   "en": "continuing; passing",
+   "ms": "berterusan",
+   "adj": [
+    "مُّسْتَمِرّ"
+   ],
+   "stems": [
+    {
+     "s": "مُّسْتَمِرٌّ",
+     "ending": "indef"
+    },
+    {
+     "s": "مُّسْتَمِرٍّ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mustami-1",
+   "lemma": "مُسْتَمِع",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "س م ع",
+   "en": "one who listens",
+   "ms": "pendengar",
+   "adj": [
+    "مُّسْتَمِع"
+   ],
+   "stems": [
+    {
+     "s": "مُسْتَمِعُ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "mustahzi-1",
+   "lemma": "مُسْتَهْزِئ",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ه ز ء",
+   "en": "one who mocks",
+   "ms": "pengolok-olok",
+   "stems": [
+    {
+     "s": "مُسْتَهْزِءُونَ"
+    },
+    {
+     "s": "ٱلْمُسْتَهْزِءِينَ"
+    }
+   ]
+  },
+  {
+   "lemma_id": "masrur-1",
+   "lemma": "مَسْرُور",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "س ر ر",
+   "en": "joyful",
+   "ms": "gembira",
+   "stems": [
+    {
+     "s": "مَسْرُورًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "musi-2",
+   "lemma": "مُوسِع",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "و س ع",
+   "en": "one who has ample means",
+   "ms": "yang mempunyai kelapangan",
+   "noun": [
+    {
+     "b": "مُوسِع",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ],
+   "stems": [
+    {
+     "s": "ٱلْمُوسِعِ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "misk-1",
+   "lemma": "مِسْك",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "م س ك",
+   "en": "musk",
+   "ms": "kasturi",
+   "n": [
+    "مِسْك"
+   ]
+  },
+  {
+   "lemma_id": "massaka-1",
+   "lemma": "مَسَّكَ",
+   "pos": "verb",
+   "vf": "II",
+   "root": "م س ك",
+   "en": "to hold fast",
+   "ms": "berpegang teguh",
+   "f": {
+    "mudari": {
+     "3mp": [
+      "يُمَسِّكُونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "musmi-1",
+   "lemma": "مُسْمِع",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "س م ع",
+   "en": "one who makes (another) hear",
+   "ms": "pemperdengar",
+   "stems": [
+    {
+     "s": "بِمُسْمِعٍ",
+     "bare": true
+    },
+    {
+     "s": "مُسْمَعٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mashy-1",
+   "lemma": "مَشْى",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "م ش ي",
+   "root_en": "to walk",
+   "root_ms": "berjalan",
+   "en": "walking",
+   "ms": "berjalan",
+   "stems": [
+    {
+     "s": "مَشْيِكَ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "mashsha-1",
+   "lemma": "مَشَّآء",
+   "pos": "noun",
+   "dt": "sifa_mushabbaha",
+   "root": "م ش ي",
+   "en": "one who goes about (slandering)",
+   "ms": "pengadu domba",
+   "stems": [
+    {
+     "s": "مَّشَّآءٍۭ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mushtarik-1",
+   "lemma": "مُشْتَرِك",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ش ر ك",
+   "en": "sharing together",
+   "ms": "turut serta",
+   "noun": [
+    {
+     "b": "مُشْتَرِك",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mashid-1",
+   "lemma": "مَشِيد",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ش ي د",
+   "root_en": "to build high",
+   "root_ms": "membina tinggi",
+   "en": "lofty; raised high",
+   "ms": "menjulang",
+   "stems": [
+    {
+     "s": "مَّشِيدٍ",
+     "ending": "indef"
+    },
+    {
+     "s": "مُّشَيَّدَةٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mashkur-1",
+   "lemma": "مَشْكُور",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ش ك ر",
+   "en": "appreciated; thanked",
+   "ms": "dihargai",
+   "stems": [
+    {
+     "s": "مَّشْكُورًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "musaddiq-1",
+   "more": true,
+   "noun": [
+    {
+     "b": "مُصَّدِّق",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    },
+    {
+     "b": "مُصَّدِّق",
+     "t": "sf",
+     "n": "jama",
+     "g": "muannath",
+     "pl": "jama_muannath_salim"
+    }
+   ]
+  },
+  {
+   "lemma_id": "musrikh-1",
+   "lemma": "مُصْرِخ",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ص ر خ",
+   "root_en": "to cry out",
+   "root_ms": "menjerit",
+   "en": "one who helps (answering a cry)",
+   "ms": "penolong",
+   "stems": [
+    {
+     "s": "بِمُصْرِخِكُمْ",
+     "bare": true
+    },
+    {
+     "s": "بِمُصْرِخِىَّ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "masruf-1",
+   "lemma": "مَصْرُوف",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ص ر ف",
+   "en": "averted",
+   "ms": "yang dipalingkan",
+   "stems": [
+    {
+     "s": "مَصْرُوفًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "masrif-1",
+   "lemma": "مَصْرِف",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ص ر ف",
+   "en": "an escape; a place to turn to",
+   "ms": "tempat berpaling",
+   "stems": [
+    {
+     "s": "مَصْرِفًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "musaytir-1",
+   "lemma": "مُصَيْطِر",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "س ط ر",
+   "en": "one in authority",
+   "ms": "yang berkuasa",
+   "stems": [
+    {
+     "s": "بِمُصَيْطِرٍ",
+     "bare": true
+    },
+    {
+     "s": "ٱلْمُصَۣيْطِرُونَ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "masfuf-1",
+   "lemma": "مَصْفُوف",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ص ف ف",
+   "en": "ranged in rows",
+   "ms": "tersusun",
+   "stems": [
+    {
+     "s": "مَصْفُوفَةٌ",
+     "ending": "indef"
+    },
+    {
+     "s": "مَّصْفُوفَةٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mudaafa-1",
+   "lemma": "مُضَاعَف",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ض ع ف",
+   "en": "doubled",
+   "ms": "berganda",
+   "stems": [
+    {
+     "s": "مُّضَٰعَفَةً",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mudif-1",
+   "lemma": "مُضْعِف",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ض ع ف",
+   "en": "one who receives double",
+   "ms": "yang digandakan",
+   "stems": [
+    {
+     "s": "ٱلْمُضْعِفُونَ"
+    }
+   ]
+  },
+  {
+   "lemma_id": "matwiyya-1",
+   "lemma": "مَطْوِىّ",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ط و ي",
+   "root_en": "to fold",
+   "root_ms": "melipat",
+   "en": "rolled up",
+   "ms": "digulung",
+   "stems": [
+    {
+     "s": "مَطْوِيَّٰتٌۢ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mawatin-1",
+   "lemma": "مَوْطِن",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "و ط ن",
+   "root_en": "a station",
+   "root_ms": "tempat",
+   "en": "a battlefield; a place",
+   "ms": "medan; tempat",
+   "bp": [
+    "مَوَاطِن"
+   ]
+  },
+  {
+   "lemma_id": "mutaa-1",
+   "lemma": "مُطَاع",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ط و ع",
+   "en": "obeyed",
+   "ms": "yang ditaati",
+   "stems": [
+    {
+     "s": "مُّطَاعٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "muttawwi-1",
+   "lemma": "مُطَّوِّع",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ط و ع",
+   "en": "volunteer",
+   "ms": "orang yang sukarela",
+   "stems": [
+    {
+     "s": "ٱلْمُطَّوِّعِينَ"
+    }
+   ]
+  },
+  {
+   "lemma_id": "maadh-1",
+   "lemma": "مَعَاذ",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ع و ذ",
+   "en": "refuge",
+   "ms": "perlindungan",
+   "stems": [
+    {
+     "s": "مَعَاذَ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "maarij-1",
+   "lemma": "مَعَارِج",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ع ر ج",
+   "en": "ways of ascent",
+   "ms": "tangga-tangga",
+   "stems": [
+    {
+     "s": "مَعَارِجَ",
+     "ending": "indef"
+    },
+    {
+     "s": "ٱلْمَعَارِجِ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "maruh-1",
+   "lemma": "مَعْرُوش",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ع ر ش",
+   "en": "trellised",
+   "ms": "yang merambat",
+   "stems": [
+    {
+     "s": "مَعْرُوشَٰتٍ",
+     "ending": "indef"
+    },
+    {
+     "s": "مَّعْرُوشَٰتٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mazul-1",
+   "lemma": "مَعْزُول",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ع ز ل",
+   "en": "removed; debarred",
+   "ms": "yang dijauhkan",
+   "noun": [
+    {
+     "b": "مَعْزُول",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mazil-1",
+   "lemma": "مَعْزِل",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ع ز ل",
+   "en": "a place apart",
+   "ms": "tempat terasing",
+   "stems": [
+    {
+     "s": "مَعْزِلٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "masiya-1",
+   "lemma": "مَعْصِيَة",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ع ص ي",
+   "en": "disobedience",
+   "ms": "kemaksiatan",
+   "stems": [
+    {
+     "s": "مَعْصِيَتِ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "muaqqib-1",
+   "lemma": "مُعَقِّب",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ع ق ب",
+   "en": "one who follows after",
+   "ms": "yang mengikuti",
+   "stems": [
+    {
+     "s": "مُعَقِّبَ",
+     "bound": true
+    },
+    {
+     "s": "مُعَقِّبَٰتٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "muammar-1",
+   "lemma": "مُعَمَّر",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ع م ر",
+   "en": "one granted long life",
+   "ms": "yang dipanjangkan umur",
+   "stems": [
+    {
+     "s": "مُّعَمَّرٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mamur-1",
+   "lemma": "مَعْمُور",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ع م ر",
+   "en": "frequented; inhabited",
+   "ms": "yang dimakmurkan",
+   "stems": [
+    {
+     "s": "ٱلْمَعْمُورِ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "maghlula-1",
+   "lemma": "مَغْلُول",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "غ ل ل",
+   "en": "shackled",
+   "ms": "terbelenggu",
+   "stems": [
+    {
+     "s": "مَغْلُولَةً",
+     "ending": "indef"
+    },
+    {
+     "s": "مَغْلُولَةٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mughn-1",
+   "lemma": "مُغْنٍ",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "غ ن ي",
+   "en": "one who avails",
+   "ms": "yang mencukupi",
+   "noun": [
+    {
+     "b": "مُغْن",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ]
+  },
+  {
+   "lemma_id": "muwaffa-1",
+   "lemma": "مُوَفٍّ",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "و ف ي",
+   "en": "one who fulfils",
+   "ms": "yang menunaikan",
+   "stems": [
+    {
+     "s": "مُوَفُّو",
+     "bound": true
+    },
+    {
+     "s": "ٱلْمُوفُو",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "mawfur-1",
+   "lemma": "مَوْفُور",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "و ف ر",
+   "root_en": "to be ample",
+   "root_ms": "mencukupi",
+   "en": "ample",
+   "ms": "cukup",
+   "stems": [
+    {
+     "s": "مَّوْفُورًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mafarr-1",
+   "lemma": "مَفَرّ",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ف ر ر",
+   "en": "a place of escape",
+   "ms": "tempat lari",
+   "stems": [
+    {
+     "s": "ٱلْمَفَرُّ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "mafrud-1",
+   "lemma": "مَفْرُوض",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ف ر ض",
+   "en": "obligatory; ordained",
+   "ms": "yang diwajibkan",
+   "stems": [
+    {
+     "s": "مَّفْرُوضًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mafaza-1",
+   "lemma": "مَفَازَة",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ف و ز",
+   "en": "a place of success",
+   "ms": "tempat kejayaan",
+   "stems": [
+    {
+     "s": "بِمَفَازَةٍ",
+     "bare": true
+    },
+    {
+     "s": "مَفَازًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mufassal-1",
+   "lemma": "مُفَصَّل",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ف ص ل",
+   "en": "explained in detail",
+   "ms": "diperincikan",
+   "stems": [
+    {
+     "s": "مُفَصَّلًا",
+     "ending": "indef"
+    },
+    {
+     "s": "مُّفَصَّلَٰتٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "muqwi-1",
+   "lemma": "مُقْوٍ",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ق و ي",
+   "en": "travellers in the desert",
+   "ms": "pengembara padang pasir",
+   "stems": [
+    {
+     "s": "لِّلْمُقْوِينَ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "miqat-1",
+   "more": true,
+   "bp": [
+    "مَوَاقِيت"
+   ]
+  },
+  {
+   "lemma_id": "muqassim-1",
+   "lemma": "مُقَسِّم",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ق س م",
+   "en": "those that distribute",
+   "ms": "yang membahagikan",
+   "sf": [
+    "مُقَسِّم"
+   ]
+  },
+  {
+   "lemma_id": "maqsum-1",
+   "lemma": "مَقْسُوم",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ق س م",
+   "en": "apportioned",
+   "ms": "yang dibahagikan",
+   "stems": [
+    {
+     "s": "مَّقْسُومٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "maqsura-1",
+   "lemma": "مَقْصُورَة",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ق ص ر",
+   "en": "confined",
+   "ms": "terkurung",
+   "stems": [
+    {
+     "s": "مَّقْصُورَٰتٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "muqassir-1",
+   "lemma": "مُقَصِّر",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ق ص ر",
+   "en": "one who cuts short (the hair)",
+   "ms": "yang menggunting",
+   "noun": [
+    {
+     "b": "مُقَصِّر",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ]
+  },
+  {
+   "lemma_id": "maqdi-1",
+   "lemma": "مَقْضِىّ",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ق ض ي",
+   "en": "decreed",
+   "ms": "ditetapkan",
+   "stems": [
+    {
+     "s": "مَّقْضِيًّا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "maqtu-1",
+   "lemma": "مَقْطُوع",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ق ط ع",
+   "en": "cut off",
+   "ms": "terputus",
+   "stems": [
+    {
+     "s": "مَقْطُوعٌ",
+     "ending": "indef"
+    },
+    {
+     "s": "مَقْطُوعَةٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mawqi-1",
+   "lemma": "مَوْقِع",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "و ق ع",
+   "en": "a setting; a place of falling",
+   "ms": "tempat jatuh",
+   "stems": [
+    {
+     "s": "مَوَٰقِعِ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "muwaqi-1",
+   "lemma": "مُوَاقِع",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "و ق ع",
+   "en": "one about to fall into",
+   "ms": "yang akan terjerumus",
+   "stems": [
+    {
+     "s": "مُّوَاقِعُو",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "maqalid-1",
+   "lemma": "مَقَالِيد",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ق ل د",
+   "en": "keys; treasuries",
+   "ms": "kunci-kunci",
+   "stems": [
+    {
+     "s": "مَقَالِيدُ",
+     "ending": "def"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mukarram-1",
+   "lemma": "مُكَرَّم",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ك ر م",
+   "en": "honoured",
+   "ms": "dimuliakan",
+   "stems": [
+    {
+     "s": "مُّكَرَّمَةٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mukrim-1",
+   "lemma": "مُكْرِم",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ك ر م",
+   "en": "one who honours",
+   "ms": "yang memuliakan",
+   "stems": [
+    {
+     "s": "مُّكْرِمٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "samk-1",
+   "lemma": "سَمْك",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "س م ك",
+   "root_en": "to raise high",
+   "root_ms": "meninggikan",
+   "en": "height",
+   "ms": "ketinggian",
+   "stems": [
+    {
+     "s": "سَمْكَهَا",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "makka-1",
+   "lemma": "مَكَّة",
+   "pos": "noun",
+   "dt": "jamid",
+   "en": "Makkah",
+   "ms": "Makkah",
+   "stems": [
+    {
+     "s": "مَكَّةَ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "mulia-1",
+   "lemma": "مُلِئَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "م ل ء",
+   "en": "to be filled",
+   "ms": "dipenuhi",
+   "f": {
+    "pmaadi": {
+     "3fs": [
+      "مُلِئَتْ"
+     ],
+     "2ms": [
+      "لَمُلِئْتَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "multahad-1",
+   "lemma": "مُلْتَحَد",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ل ح د",
+   "en": "a refuge",
+   "ms": "tempat berlindung",
+   "stems": [
+    {
+     "s": "مُلْتَحَدًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "milh-1",
+   "lemma": "مِلْح",
+   "pos": "noun",
+   "dt": "sifa_mushabbaha",
+   "root": "م ل ح",
+   "root_en": "salt",
+   "root_ms": "garam",
+   "en": "salty",
+   "ms": "masin",
+   "stems": [
+    {
+     "s": "مِلْحٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "malun-1",
+   "lemma": "مَلْعُون",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ل ع ن",
+   "en": "accursed",
+   "ms": "dilaknat",
+   "noun": [
+    {
+     "b": "مَلْعُون",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ],
+   "stems": [
+    {
+     "s": "ٱلْمَلْعُونَةَ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "malak-1",
+   "more": true,
+   "stems": [
+    {
+     "s": "مَلَكَيْنِ",
+     "ending": "def"
+    },
+    {
+     "s": "ٱلْمَلَكَيْنِ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "mulim-1",
+   "lemma": "مُلِيم",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ل و م",
+   "en": "blameworthy",
+   "ms": "tercela",
+   "stems": [
+    {
+     "s": "مُلِيمٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mumazzaq-1",
+   "lemma": "مُمَزَّق",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "م ز ق",
+   "root_en": "to tear apart",
+   "root_ms": "mencarik",
+   "en": "torn to pieces",
+   "ms": "dicarik-carik",
+   "stems": [
+    {
+     "s": "مُمَزَّقٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "manthur-1",
+   "lemma": "مَنثُور",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ن ث ر",
+   "root_en": "to scatter",
+   "root_ms": "menaburkan",
+   "en": "scattered",
+   "ms": "bertaburan",
+   "stems": [
+    {
+     "s": "مَّنثُورًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "munajji-1",
+   "lemma": "مُنَجٍّ",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ن ج و",
+   "en": "one who saves",
+   "ms": "yang menyelamatkan",
+   "stems": [
+    {
+     "s": "مُنَجُّو",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "munadi-1",
+   "lemma": "مُنَادٍ",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ن د ي",
+   "en": "one who calls",
+   "ms": "penyeru",
+   "stems": [
+    {
+     "s": "مُنَادِيًا",
+     "ending": "indef"
+    },
+    {
+     "s": "مُنَادِ",
+     "ending": "def"
+    }
+   ]
+  },
+  {
+   "lemma_id": "minsa-1",
+   "lemma": "مِنسَأَة",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ن س ء",
+   "root_en": "to drive away",
+   "root_ms": "menghalau",
+   "en": "a staff",
+   "ms": "tongkat",
+   "stems": [
+    {
+     "s": "مِنسَأَتَ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "mansiyy-1",
+   "lemma": "مَنْسِىّ",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ن س ي",
+   "en": "something forgotten",
+   "ms": "yang dilupakan",
+   "stems": [
+    {
+     "s": "مَّنسِيًّا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "munsha-1",
+   "lemma": "مُنشَأ",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ن ش ء",
+   "en": "raised aloft (ships)",
+   "ms": "yang ditinggikan",
+   "stems": [
+    {
+     "s": "ٱلْمُنشَـَٔاتُ"
+    }
+   ]
+  },
+  {
+   "lemma_id": "munshi-1",
+   "lemma": "مُنشِئ",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ن ش ء",
+   "en": "one who produces",
+   "ms": "yang menumbuhkan",
+   "stems": [
+    {
+     "s": "ٱلْمُنشِـُٔونَ"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mansur-1",
+   "lemma": "مَنصُور",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ن ص ر",
+   "en": "helped; made victorious",
+   "ms": "ditolong",
+   "stems": [
+    {
+     "s": "مَنصُورًا",
+     "ending": "indef"
+    },
+    {
+     "s": "ٱلْمَنصُورُونَ"
+    }
+   ]
+  },
+  {
+   "lemma_id": "mandud-1",
+   "lemma": "مَنضُود",
+   "pos": "noun",
+   "dt": "ism_mafool",
+   "root": "ن ض د",
+   "root_en": "to pile up",
+   "root_ms": "menyusun",
+   "en": "piled up",
+   "ms": "bersusun",
+   "stems": [
+    {
+     "s": "مَّنضُودٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "naim-3",
+   "lemma": "نَائِم",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ن و م",
+   "en": "sleeping",
+   "ms": "tidur",
+   "noun": [
+    {
+     "b": "نَآئِم",
+     "t": "sm",
+     "n": "jama",
+     "pl": "jama_mudhakkar_salim"
+    }
+   ]
+  },
+  {
+   "lemma_id": "bawwaa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "1p": [
+      "نُبَوِّئَنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "yanbu-1",
+   "lemma": "يَنْبُوع",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ن ب ع",
+   "root_en": "to gush",
+   "root_ms": "memancar",
+   "en": "a spring",
+   "ms": "mata air",
+   "stems": [
+    {
+     "s": "يَنۢبُوعًا",
+     "ending": "indef"
+    }
+   ],
+   "bp": [
+    "يَنَٰبِيع"
+   ]
+  },
+  {
+   "lemma_id": "inbaatha-1",
+   "lemma": "ٱنۢبَعَثَ",
+   "pos": "verb",
+   "vf": "VII",
+   "root": "ب ع ث",
+   "en": "to rise (with energy)",
+   "ms": "bangkit",
+   "f": {
+    "maadi": {
+     "3ms": [
+      "ٱنۢبَعَثَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "inbiath-1",
+   "lemma": "ٱنۢبِعَاث",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ب ع ث",
+   "en": "rising up",
+   "ms": "kebangkitan",
+   "stems": [
+    {
+     "s": "ٱنۢبِعَاثَ",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "balaa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "1p": [
+      "لَنَبْلُوَنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "anba-2",
+   "lemma": "أَنۢبَأَ",
+   "pos": "verb",
+   "vf": "IV",
+   "root": "ن ب ء",
+   "en": "to inform",
+   "ms": "memberitahu",
+   "f": {
+    "amr": {
+     "2mp": [
+      "أَنۢبِـُٔونِى"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "nabbaa-2",
+   "lemma": "نَبَّأَ",
+   "pos": "verb",
+   "vf": "II",
+   "root": "ن ب ء",
+   "en": "to inform",
+   "ms": "memberitahu",
+   "f": {
+    "amr": {
+     "2mp": [
+      "نَبِّـُٔونِى"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "bayyina-1",
+   "more": true,
+   "sf": [
+    "بَيِّن"
+   ]
+  },
+  {
+   "lemma_id": "intabadha-1",
+   "lemma": "ٱنتَبَذَ",
+   "pos": "verb",
+   "vf": "VIII",
+   "root": "ن ب ذ",
+   "en": "to withdraw",
+   "ms": "mengasingkan diri",
+   "f": {
+    "maadi": {
+     "3fs": [
+      "ٱنتَبَذَتْ",
+      "فَٱنتَبَذَتْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "intashara-1",
+   "lemma": "ٱنتَشَرَ",
+   "pos": "verb",
+   "vf": "VIII",
+   "root": "ن ش ر",
+   "en": "to disperse",
+   "ms": "bertebaran",
+   "f": {
+    "amr": {
+     "2mp": [
+      "فَٱنتَشِرُوا۟",
+      "ٱنتَشِرُوا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "thabbata-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "1p": [
+      "نُثَبِّتَ",
+      "نُثَبِّتُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "nahs-1",
+   "lemma": "نَحْس",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ن ح س",
+   "en": "ill-omened",
+   "ms": "malang",
+   "stems": [
+    {
+     "s": "نَّحِسَاتٍ",
+     "ending": "indef"
+    },
+    {
+     "s": "نَحْسٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "nihla-1",
+   "lemma": "نِحْلَة",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ن ح ل",
+   "root_en": "to give freely",
+   "root_ms": "memberi dengan ikhlas",
+   "en": "a free gift",
+   "ms": "pemberian",
+   "stems": [
+    {
+     "s": "نِحْلَةً",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "nahl-1",
+   "lemma": "نَحْل",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ن ح ل",
+   "en": "the bee",
+   "ms": "lebah",
+   "stems": [
+    {
+     "s": "ٱلنَّحْلِ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "nakhla-1",
+   "lemma": "نَخْلَة",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ن خ ل",
+   "root_en": "a palm",
+   "root_ms": "pokok kurma",
+   "en": "a palm tree",
+   "ms": "pokok kurma",
+   "stems": [
+    {
+     "s": "ٱلنَّخْلَةِ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "daraa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "1p": [
+      "نَدْرِى"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "dalla-2",
+   "more": true,
+   "f": {
+    "mudari": {
+     "1p": [
+      "نَدُلُّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "dawala-1",
+   "lemma": "دَاوَلَ",
+   "pos": "verb",
+   "vf": "III",
+   "root": "د و ل",
+   "en": "to cause to alternate",
+   "ms": "menggilirkan",
+   "f": {
+    "mudari": {
+     "1p": [
+      "نُدَاوِلُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "nadama-1",
+   "lemma": "نَدَامَة",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ن د م",
+   "root_en": "to regret",
+   "root_ms": "menyesal",
+   "en": "regret",
+   "ms": "penyesalan",
+   "stems": [
+    {
+     "s": "ٱلنَّدَامَةَ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "adhaqa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "1p": [
+      "لَنُذِيقَنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "dhahaba-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "1p": [
+      "لَنَذْهَبَنَّ",
+      "نَذْهَبَنَّ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "nazzaa-1",
+   "lemma": "نَزَّاعَة",
+   "pos": "noun",
+   "dt": "sifa_mushabbaha",
+   "root": "ن ز ع",
+   "en": "a snatcher (of the scalp)",
+   "ms": "penarik kulit",
+   "stems": [
+    {
+     "s": "نَزَّاعَةً",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "nazia-1",
+   "lemma": "نَازِعَة",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ن ز ع",
+   "en": "those that pull out",
+   "ms": "yang mencabut",
+   "sf": [
+    "نَٰزِع"
+   ]
+  },
+  {
+   "lemma_id": "nazafa-1",
+   "lemma": "نَزَفَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ن ز ف",
+   "root_en": "to be exhausted",
+   "root_ms": "habis",
+   "en": "to be intoxicated or drained",
+   "ms": "mabuk; habis",
+   "f": {
+    "pmudari": {
+     "3mp": [
+      "يُنزَفُونَ"
+     ]
+    },
+    "mudari": {
+     "3mp": [
+      "يُنزِفُونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "nazla-1",
+   "lemma": "نَزْلَة",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ن ز ل",
+   "en": "a descent",
+   "ms": "turunan",
+   "stems": [
+    {
+     "s": "نَزْلَةً",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "anzala-1",
+   "more": true,
+   "f": {
+    "pmaadi": {
+     "3fs": [
+      "أُنزِلَتِ",
+      "أُنزِلَتْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "istadraja-1",
+   "lemma": "ٱسْتَدْرَجَ",
+   "pos": "verb",
+   "vf": "X",
+   "root": "د ر ج",
+   "root_en": "to lead on step by step",
+   "root_ms": "menarik berperingkat",
+   "en": "to lead on step by step",
+   "ms": "menarik berperingkat-peringkat",
+   "f": {
+    "mudari": {
+     "1p": [
+      "سَنَسْتَدْرِجُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "nasik-1",
+   "lemma": "نَاسِك",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ن س ك",
+   "en": "one who performs a rite",
+   "ms": "pelaksana ibadah",
+   "stems": [
+    {
+     "s": "نَاسِكُو",
+     "bound": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "nashaa-2",
+   "lemma": "نَشَأَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ن ش ء",
+   "en": "to grow up; to arise",
+   "ms": "membesar",
+   "f": {
+    "mudari": {
+     "1p": [
+      "نَشَٰٓؤُا۟"
+     ]
+    },
+    "pmudari": {
+     "3ms": [
+      "يُنَشَّؤُا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "nasht-1",
+   "lemma": "نَشْط",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ن ش ط",
+   "root_en": "to draw out gently",
+   "root_ms": "mencabut dengan lembut",
+   "en": "gently",
+   "ms": "dengan lembut",
+   "stems": [
+    {
+     "s": "نَشْطًا",
+     "ending": "indef"
+    }
+   ],
+   "sf": [
+    "نَٰشِط"
+   ]
+  },
+  {
+   "lemma_id": "nasara-3",
+   "lemma": "نَصْرَانِىّ",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ن ص ر",
+   "en": "a Christian",
+   "ms": "seorang Nasrani",
+   "stems": [
+    {
+     "s": "نَصْرَانِيًّا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "asla-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "1p": [
+      "نُصْلِى"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "antaqa-1",
+   "lemma": "أَنطَقَ",
+   "pos": "verb",
+   "vf": "IV",
+   "root": "ن ط ق",
+   "en": "to cause to speak",
+   "ms": "menjadikan boleh bercakap",
+   "f": {
+    "maadi": {
+     "3ms": [
+      "أَنطَقَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "intalaqa-1",
+   "more": true,
+   "f": {
+    "amr": {
+     "2mp": [
+      "ٱنطَلِقُوٓا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "nuas-1",
+   "lemma": "نُعَاس",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ن ع س",
+   "root_en": "to doze",
+   "root_ms": "mengantuk",
+   "en": "drowsiness",
+   "ms": "mengantuk",
+   "n": [
+    "نُعَاس"
+   ]
+  },
+  {
+   "lemma_id": "ammara-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "1p": [
+      "نُعَمِّرْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "nafs-1",
+   "more": true,
+   "bp": [
+    "نُفُوس"
+   ]
+  },
+  {
+   "lemma_id": "qassa-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "1p": [
+      "نَقْصُصْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "naqama-1",
+   "more": true,
+   "f": {
+    "maadi": {
+     "3mp": [
+      "نَقَمُوا۟",
+      "نَقَمُوٓا۟"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "hayta-1",
+   "lemma": "هَيْتَ",
+   "pos": "particle",
+   "fn": [],
+   "en": "come on",
+   "ms": "marilah",
+   "rs": "null_policy",
+   "stems": [
+    "هَيْتَ"
+   ]
+  },
+  {
+   "lemma_id": "hatan-1",
+   "lemma": "هَٰتَانِ",
+   "pos": "particle",
+   "fn": [],
+   "en": "these two (f.)",
+   "ms": "kedua-dua ini",
+   "rs": "null_policy",
+   "stems": [
+    "هَٰتَيْنِ",
+    "هَٰتَانِ"
+   ]
+  },
+  {
+   "lemma_id": "ihtazza-1",
+   "more": true,
+   "f": {
+    "maadi": {
+     "3fs": [
+      "ٱهْتَزَّتْ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "harin-1",
+   "lemma": "هَارٍ",
+   "pos": "noun",
+   "dt": "ism_fail",
+   "root": "ه و ر",
+   "root_en": "to collapse",
+   "root_ms": "runtuh",
+   "en": "crumbling",
+   "ms": "yang runtuh",
+   "stems": [
+    {
+     "s": "هَارٍ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "harut-1",
+   "lemma": "هَارُوت",
+   "pos": "noun",
+   "dt": "jamid",
+   "en": "Harut",
+   "ms": "Harut",
+   "noun": [
+    {
+     "b": "هَٰرُوت",
+     "t": "dip"
+    }
+   ]
+  },
+  {
+   "lemma_id": "hurria-1",
+   "lemma": "أُهْرِعَ",
+   "pos": "verb",
+   "vf": "IV",
+   "root": "ه ر ع",
+   "root_en": "to hasten",
+   "root_ms": "bergegas",
+   "en": "to rush in haste",
+   "ms": "bergegas",
+   "f": {
+    "pmudari": {
+     "3mp": [
+      "يُهْرَعُونَ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "hazama-1",
+   "lemma": "هَزَمَ",
+   "pos": "verb",
+   "vf": "I",
+   "root": "ه ز م",
+   "root_en": "to rout",
+   "root_ms": "menewaskan",
+   "en": "to defeat",
+   "ms": "mengalahkan",
+   "f": {
+    "maadi": {
+     "3mp": [
+      "هَزَمُوهُم"
+     ]
+    },
+    "pmudari": {
+     "3ms": [
+      "يُهْزَمُ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "hashim-1",
+   "lemma": "هَشِيم",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ه ش م",
+   "root_en": "to crush",
+   "root_ms": "menghancurkan",
+   "en": "dry crushed stubble",
+   "ms": "jerami yang hancur",
+   "stems": [
+    {
+     "s": "هَشِيمًا",
+     "ending": "indef"
+    },
+    {
+     "s": "كَهَشِيمِ",
+     "bare": true
+    }
+   ]
+  },
+  {
+   "lemma_id": "hadim-1",
+   "lemma": "هَضِيم",
+   "pos": "noun",
+   "dt": "sifa_mushabbaha",
+   "root": "ه ض م",
+   "root_en": "to be delicate",
+   "root_ms": "lembut",
+   "en": "delicate; soft",
+   "ms": "lembut",
+   "stems": [
+    {
+     "s": "هَضِيمٌ",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "hadm-1",
+   "lemma": "هَضْم",
+   "pos": "noun",
+   "dt": "masdar",
+   "root": "ه ض م",
+   "en": "curtailment of right",
+   "ms": "pengurangan hak",
+   "stems": [
+    {
+     "s": "هَضْمًا",
+     "ending": "indef"
+    }
+   ]
+  },
+  {
+   "lemma_id": "halumma-1",
+   "lemma": "هَلُمَّ",
+   "pos": "particle",
+   "fn": [],
+   "en": "come here",
+   "ms": "marilah ke sini",
+   "rs": "null_policy",
+   "stems": [
+    "هَلُمَّ"
+   ]
+  }
+ ]
+}

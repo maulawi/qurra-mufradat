@@ -167,8 +167,8 @@ ok("a three-letter doubled root keeps its class (ز ل ل is mudaaf)", rootModel
 /* ---- the audit file exists and flags the known cases without assigning anything ---- */
 {
   const a = JSON.parse(fs.readFileSync(path.join(ROOT, "data/qurra/review/quadriliteral-audit.json"), "utf8"));
-  const ids = a.B_lemmas_with_four_letter_root_candidates.map(x => x.lemma_id).sort().join(",");
-  ok("the audit flags exactly the five lemmas that have four-letter root candidates", ids === "damdama-1,waswas-1,waswasa-1,zalzala-1,zilzal-1", ids);
+  const ids = a.B_lemmas_with_four_letter_root_candidates.map(x => x.lemma_id);
+  ok("the audit still flags the five original lemmas that have four-letter root candidates", ["damdama-1", "waswas-1", "waswasa-1", "zalzala-1", "zilzal-1"].every(i => ids.includes(i)), ids.join(","));
   ok("the audit records that no root is assigned", a.B_lemmas_with_four_letter_root_candidates.every(x => x.root_id === null));
 }
 

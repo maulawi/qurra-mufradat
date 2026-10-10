@@ -23,38 +23,39 @@ Ayahs left without text because the source's alignment is unresolved:
 
 | Measure | Tokens | Of all tokens |
 |---|---:|---:|
-| Tokens with a form (word/segment breakdown) | 61,285 | 79.14% |
-| &nbsp;&nbsp;of which segmented into more than one part (prefix / pronoun / fused) | 27,607 | 35.65% |
-| Tokens with a lemma | 61,285 | 79.14% |
-| Tokens with a part of speech | 61,285 | 79.14% |
-| Tokens with morphology shown | 61,285 | 79.14% |
-| Tokens with an English word meaning | 61,285 | 79.14% |
-| Tokens with a Malay word meaning | 61,285 | 79.14% |
-| Tokens with a root shown (provisional) | 26,933 | 34.78% |
-| Tokens where no root applies (closed-class words, by policy) | 26,109 | 33.71% |
-| **Complete analysis** (form, lemma, POS, EN + BM meaning, morphology, and a root or "no root applies") | 53,042 | 68.49% |
-| Tokens with no analysis | 16,156 | 20.86% |
+| Tokens with a form (word/segment breakdown) | 77,441 | 100.00% |
+| &nbsp;&nbsp;of which segmented into more than one part (prefix / pronoun / fused) | 34,399 | 44.42% |
+| Tokens with a lemma | 75,942 | 98.06% |
+| Tokens with a part of speech | 75,942 | 98.06% |
+| Tokens with morphology shown | 75,942 | 98.06% |
+| Tokens with an English word meaning | 75,942 | 98.06% |
+| Tokens with a Malay word meaning | 75,942 | 98.06% |
+| Tokens with a root shown (provisional) | 40,667 | 52.51% |
+| Tokens where no root applies (closed-class words, by policy) | 26,457 | 34.16% |
+| **Complete analysis** (form, lemma, POS, EN + BM meaning, morphology, and a root or "no root applies") | 67,124 | 86.68% |
+| Tokens with no analysis | 0 | 0.00% |
 
 | Where the analysis comes from | Tokens |
 |---|---:|
 | Pilot (analysed for that very token) | 91 |
-| Default reading of the token's exact spelling (rule-based) | 61,194 |
+| Default reading of the token's exact spelling (rule-based) | 77,350 |
 | Source-derived (external dataset) | 0 |
 
 | Status | Tokens |
 |---|---:|
-| provisional | 61,285 |
+| provisional | 75,942 |
+| unresolved | 1,499 |
 
 | Unique counts | Number |
 |---|---:|
 | Distinct spellings in the Qur'an | 18,994 |
-| Distinct spellings with a rule-based default analysis | 8,173 |
-| Distinct forms used by analysed tokens | 8,255 |
-| Segments in those forms (counted per token) | 92,401 |
-| Lemmas recorded / lemmas with at least one analysed token | 579 / 577 |
-| Roots recorded / roots shown to learners | 285 / 285 |
+| Distinct spellings with a rule-based default analysis | 18,994 |
+| Distinct forms used by analysed tokens | 19,057 |
+| Segments in those forms (counted per token) | 116,703 |
+| Lemmas recorded / lemmas with at least one analysed token | 3,756 / 3,751 |
+| Roots recorded / roots shown to learners | 1,329 / 1,329 |
 
-Root status of the recorded lemmas: unresolved 42, provisional 444, disputed 18, null_policy 75. Roots that are disputed or unresolved are never shown or indexed as roots.
+Root status of the recorded lemmas: unresolved 120, provisional 3524, disputed 18, null_policy 94. Roots that are disputed or unresolved are never shown or indexed as roots.
 
 ### Who made the pilot analyses
 
@@ -70,36 +71,36 @@ Root status of the recorded lemmas: unresolved 42, provisional 444, disputed 18,
 
 | Juz | Tokens | Analysed | Analysed % | Complete % |
 |---:|---:|---:|---:|---:|
-| 1 | 2,522 | 2,114 | 83.82% | 70.94% |
-| 2 | 2,579 | 2,048 | 79.41% | 68.44% |
-| 3 | 2,622 | 2,136 | 81.46% | 68.27% |
-| 4 | 2,506 | 1,982 | 79.09% | 67.48% |
-| 5 | 2,579 | 2,103 | 81.54% | 68.75% |
-| 6 | 2,503 | 2,039 | 81.46% | 68.72% |
-| 7 | 2,774 | 2,269 | 81.80% | 69.97% |
-| 8 | 2,566 | 2,056 | 80.12% | 68.67% |
-| 9 | 2,487 | 1,989 | 79.98% | 67.99% |
-| 10 | 2,389 | 1,892 | 79.20% | 67.22% |
-| 11 | 2,657 | 2,215 | 83.36% | 72.49% |
-| 12 | 2,693 | 2,083 | 77.35% | 66.02% |
-| 13 | 2,614 | 2,079 | 79.53% | 68.06% |
-| 14 | 2,499 | 1,985 | 79.43% | 70.03% |
-| 15 | 2,684 | 2,003 | 74.63% | 65.05% |
-| 16 | 2,747 | 2,053 | 74.74% | 64.43% |
-| 17 | 2,443 | 1,936 | 79.25% | 68.97% |
-| 18 | 2,641 | 2,091 | 79.17% | 69.59% |
-| 19 | 2,611 | 2,062 | 78.97% | 67.33% |
-| 20 | 2,554 | 2,072 | 81.13% | 68.68% |
-| 21 | 2,582 | 2,132 | 82.57% | 71.92% |
-| 22 | 2,638 | 2,085 | 79.04% | 69.33% |
-| 23 | 2,628 | 2,032 | 77.32% | 68.38% |
-| 24 | 2,520 | 2,090 | 82.94% | 71.19% |
-| 25 | 2,668 | 2,209 | 82.80% | 74.89% |
-| 26 | 2,612 | 2,072 | 79.33% | 69.37% |
-| 27 | 2,528 | 1,867 | 73.85% | 67.25% |
-| 28 | 2,618 | 2,137 | 81.63% | 69.25% |
-| 29 | 2,661 | 1,877 | 70.54% | 63.70% |
-| 30 | 2,316 | 1,577 | 68.09% | 61.96% |
+| 1 | 2,522 | 2,522 | 100.00% | 84.85% |
+| 2 | 2,579 | 2,579 | 100.00% | 86.51% |
+| 3 | 2,622 | 2,622 | 100.00% | 83.98% |
+| 4 | 2,506 | 2,506 | 100.00% | 86.11% |
+| 5 | 2,579 | 2,579 | 100.00% | 85.42% |
+| 6 | 2,503 | 2,503 | 100.00% | 84.62% |
+| 7 | 2,774 | 2,774 | 100.00% | 86.34% |
+| 8 | 2,566 | 2,566 | 100.00% | 86.55% |
+| 9 | 2,487 | 2,487 | 100.00% | 85.44% |
+| 10 | 2,389 | 2,389 | 100.00% | 85.52% |
+| 11 | 2,657 | 2,657 | 100.00% | 87.35% |
+| 12 | 2,693 | 2,693 | 100.00% | 84.96% |
+| 13 | 2,614 | 2,614 | 100.00% | 86.07% |
+| 14 | 2,499 | 2,499 | 100.00% | 88.04% |
+| 15 | 2,684 | 2,684 | 100.00% | 86.92% |
+| 16 | 2,747 | 2,747 | 100.00% | 85.66% |
+| 17 | 2,443 | 2,443 | 100.00% | 86.41% |
+| 18 | 2,641 | 2,641 | 100.00% | 88.34% |
+| 19 | 2,611 | 2,611 | 100.00% | 85.60% |
+| 20 | 2,554 | 2,554 | 100.00% | 84.89% |
+| 21 | 2,582 | 2,582 | 100.00% | 88.03% |
+| 22 | 2,638 | 2,638 | 100.00% | 87.38% |
+| 23 | 2,628 | 2,628 | 100.00% | 88.13% |
+| 24 | 2,520 | 2,520 | 100.00% | 86.63% |
+| 25 | 2,668 | 2,668 | 100.00% | 90.40% |
+| 26 | 2,612 | 2,612 | 100.00% | 87.21% |
+| 27 | 2,528 | 2,528 | 100.00% | 89.79% |
+| 28 | 2,618 | 2,618 | 100.00% | 85.49% |
+| 29 | 2,661 | 2,661 | 100.00% | 89.14% |
+| 30 | 2,316 | 2,316 | 100.00% | 88.47% |
 
 ## Licensing
 

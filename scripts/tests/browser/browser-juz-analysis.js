@@ -90,12 +90,53 @@ const rec = (name, ok, msg) => { if (ok) passed++; else { failed++; console.log(
   const lr = await page.evaluate(() => document.getElementById("qm-detail-content").innerText);
   rec("A particle shows its kind and a plain note that no root applies", /Particle|Noun|Verb/.test(pw) && /No root is assigned for this kind of word|Root/.test(lr), lr.slice(0, 260).replace(/\n/g, " | "));
 
-  /* ---- a word with no analysis is honest ---- */
+  /* ---- an unresolved word has a record and says so ---- */
   await go("#/home");
-  const UN = await page.evaluate(() => { for (const a of QMData.listAyahsInSurah(2)) for (const x of a.tokens) if (!x.analysed) return x.id; return null; });
+  const UN = await page.evaluate(() => { for (const a of QMData.listAyahsInSurah(2)) for (const x of a.tokens) if (x.resolution === "unresolved") return x.id; return null; });
   await go("#/word/" + UN);
   t = await page.evaluate(() => document.getElementById("qm-detail-content").innerText);
-  rec("An unanalysed word says so and shows no invented fields", /Word analysis not available yet/.test(t) && !/Lemma|Root/.test(t.replace("Source information", "")), t.slice(0, 200).replace(/\n/g, " | "));
+  rec("An unresolved word says 'expert review required' and shows no invented lemma or root", /expert review required/i.test(t) && /Possible lemmas|Analysis unresolved/.test(t) && !/Root/.test(t.replace("Source information", "")) && (await page.$("[data-unresolved]")) !== null, t.slice(0, 260).replace(/\n/g, " | "));
+  /* ---- provisional (root open) and context-dependent words show their real status ---- */
+  for (const [cls, label] of [["provisional", /Provisional: root still open/], ["context_dependent", /Context-dependent/]]) {
+    await go("#/home");
+    const id = await page.evaluate(c => { for (const a of QMData.listAyahsInSurah(2)) for (const x of a.tokens) if (x.resolution === c) return x.id; return null; }, cls);
+    await go("#/word/" + id);
+    t = await page.evaluate(() => document.getElementById("qm-detail-content").innerText);
+    rec("A " + cls + " word shows its own status label", id !== null && label.test(t), t.slice(0, 200).replace(/\s+/g, " "));
+  }
+  await go("#/home");
+  const cards = await page.$$eval(".qm-juz-card .qm-badge", e => e.map(x => x.innerText.trim()));
+  rec("Home: all 30 Juz cards say 'Word analysis · Complete' (no incomplete percentage)", cards.length === 30 && cards.every(c => /Word analysis · Complete/.test(c)), JSON.stringify(cards.slice(0, 3)));
+  await go("#/juz");
+  const cards2 = await page.$$eval("[data-juz-index] .qm-juz-card", e => e.map(x => x.innerText.replace(/\s+/g, " ").trim()));
+  rec("Juz index: 24, 25, 26 and 30 show Complete and 'Provisional analysis included', not 91.7% / 90.7% / 87.6% / 76.9%", [24, 25, 26, 30].every(n => /Complete/.test(cards2[n - 1]) && /Provisional analysis included/.test(cards2[n - 1]) && !/\d%/.test(cards2[n - 1])), JSON.stringify([24, 25, 26, 30].map(n => cards2[n - 1])));
+  await go("#/surah/2");
+  t = await view();
+  rec("A surah page says its word analysis is complete and counts the uncertain words", /word analysis complete/i.test(t) && /unresolved/i.test(t), t.slice(0, 300).replace(/\n/g, " | "));
+
+  /* ---- Juz navigation: index, per-Juz routes, switcher, sidebar, history ---- */
+  await go("#/juz");
+  rec("#/juz lists Juz 1–30", (await page.$$eval("[data-juz-index] a", e => e.map(x => x.getAttribute("href")))).join() === Array.from({ length: 30 }, (_, i) => "#/juz/" + (i + 1)).join());
+  await page.click('[data-juz-index] a[href="#/juz/15"]'); await page.waitForTimeout(200);
+  rec("Clicking Juz 15 on the index opens Juz 15", page.url().endsWith("#/juz/15") && /Juz 15/.test(await view()) && (await page.$$eval("[data-range]", e => e[0].dataset.range)) === "17:1-111");
+  for (const n of [1, 2, 15, 30]) {
+    await go("#/juz/" + n);
+    const first = await page.$$eval("[data-range]", e => e[0].dataset.range);
+    const w = expected.get(n)[0];
+    rec(`#/juz/${n} opens Juz ${n}`, first === `${w.s}:${w.from}-${w.to}` && new RegExp(`Juz ${n}\\b`).test(await view()), first);
+  }
+  await go("#/juz/2");
+  await page.click("[data-juz-next]"); await page.waitForTimeout(200);
+  rec("Next goes from Juz 2 to Juz 3", page.url().endsWith("#/juz/3"));
+  await page.goBack(); await page.waitForTimeout(200);
+  rec("Browser Back returns to Juz 2", page.url().endsWith("#/juz/2") && /Juz 2\b/.test(await view()));
+  await page.click('[data-juz-strip] a[href="#/juz/30"]'); await page.waitForTimeout(200);
+  rec("The Juz strip jumps to Juz 30", page.url().endsWith("#/juz/30"));
+  await page.click('.qm-sidebar a[data-nav="juz"], nav a[data-nav="juz"]'); await page.waitForTimeout(200);
+  rec("The sidebar Juz link opens the index (not Juz 1)", page.url().endsWith("#/juz") && (await page.$$eval("[data-juz-index] a", e => e.length)) === 30);
+  await go("#/juz/15");
+  await page.click('[data-range^="17:"]'); await page.waitForTimeout(300);
+  rec("A surah inside Juz 15 keeps the scoped route", /#\/juz\/15\/surah\/17$/.test(page.url()) && (await page.$$eval(".qm-ayah", e => e[0].dataset.ayah)) === "1");
 
   /* ---- Bahasa Melayu ---- */
   await go("#/juz/1", "ms");

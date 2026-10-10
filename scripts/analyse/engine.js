@@ -57,11 +57,13 @@ const PRO = (k, o) => ({ canon: canon(k), ...o });
 // proclitics, in the only order they can stack: interrogative, conjunction, preposition/particle, article (handled apart)
 const PROCLITICS = [
   { canon: canon("أَ"), stage: 0, fn: "istifham", on: ["noun", "verb", "particle"] },
+  { canon: canon("\u0621\u064E"), stage: 0, fn: "istifham", on: ["noun", "verb", "particle"] },
   { canon: canon("وَ"), stage: 1, fn: "atf", on: ["noun", "verb", "particle"] },
   { canon: canon("فَ"), stage: 1, fn: "atf", on: ["noun", "verb", "particle"] },
   { canon: canon("بِ"), stage: 2, fn: "jarr", on: ["noun"] },
   { canon: canon("لِ"), stage: 2, fn: "jarr", on: ["noun"] },
   { canon: canon("لِ"), stage: 2, fn: null, on: ["verb"], aspect: "mudari" },          // lam of purpose / command before an imperfect verb
+  { canon: canon("ل\u0652"), stage: 2, fn: null, on: ["verb"], aspect: "mudari" },     // the same lam with sukun after wa- / fa- / thumma (fa-li-yatawakkal)
   { canon: canon("كَ"), stage: 2, fn: "jarr", on: ["noun"] },
   { canon: canon("سَ"), stage: 2, fn: null, on: ["verb"], aspect: "mudari" },
   { canon: canon("يَٰ"), stage: 2, fn: "nida", on: ["noun", "particle"] },                 // vocative: ya qawmi, ya musa, ya layta
@@ -72,8 +74,10 @@ const ENCLITICS = [
   ["هُمَا", 3, "muthanna", null], ["هِمَا", 3, "muthanna", null], ["هُمُ", 3, "jama", "mudhakkar"], ["هِمُ", 3, "jama", "mudhakkar"], ["كُمُ", 2, "jama", "mudhakkar"],
   ["هُمْ", 3, "jama", "mudhakkar"], ["هِمْ", 3, "jama", "mudhakkar"], ["هُنَّ", 3, "jama", "muannath"], ["هِنَّ", 3, "jama", "muannath"],
   ["كَ", 2, "mufrad", "mudhakkar"], ["كِ", 2, "mufrad", "muannath"], ["كُمَا", 2, "muthanna", null], ["كُمْ", 2, "jama", "mudhakkar"], ["كُنَّ", 2, "jama", "muannath"],
-  ["نَا", 1, "jama", null], ["نِى", 1, "mufrad", null], ["ىَ", 1, "mufrad", null], ["ىٓ", 1, "mufrad", null], ["ى", 1, "mufrad", null], ["ِى", 1, "mufrad", null], ["يَ", 1, "mufrad", null]
-].map(([k, person, number, gender]) => ({ canon: canon(k), person, number, gender, noverb: person === 1 && number === "mufrad" && !/\u0646/.test(k) }));
+  ["نَا", 1, "jama", null], ["نِىَ", 1, "mufrad", null], ["نِى", 1, "mufrad", null], ["نِ", 1, "mufrad", null], ["ىَ", 1, "mufrad", null], ["ىٓ", 1, "mufrad", null], ["ى", 1, "mufrad", null], ["ِى", 1, "mufrad", null], ["يَ", 1, "mufrad", null]
+].map(([k, person, number, gender]) => ({ canon: canon(k), person, number, gender, noverb: person === 1 && number === "mufrad" && !/\u0646/.test(k),
+  verbOnly: k === "\u0646\u0650",
+  noNoun: k === "\u0646\u0650\u0649" || k === "\u0646\u0650" || k === "\u0646\u0650\u0649\u064E" }));      // the object pronoun -ni with its ya dropped (ittaquni, yahdini): attaches to verbs only
 
 /* ---------------- lexicon -> stem index ---------------- */
 function addStem(index, key, rec) {
@@ -95,7 +99,9 @@ function nounStems(index, e) {
     if (f.pl) morph.plural_type = f.pl;
     if (f.ref) morph.reference_class = f.ref;
     const base = f.b;
-    const R = (key, ending, extra) => addStem(index, key, { lemma_id: e.lemma_id, pos: "noun", morph, ending, bound: !!(extra && extra.bound), noart: !!e.noart });
+    const R0 = (key, ending, extra) => addStem(index, key, { lemma_id: e.lemma_id, pos: "noun", morph, ending, bound: !!(extra && extra.bound), noart: !!e.noart });
+    // the text writes a word-final ya as dotless ى but a medial one as ي (بَغِيًّا / بَغِىّ): a base in ya is generated in both spellings
+    const R = (key, ending, extra) => { R0(key, ending, extra); if (/ي[ً-ْٰ]*$/.test(key)) R0(key.replace(/ي([ً-ْٰ]*)$/, "ى$1"), ending, extra); else if (/ى[ً-ْ]*$/.test(key)) R0(key.replace(/ى([ً-ْ]*)$/, "ي$1"), ending, extra); };
     if (t === "tri") {                                   // triptote: كِتَٰب
       CASE_DEF.forEach(v => R(base + v, "def", { bound: true }));
       CASE_INDEF.forEach(v => R(base + v, "indef"));
@@ -123,7 +129,7 @@ function nounStems(index, e) {
   for (const s of e.stems || []) {
     const o = typeof s === "string" ? { s } : s;
     const morph = { ...(e.def || {}), ...(o.m || {}) };
-    const rec = { lemma_id: e.lemma_id, pos: e.pos, morph, ending: o.ending || "def", bound: !!o.bound, noart: !!(e.noart || o.noart), after: o.after || null, note: o.note || null, art_ok: !!o.art_ok, prep_ok: !!(e.prep_ok || o.prep_ok) };
+    const rec = { lemma_id: e.lemma_id, pos: e.pos, morph, ending: o.ending || "def", bound: !!o.bound, artOnly: !!o.artOnly, bare: !!(e.bare || o.bare), noart: !!(e.noart || o.noart), after: o.after || null, note: o.note || null, art_ok: !!o.art_ok, prep_ok: !!(e.prep_ok || o.prep_ok) };
     addStem(index, o.s, rec);
     if (/^\u0671\u0644/.test(o.s)) addStem(index, o.s.replace(/^\u0671/, ""), { ...rec, after: "\u0644\u0650" });   // li + al-X is written li-lX
   }
@@ -167,9 +173,11 @@ function reprefix(base3, key) {
 function verbStems(index, e) {
   const v = e.verb;
   if (!v) return;
-  const active = (aspect, key, surface, voice) => {
+  const active = (aspect, key, surface, voice, free) => {
     const [person, number, gender] = PERSONS[key];
-    addStem(index, surface, { lemma_id: e.lemma_id, pos: "verb", morph: { aspect, person, number, gender, voice: voice || "active" }, ending: "def", bound: true, noart: true });
+    addStem(index, surface, { lemma_id: e.lemma_id, pos: "verb", morph: { aspect, person, number, gender, voice: voice || "active" }, ending: "def", bound: !free, noart: true });
+    // a dagger alef inside a stem is also written as a full alef (نَٰفَقَ / نَافَقَ): the same word, both spellings occur
+    if (/\u0670/.test(surface) && !/\u0670$/.test(surface)) addStem(index, surface.replace(/\u064E?\u0670/, "\u064E\u0627"), { lemma_id: e.lemma_id, pos: "verb", morph: { aspect, person, number, gender, voice: voice || "active" }, ending: "def", bound: !free, noart: true });
     if (/\u0646\u0652\u0646\u064E$/.test(surface) || /\u0646\u0652\u0646\u064E\u0627$/.test(surface)) addStem(index, surface.replace(/\u0646\u0652\u0646/, "\u0646\u0651"), { lemma_id: e.lemma_id, pos: "verb", morph: { aspect, person, number, gender, voice: voice || "active" }, ending: "def", bound: true, noart: true });
   };
   const gen = (voice, perf, impf) => {
@@ -191,7 +199,7 @@ function verbStems(index, e) {
         if (!base) continue;
         ends.forEach(end => active("mudari", key, base + end, voice));
       }
-      if (impf.short || impf.long) IMPF_JUSSIVE_SHORT.forEach(key => { const b = reprefix(impf.short || impf.long, key); if (b) active("mudari", key, b + "\u0652", voice); });
+      if (impf.short || impf.long) IMPF_JUSSIVE_SHORT.forEach(key => { const b = reprefix(impf.short || impf.long, key); if (b) { active("mudari", key, b + "\u0652", voice); active("mudari", key, b + "\u0650", voice); } });
     }
   };
   gen("active", v.perf, v.impf);
@@ -199,14 +207,14 @@ function verbStems(index, e) {
   if (v.imv) {                                        // imperative: ms (bare), fs, d, mp, fp
     const long = v.imv.long || v.imv.s, short = v.imv.short || v.imv.s;
     const imv = (key, surface) => { const [person, number, gender] = PERSONS[key]; addStem(index, surface, { lemma_id: e.lemma_id, pos: "verb", morph: { aspect: "amr", person, number, gender, voice: "active" }, ending: "def", bound: true, noart: true }); };
-    if (short) imv("2ms", short + "ْ");
+    if (short) { imv("2ms", short + "\u0652"); imv("2ms", short + "\u0650"); }
     if (long) { imv("2ms", long + (v.imv.v === undefined ? "" : v.imv.v)); imv("2fs", long + "ِى"); imv("2d", long + "َا"); imv("2mp", long + "ُوا۟"); }
     if (short) imv("2fp", short + "ْنَ");
   }
   for (const x of v.x || []) {                        // explicit: "surface|aspect|key[|voice]"
-    const [surface, aspect, key, voice] = x.split("|");
+    const [surface, aspect, key, voice, flag] = x.split("|");
     if (!PERSONS[key]) throw new Error(`lexicon ${e.lemma_id}: unknown person key "${key}" in "${x}"`);
-    active(aspect, key, surface, voice);
+    active(aspect, key, surface, voice, flag === "free");
   }
 }
 
@@ -244,32 +252,68 @@ function parseToken(index, lemmaPos, token) {
     for (const k of bsRest) {
       if (k === 0) continue;
       const stemPart = rest.slice(0, k), tail = rest.slice(k);
-      let encl = null, fusedNun = false;
-      if (tail) {
+      /* options for this cut: the plain enclitic, and the reading where the pronoun's nun is written together with the
+         doubled nun that ends a particle (min + na -> minna; min + ni -> minni; 'an + na -> 'anna) */
+      const opts = [];
+      if (!tail) opts.push({ encl: null, fusedNun: false });
+      else {
         const tc = canon(tail).replace(/\u0653$/, "");
-        encl = ENCLITICS.find(f => f.canon === tc);
-        if (!encl && tc === "\u0627" && /\u0646\u0651\u064E$/.test(canon(stemPart))) { encl = ENCLITICS.find(f => f.canon === canon("\u0646\u064E\u0627")); fusedNun = true; }
-        if (!encl) continue;
+        const sc0 = canon(stemPart);
+        const plain = ENCLITICS.find(f => f.canon === tc);
+        if (plain) opts.push({ encl: plain, fusedNun: false });
+        if (tc === "\u0627" && /\u0646\u0651\u064E$/.test(sc0)) opts.push({ encl: ENCLITICS.find(f => f.canon === canon("\u0646\u064E\u0627")), fusedNun: true, particleOnly: true });
+        if (tc === "\u0649" && /\u0646\u0651\u0650$/.test(sc0)) opts.push({ encl: ENCLITICS.find(f => f.canon === canon("\u0646\u0650\u0649")), fusedNun: true, particleOnly: true });
       }
+      for (const { encl, fusedNun, particleOnly } of opts) {
       const variants = [stemPart];
       if (encl) {
         const sc = canon(stemPart);
         if (/\u064F\u0648$/.test(sc)) variants.push(stemPart + "\u0627");                                   // kadhdhabu + hu: the silent alef of -u is not written
         if (/\u064F\u0645$/.test(sc)) variants.push(stemPart.replace(/\u0645\u0652?$/, "\u0645\u064F\u0648"));  // -tum + pronoun: -tumu
         if (/\u0646\u0670$/.test(sc)) variants.push(stemPart.replace(/\u0670$/, "\u0627"));            // -na + pronoun is written -na with a dagger alef
+        if (fusedNun && particleOnly) variants.push(sc.replace(/\u0646\u0651[\u064E\u0650]$/, "\u0646"), sc.replace(/\u0646\u0651\u0650$/, "\u0646\u0651\u064E"));    // the particle's own nun: min, 'an; or lakinna + ni (three nuns written as two)
+      }
+      {
+        const c = canon(stemPart);
+        if (!encl && /\u062A\u064F\u0645\u064F$/.test(c)) variants.push(stemPart.replace(/\u0645\u064F?$/, "\u0645"));           // -tumu before a hamzat wasl is -tum
+        if (encl && /\u062A\u064F\u0645\u064F\u0648$/.test(c)) variants.push(stemPart.replace(/\u0645\u064F\u0648$/, "\u0645"));  // -tumu + pronoun (-tumuhunna) is -tum + pronoun
+      }
+      /* An attached pronoun changes how a stem ends: a final alef maqsura is written as ya before a pronoun (yahdi -> yahdihi) and a
+         perfect verb's final alef maqsura as alef (rama -> ramahu). Look the stem up as it is listed. */
+      if (encl) {
+        const c = canon(stemPart);
+        if (/\u064E\u0648$/.test(c)) variants.push(stemPart + "\u0627");   // 3rd person plural perfect + pronoun: aatawhu = aatawa + hu (the silent alef is not written)
+        if (/\u064E\u0627$/.test(c)) variants.push(c.replace(/\u0627$/, "\u0649"), c.replace(/\u0627$/, "\u0649\u0670"));
+        if (/\u0650\u064A$/.test(c)) variants.push(c.replace(/\u064A$/, "\u0649"));
+      }
+      /* The interrogative a- is followed by a stem that starts with hamza: the two hamzas are written as a hamza with the
+         stem's vowel (a + idha -> a-'idha, a + inna -> a-'inna). Look the stem up as it is written with its own hamza seat. */
+      const prevP = procs[procs.length - 1];
+      if (!articleSeg && prevP && prevP.fn === "istifham") {
+        const m = /^\u0621([\u064E\u064F\u0650])/.exec(canon(stemPart));
+        if (m) variants.push((m[1] === "\u0650" ? "\u0625" : "\u0623") + stemPart.replace(/^\u0621/, ""));
+        const seat = /^([\u0626\u0624])([\u064F\u0650])/.exec(canon(stemPart));            // the hamza written on a ya (kasra) or a waw (damma)
+        if (seat) variants.push((seat[2] === "\u0650" ? "\u0625" : "\u0623") + stemPart.replace(/^[\u0626\u0624]/, ""));
       }
       for (const sp of variants) {
         const key = lkey(sp);
         const cands = [];
         (index.get(key) || []).forEach(r => cands.push({ r, viaArticle: !!articleSeg }));
         for (const { r, viaArticle } of cands) {
+          if (fusedNun && particleOnly && sp !== stemPart && (r.pos !== "particle" || !r.bound)) continue;
+          // the emphatic lam is not put before min / 'an + pronoun (la-'anna is la'ana + na, "we cursed")
+          if (fusedNun && particleOnly && sp !== stemPart && procs.some(x => x.canon === canon("\u0644\u064E"))) continue;
           if (articleSeg) {
             if (!viaArticle) continue;
             if (r.noart || r.pos !== "noun" || r.ending !== "def" || r.boundOnly && !encl) continue;
           }
           if (!articleSeg && viaArticle) continue;
+          if (r.bare && (procs.length || articleSeg || encl)) continue;          // a bare item (the disjoined letters) takes no prefix, article or pronoun
+          if (!articleSeg && r.artOnly) continue;                                // listed only for use after the article (it is spelled like a verb)
           if (encl && !r.bound) continue;
           if (encl && encl.noverb && r.pos === "verb") continue;
+          if (encl && encl.verbOnly && r.pos !== "verb") continue;
+          if (encl && encl.noNoun && r.pos === "noun") continue;                // a noun takes -ya, not -ni
           if (r.boundOnly && !encl) continue;
           if (r.after && !(procs.length && procs[procs.length - 1].canon === canon(r.after))) continue;
           let ok = true;
@@ -278,8 +322,9 @@ function parseToken(index, lemmaPos, token) {
             if (p.aspect && r.morph.aspect !== p.aspect) ok = false;
           }
           if (!ok) continue;
-          results.push({ procs: procs.slice(), article: articleSeg ? { surface: articleSeg.surface, fusedLam: !!articleSeg.fusedLam } : null, stem: { surface: stemPart, rec: r }, encl: encl ? { surface: tail, f: encl, fused: fusedNun } : null });
+          results.push({ procs: procs.slice(), article: articleSeg ? { surface: articleSeg.surface, fusedLam: !!articleSeg.fusedLam } : null, stem: { surface: stemPart, rec: r }, encl: encl ? { surface: tail, f: encl, fused: fusedNun } : null, viaVariant: sp !== stemPart });
         }
+      }
       }
     }
   }

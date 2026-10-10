@@ -21,6 +21,7 @@ const { loadDataset, FILES } = require("./lib/load-data");
 const { validate } = require("./lib/validate");
 const { textNotice, metadataNotice } = require("./lib/tanzil");
 const N = require("../js/normalize");
+const Res = require("./lib/resolution");
 
 const ROOT = path.resolve(__dirname, "..");
 const OUT_DIR = path.join(ROOT, "js", "generated");
@@ -49,10 +50,21 @@ const ayahsOut = ds.ayahs.map(a => ({ ayah_id: a.ayah_id, surah: a.surah, ayah: 
 const tokenCount = ds.tokens.length;
 
 const POS_CODE = { noun: "n", verb: "v", particle: "p" };
-const ruleForms = ds.forms.filter(f => f.basis === "rule_default").map(f => [
+const lemmaByIdAll = new Map(ds.lemmas.map(l => [l.lemma_id, l]));
+// record resolution (see scripts/lib/resolution.js): [code k|p|x|u, alternatives|0, candidates|0, source_review_required 1|0, status unresolved 1|0]
+const compactForm = f => [
   f.form_id.replace(/^frm-sd-/, ""), f.surface,
-  f.segments.map(s => [s.type[0], s.surface, POS_CODE[s.pos], s.function || 0, s.lemma_id || 0, s.pronoun_features ? [s.pronoun_features.person, s.pronoun_features.number, s.pronoun_features.gender || 0] : 0]),
-  f.morphology, f.segmentation_note || 0]);
+  f.segments.map(s => [s.type[0], s.surface, POS_CODE[s.pos] || 0, s.function || 0, s.lemma_id || 0, s.pronoun_features ? [s.pronoun_features.person, s.pronoun_features.number, s.pronoun_features.gender || 0] : 0]),
+  f.morphology, f.segmentation_note || 0,
+  [Res.CODE[f.resolution || Res.resolutionOfForm(f, lemmaByIdAll).resolution], (f.alternatives && f.alternatives.length) ? f.alternatives : 0, (f.candidates && f.candidates.length) ? f.candidates : 0, f.source_review_required ? 1 : 0, f.status === "unresolved" ? 1 : 0]];
+const ruleForms = ds.forms.filter(f => f.basis === "rule_default").map(compactForm);
+// readings chosen for one token (basis rule_context): the same compact form, plus the token they belong to
+const contextForms = ds.forms.filter(f => f.basis === "rule_context");
+const ctxCompact = contextForms.map(f => [...compactForm(f), f.context_token]);
+// pilot (hand-written) forms get their resolution here, from their lemmas' roots
+const pilotForms = ds.forms.filter(f => !f.basis).map(f => ({ ...f, resolution: Res.resolutionOfForm(f, lemmaByIdAll).resolution, ...(Res.resolutionOfForm(f, lemmaByIdAll).source_review_required ? { source_review_required: true } : {}) }));
+// tokens where the pilot recorded competing analyses: context-dependent at token level
+const contextTokens = ds.analysisSets.filter(a => a.candidates.length > 1).map(a => a.token_id).sort();
 
 const dataset = {
   meta: {
@@ -74,10 +86,12 @@ const dataset = {
   ayahs: ayahsOut,
   // the Token -> Form assignments in force: direct assignments plus the chosen candidate of every analysis set
   token_forms: ds.effectiveTokenForms,
-  forms: ds.forms.filter(f => !f.basis),
+  forms: pilotForms,
+  context_tokens: contextTokens,
   // rule-based default analyses, one per distinct spelling (shared by every token with that spelling), in a compact positional form:
   // [id, surface, [[type, surface, pos, function, lemma_id, [person, number, gender]]...], morphology, note]
   rule_forms: ruleForms,
+  context_forms: ctxCompact,
   lemmas: ds.lemmas,
   roots: ds.roots,
   glosses: ds.glosses,

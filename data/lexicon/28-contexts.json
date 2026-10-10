@@ -1,0 +1,426 @@
+{
+ "_comment": "Token-level readings (part 28). Each entry names a token and the lemma the verse calls for; the engine's own parse with that lemma becomes the token's analysis. It can only choose among readings the rules already allow.",
+ "root_gloss": {
+  "ه و د": [
+   "to be Jewish; to turn back",
+   "menjadi Yahudi; kembali"
+  ]
+ },
+ "contexts": [
+  {
+   "token": "6:154:8",
+   "lemma_id": "ahsana-1",
+   "note": [
+    "The verb is the reading here (the spelling can also be the elative 'best').",
+    "Kata kerja ialah bacaan di sini (ejaan ini juga boleh menjadi bentuk 'paling baik')."
+   ]
+  },
+  {
+   "token": "12:23:18",
+   "lemma_id": "ahsana-1",
+   "note": [
+    "The verb is the reading here (the spelling can also be the elative 'best').",
+    "Kata kerja ialah bacaan di sini (ejaan ini juga boleh menjadi bentuk 'paling baik')."
+   ]
+  },
+  {
+   "token": "12:100:20",
+   "lemma_id": "ahsana-1",
+   "note": [
+    "The verb is the reading here (the spelling can also be the elative 'best').",
+    "Kata kerja ialah bacaan di sini (ejaan ini juga boleh menjadi bentuk 'paling baik')."
+   ]
+  },
+  {
+   "token": "18:30:11",
+   "lemma_id": "ahsana-1",
+   "note": [
+    "The verb is the reading here (the spelling can also be the elative 'best').",
+    "Kata kerja ialah bacaan di sini (ejaan ini juga boleh menjadi bentuk 'paling baik')."
+   ]
+  },
+  {
+   "token": "28:77:14",
+   "lemma_id": "ahsana-1",
+   "note": [
+    "The verb is the reading here (the spelling can also be the elative 'best').",
+    "Kata kerja ialah bacaan di sini (ejaan ini juga boleh menjadi bentuk 'paling baik')."
+   ]
+  },
+  {
+   "token": "32:7:2",
+   "lemma_id": "ahsana-1",
+   "note": [
+    "The verb is the reading here (the spelling can also be the elative 'best').",
+    "Kata kerja ialah bacaan di sini (ejaan ini juga boleh menjadi bentuk 'paling baik')."
+   ]
+  },
+  {
+   "token": "40:64:10",
+   "lemma_id": "ahsana-1",
+   "note": [
+    "The verb is the reading here (the spelling can also be the elative 'best').",
+    "Kata kerja ialah bacaan di sini (ejaan ini juga boleh menjadi bentuk 'paling baik')."
+   ]
+  },
+  {
+   "token": "64:3:6",
+   "lemma_id": "ahsana-1",
+   "note": [
+    "The verb is the reading here (the spelling can also be the elative 'best').",
+    "Kata kerja ialah bacaan di sini (ejaan ini juga boleh menjadi bentuk 'paling baik')."
+   ]
+  },
+  {
+   "token": "65:11:31",
+   "lemma_id": "ahsana-1",
+   "note": [
+    "The verb is the reading here (the spelling can also be the elative 'best').",
+    "Kata kerja ialah bacaan di sini (ejaan ini juga boleh menjadi bentuk 'paling baik')."
+   ]
+  },
+  {
+   "token": "9:121:15",
+   "lemma_id": "ahsan-1",
+   "note": [
+    "The elative 'best' is the reading here (the spelling can also be the verb 'to do well').",
+    "Bentuk 'paling baik' ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'berbuat baik')."
+   ]
+  },
+  {
+   "token": "12:3:4",
+   "lemma_id": "ahsan-1",
+   "note": [
+    "The elative 'best' is the reading here (the spelling can also be the verb 'to do well').",
+    "Bentuk 'paling baik' ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'berbuat baik')."
+   ]
+  },
+  {
+   "token": "24:38:3",
+   "lemma_id": "ahsan-1",
+   "note": [
+    "The elative 'best' is the reading here (the spelling can also be the verb 'to do well').",
+    "Bentuk 'paling baik' ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'berbuat baik')."
+   ]
+  },
+  {
+   "token": "25:33:7",
+   "lemma_id": "ahsan-1",
+   "note": [
+    "The elative 'best' is the reading here (the spelling can also be the verb 'to do well').",
+    "Bentuk 'paling baik' ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'berbuat baik')."
+   ]
+  },
+  {
+   "token": "29:7:9",
+   "lemma_id": "ahsan-1",
+   "note": [
+    "The elative 'best' is the reading here (the spelling can also be the verb 'to do well').",
+    "Bentuk 'paling baik' ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'berbuat baik')."
+   ]
+  },
+  {
+   "token": "37:125:4",
+   "lemma_id": "ahsan-1",
+   "note": [
+    "The elative 'best' is the reading here (the spelling can also be the verb 'to do well').",
+    "Bentuk 'paling baik' ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'berbuat baik')."
+   ]
+  },
+  {
+   "token": "39:23:3",
+   "lemma_id": "ahsan-1",
+   "note": [
+    "The elative 'best' is the reading here (the spelling can also be the verb 'to do well').",
+    "Bentuk 'paling baik' ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'berbuat baik')."
+   ]
+  },
+  {
+   "token": "39:55:2",
+   "lemma_id": "ahsan-1",
+   "note": [
+    "The elative 'best' is the reading here (the spelling can also be the verb 'to do well').",
+    "Bentuk 'paling baik' ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'berbuat baik')."
+   ]
+  },
+  {
+   "token": "46:16:5",
+   "lemma_id": "ahsan-1",
+   "note": [
+    "The elative 'best' is the reading here (the spelling can also be the verb 'to do well').",
+    "Bentuk 'paling baik' ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'berbuat baik')."
+   ]
+  },
+  {
+   "token": "39:18:5",
+   "lemma_id": "ahsan-1",
+   "note": [
+    "The elative 'best' is the reading here (the spelling can also be the verb 'to do well').",
+    "Bentuk 'paling baik' ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'berbuat baik')."
+   ],
+   "pron": true
+  },
+  {
+   "token": "2:275:39",
+   "lemma_id": "aada-1",
+   "note": [
+    "The verb 'to return' is the reading here (the spelling can also be the name of the people of Ad).",
+    "Kata kerja 'kembali' ialah bacaan di sini (ejaan ini juga boleh menjadi nama kaum Ad)."
+   ]
+  },
+  {
+   "token": "5:95:43",
+   "lemma_id": "aada-1",
+   "note": [
+    "The verb 'to return' is the reading here (the spelling can also be the name of the people of Ad).",
+    "Kata kerja 'kembali' ialah bacaan di sini (ejaan ini juga boleh menjadi nama kaum Ad)."
+   ]
+  },
+  {
+   "token": "36:39:5",
+   "lemma_id": "aada-1",
+   "note": [
+    "The verb 'to return' is the reading here (the spelling can also be the name of the people of Ad).",
+    "Kata kerja 'kembali' ialah bacaan di sini (ejaan ini juga boleh menjadi nama kaum Ad)."
+   ]
+  },
+  {
+   "token": "2:111:8",
+   "lemma_id": "hud-1",
+   "note": [
+    "'Jews' (hud) is the reading here (the spelling can also be the name of the prophet Hud).",
+    "'Orang Yahudi' (hud) ialah bacaan di sini (ejaan ini juga boleh menjadi nama Nabi Hud)."
+   ]
+  },
+  {
+   "token": "2:135:3",
+   "lemma_id": "hud-1",
+   "note": [
+    "'Jews' (hud) is the reading here (the spelling can also be the name of the prophet Hud).",
+    "'Orang Yahudi' (hud) ialah bacaan di sini (ejaan ini juga boleh menjadi nama Nabi Hud)."
+   ]
+  },
+  {
+   "token": "2:140:10",
+   "lemma_id": "hud-1",
+   "note": [
+    "'Jews' (hud) is the reading here (the spelling can also be the name of the prophet Hud).",
+    "'Orang Yahudi' (hud) ialah bacaan di sini (ejaan ini juga boleh menjadi nama Nabi Hud)."
+   ]
+  },
+  {
+   "token": "7:65:4",
+   "lemma_id": "hud-2",
+   "note": [
+    "The prophet Hud is the reading here (the spelling can also be 'Jews').",
+    "Nabi Hud ialah bacaan di sini (ejaan ini juga boleh bermaksud 'orang Yahudi')."
+   ]
+  },
+  {
+   "token": "11:50:4",
+   "lemma_id": "hud-2",
+   "note": [
+    "The prophet Hud is the reading here (the spelling can also be 'Jews').",
+    "Nabi Hud ialah bacaan di sini (ejaan ini juga boleh bermaksud 'orang Yahudi')."
+   ]
+  },
+  {
+   "token": "11:53:2",
+   "lemma_id": "hud-2",
+   "note": [
+    "The prophet Hud is the reading here (the spelling can also be 'Jews').",
+    "Nabi Hud ialah bacaan di sini (ejaan ini juga boleh bermaksud 'orang Yahudi')."
+   ]
+  },
+  {
+   "token": "11:58:5",
+   "lemma_id": "hud-2",
+   "note": [
+    "The prophet Hud is the reading here (the spelling can also be 'Jews').",
+    "Nabi Hud ialah bacaan di sini (ejaan ini juga boleh bermaksud 'orang Yahudi')."
+   ]
+  },
+  {
+   "token": "11:60:17",
+   "lemma_id": "hud-2",
+   "note": [
+    "The prophet Hud is the reading here (the spelling can also be 'Jews').",
+    "Nabi Hud ialah bacaan di sini (ejaan ini juga boleh bermaksud 'orang Yahudi')."
+   ]
+  },
+  {
+   "token": "11:89:14",
+   "lemma_id": "hud-2",
+   "note": [
+    "The prophet Hud is the reading here (the spelling can also be 'Jews').",
+    "Nabi Hud ialah bacaan di sini (ejaan ini juga boleh bermaksud 'orang Yahudi')."
+   ]
+  },
+  {
+   "token": "26:124:5",
+   "lemma_id": "hud-2",
+   "note": [
+    "The prophet Hud is the reading here (the spelling can also be 'Jews').",
+    "Nabi Hud ialah bacaan di sini (ejaan ini juga boleh bermaksud 'orang Yahudi')."
+   ]
+  },
+  {
+   "token": "3:39:11",
+   "lemma_id": "yahya-1",
+   "note": [
+    "The name Yahya (John) is the reading here (the spelling can also be the verb 'to live').",
+    "Nama Yahya (Yahya bin Zakaria) ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'hidup')."
+   ]
+  },
+  {
+   "token": "6:85:2",
+   "lemma_id": "yahya-1",
+   "note": [
+    "The name Yahya (John) is the reading here (the spelling can also be the verb 'to live').",
+    "Nama Yahya (Yahya bin Zakaria) ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'hidup')."
+   ]
+  },
+  {
+   "token": "19:7:6",
+   "lemma_id": "yahya-1",
+   "note": [
+    "The name Yahya (John) is the reading here (the spelling can also be the verb 'to live').",
+    "Nama Yahya (Yahya bin Zakaria) ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'hidup')."
+   ]
+  },
+  {
+   "token": "19:12:1",
+   "lemma_id": "yahya-1",
+   "note": [
+    "The name Yahya (John) is the reading here (the spelling can also be the verb 'to live').",
+    "Nama Yahya (Yahya bin Zakaria) ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'hidup')."
+   ]
+  },
+  {
+   "token": "21:90:5",
+   "lemma_id": "yahya-1",
+   "note": [
+    "The name Yahya (John) is the reading here (the spelling can also be the verb 'to live').",
+    "Nama Yahya (Yahya bin Zakaria) ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'hidup')."
+   ]
+  },
+  {
+   "token": "8:42:27",
+   "lemma_id": "hayiya-1",
+   "note": [
+    "The verb 'to live' is the reading here (the spelling can also be the name Yahya).",
+    "Kata kerja 'hidup' ialah bacaan di sini (ejaan ini juga boleh menjadi nama Yahya)."
+   ]
+  },
+  {
+   "token": "20:74:13",
+   "lemma_id": "hayiya-1",
+   "note": [
+    "The verb 'to live' is the reading here (the spelling can also be the name Yahya).",
+    "Kata kerja 'hidup' ialah bacaan di sini (ejaan ini juga boleh menjadi nama Yahya)."
+   ]
+  },
+  {
+   "token": "87:13:6",
+   "lemma_id": "hayiya-1",
+   "note": [
+    "The verb 'to live' is the reading here (the spelling can also be the name Yahya).",
+    "Kata kerja 'hidup' ialah bacaan di sini (ejaan ini juga boleh menjadi nama Yahya)."
+   ]
+  },
+  {
+   "token": "8:67:7",
+   "lemma_id": "asir-1",
+   "note": [
+    "'Captives' is the reading here (the spelling can also be the verb 'to travel by night').",
+    "'Tawanan' ialah bacaan di sini (ejaan ini juga boleh menjadi kata kerja 'berjalan malam')."
+   ]
+  },
+  {
+   "token": "17:1:3",
+   "lemma_id": "asra-1",
+   "note": [
+    "The verb 'to travel by night' is the reading here (the spelling can also be 'captives').",
+    "Kata kerja 'berjalan malam' ialah bacaan di sini (ejaan ini juga boleh bermaksud 'tawanan')."
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "lemma_id": "hud-1",
+   "lemma": "هُود",
+   "pos": "noun",
+   "dt": "jamid",
+   "root": "ه و د",
+   "en": "Jews",
+   "ms": "orang Yahudi",
+   "n": [
+    "هُود"
+   ]
+  },
+  {
+   "lemma_id": "hud-2",
+   "lemma": "هُود",
+   "pos": "noun",
+   "dt": "jamid",
+   "en": "Hud (a prophet)",
+   "ms": "Hud (seorang nabi)",
+   "n": [
+    "هُود"
+   ]
+  },
+  {
+   "lemma_id": "yahya-1",
+   "lemma": "يَحْيَىٰ",
+   "pos": "noun",
+   "dt": "jamid",
+   "en": "Yahya (John)",
+   "ms": "Yahya",
+   "noun": [
+    {
+     "b": "يَحْيَىٰ",
+     "t": "inv",
+     "s": [
+      "يَحْيَىٰ"
+     ]
+    }
+   ]
+  },
+  {
+   "lemma_id": "hayiya-1",
+   "more": true,
+   "f": {
+    "mudari": {
+     "3ms": [
+      "يَحْيَىٰ"
+     ]
+    }
+   }
+  },
+  {
+   "lemma_id": "asir-1",
+   "more": true,
+   "noun": [
+    {
+     "b": "أَسْرَىٰ",
+     "t": "inv",
+     "s": [
+      "أَسْرَىٰ",
+      "أَسْرَىٰٓ"
+     ]
+    }
+   ]
+  },
+  {
+   "lemma_id": "asra-1",
+   "more": true,
+   "f": {
+    "maadi": {
+     "3ms": [
+      "أَسْرَىٰ"
+     ]
+    }
+   }
+  }
+ ]
+}

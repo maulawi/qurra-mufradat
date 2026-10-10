@@ -1,0 +1,22 @@
+{
+  "_comment": "QURRA-authored lexicon, part 17: coverage expansion, batch H (the most frequent remaining spellings). Glosses and root core meanings are QURRA's own wording (provisional).",
+  "entries": [
+    {"lemma_id":"rabb-1","more":true,"bp":["أَرْبَاب"]},
+    {"lemma_id":"asfal-1","lemma":"أَسْفَل","pos":"noun","dt":"jamid","root":"س ف ل","root_en":"to be low","root_ms":"rendah","en":"lower; lowest","ms":"lebih bawah; paling bawah","noun":[{"b":"أَسْفَل","t":"dip"}]},
+    {"lemma_id":"baqara-1","lemma":"بَقَرَة","pos":"noun","dt":"jamid","root":"ب ق ر","root_en":"cow; to split open","root_ms":"lembu; membelah","en":"cow","ms":"lembu","nt":["بَقَرَ"]},
+    {"lemma_id":"bay-1","lemma":"بَيْع","pos":"noun","dt":"masdar","root":"ب ي ع","root_en":"to sell","root_ms":"menjual","en":"sale; trade","ms":"jual beli","n":["بَيْع"]},
+    {"lemma_id":"akinna-1","lemma":"كِنَان","pos":"noun","dt":"jamid","root":"ك ن ن","root_en":"to cover; to shelter","root_ms":"menutup; melindungi","en":"coverings","ms":"penutup","noun":[{"b":"أَكِنَّة","t":"fem","n":"jama","pl":"jama_taksir","g":"muannath"}]},
+    {"lemma_id":"nasir-2","more":true,"bp":["أَنصَار"]},
+    {"lemma_id":"baghin-1","lemma":"بَاغٍ","pos":"noun","dt":"ism_fail","root":"ب غ ي","en":"one who transgresses; seeker","ms":"yang melampaui batas","stems":[{"s":"بَاغٍ","ending":"indef"},{"s":"بَاغِ","ending":"def"}]},
+    {"lemma_id":"muadhdhab-1","lemma":"مُعَذَّب","pos":"noun","dt":"ism_mafool","root":"ع ذ ب","en":"one who is punished","ms":"yang diazab","noun":[{"b":"مُعَذَّب","t":"sm","n":"jama","pl":"jama_mudhakkar_salim"}]},
+    {"lemma_id":"laghw-1","lemma":"لَغْو","pos":"noun","dt":"masdar","root":"ل غ و","root_en":"idle talk","root_ms":"percakapan sia-sia","en":"idle talk; vanity","ms":"perkataan sia-sia","n":["لَغْو"]},
+    {"lemma_id":"ghuduww-1","lemma":"غُدُوّ","pos":"noun","dt":"masdar","root":"غ د و","en":"morning; early day","ms":"waktu pagi","n":["غُدُوّ"]},
+    {"lemma_id":"fahsha-1","lemma":"فَحْشَآء","pos":"noun","dt":"masdar","root":"ف ح ش","en":"indecency; immorality","ms":"kekejian; kemungkaran","n":["فَحْشَآء"]},
+    {"lemma_id":"tahwil-1","lemma":"تَحْوِيل","pos":"noun","dt":"masdar","root":"ح و ل","en":"changing; turning aside","ms":"pengubahan; pemindahan","n":["تَحْوِيل"]},
+    {"lemma_id":"tadarru-1","lemma":"تَضَرُّع","pos":"noun","dt":"masdar","root":"ض ر ع","root_en":"to humble oneself; to implore","root_ms":"merendah diri; merayu","en":"humble supplication","ms":"rayuan dengan merendah diri","n":["تَضَرُّع"]},
+    {"lemma_id":"taqdir-1","lemma":"تَقْدِير","pos":"noun","dt":"masdar","root":"ق د ر","en":"ordaining; decree","ms":"penentuan; takdir","n":["تَقْدِير"]},
+    {"lemma_id":"tamattaa-1","lemma":"تَمَتَّعَ","pos":"verb","vf":"V","root":"م ت ع","en":"to enjoy; to take one's enjoyment","ms":"bersenang-senang; menikmati","sv":true},
+    {"lemma_id":"abda-1","more":true,"f":{"mudari":{"2mp":["تُبْدُونَ"]}}},
+    {"lemma_id":"asarra-1","more":true,"f":{"mudari":{"2mp":["تُسِرُّونَ"]}}}
+  ]
+}

@@ -12,6 +12,8 @@ const path = require("path");
 const crypto = require("crypto");
 const E = require("./engine");
 const rootModel = require("../lib/rootmodel");
+const R = require("../lib/resolution");
+const { skeleton } = require("../lib/arabic");
 const { expandVerb, expandHollow, expandDefective } = require("./templates");
 
 const ROOT = path.resolve(__dirname, "..", "..");
@@ -21,13 +23,15 @@ const SRC_LEX = "QURRA_LEXICON", SRC_RULE = "QURRA_RULE_ANALYSIS";
 
 function loadLexicon() {
   const dir = path.join(ROOT, "data", "lexicon");
-  const entries = [], prefer = [];
+  const entries = [], prefer = [], contexts = [], rootGloss = {};
   for (const f of fs.readdirSync(dir).filter(f => f.endsWith(".json")).sort()) {
     const j = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
     (j.entries || []).forEach(e => entries.push({ ...e, _file: f }));
     (j.prefer || []).forEach(p => prefer.push(p));
+    (j.contexts || []).forEach(c => contexts.push({ ...c, _file: f }));      // token-level readings: { token, lemma_id, note? }
+    Object.assign(rootGloss, j.root_gloss || {});            // { "ب ر د": ["cold", "dingin"] }: the core meaning of a root, written once per root
   }
-  return { entries, prefer };
+  return { entries, prefer, contexts, rootGloss };
 }
 
 function build() {
@@ -36,7 +40,7 @@ function build() {
   const lemmasP = rd("data/qurra/lemmas.json").lemmas, rootsP = rd("data/qurra/roots.json").roots;
   const pilotLemma = new Map(lemmasP.map(l => [l.lemma_id, l]));
   const rootExists = new Map(rootsP.map(r => [r.display, r]));
-  const { entries, prefer } = loadLexicon();
+  const { entries, prefer, contexts, rootGloss } = loadLexicon();
 
   /* ---- lemmas, glosses, roots (new ones only; pilot lemmas are never redefined) ---- */
   const lemmas = [], glosses = [], roots = new Map();
@@ -68,6 +72,7 @@ function build() {
       if (bad.length) throw new Error(`lexicon ${e.lemma_id}: ${bad.map(b => b.message).join("; ")}`);
       const rid = "root-" + letters.map(c => slug[c]).join("-");
       if (!rootExists.has(e.root) && !roots.has(e.root)) {
+        if ((!e.root_en || !e.root_ms) && rootGloss[e.root]) { e.root_en = rootGloss[e.root][0]; e.root_ms = rootGloss[e.root][1]; }
         if (!e.root_en || !e.root_ms) throw new Error(`lexicon ${e.lemma_id}: first use of root "${e.root}" needs root_en and root_ms`);
         roots.set(e.root, { root_id: rid, letters, display: e.root, ...(letters.length === 3 ? {} : { root_category: rootModel.categoryByCount(tax).get(letters.length) }), root_type: rootModel.rootTypeOf(letters), core_field: { en: e.root_en, ms: e.root_ms }, status: "provisional",
           provenance: { letters: { source_id: SRC_LEX }, core_field: { source_id: SRC_LEX } } });
@@ -108,6 +113,19 @@ function build() {
       if (letters.length !== 3) throw new Error(`lexicon ${e.lemma_id}: sv needs 3 root letters`);
       e.verb = expandVerb(letters, e.vf || "I", e.sv === true ? undefined : e.sv, e.pv);
     }
+    /* f: attested forms grouped by aspect and person, e.g. { "mudari": { "3ms": ["يَأْتِى"], "3fs/2ms": ["تَأْتِى"] }, "pmaadi": {...} }
+       (a leading "p" means passive; "a/b" lists every person a spelling can be). Only the bare stem is listed: the engine adds the
+       proclitics, the article and the attached pronouns. Each surface is written exactly as it is spelled in the Qur'an. */
+    if (e.f) {
+      const xs = [];
+      for (const [asp, byKey] of Object.entries(e.f)) {
+        const passive = asp.startsWith("p") && asp !== "p";
+        const aspect = passive ? asp.slice(1) : asp;
+        if (!["maadi", "mudari", "amr"].includes(aspect)) throw new Error(`lexicon ${e.lemma_id}: unknown aspect "${asp}" in f`);
+        for (const [keys, surfaces] of Object.entries(byKey)) for (const k of keys.split("/")) for (const sf0 of surfaces) { const forceBound = sf0.startsWith("+"), noBound = sf0.startsWith("-"); const sf = forceBound || noBound ? sf0.slice(1) : sf0; const isPlU = !forceBound && /\u064F\u0648\u0627$|\u0648\u0652?\u0627$/.test(E.canon(sf).replace(/[\u0652\u06DF]/g, "")); xs.push(`${sf}|${aspect}|${k}|${passive ? "passive" : "active"}${isPlU ? "|free" : ""}`); if (isPlU && !noBound) xs.push(`${sf.replace(/\u0627[\u06DF\u0652\u06E1]*$/, "")}|${aspect}|${k}|${passive ? "passive" : "active"}`); }   /* a plural -u form also exists without its alef, where a pronoun is attached (radduhu) */
+      }
+      e.x = (e.x || []).concat(xs);
+    }
     if (e.x) e.verb = { ...(e.verb || {}), x: ((e.verb && e.verb.x) || []).concat(e.x) };
   }
 
@@ -120,7 +138,9 @@ function build() {
   const entryOf = new Map(entries.map(e => [e.lemma_id, e]));
   const fnOf = lemmaId => { const l = pilotLemma.get(lemmaId) || lemmas.find(x => x.lemma_id === lemmaId); return l; };
 
-  const forms = [], ambiguous = [], unmatched = [];
+  const lemmaById = new Map(lemmasP.map(l => [l.lemma_id, l]));
+  lemmas.forEach(l => lemmaById.set(l.lemma_id, l));
+  const forms = [], ambiguous = [], unmatched = [], defaults = [];
   const parseKey = p => JSON.stringify([p.procs.map(x => x.surface), p.article && p.article.surface, p.stem.surface, p.stem.rec.lemma_id, p.encl && p.encl.surface]);
   for (const sp of spellings) {
     const parses = E.parseToken(index, lemmaPos, sp);
@@ -128,30 +148,36 @@ function build() {
     // group by segmentation + lemma
     const groups = new Map();
     parses.forEach(p => { const k = parseKey(p); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p); });
-    let chosen = null, note = null;
+    let chosen = null, note = null, how = null;
     if (groups.size === 1) chosen = [...groups.values()][0];
     else {
       const lemmaSet = new Set([...groups.values()].map(g => g[0].stem.rec.lemma_id));
       const rule = prefer.find(x => (x.surface ? E.canon(x.surface) === E.canon(sp) : lemmaSet.has(x.lemma_id) && (x.over || []).length && [...lemmaSet].every(l => l === x.lemma_id || x.over.includes(l))));
       if (rule) {
         const hit = [...groups.values()].filter(g => g[0].stem.rec.lemma_id === rule.lemma_id);
-        if (hit.length === 1) { chosen = hit[0]; note = rule.note || null; }
+        if (hit.length === 1) { chosen = hit[0]; note = rule.note || null; how = "lexicon preference"; }
       }
       if (!chosen && lemmaSet.size === 1) {            // one lemma, several segmentations (an optional prefix or pronoun): the whole-word reading wins
         const gs = [...groups.values()].map(g => ({ g, n: g[0].procs.length + (g[0].article ? 1 : 0) + (g[0].encl ? 1 : 0) })).sort((a, b) => a.n - b.n);
-        if (gs.length === 1 || gs[0].n < gs[1].n) chosen = gs[0].g;
+        if (gs.length === 1 || gs[0].n < gs[1].n) { chosen = gs[0].g; how = "whole-word reading"; }
       }
       if (!chosen) {                                   // the reading with fewer weak prefixes (interrogative a-, emphatic la-) wins, if that is unique
         const weak = g => g[0].procs.filter(p => p.fn === null || p.fn === "istifham").length;
         const gs = [...groups.values()].map(g => ({ g, n: weak(g) })).sort((a, b) => a.n - b.n);
-        if (gs[0].n < gs[1].n) chosen = gs[0].g;
+        if (gs[0].n < gs[1].n) { chosen = gs[0].g; how = "fewer weak prefixes"; }
       }
-      if (!chosen) { ambiguous.push({ surface: sp, count: freq.get(sp), readings: [...groups.values()].map(g => g[0].stem.rec.lemma_id + (g[0].encl ? "+pron" : "") + (g[0].article ? "+al" : "")) }); continue; }
+      if (!chosen) { ambiguous.push({ surface: sp, count: freq.get(sp), readings: [...groups.values()].map(g => g[0].stem.rec.lemma_id + (g[0].encl ? "+pron" : "") + (g[0].article ? "+al" : "")), lemmas: [...new Set([...groups.values()].map(g => g[0].stem.rec.lemma_id))] }); continue; }
     }
-    forms.push(makeForm(sp, chosen, note));
+    const nameOf = g => g[0].stem.rec.lemma_id;
+    const alts = groups.size > 1 ? [...new Set([...groups.values()].filter(g => g !== chosen).map(nameOf).filter(l => l && l !== nameOf(chosen)))] : [];
+    forms.push(makeForm(sp, chosen, note, alts));
+    if (groups.size > 1) {                           // a context-free default was chosen between several readings: recorded so it can be reviewed
+      const name = g => g[0].stem.rec.lemma_id + (g[0].encl ? "+pron" : "") + (g[0].article ? "+al" : "");
+      defaults.push({ surface: sp, count: freq.get(sp), chosen: name(chosen), other_readings: [...groups.values()].filter(g => g !== chosen).map(name), basis: how });
+    }
   }
 
-  function makeForm(sp, parses, note) {
+  function makeForm(sp, parses, note, alts) {
     const p = parses[0];
     const id = "frm-sd-" + crypto.createHash("sha1").update(sp).digest("hex").slice(0, 10);
     const segs = [];
@@ -187,6 +213,10 @@ function build() {
       else if (parses.every(x => x.stem.rec.ending === "indef")) morph.definiteness = { state: "nakira" };
     }
     const f = { form_id: id, surface: sp, segments: segs, morphology: morph, status: "provisional", basis: "rule_default", provenance: { morphology: { source_id: SRC_RULE }, form: { source_id: SRC_RULE } } };
+    const res = R.resolutionOfForm(f, lemmaById, alts);
+    f.resolution = res.resolution;
+    if (alts && alts.length) f.alternatives = alts;
+    if (res.source_review_required) f.source_review_required = true;
     const merged = parses.length > 1 && ms.some(m => JSON.stringify(m) !== JSON.stringify(ms[0]));
     if (!note && rec.note) note = rec.note;
     if (!note && p.article && p.article.fusedLam) note = ["The lam of the article is written together with the stem's first lam (one doubled lam).", "Lam alif lam ditulis bersama lam pertama kata dasar (satu lam bersabdu)."];
@@ -195,6 +225,61 @@ function build() {
     else if (merged) f.segmentation_note = { en: "This spelling fits more than one person/gender; only the features common to every reading are shown.", ms: "Ejaan ini sesuai dengan lebih daripada satu orang/jantina; hanya ciri yang sama bagi semua bacaan dipaparkan." };
     return f;
   }
+
+  /* ---- explicit records for the spellings that could not be analysed safely ----
+     Every distinct spelling of the Qur'an gets a record. A spelling the lexicon cannot analyse gets an "unresolved" one: a single
+     unsegmented stem, no lemma, no root, candidate lemmas only as hints (same consonants), and the flag source_review_required.
+     A spelling with several readings and no safe default gets "context_dependent" with its readings listed as candidates. */
+  const strip = x => skeleton(x).replace(/[^ء-ي]/g, "");
+  const cons = x => x.replace(/[اوي]/g, "");
+  const PRE = ["وال", "فال", "بال", "كال", "لل", "ال", "وب", "ول", "وس", "فس", "وي", "وت", "ون", "وا", "فا", "و", "ف", "ب", "ل", "ك", "س"];
+  const SUF = ["ونهم", "ونها", "كما", "كم", "هم", "هن", "هما", "نا", "ها", "ون", "ين", "ان", "ات", "وا", "ته", "ت", "ه", "ك", "ي", "ا", "ن"];
+  const core = x => { let t = strip(x); for (const q of PRE) if (t.startsWith(q) && t.length - q.length >= 3) { t = t.slice(q.length); break; } for (const q of SUF) if (t.endsWith(q) && t.length - q.length >= 3) { t = t.slice(0, -q.length); break; } return t; };
+  const lemmaByCons = new Map();
+  [...lemmaById.values()].forEach(l => { const k = cons(core(l.form_vocalized)) || strip(l.form_vocalized); if (!lemmaByCons.has(k)) lemmaByCons.set(k, []); lemmaByCons.get(k).push(l.lemma_id); });
+  function placeholder(sp, candidates, resolution, note) {
+    const id = "frm-sd-" + crypto.createHash("sha1").update(sp).digest("hex").slice(0, 10);
+    const f = { form_id: id, surface: sp, segments: [{ segment_id: id + ".s1", type: "stem", surface: sp, pos: null, lemma_id: null }], morphology: {},
+      status: "unresolved", basis: "rule_default", resolution, source_review_required: true,
+      provenance: { morphology: { source_id: SRC_RULE }, form: { source_id: SRC_RULE } } };
+    if (candidates.length) f.candidates = candidates;
+    f.segmentation_note = { en: note[0], ms: note[1] };
+    return f;
+  }
+  const NOT_SEGMENTED = ["Not analysed yet: the word is not segmented, no lemma or root is asserted. Expert review is required.", "Belum dianalisis: perkataan ini belum disegmen, tiada lemma atau akar ditetapkan. Semakan pakar diperlukan."];
+  const CONTEXT = ["More than one reading is possible and the verse decides; no reading is asserted here. Expert review is required.", "Lebih daripada satu bacaan mungkin dan ayat menentukannya; tiada bacaan ditetapkan di sini. Semakan pakar diperlukan."];
+  const placeholders = [];
+  for (const sp of unmatched) {
+    const k = cons(core(sp)) || core(sp);
+    placeholders.push(placeholder(sp, k.length >= 3 ? (lemmaByCons.get(k) || []).slice(0, 3) : [], "unresolved", NOT_SEGMENTED));
+  }
+  for (const a of ambiguous) placeholders.push(placeholder(a.surface, a.lemmas, "context_dependent", CONTEXT));
+  forms.push(...placeholders);
+
+  /* ---- token-level readings ----
+     A spelling with several readings keeps one default (or none), but a specific token can carry the reading its verse requires.
+     Each context entry names a token and the lemma the verse calls for; the parse of that spelling with that lemma becomes a form
+     of its own (basis "rule_context") assigned to that token only. The lexicon's own parser supplies the segmentation, so a context
+     entry can only choose among readings the rules already allow; it can never introduce an analysis. */
+  const tokenText = new Map();
+  ayahs.forEach(a => a.text.split(" ").forEach((w, i) => tokenText.set(a.ayah_id + ":" + (i + 1), w)));
+  const contextForms = [];
+  for (const c of contexts) {
+    const sp = tokenText.get(c.token);
+    if (!sp) throw new Error("context: unknown token " + c.token + " (" + c._file + ")");
+    const parses = E.parseToken(index, lemmaPos, sp);
+    const groups = new Map();
+    parses.forEach(p => { const k = parseKey(p); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p); });
+    const hit = [...groups.values()].filter(g => g[0].stem.rec.lemma_id === c.lemma_id && (!c.article || !!g[0].article === (c.article === true)) && (c.pron === undefined || !!g[0].encl === c.pron));
+    if (hit.length !== 1) throw new Error("context " + c.token + " " + sp + ": " + hit.length + " parses with lemma " + c.lemma_id + " (found " + [...groups.values()].map(g => g[0].stem.rec.lemma_id).join(",") + ")");
+    const f = makeForm(sp, hit[0], null, []);
+    f.form_id = "frm-sd-c" + crypto.createHash("sha1").update(c.token).digest("hex").slice(0, 9);
+    f.segments.forEach((sg, n) => { sg.segment_id = f.form_id + ".s" + (n + 1); });
+    f.basis = "rule_context"; f.context_token = c.token;
+    if (c.note) f.context_note = { en: c.note[0], ms: c.note[1] };
+    contextForms.push(f);
+  }
+  forms.push(...contextForms);
 
   /* ---- stable ordering ---- */
   lemmas.sort((a, b) => a.lemma_id.localeCompare(b.lemma_id));
@@ -205,7 +290,7 @@ function build() {
   /* ---- pilot conflicts: where a rule default differs from a pilot analysis of the same spelling (reported, never applied) ---- */
   const formsP = rd("data/qurra/forms.json").forms, byIdP = new Map(formsP.map(f => [f.form_id, f]));
   const sig = f => f.segments.map(s => s.type[0] + ":" + (s.lemma_id || s.function || "")).join("|");
-  const genBySurface = new Map(forms.map(f => [f.surface, f]));
+  const genBySurface = new Map(forms.filter(f => f.status !== "unresolved" && f.basis !== "rule_context").map(f => [f.surface, f]));
   const conflicts = [];
   formsP.forEach(pf => {
     const g = genBySurface.get(pf.surface);
@@ -218,13 +303,19 @@ function build() {
   const report = {
     note: "Generated by scripts/analyse/generate.js. Counts are over distinct spellings and over token occurrences.",
     lexicon_entries: entries.length, new_lemmas: lemmas.length, new_roots: rootList.length,
-    spellings_total: spellings.length, spellings_analysed: forms.length, spellings_ambiguous: ambiguous.length, spellings_unmatched: unmatched.length,
-    occurrences_analysed: forms.reduce((n, f) => n + freq.get(f.surface), 0), occurrences_ambiguous: ambiguous.reduce((n, a) => n + a.count, 0),
+    spellings_total: spellings.length, spellings_analysed: forms.length - placeholders.length - contextForms.length, spellings_ambiguous: ambiguous.length, spellings_unmatched: unmatched.length,
+    context_readings: contextForms.length,
+    occurrences_analysed: forms.filter(f => f.status !== "unresolved" && f.basis !== "rule_context").reduce((n, f) => n + freq.get(f.surface), 0),
+    spellings_unresolved_records: placeholders.length, occurrences_unresolved_records: placeholders.reduce((n, f) => n + freq.get(f.surface), 0),
+    resolution_by_spelling: Object.fromEntries(R.RESOLUTIONS.map(r => [r, forms.filter(f => f.resolution === r && f.basis !== "rule_context").length])),
+    resolution_by_token: Object.fromEntries(R.RESOLUTIONS.map(r => [r, forms.filter(f => f.resolution === r && f.basis !== "rule_context").reduce((n, f) => n + freq.get(f.surface), 0)])),
+    occurrences_ambiguous: ambiguous.reduce((n, a) => n + a.count, 0),
     pilot_conflicts: conflictsU,
+    defaults_with_other_readings: defaults.sort((a, b) => b.count - a.count || (a.surface < b.surface ? -1 : 1)),
     ambiguous_top: ambiguous.slice(0, 200),
     unmatched_top: unmatchedTop
   };
-  return { lemmas, glosses, roots: rootList, forms, report };
+  return { lemmas, glosses, roots: rootList, forms, report, internals: { index, freq, unmatched, ambiguous, lemmaPos } };
 }
 
 function files(out) {

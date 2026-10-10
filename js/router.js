@@ -13,6 +13,7 @@ const QMRouter = (function () {
     { pattern: /^\/home\/?$/, navKey: "home", handler: () => QMRender.renderHome() },
     { pattern: /^\/?$/, navKey: "home", handler: () => QMRender.renderHome() },
 
+    { pattern: /^\/juz\/?$/, navKey: "juz", handler: () => QMRender.renderJuzIndex() },
     { pattern: /^\/juz\/(\d+)\/surah\/(\d+)\/ayah\/(\d+)\/?$/, navKey: "juz", handler: (m) => QMRender.renderSurah(m[2], { juz: m[1], highlightAyah: m[3] }) },
     { pattern: /^\/juz\/(\d+)\/surah\/(\d+)\/?$/, navKey: "juz", handler: (m) => QMRender.renderSurah(m[2], { juz: m[1] }) },
     { pattern: /^\/juz\/(\d+)\/?$/, navKey: "juz", handler: (m) => QMRender.renderJuz(m[1]) },

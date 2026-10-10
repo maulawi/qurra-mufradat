@@ -1,0 +1,37 @@
+{
+ "note": "The only spellings whose analysis differs from the baseline fingerprint. Each is a documented correction made during the coverage expansion; nothing else changed.",
+ "changes": {
+  "فَقَدَرَ": {
+   "reason": "Baseline read the noun qadar; the spelling with the object-less verb in 89:16 is the verb (fa + qadara).",
+   "now": "p:atf|s:qadara-1"
+  },
+  "أَسْمَعَهُمْ": {
+   "reason": "Baseline read the imperfect of samia with a pronoun; the spelling is the fourth-form verb asma'a + pronoun (8:23).",
+   "now": "s:asmaa-1|e:هُمْ"
+  },
+  "أَذَاقَهُم": {
+   "reason": "Baseline read the interrogative a- + dhaqa; the spelling is the fourth-form verb adhaqa + pronoun.",
+   "now": "s:adhaqa-1|e:هُم"
+  },
+  "وَأَشْهَدَهُمْ": {
+   "reason": "Baseline read wa + a- + shahida (1st person, interrogative a-); the form with an object pronoun is the fourth-form verb ashhada (7:172).",
+   "now": "p:atf|s:ashhada-1|e:هُمْ"
+  },
+  "أَدْرِى": {
+   "reason": "Baseline used the lemma adraa; the spelling is the 1st person imperfect of daraa (I know).",
+   "now": "s:daraa-1"
+  },
+  "لَّأَسْمَعَهُمْ": {
+   "reason": "Same as the previous asma'a spelling, with the emphatic lam (8:23).",
+   "now": "p:لَّ|s:asmaa-1|e:هُمْ"
+  },
+  "أَدْرِىٓ": {
+   "reason": "Same as the previous spelling.",
+   "now": "s:daraa-1"
+  },
+  "أَذْهَبَ": {
+   "reason": "Baseline read the 1st person imperfect of dhahaba; the Qur'anic use (35:34) is the fourth-form perfect adhhaba.",
+   "now": "s:adhhaba-1"
+  }
+ }
+}

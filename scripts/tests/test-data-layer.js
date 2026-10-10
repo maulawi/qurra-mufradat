@@ -61,8 +61,8 @@ const variants = basmalaForms(official.lines);
   ok("token count matches the build", tokenTotal === 77441, String(tokenTotal));
 
   const analysed = D.getToken("1:5:3");
-  const plain = (function () { for (let s = 1; s <= 114; s++) for (const a of D.listAyahsInSurah(s)) for (const t of a.tokens) if (!t.analysed) return t; return null; })();   // the first word with no analysis at all
-  ok("an unanalysed token carries no invented analysis", plain && !plain.analysed && plain.pos === null && plain.lemma === null && plain.segments.length === 0 && plain.formId === null);
+  const plain = (function () { for (let s = 1; s <= 114; s++) for (const a of D.listAyahsInSurah(s)) for (const t of a.tokens) if (t.resolution === "unresolved") return t; return null; })();   // the first word with an explicit "unresolved" record
+  ok("an unresolved token has a record but carries no invented analysis (no lemma, no part of speech, one unsegmented stem)", plain && plain.analysed && plain.resolution === "unresolved" && plain.status === "unresolved" && plain.pos === null && plain.lemma === null && plain.segments.length === 1 && plain.segments[0].lemmaId === null && plain.sourceReviewRequired === true);
   ok("analysed token has a Form with ordered segments", analysed.analysed && analysed.segments.map(s => s.type).join(",") === "proclitic,stem,enclitic");
   ok("token ids are strict (no padding, no out-of-range)", D.getToken("01:1:1") === null && D.getToken("1:1:99") === null && D.getToken("1:1:0") === null && D.getToken("115:1:1") === null && D.getToken("x") === null);
   ok("same surface text in two places = two tokens", D.getToken("1:1:3").id !== D.getToken("1:3:1").id && D.getToken("1:1:3").surfaceForm === D.getToken("1:3:1").surfaceForm);
@@ -111,7 +111,7 @@ const variants = basmalaForms(official.lines);
   ok("results are capped", D.searchVocabulary("ا").length <= 20);
   ok("gloss search (EN + BM) still works", D.searchVocabulary("merciful").some(r => r.kind === "lemma") && D.searchVocabulary("pemurah").some(r => r.kind === "lemma"));
 
-  ok("a token held by an unresolved conflict is shown as unanalysed (112:4:4)", D.getToken("112:4:4").analysed === false && D.getToken("112:4:4").lemma === null);
+  ok("a token held by an unresolved conflict has an explicit unresolved record, not a guess (112:4:4)", D.getToken("112:4:4").analysed === true && D.getToken("112:4:4").resolution !== "confident" && D.getToken("112:4:4").lemma === null);
   ok("a token analysed through an analysis set resolves like any other (2:255:3)", D.getToken("2:255:3").analysed && D.getToken("2:255:3").lemma.id === "ilah-1");
   ok("disputed root of a new lemma is hidden and not searchable (أحد)", D.getLemma("ahad-1").root === null && D.getLemma("ahad-1").rootState === "under_review" && D.searchVocabulary("ء ح د").every(r => r.kind !== "root"));
   const u = D.getToken("1:5:2");

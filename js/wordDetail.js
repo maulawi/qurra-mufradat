@@ -173,10 +173,44 @@ const QMWordDetail = (function () {
     `;
   }
 
+  /** Links to lemmas that are only hints (candidates) or other possible readings; the lemma page itself says what it is. */
+  function lemmaHints(ids, label) {
+    const items = (ids || []).map(id => QMData.getLemma(id)).filter(Boolean).map(l =>
+      `<li><a href="#/lemma/${l.id}" data-route-link><span class="qm-arabic" lang="ar">${l.form}</span></a> <span class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.pick(l.gloss)}</span></li>`).join("");
+    return items ? `<div style="margin-top:var(--qm-space-3)"><p class="qm-muted" style="margin:0 0 var(--qm-space-1);font-size:var(--qm-fs-xs)">${label}</p><ul class="qm-stack" style="gap:var(--qm-space-1)">${items}</ul></div>` : "";
+  }
+
+  /**
+   * A word that has an analysis record but no asserted analysis: the record says so (unresolved, or context-dependent with no
+   * default reading). Shows the text, the location, what is open and why, and any candidate lemmas as hints. Nothing is guessed.
+   */
+  function renderUnresolved(token) {
+    const surahName = QMData.getSurah(token.surahId);
+    const locationText = QMI18n.t("detail.locationTemplate", { surah: token.surahId, ayah: token.ayahId, position: token.position });
+    const locationHtml = `<a href="#/surah/${token.surahId}/ayah/${token.ayahId}" data-route-link>${surahName ? surahName.nameEn : "Surah " + token.surahId} ${token.surahId}:${token.ayahId}</a>`;
+    const ctxt = token.resolution === "context_dependent";
+    return `
+      <div class="qm-worddetail__header">
+        <div class="qm-worddetail__surface qm-arabic" id="qm-detail-title" lang="ar">${token.surfaceForm}</div>
+        <div class="qm-worddetail__status" style="margin:var(--qm-space-2) 0"><span class="qm-badge qm-badge--provisional" data-analysis-status="${token.status}" data-resolution="${token.resolution}">${QMI18n.t("detail.resolution." + (ctxt ? "context_dependent" : "unresolved"))}</span></div>
+        <div class="qm-worddetail__location">${locationText} — ${locationHtml}</div>
+      </div>
+      <div class="qm-card" style="margin-bottom:var(--qm-space-4)" data-unresolved>
+        <p style="margin:0"><strong>${QMI18n.t(ctxt ? "detail.contextTitle" : "detail.unresolvedTitle")}</strong></p>
+        <p class="qm-muted" style="margin:var(--qm-space-2) 0 0">${QMI18n.t(ctxt ? "detail.contextBody" : "detail.unresolvedBody")}</p>
+        ${token.segmentationNote ? `<p class="qm-muted" style="margin:var(--qm-space-2) 0 0;font-size:var(--qm-fs-xs)">${QMI18n.pick(token.segmentationNote)}</p>` : ""}
+        ${lemmaHints(token.candidates, QMI18n.t("detail.candidatesLabel"))}
+        <p class="qm-muted" style="margin:var(--qm-space-3) 0 0;font-size:var(--qm-fs-xs)">${QMI18n.t("detail.sourceReviewNote")}</p>
+      </div>
+      ${expandSection("source", QMI18n.t("detail.sourceInfo"), provenanceBlock(token), false)}
+    `;
+  }
+
   function render(tokenId) {
     const token = QMData.getToken(tokenId);
     if (!token) return `<div class="qm-empty-state"><h3 id="qm-detail-title">${QMI18n.t("detail.wordNotFoundTitle")}</h3><p>${QMI18n.t("detail.wordNotFoundBody")}</p></div>`;
     if (!token.analysed) return renderUnanalysed(token);
+    if (token.status === "unresolved") return renderUnresolved(token);
     const lemma = token.lemma;
     const posClass = `qm-badge--pos-${QMData.posCss(token.pos)}`;
 
@@ -201,7 +235,10 @@ const QMWordDetail = (function () {
           <span class="qm-badge ${posClass}">${posLabel}</span>
           ${lemma && lemma.derivationType ? `<span class="qm-badge">${enumLabelWithArabic("derivationType", lemma.derivationType)}</span>` : ""}
         </div>
-        <div class="qm-worddetail__status" style="margin:var(--qm-space-2) 0"><span class="qm-badge qm-badge--provisional" data-analysis-status="${token.status}">${QMI18n.t("detail.status." + token.status)}</span> <span class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("detail.basis." + token.analysisBasis)}</span></div>
+        <div class="qm-worddetail__status" style="margin:var(--qm-space-2) 0"><span class="qm-badge qm-badge--provisional" data-analysis-status="${token.status}">${QMI18n.t("detail.status." + token.status)}</span> <span class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("detail.basis." + token.analysisBasis)}</span>
+          ${token.resolution && token.resolution !== "confident" ? ` <span class="qm-badge" data-resolution="${token.resolution}">${QMI18n.t("detail.resolution." + token.resolution)}</span>` : ""}
+          ${token.sourceReviewRequired ? `<div class="qm-muted" style="font-size:var(--qm-fs-xs);margin-top:var(--qm-space-1)">${QMI18n.t("detail.sourceReviewNote")}</div>` : ""}
+          ${token.alternatives && token.alternatives.length ? lemmaHints(token.alternatives, QMI18n.t("detail.alternativesLabel")) : ""}</div>
         <div class="qm-worddetail__location">${locationText} — ${locationHtml}</div>
       </div>
 

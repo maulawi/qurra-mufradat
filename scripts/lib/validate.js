@@ -300,10 +300,10 @@ function validate(ds) {
     let stems = 0;
     f.segments.forEach((s, n) => {
       const sw = `${w}.segments[${n}]`;
-      required(sw, s, ["segment_id", "type", "surface", "pos"]);
+      required(sw, s, f.status === "unresolved" ? ["segment_id", "type", "surface"] : ["segment_id", "type", "surface", "pos"]);
       if (s.segment_id && !String(s.segment_id).startsWith(f.form_id + ".")) err(sw, `segment_id must start with "${f.form_id}."`);
       checkEnum(sw, "type", s.type, T.segType);
-      checkEnum(sw, "pos", s.pos, T.pos);
+      if (!(f.status === "unresolved" && s.pos === null)) checkEnum(sw, "pos", s.pos, T.pos);   // an unresolved record has not decided the part of speech
       if (s.function !== undefined) { if (!T.segFn.has(s.function) && !T.particleFn.has(s.function)) err(sw, `function "${s.function}" is not in the taxonomy`); }
       checkArabicText(sw, "surface", s.surface);
       if (s.type === "stem") {
@@ -398,11 +398,36 @@ function validate(ds) {
   // Rule-based default analyses (data/qurra/generated/forms.json): one form per distinct spelling, applied to every token with that exact text.
   const tokenSurfaces = new Set((ds.tokens || []).map(t => t.text));
   const ruleSurfaces = new Map();
+  const ctxTokens = new Set();
   (ds.forms || []).forEach((f, i) => {
     if (f.basis === undefined) return;
     const w = `forms[${i}](${f.form_id})`;
+    if (f.basis === "rule_context") {
+      // a reading chosen for ONE token: it must name an existing token whose text is the form's surface, and carry a lemma
+      const tk = (ds.tokens || []).find(t => t.token_id === f.context_token);
+      if (!tk) err(w, `context_token "${f.context_token}" is not a token`);
+      else if (tk.text !== f.surface) err(w, `context_token ${f.context_token} has the text "${tk.text}", not "${f.surface}"`);
+      if (f.status !== "provisional") err(w, "a contextual reading must be provisional (only a person can review it)");
+      if (!f.segments.some(x => x.lemma_id)) err(w, "a contextual reading must carry a lemma (an unresolved reading is the spelling-level record)");
+      const pv = f.provenance && ((f.provenance.form && f.provenance.form.source_id) || (f.provenance.morphology && f.provenance.morphology.source_id));
+      if (pv !== "QURRA_RULE_ANALYSIS") err(w, "a contextual reading must cite source QURRA_RULE_ANALYSIS");
+      if (ctxTokens.has(f.context_token)) err(w, `second contextual reading for token ${f.context_token}`);
+      ctxTokens.add(f.context_token);
+      if (f.segments.map(x => x.surface).join("") !== f.surface) err(w, "segment surfaces must be consecutive slices of the token text");
+      referencedForms.add(f.form_id);
+      return;
+    }
     if (f.basis !== "rule_default") return err(w, `unknown basis "${f.basis}"`);
-    if (f.status !== "provisional") err(w, `a rule-based default analysis must be provisional (found "${f.status}"): only a person can review it`);
+    if (f.status !== "provisional" && f.status !== "unresolved") err(w, `a rule-based default analysis must be provisional or unresolved (found "${f.status}"): only a person can review it`);
+    if (f.resolution !== undefined && !["confident", "provisional", "context_dependent", "unresolved"].includes(f.resolution)) err(w, `unknown resolution "${f.resolution}"`);
+    if (f.status === "unresolved") {
+      if (!["unresolved", "context_dependent"].includes(f.resolution)) err(w, "an unresolved record must have resolution unresolved or context_dependent");
+      if (f.segments.some(x => x.lemma_id)) err(w, "an unresolved record asserts no lemma");
+      if (Object.keys(f.morphology || {}).length) err(w, "an unresolved record asserts no morphology");
+      if (f.source_review_required !== true) err(w, "an unresolved record must carry source_review_required");
+      (f.candidates || []).forEach(c => { if (!lemmas.has(c)) err(w, `candidate lemma "${c}" does not exist`); });
+    } else if (f.resolution === "unresolved") err(w, "resolution unresolved requires status unresolved");
+    (f.alternatives || []).forEach(c => { if (!lemmas.has(c)) err(w, `alternative lemma "${c}" does not exist`); });
     const prov = f.provenance && ((f.provenance.form && f.provenance.form.source_id) || (f.provenance.morphology && f.provenance.morphology.source_id));
     if (prov !== "QURRA_RULE_ANALYSIS") err(w, "a rule-based default analysis must cite source QURRA_RULE_ANALYSIS");
     if (!tokenSurfaces.has(f.surface)) err(w, `surface "${f.surface}" is not the text of any token`);

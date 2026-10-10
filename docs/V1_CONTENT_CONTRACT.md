@@ -25,11 +25,11 @@ A missing value stays missing. No layer is filled to raise a percentage.
 | A | Qur'anic text | all 6,236 ayahs, verbatim, never edited | complete | Tanzil (CC BY 3.0) |
 | B | Ayah metadata | surah/ayah/juz, names, counts, revelation | complete | Tanzil metadata |
 | C | Tokenisation | every ayah split by the single rule in `scripts/lib/tokenize.js`; id `surah:ayah:pos` | complete (77,441 tokens) | derived from A |
-| D | Word/segment breakdown | forms with proclitic/stem/enclitic segments | partial: about four fifths of all tokens (pilot + rule-based defaults), the rest honestly unanalysed | QURRA, provisional (`docs/word-analysis-method.md`) |
-| E | Lemma | on the stem segment of a form | partial: ~580 lemmas | QURRA lexicon, provisional |
+| D | Word/segment breakdown | forms with proclitic/stem/enclitic segments | complete record coverage: every token has an analysis record (pilot, rule default, token-level context reading, or explicit unresolved record); certainty varies by resolution class, see `docs/word-analysis-method.md` | QURRA, provisional (`docs/word-analysis-method.md`) |
+| E | Lemma | on the stem segment of a form | 3,756 lemmas; unresolved records carry none | QURRA lexicon, provisional |
 | F | Root | only where legitimately supported; status, candidates, evidence kept | partial/provisional (most lemmas of the lexicon); protocol **not frozen**; disputed/unresolved roots are never shown, never searchable | QURRA lexicon, provisional |
-| G | Word meaning (EN) | lexical gloss per lemma, separate from contextual translation | partial: every analysed word | QURRA lexicon, provisional |
-| H | Word meaning (BM) | as G | partial: every analysed word | QURRA lexicon, provisional |
+| G | Word meaning (EN) | lexical gloss per lemma, separate from contextual translation | every word with a lemma (not unresolved records) | QURRA lexicon, provisional |
+| H | Word meaning (BM) | as G | every word with a lemma (not unresolved records) | QURRA lexicon, provisional |
 | I | Ayah translation (EN) | any cleared full edition, verbatim, per-ayah | partial: 6,228 of 6,236 ayahs (Pickthall 1930) | public domain |
 | J | Ayah translation (BM) | a cleared edition | unavailable: none is cleared | none |
 | K | Searchability | every shown value, deterministic at build time | complete for text, surah names, lemma/root/gloss values shown, published translations | generated |

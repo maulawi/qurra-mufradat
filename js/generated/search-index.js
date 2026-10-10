@@ -42,14 +42,94 @@ const QM_SEARCH_INDEX = {
    "aada-1"
   ],
   [
+   "ءاد",
+   "lemma",
+   "aada-3"
+  ],
+  [
    "عاذ",
    "lemma",
    "aadha-1"
   ],
   [
+   "اعاذ",
+   "lemma",
+   "aadha-2"
+  ],
+  [
+   "ءاذن",
+   "lemma",
+   "aadhana-1"
+  ],
+  [
+   "عاهد",
+   "lemma",
+   "aahada-1"
+  ],
+  [
+   "اعجل",
+   "lemma",
+   "aajala-1"
+  ],
+  [
+   "ءاخذ",
+   "lemma",
+   "aakhadha-1"
+  ],
+  [
+   "اعلي",
+   "lemma",
+   "aala-1"
+  ],
+  [
+   "اعليا",
+   "lemma",
+   "aala-1"
+  ],
+  [
+   "عال",
+   "lemma",
+   "aala-2"
+  ],
+  [
+   "عال",
+   "lemma",
+   "aali-1"
+  ],
+  [
+   "عام",
+   "lemma",
+   "aam-1"
+  ],
+  [
    "ءامن",
    "lemma",
    "aamana-1"
+  ],
+  [
+   "ءامن",
+   "lemma",
+   "aamin-1"
+  ],
+  [
+   "اني",
+   "lemma",
+   "aana-1"
+  ],
+  [
+   "اعان",
+   "lemma",
+   "aana-2"
+  ],
+  [
+   "اعنت",
+   "lemma",
+   "aanata-1"
+  ],
+  [
+   "عاقب",
+   "lemma",
+   "aaqaba-1"
   ],
   [
    "اراد",
@@ -60,6 +140,11 @@ const QM_SEARCH_INDEX = {
    "اعرض",
    "lemma",
    "aarada-2"
+  ],
+  [
+   "عاشر",
+   "lemma",
+   "aashara-1"
   ],
   [
    "ءاتي",
@@ -82,6 +167,16 @@ const QM_SEARCH_INDEX = {
    "aata-2"
   ],
   [
+   "ءاوي",
+   "lemma",
+   "aawa-1"
+  ],
+  [
+   "ءاويا",
+   "lemma",
+   "aawa-1"
+  ],
+  [
    "اب",
    "lemma",
    "ab-1"
@@ -102,9 +197,134 @@ const QM_SEARCH_INDEX = {
    "abada-1"
   ],
   [
+   "ابان",
+   "lemma",
+   "abana-1"
+  ],
+  [
+   "ابق",
+   "lemma",
+   "abaqa-1"
+  ],
+  [
+   "عبس",
+   "lemma",
+   "abasa-1"
+  ],
+  [
+   "اب",
+   "lemma",
+   "abb-1"
+  ],
+  [
+   "عبد",
+   "lemma",
+   "abbada-1"
+  ],
+  [
    "عبد",
    "lemma",
    "abd-1"
+  ],
+  [
+   "ابدي",
+   "lemma",
+   "abda-1"
+  ],
+  [
+   "ابديا",
+   "lemma",
+   "abda-1"
+  ],
+  [
+   "ابدا",
+   "lemma",
+   "abdaa-1"
+  ],
+  [
+   "ابدل",
+   "lemma",
+   "abdala-1"
+  ],
+  [
+   "عابد",
+   "lemma",
+   "abid-1"
+  ],
+  [
+   "ابكي",
+   "lemma",
+   "abka-1"
+  ],
+  [
+   "ابكيا",
+   "lemma",
+   "abka-1"
+  ],
+  [
+   "ابكم",
+   "lemma",
+   "abkam-1"
+  ],
+  [
+   "ابلغ",
+   "lemma",
+   "ablagha-1"
+  ],
+  [
+   "ابلس",
+   "lemma",
+   "ablasa-1"
+  ],
+  [
+   "ابقي",
+   "lemma",
+   "abqa-1"
+  ],
+  [
+   "ابقيا",
+   "lemma",
+   "abqa-1"
+  ],
+  [
+   "ابقي",
+   "lemma",
+   "abqa-2"
+  ],
+  [
+   "ابقيا",
+   "lemma",
+   "abqa-2"
+  ],
+  [
+   "ابرا",
+   "lemma",
+   "abra-1"
+  ],
+  [
+   "برح",
+   "lemma",
+   "abraha-1"
+  ],
+  [
+   "ابرم",
+   "lemma",
+   "abrama-1"
+  ],
+  [
+   "ابرار",
+   "lemma",
+   "abrar-1"
+  ],
+  [
+   "ابرص",
+   "lemma",
+   "abras-1"
+  ],
+  [
+   "ابسل",
+   "lemma",
+   "absala-1"
   ],
   [
    "بصر",
@@ -117,14 +337,79 @@ const QM_SEARCH_INDEX = {
    "absara-1"
   ],
   [
+   "بصر",
+   "lemma",
+   "absara-2"
+  ],
+  [
+   "ابطل",
+   "lemma",
+   "abtala-1"
+  ],
+  [
+   "ابتر",
+   "lemma",
+   "abtar-1"
+  ],
+  [
+   "عبوس",
+   "lemma",
+   "abus-1"
+  ],
+  [
    "عاد",
    "lemma",
    "ad-1"
   ],
   [
+   "اداء",
+   "lemma",
+   "ada-1"
+  ],
+  [
+   "عدا",
+   "lemma",
+   "ada-2"
+  ],
+  [
+   "اضاع",
+   "lemma",
+   "adaa-1"
+  ],
+  [
+   "اضاء",
+   "lemma",
+   "adaa-2"
+  ],
+  [
+   "عادي",
+   "lemma",
+   "adaa-4"
+  ],
+  [
+   "عدد",
+   "lemma",
+   "adad-1"
+  ],
+  [
    "اعد",
    "lemma",
    "adadda-1"
+  ],
+  [
+   "اضعف",
+   "lemma",
+   "adaf-1"
+  ],
+  [
+   "عدل",
+   "lemma",
+   "adala-1"
+  ],
+  [
+   "عضل",
+   "lemma",
+   "adala-2"
   ],
   [
    "اضل",
@@ -142,14 +427,129 @@ const QM_SEARCH_INDEX = {
    "adam-1"
   ],
   [
+   "ادار",
+   "lemma",
+   "adara-1"
+  ],
+  [
+   "عداوه",
+   "lemma",
+   "adawa-1"
+  ],
+  [
+   "عدوه",
+   "lemma",
+   "adawa-1"
+  ],
+  [
+   "ادبر",
+   "lemma",
+   "adbara-1"
+  ],
+  [
+   "عد",
+   "lemma",
+   "add-1"
+  ],
+  [
+   "عد",
+   "lemma",
+   "adda-1"
+  ],
+  [
+   "ادي",
+   "lemma",
+   "adda-2"
+  ],
+  [
+   "اديا",
+   "lemma",
+   "adda-2"
+  ],
+  [
+   "عض",
+   "lemma",
+   "adda-3"
+  ],
+  [
+   "ادي",
+   "lemma",
+   "addaa-1"
+  ],
+  [
+   "اديا",
+   "lemma",
+   "addaa-1"
+  ],
+  [
+   "ادهي",
+   "lemma",
+   "adha-1"
+  ],
+  [
+   "ادهيا",
+   "lemma",
+   "adha-1"
+  ],
+  [
+   "اذي",
+   "lemma",
+   "adha-2"
+  ],
+  [
+   "عاذ",
+   "lemma",
+   "adha-3"
+  ],
+  [
+   "ءاذي",
+   "lemma",
+   "adhaa-1"
+  ],
+  [
+   "ءاذيا",
+   "lemma",
+   "adhaa-1"
+  ],
+  [
    "عذاب",
    "lemma",
    "adhab-1"
   ],
   [
+   "ادحض",
+   "lemma",
+   "adhada-1"
+  ],
+  [
+   "اذل",
+   "lemma",
+   "adhall-1"
+  ],
+  [
    "اذن",
    "lemma",
    "adhan-1"
+  ],
+  [
+   "اذان",
+   "lemma",
+   "adhan-2"
+  ],
+  [
+   "ادهن",
+   "lemma",
+   "adhana-1"
+  ],
+  [
+   "اذاق",
+   "lemma",
+   "adhaqa-1"
+  ],
+  [
+   "عذب",
+   "lemma",
+   "adhb-1"
   ],
   [
    "عذب",
@@ -159,7 +559,22 @@ const QM_SEARCH_INDEX = {
   [
    "اذن",
    "lemma",
+   "adhdhana-1"
+  ],
+  [
+   "اذهب",
+   "lemma",
+   "adhhaba-1"
+  ],
+  [
+   "اذن",
+   "lemma",
    "adhina-1"
+  ],
+  [
+   "عاديات",
+   "lemma",
+   "adiyat-1"
   ],
   [
    "ادخل",
@@ -172,6 +587,36 @@ const QM_SEARCH_INDEX = {
    "adl-1"
   ],
   [
+   "ادلي",
+   "lemma",
+   "adla-1"
+  ],
+  [
+   "ادليا",
+   "lemma",
+   "adla-1"
+  ],
+  [
+   "عدن",
+   "lemma",
+   "adn-1"
+  ],
+  [
+   "ادني",
+   "lemma",
+   "adna-1"
+  ],
+  [
+   "ادنيا",
+   "lemma",
+   "adna-1"
+  ],
+  [
+   "ادني",
+   "lemma",
+   "adna-2"
+  ],
+  [
    "ادري",
    "lemma",
    "adraa-1"
@@ -182,9 +627,179 @@ const QM_SEARCH_INDEX = {
    "adraa-1"
   ],
   [
+   "ادرك",
+   "lemma",
+   "adraka-1"
+  ],
+  [
    "عدو",
    "lemma",
    "adu-1"
+  ],
+  [
+   "عدو",
+   "lemma",
+   "adu-2"
+  ],
+  [
+   "عضد",
+   "lemma",
+   "adud-1"
+  ],
+  [
+   "عاد",
+   "lemma",
+   "adun-1"
+  ],
+  [
+   "عاد",
+   "lemma",
+   "adun-2"
+  ],
+  [
+   "اعاد",
+   "lemma",
+   "aeada-1"
+  ],
+  [
+   "عفا",
+   "lemma",
+   "afa-1"
+  ],
+  [
+   "افاء",
+   "lemma",
+   "afaa-1"
+  ],
+  [
+   "افاض",
+   "lemma",
+   "afada-1"
+  ],
+  [
+   "افك",
+   "lemma",
+   "afaka-1"
+  ],
+  [
+   "افل",
+   "lemma",
+   "afala-1"
+  ],
+  [
+   "افل",
+   "lemma",
+   "afala-2"
+  ],
+  [
+   "افاق",
+   "lemma",
+   "afaqa-1"
+  ],
+  [
+   "افضي",
+   "lemma",
+   "afda-1"
+  ],
+  [
+   "افضيا",
+   "lemma",
+   "afda-1"
+  ],
+  [
+   "افاك",
+   "lemma",
+   "affak-1"
+  ],
+  [
+   "عاف",
+   "lemma",
+   "afi-1"
+  ],
+  [
+   "افل",
+   "lemma",
+   "afil-1"
+  ],
+  [
+   "افلح",
+   "lemma",
+   "aflaha-1"
+  ],
+  [
+   "فنن",
+   "lemma",
+   "afnan-1"
+  ],
+  [
+   "افرغ",
+   "lemma",
+   "afragha-1"
+  ],
+  [
+   "افسد",
+   "lemma",
+   "afsada-1"
+  ],
+  [
+   "افتي",
+   "lemma",
+   "afta-1"
+  ],
+  [
+   "افتيا",
+   "lemma",
+   "afta-1"
+  ],
+  [
+   "عفو",
+   "lemma",
+   "afuww-1"
+  ],
+  [
+   "عفو",
+   "lemma",
+   "afw-1"
+  ],
+  [
+   "اغني",
+   "lemma",
+   "aghna-1"
+  ],
+  [
+   "اغنيا",
+   "lemma",
+   "aghna-1"
+  ],
+  [
+   "اغري",
+   "lemma",
+   "aghra-1"
+  ],
+  [
+   "اغرق",
+   "lemma",
+   "aghraqa-1"
+  ],
+  [
+   "اغشي",
+   "lemma",
+   "aghsha-1"
+  ],
+  [
+   "اغشيا",
+   "lemma",
+   "aghsha-1"
+  ],
+  [
+   "اغوي",
+   "lemma",
+   "aghwa-1"
+  ],
+  [
+   "اغويا",
+   "lemma",
+   "aghwa-1"
   ],
   [
    "احب",
@@ -197,14 +812,94 @@ const QM_SEARCH_INDEX = {
    "ahad-1"
   ],
   [
+   "عاهد",
+   "lemma",
+   "ahada-1"
+  ],
+  [
+   "عهد",
+   "lemma",
+   "ahada-1"
+  ],
+  [
+   "احل",
+   "lemma",
+   "ahalla-1"
+  ],
+  [
+   "اهل",
+   "lemma",
+   "ahalla-2"
+  ],
+  [
+   "اهان",
+   "lemma",
+   "ahana-1"
+  ],
+  [
    "احق",
    "lemma",
    "ahaqq-1"
   ],
   [
+   "احق",
+   "lemma",
+   "ahaqqa-1"
+  ],
+  [
+   "احس",
+   "lemma",
+   "ahassa-1"
+  ],
+  [
+   "احاط",
+   "lemma",
+   "ahata-1"
+  ],
+  [
+   "احبط",
+   "lemma",
+   "ahbata-1"
+  ],
+  [
    "عهد",
    "lemma",
    "ahd-1"
+  ],
+  [
+   "اهدي",
+   "lemma",
+   "ahda-1"
+  ],
+  [
+   "اهديا",
+   "lemma",
+   "ahda-1"
+  ],
+  [
+   "احدث",
+   "lemma",
+   "ahdatha-1"
+  ],
+  [
+   "احفي",
+   "lemma",
+   "ahfa-1"
+  ],
+  [
+   "عهد",
+   "lemma",
+   "ahida-1"
+  ],
+  [
+   "احكم",
+   "lemma",
+   "ahkam-1"
+  ],
+  [
+   "احكم",
+   "lemma",
+   "ahkama-1"
   ],
   [
    "اهل",
@@ -217,6 +912,21 @@ const QM_SEARCH_INDEX = {
    "ahlaka-1"
   ],
   [
+   "احمد",
+   "lemma",
+   "ahmad-1"
+  ],
+  [
+   "احصي",
+   "lemma",
+   "ahsa-1"
+  ],
+  [
+   "احصيا",
+   "lemma",
+   "ahsa-1"
+  ],
+  [
    "احسن",
    "lemma",
    "ahsan-1"
@@ -225,6 +935,41 @@ const QM_SEARCH_INDEX = {
    "احسن",
    "lemma",
    "ahsana-1"
+  ],
+  [
+   "احصن",
+   "lemma",
+   "ahsana-2"
+  ],
+  [
+   "احصر",
+   "lemma",
+   "ahsara-1"
+  ],
+  [
+   "احوي",
+   "lemma",
+   "ahwa-1"
+  ],
+  [
+   "احويا",
+   "lemma",
+   "ahwa-1"
+  ],
+  [
+   "اهوي",
+   "lemma",
+   "ahwa-2"
+  ],
+  [
+   "اهويا",
+   "lemma",
+   "ahwa-2"
+  ],
+  [
+   "اهون",
+   "lemma",
+   "ahwan-1"
   ],
   [
    "احيا",
@@ -237,9 +982,114 @@ const QM_SEARCH_INDEX = {
    "aina-1"
   ],
   [
+   "ايقن",
+   "lemma",
+   "aiqana-1"
+  ],
+  [
+   "وعي",
+   "lemma",
+   "aiya-1"
+  ],
+  [
+   "اجاء",
+   "lemma",
+   "ajaa-1"
+  ],
+  [
+   "عجب",
+   "lemma",
+   "ajab-1"
+  ],
+  [
+   "اعجب",
+   "lemma",
+   "ajaba-1"
+  ],
+  [
    "اجل",
    "lemma",
    "ajal-1"
+  ],
+  [
+   "عجل",
+   "lemma",
+   "ajal-3"
+  ],
+  [
+   "اعجمي",
+   "lemma",
+   "ajami-1"
+  ],
+  [
+   "اجار",
+   "lemma",
+   "ajara-1"
+  ],
+  [
+   "ءاجر",
+   "lemma",
+   "ajara-2"
+  ],
+  [
+   "عجز",
+   "lemma",
+   "ajaza-1"
+  ],
+  [
+   "اعجز",
+   "lemma",
+   "ajaza-2"
+  ],
+  [
+   "اجدر",
+   "lemma",
+   "ajdar-1"
+  ],
+  [
+   "عجيب",
+   "lemma",
+   "ajib-1"
+  ],
+  [
+   "عجب",
+   "lemma",
+   "ajiba-1"
+  ],
+  [
+   "عجاف",
+   "lemma",
+   "ajif-1"
+  ],
+  [
+   "عاجل",
+   "lemma",
+   "ajil-1"
+  ],
+  [
+   "عجل",
+   "lemma",
+   "ajila-1"
+  ],
+  [
+   "اجل",
+   "lemma",
+   "ajjala-1"
+  ],
+  [
+   "عجل",
+   "lemma",
+   "ajjala-3"
+  ],
+  [
+   "اجل",
+   "lemma",
+   "ajl-1"
+  ],
+  [
+   "اجمع",
+   "lemma",
+   "ajmaa-1"
   ],
   [
    "اجمعين",
@@ -252,14 +1102,49 @@ const QM_SEARCH_INDEX = {
    "ajr-1"
   ],
   [
+   "اجرم",
+   "lemma",
+   "ajrama-1"
+  ],
+  [
+   "عجول",
+   "lemma",
+   "ajul-1"
+  ],
+  [
+   "عجوز",
+   "lemma",
+   "ajuz-1"
+  ],
+  [
    "اكل",
    "lemma",
    "akala-1"
   ],
   [
+   "اكن",
+   "lemma",
+   "akanna-1"
+  ],
+  [
    "اكبر",
    "lemma",
    "akbar-1"
+  ],
+  [
+   "اكدي",
+   "lemma",
+   "akda-1"
+  ],
+  [
+   "اكديا",
+   "lemma",
+   "akda-1"
+  ],
+  [
+   "اكفر",
+   "lemma",
+   "akfara-1"
   ],
   [
    "اخ",
@@ -274,6 +1159,56 @@ const QM_SEARCH_INDEX = {
   [
    "ءاخر",
    "lemma",
+   "akhar-1"
+  ],
+  [
+   "اخر",
+   "lemma",
+   "akhara-2"
+  ],
+  [
+   "اخبت",
+   "lemma",
+   "akhbata-1"
+  ],
+  [
+   "اخضر",
+   "lemma",
+   "akhdar-1"
+  ],
+  [
+   "اخذ",
+   "lemma",
+   "akhdh-1"
+  ],
+  [
+   "اخفي",
+   "lemma",
+   "akhfa-1"
+  ],
+  [
+   "اخفيا",
+   "lemma",
+   "akhfa-1"
+  ],
+  [
+   "اخفي",
+   "lemma",
+   "akhfaa-1"
+  ],
+  [
+   "اخفيا",
+   "lemma",
+   "akhfaa-1"
+  ],
+  [
+   "ءاخذ",
+   "lemma",
+   "akhidh-1"
+  ],
+  [
+   "ءاخر",
+   "lemma",
    "akhir-1"
   ],
   [
@@ -282,14 +1217,99 @@ const QM_SEARCH_INDEX = {
    "akhira-1"
   ],
   [
+   "اخلد",
+   "lemma",
+   "akhlada-1"
+  ],
+  [
+   "اخلف",
+   "lemma",
+   "akhlafa-1"
+  ],
+  [
+   "اخلص",
+   "lemma",
+   "akhlasa-1"
+  ],
+  [
    "اخرج",
    "lemma",
    "akhraja-1"
   ],
   [
+   "اخسر",
+   "lemma",
+   "akhsar-1"
+  ],
+  [
+   "اخسر",
+   "lemma",
+   "akhsara-3"
+  ],
+  [
+   "اخطا",
+   "lemma",
+   "akhta-1"
+  ],
+  [
+   "اخزي",
+   "lemma",
+   "akhza-1"
+  ],
+  [
+   "اخزيا",
+   "lemma",
+   "akhza-1"
+  ],
+  [
+   "عاكف",
+   "lemma",
+   "akif-1"
+  ],
+  [
+   "ءاكل",
+   "lemma",
+   "akil-1"
+  ],
+  [
+   "كنان",
+   "lemma",
+   "akinna-1"
+  ],
+  [
+   "اكال",
+   "lemma",
+   "akkal-1"
+  ],
+  [
+   "اكمه",
+   "lemma",
+   "akmah-1"
+  ],
+  [
+   "اكره",
+   "lemma",
+   "akrahaa-1"
+  ],
+  [
+   "اكرم",
+   "lemma",
+   "akram-1"
+  ],
+  [
+   "اكرم",
+   "lemma",
+   "akrama-1"
+  ],
+  [
    "اكثر",
    "lemma",
    "akthar-1"
+  ],
+  [
+   "اكثر",
+   "lemma",
+   "akthara-1"
   ],
   [
    "ءال",
@@ -307,9 +1327,34 @@ const QM_SEARCH_INDEX = {
    "ala-2"
   ],
   [
+   "الا",
+   "lemma",
+   "ala-3"
+  ],
+  [
    "ءالاء",
    "lemma",
    "alaa-1"
+  ],
+  [
+   "علا",
+   "lemma",
+   "alaa-2"
+  ],
+  [
+   "الي",
+   "lemma",
+   "alaa-3"
+  ],
+  [
+   "اليا",
+   "lemma",
+   "alaa-3"
+  ],
+  [
+   "الد",
+   "lemma",
+   "aladd-1"
   ],
   [
    "عالم",
@@ -320,6 +1365,71 @@ const QM_SEARCH_INDEX = {
    "اعلم",
    "lemma",
    "alam-2"
+  ],
+  [
+   "علامه",
+   "lemma",
+   "alama-1"
+  ],
+  [
+   "اعلن",
+   "lemma",
+   "alana-1"
+  ],
+  [
+   "الان",
+   "lemma",
+   "alana-2"
+  ],
+  [
+   "علانيه",
+   "lemma",
+   "alaniya-1"
+  ],
+  [
+   "علقه",
+   "lemma",
+   "alaqa-1"
+  ],
+  [
+   "الف",
+   "lemma",
+   "alf-1"
+  ],
+  [
+   "الفي",
+   "lemma",
+   "alfaa-1"
+  ],
+  [
+   "الفيا",
+   "lemma",
+   "alfaa-1"
+  ],
+  [
+   "الفاف",
+   "lemma",
+   "alfaf-1"
+  ],
+  [
+   "الهي",
+   "lemma",
+   "alha-1"
+  ],
+  [
+   "الحد",
+   "lemma",
+   "alhada-1"
+  ],
+  [
+   "الحق",
+   "lemma",
+   "alhaqa-1"
+  ],
+  [
+   "لهث",
+   "lemma",
+   "alhatha-1"
   ],
   [
    "علي",
@@ -342,6 +1452,16 @@ const QM_SEARCH_INDEX = {
    "alima-1"
   ],
   [
+   "الم",
+   "lemma",
+   "alima-2"
+  ],
+  [
+   "عاليه",
+   "lemma",
+   "aliya-1"
+  ],
+  [
    "الذي",
    "lemma",
    "alladhi-1"
@@ -352,9 +1472,19 @@ const QM_SEARCH_INDEX = {
    "alladhina-1"
   ],
   [
+   "الف",
+   "lemma",
+   "allafa-1"
+  ],
+  [
    "الله",
    "lemma",
    "allah-1"
+  ],
+  [
+   "علام",
+   "lemma",
+   "allam-1"
   ],
   [
    "علم",
@@ -392,6 +1522,26 @@ const QM_SEARCH_INDEX = {
    "ama-1"
   ],
   [
+   "عمي",
+   "lemma",
+   "ama-2"
+  ],
+  [
+   "امه",
+   "lemma",
+   "ama-3"
+  ],
+  [
+   "امد",
+   "lemma",
+   "amad-1"
+  ],
+  [
+   "عمد",
+   "lemma",
+   "amad-2"
+  ],
+  [
    "امد",
    "lemma",
    "amadda-1"
@@ -402,14 +1552,69 @@ const QM_SEARCH_INDEX = {
    "amal-1"
   ],
   [
+   "امل",
+   "lemma",
+   "amal-2"
+  ],
+  [
+   "امل",
+   "lemma",
+   "amalla-1"
+  ],
+  [
+   "امام",
+   "lemma",
+   "amam-1"
+  ],
+  [
+   "امانه",
+   "lemma",
+   "amana-1"
+  ],
+  [
+   "امنه",
+   "lemma",
+   "amana-1"
+  ],
+  [
+   "امنه",
+   "lemma",
+   "amana-2"
+  ],
+  [
    "امر",
    "lemma",
    "amara-1"
   ],
   [
+   "عمر",
+   "lemma",
+   "amara-2"
+  ],
+  [
+   "امر",
+   "lemma",
+   "amarr-1"
+  ],
+  [
    "امات",
    "lemma",
    "amata-1"
+  ],
+  [
+   "امهل",
+   "lemma",
+   "amhala-1"
+  ],
+  [
+   "عمه",
+   "lemma",
+   "amiha-1"
+  ],
+  [
+   "عامل",
+   "lemma",
+   "amil-1"
   ],
   [
    "عمل",
@@ -422,9 +1627,54 @@ const QM_SEARCH_INDEX = {
    "amin-1"
   ],
   [
+   "عم",
+   "lemma",
+   "amin-2"
+  ],
+  [
    "امن",
    "lemma",
    "amina-1"
+  ],
+  [
+   "امر",
+   "lemma",
+   "amir-1"
+  ],
+  [
+   "عمي",
+   "lemma",
+   "amiya-1"
+  ],
+  [
+   "امكن",
+   "lemma",
+   "amkana-1"
+  ],
+  [
+   "املي",
+   "lemma",
+   "amla-1"
+  ],
+  [
+   "امليا",
+   "lemma",
+   "amla-1"
+  ],
+  [
+   "املي",
+   "lemma",
+   "amlaa-1"
+  ],
+  [
+   "امليا",
+   "lemma",
+   "amlaa-1"
+  ],
+  [
+   "ءام",
+   "lemma",
+   "amm-1"
   ],
   [
    "اما",
@@ -432,9 +1682,89 @@ const QM_SEARCH_INDEX = {
    "amma-1"
   ],
   [
+   "عمه",
+   "lemma",
+   "amma-2"
+  ],
+  [
+   "عمي",
+   "lemma",
+   "ammaa-1"
+  ],
+  [
+   "عميا",
+   "lemma",
+   "ammaa-1"
+  ],
+  [
+   "عمر",
+   "lemma",
+   "ammara-1"
+  ],
+  [
+   "اماره",
+   "lemma",
+   "ammara-2"
+  ],
+  [
+   "امن",
+   "lemma",
+   "amn-1"
+  ],
+  [
+   "امني",
+   "lemma",
+   "amna-1"
+  ],
+  [
+   "امنيا",
+   "lemma",
+   "amna-1"
+  ],
+  [
    "امر",
    "lemma",
    "amr-1"
+  ],
+  [
+   "عمر",
+   "lemma",
+   "amr-2"
+  ],
+  [
+   "امراه",
+   "lemma",
+   "amra-1"
+  ],
+  [
+   "امس",
+   "lemma",
+   "ams-1"
+  ],
+  [
+   "امسي",
+   "lemma",
+   "amsa-1"
+  ],
+  [
+   "امسك",
+   "lemma",
+   "amsaka-1"
+  ],
+  [
+   "امت",
+   "lemma",
+   "amt-1"
+  ],
+  [
+   "امطر",
+   "lemma",
+   "amtara-1"
+  ],
+  [
+   "امثل",
+   "lemma",
+   "amthal-1"
   ],
   [
    "عن",
@@ -452,14 +1782,164 @@ const QM_SEARCH_INDEX = {
    "ana-1"
   ],
   [
+   "الان",
+   "lemma",
+   "ana-2"
+  ],
+  [
+   "الن",
+   "lemma",
+   "ana-2"
+  ],
+  [
+   "ءاناء",
+   "lemma",
+   "ana-3"
+  ],
+  [
+   "اناب",
+   "lemma",
+   "anaba-1"
+  ],
+  [
+   "انعام",
+   "lemma",
+   "anam-1"
+  ],
+  [
+   "انعم",
+   "lemma",
+   "anam-1"
+  ],
+  [
+   "نعم",
+   "lemma",
+   "anam-2"
+  ],
+  [
+   "انام",
+   "lemma",
+   "anam-3"
+  ],
+  [
    "انعم",
    "lemma",
    "anama-1"
   ],
   [
+   "ءانس",
+   "lemma",
+   "anasa-1"
+  ],
+  [
+   "عنت",
+   "lemma",
+   "anat-1"
+  ],
+  [
+   "نبا",
+   "lemma",
+   "anba-1"
+  ],
+  [
+   "انبا",
+   "lemma",
+   "anba-2"
+  ],
+  [
+   "انبا",
+   "lemma",
+   "anbaa-1"
+  ],
+  [
+   "انبت",
+   "lemma",
+   "anbata-1"
+  ],
+  [
+   "انذر",
+   "lemma",
+   "andhara-1"
+  ],
+  [
+   "انف",
+   "lemma",
+   "anf-1"
+  ],
+  [
+   "انفض",
+   "lemma",
+   "anfadda-1"
+  ],
+  [
+   "نفل",
+   "lemma",
+   "anfal-1"
+  ],
+  [
    "انفق",
    "lemma",
    "anfaqa-1"
+  ],
+  [
+   "عنيد",
+   "lemma",
+   "anid-1"
+  ],
+  [
+   "ءانف",
+   "lemma",
+   "anif-1"
+  ],
+  [
+   "عنت",
+   "lemma",
+   "anita-1"
+  ],
+  [
+   "ءانيه",
+   "lemma",
+   "aniya-1"
+  ],
+  [
+   "انجي",
+   "lemma",
+   "anjaa-1"
+  ],
+  [
+   "انجيا",
+   "lemma",
+   "anjaa-1"
+  ],
+  [
+   "عنكبوت",
+   "lemma",
+   "ankabut-1"
+  ],
+  [
+   "انكح",
+   "lemma",
+   "ankaha-1"
+  ],
+  [
+   "نكل",
+   "lemma",
+   "ankal-1"
+  ],
+  [
+   "انكر",
+   "lemma",
+   "ankara-1"
+  ],
+  [
+   "انكاث",
+   "lemma",
+   "ankath-1"
+  ],
+  [
+   "انمله",
+   "lemma",
+   "anmila-1"
   ],
   [
    "ان",
@@ -477,14 +1957,49 @@ const QM_SEARCH_INDEX = {
    "anna-2"
   ],
   [
+   "انقض",
+   "lemma",
+   "anqada-1"
+  ],
+  [
+   "انقذ",
+   "lemma",
+   "anqadha-1"
+  ],
+  [
+   "انسي",
+   "lemma",
+   "ansaa-1"
+  ],
+  [
+   "انسيا",
+   "lemma",
+   "ansaa-1"
+  ],
+  [
+   "انصت",
+   "lemma",
+   "ansata-1"
+  ],
+  [
    "انشا",
    "lemma",
    "ansha-1"
   ],
   [
+   "انشر",
+   "lemma",
+   "anshara-1"
+  ],
+  [
    "انت",
    "lemma",
    "anta-1"
+  ],
+  [
+   "انطق",
+   "lemma",
+   "antaqa-1"
   ],
   [
    "انتم",
@@ -497,9 +2012,39 @@ const QM_SEARCH_INDEX = {
    "anzala-1"
   ],
   [
+   "انظر",
+   "lemma",
+   "anzara-1"
+  ],
+  [
+   "اعقب",
+   "lemma",
+   "aqaba-1"
+  ],
+  [
+   "عقبه",
+   "lemma",
+   "aqaba-2"
+  ],
+  [
+   "عقد",
+   "lemma",
+   "aqada-1"
+  ],
+  [
    "عقل",
    "lemma",
    "aqala-1"
+  ],
+  [
+   "اقل",
+   "lemma",
+   "aqall-1"
+  ],
+  [
+   "اقل",
+   "lemma",
+   "aqalla-1"
   ],
   [
    "اقام",
@@ -507,9 +2052,139 @@ const QM_SEARCH_INDEX = {
    "aqama-1"
   ],
   [
+   "عقر",
+   "lemma",
+   "aqara-1"
+  ],
+  [
+   "اقر",
+   "lemma",
+   "aqarra-1"
+  ],
+  [
+   "اقر",
+   "lemma",
+   "aqarra-2"
+  ],
+  [
+   "اقبل",
+   "lemma",
+   "aqbala-1"
+  ],
+  [
+   "عقد",
+   "lemma",
+   "aqd-1"
+  ],
+  [
+   "اقدم",
+   "lemma",
+   "aqdam-1"
+  ],
+  [
+   "عقب",
+   "lemma",
+   "aqib-1"
+  ],
+  [
    "عاقبه",
    "lemma",
    "aqiba-1"
+  ],
+  [
+   "عقيم",
+   "lemma",
+   "aqim-1"
+  ],
+  [
+   "عاقر",
+   "lemma",
+   "aqir-1"
+  ],
+  [
+   "اقني",
+   "lemma",
+   "aqna-1"
+  ],
+  [
+   "عقب",
+   "lemma",
+   "aqqaba-1"
+  ],
+  [
+   "اقرب",
+   "lemma",
+   "aqrab-1"
+  ],
+  [
+   "اقرض",
+   "lemma",
+   "aqrada-1"
+  ],
+  [
+   "اقصي",
+   "lemma",
+   "aqsa-1"
+  ],
+  [
+   "اقسم",
+   "lemma",
+   "aqsama-1"
+  ],
+  [
+   "اقصر",
+   "lemma",
+   "aqsara-1"
+  ],
+  [
+   "اقسط",
+   "lemma",
+   "aqsat-1"
+  ],
+  [
+   "اقسط",
+   "lemma",
+   "aqsata-1"
+  ],
+  [
+   "اقوم",
+   "lemma",
+   "aqwam-1"
+  ],
+  [
+   "اري",
+   "lemma",
+   "ara-1"
+  ],
+  [
+   "اريا",
+   "lemma",
+   "ara-1"
+  ],
+  [
+   "عراء",
+   "lemma",
+   "ara-2"
+  ],
+  [
+   "اعراب",
+   "lemma",
+   "arab-1"
+  ],
+  [
+   "عربي",
+   "lemma",
+   "arabiyy-1"
+  ],
+  [
+   "عرض",
+   "lemma",
+   "arad-1"
+  ],
+  [
+   "عرض",
+   "lemma",
+   "aradha-1"
   ],
   [
    "عرف",
@@ -517,9 +2192,129 @@ const QM_SEARCH_INDEX = {
    "arafa-1"
   ],
   [
+   "عرفات",
+   "lemma",
+   "arafat-1"
+  ],
+  [
+   "اعرج",
+   "lemma",
+   "araj-1"
+  ],
+  [
+   "عرج",
+   "lemma",
+   "araja-1"
+  ],
+  [
+   "عرش",
+   "lemma",
+   "arasha-1"
+  ],
+  [
+   "اربي",
+   "lemma",
+   "arba-1"
+  ],
+  [
+   "اربيا",
+   "lemma",
+   "arba-1"
+  ],
+  [
+   "اربعه",
+   "lemma",
+   "arbaa-1"
+  ],
+  [
+   "اربعون",
+   "lemma",
+   "arbaun-1"
+  ],
+  [
    "ارض",
    "lemma",
    "ard-1"
+  ],
+  [
+   "ارضي",
+   "lemma",
+   "arda-1"
+  ],
+  [
+   "ارضيا",
+   "lemma",
+   "arda-1"
+  ],
+  [
+   "اردي",
+   "lemma",
+   "ardaa-1"
+  ],
+  [
+   "ارديا",
+   "lemma",
+   "ardaa-1"
+  ],
+  [
+   "ارضع",
+   "lemma",
+   "ardaa-2"
+  ],
+  [
+   "عرض",
+   "lemma",
+   "ardh-2"
+  ],
+  [
+   "ارذل",
+   "lemma",
+   "ardhal-1"
+  ],
+  [
+   "ارحم",
+   "lemma",
+   "arham-1"
+  ],
+  [
+   "ارهق",
+   "lemma",
+   "arhaqa-1"
+  ],
+  [
+   "عارض",
+   "lemma",
+   "arid-1"
+  ],
+  [
+   "عريض",
+   "lemma",
+   "aridh-1"
+  ],
+  [
+   "اريكه",
+   "lemma",
+   "arika-1"
+  ],
+  [
+   "ارجا",
+   "lemma",
+   "arjaa-1"
+  ],
+  [
+   "اركس",
+   "lemma",
+   "arkasa-1"
+  ],
+  [
+   "عرف",
+   "lemma",
+   "arrafa-1"
+  ],
+  [
+   "ارسي",
+   "lemma",
+   "arsaa-1"
   ],
   [
    "ارسل",
@@ -542,9 +2337,154 @@ const QM_SEARCH_INDEX = {
    "asa-1"
   ],
   [
+   "عصا",
+   "lemma",
+   "asa-2"
+  ],
+  [
+   "عصي",
+   "lemma",
+   "asaa-1"
+  ],
+  [
+   "عصيا",
+   "lemma",
+   "asaa-1"
+  ],
+  [
+   "ءاسي",
+   "lemma",
+   "asaa-2"
+  ],
+  [
+   "ءاسيا",
+   "lemma",
+   "asaa-2"
+  ],
+  [
+   "اساء",
+   "lemma",
+   "asaa-3"
+  ],
+  [
    "اصاب",
    "lemma",
    "asaaba-1"
+  ],
+  [
+   "اسف",
+   "lemma",
+   "asaf-1"
+  ],
+  [
+   "ءاسف",
+   "lemma",
+   "asafa-1"
+  ],
+  [
+   "عصم",
+   "lemma",
+   "asama-1"
+  ],
+  [
+   "اسام",
+   "lemma",
+   "asama-2"
+  ],
+  [
+   "اسر",
+   "lemma",
+   "asara-1"
+  ],
+  [
+   "عصر",
+   "lemma",
+   "asara-2"
+  ],
+  [
+   "اسر",
+   "lemma",
+   "asarra-1"
+  ],
+  [
+   "اصر",
+   "lemma",
+   "asarra-2"
+  ],
+  [
+   "اساطير",
+   "lemma",
+   "asatir-1"
+  ],
+  [
+   "اسطير",
+   "lemma",
+   "asatir-1"
+  ],
+  [
+   "اصبح",
+   "lemma",
+   "asbaha-1"
+  ],
+  [
+   "اصبر",
+   "lemma",
+   "asbara-1"
+  ],
+  [
+   "اصبع",
+   "lemma",
+   "asbi-1"
+  ],
+  [
+   "اصدق",
+   "lemma",
+   "asdaq-1"
+  ],
+  [
+   "اصدر",
+   "lemma",
+   "asdara-1"
+  ],
+  [
+   "عصف",
+   "lemma",
+   "asf-1"
+  ],
+  [
+   "اصفي",
+   "lemma",
+   "asfa-1"
+  ],
+  [
+   "اصفيا",
+   "lemma",
+   "asfa-1"
+  ],
+  [
+   "صفد",
+   "lemma",
+   "asfad-1"
+  ],
+  [
+   "اسفل",
+   "lemma",
+   "asfal-1"
+  ],
+  [
+   "اسفر",
+   "lemma",
+   "asfara-1"
+  ],
+  [
+   "اصغر",
+   "lemma",
+   "asghar-1"
+  ],
+  [
+   "عشا",
+   "lemma",
+   "asha-1"
   ],
   [
    "اشد",
@@ -552,9 +2492,184 @@ const QM_SEARCH_INDEX = {
    "ashadd-1"
   ],
   [
+   "اشق",
+   "lemma",
+   "ashaqq-1"
+  ],
+  [
+   "اشار",
+   "lemma",
+   "ashara-1"
+  ],
+  [
+   "اشعر",
+   "lemma",
+   "ashara-2"
+  ],
+  [
+   "اسحت",
+   "lemma",
+   "ashata-1"
+  ],
+  [
+   "اشفق",
+   "lemma",
+   "ashfaqa-1"
+  ],
+  [
+   "اشهد",
+   "lemma",
+   "ashhada-1"
+  ],
+  [
+   "اشداء",
+   "lemma",
+   "ashidda-1"
+  ],
+  [
+   "شحيح",
+   "lemma",
+   "ashihha-1"
+  ],
+  [
+   "اشر",
+   "lemma",
+   "ashir-1"
+  ],
+  [
+   "عشير",
+   "lemma",
+   "ashir-2"
+  ],
+  [
+   "عشيره",
+   "lemma",
+   "ashira-1"
+  ],
+  [
+   "عشي",
+   "lemma",
+   "ashiyy-1"
+  ],
+  [
+   "عشيه",
+   "lemma",
+   "ashiyya-1"
+  ],
+  [
+   "شكا",
+   "lemma",
+   "ashku-1"
+  ],
+  [
+   "اشقي",
+   "lemma",
+   "ashqa-1"
+  ],
+  [
+   "عشر",
+   "lemma",
+   "ashr-1"
+  ],
+  [
    "اشرك",
    "lemma",
    "ashraka-1"
+  ],
+  [
+   "اشرق",
+   "lemma",
+   "ashraqa-1"
+  ],
+  [
+   "شرير",
+   "lemma",
+   "ashrar-1"
+  ],
+  [
+   "اشتات",
+   "lemma",
+   "ashtat-1"
+  ],
+  [
+   "اشد",
+   "lemma",
+   "ashudd-1"
+  ],
+  [
+   "عصيب",
+   "lemma",
+   "asib-1"
+  ],
+  [
+   "عاصف",
+   "lemma",
+   "asif-1"
+  ],
+  [
+   "اسف",
+   "lemma",
+   "asif-2"
+  ],
+  [
+   "اصيل",
+   "lemma",
+   "asil-1"
+  ],
+  [
+   "عاصم",
+   "lemma",
+   "asim-1"
+  ],
+  [
+   "ءاسن",
+   "lemma",
+   "asin-1"
+  ],
+  [
+   "اسير",
+   "lemma",
+   "asir-1"
+  ],
+  [
+   "عسير",
+   "lemma",
+   "asir-2"
+  ],
+  [
+   "اسي",
+   "lemma",
+   "asiya-1"
+  ],
+  [
+   "عصي",
+   "lemma",
+   "asiyy-1"
+  ],
+  [
+   "اسكن",
+   "lemma",
+   "askana-1"
+  ],
+  [
+   "اسخط",
+   "lemma",
+   "askhata-1"
+  ],
+  [
+   "اصل",
+   "lemma",
+   "asl-1"
+  ],
+  [
+   "اصلي",
+   "lemma",
+   "asla-1"
+  ],
+  [
+   "اصليا",
+   "lemma",
+   "asla-1"
   ],
   [
    "اصلح",
@@ -565,6 +2680,106 @@ const QM_SEARCH_INDEX = {
    "اسلم",
    "lemma",
    "aslama-1"
+  ],
+  [
+   "اسماء",
+   "lemma",
+   "asma-1"
+  ],
+  [
+   "اسمع",
+   "lemma",
+   "asmaa-1"
+  ],
+  [
+   "اسمن",
+   "lemma",
+   "asmana-1"
+  ],
+  [
+   "اسقي",
+   "lemma",
+   "asqaa-1"
+  ],
+  [
+   "اسقيا",
+   "lemma",
+   "asqaa-1"
+  ],
+  [
+   "اسقط",
+   "lemma",
+   "asqata-1"
+  ],
+  [
+   "اسر",
+   "lemma",
+   "asr-1"
+  ],
+  [
+   "عصر",
+   "lemma",
+   "asr-2"
+  ],
+  [
+   "اسري",
+   "lemma",
+   "asra-1"
+  ],
+  [
+   "اسريا",
+   "lemma",
+   "asra-1"
+  ],
+  [
+   "اسرع",
+   "lemma",
+   "asraa-1"
+  ],
+  [
+   "اسرف",
+   "lemma",
+   "asrafa-1"
+  ],
+  [
+   "اسرر",
+   "lemma",
+   "asrara-1"
+  ],
+  [
+   "اسس",
+   "lemma",
+   "assasa-1"
+  ],
+  [
+   "اسوا",
+   "lemma",
+   "aswa-1"
+  ],
+  [
+   "اسود",
+   "lemma",
+   "aswad-1"
+  ],
+  [
+   "عتا",
+   "lemma",
+   "ata-3"
+  ],
+  [
+   "عطاء",
+   "lemma",
+   "ata-4"
+  ],
+  [
+   "اعطي",
+   "lemma",
+   "ata-5"
+  ],
+  [
+   "اعطيا",
+   "lemma",
+   "ata-5"
   ],
   [
    "اتي",
@@ -582,9 +2797,214 @@ const QM_SEARCH_INDEX = {
    "ataa-3"
   ],
   [
+   "اعتد",
+   "lemma",
+   "atada-1"
+  ],
+  [
+   "اطعم",
+   "lemma",
+   "atama-1"
+  ],
+  [
+   "اتم",
+   "lemma",
+   "atamma-1"
+  ],
+  [
+   "اتبع",
+   "lemma",
+   "atbaa-1"
+  ],
+  [
+   "اطغي",
+   "lemma",
+   "atgha-1"
+  ],
+  [
+   "عثا",
+   "lemma",
+   "atha-1"
+  ],
+  [
+   "اثاب",
+   "lemma",
+   "athaba-1"
+  ],
+  [
+   "اثام",
+   "lemma",
+   "atham-1"
+  ],
+  [
+   "اثر",
+   "lemma",
+   "athar-1"
+  ],
+  [
+   "اطهر",
+   "lemma",
+   "athar-2"
+  ],
+  [
+   "ءاثر",
+   "lemma",
+   "athara-1"
+  ],
+  [
+   "اثار",
+   "lemma",
+   "athara-2"
+  ],
+  [
+   "اثاره",
+   "lemma",
+   "athara-3"
+  ],
+  [
+   "اعثر",
+   "lemma",
+   "athara-4"
+  ],
+  [
+   "اثار",
+   "lemma",
+   "athara-5"
+  ],
+  [
+   "اثر",
+   "lemma",
+   "athara-6"
+  ],
+  [
+   "اثاث",
+   "lemma",
+   "athath-1"
+  ],
+  [
+   "اثبت",
+   "lemma",
+   "athbata-1"
+  ],
+  [
+   "اثيم",
+   "lemma",
+   "athim-1"
+  ],
+  [
+   "ءاثم",
+   "lemma",
+   "athim-2"
+  ],
+  [
+   "اثمر",
+   "lemma",
+   "athmara-1"
+  ],
+  [
+   "اثقل",
+   "lemma",
+   "athqala-1"
+  ],
+  [
+   "عتيد",
+   "lemma",
+   "atid-1"
+  ],
+  [
+   "عتيق",
+   "lemma",
+   "atiq-1"
+  ],
+  [
+   "ءاتيه",
+   "lemma",
+   "atiya-1"
+  ],
+  [
+   "عاتيه",
+   "lemma",
+   "atiya-2"
+  ],
+  [
+   "اطلع",
+   "lemma",
+   "atlaa-1"
+  ],
+  [
+   "اتقي",
+   "lemma",
+   "atqa-1"
+  ],
+  [
+   "اتقيا",
+   "lemma",
+   "atqa-1"
+  ],
+  [
+   "اتقن",
+   "lemma",
+   "atqana-1"
+  ],
+  [
    "او",
    "lemma",
    "aw-1"
+  ],
+  [
+   "اوعي",
+   "lemma",
+   "awa-3"
+  ],
+  [
+   "اوي",
+   "lemma",
+   "awaa-2"
+  ],
+  [
+   "اوعد",
+   "lemma",
+   "awada-1"
+  ],
+  [
+   "عجب",
+   "lemma",
+   "awajibtum-1"
+  ],
+  [
+   "عوان",
+   "lemma",
+   "awan-1"
+  ],
+  [
+   "اوبق",
+   "lemma",
+   "awbaqa-1"
+  ],
+  [
+   "اوضع",
+   "lemma",
+   "awdaa-1"
+  ],
+  [
+   "اوفي",
+   "lemma",
+   "awfa-1"
+  ],
+  [
+   "اوفيا",
+   "lemma",
+   "awfa-1"
+  ],
+  [
+   "اوفي",
+   "lemma",
+   "awfa-2"
+  ],
+  [
+   "اوفض",
+   "lemma",
+   "awfada-1"
   ],
   [
    "اوحي",
@@ -597,9 +3017,114 @@ const QM_SEARCH_INDEX = {
    "awha-1"
   ],
   [
+   "اوهن",
+   "lemma",
+   "awhan-1"
+  ],
+  [
+   "اوجس",
+   "lemma",
+   "awjasa-1"
+  ],
+  [
+   "اولي",
+   "lemma",
+   "awla-1"
+  ],
+  [
+   "اوليا",
+   "lemma",
+   "awla-1"
+  ],
+  [
+   "اولج",
+   "lemma",
+   "awlaja-1"
+  ],
+  [
    "ولي",
    "lemma",
    "awliya-1"
+  ],
+  [
+   "اوقع",
+   "lemma",
+   "awqaa-1"
+  ],
+  [
+   "اوقد",
+   "lemma",
+   "awqada-1"
+  ],
+  [
+   "قوت",
+   "lemma",
+   "awqat-1"
+  ],
+  [
+   "عوره",
+   "lemma",
+   "awra-1"
+  ],
+  [
+   "اوري",
+   "lemma",
+   "awra-2"
+  ],
+  [
+   "اوريا",
+   "lemma",
+   "awra-2"
+  ],
+  [
+   "اورد",
+   "lemma",
+   "awrada-1"
+  ],
+  [
+   "اورث",
+   "lemma",
+   "awratha-1"
+  ],
+  [
+   "اوصي",
+   "lemma",
+   "awsa-1"
+  ],
+  [
+   "اوصي",
+   "lemma",
+   "awsaa-1"
+  ],
+  [
+   "اوصيا",
+   "lemma",
+   "awsaa-1"
+  ],
+  [
+   "اوسط",
+   "lemma",
+   "awsat-1"
+  ],
+  [
+   "اوثق",
+   "lemma",
+   "awthaqa-1"
+  ],
+  [
+   "اواب",
+   "lemma",
+   "awwab-1"
+  ],
+  [
+   "اوب",
+   "lemma",
+   "awwaba-1"
+  ],
+  [
+   "اواه",
+   "lemma",
+   "awwah-1"
   ],
   [
    "اول",
@@ -607,9 +3132,29 @@ const QM_SEARCH_INDEX = {
    "awwal-1"
   ],
   [
+   "اوزع",
+   "lemma",
+   "awzaa-1"
+  ],
+  [
    "ءايه",
    "lemma",
    "aya-1"
+  ],
+  [
+   "ايكه",
+   "lemma",
+   "ayka-1"
+  ],
+  [
+   "عيله",
+   "lemma",
+   "ayla-1"
+  ],
+  [
+   "ايمن",
+   "lemma",
+   "ayman-1"
   ],
   [
    "عين",
@@ -622,6 +3167,76 @@ const QM_SEARCH_INDEX = {
    "ayy-1"
   ],
   [
+   "ايد",
+   "lemma",
+   "ayyada-1"
+  ],
+  [
+   "ايان",
+   "lemma",
+   "ayyana-1"
+  ],
+  [
+   "ايم",
+   "lemma",
+   "ayyim-1"
+  ],
+  [
+   "ايوب",
+   "lemma",
+   "ayyub-1"
+  ],
+  [
+   "عزب",
+   "lemma",
+   "azaba-1"
+  ],
+  [
+   "ازاغ",
+   "lemma",
+   "azagha-1"
+  ],
+  [
+   "اعظم",
+   "lemma",
+   "azam-1"
+  ],
+  [
+   "عزم",
+   "lemma",
+   "azama-1"
+  ],
+  [
+   "اعظم",
+   "lemma",
+   "azama-2"
+  ],
+  [
+   "ءازر",
+   "lemma",
+   "azar-1"
+  ],
+  [
+   "اظفر",
+   "lemma",
+   "azfara-1"
+  ],
+  [
+   "اظهر",
+   "lemma",
+   "azhara-1"
+  ],
+  [
+   "ازف",
+   "lemma",
+   "azifa-1"
+  ],
+  [
+   "ازفه",
+   "lemma",
+   "azifa-2"
+  ],
+  [
    "عظيم",
    "lemma",
    "azim-1"
@@ -632,14 +3247,94 @@ const QM_SEARCH_INDEX = {
    "aziz-1"
   ],
   [
+   "ازجي",
+   "lemma",
+   "azjaa-1"
+  ],
+  [
+   "ازكي",
+   "lemma",
+   "azka-1"
+  ],
+  [
+   "ازكيا",
+   "lemma",
+   "azka-1"
+  ],
+  [
+   "ازلف",
+   "lemma",
+   "azlafa-1"
+  ],
+  [
    "اظلم",
    "lemma",
    "azlam-1"
   ],
   [
+   "زلم",
+   "lemma",
+   "azlam-2"
+  ],
+  [
+   "عظم",
+   "lemma",
+   "azm-1"
+  ],
+  [
+   "عزم",
+   "lemma",
+   "azm-2"
+  ],
+  [
+   "ازر",
+   "lemma",
+   "azr-1"
+  ],
+  [
+   "اعز",
+   "lemma",
+   "azz-1"
+  ],
+  [
+   "از",
+   "lemma",
+   "azza-1"
+  ],
+  [
+   "عظم",
+   "lemma",
+   "azzama-1"
+  ],
+  [
+   "عزر",
+   "lemma",
+   "azzara-1"
+  ],
+  [
+   "باء",
+   "lemma",
+   "baa-1"
+  ],
+  [
    "بعد",
    "lemma",
    "baad-1"
+  ],
+  [
+   "بعل",
+   "lemma",
+   "baal-1"
+  ],
+  [
+   "بارك",
+   "lemma",
+   "baaraka-1"
+  ],
+  [
+   "برك",
+   "lemma",
+   "baaraka-1"
   ],
   [
    "بعث",
@@ -652,6 +3347,11 @@ const QM_SEARCH_INDEX = {
    "bab-1"
   ],
   [
+   "بابل",
+   "lemma",
+   "babil-1"
+  ],
+  [
    "بعض",
    "lemma",
    "bad-1"
@@ -662,9 +3362,129 @@ const QM_SEARCH_INDEX = {
    "bada-1"
   ],
   [
+   "باد",
+   "lemma",
+   "bada-3"
+  ],
+  [
+   "بدا",
+   "lemma",
+   "badaa-1"
+  ],
+  [
+   "بدل",
+   "lemma",
+   "badal-1"
+  ],
+  [
+   "بدنه",
+   "lemma",
+   "badana-1"
+  ],
+  [
    "بدل",
    "lemma",
    "baddala-1"
+  ],
+  [
+   "بذر",
+   "lemma",
+   "badhdhara-1"
+  ],
+  [
+   "باد",
+   "lemma",
+   "badi-1"
+  ],
+  [
+   "بديع",
+   "lemma",
+   "badi-2"
+  ],
+  [
+   "بدر",
+   "lemma",
+   "badr-1"
+  ],
+  [
+   "بدو",
+   "lemma",
+   "badw-1"
+  ],
+  [
+   "بغي",
+   "lemma",
+   "bagha-1"
+  ],
+  [
+   "بغي",
+   "lemma",
+   "baghaa-1"
+  ],
+  [
+   "بغيا",
+   "lemma",
+   "baghaa-1"
+  ],
+  [
+   "بغضاء",
+   "lemma",
+   "baghda-1"
+  ],
+  [
+   "باغ",
+   "lemma",
+   "baghin-1"
+  ],
+  [
+   "بغي",
+   "lemma",
+   "baghiyy-1"
+  ],
+  [
+   "بغل",
+   "lemma",
+   "baghl-1"
+  ],
+  [
+   "بغته",
+   "lemma",
+   "baghta-1"
+  ],
+  [
+   "بغي",
+   "lemma",
+   "baghy-1"
+  ],
+  [
+   "بهت",
+   "lemma",
+   "bahata-1"
+  ],
+  [
+   "بحث",
+   "lemma",
+   "bahatha-1"
+  ],
+  [
+   "بهيج",
+   "lemma",
+   "bahij-1"
+  ],
+  [
+   "بهيمه",
+   "lemma",
+   "bahima-1"
+  ],
+  [
+   "بحيره",
+   "lemma",
+   "bahira-1"
+  ],
+  [
+   "بهت",
+   "lemma",
+   "bahita-1"
   ],
   [
    "بحر",
@@ -677,9 +3497,59 @@ const QM_SEARCH_INDEX = {
    "baid-1"
   ],
   [
+   "بعد",
+   "lemma",
+   "baida-1"
+  ],
+  [
+   "بعير",
+   "lemma",
+   "bair-1"
+  ],
+  [
+   "بئيس",
+   "lemma",
+   "bais-1"
+  ],
+  [
+   "بكي",
+   "lemma",
+   "baka-1"
+  ],
+  [
+   "بخس",
+   "lemma",
+   "bakhasa-1"
+  ],
+  [
+   "باخع",
+   "lemma",
+   "bakhia-1"
+  ],
+  [
+   "بخل",
+   "lemma",
+   "bakhila-1"
+  ],
+  [
+   "بخس",
+   "lemma",
+   "bakhs-1"
+  ],
+  [
+   "بكه",
+   "lemma",
+   "bakka-1"
+  ],
+  [
    "بل",
    "lemma",
    "bal-1"
+  ],
+  [
+   "بال",
+   "lemma",
+   "bal-2"
   ],
   [
    "بلي",
@@ -692,9 +3562,39 @@ const QM_SEARCH_INDEX = {
    "bala-1"
   ],
   [
+   "بلاء",
+   "lemma",
+   "bala-2"
+  ],
+  [
+   "بلاء",
+   "lemma",
+   "bala-5"
+  ],
+  [
+   "بلع",
+   "lemma",
+   "bala-6"
+  ],
+  [
+   "بلا",
+   "lemma",
+   "balaa-1"
+  ],
+  [
    "بلد",
    "lemma",
    "balad-1"
+  ],
+  [
+   "بلاغ",
+   "lemma",
+   "balagh-1"
+  ],
+  [
+   "بلغ",
+   "lemma",
+   "balagh-1"
   ],
   [
    "بلغ",
@@ -702,9 +3602,34 @@ const QM_SEARCH_INDEX = {
    "balagha-1"
   ],
   [
+   "بلي",
+   "lemma",
+   "bali-1"
+  ],
+  [
+   "بالغ",
+   "lemma",
+   "baligh-1"
+  ],
+  [
+   "بلغ",
+   "lemma",
+   "ballagha-1"
+  ],
+  [
    "بني",
    "lemma",
    "bana-1"
+  ],
+  [
+   "بنان",
+   "lemma",
+   "banan-1"
+  ],
+  [
+   "بناء",
+   "lemma",
+   "banna-1"
   ],
   [
    "بني",
@@ -712,9 +3637,134 @@ const QM_SEARCH_INDEX = {
    "banu-1"
   ],
   [
+   "بقر",
+   "lemma",
+   "baqar-1"
+  ],
+  [
+   "بقره",
+   "lemma",
+   "baqara-1"
+  ],
+  [
+   "باق",
+   "lemma",
+   "baqi-1"
+  ],
+  [
+   "بقي",
+   "lemma",
+   "baqiya-1"
+  ],
+  [
+   "بقيه",
+   "lemma",
+   "baqiyya-1"
+  ],
+  [
    "بر",
    "lemma",
    "bar-1"
+  ],
+  [
+   "براء",
+   "lemma",
+   "bara-1"
+  ],
+  [
+   "بار",
+   "lemma",
+   "bara-2"
+  ],
+  [
+   "براءه",
+   "lemma",
+   "baraa-1"
+  ],
+  [
+   "بركه",
+   "lemma",
+   "baraka-2"
+  ],
+  [
+   "برز",
+   "lemma",
+   "baraza-1"
+  ],
+  [
+   "برد",
+   "lemma",
+   "bard-1"
+  ],
+  [
+   "بارئ",
+   "lemma",
+   "bari-1"
+  ],
+  [
+   "بارد",
+   "lemma",
+   "barid-1"
+  ],
+  [
+   "بريء",
+   "lemma",
+   "barii-1"
+  ],
+  [
+   "برق",
+   "lemma",
+   "bariqa-1"
+  ],
+  [
+   "بريه",
+   "lemma",
+   "bariyya-1"
+  ],
+  [
+   "بارز",
+   "lemma",
+   "bariza-1"
+  ],
+  [
+   "برق",
+   "lemma",
+   "barq-1"
+  ],
+  [
+   "بر",
+   "lemma",
+   "barra-1"
+  ],
+  [
+   "برا",
+   "lemma",
+   "barra-2"
+  ],
+  [
+   "برزخ",
+   "lemma",
+   "barzakh-1"
+  ],
+  [
+   "باس",
+   "lemma",
+   "bas-1"
+  ],
+  [
+   "باساء",
+   "lemma",
+   "basa-1"
+  ],
+  [
+   "بصل",
+   "lemma",
+   "basal-1"
+  ],
+  [
+   "بسط",
+   "lemma",
+   "basata-1"
   ],
   [
    "بشر",
@@ -722,9 +3772,24 @@ const QM_SEARCH_INDEX = {
    "bashar-1"
   ],
   [
+   "باشر",
+   "lemma",
+   "bashara-2"
+  ],
+  [
+   "بشير",
+   "lemma",
+   "bashir-1"
+  ],
+  [
    "بشر",
    "lemma",
    "bashshara-1"
+  ],
+  [
+   "باسق",
+   "lemma",
+   "basiq-1"
   ],
   [
    "بصير",
@@ -732,9 +3797,154 @@ const QM_SEARCH_INDEX = {
    "basir-1"
   ],
   [
+   "باسر",
+   "lemma",
+   "basir-2"
+  ],
+  [
+   "باسط",
+   "lemma",
+   "basit-1"
+  ],
+  [
+   "بس",
+   "lemma",
+   "bass-1"
+  ],
+  [
+   "بصر",
+   "lemma",
+   "basura-1"
+  ],
+  [
+   "بات",
+   "lemma",
+   "bata-1"
+  ],
+  [
+   "بطل",
+   "lemma",
+   "batala-1"
+  ],
+  [
+   "بطن",
+   "lemma",
+   "batana-1"
+  ],
+  [
+   "بطر",
+   "lemma",
+   "batar-1"
+  ],
+  [
+   "بطش",
+   "lemma",
+   "batasha-1"
+  ],
+  [
+   "بث",
+   "lemma",
+   "bath-1"
+  ],
+  [
+   "بعث",
+   "lemma",
+   "bath-2"
+  ],
+  [
+   "بث",
+   "lemma",
+   "baththa-1"
+  ],
+  [
    "باطل",
    "lemma",
    "batil-1"
+  ],
+  [
+   "باطن",
+   "lemma",
+   "batin-1"
+  ],
+  [
+   "بطر",
+   "lemma",
+   "batira-1"
+  ],
+  [
+   "بطن",
+   "lemma",
+   "batn-1"
+  ],
+  [
+   "بطش",
+   "lemma",
+   "batsh-1"
+  ],
+  [
+   "بطشه",
+   "lemma",
+   "batsha-1"
+  ],
+  [
+   "بطا",
+   "lemma",
+   "battaa-1"
+  ],
+  [
+   "بعد",
+   "lemma",
+   "bauda-1"
+  ],
+  [
+   "بعوضه",
+   "lemma",
+   "bauda-2"
+  ],
+  [
+   "بوار",
+   "lemma",
+   "bawar-1"
+  ],
+  [
+   "بوا",
+   "lemma",
+   "bawwaa-1"
+  ],
+  [
+   "بيع",
+   "lemma",
+   "bay-1"
+  ],
+  [
+   "بايع",
+   "lemma",
+   "baya-1"
+  ],
+  [
+   "ابيض",
+   "lemma",
+   "bayad-1"
+  ],
+  [
+   "بيان",
+   "lemma",
+   "bayan-1"
+  ],
+  [
+   "بيات",
+   "lemma",
+   "bayat-1"
+  ],
+  [
+   "بيت",
+   "lemma",
+   "bayat-1"
+  ],
+  [
+   "بيضاء",
+   "lemma",
+   "baydaa-1"
   ],
   [
    "بين",
@@ -752,14 +3962,69 @@ const QM_SEARCH_INDEX = {
    "bayyana-1"
   ],
   [
+   "بيت",
+   "lemma",
+   "bayyata-1"
+  ],
+  [
+   "بين",
+   "lemma",
+   "bayyin-1"
+  ],
+  [
    "بينه",
    "lemma",
    "bayyina-1"
   ],
   [
+   "بازغ",
+   "lemma",
+   "bazigh-1"
+  ],
+  [
    "ب",
    "lemma",
    "bi-1"
+  ],
+  [
+   "بدع",
+   "lemma",
+   "bid-1"
+  ],
+  [
+   "بضع",
+   "lemma",
+   "bid-2"
+  ],
+  [
+   "بضاعه",
+   "lemma",
+   "bidat-1"
+  ],
+  [
+   "بغاء",
+   "lemma",
+   "bigha-1"
+  ],
+  [
+   "بكر",
+   "lemma",
+   "bikr-1"
+  ],
+  [
+   "بناء",
+   "lemma",
+   "bina-1"
+  ],
+  [
+   "بنت",
+   "lemma",
+   "bint-1"
+  ],
+  [
+   "بئر",
+   "lemma",
+   "bir-1"
   ],
   [
    "بر",
@@ -772,9 +4037,144 @@ const QM_SEARCH_INDEX = {
    "bisa-1"
   ],
   [
+   "بساط",
+   "lemma",
+   "bisat-1"
+  ],
+  [
+   "بطانه",
+   "lemma",
+   "bitana-1"
+  ],
+  [
+   "بيعه",
+   "lemma",
+   "biya-1"
+  ],
+  [
+   "باسط",
+   "lemma",
+   "bsit-1"
+  ],
+  [
+   "بعد",
+   "lemma",
+   "budd-1"
+  ],
+  [
+   "بهتان",
+   "lemma",
+   "buhtan-1"
+  ],
+  [
+   "بهتن",
+   "lemma",
+   "buhtan-1"
+  ],
+  [
+   "بخل",
+   "lemma",
+   "bukhl-1"
+  ],
+  [
+   "باك",
+   "lemma",
+   "buki-1"
+  ],
+  [
+   "بكره",
+   "lemma",
+   "bukra-1"
+  ],
+  [
+   "بنيان",
+   "lemma",
+   "bunyan-1"
+  ],
+  [
+   "بنين",
+   "lemma",
+   "bunyan-1"
+  ],
+  [
+   "بقعه",
+   "lemma",
+   "buqa-1"
+  ],
+  [
+   "بور",
+   "lemma",
+   "bur-1"
+  ],
+  [
+   "برهان",
+   "lemma",
+   "burhan-1"
+  ],
+  [
+   "برهن",
+   "lemma",
+   "burhan-1"
+  ],
+  [
+   "برج",
+   "lemma",
+   "burj-1"
+  ],
+  [
+   "برز",
+   "lemma",
+   "burrizat-1"
+  ],
+  [
+   "بشر",
+   "lemma",
+   "bushr-1"
+  ],
+  [
+   "بشري",
+   "lemma",
+   "bushra-1"
+  ],
+  [
+   "بشريا",
+   "lemma",
+   "bushra-1"
+  ],
+  [
+   "بعثر",
+   "lemma",
+   "buthira-1"
+  ],
+  [
    "دعا",
    "lemma",
    "daaa-1"
+  ],
+  [
+   "دع",
+   "lemma",
+   "daaa-3"
+  ],
+  [
+   "ضاعف",
+   "lemma",
+   "daafa-1"
+  ],
+  [
+   "ضعف",
+   "lemma",
+   "daafa-1"
+  ],
+  [
+   "ضار",
+   "lemma",
+   "daarra-1"
+  ],
+  [
+   "داب",
+   "lemma",
+   "dab-1"
   ],
   [
    "دابه",
@@ -782,9 +4182,119 @@ const QM_SEARCH_INDEX = {
    "dabba-1"
   ],
   [
+   "دبر",
+   "lemma",
+   "dabbara-1"
+  ],
+  [
+   "دابر",
+   "lemma",
+   "dabir-1"
+  ],
+  [
+   "ضعف",
+   "lemma",
+   "daf-1"
+  ],
+  [
+   "دفع",
+   "lemma",
+   "daf-2"
+  ],
+  [
+   "دفع",
+   "lemma",
+   "dafa-1"
+  ],
+  [
+   "دافع",
+   "lemma",
+   "dafaa-1"
+  ],
+  [
+   "دافع",
+   "lemma",
+   "dafi-1"
+  ],
+  [
+   "دحا",
+   "lemma",
+   "dahaa-1"
+  ],
+  [
+   "داحض",
+   "lemma",
+   "dahid-1"
+  ],
+  [
+   "ضاحك",
+   "lemma",
+   "dahik-1"
+  ],
+  [
+   "ضحك",
+   "lemma",
+   "dahika-1"
+  ],
+  [
+   "دهر",
+   "lemma",
+   "dahr-1"
+  ],
+  [
+   "داع",
+   "lemma",
+   "dai-1"
+  ],
+  [
+   "ضعيف",
+   "lemma",
+   "daif-1"
+  ],
+  [
+   "دائم",
+   "lemma",
+   "daim-1"
+  ],
+  [
+   "دائره",
+   "lemma",
+   "daira-1"
+  ],
+  [
+   "دعي",
+   "lemma",
+   "daiyy-1"
+  ],
+  [
+   "دخل",
+   "lemma",
+   "dakhal-1"
+  ],
+  [
    "دخل",
    "lemma",
    "dakhala-1"
+  ],
+  [
+   "داخل",
+   "lemma",
+   "dakhil-1"
+  ],
+  [
+   "داخر",
+   "lemma",
+   "dakhir-1"
+  ],
+  [
+   "دك",
+   "lemma",
+   "dakk-1"
+  ],
+  [
+   "دك",
+   "lemma",
+   "dakka-1"
   ],
   [
    "ضلال",
@@ -797,6 +4307,16 @@ const QM_SEARCH_INDEX = {
    "dalal-1"
   ],
   [
+   "ضلاله",
+   "lemma",
+   "dalala-1"
+  ],
+  [
+   "ضلله",
+   "lemma",
+   "dalala-1"
+  ],
+  [
    "ضال",
    "lemma",
    "dall-1"
@@ -807,14 +4327,114 @@ const QM_SEARCH_INDEX = {
    "dalla-1"
   ],
   [
+   "دل",
+   "lemma",
+   "dalla-2"
+  ],
+  [
+   "دلي",
+   "lemma",
+   "dallaa-1"
+  ],
+  [
+   "دليا",
+   "lemma",
+   "dallaa-1"
+  ],
+  [
+   "دلو",
+   "lemma",
+   "dalw-1"
+  ],
+  [
+   "دم",
+   "lemma",
+   "dam-1"
+  ],
+  [
+   "دمع",
+   "lemma",
+   "dam-2"
+  ],
+  [
+   "دام",
+   "lemma",
+   "dama-1"
+  ],
+  [
    "دمدم",
    "lemma",
    "damdama-1"
   ],
   [
+   "ضم",
+   "lemma",
+   "damma-1"
+  ],
+  [
+   "دمر",
+   "lemma",
+   "dammara-1"
+  ],
+  [
+   "ضان",
+   "lemma",
+   "dan-1"
+  ],
+  [
+   "دنا",
+   "lemma",
+   "dana-1"
+  ],
+  [
+   "دان",
+   "lemma",
+   "dana-2"
+  ],
+  [
+   "دان",
+   "lemma",
+   "dani-1"
+  ],
+  [
+   "دانيه",
+   "lemma",
+   "danin-1"
+  ],
+  [
+   "ضنين",
+   "lemma",
+   "danin-2"
+  ],
+  [
+   "ضاق",
+   "lemma",
+   "daqa-1"
+  ],
+  [
    "دار",
    "lemma",
    "dar-1"
+  ],
+  [
+   "ضار",
+   "lemma",
+   "dar-3"
+  ],
+  [
+   "دار",
+   "lemma",
+   "dara-1"
+  ],
+  [
+   "دري",
+   "lemma",
+   "daraa-1"
+  ],
+  [
+   "دريا",
+   "lemma",
+   "daraa-1"
   ],
   [
    "ضرب",
@@ -827,9 +4447,119 @@ const QM_SEARCH_INDEX = {
    "daraja-1"
   ],
   [
+   "درك",
+   "lemma",
+   "darak-1"
+  ],
+  [
+   "ضرر",
+   "lemma",
+   "darar-1"
+  ],
+  [
+   "درس",
+   "lemma",
+   "darasa-1"
+  ],
+  [
+   "ضرب",
+   "lemma",
+   "darb-1"
+  ],
+  [
+   "ضريع",
+   "lemma",
+   "darii-1"
+  ],
+  [
+   "ضر",
+   "lemma",
+   "darra-1"
+  ],
+  [
+   "ضراء",
+   "lemma",
+   "darra-2"
+  ],
+  [
+   "درا",
+   "lemma",
+   "darraa-1"
+  ],
+  [
+   "دسي",
+   "lemma",
+   "dassa-1"
+  ],
+  [
+   "دسيا",
+   "lemma",
+   "dassa-1"
+  ],
+  [
+   "ضعف",
+   "lemma",
+   "dauf-1"
+  ],
+  [
+   "دعوي",
+   "lemma",
+   "dawa-1"
+  ],
+  [
+   "دعويا",
+   "lemma",
+   "dawa-1"
+  ],
+  [
+   "دعوه",
+   "lemma",
+   "dawa-2"
+  ],
+  [
+   "داول",
+   "lemma",
+   "dawala-1"
+  ],
+  [
    "داود",
    "lemma",
    "dawud-1"
+  ],
+  [
+   "ضيف",
+   "lemma",
+   "dayf-1"
+  ],
+  [
+   "دين",
+   "lemma",
+   "dayn-1"
+  ],
+  [
+   "ضيق",
+   "lemma",
+   "dayq-1"
+  ],
+  [
+   "ضير",
+   "lemma",
+   "dayr-1"
+  ],
+  [
+   "ضيف",
+   "lemma",
+   "dayyafa-1"
+  ],
+  [
+   "ديار",
+   "lemma",
+   "dayyar-1"
+  ],
+  [
+   "ضيق",
+   "lemma",
+   "dayyiq-1"
   ],
   [
    "دين",
@@ -837,14 +4567,54 @@ const QM_SEARCH_INDEX = {
    "deen-1"
   ],
   [
+   "ذبح",
+   "lemma",
+   "dhabaha-1"
+  ],
+  [
+   "ذبح",
+   "lemma",
+   "dhabbaha-1"
+  ],
+  [
+   "ذهب",
+   "lemma",
+   "dhahab-1"
+  ],
+  [
+   "ذهاب",
+   "lemma",
+   "dhahab-2"
+  ],
+  [
    "ذهب",
    "lemma",
    "dhahaba-1"
   ],
   [
+   "ذاهب",
+   "lemma",
+   "dhahib-1"
+  ],
+  [
+   "ذائق",
+   "lemma",
+   "dhaiq-1"
+  ],
+  [
+   "ذكر",
+   "lemma",
+   "dhakar-1"
+  ],
+  [
    "ذكر",
    "lemma",
    "dhakara-1"
+  ],
+  [
+   "ذاكر",
+   "lemma",
+   "dhakir-1"
   ],
   [
    "ذكر",
@@ -872,9 +4642,19 @@ const QM_SEARCH_INDEX = {
    "dhalikum-1"
   ],
   [
+   "ذلول",
+   "lemma",
+   "dhalul-1"
+  ],
+  [
    "ذنب",
    "lemma",
    "dhanb-1"
+  ],
+  [
+   "ذنوب",
+   "lemma",
+   "dhanub-1"
   ],
   [
    "ذاق",
@@ -882,9 +4662,54 @@ const QM_SEARCH_INDEX = {
    "dhaqa-1"
   ],
   [
+   "ذرع",
+   "lemma",
+   "dhar-1"
+  ],
+  [
+   "وذر",
+   "lemma",
+   "dhara-1"
+  ],
+  [
+   "ذرا",
+   "lemma",
+   "dhara-3"
+  ],
+  [
+   "ذرا",
+   "lemma",
+   "dharaa-1"
+  ],
+  [
+   "ذاريه",
+   "lemma",
+   "dhari-1"
+  ],
+  [
+   "ذره",
+   "lemma",
+   "dharra-1"
+  ],
+  [
+   "ذرو",
+   "lemma",
+   "dharw-1"
+  ],
+  [
    "ذات",
    "lemma",
    "dhat-1"
+  ],
+  [
+   "ذئب",
+   "lemma",
+   "dhib-1"
+  ],
+  [
+   "ذبح",
+   "lemma",
+   "dhibh-1"
   ],
   [
    "ذكر",
@@ -902,9 +4727,49 @@ const QM_SEARCH_INDEX = {
    "dhikra-1"
   ],
   [
+   "ذله",
+   "lemma",
+   "dhilla-1"
+  ],
+  [
+   "ذمه",
+   "lemma",
+   "dhimma-1"
+  ],
+  [
+   "ذراع",
+   "lemma",
+   "dhira-1"
+  ],
+  [
    "ذو",
    "lemma",
    "dhu-1"
+  ],
+  [
+   "ذباب",
+   "lemma",
+   "dhubab-1"
+  ],
+  [
+   "ذكران",
+   "lemma",
+   "dhukran-1"
+  ],
+  [
+   "ذل",
+   "lemma",
+   "dhull-1"
+  ],
+  [
+   "ذلل",
+   "lemma",
+   "dhulla-1"
+  ],
+  [
+   "ذقن",
+   "lemma",
+   "dhuqan-1"
   ],
   [
    "ذريه",
@@ -912,9 +4777,84 @@ const QM_SEARCH_INDEX = {
    "dhurriyya-1"
   ],
   [
+   "ضعف",
+   "lemma",
+   "dif-1"
+  ],
+  [
+   "ضعيف",
+   "lemma",
+   "difaf-1"
+  ],
+  [
+   "ضغن",
+   "lemma",
+   "dighn-1"
+  ],
+  [
+   "ضغث",
+   "lemma",
+   "dighth-1"
+  ],
+  [
+   "دهان",
+   "lemma",
+   "dihan-1"
+  ],
+  [
+   "دهن",
+   "lemma",
+   "dihn-2"
+  ],
+  [
+   "ضرار",
+   "lemma",
+   "dirar-1"
+  ],
+  [
+   "ديه",
+   "lemma",
+   "diya-1"
+  ],
+  [
+   "ضياء",
+   "lemma",
+   "diya-2"
+  ],
+  [
    "دعاء",
    "lemma",
    "dua-1"
+  ],
+  [
+   "ضعيف",
+   "lemma",
+   "duafa-1"
+  ],
+  [
+   "دبر",
+   "lemma",
+   "dubur-1"
+  ],
+  [
+   "ضحي",
+   "lemma",
+   "duha-1"
+  ],
+  [
+   "دخان",
+   "lemma",
+   "dukhan-1"
+  ],
+  [
+   "دوله",
+   "lemma",
+   "dula-1"
+  ],
+  [
+   "دلوك",
+   "lemma",
+   "duluk-1"
   ],
   [
    "دون",
@@ -932,9 +4872,44 @@ const QM_SEARCH_INDEX = {
    "durr-1"
   ],
   [
+   "دري",
+   "lemma",
+   "durriyy-1"
+  ],
+  [
+   "فاء",
+   "lemma",
+   "faa-1"
+  ],
+  [
+   "فاعل",
+   "lemma",
+   "faail-1"
+  ],
+  [
+   "فعال",
+   "lemma",
+   "faal-1"
+  ],
+  [
    "فعل",
    "lemma",
    "faala-1"
+  ],
+  [
+   "فارق",
+   "lemma",
+   "faaraqa-1"
+  ],
+  [
+   "فاض",
+   "lemma",
+   "fada-1"
+  ],
+  [
+   "فضل",
+   "lemma",
+   "faddala-1"
   ],
   [
    "فضل",
@@ -942,9 +4917,264 @@ const QM_SEARCH_INDEX = {
    "fadl-1"
   ],
   [
+   "فاحشه",
+   "lemma",
+   "fahisha-1"
+  ],
+  [
+   "فحشاء",
+   "lemma",
+   "fahsha-1"
+  ],
+  [
+   "فائز",
+   "lemma",
+   "faiz-1"
+  ],
+  [
+   "فجر",
+   "lemma",
+   "fajara-1"
+  ],
+  [
+   "فاجر",
+   "lemma",
+   "fajir-1"
+  ],
+  [
+   "فج",
+   "lemma",
+   "fajj-1"
+  ],
+  [
+   "فجر",
+   "lemma",
+   "fajjara-1"
+  ],
+  [
+   "فجر",
+   "lemma",
+   "fajr-1"
+  ],
+  [
+   "فجوه",
+   "lemma",
+   "fajwa-1"
+  ],
+  [
+   "فخار",
+   "lemma",
+   "fakhkhar-1"
+  ],
+  [
+   "فخور",
+   "lemma",
+   "fakhur-1"
+  ],
+  [
+   "فاكه",
+   "lemma",
+   "fakih-1"
+  ],
+  [
+   "فاكهه",
+   "lemma",
+   "fakiha-1"
+  ],
+  [
+   "فك",
+   "lemma",
+   "fakk-1"
+  ],
+  [
+   "فعله",
+   "lemma",
+   "fala-1"
+  ],
+  [
+   "فالق",
+   "lemma",
+   "faliq-1"
+  ],
+  [
+   "فم",
+   "lemma",
+   "fam-1"
+  ],
+  [
+   "فان",
+   "lemma",
+   "fan-1"
+  ],
+  [
+   "فاقع",
+   "lemma",
+   "faqi-1"
+  ],
+  [
+   "فقه",
+   "lemma",
+   "faqiha-1"
+  ],
+  [
+   "فقير",
+   "lemma",
+   "faqir-1"
+  ],
+  [
+   "فار",
+   "lemma",
+   "fara-1"
+  ],
+  [
+   "فرض",
+   "lemma",
+   "farada-1"
+  ],
+  [
+   "فرج",
+   "lemma",
+   "faraj-1"
+  ],
+  [
+   "فرق",
+   "lemma",
+   "faraqa-1"
+  ],
+  [
+   "فرط",
+   "lemma",
+   "farata-1"
+  ],
+  [
+   "فرد",
+   "lemma",
+   "fard-1"
+  ],
+  [
+   "فارض",
+   "lemma",
+   "farid-1"
+  ],
+  [
+   "فريضه",
+   "lemma",
+   "farida-1"
+  ],
+  [
+   "فارغ",
+   "lemma",
+   "farigh-1"
+  ],
+  [
+   "فرح",
+   "lemma",
+   "farih-1"
+  ],
+  [
+   "فاره",
+   "lemma",
+   "farih-2"
+  ],
+  [
+   "فرح",
+   "lemma",
+   "fariha-1"
+  ],
+  [
    "فريق",
    "lemma",
    "fariq-1"
+  ],
+  [
+   "فري",
+   "lemma",
+   "fariyy-1"
+  ],
+  [
+   "فرق",
+   "lemma",
+   "farq-1"
+  ],
+  [
+   "فر",
+   "lemma",
+   "farra-1"
+  ],
+  [
+   "فرق",
+   "lemma",
+   "farraqa-1"
+  ],
+  [
+   "فرط",
+   "lemma",
+   "farrata-1"
+  ],
+  [
+   "فساد",
+   "lemma",
+   "fasad-1"
+  ],
+  [
+   "فسد",
+   "lemma",
+   "fasada-1"
+  ],
+  [
+   "فسح",
+   "lemma",
+   "fasaha-1"
+  ],
+  [
+   "فصل",
+   "lemma",
+   "fasala-1"
+  ],
+  [
+   "فسق",
+   "lemma",
+   "fasaqa-1"
+  ],
+  [
+   "فشل",
+   "lemma",
+   "fashila-1"
+  ],
+  [
+   "فاصل",
+   "lemma",
+   "fasil-1"
+  ],
+  [
+   "فصيله",
+   "lemma",
+   "fasila-1"
+  ],
+  [
+   "فاسق",
+   "lemma",
+   "fasiq-1"
+  ],
+  [
+   "فصل",
+   "lemma",
+   "fasl-1"
+  ],
+  [
+   "فصل",
+   "lemma",
+   "fassala-1"
+  ],
+  [
+   "فات",
+   "lemma",
+   "fata-1"
+  ],
+  [
+   "فتاه",
+   "lemma",
+   "fatah-1"
   ],
   [
    "فتح",
@@ -952,9 +5182,74 @@ const QM_SEARCH_INDEX = {
    "fataha-1"
   ],
   [
+   "فتي",
+   "lemma",
+   "fatan-1"
+  ],
+  [
+   "فتن",
+   "lemma",
+   "fatana-1"
+  ],
+  [
+   "فطر",
+   "lemma",
+   "fatara-1"
+  ],
+  [
+   "فتح",
+   "lemma",
+   "fath-1"
+  ],
+  [
+   "فاتح",
+   "lemma",
+   "fatih-1"
+  ],
+  [
+   "فتيل",
+   "lemma",
+   "fatil-1"
+  ],
+  [
+   "فاتن",
+   "lemma",
+   "fatin-1"
+  ],
+  [
+   "فاطر",
+   "lemma",
+   "fatir-1"
+  ],
+  [
+   "فتاح",
+   "lemma",
+   "fattah-1"
+  ],
+  [
+   "فتر",
+   "lemma",
+   "fattara-1"
+  ],
+  [
+   "فوج",
+   "lemma",
+   "fawj-1"
+  ],
+  [
    "فوق",
    "lemma",
    "fawq-1"
+  ],
+  [
+   "فوت",
+   "lemma",
+   "fawt-1"
+  ],
+  [
+   "فوض",
+   "lemma",
+   "fawwada-1"
   ],
   [
    "فوز",
@@ -962,9 +5257,54 @@ const QM_SEARCH_INDEX = {
    "fawz-1"
   ],
   [
+   "فزع",
+   "lemma",
+   "faza-1"
+  ],
+  [
+   "فاز",
+   "lemma",
+   "faza-2"
+  ],
+  [
+   "فزع",
+   "lemma",
+   "faziaa-1"
+  ],
+  [
+   "فزع",
+   "lemma",
+   "faziya-1"
+  ],
+  [
+   "فزع",
+   "lemma",
+   "fazza-1"
+  ],
+  [
    "في",
    "lemma",
    "fi-1"
+  ],
+  [
+   "فئه",
+   "lemma",
+   "fia-1"
+  ],
+  [
+   "فداء",
+   "lemma",
+   "fidaa-1"
+  ],
+  [
+   "فضه",
+   "lemma",
+   "fidda-1"
+  ],
+  [
+   "فديه",
+   "lemma",
+   "fidya-1"
   ],
   [
    "فيل",
@@ -972,9 +5312,44 @@ const QM_SEARCH_INDEX = {
    "fil-1"
   ],
   [
+   "فراق",
+   "lemma",
+   "firaq-1"
+  ],
+  [
+   "فرار",
+   "lemma",
+   "firar-1"
+  ],
+  [
    "فرعون",
    "lemma",
    "firaun-1"
+  ],
+  [
+   "فردوس",
+   "lemma",
+   "firdaws-1"
+  ],
+  [
+   "فرق",
+   "lemma",
+   "firq-1"
+  ],
+  [
+   "فرقه",
+   "lemma",
+   "firqa-1"
+  ],
+  [
+   "فصال",
+   "lemma",
+   "fisal-1"
+  ],
+  [
+   "فسق",
+   "lemma",
+   "fisq-1"
   ],
   [
    "فتنه",
@@ -982,9 +5357,89 @@ const QM_SEARCH_INDEX = {
    "fitna-1"
   ],
   [
+   "فطره",
+   "lemma",
+   "fitra-1"
+  ],
+  [
+   "فؤاد",
+   "lemma",
+   "fuad-1"
+  ],
+  [
+   "فجور",
+   "lemma",
+   "fujur-1"
+  ],
+  [
    "فلك",
    "lemma",
    "fulk-1"
+  ],
+  [
+   "فرادي",
+   "lemma",
+   "furada-1"
+  ],
+  [
+   "فراديا",
+   "lemma",
+   "furada-1"
+  ],
+  [
+   "فرات",
+   "lemma",
+   "furat-1"
+  ],
+  [
+   "فرج",
+   "lemma",
+   "furija-1"
+  ],
+  [
+   "فرقان",
+   "lemma",
+   "furqan-1"
+  ],
+  [
+   "فراش",
+   "lemma",
+   "furush-1"
+  ],
+  [
+   "فتون",
+   "lemma",
+   "futun-1"
+  ],
+  [
+   "فطور",
+   "lemma",
+   "futur-1"
+  ],
+  [
+   "غابر",
+   "lemma",
+   "ghabir-1"
+  ],
+  [
+   "غد",
+   "lemma",
+   "ghad-1"
+  ],
+  [
+   "غداء",
+   "lemma",
+   "ghada-1"
+  ],
+  [
+   "غدا",
+   "lemma",
+   "ghada-2"
+  ],
+  [
+   "غاض",
+   "lemma",
+   "ghada-3"
   ],
   [
    "غضب",
@@ -992,9 +5447,49 @@ const QM_SEARCH_INDEX = {
    "ghadab-1"
   ],
   [
+   "غضبان",
+   "lemma",
+   "ghadban-1"
+  ],
+  [
+   "غض",
+   "lemma",
+   "ghadda-1"
+  ],
+  [
+   "غضب",
+   "lemma",
+   "ghadiba-1"
+  ],
+  [
+   "غدوه",
+   "lemma",
+   "ghadwa-1"
+  ],
+  [
    "غفر",
    "lemma",
    "ghafara-1"
+  ],
+  [
+   "غفار",
+   "lemma",
+   "ghaffar-1"
+  ],
+  [
+   "غافل",
+   "lemma",
+   "ghafil-1"
+  ],
+  [
+   "غافر",
+   "lemma",
+   "ghafir-1"
+  ],
+  [
+   "غفله",
+   "lemma",
+   "ghafla-1"
   ],
   [
    "غفور",
@@ -1002,9 +5497,224 @@ const QM_SEARCH_INDEX = {
    "ghafur-1"
   ],
   [
+   "غائب",
+   "lemma",
+   "ghaib-1"
+  ],
+  [
+   "غائط",
+   "lemma",
+   "ghait-1"
+  ],
+  [
+   "غلي",
+   "lemma",
+   "ghala-1"
+  ],
+  [
+   "غلا",
+   "lemma",
+   "ghala-2"
+  ],
+  [
+   "غلب",
+   "lemma",
+   "ghalab-1"
+  ],
+  [
+   "غلب",
+   "lemma",
+   "ghalaba-1"
+  ],
+  [
+   "غالب",
+   "lemma",
+   "ghalib-1"
+  ],
+  [
+   "غليظ",
+   "lemma",
+   "ghalith-1"
+  ],
+  [
+   "غل",
+   "lemma",
+   "ghalla-1"
+  ],
+  [
+   "غلظ",
+   "lemma",
+   "ghaluza-1"
+  ],
+  [
+   "غلي",
+   "lemma",
+   "ghaly-1"
+  ],
+  [
+   "غمام",
+   "lemma",
+   "ghamam-1"
+  ],
+  [
+   "غم",
+   "lemma",
+   "ghamm-1"
+  ],
+  [
+   "غمره",
+   "lemma",
+   "ghamra-1"
+  ],
+  [
+   "غنم",
+   "lemma",
+   "ghanam-1"
+  ],
+  [
    "غني",
    "lemma",
    "ghani-1"
+  ],
+  [
+   "غنم",
+   "lemma",
+   "ghanima-1"
+  ],
+  [
+   "غني",
+   "lemma",
+   "ghaniya-1"
+  ],
+  [
+   "غار",
+   "lemma",
+   "ghar-1"
+  ],
+  [
+   "غرب",
+   "lemma",
+   "gharaba-1"
+  ],
+  [
+   "غرام",
+   "lemma",
+   "gharam-1"
+  ],
+  [
+   "غربي",
+   "lemma",
+   "gharbiyy-1"
+  ],
+  [
+   "غارم",
+   "lemma",
+   "gharim-1"
+  ],
+  [
+   "غرق",
+   "lemma",
+   "ghariqa-1"
+  ],
+  [
+   "غر",
+   "lemma",
+   "gharra-1"
+  ],
+  [
+   "غاص",
+   "lemma",
+   "ghasa-1"
+  ],
+  [
+   "غسل",
+   "lemma",
+   "ghasala-1"
+  ],
+  [
+   "غسق",
+   "lemma",
+   "ghasaq-1"
+  ],
+  [
+   "غشي",
+   "lemma",
+   "ghashiya-1"
+  ],
+  [
+   "غاشيه",
+   "lemma",
+   "ghashiya-2"
+  ],
+  [
+   "غشي",
+   "lemma",
+   "ghashsha-1"
+  ],
+  [
+   "غشيا",
+   "lemma",
+   "ghashsha-1"
+  ],
+  [
+   "غاسق",
+   "lemma",
+   "ghasiq-1"
+  ],
+  [
+   "غساق",
+   "lemma",
+   "ghassaq-1"
+  ],
+  [
+   "غاث",
+   "lemma",
+   "ghatha-1"
+  ],
+  [
+   "غوي",
+   "lemma",
+   "ghawa-1"
+  ],
+  [
+   "غويا",
+   "lemma",
+   "ghawa-1"
+  ],
+  [
+   "غواش",
+   "lemma",
+   "ghawashin-1"
+  ],
+  [
+   "غاو",
+   "lemma",
+   "ghawi-1"
+  ],
+  [
+   "غوي",
+   "lemma",
+   "ghawiyy-1"
+  ],
+  [
+   "غول",
+   "lemma",
+   "ghawl-1"
+  ],
+  [
+   "غور",
+   "lemma",
+   "ghawr-1"
+  ],
+  [
+   "غواص",
+   "lemma",
+   "ghawwas-1"
+  ],
+  [
+   "غيابه",
+   "lemma",
+   "ghayaba-1"
   ],
   [
    "غيب",
@@ -1017,14 +5727,224 @@ const QM_SEARCH_INDEX = {
    "ghayr-1"
   ],
   [
+   "غيث",
+   "lemma",
+   "ghayth-1"
+  ],
+  [
+   "غي",
+   "lemma",
+   "ghayy-1"
+  ],
+  [
+   "غير",
+   "lemma",
+   "ghayyara-1"
+  ],
+  [
+   "غيظ",
+   "lemma",
+   "ghayz-1"
+  ],
+  [
+   "غاظ",
+   "lemma",
+   "ghaza-1"
+  ],
+  [
+   "غليظ",
+   "lemma",
+   "ghilaz-1"
+  ],
+  [
+   "غل",
+   "lemma",
+   "ghill-1"
+  ],
+  [
+   "غلظه",
+   "lemma",
+   "ghilza-1"
+  ],
+  [
+   "غشاوه",
+   "lemma",
+   "ghishawa-1"
+  ],
+  [
+   "غشوه",
+   "lemma",
+   "ghishawa-1"
+  ],
+  [
+   "غسلين",
+   "lemma",
+   "ghislin-1"
+  ],
+  [
+   "غطاء",
+   "lemma",
+   "ghita-1"
+  ],
+  [
+   "غدو",
+   "lemma",
+   "ghuduww-1"
+  ],
+  [
+   "غلام",
+   "lemma",
+   "ghulam-1"
+  ],
+  [
+   "غلم",
+   "lemma",
+   "ghulam-1"
+  ],
+  [
+   "اغلف",
+   "lemma",
+   "ghulf-1"
+  ],
+  [
+   "غل",
+   "lemma",
+   "ghull-1"
+  ],
+  [
+   "غراب",
+   "lemma",
+   "ghurab-1"
+  ],
+  [
+   "غرفه",
+   "lemma",
+   "ghurfa-1"
+  ],
+  [
+   "غروب",
+   "lemma",
+   "ghurub-1"
+  ],
+  [
+   "غرور",
+   "lemma",
+   "ghurur-1"
+  ],
+  [
+   "غثاء",
+   "lemma",
+   "ghutha-1"
+  ],
+  [
+   "ه",
+   "lemma",
+   "ha-1"
+  ],
+  [
+   "ها",
+   "lemma",
+   "ha-1"
+  ],
+  [
+   "حاض",
+   "lemma",
+   "haada-1"
+  ],
+  [
+   "حاد",
+   "lemma",
+   "haadda-1"
+  ],
+  [
+   "حاج",
+   "lemma",
+   "haajja-1"
+  ],
+  [
+   "حاقه",
+   "lemma",
+   "haaqqa-1"
+  ],
+  [
+   "هباء",
+   "lemma",
+   "haba-1"
+  ],
+  [
+   "حبس",
+   "lemma",
+   "habasa-1"
+  ],
+  [
+   "هبط",
+   "lemma",
+   "habata-1"
+  ],
+  [
+   "حبه",
+   "lemma",
+   "habba-1"
+  ],
+  [
+   "حبط",
+   "lemma",
+   "habita-1"
+  ],
+  [
+   "حبل",
+   "lemma",
+   "habl-1"
+  ],
+  [
+   "حبر",
+   "lemma",
+   "habr-1"
+  ],
+  [
    "هدي",
    "lemma",
    "hada-1"
   ],
   [
+   "هاد",
+   "lemma",
+   "hada-2"
+  ],
+  [
+   "حاد",
+   "lemma",
+   "hada-3"
+  ],
+  [
+   "حضر",
+   "lemma",
+   "hadara-1"
+  ],
+  [
    "حد",
    "lemma",
    "hadd-1"
+  ],
+  [
+   "هد",
+   "lemma",
+   "hadd-2"
+  ],
+  [
+   "حض",
+   "lemma",
+   "hadda-2"
+  ],
+  [
+   "حدث",
+   "lemma",
+   "haddatha-1"
+  ],
+  [
+   "حذر",
+   "lemma",
+   "haddhara-1"
   ],
   [
    "هاذا",
@@ -1047,14 +5967,139 @@ const QM_SEARCH_INDEX = {
    "hadhihi-1"
   ],
   [
+   "حذر",
+   "lemma",
+   "hadhira-1"
+  ],
+  [
+   "حديد",
+   "lemma",
+   "hadid-1"
+  ],
+  [
+   "هضيم",
+   "lemma",
+   "hadim-1"
+  ],
+  [
+   "هاد",
+   "lemma",
+   "hadin-1"
+  ],
+  [
+   "حديقه",
+   "lemma",
+   "hadiqa-1"
+  ],
+  [
+   "حاضر",
+   "lemma",
+   "hadir-1"
+  ],
+  [
    "حديث",
    "lemma",
    "hadith-1"
   ],
   [
+   "هديه",
+   "lemma",
+   "hadiyya-1"
+  ],
+  [
+   "هضم",
+   "lemma",
+   "hadm-1"
+  ],
+  [
    "هدي",
    "lemma",
    "hady-1"
+  ],
+  [
+   "حافظ",
+   "lemma",
+   "hafaza-1"
+  ],
+  [
+   "حاف",
+   "lemma",
+   "haffin-1"
+  ],
+  [
+   "حفي",
+   "lemma",
+   "hafiyy-1"
+  ],
+  [
+   "حافظ",
+   "lemma",
+   "hafiz-1"
+  ],
+  [
+   "حفظ",
+   "lemma",
+   "hafiza-1"
+  ],
+  [
+   "هاهنا",
+   "lemma",
+   "hahuna-1"
+  ],
+  [
+   "حاجه",
+   "lemma",
+   "haja-1"
+  ],
+  [
+   "هاج",
+   "lemma",
+   "haja-2"
+  ],
+  [
+   "حجر",
+   "lemma",
+   "hajar-1"
+  ],
+  [
+   "هاجر",
+   "lemma",
+   "hajara-1"
+  ],
+  [
+   "هجر",
+   "lemma",
+   "hajara-3"
+  ],
+  [
+   "حاجز",
+   "lemma",
+   "hajiz-1"
+  ],
+  [
+   "حج",
+   "lemma",
+   "hajj-1"
+  ],
+  [
+   "حاج",
+   "lemma",
+   "hajja-3"
+  ],
+  [
+   "هجر",
+   "lemma",
+   "hajr-1"
+  ],
+  [
+   "مهجور",
+   "lemma",
+   "hajr-2"
+  ],
+  [
+   "حكم",
+   "lemma",
+   "hakam-1"
   ],
   [
    "حكم",
@@ -1067,9 +6112,94 @@ const QM_SEARCH_INDEX = {
    "hakim-1"
   ],
   [
+   "حاكم",
+   "lemma",
+   "hakim-2"
+  ],
+  [
+   "حاكم",
+   "lemma",
+   "hakim-3"
+  ],
+  [
+   "حكم",
+   "lemma",
+   "hakkama-1"
+  ],
+  [
    "هل",
    "lemma",
    "hal-1"
+  ],
+  [
+   "حال",
+   "lemma",
+   "hala-1"
+  ],
+  [
+   "حلف",
+   "lemma",
+   "halafa-1"
+  ],
+  [
+   "هلك",
+   "lemma",
+   "halaka-1"
+  ],
+  [
+   "حلال",
+   "lemma",
+   "halal-1"
+  ],
+  [
+   "حلل",
+   "lemma",
+   "halal-1"
+  ],
+  [
+   "حلق",
+   "lemma",
+   "halaqa-1"
+  ],
+  [
+   "هالك",
+   "lemma",
+   "halik-1"
+  ],
+  [
+   "حليم",
+   "lemma",
+   "halim-1"
+  ],
+  [
+   "حل",
+   "lemma",
+   "halla-1"
+  ],
+  [
+   "حلاف",
+   "lemma",
+   "hallaf-1"
+  ],
+  [
+   "هلم",
+   "lemma",
+   "halumma-1"
+  ],
+  [
+   "حما",
+   "lemma",
+   "hama-1"
+  ],
+  [
+   "حمي",
+   "lemma",
+   "hama-2"
+  ],
+  [
+   "هام",
+   "lemma",
+   "hama-3"
   ],
   [
    "حمل",
@@ -1077,9 +6207,29 @@ const QM_SEARCH_INDEX = {
    "hamala-1"
   ],
   [
+   "هامان",
+   "lemma",
+   "haman-1"
+  ],
+  [
+   "همن",
+   "lemma",
+   "haman-1"
+  ],
+  [
    "حمد",
    "lemma",
    "hamd-1"
+  ],
+  [
+   "حام",
+   "lemma",
+   "hami-1"
+  ],
+  [
+   "حاميه",
+   "lemma",
+   "hami-2"
   ],
   [
    "حميد",
@@ -1087,14 +6237,119 @@ const QM_SEARCH_INDEX = {
    "hamid-1"
   ],
   [
+   "حامد",
+   "lemma",
+   "hamid-2"
+  ],
+  [
+   "حمد",
+   "lemma",
+   "hamida-1"
+  ],
+  [
+   "حامل",
+   "lemma",
+   "hamil-1"
+  ],
+  [
    "حميم",
    "lemma",
    "hamim-1"
   ],
   [
+   "حميه",
+   "lemma",
+   "hamiyya-1"
+  ],
+  [
+   "حمل",
+   "lemma",
+   "haml-1"
+  ],
+  [
+   "هم",
+   "lemma",
+   "hamma-1"
+  ],
+  [
+   "حمل",
+   "lemma",
+   "hammala-1"
+  ],
+  [
+   "حماله",
+   "lemma",
+   "hammala-2"
+  ],
+  [
+   "احمر",
+   "lemma",
+   "hamra-1"
+  ],
+  [
+   "حموله",
+   "lemma",
+   "hamula-1"
+  ],
+  [
+   "همزه",
+   "lemma",
+   "hamza-1"
+  ],
+  [
+   "حنان",
+   "lemma",
+   "hanan-1"
+  ],
+  [
+   "حنيف",
+   "lemma",
+   "hanif-1"
+  ],
+  [
+   "هنيء",
+   "lemma",
+   "hanii-1"
+  ],
+  [
+   "حنث",
+   "lemma",
+   "hanitha-1"
+  ],
+  [
+   "حنجره",
+   "lemma",
+   "hanjara-1"
+  ],
+  [
+   "حاق",
+   "lemma",
+   "haqa-1"
+  ],
+  [
    "حق",
    "lemma",
    "haqq-1"
+  ],
+  [
+   "حق",
+   "lemma",
+   "haqqa-1"
+  ],
+  [
+   "حار",
+   "lemma",
+   "hara-1"
+  ],
+  [
+   "حارب",
+   "lemma",
+   "haraba-1"
+  ],
+  [
+   "حرج",
+   "lemma",
+   "haraj-1"
   ],
   [
    "حرام",
@@ -1104,7 +6359,92 @@ const QM_SEARCH_INDEX = {
   [
    "حرم",
    "lemma",
+   "haram-2"
+  ],
+  [
+   "حرام",
+   "lemma",
+   "haram-3"
+  ],
+  [
+   "حرص",
+   "lemma",
+   "harasa-1"
+  ],
+  [
+   "حرث",
+   "lemma",
+   "haratha-1"
+  ],
+  [
+   "حرب",
+   "lemma",
+   "harb-1"
+  ],
+  [
+   "حرف",
+   "lemma",
+   "harf-1"
+  ],
+  [
+   "حرض",
+   "lemma",
+   "harida-1"
+  ],
+  [
+   "هار",
+   "lemma",
+   "harin-1"
+  ],
+  [
+   "حريق",
+   "lemma",
+   "hariq-1"
+  ],
+  [
+   "حرير",
+   "lemma",
+   "harir-1"
+  ],
+  [
+   "حريص",
+   "lemma",
+   "harisa-1"
+  ],
+  [
+   "حر",
+   "lemma",
+   "harr-1"
+  ],
+  [
+   "حرض",
+   "lemma",
+   "harrada-1"
+  ],
+  [
+   "حرف",
+   "lemma",
+   "harrafa-1"
+  ],
+  [
+   "حرك",
+   "lemma",
+   "harraka-1"
+  ],
+  [
+   "حرم",
+   "lemma",
    "harrama-1"
+  ],
+  [
+   "حرق",
+   "lemma",
+   "harraqa-1"
+  ],
+  [
+   "حرث",
+   "lemma",
+   "harth-1"
   ],
   [
    "هارون",
@@ -1117,14 +6457,159 @@ const QM_SEARCH_INDEX = {
    "harun-1"
   ],
   [
+   "حرور",
+   "lemma",
+   "harur-1"
+  ],
+  [
+   "هاروت",
+   "lemma",
+   "harut-1"
+  ],
+  [
+   "حاسب",
+   "lemma",
+   "hasaba-2"
+  ],
+  [
+   "حسابيه",
+   "lemma",
+   "hasabiya-1"
+  ],
+  [
+   "حصاد",
+   "lemma",
+   "hasad-1"
+  ],
+  [
+   "حسد",
+   "lemma",
+   "hasad-2"
+  ],
+  [
+   "حسد",
+   "lemma",
+   "hasada-1"
+  ],
+  [
    "حسن",
    "lemma",
    "hasana-1"
   ],
   [
+   "حصر",
+   "lemma",
+   "hasara-1"
+  ],
+  [
+   "حسب",
+   "lemma",
+   "hasb-1"
+  ],
+  [
+   "حشر",
+   "lemma",
+   "hashara-1"
+  ],
+  [
+   "هشيم",
+   "lemma",
+   "hashim-1"
+  ],
+  [
+   "حاشر",
+   "lemma",
+   "hashir-1"
+  ],
+  [
+   "حشر",
+   "lemma",
+   "hashr-1"
+  ],
+  [
+   "حسيب",
+   "lemma",
+   "hasib-1"
+  ],
+  [
+   "حاصب",
+   "lemma",
+   "hasib-2"
+  ],
+  [
    "حسب",
    "lemma",
    "hasiba-1"
+  ],
+  [
+   "حاسب",
+   "lemma",
+   "hasibin-1"
+  ],
+  [
+   "حصيد",
+   "lemma",
+   "hasid-1"
+  ],
+  [
+   "حاسد",
+   "lemma",
+   "hasid-2"
+  ],
+  [
+   "حصير",
+   "lemma",
+   "hasir-1"
+  ],
+  [
+   "حصر",
+   "lemma",
+   "hasira-1"
+  ],
+  [
+   "حسره",
+   "lemma",
+   "hasra-1"
+  ],
+  [
+   "حس",
+   "lemma",
+   "hassa-1"
+  ],
+  [
+   "حسن",
+   "lemma",
+   "hasuna-1"
+  ],
+  [
+   "حصور",
+   "lemma",
+   "hasur-1"
+  ],
+  [
+   "هات",
+   "lemma",
+   "hat-1"
+  ],
+  [
+   "حطب",
+   "lemma",
+   "hatab-1"
+  ],
+  [
+   "هاتان",
+   "lemma",
+   "hatan-1"
+  ],
+  [
+   "هتان",
+   "lemma",
+   "hatan-1"
+  ],
+  [
+   "حتم",
+   "lemma",
+   "hatm-1"
   ],
   [
    "حتي",
@@ -1157,6 +6642,51 @@ const QM_SEARCH_INDEX = {
    "hawa-1"
   ],
   [
+   "هواء",
+   "lemma",
+   "hawa-2"
+  ],
+  [
+   "هوي",
+   "lemma",
+   "hawa-3"
+  ],
+  [
+   "حاور",
+   "lemma",
+   "hawara-1"
+  ],
+  [
+   "حواري",
+   "lemma",
+   "hawari-1"
+  ],
+  [
+   "هاويه",
+   "lemma",
+   "hawiya-1"
+  ],
+  [
+   "حويه",
+   "lemma",
+   "hawiyya-1"
+  ],
+  [
+   "حول",
+   "lemma",
+   "hawla-1"
+  ],
+  [
+   "هون",
+   "lemma",
+   "hawn-1"
+  ],
+  [
+   "هيه",
+   "lemma",
+   "hay-1"
+  ],
+  [
    "حيواه",
    "lemma",
    "hayat-1"
@@ -1165,6 +6695,26 @@ const QM_SEARCH_INDEX = {
    "حيوه",
    "lemma",
    "hayat-1"
+  ],
+  [
+   "حيوان",
+   "lemma",
+   "hayawan-1"
+  ],
+  [
+   "حيي",
+   "lemma",
+   "hayiya-1"
+  ],
+  [
+   "حيران",
+   "lemma",
+   "hayran-1"
+  ],
+  [
+   "هيت",
+   "lemma",
+   "hayta-1"
   ],
   [
    "حيث",
@@ -1177,14 +6727,119 @@ const QM_SEARCH_INDEX = {
    "hayy-1"
   ],
   [
+   "هيهات",
+   "lemma",
+   "hayya-1"
+  ],
+  [
+   "هيا",
+   "lemma",
+   "hayya-2"
+  ],
+  [
+   "حيا",
+   "lemma",
+   "hayya-3"
+  ],
+  [
+   "حيي",
+   "lemma",
+   "hayyaa-1"
+  ],
+  [
+   "حييا",
+   "lemma",
+   "hayyaa-1"
+  ],
+  [
+   "هين",
+   "lemma",
+   "hayyin-1"
+  ],
+  [
+   "هزم",
+   "lemma",
+   "hazama-1"
+  ],
+  [
+   "حزن",
+   "lemma",
+   "hazan-1"
+  ],
+  [
    "حزن",
    "lemma",
    "hazina-1"
   ],
   [
+   "حظ",
+   "lemma",
+   "hazz-1"
+  ],
+  [
+   "حداد",
+   "lemma",
+   "hidad-1"
+  ],
+  [
+   "حذر",
+   "lemma",
+   "hidhr-1"
+  ],
+  [
+   "حفظ",
+   "lemma",
+   "hifz-1"
+  ],
+  [
+   "حجاب",
+   "lemma",
+   "hijab-1"
+  ],
+  [
+   "حجاره",
+   "lemma",
+   "hijara-1"
+  ],
+  [
+   "حجر",
+   "lemma",
+   "hijr-1"
+  ],
+  [
    "حكمه",
    "lemma",
    "hikma-1"
+  ],
+  [
+   "حيله",
+   "lemma",
+   "hila-1"
+  ],
+  [
+   "هلال",
+   "lemma",
+   "hilal-1"
+  ],
+  [
+   "حل",
+   "lemma",
+   "hill-1"
+  ],
+  [
+   "حليه",
+   "lemma",
+   "hilya-1"
+  ],
+  [
+   "هائم",
+   "lemma",
+   "him-1"
+  ],
+  [
+   "حمار",
+   "lemma",
+   "himar-1"
   ],
   [
    "حين",
@@ -1197,9 +6852,59 @@ const QM_SEARCH_INDEX = {
    "hisab-1"
   ],
   [
+   "حسان",
+   "lemma",
+   "hisan-1"
+  ],
+  [
+   "حصن",
+   "lemma",
+   "hisn-1"
+  ],
+  [
+   "حطه",
+   "lemma",
+   "hitta-1"
+  ],
+  [
+   "حول",
+   "lemma",
+   "hiwal-1"
+  ],
+  [
    "هي",
    "lemma",
    "hiya-1"
+  ],
+  [
+   "حزب",
+   "lemma",
+   "hizb-1"
+  ],
+  [
+   "حوب",
+   "lemma",
+   "hub-1"
+  ],
+  [
+   "حب",
+   "lemma",
+   "hubb-1"
+  ],
+  [
+   "حبر",
+   "lemma",
+   "hubira-1"
+  ],
+  [
+   "هود",
+   "lemma",
+   "hud-1"
+  ],
+  [
+   "هود",
+   "lemma",
+   "hud-2"
   ],
   [
    "هدي",
@@ -1207,9 +6912,29 @@ const QM_SEARCH_INDEX = {
    "huda-1"
   ],
   [
+   "حفره",
+   "lemma",
+   "hufra-1"
+  ],
+  [
+   "حجه",
+   "lemma",
+   "hujja-1"
+  ],
+  [
+   "حجره",
+   "lemma",
+   "hujra-1"
+  ],
+  [
    "حكم",
    "lemma",
    "hukm-1"
+  ],
+  [
+   "حلي",
+   "lemma",
+   "huliyy-1"
   ],
   [
    "هم",
@@ -1222,9 +6947,59 @@ const QM_SEARCH_INDEX = {
    "huma-1"
   ],
   [
+   "هون",
+   "lemma",
+   "hun-1"
+  ],
+  [
+   "هنالك",
+   "lemma",
+   "hunalika-1"
+  ],
+  [
+   "حنين",
+   "lemma",
+   "hunayn-1"
+  ],
+  [
    "هن",
    "lemma",
    "hunna-1"
+  ],
+  [
+   "حقب",
+   "lemma",
+   "huqub-1"
+  ],
+  [
+   "حور",
+   "lemma",
+   "hur-1"
+  ],
+  [
+   "حر",
+   "lemma",
+   "hurr-1"
+  ],
+  [
+   "اهرع",
+   "lemma",
+   "hurria-1"
+  ],
+  [
+   "حرمات",
+   "lemma",
+   "hurumat-1"
+  ],
+  [
+   "حسبان",
+   "lemma",
+   "husban-1"
+  ],
+  [
+   "حاش",
+   "lemma",
+   "hush-1"
   ],
   [
    "حسن",
@@ -1232,14 +7007,54 @@ const QM_SEARCH_INDEX = {
    "husn-1"
   ],
   [
+   "حوت",
+   "lemma",
+   "hut-1"
+  ],
+  [
+   "حطام",
+   "lemma",
+   "hutam-1"
+  ],
+  [
+   "حطمه",
+   "lemma",
+   "hutama-1"
+  ],
+  [
    "هو",
    "lemma",
    "huwa-1"
   ],
   [
+   "حزن",
+   "lemma",
+   "huzn-1"
+  ],
+  [
+   "هزو",
+   "lemma",
+   "huzu-1"
+  ],
+  [
    "عباد",
    "lemma",
    "ibad-1"
+  ],
+  [
+   "عباده",
+   "lemma",
+   "ibada-1"
+  ],
+  [
+   "ابل",
+   "lemma",
+   "ibil-1"
+  ],
+  [
+   "ابكار",
+   "lemma",
+   "ibkar-1"
   ],
   [
    "ابليس",
@@ -1252,6 +7067,16 @@ const QM_SEARCH_INDEX = {
    "ibn-1"
   ],
   [
+   "ابنه",
+   "lemma",
+   "ibna-1"
+  ],
+  [
+   "عبره",
+   "lemma",
+   "ibra-1"
+  ],
+  [
    "ابراهيم",
    "lemma",
    "ibrahim-1"
@@ -1260,6 +7085,26 @@ const QM_SEARCH_INDEX = {
    "ابرهيم",
    "lemma",
    "ibrahim-1"
+  ],
+  [
+   "ابريق",
+   "lemma",
+   "ibriq-1"
+  ],
+  [
+   "اصباح",
+   "lemma",
+   "ibsah-1"
+  ],
+  [
+   "ابتاس",
+   "lemma",
+   "ibtaasa-1"
+  ],
+  [
+   "ابتدع",
+   "lemma",
+   "ibtada-1"
   ],
   [
    "ابتغي",
@@ -1287,9 +7132,49 @@ const QM_SEARCH_INDEX = {
    "ibtigha-1"
   ],
   [
+   "ابيض",
+   "lemma",
+   "ibyadda-1"
+  ],
+  [
+   "عيد",
+   "lemma",
+   "id-1"
+  ],
+  [
+   "ادبار",
+   "lemma",
+   "idbar-1"
+  ],
+  [
+   "اد",
+   "lemma",
+   "idd-1"
+  ],
+  [
    "عده",
    "lemma",
    "idda-1"
+  ],
+  [
+   "ادعي",
+   "lemma",
+   "iddaa-1"
+  ],
+  [
+   "ادعيا",
+   "lemma",
+   "iddaa-1"
+  ],
+  [
+   "ادبر",
+   "lemma",
+   "iddabbara-1"
+  ],
+  [
+   "ادارك",
+   "lemma",
+   "iddaraka-1"
   ],
   [
    "اذ",
@@ -1312,6 +7197,36 @@ const QM_SEARCH_INDEX = {
    "idhn-1"
   ],
   [
+   "عضين",
+   "lemma",
+   "idin-1"
+  ],
+  [
+   "ادريس",
+   "lemma",
+   "idris-1"
+  ],
+  [
+   "اضطر",
+   "lemma",
+   "idtarra-1"
+  ],
+  [
+   "افك",
+   "lemma",
+   "ifk-1"
+  ],
+  [
+   "افتدي",
+   "lemma",
+   "iftada-1"
+  ],
+  [
+   "افتديا",
+   "lemma",
+   "iftada-1"
+  ],
+  [
    "افتري",
    "lemma",
    "iftara-1"
@@ -1320,6 +7235,31 @@ const QM_SEARCH_INDEX = {
    "افتريا",
    "lemma",
    "iftara-1"
+  ],
+  [
+   "افتراء",
+   "lemma",
+   "iftira-1"
+  ],
+  [
+   "احدي",
+   "lemma",
+   "ihda-1"
+  ],
+  [
+   "عهن",
+   "lemma",
+   "ihn-1"
+  ],
+  [
+   "احسان",
+   "lemma",
+   "ihsan-1"
+  ],
+  [
+   "احسن",
+   "lemma",
+   "ihsan-1"
   ],
   [
    "اهتدي",
@@ -1342,9 +7282,44 @@ const QM_SEARCH_INDEX = {
    "ihtada-2"
   ],
   [
+   "احتمل",
+   "lemma",
+   "ihtamala-1"
+  ],
+  [
+   "احتسب",
+   "lemma",
+   "ihtasaba-1"
+  ],
+  [
+   "اهتز",
+   "lemma",
+   "ihtazza-1"
+  ],
+  [
    "عجل",
    "lemma",
    "ijl-1"
+  ],
+  [
+   "اجرام",
+   "lemma",
+   "ijram-1"
+  ],
+  [
+   "اجتبي",
+   "lemma",
+   "ijtaba-1"
+  ],
+  [
+   "اجتبيا",
+   "lemma",
+   "ijtaba-1"
+  ],
+  [
+   "اجتمع",
+   "lemma",
+   "ijtamaa-1"
   ],
   [
    "اجتنب",
@@ -1352,14 +7327,84 @@ const QM_SEARCH_INDEX = {
    "ijtanaba-1"
   ],
   [
+   "اجتنب",
+   "lemma",
+   "ijtanaba-2"
+  ],
+  [
+   "اخراج",
+   "lemma",
+   "ikhraj-1"
+  ],
+  [
+   "اخسا",
+   "lemma",
+   "ikhsau-1"
+  ],
+  [
    "اختلف",
    "lemma",
    "ikhtalafa-1"
   ],
   [
+   "اختلط",
+   "lemma",
+   "ikhtalata-1"
+  ],
+  [
+   "اختان",
+   "lemma",
+   "ikhtana-1"
+  ],
+  [
+   "اختار",
+   "lemma",
+   "ikhtara-1"
+  ],
+  [
+   "اختصم",
+   "lemma",
+   "ikhtasama-1"
+  ],
+  [
+   "اختص",
+   "lemma",
+   "ikhtassa-1"
+  ],
+  [
+   "اختلاف",
+   "lemma",
+   "ikhtilaf-1"
+  ],
+  [
+   "اختلف",
+   "lemma",
+   "ikhtilaf-1"
+  ],
+  [
+   "اكراه",
+   "lemma",
+   "ikrah-1"
+  ],
+  [
+   "اكرام",
+   "lemma",
+   "ikram-1"
+  ],
+  [
+   "اكتسب",
+   "lemma",
+   "iktasaba-1"
+  ],
+  [
    "الي",
    "lemma",
    "ila-1"
+  ],
+  [
+   "ايلاف",
+   "lemma",
+   "ilaf-1"
   ],
   [
    "الاه",
@@ -1372,14 +7417,74 @@ const QM_SEARCH_INDEX = {
    "ilah-1"
   ],
   [
+   "الحاد",
+   "lemma",
+   "ilhad-1"
+  ],
+  [
+   "الحاف",
+   "lemma",
+   "ilhaf-1"
+  ],
+  [
+   "ال",
+   "lemma",
+   "ill-1"
+  ],
+  [
    "الا",
    "lemma",
    "illa-1"
   ],
   [
+   "عليون",
+   "lemma",
+   "illiyyun-1"
+  ],
+  [
    "علم",
    "lemma",
    "ilm-1"
+  ],
+  [
+   "التفت",
+   "lemma",
+   "iltafata-1"
+  ],
+  [
+   "التمس",
+   "lemma",
+   "iltamasa-1"
+  ],
+  [
+   "التقي",
+   "lemma",
+   "iltaqa-1"
+  ],
+  [
+   "التقيا",
+   "lemma",
+   "iltaqa-1"
+  ],
+  [
+   "التقم",
+   "lemma",
+   "iltaqama-1"
+  ],
+  [
+   "الياس",
+   "lemma",
+   "ilyas-1"
+  ],
+  [
+   "عماد",
+   "lemma",
+   "imad-1"
+  ],
+  [
+   "امام",
+   "lemma",
+   "imam-1"
   ],
   [
    "ايمان",
@@ -1392,9 +7497,29 @@ const QM_SEARCH_INDEX = {
    "iman-1"
   ],
   [
+   "عماره",
+   "lemma",
+   "imara-1"
+  ],
+  [
+   "املاق",
+   "lemma",
+   "imlaq-1"
+  ],
+  [
+   "املق",
+   "lemma",
+   "imlaq-1"
+  ],
+  [
    "اما",
    "lemma",
    "imma-1"
+  ],
+  [
+   "امر",
+   "lemma",
+   "imr-1"
   ],
   [
    "امراه",
@@ -1402,14 +7527,89 @@ const QM_SEARCH_INDEX = {
    "imraa-1"
   ],
   [
+   "عمران",
+   "lemma",
+   "imran-1"
+  ],
+  [
+   "عمرن",
+   "lemma",
+   "imran-1"
+  ],
+  [
+   "امرؤ",
+   "lemma",
+   "imru-1"
+  ],
+  [
+   "امساك",
+   "lemma",
+   "imsak-1"
+  ],
+  [
+   "امتري",
+   "lemma",
+   "imtara-1"
+  ],
+  [
+   "امتريا",
+   "lemma",
+   "imtara-1"
+  ],
+  [
    "ان",
    "lemma",
    "in-1"
   ],
   [
+   "اني",
+   "lemma",
+   "ina-1"
+  ],
+  [
+   "عنب",
+   "lemma",
+   "inab-1"
+  ],
+  [
+   "انبعث",
+   "lemma",
+   "inbaatha-1"
+  ],
+  [
+   "انبغي",
+   "lemma",
+   "inbaghaa-1"
+  ],
+  [
+   "انبغيا",
+   "lemma",
+   "inbaghaa-1"
+  ],
+  [
+   "انبعاث",
+   "lemma",
+   "inbiath-1"
+  ],
+  [
    "عند",
    "lemma",
    "inda-1"
+  ],
+  [
+   "انفاق",
+   "lemma",
+   "infaq-1"
+  ],
+  [
+   "انهار",
+   "lemma",
+   "inhara-1"
+  ],
+  [
+   "انجيل",
+   "lemma",
+   "injil-1"
   ],
   [
    "ان",
@@ -1422,9 +7622,24 @@ const QM_SEARCH_INDEX = {
    "innama-1"
   ],
   [
+   "انقض",
+   "lemma",
+   "inqadda-1"
+  ],
+  [
+   "انقلب",
+   "lemma",
+   "inqalaba-1"
+  ],
+  [
    "انس",
    "lemma",
    "ins-1"
+  ],
+  [
+   "انسلخ",
+   "lemma",
+   "insalakha-1"
   ],
   [
    "انسان",
@@ -1437,9 +7652,149 @@ const QM_SEARCH_INDEX = {
    "insan-1"
   ],
   [
+   "انشاء",
+   "lemma",
+   "insha-1"
+  ],
+  [
+   "انشق",
+   "lemma",
+   "inshaqqa-1"
+  ],
+  [
+   "انسي",
+   "lemma",
+   "insiyy-1"
+  ],
+  [
+   "انتبذ",
+   "lemma",
+   "intabadha-1"
+  ],
+  [
+   "انتهي",
+   "lemma",
+   "intaha-1"
+  ],
+  [
+   "انتهيا",
+   "lemma",
+   "intaha-1"
+  ],
+  [
+   "انطلق",
+   "lemma",
+   "intalaqa-1"
+  ],
+  [
+   "انتقم",
+   "lemma",
+   "intaqama-1"
+  ],
+  [
+   "انتصر",
+   "lemma",
+   "intasara-1"
+  ],
+  [
+   "انتشر",
+   "lemma",
+   "intashara-1"
+  ],
+  [
+   "انتظر",
+   "lemma",
+   "intazara-1"
+  ],
+  [
+   "انتقام",
+   "lemma",
+   "intiqam-1"
+  ],
+  [
    "عقاب",
    "lemma",
    "iqab-1"
+  ],
+  [
+   "اقامه",
+   "lemma",
+   "iqama-1"
+  ],
+  [
+   "اقصد",
+   "lemma",
+   "iqsid-1"
+  ],
+  [
+   "اقترب",
+   "lemma",
+   "iqtaraba-1"
+  ],
+  [
+   "اقترف",
+   "lemma",
+   "iqtarafa-1"
+  ],
+  [
+   "اقتتل",
+   "lemma",
+   "iqtatala-1"
+  ],
+  [
+   "عير",
+   "lemma",
+   "ir-1"
+  ],
+  [
+   "اعراض",
+   "lemma",
+   "iradh-1"
+  ],
+  [
+   "ارم",
+   "lemma",
+   "iram-1"
+  ],
+  [
+   "اربه",
+   "lemma",
+   "irba-1"
+  ],
+  [
+   "ارصاد",
+   "lemma",
+   "irsad-1"
+  ],
+  [
+   "ارتاب",
+   "lemma",
+   "irtaba-1"
+  ],
+  [
+   "ارتاب",
+   "lemma",
+   "irtaba-2"
+  ],
+  [
+   "ارتضي",
+   "lemma",
+   "irtada-1"
+  ],
+  [
+   "ارتضيا",
+   "lemma",
+   "irtada-1"
+  ],
+  [
+   "ارتد",
+   "lemma",
+   "irtadda-1"
+  ],
+  [
+   "ارتقب",
+   "lemma",
+   "irtaqaba-1"
   ],
   [
    "عيسي",
@@ -1452,6 +7807,26 @@ const QM_SEARCH_INDEX = {
    "isa-1"
   ],
   [
+   "عصمه",
+   "lemma",
+   "isam-1"
+  ],
+  [
+   "اعصار",
+   "lemma",
+   "isar-1"
+  ],
+  [
+   "عيشه",
+   "lemma",
+   "isha-1"
+  ],
+  [
+   "عشاء",
+   "lemma",
+   "isha-2"
+  ],
+  [
    "اسحاق",
    "lemma",
    "ishaq-1"
@@ -1460,6 +7835,46 @@ const QM_SEARCH_INDEX = {
    "اسحق",
    "lemma",
    "ishaq-1"
+  ],
+  [
+   "عشار",
+   "lemma",
+   "ishar-1"
+  ],
+  [
+   "اشراق",
+   "lemma",
+   "ishraq-1"
+  ],
+  [
+   "عشرون",
+   "lemma",
+   "ishrun-1"
+  ],
+  [
+   "اشتهي",
+   "lemma",
+   "ishtaha-1"
+  ],
+  [
+   "اشتهيا",
+   "lemma",
+   "ishtaha-1"
+  ],
+  [
+   "اشتهي",
+   "lemma",
+   "ishtahaa-1"
+  ],
+  [
+   "اشتهيا",
+   "lemma",
+   "ishtahaa-1"
+  ],
+  [
+   "اشتمل",
+   "lemma",
+   "ishtamala-1"
   ],
   [
    "اشتري",
@@ -1472,9 +7887,49 @@ const QM_SEARCH_INDEX = {
    "ishtara-1"
   ],
   [
+   "عصا",
+   "lemma",
+   "isiyy-1"
+  ],
+  [
+   "اصلاح",
+   "lemma",
+   "islah-1"
+  ],
+  [
+   "اصلح",
+   "lemma",
+   "islah-1"
+  ],
+  [
+   "اسلام",
+   "lemma",
+   "islam-1"
+  ],
+  [
+   "اسلم",
+   "lemma",
+   "islam-1"
+  ],
+  [
    "اسم",
    "lemma",
    "ism-1"
+  ],
+  [
+   "اسماعيل",
+   "lemma",
+   "ismail-1"
+  ],
+  [
+   "اسمعيل",
+   "lemma",
+   "ismail-1"
+  ],
+  [
+   "اصر",
+   "lemma",
+   "isr-1"
   ],
   [
    "اسرءيل",
@@ -1487,9 +7942,94 @@ const QM_SEARCH_INDEX = {
    "isra-1"
   ],
   [
+   "اسراف",
+   "lemma",
+   "israf-1"
+  ],
+  [
+   "اسرار",
+   "lemma",
+   "israr-1"
+  ],
+  [
+   "استعاذ",
+   "lemma",
+   "istaadha-1"
+  ],
+  [
+   "استعفف",
+   "lemma",
+   "istaaffa-1"
+  ],
+  [
    "استعان",
    "lemma",
    "istaana-1"
+  ],
+  [
+   "استبق",
+   "lemma",
+   "istabaqa-1"
+  ],
+  [
+   "اصطبر",
+   "lemma",
+   "istabara-1"
+  ],
+  [
+   "استبدل",
+   "lemma",
+   "istabdala-1"
+  ],
+  [
+   "استبرق",
+   "lemma",
+   "istabraq-1"
+  ],
+  [
+   "استبشر",
+   "lemma",
+   "istabshara-1"
+  ],
+  [
+   "استضعف",
+   "lemma",
+   "istadafa-1"
+  ],
+  [
+   "استذن",
+   "lemma",
+   "istadhana-1"
+  ],
+  [
+   "استدرج",
+   "lemma",
+   "istadraja-1"
+  ],
+  [
+   "اصطفي",
+   "lemma",
+   "istafa-1"
+  ],
+  [
+   "اصطفيا",
+   "lemma",
+   "istafa-1"
+  ],
+  [
+   "استفتي",
+   "lemma",
+   "istafta-1"
+  ],
+  [
+   "استفتح",
+   "lemma",
+   "istaftaha-1"
+  ],
+  [
+   "استغاث",
+   "lemma",
+   "istaghatha-1"
   ],
   [
    "استغفر",
@@ -1497,9 +8037,154 @@ const QM_SEARCH_INDEX = {
    "istaghfara-1"
   ],
   [
+   "استغني",
+   "lemma",
+   "istaghna-1"
+  ],
+  [
+   "استغنيا",
+   "lemma",
+   "istaghna-1"
+  ],
+  [
+   "استغشي",
+   "lemma",
+   "istaghsha-1"
+  ],
+  [
+   "استغشيا",
+   "lemma",
+   "istaghsha-1"
+  ],
+  [
+   "استحب",
+   "lemma",
+   "istahabba-1"
+  ],
+  [
+   "استحق",
+   "lemma",
+   "istahaqqa-1"
+  ],
+  [
+   "استحيا",
+   "lemma",
+   "istahya-1"
+  ],
+  [
+   "استهزا",
+   "lemma",
+   "istahzaa-1"
+  ],
+  [
+   "استجاب",
+   "lemma",
+   "istajaba-1"
+  ],
+  [
+   "استعجل",
+   "lemma",
+   "istajala-1"
+  ],
+  [
+   "استجار",
+   "lemma",
+   "istajara-1"
+  ],
+  [
+   "استجر",
+   "lemma",
+   "istajara-2"
+  ],
+  [
+   "استكان",
+   "lemma",
+   "istakana-1"
+  ],
+  [
    "استكبر",
    "lemma",
    "istakbara-1"
+  ],
+  [
+   "استخف",
+   "lemma",
+   "istakhaffa-1"
+  ],
+  [
+   "استخر",
+   "lemma",
+   "istakhara-1"
+  ],
+  [
+   "استخلف",
+   "lemma",
+   "istakhlafa-1"
+  ],
+  [
+   "استخرج",
+   "lemma",
+   "istakhraja-1"
+  ],
+  [
+   "اصطلي",
+   "lemma",
+   "istala-1"
+  ],
+  [
+   "اصطليا",
+   "lemma",
+   "istala-1"
+  ],
+  [
+   "استمع",
+   "lemma",
+   "istamaa-1"
+  ],
+  [
+   "استمسك",
+   "lemma",
+   "istamsaka-1"
+  ],
+  [
+   "استمتع",
+   "lemma",
+   "istamtaa-1"
+  ],
+  [
+   "استنكف",
+   "lemma",
+   "istankafa-1"
+  ],
+  [
+   "استنصر",
+   "lemma",
+   "istansara-1"
+  ],
+  [
+   "استقام",
+   "lemma",
+   "istaqama-1"
+  ],
+  [
+   "استقدم",
+   "lemma",
+   "istaqdama-1"
+  ],
+  [
+   "استشهد",
+   "lemma",
+   "istashhada-1"
+  ],
+  [
+   "استسقي",
+   "lemma",
+   "istasqa-1"
+  ],
+  [
+   "استسقيا",
+   "lemma",
+   "istasqa-1"
   ],
   [
    "استطاع",
@@ -1512,6 +8197,11 @@ const QM_SEARCH_INDEX = {
    "istataa-1"
   ],
   [
+   "استعتب",
+   "lemma",
+   "istatba-1"
+  ],
+  [
    "استوي",
    "lemma",
    "istawaa-1"
@@ -1522,9 +8212,94 @@ const QM_SEARCH_INDEX = {
    "istawaa-1"
   ],
   [
+   "استيس",
+   "lemma",
+   "istaysa-1"
+  ],
+  [
+   "استيسر",
+   "lemma",
+   "istaysara-1"
+  ],
+  [
+   "استبدال",
+   "lemma",
+   "istibdal-1"
+  ],
+  [
+   "استحياء",
+   "lemma",
+   "istihya-1"
+  ],
+  [
+   "استكبار",
+   "lemma",
+   "istikbar-1"
+  ],
+  [
+   "اسود",
+   "lemma",
+   "iswadda-1"
+  ],
+  [
+   "عصيان",
+   "lemma",
+   "isyan-1"
+  ],
+  [
+   "ايتاء",
+   "lemma",
+   "ita-1"
+  ],
+  [
+   "اعتذر",
+   "lemma",
+   "itadhara-1"
+  ],
+  [
+   "عتل",
+   "lemma",
+   "itala-1"
+  ],
+  [
+   "اطعام",
+   "lemma",
+   "itam-1"
+  ],
+  [
+   "اعترف",
+   "lemma",
+   "itarafa-1"
+  ],
+  [
+   "اعتصم",
+   "lemma",
+   "itasama-1"
+  ],
+  [
+   "اعتزل",
+   "lemma",
+   "itazala-1"
+  ],
+  [
    "اثم",
    "lemma",
    "ithm-1"
+  ],
+  [
+   "اثنان",
+   "lemma",
+   "ithnan-1"
+  ],
+  [
+   "عتي",
+   "lemma",
+   "itiyy-1"
+  ],
+  [
+   "اطمان",
+   "lemma",
+   "itmaanna-1"
   ],
   [
    "اتبع",
@@ -1532,9 +8307,29 @@ const QM_SEARCH_INDEX = {
    "ittabaa-1"
   ],
   [
+   "اطهر",
+   "lemma",
+   "ittahhara-1"
+  ],
+  [
+   "اتكا",
+   "lemma",
+   "ittaka-1"
+  ],
+  [
    "اتخذ",
    "lemma",
    "ittakhadha-1"
+  ],
+  [
+   "اطلع",
+   "lemma",
+   "ittalaa-1"
+  ],
+  [
+   "ائتمر",
+   "lemma",
+   "ittamara-1"
   ],
   [
    "اتقي",
@@ -1542,9 +8337,64 @@ const QM_SEARCH_INDEX = {
    "ittaqa-1"
   ],
   [
+   "اتسق",
+   "lemma",
+   "ittasaqa-1"
+  ],
+  [
+   "اطوف",
+   "lemma",
+   "ittawwafa-1"
+  ],
+  [
+   "اتباع",
+   "lemma",
+   "ittiba-1"
+  ],
+  [
+   "اتخاذ",
+   "lemma",
+   "ittikhadh-1"
+  ],
+  [
+   "عوج",
+   "lemma",
+   "iwaj-1"
+  ],
+  [
+   "اياب",
+   "lemma",
+   "iyab-1"
+  ],
+  [
    "ايا",
    "lemma",
    "iyyaa-1"
+  ],
+  [
+   "ازداد",
+   "lemma",
+   "izdada-1"
+  ],
+  [
+   "عز",
+   "lemma",
+   "izz-1"
+  ],
+  [
+   "عزه",
+   "lemma",
+   "izza-1"
+  ],
+  [
+   "ازين",
+   "lemma",
+   "izzayyana-1"
+  ],
+  [
+   "جاع",
+   "lemma",
+   "jaa-2"
   ],
   [
    "جاء",
@@ -1557,9 +8407,69 @@ const QM_SEARCH_INDEX = {
    "jaala-1"
   ],
   [
+   "جاوز",
+   "lemma",
+   "jaawaza-2"
+  ],
+  [
+   "جاب",
+   "lemma",
+   "jaba-1"
+  ],
+  [
+   "جبي",
+   "lemma",
+   "jabaa-1"
+  ],
+  [
    "جبل",
    "lemma",
    "jabal-1"
+  ],
+  [
+   "جبار",
+   "lemma",
+   "jabbar-1"
+  ],
+  [
+   "جبين",
+   "lemma",
+   "jabin-1"
+  ],
+  [
+   "جدل",
+   "lemma",
+   "jadal-1"
+  ],
+  [
+   "جادل",
+   "lemma",
+   "jadala-1"
+  ],
+  [
+   "جدل",
+   "lemma",
+   "jadala-1"
+  ],
+  [
+   "جدث",
+   "lemma",
+   "jadath-1"
+  ],
+  [
+   "جد",
+   "lemma",
+   "jadd-1"
+  ],
+  [
+   "جديد",
+   "lemma",
+   "jadid-1"
+  ],
+  [
+   "جفنه",
+   "lemma",
+   "jafna-1"
   ],
   [
    "جاهد",
@@ -1572,9 +8482,64 @@ const QM_SEARCH_INDEX = {
    "jahada-1"
   ],
   [
+   "جحد",
+   "lemma",
+   "jahada-2"
+  ],
+  [
+   "جهاله",
+   "lemma",
+   "jahala-1"
+  ],
+  [
+   "جهله",
+   "lemma",
+   "jahala-1"
+  ],
+  [
    "جهنم",
    "lemma",
    "jahannam-1"
+  ],
+  [
+   "جهر",
+   "lemma",
+   "jahara-1"
+  ],
+  [
+   "جهاز",
+   "lemma",
+   "jahaz-1"
+  ],
+  [
+   "جهد",
+   "lemma",
+   "jahd-1"
+  ],
+  [
+   "جهز",
+   "lemma",
+   "jahhaza-1"
+  ],
+  [
+   "جاهل",
+   "lemma",
+   "jahil-1"
+  ],
+  [
+   "جهل",
+   "lemma",
+   "jahila-1"
+  ],
+  [
+   "جاهليه",
+   "lemma",
+   "jahiliyya-1"
+  ],
+  [
+   "جهليه",
+   "lemma",
+   "jahiliyya-1"
   ],
   [
    "جحيم",
@@ -1582,9 +8547,119 @@ const QM_SEARCH_INDEX = {
    "jahim-1"
   ],
   [
+   "جهر",
+   "lemma",
+   "jahr-1"
+  ],
+  [
+   "جهره",
+   "lemma",
+   "jahra-1"
+  ],
+  [
+   "جاعل",
+   "lemma",
+   "jail-1"
+  ],
+  [
+   "جلاء",
+   "lemma",
+   "jala-1"
+  ],
+  [
+   "جلد",
+   "lemma",
+   "jalada-1"
+  ],
+  [
+   "جلال",
+   "lemma",
+   "jalal-1"
+  ],
+  [
+   "جلده",
+   "lemma",
+   "jalda-1"
+  ],
+  [
+   "جلي",
+   "lemma",
+   "jalla-1"
+  ],
+  [
+   "جليا",
+   "lemma",
+   "jalla-1"
+  ],
+  [
+   "جالوت",
+   "lemma",
+   "jalut-1"
+  ],
+  [
+   "جمع",
+   "lemma",
+   "jam-1"
+  ],
+  [
+   "جمع",
+   "lemma",
+   "jamaa-1"
+  ],
+  [
+   "جمع",
+   "lemma",
+   "jamaa-2"
+  ],
+  [
+   "جمل",
+   "lemma",
+   "jamal-1"
+  ],
+  [
    "جميع",
    "lemma",
    "jami-1"
+  ],
+  [
+   "جامع",
+   "lemma",
+   "jami-2"
+  ],
+  [
+   "جميل",
+   "lemma",
+   "jamil-1"
+  ],
+  [
+   "جني",
+   "lemma",
+   "jana-1"
+  ],
+  [
+   "جنح",
+   "lemma",
+   "janaha-1"
+  ],
+  [
+   "جنب",
+   "lemma",
+   "janb-1"
+  ],
+  [
+   "جانب",
+   "lemma",
+   "janib-1"
+  ],
+  [
+   "جني",
+   "lemma",
+   "janiyy-1"
+  ],
+  [
+   "جان",
+   "lemma",
+   "jann-1"
   ],
   [
    "جنه",
@@ -1592,9 +8667,99 @@ const QM_SEARCH_INDEX = {
    "janna-1"
   ],
   [
+   "جن",
+   "lemma",
+   "janna-2"
+  ],
+  [
+   "جنب",
+   "lemma",
+   "jannaba-1"
+  ],
+  [
+   "جار",
+   "lemma",
+   "jar-1"
+  ],
+  [
    "جري",
    "lemma",
    "jara-1"
+  ],
+  [
+   "جراد",
+   "lemma",
+   "jarad-1"
+  ],
+  [
+   "جرم",
+   "lemma",
+   "jarama-1"
+  ],
+  [
+   "جارحه",
+   "lemma",
+   "jariha-1"
+  ],
+  [
+   "جاريه",
+   "lemma",
+   "jariya-1"
+  ],
+  [
+   "جر",
+   "lemma",
+   "jarra-1"
+  ],
+  [
+   "جاس",
+   "lemma",
+   "jasa-1"
+  ],
+  [
+   "جسد",
+   "lemma",
+   "jasad-1"
+  ],
+  [
+   "جاثم",
+   "lemma",
+   "jathim-1"
+  ],
+  [
+   "جاثيه",
+   "lemma",
+   "jathiya-1"
+  ],
+  [
+   "جواب",
+   "lemma",
+   "jawab-1"
+  ],
+  [
+   "جاور",
+   "lemma",
+   "jawara-1"
+  ],
+  [
+   "جاوز",
+   "lemma",
+   "jawaza-1"
+  ],
+  [
+   "جوف",
+   "lemma",
+   "jawf-1"
+  ],
+  [
+   "جو",
+   "lemma",
+   "jaww-1"
+  ],
+  [
+   "جيب",
+   "lemma",
+   "jayb-1"
   ],
   [
    "جزي",
@@ -1602,14 +8767,144 @@ const QM_SEARCH_INDEX = {
    "jaza-1"
   ],
   [
+   "جزي",
+   "lemma",
+   "jaza-2"
+  ],
+  [
+   "جزي",
+   "lemma",
+   "jaza-3"
+  ],
+  [
    "جزاء",
    "lemma",
    "jazaa-1"
   ],
   [
+   "جزع",
+   "lemma",
+   "jazia-1"
+  ],
+  [
+   "جاز",
+   "lemma",
+   "jazin-1"
+  ],
+  [
+   "جزوع",
+   "lemma",
+   "jazuu-1"
+  ],
+  [
+   "جبله",
+   "lemma",
+   "jibill-1"
+  ],
+  [
+   "جبريل",
+   "lemma",
+   "jibril-1"
+  ],
+  [
+   "جبت",
+   "lemma",
+   "jibt-1"
+  ],
+  [
+   "جيد",
+   "lemma",
+   "jid-1"
+  ],
+  [
+   "جدال",
+   "lemma",
+   "jidal-1"
+  ],
+  [
+   "جدار",
+   "lemma",
+   "jidar-1"
+  ],
+  [
+   "جذع",
+   "lemma",
+   "jidh-1"
+  ],
+  [
+   "جهاد",
+   "lemma",
+   "jihad-1"
+  ],
+  [
+   "جلد",
+   "lemma",
+   "jild-1"
+  ],
+  [
+   "جماله",
+   "lemma",
+   "jimala-1"
+  ],
+  [
    "جن",
    "lemma",
    "jinn-1"
+  ],
+  [
+   "جنه",
+   "lemma",
+   "jinna-1"
+  ],
+  [
+   "جسم",
+   "lemma",
+   "jism-1"
+  ],
+  [
+   "جثي",
+   "lemma",
+   "jithiyy-1"
+  ],
+  [
+   "جزيه",
+   "lemma",
+   "jizya-1"
+  ],
+  [
+   "جوع",
+   "lemma",
+   "jua-1"
+  ],
+  [
+   "جب",
+   "lemma",
+   "jubb-1"
+  ],
+  [
+   "جودي",
+   "lemma",
+   "judi-1"
+  ],
+  [
+   "جفاء",
+   "lemma",
+   "jufa-1"
+  ],
+  [
+   "جهد",
+   "lemma",
+   "juhd-1"
+  ],
+  [
+   "جمعه",
+   "lemma",
+   "juma-1"
+  ],
+  [
+   "جمله",
+   "lemma",
+   "jumla-1"
   ],
   [
    "جناح",
@@ -1622,9 +8917,44 @@ const QM_SEARCH_INDEX = {
    "jund-1"
   ],
   [
+   "جنه",
+   "lemma",
+   "junna-1"
+  ],
+  [
+   "جنب",
+   "lemma",
+   "junub-1"
+  ],
+  [
+   "جرح",
+   "lemma",
+   "juruh-1"
+  ],
+  [
+   "جرز",
+   "lemma",
+   "juruz-1"
+  ],
+  [
+   "جزء",
+   "lemma",
+   "juz-1"
+  ],
+  [
+   "كعب",
+   "lemma",
+   "kaab-1"
+  ],
+  [
    "كاد",
    "lemma",
    "kaada-1"
+  ],
+  [
+   "كال",
+   "lemma",
+   "kaala-1"
   ],
   [
    "كان",
@@ -1637,9 +8967,39 @@ const QM_SEARCH_INDEX = {
    "kaanna-1"
   ],
   [
+   "كاين",
+   "lemma",
+   "kaayyin-1"
+  ],
+  [
+   "كبت",
+   "lemma",
+   "kabata-1"
+  ],
+  [
+   "كبر",
+   "lemma",
+   "kabbara-1"
+  ],
+  [
    "كبير",
    "lemma",
    "kabir-1"
+  ],
+  [
+   "كبر",
+   "lemma",
+   "kabura-1"
+  ],
+  [
+   "كاد",
+   "lemma",
+   "kada-2"
+  ],
+  [
+   "كدح",
+   "lemma",
+   "kadh-1"
   ],
   [
    "كذب",
@@ -1647,9 +9007,29 @@ const QM_SEARCH_INDEX = {
    "kadhaba-1"
   ],
   [
+   "كذاب",
+   "lemma",
+   "kadhdhab-1"
+  ],
+  [
    "كذب",
    "lemma",
    "kadhdhaba-1"
+  ],
+  [
+   "كذب",
+   "lemma",
+   "kadhib-1"
+  ],
+  [
+   "كاذب",
+   "lemma",
+   "kadhib-2"
+  ],
+  [
+   "كادح",
+   "lemma",
+   "kadih-1"
   ],
   [
    "كفي",
@@ -1662,9 +9042,39 @@ const QM_SEARCH_INDEX = {
    "kafa-1"
   ],
   [
+   "كفل",
+   "lemma",
+   "kafala-1"
+  ],
+  [
    "كفر",
    "lemma",
    "kafara-1"
+  ],
+  [
+   "كف",
+   "lemma",
+   "kaff-1"
+  ],
+  [
+   "كافه",
+   "lemma",
+   "kaffa-1"
+  ],
+  [
+   "كف",
+   "lemma",
+   "kaffa-2"
+  ],
+  [
+   "كفل",
+   "lemma",
+   "kaffala-1"
+  ],
+  [
+   "كفار",
+   "lemma",
+   "kaffar-1"
   ],
   [
    "كفر",
@@ -1672,14 +9082,84 @@ const QM_SEARCH_INDEX = {
    "kaffara-1"
   ],
   [
+   "كفاره",
+   "lemma",
+   "kaffara-2"
+  ],
+  [
+   "كفيل",
+   "lemma",
+   "kafil-1"
+  ],
+  [
+   "كاف",
+   "lemma",
+   "kafin-1"
+  ],
+  [
    "كافر",
    "lemma",
    "kafir-1"
   ],
   [
+   "كفور",
+   "lemma",
+   "kafur-1"
+  ],
+  [
+   "كافور",
+   "lemma",
+   "kafur-2"
+  ],
+  [
+   "كهف",
+   "lemma",
+   "kahf-1"
+  ],
+  [
+   "كاهن",
+   "lemma",
+   "kahin-1"
+  ],
+  [
+   "كهل",
+   "lemma",
+   "kahl-1"
+  ],
+  [
+   "كاعب",
+   "lemma",
+   "kaib-1"
+  ],
+  [
+   "كلاله",
+   "lemma",
+   "kalala-1"
+  ],
+  [
+   "كلام",
+   "lemma",
+   "kalam-1"
+  ],
+  [
+   "كلم",
+   "lemma",
+   "kalam-1"
+  ],
+  [
+   "كلب",
+   "lemma",
+   "kalb-1"
+  ],
+  [
    "كلمه",
    "lemma",
    "kalima-1"
+  ],
+  [
+   "كل",
+   "lemma",
+   "kall-1"
   ],
   [
    "كلا",
@@ -1697,6 +9177,36 @@ const QM_SEARCH_INDEX = {
    "kam-1"
   ],
   [
+   "كامل",
+   "lemma",
+   "kamil-1"
+  ],
+  [
+   "كنز",
+   "lemma",
+   "kanaza-1"
+  ],
+  [
+   "كنز",
+   "lemma",
+   "kanz-1"
+  ],
+  [
+   "كرب",
+   "lemma",
+   "karb-1"
+  ],
+  [
+   "كره",
+   "lemma",
+   "karh-1"
+  ],
+  [
+   "كاره",
+   "lemma",
+   "karih-1"
+  ],
+  [
    "كره",
    "lemma",
    "kariha-1"
@@ -1707,9 +9217,49 @@ const QM_SEARCH_INDEX = {
    "karim-1"
   ],
   [
+   "كره",
+   "lemma",
+   "karra-1"
+  ],
+  [
+   "كره",
+   "lemma",
+   "karraha-1"
+  ],
+  [
+   "كاس",
+   "lemma",
+   "kas-1"
+  ],
+  [
+   "كسا",
+   "lemma",
+   "kasa-1"
+  ],
+  [
    "كسب",
    "lemma",
    "kasaba-1"
+  ],
+  [
+   "كساد",
+   "lemma",
+   "kasad-1"
+  ],
+  [
+   "كشف",
+   "lemma",
+   "kashafa-1"
+  ],
+  [
+   "كاشف",
+   "lemma",
+   "kashif-1"
+  ],
+  [
+   "كاشفه",
+   "lemma",
+   "kashifa-1"
   ],
   [
    "كتب",
@@ -1717,9 +9267,54 @@ const QM_SEARCH_INDEX = {
    "kataba-1"
   ],
   [
+   "كتم",
+   "lemma",
+   "katama-1"
+  ],
+  [
+   "كثيب",
+   "lemma",
+   "kathib-1"
+  ],
+  [
    "كثير",
    "lemma",
    "kathir-1"
+  ],
+  [
+   "كثره",
+   "lemma",
+   "kathra-1"
+  ],
+  [
+   "كثر",
+   "lemma",
+   "kaththara-1"
+  ],
+  [
+   "كثر",
+   "lemma",
+   "kathura-1"
+  ],
+  [
+   "كاتب",
+   "lemma",
+   "katib-1"
+  ],
+  [
+   "كوكب",
+   "lemma",
+   "kawkab-1"
+  ],
+  [
+   "كوثر",
+   "lemma",
+   "kawthar-1"
+  ],
+  [
+   "كور",
+   "lemma",
+   "kawwara-1"
   ],
   [
    "كي",
@@ -1737,9 +9332,64 @@ const QM_SEARCH_INDEX = {
    "kayfa-1"
   ],
   [
+   "كيل",
+   "lemma",
+   "kayl-1"
+  ],
+  [
+   "كظيم",
+   "lemma",
+   "kazim-1"
+  ],
+  [
+   "كاظم",
+   "lemma",
+   "kazim-2"
+  ],
+  [
+   "خاض",
+   "lemma",
+   "khaada-1"
+  ],
+  [
+   "خادع",
+   "lemma",
+   "khaada-2"
+  ],
+  [
    "خاف",
    "lemma",
    "khaafa-1"
+  ],
+  [
+   "خالف",
+   "lemma",
+   "khaalafa-1"
+  ],
+  [
+   "خاطب",
+   "lemma",
+   "khaataba-1"
+  ],
+  [
+   "خاب",
+   "lemma",
+   "khaba-1"
+  ],
+  [
+   "خبا",
+   "lemma",
+   "khaba-2"
+  ],
+  [
+   "خبال",
+   "lemma",
+   "khabal-1"
+  ],
+  [
+   "خبر",
+   "lemma",
+   "khabar-1"
   ],
   [
    "خبير",
@@ -1747,14 +9397,149 @@ const QM_SEARCH_INDEX = {
    "khabir-1"
   ],
   [
+   "خبيث",
+   "lemma",
+   "khabith-1"
+  ],
+  [
+   "خبث",
+   "lemma",
+   "khabutha-1"
+  ],
+  [
+   "خدع",
+   "lemma",
+   "khada-1"
+  ],
+  [
+   "خذل",
+   "lemma",
+   "khadhala-1"
+  ],
+  [
+   "خذول",
+   "lemma",
+   "khadhul-1"
+  ],
+  [
+   "خادع",
+   "lemma",
+   "khadi-1"
+  ],
+  [
+   "خضر",
+   "lemma",
+   "khadir-1"
+  ],
+  [
+   "خاف",
+   "lemma",
+   "khafa-1"
+  ],
+  [
+   "خفض",
+   "lemma",
+   "khafada-1"
+  ],
+  [
+   "خافت",
+   "lemma",
+   "khafata-1"
+  ],
+  [
+   "خف",
+   "lemma",
+   "khaffa-1"
+  ],
+  [
+   "خفف",
+   "lemma",
+   "khaffafa-1"
+  ],
+  [
+   "خافضه",
+   "lemma",
+   "khafida-1"
+  ],
+  [
+   "خفيف",
+   "lemma",
+   "khafif-1"
+  ],
+  [
+   "خفي",
+   "lemma",
+   "khafiya-1"
+  ],
+  [
+   "خافيه",
+   "lemma",
+   "khafiya-2"
+  ],
+  [
+   "خفي",
+   "lemma",
+   "khafiyy-1"
+  ],
+  [
+   "خائن",
+   "lemma",
+   "khain-1"
+  ],
+  [
+   "خائف",
+   "lemma",
+   "khain-2"
+  ],
+  [
+   "خال",
+   "lemma",
+   "khal-1"
+  ],
+  [
    "خلا",
    "lemma",
    "khala-1"
   ],
   [
+   "خلد",
+   "lemma",
+   "khalada-1"
+  ],
+  [
+   "خلف",
+   "lemma",
+   "khalafa-1"
+  ],
+  [
+   "خلاق",
+   "lemma",
+   "khalaq-1"
+  ],
+  [
+   "خلق",
+   "lemma",
+   "khalaq-1"
+  ],
+  [
    "خلق",
    "lemma",
    "khalaqa-1"
+  ],
+  [
+   "خلص",
+   "lemma",
+   "khalasa-1"
+  ],
+  [
+   "خاله",
+   "lemma",
+   "khalat-1"
+  ],
+  [
+   "خلط",
+   "lemma",
+   "khalata-1"
   ],
   [
    "خلف",
@@ -1767,9 +9552,104 @@ const QM_SEARCH_INDEX = {
    "khalid-1"
   ],
   [
+   "خالف",
+   "lemma",
+   "khalif-1"
+  ],
+  [
+   "خليفه",
+   "lemma",
+   "khalifa-1"
+  ],
+  [
+   "خليل",
+   "lemma",
+   "khalil-1"
+  ],
+  [
+   "خالق",
+   "lemma",
+   "khaliq-1"
+  ],
+  [
+   "خالص",
+   "lemma",
+   "khalis-1"
+  ],
+  [
+   "خليط",
+   "lemma",
+   "khalit-1"
+  ],
+  [
+   "خاليه",
+   "lemma",
+   "khaliya-1"
+  ],
+  [
+   "خلي",
+   "lemma",
+   "khalla-1"
+  ],
+  [
+   "خليا",
+   "lemma",
+   "khalla-1"
+  ],
+  [
+   "خلف",
+   "lemma",
+   "khallafa-1"
+  ],
+  [
+   "خلاق",
+   "lemma",
+   "khallaq-1"
+  ],
+  [
    "خلق",
    "lemma",
    "khalq-1"
+  ],
+  [
+   "خامد",
+   "lemma",
+   "khamid-1"
+  ],
+  [
+   "خامس",
+   "lemma",
+   "khamis-1"
+  ],
+  [
+   "خمر",
+   "lemma",
+   "khamr-1"
+  ],
+  [
+   "خمسه",
+   "lemma",
+   "khamsa-1"
+  ],
+  [
+   "خان",
+   "lemma",
+   "khana-1"
+  ],
+  [
+   "خرق",
+   "lemma",
+   "khaqaqa-1"
+  ],
+  [
+   "خراب",
+   "lemma",
+   "kharab-1"
+  ],
+  [
+   "خرب",
+   "lemma",
+   "kharaba-1"
   ],
   [
    "خرج",
@@ -1777,9 +9657,164 @@ const QM_SEARCH_INDEX = {
    "kharaja-1"
   ],
   [
+   "خرص",
+   "lemma",
+   "kharasa-1"
+  ],
+  [
+   "خردل",
+   "lemma",
+   "khardal-1"
+  ],
+  [
+   "خارج",
+   "lemma",
+   "kharij-1"
+  ],
+  [
+   "خرج",
+   "lemma",
+   "kharj-1"
+  ],
+  [
+   "خر",
+   "lemma",
+   "kharra-1"
+  ],
+  [
+   "خراص",
+   "lemma",
+   "kharras-1"
+  ],
+  [
+   "خسف",
+   "lemma",
+   "khasafa-1"
+  ],
+  [
+   "خصف",
+   "lemma",
+   "khasafa-2"
+  ],
+  [
+   "خسار",
+   "lemma",
+   "khasar-1"
+  ],
+  [
+   "خاشع",
+   "lemma",
+   "khashi-1"
+  ],
+  [
+   "خشع",
+   "lemma",
+   "khashia-1"
+  ],
+  [
+   "خشي",
+   "lemma",
+   "khashiya-1"
+  ],
+  [
+   "خشيه",
+   "lemma",
+   "khashya-1"
+  ],
+  [
+   "خاسئ",
+   "lemma",
+   "khasi-1"
+  ],
+  [
+   "خصيم",
+   "lemma",
+   "khasim-1"
+  ],
+  [
+   "خصم",
+   "lemma",
+   "khasim-2"
+  ],
+  [
    "خاسر",
    "lemma",
    "khasir-1"
+  ],
+  [
+   "خسر",
+   "lemma",
+   "khasira-1"
+  ],
+  [
+   "اخسر",
+   "lemma",
+   "khasira-2"
+  ],
+  [
+   "خاسره",
+   "lemma",
+   "khasira-3"
+  ],
+  [
+   "خصم",
+   "lemma",
+   "khasm-1"
+  ],
+  [
+   "خاتم",
+   "lemma",
+   "khatam-1"
+  ],
+  [
+   "ختم",
+   "lemma",
+   "khatama-1"
+  ],
+  [
+   "خطب",
+   "lemma",
+   "khatb-1"
+  ],
+  [
+   "خطفه",
+   "lemma",
+   "khatfa-1"
+  ],
+  [
+   "خاطئ",
+   "lemma",
+   "khati-1"
+  ],
+  [
+   "خطء",
+   "lemma",
+   "khati-2"
+  ],
+  [
+   "خطيئه",
+   "lemma",
+   "khatia-1"
+  ],
+  [
+   "خطبه",
+   "lemma",
+   "khatib-1"
+  ],
+  [
+   "خطف",
+   "lemma",
+   "khatifa-1"
+  ],
+  [
+   "ختار",
+   "lemma",
+   "khattar-1"
+  ],
+  [
+   "خوض",
+   "lemma",
+   "khawd-1"
   ],
   [
    "خوف",
@@ -1787,9 +9822,224 @@ const QM_SEARCH_INDEX = {
    "khawf-1"
   ],
   [
+   "خاويه",
+   "lemma",
+   "khawiya-1"
+  ],
+  [
+   "خوف",
+   "lemma",
+   "khawwafa-1"
+  ],
+  [
+   "خول",
+   "lemma",
+   "khawwala-1"
+  ],
+  [
+   "خوان",
+   "lemma",
+   "khawwan-1"
+  ],
+  [
+   "خيل",
+   "lemma",
+   "khayl-1"
+  ],
+  [
    "خير",
    "lemma",
    "khayr-1"
+  ],
+  [
+   "خيط",
+   "lemma",
+   "khayt-1"
+  ],
+  [
+   "خيل",
+   "lemma",
+   "khayyala-1"
+  ],
+  [
+   "خزائن",
+   "lemma",
+   "khazain-1"
+  ],
+  [
+   "خازن",
+   "lemma",
+   "khazana-1"
+  ],
+  [
+   "خزي",
+   "lemma",
+   "khaziya-1"
+  ],
+  [
+   "خدن",
+   "lemma",
+   "khidn-1"
+  ],
+  [
+   "خيفه",
+   "lemma",
+   "khifa-1"
+  ],
+  [
+   "خلاف",
+   "lemma",
+   "khilaf-1"
+  ],
+  [
+   "خلف",
+   "lemma",
+   "khilaf-1"
+  ],
+  [
+   "خلال",
+   "lemma",
+   "khilal-1"
+  ],
+  [
+   "خلل",
+   "lemma",
+   "khilal-1"
+  ],
+  [
+   "خلفه",
+   "lemma",
+   "khilfa-1"
+  ],
+  [
+   "خنزير",
+   "lemma",
+   "khinzir-1"
+  ],
+  [
+   "خيره",
+   "lemma",
+   "khira-1"
+  ],
+  [
+   "خصام",
+   "lemma",
+   "khisam-1"
+  ],
+  [
+   "خطاب",
+   "lemma",
+   "khitab-1"
+  ],
+  [
+   "خيانه",
+   "lemma",
+   "khiyana-1"
+  ],
+  [
+   "خياط",
+   "lemma",
+   "khiyat-1"
+  ],
+  [
+   "خزي",
+   "lemma",
+   "khizy-1"
+  ],
+  [
+   "خبر",
+   "lemma",
+   "khubr-1"
+  ],
+  [
+   "خفيه",
+   "lemma",
+   "khufya-1"
+  ],
+  [
+   "خلد",
+   "lemma",
+   "khuld-1"
+  ],
+  [
+   "خلود",
+   "lemma",
+   "khulud-1"
+  ],
+  [
+   "خلق",
+   "lemma",
+   "khuluq-1"
+  ],
+  [
+   "خمس",
+   "lemma",
+   "khums-1"
+  ],
+  [
+   "خنس",
+   "lemma",
+   "khunnas-1"
+  ],
+  [
+   "خروج",
+   "lemma",
+   "khuruj-1"
+  ],
+  [
+   "خشوع",
+   "lemma",
+   "khushu-1"
+  ],
+  [
+   "خطوه",
+   "lemma",
+   "khutwa-1"
+  ],
+  [
+   "خوار",
+   "lemma",
+   "khuwar-1"
+  ],
+  [
+   "كبر",
+   "lemma",
+   "kibar-1"
+  ],
+  [
+   "كبرياء",
+   "lemma",
+   "kibriya-1"
+  ],
+  [
+   "كفات",
+   "lemma",
+   "kifat-1"
+  ],
+  [
+   "كفل",
+   "lemma",
+   "kifl-1"
+  ],
+  [
+   "كم",
+   "lemma",
+   "kimm-1"
+  ],
+  [
+   "كن",
+   "lemma",
+   "kinn-1"
+  ],
+  [
+   "كسف",
+   "lemma",
+   "kisf-1"
+  ],
+  [
+   "كسوه",
+   "lemma",
+   "kiswa-1"
   ],
   [
    "كتاب",
@@ -1797,9 +10047,44 @@ const QM_SEARCH_INDEX = {
    "kitab-1"
   ],
   [
+   "كوب",
+   "lemma",
+   "kub-1"
+  ],
+  [
+   "كبير",
+   "lemma",
+   "kubara-1"
+  ],
+  [
+   "كبار",
+   "lemma",
+   "kubbar-1"
+  ],
+  [
+   "كبت",
+   "lemma",
+   "kubbat-1"
+  ],
+  [
+   "كبري",
+   "lemma",
+   "kubra-1"
+  ],
+  [
+   "كبريا",
+   "lemma",
+   "kubra-1"
+  ],
+  [
    "كفر",
    "lemma",
    "kufr-1"
+  ],
+  [
+   "كفران",
+   "lemma",
+   "kufran-1"
   ],
   [
    "كفو",
@@ -1822,6 +10107,21 @@ const QM_SEARCH_INDEX = {
    "kullama-1"
   ],
   [
+   "كرسي",
+   "lemma",
+   "kursi-1"
+  ],
+  [
+   "كسلان",
+   "lemma",
+   "kusala-1"
+  ],
+  [
+   "كوي",
+   "lemma",
+   "kuwiya-1"
+  ],
+  [
    "لا",
    "lemma",
    "la-1"
@@ -1834,12 +10134,137 @@ const QM_SEARCH_INDEX = {
   [
    "لعن",
    "lemma",
+   "laan-1"
+  ],
+  [
+   "لعن",
+   "lemma",
    "laana-1"
+  ],
+  [
+   "لاقيا",
+   "lemma",
+   "laaqa-1"
+  ],
+  [
+   "لقي",
+   "lemma",
+   "laaqa-1"
+  ],
+  [
+   "لبن",
+   "lemma",
+   "laban-1"
+  ],
+  [
+   "لبس",
+   "lemma",
+   "labasa-1"
+  ],
+  [
+   "لبس",
+   "lemma",
+   "labisa-1"
+  ],
+  [
+   "لابث",
+   "lemma",
+   "labith-1"
+  ],
+  [
+   "لبث",
+   "lemma",
+   "labitha-1"
+  ],
+  [
+   "لبس",
+   "lemma",
+   "labs-1"
+  ],
+  [
+   "لبوس",
+   "lemma",
+   "labus-1"
+  ],
+  [
+   "لدي",
+   "lemma",
+   "lada-1"
+  ],
+  [
+   "لذه",
+   "lemma",
+   "ladhdha-1"
+  ],
+  [
+   "لدن",
+   "lemma",
+   "ladun-1"
+  ],
+  [
+   "لفيف",
+   "lemma",
+   "lafif-1"
+  ],
+  [
+   "لغا",
+   "lemma",
+   "laghaa-1"
+  ],
+  [
+   "لغو",
+   "lemma",
+   "laghw-1"
+  ],
+  [
+   "لهب",
+   "lemma",
+   "lahab-1"
+  ],
+  [
+   "لاهيه",
+   "lemma",
+   "lahi-1"
+  ],
+  [
+   "كالح",
+   "lemma",
+   "lahin-1"
+  ],
+  [
+   "لحق",
+   "lemma",
+   "lahiqa-1"
   ],
   [
    "لحم",
    "lemma",
    "lahm-1"
+  ],
+  [
+   "لهو",
+   "lemma",
+   "lahw-1"
+  ],
+  [
+   "لاعب",
+   "lemma",
+   "laib-1"
+  ],
+  [
+   "لعب",
+   "lemma",
+   "laiba-1"
+  ],
+  [
+   "لائم",
+   "lemma",
+   "laim-1"
+  ],
+  [
+   "لج",
+   "lemma",
+   "lajja-1"
   ],
   [
    "لاكن",
@@ -1867,6 +10292,31 @@ const QM_SEARCH_INDEX = {
    "lam-1"
   ],
   [
+   "لام",
+   "lemma",
+   "lama-1"
+  ],
+  [
+   "لمس",
+   "lemma",
+   "lamasa-1"
+  ],
+  [
+   "لمز",
+   "lemma",
+   "lamaza-1"
+  ],
+  [
+   "لمح",
+   "lemma",
+   "lamh-1"
+  ],
+  [
+   "لم",
+   "lemma",
+   "lamm-1"
+  ],
+  [
    "لما",
    "lemma",
    "lamma-1"
@@ -1877,9 +10327,39 @@ const QM_SEARCH_INDEX = {
    "lan-1"
   ],
   [
+   "لعنه",
+   "lemma",
+   "lana-1"
+  ],
+  [
+   "لاق",
+   "lemma",
+   "laqi-1"
+  ],
+  [
+   "لقف",
+   "lemma",
+   "laqifa-1"
+  ],
+  [
    "لقي",
    "lemma",
    "laqiya-1"
+  ],
+  [
+   "لقي",
+   "lemma",
+   "laqqa-1"
+  ],
+  [
+   "لقيا",
+   "lemma",
+   "laqqa-1"
+  ],
+  [
+   "لطيف",
+   "lemma",
+   "latif-1"
   ],
   [
    "لو",
@@ -1887,14 +10367,49 @@ const QM_SEARCH_INDEX = {
    "law-1"
   ],
   [
+   "لوي",
+   "lemma",
+   "lawa-1"
+  ],
+  [
+   "لوح",
+   "lemma",
+   "lawh-1"
+  ],
+  [
    "لولا",
    "lemma",
    "lawla-1"
   ],
   [
+   "لومه",
+   "lemma",
+   "lawma-1"
+  ],
+  [
+   "لون",
+   "lemma",
+   "lawn-1"
+  ],
+  [
+   "لواحه",
+   "lemma",
+   "lawwah-1"
+  ],
+  [
+   "لوامه",
+   "lemma",
+   "lawwama-1"
+  ],
+  [
    "ليل",
    "lemma",
    "layl-1"
+  ],
+  [
+   "ليله",
+   "lemma",
+   "layla-1"
   ],
   [
    "لئن",
@@ -1912,14 +10427,84 @@ const QM_SEARCH_INDEX = {
    "layta-1"
   ],
   [
+   "لي",
+   "lemma",
+   "layy-1"
+  ],
+  [
+   "لين",
+   "lemma",
+   "layyin-1"
+  ],
+  [
    "ل",
    "lemma",
    "li-1"
   ],
   [
+   "لبد",
+   "lemma",
+   "libad-1"
+  ],
+  [
+   "لباس",
+   "lemma",
+   "libas-1"
+  ],
+  [
+   "لينه",
+   "lemma",
+   "lina-1"
+  ],
+  [
+   "لقاء",
+   "lemma",
+   "liqa-1"
+  ],
+  [
+   "لسان",
+   "lemma",
+   "lisan-1"
+  ],
+  [
+   "لواذ",
+   "lemma",
+   "liwadh-1"
+  ],
+  [
+   "لزام",
+   "lemma",
+   "lizam-1"
+  ],
+  [
    "لب",
    "lemma",
    "lubb-1"
+  ],
+  [
+   "لد",
+   "lemma",
+   "ludd-1"
+  ],
+  [
+   "لغوب",
+   "lemma",
+   "lughub-1"
+  ],
+  [
+   "لجي",
+   "lemma",
+   "lujjiyy-1"
+  ],
+  [
+   "لؤلؤ",
+   "lemma",
+   "lulu-1"
+  ],
+  [
+   "لقمان",
+   "lemma",
+   "luqman-1"
   ],
   [
    "لوط",
@@ -1952,9 +10537,99 @@ const QM_SEARCH_INDEX = {
    "ma-with-1"
   ],
   [
+   "ماء",
+   "lemma",
+   "maa-1"
+  ],
+  [
+   "ماب",
+   "lemma",
+   "maab-1"
+  ],
+  [
+   "ماد",
+   "lemma",
+   "maada-1"
+  ],
+  [
+   "معاذ",
+   "lemma",
+   "maadh-1"
+  ],
+  [
+   "معاذير",
+   "lemma",
+   "maadhir-1"
+  ],
+  [
+   "ماكول",
+   "lemma",
+   "maakul-1"
+  ],
+  [
+   "مال",
+   "lemma",
+   "maala-1"
+  ],
+  [
+   "ماري",
+   "lemma",
+   "maara-1"
+  ],
+  [
+   "ماريا",
+   "lemma",
+   "maara-1"
+  ],
+  [
+   "مار",
+   "lemma",
+   "maara-2"
+  ],
+  [
+   "معارج",
+   "lemma",
+   "maarij-1"
+  ],
+  [
    "مات",
    "lemma",
    "maata-1"
+  ],
+  [
+   "مبني",
+   "lemma",
+   "mabniyy-1"
+  ],
+  [
+   "مبثوث",
+   "lemma",
+   "mabthuth-1"
+  ],
+  [
+   "مبعوث",
+   "lemma",
+   "mabuth-1"
+  ],
+  [
+   "معاد",
+   "lemma",
+   "mad-1"
+  ],
+  [
+   "مضي",
+   "lemma",
+   "mada-1"
+  ],
+  [
+   "مدد",
+   "lemma",
+   "madad-1"
+  ],
+  [
+   "مد",
+   "lemma",
+   "madd-1"
   ],
   [
    "مد",
@@ -1962,14 +10637,79 @@ const QM_SEARCH_INDEX = {
    "madda-1"
   ],
   [
+   "ماذا",
+   "lemma",
+   "madha-1"
+  ],
+  [
+   "معذره",
+   "lemma",
+   "madhira-1"
+  ],
+  [
+   "مذكور",
+   "lemma",
+   "madhkur-1"
+  ],
+  [
+   "مذموم",
+   "lemma",
+   "madhmum-1"
+  ],
+  [
+   "مدحور",
+   "lemma",
+   "madhur-1"
+  ],
+  [
+   "مدين",
+   "lemma",
+   "madin-1"
+  ],
+  [
    "مدينه",
    "lemma",
    "madina-1"
   ],
   [
+   "مضجع",
+   "lemma",
+   "madja-1"
+  ],
+  [
+   "معدود",
+   "lemma",
+   "maduda-1"
+  ],
+  [
    "مدين",
    "lemma",
    "madyan-1"
+  ],
+  [
+   "مفر",
+   "lemma",
+   "mafarr-1"
+  ],
+  [
+   "مفازه",
+   "lemma",
+   "mafaza-1"
+  ],
+  [
+   "مفعول",
+   "lemma",
+   "mafool-1"
+  ],
+  [
+   "مفروض",
+   "lemma",
+   "mafrud-1"
+  ],
+  [
+   "مغاره",
+   "lemma",
+   "maghara-1"
   ],
   [
    "مغضوب",
@@ -1982,9 +10722,149 @@ const QM_SEARCH_INDEX = {
    "maghfira-1"
   ],
   [
+   "مغلول",
+   "lemma",
+   "maghlula-1"
+  ],
+  [
+   "مغنم",
+   "lemma",
+   "maghnam-1"
+  ],
+  [
+   "مغرم",
+   "lemma",
+   "maghram-1"
+  ],
+  [
+   "مغرب",
+   "lemma",
+   "maghrib-1"
+  ],
+  [
+   "محا",
+   "lemma",
+   "maha-1"
+  ],
+  [
+   "مهد",
+   "lemma",
+   "mahada-1"
+  ],
+  [
+   "محق",
+   "lemma",
+   "mahaqa-1"
+  ],
+  [
+   "مهد",
+   "lemma",
+   "mahd-1"
+  ],
+  [
+   "محفوظ",
+   "lemma",
+   "mahfuz-1"
+  ],
+  [
+   "مهل",
+   "lemma",
+   "mahhala-1"
+  ],
+  [
+   "ماهد",
+   "lemma",
+   "mahid-1"
+  ],
+  [
+   "محيض",
+   "lemma",
+   "mahid-2"
+  ],
+  [
+   "مهيل",
+   "lemma",
+   "mahil-1"
+  ],
+  [
+   "محل",
+   "lemma",
+   "mahill-1"
+  ],
+  [
+   "محيص",
+   "lemma",
+   "mahis-1"
+  ],
+  [
+   "محجور",
+   "lemma",
+   "mahjur-1"
+  ],
+  [
+   "مهلك",
+   "lemma",
+   "mahlik-1"
+  ],
+  [
+   "مهما",
+   "lemma",
+   "mahma-1"
+  ],
+  [
+   "محمود",
+   "lemma",
+   "mahmud-1"
+  ],
+  [
+   "محروم",
+   "lemma",
+   "mahrum-1"
+  ],
+  [
+   "مائده",
+   "lemma",
+   "maida-1"
+  ],
+  [
+   "معيشه",
+   "lemma",
+   "maisha-1"
+  ],
+  [
+   "مجيد",
+   "lemma",
+   "majid-1"
+  ],
+  [
+   "مجمع",
+   "lemma",
+   "majma-1"
+  ],
+  [
+   "مجموع",
+   "lemma",
+   "majmu-1"
+  ],
+  [
+   "مجنون",
+   "lemma",
+   "majnun-1"
+  ],
+  [
+   "ماجوج",
+   "lemma",
+   "majuj-1"
+  ],
+  [
    "مكان",
    "lemma",
    "makan-1"
+  ],
+  [
+   "مكانه",
+   "lemma",
+   "makana-1"
   ],
   [
    "مكر",
@@ -1992,9 +10872,59 @@ const QM_SEARCH_INDEX = {
    "makara-1"
   ],
   [
+   "مكث",
+   "lemma",
+   "makatha-1"
+  ],
+  [
+   "مخمصه",
+   "lemma",
+   "makhmasa-1"
+  ],
+  [
+   "مخرج",
+   "lemma",
+   "makhraj-1"
+  ],
+  [
+   "مكين",
+   "lemma",
+   "makin-1"
+  ],
+  [
+   "ماكر",
+   "lemma",
+   "makir-1"
+  ],
+  [
+   "ماكث",
+   "lemma",
+   "makith-1"
+  ],
+  [
+   "مكه",
+   "lemma",
+   "makka-1"
+  ],
+  [
+   "مكن",
+   "lemma",
+   "makkana-1"
+  ],
+  [
+   "مكنون",
+   "lemma",
+   "maknun-1"
+  ],
+  [
    "مكر",
    "lemma",
    "makr-1"
+  ],
+  [
+   "مكروه",
+   "lemma",
+   "makruh-1"
   ],
   [
    "مال",
@@ -2007,6 +10937,16 @@ const QM_SEARCH_INDEX = {
    "mala-1"
   ],
   [
+   "مال",
+   "lemma",
+   "mala-3"
+  ],
+  [
+   "ملا",
+   "lemma",
+   "malaa-2"
+  ],
+  [
    "ملك",
    "lemma",
    "malak-1"
@@ -2015,6 +10955,11 @@ const QM_SEARCH_INDEX = {
    "ملك",
    "lemma",
    "malaka-1"
+  ],
+  [
+   "ملكوت",
+   "lemma",
+   "malakut-1"
   ],
   [
    "مالك",
@@ -2027,9 +10972,179 @@ const QM_SEARCH_INDEX = {
    "malik-2"
   ],
   [
+   "مليك",
+   "lemma",
+   "malik-3"
+  ],
+  [
+   "ملي",
+   "lemma",
+   "maliyy-1"
+  ],
+  [
+   "ملجا",
+   "lemma",
+   "malja-1"
+  ],
+  [
+   "ملك",
+   "lemma",
+   "malk-1"
+  ],
+  [
+   "ملوم",
+   "lemma",
+   "malum-1"
+  ],
+  [
+   "ملعون",
+   "lemma",
+   "malun-1"
+  ],
+  [
+   "معلوم",
+   "lemma",
+   "maluum-1"
+  ],
+  [
+   "ممات",
+   "lemma",
+   "mamat-1"
+  ],
+  [
+   "ممدود",
+   "lemma",
+   "mamdud-1"
+  ],
+  [
+   "معين",
+   "lemma",
+   "mamn-1"
+  ],
+  [
+   "ممنون",
+   "lemma",
+   "mamnun-1"
+  ],
+  [
+   "مامون",
+   "lemma",
+   "mamun-1"
+  ],
+  [
+   "معمور",
+   "lemma",
+   "mamur-1"
+  ],
+  [
    "من",
    "lemma",
    "man-1"
+  ],
+  [
+   "منع",
+   "lemma",
+   "manaa-1"
+  ],
+  [
+   "منام",
+   "lemma",
+   "manam-1"
+  ],
+  [
+   "منواه",
+   "lemma",
+   "manawat-1"
+  ],
+  [
+   "منوه",
+   "lemma",
+   "manawat-1"
+  ],
+  [
+   "منضود",
+   "lemma",
+   "mandud-1"
+  ],
+  [
+   "منفعه",
+   "lemma",
+   "manfaa-1"
+  ],
+  [
+   "مني",
+   "lemma",
+   "maniyy-1"
+  ],
+  [
+   "من",
+   "lemma",
+   "manna-1"
+  ],
+  [
+   "من",
+   "lemma",
+   "manna-2"
+  ],
+  [
+   "مني",
+   "lemma",
+   "manna-3"
+  ],
+  [
+   "منيا",
+   "lemma",
+   "manna-3"
+  ],
+  [
+   "مناع",
+   "lemma",
+   "mannaa-1"
+  ],
+  [
+   "منسك",
+   "lemma",
+   "mansak-1"
+  ],
+  [
+   "منشور",
+   "lemma",
+   "manshur-1"
+  ],
+  [
+   "منسي",
+   "lemma",
+   "mansiyy-1"
+  ],
+  [
+   "منصور",
+   "lemma",
+   "mansur-1"
+  ],
+  [
+   "منثور",
+   "lemma",
+   "manthur-1"
+  ],
+  [
+   "منون",
+   "lemma",
+   "manun-1"
+  ],
+  [
+   "منزل",
+   "lemma",
+   "manzil-1"
+  ],
+  [
+   "مقعد",
+   "lemma",
+   "maqad-1"
+  ],
+  [
+   "مقاليد",
+   "lemma",
+   "maqalid-1"
   ],
   [
    "مقام",
@@ -2037,9 +11152,149 @@ const QM_SEARCH_INDEX = {
    "maqam-1"
   ],
   [
+   "مقضي",
+   "lemma",
+   "maqdi-1"
+  ],
+  [
+   "مقدور",
+   "lemma",
+   "maqdur-1"
+  ],
+  [
+   "مقسوم",
+   "lemma",
+   "maqsum-1"
+  ],
+  [
+   "مقصوره",
+   "lemma",
+   "maqsura-1"
+  ],
+  [
+   "مقت",
+   "lemma",
+   "maqt-1"
+  ],
+  [
+   "مقطوع",
+   "lemma",
+   "maqtu-1"
+  ],
+  [
+   "مرء",
+   "lemma",
+   "mar-1"
+  ],
+  [
+   "مرعي",
+   "lemma",
+   "maraa-1"
+  ],
+  [
+   "مرض",
+   "lemma",
+   "marad-1"
+  ],
+  [
+   "مرد",
+   "lemma",
+   "marad-2"
+  ],
+  [
+   "مرد",
+   "lemma",
+   "marada-1"
+  ],
+  [
+   "مرح",
+   "lemma",
+   "marah-1"
+  ],
+  [
+   "مرج",
+   "lemma",
+   "maraja-1"
+  ],
+  [
+   "مرضاه",
+   "lemma",
+   "mardat-1"
+  ],
+  [
+   "مرضي",
+   "lemma",
+   "mardiyy-1"
+  ],
+  [
+   "مردود",
+   "lemma",
+   "mardud-1"
+  ],
+  [
+   "مرفوع",
+   "lemma",
+   "marfu-1"
+  ],
+  [
+   "مرحب",
+   "lemma",
+   "marhaba-1"
+  ],
+  [
+   "مريض",
+   "lemma",
+   "marid-1"
+  ],
+  [
+   "مريد",
+   "lemma",
+   "marid-2"
+  ],
+  [
+   "مارد",
+   "lemma",
+   "marid-3"
+  ],
+  [
+   "مرض",
+   "lemma",
+   "marida-1"
+  ],
+  [
+   "مريء",
+   "lemma",
+   "marii-1"
+  ],
+  [
+   "مارج",
+   "lemma",
+   "marij-1"
+  ],
+  [
+   "مريج",
+   "lemma",
+   "marij-2"
+  ],
+  [
+   "مرجان",
+   "lemma",
+   "marjan-1"
+  ],
+  [
    "مرجع",
    "lemma",
    "marji-1"
+  ],
+  [
+   "مرجو",
+   "lemma",
+   "marju-1"
+  ],
+  [
+   "مرقوم",
+   "lemma",
+   "marqum-1"
   ],
   [
    "مره",
@@ -2047,14 +11302,144 @@ const QM_SEARCH_INDEX = {
    "marra-1"
   ],
   [
+   "مر",
+   "lemma",
+   "marra-2"
+  ],
+  [
+   "مر",
+   "lemma",
+   "marra-3"
+  ],
+  [
+   "مرصد",
+   "lemma",
+   "marsad-1"
+  ],
+  [
+   "معروش",
+   "lemma",
+   "maruh-1"
+  ],
+  [
+   "ماروت",
+   "lemma",
+   "marut-1"
+  ],
+  [
+   "مروه",
+   "lemma",
+   "marwa-1"
+  ],
+  [
    "مريم",
    "lemma",
    "maryam-1"
   ],
   [
+   "مسد",
+   "lemma",
+   "masad-1"
+  ],
+  [
+   "مسح",
+   "lemma",
+   "masaha-1"
+  ],
+  [
+   "مسبوق",
+   "lemma",
+   "masbuq-1"
+  ],
+  [
+   "مصفوف",
+   "lemma",
+   "masfuf-1"
+  ],
+  [
+   "مسفوح",
+   "lemma",
+   "masfuh-1"
+  ],
+  [
+   "مسح",
+   "lemma",
+   "mash-1"
+  ],
+  [
+   "مشي",
+   "lemma",
+   "masha-1"
+  ],
+  [
+   "مشيا",
+   "lemma",
+   "masha-1"
+  ],
+  [
+   "مشمه",
+   "lemma",
+   "mashama-1"
+  ],
+  [
+   "معشر",
+   "lemma",
+   "mashar-1"
+  ],
+  [
+   "مشحون",
+   "lemma",
+   "mashhun-1"
+  ],
+  [
+   "مشيد",
+   "lemma",
+   "mashid-1"
+  ],
+  [
+   "مشكور",
+   "lemma",
+   "mashkur-1"
+  ],
+  [
+   "مشرب",
+   "lemma",
+   "mashrab-1"
+  ],
+  [
+   "مشرق",
+   "lemma",
+   "mashriq-1"
+  ],
+  [
+   "مشاء",
+   "lemma",
+   "mashsha-1"
+  ],
+  [
+   "مسحور",
+   "lemma",
+   "mashur-1"
+  ],
+  [
+   "مشي",
+   "lemma",
+   "mashy-1"
+  ],
+  [
+   "مسيح",
+   "lemma",
+   "masih-1"
+  ],
+  [
    "مصير",
    "lemma",
    "masir-1"
+  ],
+  [
+   "معصيه",
+   "lemma",
+   "masiya-1"
   ],
   [
    "مسجد",
@@ -2065,6 +11450,61 @@ const QM_SEARCH_INDEX = {
    "مسكن",
    "lemma",
    "maskan-1"
+  ],
+  [
+   "مسكنه",
+   "lemma",
+   "maskana-1"
+  ],
+  [
+   "مسكون",
+   "lemma",
+   "maskuna-1"
+  ],
+  [
+   "مسنون",
+   "lemma",
+   "masnun-1"
+  ],
+  [
+   "مصرف",
+   "lemma",
+   "masrif-1"
+  ],
+  [
+   "مصروف",
+   "lemma",
+   "masruf-1"
+  ],
+  [
+   "مسرور",
+   "lemma",
+   "masrur-1"
+  ],
+  [
+   "مس",
+   "lemma",
+   "mass-1"
+  ],
+  [
+   "مس",
+   "lemma",
+   "massa-1"
+  ],
+  [
+   "مسك",
+   "lemma",
+   "massaka-1"
+  ],
+  [
+   "مسطور",
+   "lemma",
+   "mastur-1"
+  ],
+  [
+   "مسول",
+   "lemma",
+   "masul-1"
   ],
   [
    "متي",
@@ -2087,9 +11527,74 @@ const QM_SEARCH_INDEX = {
    "mataa-2"
   ],
   [
+   "متاب",
+   "lemma",
+   "mataab-1"
+  ],
+  [
+   "مطر",
+   "lemma",
+   "matar-1"
+  ],
+  [
    "مثل",
    "lemma",
    "mathal-1"
+  ],
+  [
+   "مثاني",
+   "lemma",
+   "mathani-1"
+  ],
+  [
+   "مثني",
+   "lemma",
+   "mathna-1"
+  ],
+  [
+   "مثوبه",
+   "lemma",
+   "mathuba-1"
+  ],
+  [
+   "مثله",
+   "lemma",
+   "mathulat-1"
+  ],
+  [
+   "مثوي",
+   "lemma",
+   "mathwa-1"
+  ],
+  [
+   "ماتي",
+   "lemma",
+   "mati-1"
+  ],
+  [
+   "متين",
+   "lemma",
+   "matin-1"
+  ],
+  [
+   "مطلع",
+   "lemma",
+   "matla-1"
+  ],
+  [
+   "متع",
+   "lemma",
+   "mattaa-1"
+  ],
+  [
+   "مطوي",
+   "lemma",
+   "matwiyya-1"
+  ],
+  [
+   "ماعون",
+   "lemma",
+   "maun-1"
   ],
   [
    "ماوي",
@@ -2102,6 +11607,56 @@ const QM_SEARCH_INDEX = {
    "mawa-1"
   ],
   [
+   "موده",
+   "lemma",
+   "mawadda-1"
+  ],
+  [
+   "ماخر",
+   "lemma",
+   "mawakhir-1"
+  ],
+  [
+   "موطن",
+   "lemma",
+   "mawatin-1"
+  ],
+  [
+   "موضع",
+   "lemma",
+   "mawdi-1"
+  ],
+  [
+   "موضوع",
+   "lemma",
+   "mawdu-1"
+  ],
+  [
+   "موفور",
+   "lemma",
+   "mawfur-1"
+  ],
+  [
+   "موعد",
+   "lemma",
+   "mawid-1"
+  ],
+  [
+   "موعده",
+   "lemma",
+   "mawida-1"
+  ],
+  [
+   "موعظه",
+   "lemma",
+   "mawiza-1"
+  ],
+  [
+   "موج",
+   "lemma",
+   "mawj-1"
+  ],
+  [
    "مولي",
    "lemma",
    "mawla-1"
@@ -2110,6 +11665,31 @@ const QM_SEARCH_INDEX = {
    "موليا",
    "lemma",
    "mawla-1"
+  ],
+  [
+   "مولود",
+   "lemma",
+   "mawlud-1"
+  ],
+  [
+   "موقع",
+   "lemma",
+   "mawqi-1"
+  ],
+  [
+   "موقوت",
+   "lemma",
+   "mawqut-1"
+  ],
+  [
+   "مور",
+   "lemma",
+   "mawr-1"
+  ],
+  [
+   "مورود",
+   "lemma",
+   "mawrud-1"
   ],
   [
    "موت",
@@ -2122,14 +11702,214 @@ const QM_SEARCH_INDEX = {
    "mawta-1"
   ],
   [
+   "موثق",
+   "lemma",
+   "mawthiq-1"
+  ],
+  [
+   "موعود",
+   "lemma",
+   "mawud-1"
+  ],
+  [
+   "موءوده",
+   "lemma",
+   "mawuda-1"
+  ],
+  [
+   "موزون",
+   "lemma",
+   "mawzun-1"
+  ],
+  [
+   "ميل",
+   "lemma",
+   "mayl-1"
+  ],
+  [
+   "ميمنه",
+   "lemma",
+   "maymana-1"
+  ],
+  [
+   "ميسره",
+   "lemma",
+   "maysara-1"
+  ],
+  [
+   "ميسر",
+   "lemma",
+   "maysir-1"
+  ],
+  [
+   "ميسور",
+   "lemma",
+   "maysur-1"
+  ],
+  [
+   "ميته",
+   "lemma",
+   "mayta-1"
+  ],
+  [
+   "ميز",
+   "lemma",
+   "mayyaza-1"
+  ],
+  [
+   "مزيد",
+   "lemma",
+   "mazid-1"
+  ],
+  [
+   "معزل",
+   "lemma",
+   "mazil-1"
+  ],
+  [
+   "مظلوم",
+   "lemma",
+   "mazlum-1"
+  ],
+  [
+   "معزول",
+   "lemma",
+   "mazul-1"
+  ],
+  [
+   "مائه",
+   "lemma",
+   "mia-1"
+  ],
+  [
+   "معي",
+   "lemma",
+   "mia-2"
+  ],
+  [
+   "مائه",
+   "lemma",
+   "mia-3"
+  ],
+  [
+   "ميعاد",
+   "lemma",
+   "miad-1"
+  ],
+  [
+   "مدرار",
+   "lemma",
+   "midrar-1"
+  ],
+  [
+   "مفتاح",
+   "lemma",
+   "miftah-1"
+  ],
+  [
+   "مهاد",
+   "lemma",
+   "mihad-1"
+  ],
+  [
+   "محال",
+   "lemma",
+   "mihal-1"
+  ],
+  [
+   "محراب",
+   "lemma",
+   "mihrab-1"
+  ],
+  [
+   "مكيال",
+   "lemma",
+   "mikyal-1"
+  ],
+  [
+   "ملء",
+   "lemma",
+   "mil-1"
+  ],
+  [
+   "ملح",
+   "lemma",
+   "milh-1"
+  ],
+  [
+   "مله",
+   "lemma",
+   "milla-1"
+  ],
+  [
    "من",
    "lemma",
    "min-1"
   ],
   [
+   "منساه",
+   "lemma",
+   "minsa-1"
+  ],
+  [
+   "ميقات",
+   "lemma",
+   "miqat-1"
+  ],
+  [
+   "مقدار",
+   "lemma",
+   "miqdar-1"
+  ],
+  [
+   "مراء",
+   "lemma",
+   "mira-1"
+  ],
+  [
+   "ميراث",
+   "lemma",
+   "mirath-1"
+  ],
+  [
+   "مرفق",
+   "lemma",
+   "mirfaq-1"
+  ],
+  [
+   "مرصاد",
+   "lemma",
+   "mirsad-1"
+  ],
+  [
+   "مريه",
+   "lemma",
+   "miryah-1"
+  ],
+  [
+   "مساس",
+   "lemma",
+   "misas-1"
+  ],
+  [
+   "مصباح",
+   "lemma",
+   "misbah-1"
+  ],
+  [
+   "مسك",
+   "lemma",
+   "misk-1"
+  ],
+  [
    "مسكين",
    "lemma",
    "miskin-1"
+  ],
+  [
+   "مصر",
+   "lemma",
+   "misr-1"
   ],
   [
    "ميثاق",
@@ -2142,9 +11922,179 @@ const QM_SEARCH_INDEX = {
    "mithaq-1"
   ],
   [
+   "مثقال",
+   "lemma",
+   "mithqal-1"
+  ],
+  [
+   "مزاج",
+   "lemma",
+   "mizaj-1"
+  ],
+  [
+   "ميزان",
+   "lemma",
+   "mizan-1"
+  ],
+  [
+   "معذب",
+   "lemma",
+   "muadhdhab-1"
+  ],
+  [
+   "معذب",
+   "lemma",
+   "muadhdhib-1"
+  ],
+  [
+   "مؤذن",
+   "lemma",
+   "muadhdhin-1"
+  ],
+  [
+   "معذر",
+   "lemma",
+   "muadhdhir-1"
+  ],
+  [
+   "معلم",
+   "lemma",
+   "muallam-1"
+  ],
+  [
+   "معمر",
+   "lemma",
+   "muammar-1"
+  ],
+  [
+   "معقب",
+   "lemma",
+   "muaqqib-1"
+  ],
+  [
+   "مبدل",
+   "lemma",
+   "mubaddil-1"
+  ],
+  [
+   "مبارك",
+   "lemma",
+   "mubarak-1"
+  ],
+  [
+   "مبشر",
+   "lemma",
+   "mubashshir-1"
+  ],
+  [
+   "مبوا",
+   "lemma",
+   "mubawwa-1"
+  ],
+  [
+   "مبين",
+   "lemma",
+   "mubayyin-1"
+  ],
+  [
    "مبين",
    "lemma",
    "mubin-1"
+  ],
+  [
+   "مبلس",
+   "lemma",
+   "mubsil-1"
+  ],
+  [
+   "مبصر",
+   "lemma",
+   "mubsir-1"
+  ],
+  [
+   "مبتل",
+   "lemma",
+   "mubtala-1"
+  ],
+  [
+   "مبطل",
+   "lemma",
+   "mubtil-1"
+  ],
+  [
+   "مضاعف",
+   "lemma",
+   "mudaafa-1"
+  ],
+  [
+   "مدبر",
+   "lemma",
+   "mudabbira-1"
+  ],
+  [
+   "مدبر",
+   "lemma",
+   "mudbir-1"
+  ],
+  [
+   "مده",
+   "lemma",
+   "mudda-1"
+  ],
+  [
+   "مدخل",
+   "lemma",
+   "muddakhal-1"
+  ],
+  [
+   "مدكر",
+   "lemma",
+   "muddakir-1"
+  ],
+  [
+   "مذكر",
+   "lemma",
+   "muddhakkir-1"
+  ],
+  [
+   "مضغه",
+   "lemma",
+   "mudgha-1"
+  ],
+  [
+   "مضعف",
+   "lemma",
+   "mudif-1"
+  ],
+  [
+   "مضل",
+   "lemma",
+   "mudill-1"
+  ],
+  [
+   "مضي",
+   "lemma",
+   "mudiyy-1"
+  ],
+  [
+   "مدخل",
+   "lemma",
+   "mudkhal-1"
+  ],
+  [
+   "مفصل",
+   "lemma",
+   "mufassal-1"
+  ],
+  [
+   "مفتح",
+   "lemma",
+   "mufattah-1"
+  ],
+  [
+   "مفلح",
+   "lemma",
+   "muflih-1"
   ],
   [
    "مفسد",
@@ -2152,9 +12102,114 @@ const QM_SEARCH_INDEX = {
    "mufsid-1"
   ],
   [
+   "مفتري",
+   "lemma",
+   "muftara-1"
+  ],
+  [
+   "مفتر",
+   "lemma",
+   "muftarin-1"
+  ],
+  [
+   "مؤتفكه",
+   "lemma",
+   "muftika-1"
+  ],
+  [
+   "مغير",
+   "lemma",
+   "mughir-1"
+  ],
+  [
+   "مغن",
+   "lemma",
+   "mughn-1"
+  ],
+  [
+   "مغرم",
+   "lemma",
+   "mughram-1"
+  ],
+  [
+   "مغرق",
+   "lemma",
+   "mughraq-1"
+  ],
+  [
+   "مهاجر",
+   "lemma",
+   "muhajir-1"
+  ],
+  [
+   "محمد",
+   "lemma",
+   "muhammad-1"
+  ],
+  [
+   "مهان",
+   "lemma",
+   "muhan-1"
+  ],
+  [
+   "محرم",
+   "lemma",
+   "muharram-1"
+  ],
+  [
+   "محصنه",
+   "lemma",
+   "muhassana-1"
+  ],
+  [
+   "مهيمن",
+   "lemma",
+   "muhaymin-1"
+  ],
+  [
+   "محضر",
+   "lemma",
+   "muhdar-1"
+  ],
+  [
+   "محدث",
+   "lemma",
+   "muhdath-1"
+  ],
+  [
+   "محل",
+   "lemma",
+   "muhill-1"
+  ],
+  [
    "مهين",
    "lemma",
    "muhin-1"
+  ],
+  [
+   "محيط",
+   "lemma",
+   "muhit-1"
+  ],
+  [
+   "محكم",
+   "lemma",
+   "muhkam-1"
+  ],
+  [
+   "مهل",
+   "lemma",
+   "muhl-1"
+  ],
+  [
+   "مهلك",
+   "lemma",
+   "muhlik-1"
+  ],
+  [
+   "محصنه",
+   "lemma",
+   "muhsana-1"
   ],
   [
    "محسن",
@@ -2162,9 +12217,49 @@ const QM_SEARCH_INDEX = {
    "muhsin-1"
   ],
   [
+   "محصن",
+   "lemma",
+   "muhsin-2"
+  ],
+  [
+   "مهتد",
+   "lemma",
+   "muhtadi-1"
+  ],
+  [
+   "مهطع",
+   "lemma",
+   "muhti-1"
+  ],
+  [
+   "محيا",
+   "lemma",
+   "muhy-1"
+  ],
+  [
+   "مجاهد",
+   "lemma",
+   "mujahid-1"
+  ],
+  [
+   "مجيب",
+   "lemma",
+   "mujib-1"
+  ],
+  [
+   "معجز",
+   "lemma",
+   "mujiz-1"
+  ],
+  [
    "مجرم",
    "lemma",
    "mujrim-1"
+  ],
+  [
+   "مكاء",
+   "lemma",
+   "muka-1"
   ],
   [
    "مكذب",
@@ -2172,9 +12267,94 @@ const QM_SEARCH_INDEX = {
    "mukadhdhib-1"
   ],
   [
+   "مكرم",
+   "lemma",
+   "mukarram-1"
+  ],
+  [
+   "مخلد",
+   "lemma",
+   "mukhalladun-1"
+  ],
+  [
+   "مخلف",
+   "lemma",
+   "mukhallaf-1"
+  ],
+  [
+   "مخلقه",
+   "lemma",
+   "mukhallaqa-1"
+  ],
+  [
+   "مخلف",
+   "lemma",
+   "mukhlif-1"
+  ],
+  [
    "مخلص",
    "lemma",
    "mukhlis-1"
+  ],
+  [
+   "مخرج",
+   "lemma",
+   "mukhraj-1"
+  ],
+  [
+   "مخرج",
+   "lemma",
+   "mukhrij-1"
+  ],
+  [
+   "مختال",
+   "lemma",
+   "mukhtal-1"
+  ],
+  [
+   "مختلف",
+   "lemma",
+   "mukhtalif-1"
+  ],
+  [
+   "مكرم",
+   "lemma",
+   "mukram-1"
+  ],
+  [
+   "مكرم",
+   "lemma",
+   "mukrim-1"
+  ],
+  [
+   "مكث",
+   "lemma",
+   "mukth-1"
+  ],
+  [
+   "ملاق",
+   "lemma",
+   "mulaqi-1"
+  ],
+  [
+   "ملق",
+   "lemma",
+   "mulaqi-1"
+  ],
+  [
+   "ملاق",
+   "lemma",
+   "mulaqin-1"
+  ],
+  [
+   "ملئ",
+   "lemma",
+   "mulia-1"
+  ],
+  [
+   "مليم",
+   "lemma",
+   "mulim-1"
   ],
   [
    "ملك",
@@ -2182,9 +12362,39 @@ const QM_SEARCH_INDEX = {
    "mulk-1"
   ],
   [
+   "ملق",
+   "lemma",
+   "mulqi-1"
+  ],
+  [
+   "ملق",
+   "lemma",
+   "mulqin-1"
+  ],
+  [
+   "ملتحد",
+   "lemma",
+   "multahad-1"
+  ],
+  [
+   "ممزق",
+   "lemma",
+   "mumazzaq-1"
+  ],
+  [
    "مؤمن",
    "lemma",
    "mumin-1"
+  ],
+  [
+   "ممتر",
+   "lemma",
+   "mumtari-1"
+  ],
+  [
+   "مناد",
+   "lemma",
+   "munadi-1"
   ],
   [
    "منافق",
@@ -2192,9 +12402,34 @@ const QM_SEARCH_INDEX = {
    "munafiq-1"
   ],
   [
+   "منج",
+   "lemma",
+   "munajji-1"
+  ],
+  [
+   "منزل",
+   "lemma",
+   "munazzal-1"
+  ],
+  [
+   "منزل",
+   "lemma",
+   "munazzil-1"
+  ],
+  [
    "منذر",
    "lemma",
    "mundhir-1"
+  ],
+  [
+   "منيب",
+   "lemma",
+   "munib-1"
+  ],
+  [
+   "منير",
+   "lemma",
+   "munir-1"
   ],
   [
    "منكر",
@@ -2202,14 +12437,199 @@ const QM_SEARCH_INDEX = {
    "munkar-1"
   ],
   [
+   "منكر",
+   "lemma",
+   "munkir-1"
+  ],
+  [
+   "منقلب",
+   "lemma",
+   "munqalab-1"
+  ],
+  [
+   "منقلب",
+   "lemma",
+   "munqalib-1"
+  ],
+  [
+   "منشا",
+   "lemma",
+   "munsha-1"
+  ],
+  [
+   "منشر",
+   "lemma",
+   "munshar-1"
+  ],
+  [
+   "منشئ",
+   "lemma",
+   "munshi-1"
+  ],
+  [
+   "منتهي",
+   "lemma",
+   "muntaha-1"
+  ],
+  [
+   "منته",
+   "lemma",
+   "muntahun-1"
+  ],
+  [
+   "منتقم",
+   "lemma",
+   "muntaqim-1"
+  ],
+  [
+   "منتصر",
+   "lemma",
+   "muntasir-1"
+  ],
+  [
+   "منتظر",
+   "lemma",
+   "muntazir-1"
+  ],
+  [
+   "منزل",
+   "lemma",
+   "munzal-1"
+  ],
+  [
+   "منظر",
+   "lemma",
+   "munzar-1"
+  ],
+  [
+   "منزل",
+   "lemma",
+   "munzil-1"
+  ],
+  [
+   "مقدس",
+   "lemma",
+   "muqaddas-1"
+  ],
+  [
+   "مقام",
+   "lemma",
+   "muqam-1"
+  ],
+  [
+   "مقامه",
+   "lemma",
+   "muqama-1"
+  ],
+  [
+   "مقرب",
+   "lemma",
+   "muqarrab-1"
+  ],
+  [
+   "مقرن",
+   "lemma",
+   "muqarran-1"
+  ],
+  [
+   "مقسم",
+   "lemma",
+   "muqassim-1"
+  ],
+  [
+   "مقصر",
+   "lemma",
+   "muqassir-1"
+  ],
+  [
+   "الم",
+   "lemma",
+   "muqattaat-1"
+  ],
+  [
+   "مقيم",
+   "lemma",
+   "muqim-1"
+  ],
+  [
+   "موقن",
+   "lemma",
+   "muqin-1"
+  ],
+  [
+   "مقيت",
+   "lemma",
+   "muqit-1"
+  ],
+  [
+   "مقرن",
+   "lemma",
+   "muqrin-1"
+  ],
+  [
+   "مقسط",
+   "lemma",
+   "muqsit-1"
+  ],
+  [
+   "مقتدر",
+   "lemma",
+   "muqtadir-1"
+  ],
+  [
+   "مقتصد",
+   "lemma",
+   "muqtasid-1"
+  ],
+  [
+   "مقو",
+   "lemma",
+   "muqwi-1"
+  ],
+  [
+   "مرضعه",
+   "lemma",
+   "murdia-1"
+  ],
+  [
+   "مريب",
+   "lemma",
+   "murib-1"
+  ],
+  [
    "معرض",
    "lemma",
    "murid-1"
   ],
   [
+   "موريات",
+   "lemma",
+   "muriyat-1"
+  ],
+  [
+   "مرجي",
+   "lemma",
+   "murja-1"
+  ],
+  [
+   "مرسي",
+   "lemma",
+   "mursa-1"
+  ],
+  [
    "مرسل",
    "lemma",
    "mursal-1"
+  ],
+  [
+   "مرسله",
+   "lemma",
+   "mursila-1"
+  ],
+  [
+   "مرتفق",
+   "lemma",
+   "murtafaq-1"
   ],
   [
    "موسي",
@@ -2222,9 +12642,44 @@ const QM_SEARCH_INDEX = {
    "musa-1"
   ],
   [
+   "مسبح",
+   "lemma",
+   "musabbih-1"
+  ],
+  [
+   "مؤصده",
+   "lemma",
+   "musada-1"
+  ],
+  [
    "مصدق",
    "lemma",
    "musaddiq-1"
+  ],
+  [
+   "مسافح",
+   "lemma",
+   "musafih-1"
+  ],
+  [
+   "مسحر",
+   "lemma",
+   "musahhar-1"
+  ],
+  [
+   "مسخر",
+   "lemma",
+   "musakhkhar-1"
+  ],
+  [
+   "مسلمه",
+   "lemma",
+   "musallama-1"
+  ],
+  [
+   "مصل",
+   "lemma",
+   "musalli-1"
   ],
   [
    "مسمي",
@@ -2232,9 +12687,69 @@ const QM_SEARCH_INDEX = {
    "musamma-1"
   ],
   [
+   "مسود",
+   "lemma",
+   "musawwad-1"
+  ],
+  [
+   "مسوم",
+   "lemma",
+   "musawwam-1"
+  ],
+  [
+   "مصيطر",
+   "lemma",
+   "musaytir-1"
+  ],
+  [
+   "مصبح",
+   "lemma",
+   "musbih-1"
+  ],
+  [
+   "مصفر",
+   "lemma",
+   "musfarr-1"
+  ],
+  [
+   "مشفق",
+   "lemma",
+   "mushfiq-1"
+  ],
+  [
    "مشرك",
    "lemma",
    "mushrik-1"
+  ],
+  [
+   "مشرق",
+   "lemma",
+   "mushriq-1"
+  ],
+  [
+   "مشترك",
+   "lemma",
+   "mushtarik-1"
+  ],
+  [
+   "مسيء",
+   "lemma",
+   "musi-1"
+  ],
+  [
+   "موسع",
+   "lemma",
+   "musi-2"
+  ],
+  [
+   "مصيبه",
+   "lemma",
+   "musiba-1"
+  ],
+  [
+   "مصلح",
+   "lemma",
+   "muslih-1"
   ],
   [
    "مسلم",
@@ -2242,9 +12757,189 @@ const QM_SEARCH_INDEX = {
    "muslim-1"
   ],
   [
+   "مسمع",
+   "lemma",
+   "musmi-1"
+  ],
+  [
+   "مسرف",
+   "lemma",
+   "musrif-1"
+  ],
+  [
+   "مصرخ",
+   "lemma",
+   "musrikh-1"
+  ],
+  [
+   "مستعان",
+   "lemma",
+   "mustaan-1"
+  ],
+  [
+   "مستضعف",
+   "lemma",
+   "mustadaf-1"
+  ],
+  [
+   "مستهزئ",
+   "lemma",
+   "mustahzi-1"
+  ],
+  [
+   "مستكبر",
+   "lemma",
+   "mustakbir-1"
+  ],
+  [
+   "مستمع",
+   "lemma",
+   "mustami-1"
+  ],
+  [
+   "مستمر",
+   "lemma",
+   "mustamirr-1"
+  ],
+  [
+   "مستقر",
+   "lemma",
+   "mustaqarr-1"
+  ],
+  [
    "مستقيم",
    "lemma",
    "mustaqim-1"
+  ],
+  [
+   "مستطر",
+   "lemma",
+   "mustatar-1"
+  ],
+  [
+   "مستطير",
+   "lemma",
+   "mustatir-1"
+  ],
+  [
+   "مستودع",
+   "lemma",
+   "mustawdaa-1"
+  ],
+  [
+   "مطاع",
+   "lemma",
+   "mutaa-1"
+  ],
+  [
+   "متعمد",
+   "lemma",
+   "mutaammid-1"
+  ],
+  [
+   "معتد",
+   "lemma",
+   "mutadi-1"
+  ],
+  [
+   "متفرق",
+   "lemma",
+   "mutafarriq-1"
+  ],
+  [
+   "مطهر",
+   "lemma",
+   "mutahhar-1"
+  ],
+  [
+   "مطهر",
+   "lemma",
+   "mutahhir-1"
+  ],
+  [
+   "متكبر",
+   "lemma",
+   "mutakabbir-1"
+  ],
+  [
+   "متقابل",
+   "lemma",
+   "mutaqabil-1"
+  ],
+  [
+   "متربص",
+   "lemma",
+   "mutarabbis-1"
+  ],
+  [
+   "متصدق",
+   "lemma",
+   "mutasaddiq-1"
+  ],
+  [
+   "متشابه",
+   "lemma",
+   "mutashabih-1"
+  ],
+  [
+   "متتابع",
+   "lemma",
+   "mutatabi-1"
+  ],
+  [
+   "متوكل",
+   "lemma",
+   "mutawakkil-1"
+  ],
+  [
+   "مثقل",
+   "lemma",
+   "muthqal-1"
+  ],
+  [
+   "متم",
+   "lemma",
+   "mutimm-1"
+  ],
+  [
+   "مطمئن",
+   "lemma",
+   "mutmainn-1"
+  ],
+  [
+   "مترف",
+   "lemma",
+   "mutraf-1"
+  ],
+  [
+   "متبع",
+   "lemma",
+   "muttabaun-1"
+  ],
+  [
+   "مطهر",
+   "lemma",
+   "muttahhir-1"
+  ],
+  [
+   "متخذ",
+   "lemma",
+   "muttakhidh-1"
+  ],
+  [
+   "متكئ",
+   "lemma",
+   "muttaki-1"
+  ],
+  [
+   "متكا",
+   "lemma",
+   "muttaki-2"
+  ],
+  [
+   "مطلع",
+   "lemma",
+   "muttali-1"
   ],
   [
    "متق",
@@ -2252,9 +12947,69 @@ const QM_SEARCH_INDEX = {
    "muttaqin-1"
   ],
   [
+   "مطوع",
+   "lemma",
+   "muttawwi-1"
+  ],
+  [
+   "موف",
+   "lemma",
+   "muwaffa-1"
+  ],
+  [
+   "مول",
+   "lemma",
+   "muwalli-1"
+  ],
+  [
+   "مواقع",
+   "lemma",
+   "muwaqi-1"
+  ],
+  [
+   "مزجاه",
+   "lemma",
+   "muzja-1"
+  ],
+  [
+   "مظلم",
+   "lemma",
+   "muzlim-1"
+  ],
+  [
+   "نعم",
+   "lemma",
+   "naam-1"
+  ],
+  [
    "نبا",
    "lemma",
    "naba-1"
+  ],
+  [
+   "نبذ",
+   "lemma",
+   "nabadha-1"
+  ],
+  [
+   "نبات",
+   "lemma",
+   "nabat-1"
+  ],
+  [
+   "نبت",
+   "lemma",
+   "nabata-1"
+  ],
+  [
+   "نبا",
+   "lemma",
+   "nabba-1"
+  ],
+  [
+   "نبا",
+   "lemma",
+   "nabbaa-2"
   ],
   [
    "نبي",
@@ -2272,9 +13027,59 @@ const QM_SEARCH_INDEX = {
    "nada-1"
   ],
   [
+   "ناد",
+   "lemma",
+   "nada-2"
+  ],
+  [
+   "ندامه",
+   "lemma",
+   "nadama-1"
+  ],
+  [
+   "نذر",
+   "lemma",
+   "nadhara-1"
+  ],
+  [
    "نذير",
    "lemma",
    "nadhir-1"
+  ],
+  [
+   "نذر",
+   "lemma",
+   "nadhr-1"
+  ],
+  [
+   "نادم",
+   "lemma",
+   "nadim-1"
+  ],
+  [
+   "ناضره",
+   "lemma",
+   "nadira-1"
+  ],
+  [
+   "ندي",
+   "lemma",
+   "nadiyy-1"
+  ],
+  [
+   "نضره",
+   "lemma",
+   "nadra-1"
+  ],
+  [
+   "نفع",
+   "lemma",
+   "naf-1"
+  ],
+  [
+   "نفي",
+   "lemma",
+   "nafa-1"
   ],
   [
    "نفع",
@@ -2282,14 +13087,99 @@ const QM_SEARCH_INDEX = {
    "nafaa-1"
   ],
   [
+   "نفاد",
+   "lemma",
+   "nafad-1"
+  ],
+  [
+   "نفذ",
+   "lemma",
+   "nafadha-1"
+  ],
+  [
+   "نفخ",
+   "lemma",
+   "nafakha-1"
+  ],
+  [
+   "نفق",
+   "lemma",
+   "nafaq-1"
+  ],
+  [
+   "نافق",
+   "lemma",
+   "nafaqa-1"
+  ],
+  [
+   "نفقه",
+   "lemma",
+   "nafaqa-2"
+  ],
+  [
+   "نفر",
+   "lemma",
+   "nafar-1"
+  ],
+  [
+   "نفر",
+   "lemma",
+   "nafara-1"
+  ],
+  [
+   "نفد",
+   "lemma",
+   "nafida-1"
+  ],
+  [
+   "نافله",
+   "lemma",
+   "nafila-1"
+  ],
+  [
    "نفس",
    "lemma",
    "nafs-1"
   ],
   [
+   "نهي",
+   "lemma",
+   "naha-1"
+  ],
+  [
+   "نهي",
+   "lemma",
+   "nahaa-1"
+  ],
+  [
+   "نهيا",
+   "lemma",
+   "nahaa-1"
+  ],
+  [
    "نهار",
    "lemma",
    "nahar-1"
+  ],
+  [
+   "نهر",
+   "lemma",
+   "nahara-1"
+  ],
+  [
+   "نحت",
+   "lemma",
+   "nahata-1"
+  ],
+  [
+   "ناه",
+   "lemma",
+   "nahi-1"
+  ],
+  [
+   "نحل",
+   "lemma",
+   "nahl-1"
   ],
   [
    "نحن",
@@ -2302,9 +13192,44 @@ const QM_SEARCH_INDEX = {
    "nahr-1"
   ],
   [
+   "نحس",
+   "lemma",
+   "nahs-1"
+  ],
+  [
    "نعيم",
    "lemma",
    "naim-1"
+  ],
+  [
+   "ناعم",
+   "lemma",
+   "naim-2"
+  ],
+  [
+   "نائم",
+   "lemma",
+   "naim-3"
+  ],
+  [
+   "نجا",
+   "lemma",
+   "naja-1"
+  ],
+  [
+   "ناج",
+   "lemma",
+   "naja-2"
+  ],
+  [
+   "نعجه",
+   "lemma",
+   "naja-3"
+  ],
+  [
+   "نجي",
+   "lemma",
+   "najiyy-1"
   ],
   [
    "نجي",
@@ -2317,6 +13242,156 @@ const QM_SEARCH_INDEX = {
    "najja-1"
   ],
   [
+   "نجم",
+   "lemma",
+   "najm-1"
+  ],
+  [
+   "نجوي",
+   "lemma",
+   "najwa-1"
+  ],
+  [
+   "نجويا",
+   "lemma",
+   "najwa-1"
+  ],
+  [
+   "نجاه",
+   "lemma",
+   "najwa-2"
+  ],
+  [
+   "نكح",
+   "lemma",
+   "nakaha-1"
+  ],
+  [
+   "نكال",
+   "lemma",
+   "nakal-1"
+  ],
+  [
+   "نكث",
+   "lemma",
+   "nakatha-1"
+  ],
+  [
+   "نخل",
+   "lemma",
+   "nakhl-1"
+  ],
+  [
+   "نخله",
+   "lemma",
+   "nakhla-1"
+  ],
+  [
+   "نكير",
+   "lemma",
+   "nakir-1"
+  ],
+  [
+   "نكر",
+   "lemma",
+   "nakira-1"
+  ],
+  [
+   "ناكس",
+   "lemma",
+   "nakis-1"
+  ],
+  [
+   "كلف",
+   "lemma",
+   "nakkafa-1"
+  ],
+  [
+   "نكر",
+   "lemma",
+   "nakkara-1"
+  ],
+  [
+   "نكس",
+   "lemma",
+   "nakkasa-1"
+  ],
+  [
+   "نال",
+   "lemma",
+   "nala-1"
+  ],
+  [
+   "نعماء",
+   "lemma",
+   "nama-1"
+  ],
+  [
+   "نمل",
+   "lemma",
+   "naml-1"
+  ],
+  [
+   "نعم",
+   "lemma",
+   "nammaa-1"
+  ],
+  [
+   "ناقه",
+   "lemma",
+   "naqa-1"
+  ],
+  [
+   "نقض",
+   "lemma",
+   "naqada-1"
+  ],
+  [
+   "نقم",
+   "lemma",
+   "naqama-1"
+  ],
+  [
+   "نقر",
+   "lemma",
+   "naqara-1"
+  ],
+  [
+   "نقص",
+   "lemma",
+   "naqasa-1"
+  ],
+  [
+   "نقب",
+   "lemma",
+   "naqb-1"
+  ],
+  [
+   "نقيب",
+   "lemma",
+   "naqib-1"
+  ],
+  [
+   "نقير",
+   "lemma",
+   "naqir-1"
+  ],
+  [
+   "نقب",
+   "lemma",
+   "naqqaba-1"
+  ],
+  [
+   "نقص",
+   "lemma",
+   "naqs-1"
+  ],
+  [
+   "ناقور",
+   "lemma",
+   "naqur-1"
+  ],
+  [
    "نار",
    "lemma",
    "nar-1"
@@ -2325,6 +13400,36 @@ const QM_SEARCH_INDEX = {
    "ناس",
    "lemma",
    "nas-1"
+  ],
+  [
+   "نصب",
+   "lemma",
+   "nasab-1"
+  ],
+  [
+   "نسب",
+   "lemma",
+   "nasab-2"
+  ],
+  [
+   "نصب",
+   "lemma",
+   "nasaba-1"
+  ],
+  [
+   "نسف",
+   "lemma",
+   "nasafa-1"
+  ],
+  [
+   "نصح",
+   "lemma",
+   "nasaha-1"
+  ],
+  [
+   "نسل",
+   "lemma",
+   "nasala-1"
   ],
   [
    "نصاريا",
@@ -2342,9 +13447,79 @@ const QM_SEARCH_INDEX = {
    "nasara-2"
   ],
   [
+   "نصراني",
+   "lemma",
+   "nasara-3"
+  ],
+  [
+   "نسف",
+   "lemma",
+   "nasf-1"
+  ],
+  [
+   "نشاه",
+   "lemma",
+   "nashaa-1"
+  ],
+  [
+   "نشا",
+   "lemma",
+   "nashaa-2"
+  ],
+  [
+   "نشر",
+   "lemma",
+   "nashara-1"
+  ],
+  [
+   "نشز",
+   "lemma",
+   "nashaza-1"
+  ],
+  [
+   "ناشئه",
+   "lemma",
+   "nashia-1"
+  ],
+  [
+   "ناشر",
+   "lemma",
+   "nashir-1"
+  ],
+  [
+   "نشر",
+   "lemma",
+   "nashr-1"
+  ],
+  [
+   "نشط",
+   "lemma",
+   "nasht-1"
+  ],
+  [
+   "نسيء",
+   "lemma",
+   "nasi-1"
+  ],
+  [
    "نصيب",
    "lemma",
    "nasib-1"
+  ],
+  [
+   "ناصب",
+   "lemma",
+   "nasib-2"
+  ],
+  [
+   "ناصح",
+   "lemma",
+   "nasih-1"
+  ],
+  [
+   "ناسك",
+   "lemma",
+   "nasik-1"
   ],
   [
    "نصير",
@@ -2352,14 +13527,84 @@ const QM_SEARCH_INDEX = {
    "nasir-1"
   ],
   [
+   "ناصر",
+   "lemma",
+   "nasir-2"
+  ],
+  [
    "نسي",
    "lemma",
    "nasiya-1"
   ],
   [
+   "ناصيه",
+   "lemma",
+   "nasiya-2"
+  ],
+  [
+   "نسي",
+   "lemma",
+   "nasiyy-1"
+  ],
+  [
+   "نسل",
+   "lemma",
+   "nasl-1"
+  ],
+  [
    "نصر",
    "lemma",
    "nasr-1"
+  ],
+  [
+   "نسر",
+   "lemma",
+   "nasr-2"
+  ],
+  [
+   "نصوح",
+   "lemma",
+   "nasuh-1"
+  ],
+  [
+   "نسي",
+   "lemma",
+   "nasy-1"
+  ],
+  [
+   "نطق",
+   "lemma",
+   "nataqa-1"
+  ],
+  [
+   "نوي",
+   "lemma",
+   "nawaa-1"
+  ],
+  [
+   "نوم",
+   "lemma",
+   "nawm-1"
+  ],
+  [
+   "نيل",
+   "lemma",
+   "nayl-1"
+  ],
+  [
+   "نزع",
+   "lemma",
+   "nazaa-1"
+  ],
+  [
+   "نزف",
+   "lemma",
+   "nazafa-1"
+  ],
+  [
+   "نزغ",
+   "lemma",
+   "nazagha-1"
   ],
   [
    "نزل",
@@ -2372,6 +13617,41 @@ const QM_SEARCH_INDEX = {
    "nazara-1"
   ],
   [
+   "نزغ",
+   "lemma",
+   "nazgh-1"
+  ],
+  [
+   "نازعه",
+   "lemma",
+   "nazia-1"
+  ],
+  [
+   "ناظر",
+   "lemma",
+   "nazir-1"
+  ],
+  [
+   "نظره",
+   "lemma",
+   "nazira-1"
+  ],
+  [
+   "نزله",
+   "lemma",
+   "nazla-1"
+  ],
+  [
+   "نظره",
+   "lemma",
+   "nazra-1"
+  ],
+  [
+   "نزاعه",
+   "lemma",
+   "nazzaa-1"
+  ],
+  [
    "نزل",
    "lemma",
    "nazzala-1"
@@ -2380,6 +13660,31 @@ const QM_SEARCH_INDEX = {
    "نعم",
    "lemma",
    "niama-1"
+  ],
+  [
+   "نداء",
+   "lemma",
+   "nida-1"
+  ],
+  [
+   "ند",
+   "lemma",
+   "nidd-1"
+  ],
+  [
+   "نفاق",
+   "lemma",
+   "nifaq-1"
+  ],
+  [
+   "نحله",
+   "lemma",
+   "nihla-1"
+  ],
+  [
+   "نكاح",
+   "lemma",
+   "nikah-1"
   ],
   [
    "نعمه",
@@ -2392,14 +13697,124 @@ const QM_SEARCH_INDEX = {
    "nisa-1"
   ],
   [
+   "نصف",
+   "lemma",
+   "nisf-1"
+  ],
+  [
+   "نسوه",
+   "lemma",
+   "niswa-1"
+  ],
+  [
+   "نعاس",
+   "lemma",
+   "nuas-1"
+  ],
+  [
+   "نبوه",
+   "lemma",
+   "nubuwwa-1"
+  ],
+  [
+   "نذر",
+   "lemma",
+   "nudhr-1"
+  ],
+  [
+   "نفور",
+   "lemma",
+   "nufur-1"
+  ],
+  [
    "نوح",
    "lemma",
    "nuh-1"
   ],
   [
+   "نهي",
+   "lemma",
+   "nuha-1"
+  ],
+  [
+   "نهيا",
+   "lemma",
+   "nuha-1"
+  ],
+  [
+   "نحاس",
+   "lemma",
+   "nuhas-1"
+  ],
+  [
+   "نكر",
+   "lemma",
+   "nukr-1"
+  ],
+  [
+   "نكر",
+   "lemma",
+   "nukur-1"
+  ],
+  [
+   "نون",
+   "lemma",
+   "nun-1"
+  ],
+  [
    "نور",
    "lemma",
    "nur-1"
+  ],
+  [
+   "نصب",
+   "lemma",
+   "nusb-1"
+  ],
+  [
+   "نصح",
+   "lemma",
+   "nush-1"
+  ],
+  [
+   "نشور",
+   "lemma",
+   "nushur-1"
+  ],
+  [
+   "نشوز",
+   "lemma",
+   "nushuz-1"
+  ],
+  [
+   "نصب",
+   "lemma",
+   "nusub-1"
+  ],
+  [
+   "نسك",
+   "lemma",
+   "nusuk-1"
+  ],
+  [
+   "نطفه",
+   "lemma",
+   "nutfa-1"
+  ],
+  [
+   "نزل",
+   "lemma",
+   "nuzul-1"
+  ],
+  [
+   "قاع",
+   "lemma",
+   "qa-1"
+  ],
+  [
+   "قعد",
+   "lemma",
+   "qaada-1"
   ],
   [
    "قال",
@@ -2412,9 +13827,64 @@ const QM_SEARCH_INDEX = {
    "qaama-1"
   ],
   [
+   "قاسم",
+   "lemma",
+   "qaasama-1"
+  ],
+  [
+   "قاب",
+   "lemma",
+   "qab-1"
+  ],
+  [
+   "قبض",
+   "lemma",
+   "qabada-1"
+  ],
+  [
+   "قبس",
+   "lemma",
+   "qabas-1"
+  ],
+  [
+   "قبض",
+   "lemma",
+   "qabd-1"
+  ],
+  [
+   "قبضه",
+   "lemma",
+   "qabda-1"
+  ],
+  [
+   "قبيل",
+   "lemma",
+   "qabil-1"
+  ],
+  [
+   "قابل",
+   "lemma",
+   "qabil-2"
+  ],
+  [
+   "قبل",
+   "lemma",
+   "qabila-1"
+  ],
+  [
    "قبل",
    "lemma",
    "qabl-1"
+  ],
+  [
+   "قبر",
+   "lemma",
+   "qabr-1"
+  ],
+  [
+   "قبول",
+   "lemma",
+   "qabul-1"
   ],
   [
    "قد",
@@ -2432,9 +13902,19 @@ const QM_SEARCH_INDEX = {
    "qada-1"
   ],
   [
+   "قدم",
+   "lemma",
+   "qadam-1"
+  ],
+  [
    "قدر",
    "lemma",
    "qadar-1"
+  ],
+  [
+   "قدر",
+   "lemma",
+   "qadara-1"
   ],
   [
    "قدم",
@@ -2442,9 +13922,109 @@ const QM_SEARCH_INDEX = {
    "qaddama-1"
   ],
   [
+   "قدر",
+   "lemma",
+   "qaddara-1"
+  ],
+  [
+   "قدس",
+   "lemma",
+   "qaddasa-1"
+  ],
+  [
+   "قذف",
+   "lemma",
+   "qadhafa-1"
+  ],
+  [
+   "قاض",
+   "lemma",
+   "qadi-1"
+  ],
+  [
+   "قديم",
+   "lemma",
+   "qadim-1"
+  ],
+  [
+   "قدم",
+   "lemma",
+   "qadima-1"
+  ],
+  [
    "قدير",
    "lemma",
    "qadir-1"
+  ],
+  [
+   "قادر",
+   "lemma",
+   "qadir-2"
+  ],
+  [
+   "قاضيه",
+   "lemma",
+   "qadiya-1"
+  ],
+  [
+   "قفي",
+   "lemma",
+   "qaffaa-1"
+  ],
+  [
+   "قفيا",
+   "lemma",
+   "qaffaa-1"
+  ],
+  [
+   "قهار",
+   "lemma",
+   "qahhar-1"
+  ],
+  [
+   "قاهر",
+   "lemma",
+   "qahir-1"
+  ],
+  [
+   "قاعد",
+   "lemma",
+   "qaid-1"
+  ],
+  [
+   "قعيد",
+   "lemma",
+   "qaid-2"
+  ],
+  [
+   "قاعده",
+   "lemma",
+   "qaida-1"
+  ],
+  [
+   "قائل",
+   "lemma",
+   "qail-1"
+  ],
+  [
+   "قائم",
+   "lemma",
+   "qaim-1"
+  ],
+  [
+   "قلي",
+   "lemma",
+   "qala-2"
+  ],
+  [
+   "قلاده",
+   "lemma",
+   "qalaid-1"
+  ],
+  [
+   "قلم",
+   "lemma",
+   "qalam-1"
   ],
   [
    "قلب",
@@ -2452,9 +14032,24 @@ const QM_SEARCH_INDEX = {
    "qalb-1"
   ],
   [
+   "قال",
+   "lemma",
+   "qali-1"
+  ],
+  [
    "قليل",
    "lemma",
    "qalil-1"
+  ],
+  [
+   "قل",
+   "lemma",
+   "qalla-1"
+  ],
+  [
+   "قلب",
+   "lemma",
+   "qallaba-1"
   ],
   [
    "قمر",
@@ -2462,9 +14057,64 @@ const QM_SEARCH_INDEX = {
    "qamar-1"
   ],
   [
+   "قميص",
+   "lemma",
+   "qamis-1"
+  ],
+  [
+   "قنط",
+   "lemma",
+   "qanata-1"
+  ],
+  [
+   "قنت",
+   "lemma",
+   "qanata-2"
+  ],
+  [
+   "قانت",
+   "lemma",
+   "qanit-1"
+  ],
+  [
+   "قانط",
+   "lemma",
+   "qanit-2"
+  ],
+  [
+   "قنوط",
+   "lemma",
+   "qanut-1"
+  ],
+  [
    "قرا",
    "lemma",
    "qaraa-1"
+  ],
+  [
+   "قرب",
+   "lemma",
+   "qaraba-1"
+  ],
+  [
+   "قرار",
+   "lemma",
+   "qarar-1"
+  ],
+  [
+   "قرض",
+   "lemma",
+   "qard-1"
+  ],
+  [
+   "قرح",
+   "lemma",
+   "qarh-1"
+  ],
+  [
+   "قارعه",
+   "lemma",
+   "qaria-1"
   ],
   [
    "قريب",
@@ -2472,9 +14122,29 @@ const QM_SEARCH_INDEX = {
    "qarib-1"
   ],
   [
+   "قرين",
+   "lemma",
+   "qarin-1"
+  ],
+  [
    "قرن",
    "lemma",
    "qarn-1"
+  ],
+  [
+   "قر",
+   "lemma",
+   "qarra-1"
+  ],
+  [
+   "قرب",
+   "lemma",
+   "qarraba-1"
+  ],
+  [
+   "قرب",
+   "lemma",
+   "qaruba-1"
   ],
   [
    "قارون",
@@ -2487,9 +14157,84 @@ const QM_SEARCH_INDEX = {
    "qarun-1"
   ],
   [
+   "قاروره",
+   "lemma",
+   "qarura-1"
+  ],
+  [
    "قريه",
    "lemma",
    "qarya-1"
+  ],
+  [
+   "قسا",
+   "lemma",
+   "qasa-1"
+  ],
+  [
+   "قسم",
+   "lemma",
+   "qasam-1"
+  ],
+  [
+   "قسم",
+   "lemma",
+   "qasama-1"
+  ],
+  [
+   "قصص",
+   "lemma",
+   "qasas-1"
+  ],
+  [
+   "قصد",
+   "lemma",
+   "qasd-1"
+  ],
+  [
+   "قاصد",
+   "lemma",
+   "qasid-1"
+  ],
+  [
+   "قاصر",
+   "lemma",
+   "qasir-1"
+  ],
+  [
+   "قاسط",
+   "lemma",
+   "qasit-1"
+  ],
+  [
+   "قاسيه",
+   "lemma",
+   "qasiya-1"
+  ],
+  [
+   "قصي",
+   "lemma",
+   "qasiyy-1"
+  ],
+  [
+   "قصر",
+   "lemma",
+   "qasr-1"
+  ],
+  [
+   "قص",
+   "lemma",
+   "qassa-1"
+  ],
+  [
+   "قسوه",
+   "lemma",
+   "qaswa-1"
+  ],
+  [
+   "قطع",
+   "lemma",
+   "qataa-1"
   ],
   [
    "قتل",
@@ -2507,9 +14252,49 @@ const QM_SEARCH_INDEX = {
    "qatala-2"
   ],
   [
+   "قتر",
+   "lemma",
+   "qatar-1"
+  ],
+  [
+   "قتر",
+   "lemma",
+   "qatara-1"
+  ],
+  [
+   "قاطع",
+   "lemma",
+   "qati-1"
+  ],
+  [
+   "قطران",
+   "lemma",
+   "qatiran-1"
+  ],
+  [
    "قتل",
    "lemma",
    "qatl-1"
+  ],
+  [
+   "قطع",
+   "lemma",
+   "qatta-1"
+  ],
+  [
+   "قتل",
+   "lemma",
+   "qattala-1"
+  ],
+  [
+   "قتور",
+   "lemma",
+   "qatur-1"
+  ],
+  [
+   "قوي",
+   "lemma",
+   "qawiyy-1"
   ],
   [
    "قول",
@@ -2522,14 +14307,114 @@ const QM_SEARCH_INDEX = {
    "qawm-1"
   ],
   [
+   "قوس",
+   "lemma",
+   "qaws-1"
+  ],
+  [
+   "قوام",
+   "lemma",
+   "qawwam-1"
+  ],
+  [
+   "قيض",
+   "lemma",
+   "qayyada-1"
+  ],
+  [
+   "قيم",
+   "lemma",
+   "qayyim-1"
+  ],
+  [
    "قيوم",
    "lemma",
    "qayyum-1"
   ],
   [
+   "قيعه",
+   "lemma",
+   "qia-1"
+  ],
+  [
+   "قبل",
+   "lemma",
+   "qibal-1"
+  ],
+  [
+   "قبله",
+   "lemma",
+   "qibla-1"
+  ],
+  [
+   "قيل",
+   "lemma",
+   "qil-1"
+  ],
+  [
+   "قنطار",
+   "lemma",
+   "qintar-1"
+  ],
+  [
+   "قنو",
+   "lemma",
+   "qinwan-1"
+  ],
+  [
+   "قرد",
+   "lemma",
+   "qird-1"
+  ],
+  [
+   "قرطاس",
+   "lemma",
+   "qirtas-1"
+  ],
+  [
+   "قصاص",
+   "lemma",
+   "qisas-1"
+  ],
+  [
+   "قسمه",
+   "lemma",
+   "qisma-1"
+  ],
+  [
    "قسط",
    "lemma",
    "qist-1"
+  ],
+  [
+   "قسطاس",
+   "lemma",
+   "qistas-1"
+  ],
+  [
+   "قطع",
+   "lemma",
+   "qit-1"
+  ],
+  [
+   "قتال",
+   "lemma",
+   "qital-1"
+  ],
+  [
+   "قطر",
+   "lemma",
+   "qitr-1"
+  ],
+  [
+   "قوام",
+   "lemma",
+   "qiwam-1"
+  ],
+  [
+   "قيام",
+   "lemma",
+   "qiyam-1"
   ],
   [
    "قيامه",
@@ -2540,6 +14425,26 @@ const QM_SEARCH_INDEX = {
    "قيمه",
    "lemma",
    "qiyama-1"
+  ],
+  [
+   "وقي",
+   "lemma",
+   "qu-1"
+  ],
+  [
+   "قبل",
+   "lemma",
+   "qubul-1"
+  ],
+  [
+   "قدوس",
+   "lemma",
+   "quddus-1"
+  ],
+  [
+   "قدس",
+   "lemma",
+   "quds-1"
   ],
   [
    "قرءان",
@@ -2557,6 +14462,36 @@ const QM_SEARCH_INDEX = {
    "qurba-1"
   ],
   [
+   "قربان",
+   "lemma",
+   "qurban-1"
+  ],
+  [
+   "قرئ",
+   "lemma",
+   "quria-1"
+  ],
+  [
+   "قره",
+   "lemma",
+   "qurra-1"
+  ],
+  [
+   "قرء",
+   "lemma",
+   "quru-1"
+  ],
+  [
+   "قطر",
+   "lemma",
+   "qutr-1"
+  ],
+  [
+   "قطف",
+   "lemma",
+   "qutuf-1"
+  ],
+  [
    "قوه",
    "lemma",
    "quwwa-1"
@@ -2567,9 +14502,114 @@ const QM_SEARCH_INDEX = {
    "raa-1"
   ],
   [
+   "رعي",
+   "lemma",
+   "raa-2"
+  ],
+  [
+   "راءي",
+   "lemma",
+   "raaa-1"
+  ],
+  [
+   "راءيا",
+   "lemma",
+   "raaa-1"
+  ],
+  [
+   "ربا",
+   "lemma",
+   "raba-1"
+  ],
+  [
+   "ربط",
+   "lemma",
+   "rabata-1"
+  ],
+  [
+   "رابط",
+   "lemma",
+   "rabata-2"
+  ],
+  [
    "رب",
    "lemma",
    "rabb-1"
+  ],
+  [
+   "رباني",
+   "lemma",
+   "rabbaniyy-1"
+  ],
+  [
+   "ربي",
+   "lemma",
+   "rabbaya-2"
+  ],
+  [
+   "رابع",
+   "lemma",
+   "rabi-1"
+  ],
+  [
+   "راب",
+   "lemma",
+   "rabiyy-1"
+  ],
+  [
+   "ربي",
+   "lemma",
+   "rabiyy-2"
+  ],
+  [
+   "ربوه",
+   "lemma",
+   "rabwa-1"
+  ],
+  [
+   "رعد",
+   "lemma",
+   "rad-1"
+  ],
+  [
+   "راود",
+   "lemma",
+   "radaa-1"
+  ],
+  [
+   "رضاعه",
+   "lemma",
+   "radaa-3"
+  ],
+  [
+   "راد",
+   "lemma",
+   "radd-2"
+  ],
+  [
+   "رد",
+   "lemma",
+   "radd-3"
+  ],
+  [
+   "رد",
+   "lemma",
+   "radda-1"
+  ],
+  [
+   "راضيه",
+   "lemma",
+   "radi-1"
+  ],
+  [
+   "ردف",
+   "lemma",
+   "radifa-1"
+  ],
+  [
+   "رادفه",
+   "lemma",
+   "radifa-2"
   ],
   [
    "رضي",
@@ -2577,9 +14617,119 @@ const QM_SEARCH_INDEX = {
    "radiya-1"
   ],
   [
+   "رضي",
+   "lemma",
+   "radiyy-1"
+  ],
+  [
+   "رافه",
+   "lemma",
+   "rafa-1"
+  ],
+  [
+   "رفع",
+   "lemma",
+   "rafaa-1"
+  ],
+  [
+   "رفث",
+   "lemma",
+   "rafath-1"
+  ],
+  [
+   "رافع",
+   "lemma",
+   "rafi-1"
+  ],
+  [
+   "رفيع",
+   "lemma",
+   "rafi-2"
+  ],
+  [
+   "رغب",
+   "lemma",
+   "ragh-1"
+  ],
+  [
+   "رغد",
+   "lemma",
+   "raghad-1"
+  ],
+  [
+   "راغب",
+   "lemma",
+   "raghib-1"
+  ],
+  [
+   "رغب",
+   "lemma",
+   "raghiba-1"
+  ],
+  [
+   "رهب",
+   "lemma",
+   "rahab-1"
+  ],
+  [
+   "رحم",
+   "lemma",
+   "raham-1"
+  ],
+  [
+   "رهق",
+   "lemma",
+   "rahaq-1"
+  ],
+  [
+   "رهق",
+   "lemma",
+   "rahaqa-1"
+  ],
+  [
+   "رهب",
+   "lemma",
+   "rahb-1"
+  ],
+  [
+   "رهبه",
+   "lemma",
+   "rahba-1"
+  ],
+  [
+   "رهبانيه",
+   "lemma",
+   "rahbaniyya-1"
+  ],
+  [
    "رحيم",
    "lemma",
    "raheem-1"
+  ],
+  [
+   "رهب",
+   "lemma",
+   "rahiba-1"
+  ],
+  [
+   "راحم",
+   "lemma",
+   "rahim-1"
+  ],
+  [
+   "رحم",
+   "lemma",
+   "rahima-1"
+  ],
+  [
+   "رهين",
+   "lemma",
+   "rahin-1"
+  ],
+  [
+   "رحل",
+   "lemma",
+   "rahl-1"
   ],
   [
    "رحمه",
@@ -2597,9 +14747,84 @@ const QM_SEARCH_INDEX = {
    "rahman-1"
   ],
   [
+   "رهط",
+   "lemma",
+   "rahtun-1"
+  ],
+  [
+   "رحب",
+   "lemma",
+   "rahuba-1"
+  ],
+  [
+   "رهو",
+   "lemma",
+   "rahw-1"
+  ],
+  [
+   "راع",
+   "lemma",
+   "rai-1"
+  ],
+  [
+   "راعنا",
+   "lemma",
+   "raina-1"
+  ],
+  [
+   "رجع",
+   "lemma",
+   "raj-1"
+  ],
+  [
+   "رجا",
+   "lemma",
+   "raja-1"
+  ],
+  [
    "رجع",
    "lemma",
    "rajaa-1"
+  ],
+  [
+   "ارجي",
+   "lemma",
+   "rajaa-4"
+  ],
+  [
+   "رجف",
+   "lemma",
+   "rajafa-1"
+  ],
+  [
+   "رجم",
+   "lemma",
+   "rajama-1"
+  ],
+  [
+   "رجفه",
+   "lemma",
+   "rajfa-1"
+  ],
+  [
+   "راجع",
+   "lemma",
+   "raji-1"
+  ],
+  [
+   "رجيم",
+   "lemma",
+   "rajim-1"
+  ],
+  [
+   "رج",
+   "lemma",
+   "rajj-1"
+  ],
+  [
+   "رجم",
+   "lemma",
+   "rajm-1"
   ],
   [
    "رجل",
@@ -2607,9 +14832,139 @@ const QM_SEARCH_INDEX = {
    "rajul-1"
   ],
   [
+   "ركع",
+   "lemma",
+   "rakaa-1"
+  ],
+  [
+   "ركض",
+   "lemma",
+   "rakada-1"
+  ],
+  [
+   "ركم",
+   "lemma",
+   "rakama-1"
+  ],
+  [
+   "ركن",
+   "lemma",
+   "rakana-1"
+  ],
+  [
+   "ركب",
+   "lemma",
+   "rakb-1"
+  ],
+  [
+   "راكع",
+   "lemma",
+   "raki-1"
+  ],
+  [
+   "ركب",
+   "lemma",
+   "rakiba-1"
+  ],
+  [
+   "ركب",
+   "lemma",
+   "rakkaba-1"
+  ],
+  [
+   "ركوب",
+   "lemma",
+   "rakub-1"
+  ],
+  [
    "رمي",
    "lemma",
    "rama-1"
+  ],
+  [
+   "رماد",
+   "lemma",
+   "ramad-1"
+  ],
+  [
+   "رميم",
+   "lemma",
+   "ramim-1"
+  ],
+  [
+   "ران",
+   "lemma",
+   "rana-1"
+  ],
+  [
+   "راق",
+   "lemma",
+   "raq-1"
+  ],
+  [
+   "رقبه",
+   "lemma",
+   "raqaba-1"
+  ],
+  [
+   "رقب",
+   "lemma",
+   "raqaba-2"
+  ],
+  [
+   "رقيب",
+   "lemma",
+   "raqib-1"
+  ],
+  [
+   "رقي",
+   "lemma",
+   "raqiya-1"
+  ],
+  [
+   "رق",
+   "lemma",
+   "raqq-1"
+  ],
+  [
+   "راس",
+   "lemma",
+   "ras-1"
+  ],
+  [
+   "رصد",
+   "lemma",
+   "rasad-1"
+  ],
+  [
+   "رشد",
+   "lemma",
+   "rashad-1"
+  ],
+  [
+   "رشد",
+   "lemma",
+   "rashada-1"
+  ],
+  [
+   "رشيد",
+   "lemma",
+   "rashid-1"
+  ],
+  [
+   "راشد",
+   "lemma",
+   "rashid-2"
+  ],
+  [
+   "راسخ",
+   "lemma",
+   "rasikh-1"
+  ],
+  [
+   "رس",
+   "lemma",
+   "rass-1"
   ],
   [
    "رسول",
@@ -2617,9 +14972,64 @@ const QM_SEARCH_INDEX = {
    "rasul-1"
   ],
   [
+   "رطب",
+   "lemma",
+   "ratb-1"
+  ],
+  [
+   "رءوف",
+   "lemma",
+   "rauf-1"
+  ],
+  [
+   "روع",
+   "lemma",
+   "raw-1"
+  ],
+  [
+   "راود",
+   "lemma",
+   "rawada-1"
+  ],
+  [
+   "رواح",
+   "lemma",
+   "rawah-1"
+  ],
+  [
+   "راسيه",
+   "lemma",
+   "rawasi-1"
+  ],
+  [
+   "روضه",
+   "lemma",
+   "rawda-1"
+  ],
+  [
+   "روح",
+   "lemma",
+   "rawh-1"
+  ],
+  [
+   "راي",
+   "lemma",
+   "ray-1"
+  ],
+  [
    "ريب",
    "lemma",
    "rayb-1"
+  ],
+  [
+   "ريبه",
+   "lemma",
+   "rayba-1"
+  ],
+  [
+   "ريحان",
+   "lemma",
+   "rayhan-1"
   ],
   [
    "رزق",
@@ -2627,9 +15037,99 @@ const QM_SEARCH_INDEX = {
    "razaqa-1"
   ],
   [
+   "رازق",
+   "lemma",
+   "raziq-1"
+  ],
+  [
+   "ريع",
+   "lemma",
+   "ri-1"
+  ],
+  [
+   "رعاء",
+   "lemma",
+   "ri-2"
+  ],
+  [
+   "رئاء",
+   "lemma",
+   "ria-1"
+  ],
+  [
+   "ربا",
+   "lemma",
+   "riba-1"
+  ],
+  [
+   "رباط",
+   "lemma",
+   "ribat-1"
+  ],
+  [
+   "ردء",
+   "lemma",
+   "rid-1"
+  ],
+  [
+   "رضوان",
+   "lemma",
+   "ridwan-1"
+  ],
+  [
+   "رضون",
+   "lemma",
+   "ridwan-1"
+  ],
+  [
    "ريح",
    "lemma",
    "rih-1"
+  ],
+  [
+   "رهان",
+   "lemma",
+   "rihan-1"
+  ],
+  [
+   "رحله",
+   "lemma",
+   "rihla-1"
+  ],
+  [
+   "رجل",
+   "lemma",
+   "rijl-1"
+  ],
+  [
+   "رجس",
+   "lemma",
+   "rijs-1"
+  ],
+  [
+   "رجز",
+   "lemma",
+   "rijz-1"
+  ],
+  [
+   "ركاب",
+   "lemma",
+   "rikab-1"
+  ],
+  [
+   "رساله",
+   "lemma",
+   "risala-1"
+  ],
+  [
+   "ريش",
+   "lemma",
+   "rish-1"
+  ],
+  [
+   "رءي",
+   "lemma",
+   "riy-1"
   ],
   [
    "رزق",
@@ -2637,9 +15137,94 @@ const QM_SEARCH_INDEX = {
    "rizq-1"
   ],
   [
+   "رعب",
+   "lemma",
+   "rub-1"
+  ],
+  [
+   "ربع",
+   "lemma",
+   "rubu-1"
+  ],
+  [
+   "رفات",
+   "lemma",
+   "rufat-1"
+  ],
+  [
    "روح",
    "lemma",
    "ruh-1"
+  ],
+  [
+   "رحيم",
+   "lemma",
+   "ruhama-1"
+  ],
+  [
+   "رهبان",
+   "lemma",
+   "ruhban-1"
+  ],
+  [
+   "رج",
+   "lemma",
+   "rujjat-1"
+  ],
+  [
+   "ركام",
+   "lemma",
+   "rukam-1"
+  ],
+  [
+   "ركبان",
+   "lemma",
+   "rukban-1"
+  ],
+  [
+   "ركن",
+   "lemma",
+   "rukn-1"
+  ],
+  [
+   "روم",
+   "lemma",
+   "rum-1"
+  ],
+  [
+   "رمان",
+   "lemma",
+   "rummaan-1"
+  ],
+  [
+   "رقي",
+   "lemma",
+   "ruqiyy-1"
+  ],
+  [
+   "رشد",
+   "lemma",
+   "rushd-1"
+  ],
+  [
+   "رطب",
+   "lemma",
+   "rutab-1"
+  ],
+  [
+   "رويد",
+   "lemma",
+   "ruwayd-1"
+  ],
+  [
+   "رءيا",
+   "lemma",
+   "ruya-1"
+  ],
+  [
+   "صعود",
+   "lemma",
+   "sa-ud-1"
   ],
   [
    "ساعه",
@@ -2647,9 +15232,59 @@ const QM_SEARCH_INDEX = {
    "saa-1"
   ],
   [
+   "سعي",
+   "lemma",
+   "saa-2"
+  ],
+  [
+   "سعيا",
+   "lemma",
+   "saa-2"
+  ],
+  [
+   "ساء",
+   "lemma",
+   "saa-3"
+  ],
+  [
+   "سعه",
+   "lemma",
+   "saa-5"
+  ],
+  [
    "ساء",
    "lemma",
    "saaa-2"
+  ],
+  [
+   "سابق",
+   "lemma",
+   "saabaqa-1"
+  ],
+  [
+   "صابر",
+   "lemma",
+   "saabara-1"
+  ],
+  [
+   "صعد",
+   "lemma",
+   "saada-1"
+  ],
+  [
+   "صعد",
+   "lemma",
+   "saadd-1"
+  ],
+  [
+   "ساح",
+   "lemma",
+   "saaha-1"
+  ],
+  [
+   "ساهم",
+   "lemma",
+   "saaham-1"
   ],
   [
    "سال",
@@ -2657,9 +15292,59 @@ const QM_SEARCH_INDEX = {
    "saala-1"
   ],
   [
+   "ساق",
+   "lemma",
+   "saaqa-1"
+  ],
+  [
+   "ساقط",
+   "lemma",
+   "saaqata-1"
+  ],
+  [
+   "سار",
+   "lemma",
+   "saara-1"
+  ],
+  [
    "سبع",
    "lemma",
    "sab-1"
+  ],
+  [
+   "سبعون",
+   "lemma",
+   "sab-2"
+  ],
+  [
+   "صبا",
+   "lemma",
+   "saba-1"
+  ],
+  [
+   "سبا",
+   "lemma",
+   "saba-2"
+  ],
+  [
+   "سبب",
+   "lemma",
+   "sabab-1"
+  ],
+  [
+   "صباح",
+   "lemma",
+   "sabah-1"
+  ],
+  [
+   "سبح",
+   "lemma",
+   "sabaha-1"
+  ],
+  [
+   "سبق",
+   "lemma",
+   "sabaqa-1"
   ],
   [
    "صبر",
@@ -2667,9 +15352,49 @@ const QM_SEARCH_INDEX = {
    "sabara-1"
   ],
   [
+   "صب",
+   "lemma",
+   "sabb-1"
+  ],
+  [
+   "صب",
+   "lemma",
+   "sabba-1"
+  ],
+  [
+   "سب",
+   "lemma",
+   "sabba-2"
+  ],
+  [
    "سبح",
    "lemma",
    "sabbaha-1"
+  ],
+  [
+   "صبح",
+   "lemma",
+   "sabbaha-2"
+  ],
+  [
+   "صبار",
+   "lemma",
+   "sabbar-1"
+  ],
+  [
+   "سبح",
+   "lemma",
+   "sabh-1"
+  ],
+  [
+   "صابئ",
+   "lemma",
+   "sabi-1"
+  ],
+  [
+   "سابح",
+   "lemma",
+   "sabih-1"
   ],
   [
    "سبيل",
@@ -2677,9 +15402,54 @@ const QM_SEARCH_INDEX = {
    "sabil-1"
   ],
   [
+   "سابق",
+   "lemma",
+   "sabiq-1"
+  ],
+  [
    "صابر",
    "lemma",
    "sabir-1"
+  ],
+  [
+   "صبي",
+   "lemma",
+   "sabiyy-1"
+  ],
+  [
+   "سبق",
+   "lemma",
+   "sabq-1"
+  ],
+  [
+   "صبر",
+   "lemma",
+   "sabr-1"
+  ],
+  [
+   "سبت",
+   "lemma",
+   "sabt-1"
+  ],
+  [
+   "صدع",
+   "lemma",
+   "sad-1"
+  ],
+  [
+   "صدع",
+   "lemma",
+   "sada-1"
+  ],
+  [
+   "صدف",
+   "lemma",
+   "sadaf-1"
+  ],
+  [
+   "صدف",
+   "lemma",
+   "sadafa-1"
   ],
   [
    "صدق",
@@ -2687,9 +15457,49 @@ const QM_SEARCH_INDEX = {
    "sadaqa-1"
   ],
   [
+   "صدقه",
+   "lemma",
+   "sadaqa-2"
+  ],
+  [
+   "صدر",
+   "lemma",
+   "sadara-1"
+  ],
+  [
+   "سد",
+   "lemma",
+   "sadd-1"
+  ],
+  [
+   "صد",
+   "lemma",
+   "sadd-2"
+  ],
+  [
+   "صد",
+   "lemma",
+   "sadda-1"
+  ],
+  [
+   "صدع",
+   "lemma",
+   "saddaa-1"
+  ],
+  [
    "صدق",
    "lemma",
    "saddaqa-1"
+  ],
+  [
+   "سديد",
+   "lemma",
+   "sadid-1"
+  ],
+  [
+   "صديد",
+   "lemma",
+   "sadid-2"
   ],
   [
    "صادق",
@@ -2697,9 +15507,239 @@ const QM_SEARCH_INDEX = {
    "sadiq-1"
   ],
   [
+   "صديق",
+   "lemma",
+   "sadiq-2"
+  ],
+  [
+   "سادس",
+   "lemma",
+   "sadis-1"
+  ],
+  [
+   "صفا",
+   "lemma",
+   "safa-1"
+  ],
+  [
+   "سفه",
+   "lemma",
+   "safah-1"
+  ],
+  [
+   "صفح",
+   "lemma",
+   "safaha-1"
+  ],
+  [
+   "سفاهه",
+   "lemma",
+   "safaha-2"
+  ],
+  [
+   "سفر",
+   "lemma",
+   "safar-1"
+  ],
+  [
+   "سافر",
+   "lemma",
+   "safara-1"
+  ],
+  [
+   "صف",
+   "lemma",
+   "saff-1"
+  ],
+  [
+   "صافه",
+   "lemma",
+   "saff-2"
+  ],
+  [
+   "صافات",
+   "lemma",
+   "saffat-1"
+  ],
+  [
+   "صفح",
+   "lemma",
+   "safh-1"
+  ],
+  [
+   "سافل",
+   "lemma",
+   "safil-1"
+  ],
+  [
+   "سفينه",
+   "lemma",
+   "safina-1"
+  ],
+  [
+   "اصفر",
+   "lemma",
+   "safra-1"
+  ],
+  [
+   "صفوان",
+   "lemma",
+   "safwan-1"
+  ],
+  [
+   "صغار",
+   "lemma",
+   "saghar-1"
+  ],
+  [
+   "صغير",
+   "lemma",
+   "saghir-1"
+  ],
+  [
+   "ساحه",
+   "lemma",
+   "saha-1"
+  ],
+  [
+   "سحاب",
+   "lemma",
+   "sahab-1"
+  ],
+  [
+   "صحب",
+   "lemma",
+   "sahaba-1"
+  ],
+  [
+   "سحب",
+   "lemma",
+   "sahaba-2"
+  ],
+  [
+   "سحر",
+   "lemma",
+   "sahar-1"
+  ],
+  [
+   "سحر",
+   "lemma",
+   "sahara-1"
+  ],
+  [
+   "سحار",
+   "lemma",
+   "sahhar-1"
+  ],
+  [
+   "ساه",
+   "lemma",
+   "sahi-1"
+  ],
+  [
    "صاحب",
    "lemma",
    "sahib-1"
+  ],
+  [
+   "صاحبه",
+   "lemma",
+   "sahiba-1"
+  ],
+  [
+   "صحيفه",
+   "lemma",
+   "sahifa-1"
+  ],
+  [
+   "سحيق",
+   "lemma",
+   "sahiq-1"
+  ],
+  [
+   "ساحر",
+   "lemma",
+   "sahir-1"
+  ],
+  [
+   "سهل",
+   "lemma",
+   "sahl-1"
+  ],
+  [
+   "سائبه",
+   "lemma",
+   "saib-1"
+  ],
+  [
+   "صعيد",
+   "lemma",
+   "said-1"
+  ],
+  [
+   "سعيد",
+   "lemma",
+   "said-2"
+  ],
+  [
+   "سعد",
+   "lemma",
+   "saida-1"
+  ],
+  [
+   "سائغ",
+   "lemma",
+   "saigh-1"
+  ],
+  [
+   "سائح",
+   "lemma",
+   "saih-1"
+  ],
+  [
+   "سائل",
+   "lemma",
+   "sail-1"
+  ],
+  [
+   "صائم",
+   "lemma",
+   "saim-1"
+  ],
+  [
+   "سئم",
+   "lemma",
+   "saima-1"
+  ],
+  [
+   "صعق",
+   "lemma",
+   "saiq-1"
+  ],
+  [
+   "سائق",
+   "lemma",
+   "saiq-2"
+  ],
+  [
+   "صاعقه",
+   "lemma",
+   "saiqa-1"
+  ],
+  [
+   "صعق",
+   "lemma",
+   "saiqa-2"
+  ],
+  [
+   "سعير",
+   "lemma",
+   "sair-1"
+  ],
+  [
+   "سجا",
+   "lemma",
+   "sajaa-1"
   ],
   [
    "سجد",
@@ -2707,9 +15747,109 @@ const QM_SEARCH_INDEX = {
    "sajada-1"
   ],
   [
+   "سجن",
+   "lemma",
+   "sajana-1"
+  ],
+  [
+   "ساجد",
+   "lemma",
+   "sajid-1"
+  ],
+  [
+   "سكن",
+   "lemma",
+   "sakan-1"
+  ],
+  [
+   "سكن",
+   "lemma",
+   "sakana-1"
+  ],
+  [
+   "سكر",
+   "lemma",
+   "sakar-1"
+  ],
+  [
+   "سخط",
+   "lemma",
+   "sakhat-1"
+  ],
+  [
+   "سخر",
+   "lemma",
+   "sakhira-1"
+  ],
+  [
+   "سخط",
+   "lemma",
+   "sakhita-1"
+  ],
+  [
    "سخر",
    "lemma",
    "sakhkhara-1"
+  ],
+  [
+   "صخره",
+   "lemma",
+   "sakhra-1"
+  ],
+  [
+   "ساكن",
+   "lemma",
+   "sakin-1"
+  ],
+  [
+   "سكينه",
+   "lemma",
+   "sakina-1"
+  ],
+  [
+   "سكره",
+   "lemma",
+   "sakra-1"
+  ],
+  [
+   "صلي",
+   "lemma",
+   "sala-1"
+  ],
+  [
+   "سال",
+   "lemma",
+   "sala-2"
+  ],
+  [
+   "صلب",
+   "lemma",
+   "salaba-1"
+  ],
+  [
+   "سلف",
+   "lemma",
+   "salaf-1"
+  ],
+  [
+   "سلف",
+   "lemma",
+   "salafa-1"
+  ],
+  [
+   "صلح",
+   "lemma",
+   "salaha-1"
+  ],
+  [
+   "سلك",
+   "lemma",
+   "salaka-1"
+  ],
+  [
+   "سلخ",
+   "lemma",
+   "salakha-1"
   ],
   [
    "سلام",
@@ -2722,6 +15862,11 @@ const QM_SEARCH_INDEX = {
    "salam-1"
   ],
   [
+   "سلق",
+   "lemma",
+   "salaqa-1"
+  ],
+  [
    "صلواه",
    "lemma",
    "salat-1"
@@ -2732,14 +15877,89 @@ const QM_SEARCH_INDEX = {
    "salat-1"
   ],
   [
+   "صلح",
+   "lemma",
+   "salh-1"
+  ],
+  [
+   "صال",
+   "lemma",
+   "sali-1"
+  ],
+  [
    "صالح",
    "lemma",
    "salih-1"
   ],
   [
+   "سليم",
+   "lemma",
+   "salim-1"
+  ],
+  [
+   "سالم",
+   "lemma",
+   "salim-2"
+  ],
+  [
+   "صلي",
+   "lemma",
+   "saliyy-1"
+  ],
+  [
+   "صلي",
+   "lemma",
+   "salla-1"
+  ],
+  [
+   "صليا",
+   "lemma",
+   "salla-1"
+  ],
+  [
+   "صلب",
+   "lemma",
+   "sallaba-1"
+  ],
+  [
+   "سلم",
+   "lemma",
+   "sallama-1"
+  ],
+  [
+   "سلط",
+   "lemma",
+   "sallata-1"
+  ],
+  [
+   "صلصال",
+   "lemma",
+   "salsal-1"
+  ],
+  [
+   "صلصل",
+   "lemma",
+   "salsal-1"
+  ],
+  [
+   "سلوي",
+   "lemma",
+   "salwa-1"
+  ],
+  [
+   "سلويا",
+   "lemma",
+   "salwa-1"
+  ],
+  [
    "سمع",
    "lemma",
    "sama-1"
+  ],
+  [
+   "سام",
+   "lemma",
+   "sama-3"
   ],
   [
    "سماء",
@@ -2762,9 +15982,234 @@ const QM_SEARCH_INDEX = {
    "samia-1"
   ],
   [
+   "سامد",
+   "lemma",
+   "samid-1"
+  ],
+  [
+   "سمين",
+   "lemma",
+   "samin-1"
+  ],
+  [
+   "سامر",
+   "lemma",
+   "samir-1"
+  ],
+  [
+   "سامري",
+   "lemma",
+   "samiri-1"
+  ],
+  [
+   "سمي",
+   "lemma",
+   "samiyy-1"
+  ],
+  [
+   "سمك",
+   "lemma",
+   "samk-1"
+  ],
+  [
+   "سمي",
+   "lemma",
+   "samma-1"
+  ],
+  [
+   "صم",
+   "lemma",
+   "samma-2"
+  ],
+  [
+   "سماع",
+   "lemma",
+   "sammaa-1"
+  ],
+  [
+   "سموم",
+   "lemma",
+   "samum-1"
+  ],
+  [
    "سنه",
    "lemma",
    "sana-1"
+  ],
+  [
+   "سنا",
+   "lemma",
+   "sana-2"
+  ],
+  [
+   "صنع",
+   "lemma",
+   "sanaa-1"
+  ],
+  [
+   "صنم",
+   "lemma",
+   "sanam-1"
+  ],
+  [
+   "ساق",
+   "lemma",
+   "saq-1"
+  ],
+  [
+   "ساق",
+   "lemma",
+   "saqa-3"
+  ],
+  [
+   "سقي",
+   "lemma",
+   "saqaa-1"
+  ],
+  [
+   "سقر",
+   "lemma",
+   "saqar-1"
+  ],
+  [
+   "سقط",
+   "lemma",
+   "saqata-1"
+  ],
+  [
+   "سقف",
+   "lemma",
+   "saqf-1"
+  ],
+  [
+   "سقيم",
+   "lemma",
+   "saqim-1"
+  ],
+  [
+   "صار",
+   "lemma",
+   "sara-1"
+  ],
+  [
+   "سارع",
+   "lemma",
+   "saraa-1"
+  ],
+  [
+   "سري",
+   "lemma",
+   "saraa-2"
+  ],
+  [
+   "سراح",
+   "lemma",
+   "saraah-1"
+  ],
+  [
+   "سراب",
+   "lemma",
+   "sarab-1"
+  ],
+  [
+   "سرب",
+   "lemma",
+   "sarab-2"
+  ],
+  [
+   "صرف",
+   "lemma",
+   "sarafa-1"
+  ],
+  [
+   "سرح",
+   "lemma",
+   "saraha-1"
+  ],
+  [
+   "سرق",
+   "lemma",
+   "saraqa-1"
+  ],
+  [
+   "صرف",
+   "lemma",
+   "sarf-1"
+  ],
+  [
+   "صرح",
+   "lemma",
+   "sarh-1"
+  ],
+  [
+   "سريع",
+   "lemma",
+   "sari-1"
+  ],
+  [
+   "سارب",
+   "lemma",
+   "sarib-1"
+  ],
+  [
+   "صارم",
+   "lemma",
+   "sarim-1"
+  ],
+  [
+   "سارق",
+   "lemma",
+   "sariq-1"
+  ],
+  [
+   "سرير",
+   "lemma",
+   "sarir-1"
+  ],
+  [
+   "سري",
+   "lemma",
+   "sariyy-1"
+  ],
+  [
+   "سرمد",
+   "lemma",
+   "sarmad-1"
+  ],
+  [
+   "سراء",
+   "lemma",
+   "sarra-2"
+  ],
+  [
+   "سر",
+   "lemma",
+   "sarra-3"
+  ],
+  [
+   "صرف",
+   "lemma",
+   "sarrafa-1"
+  ],
+  [
+   "سرح",
+   "lemma",
+   "sarraha-1"
+  ],
+  [
+   "صرصر",
+   "lemma",
+   "sarsar-1"
+  ],
+  [
+   "سطا",
+   "lemma",
+   "sata-1"
+  ],
+  [
+   "سوءه",
+   "lemma",
+   "sawa-1"
   ],
   [
    "سواء",
@@ -2772,9 +16217,119 @@ const QM_SEARCH_INDEX = {
    "sawaa-1"
   ],
   [
+   "ساوي",
+   "lemma",
+   "sawaa-2"
+  ],
+  [
+   "ساويا",
+   "lemma",
+   "sawaa-2"
+  ],
+  [
+   "صواب",
+   "lemma",
+   "sawab-1"
+  ],
+  [
    "سوف",
    "lemma",
    "sawfa-1"
+  ],
+  [
+   "سوي",
+   "lemma",
+   "sawiyy-1"
+  ],
+  [
+   "صوم",
+   "lemma",
+   "sawm-1"
+  ],
+  [
+   "صوت",
+   "lemma",
+   "sawt-1"
+  ],
+  [
+   "سوط",
+   "lemma",
+   "sawt-2"
+  ],
+  [
+   "سوي",
+   "lemma",
+   "sawwa-1"
+  ],
+  [
+   "سويا",
+   "lemma",
+   "sawwa-1"
+  ],
+  [
+   "سوي",
+   "lemma",
+   "sawwaa-1"
+  ],
+  [
+   "سويا",
+   "lemma",
+   "sawwaa-1"
+  ],
+  [
+   "سول",
+   "lemma",
+   "sawwala-1"
+  ],
+  [
+   "صور",
+   "lemma",
+   "sawwara-1"
+  ],
+  [
+   "سعي",
+   "lemma",
+   "say-1"
+  ],
+  [
+   "صيد",
+   "lemma",
+   "sayd-1"
+  ],
+  [
+   "صيف",
+   "lemma",
+   "sayf-1"
+  ],
+  [
+   "صيحه",
+   "lemma",
+   "sayha-1"
+  ],
+  [
+   "سيل",
+   "lemma",
+   "sayl-1"
+  ],
+  [
+   "سير",
+   "lemma",
+   "sayr-1"
+  ],
+  [
+   "سياره",
+   "lemma",
+   "sayyara-1"
+  ],
+  [
+   "سير",
+   "lemma",
+   "sayyara-2"
+  ],
+  [
+   "سيئ",
+   "lemma",
+   "sayyi-1"
   ],
   [
    "سيئه",
@@ -2782,9 +16337,24 @@ const QM_SEARCH_INDEX = {
    "sayyia-1"
   ],
   [
+   "صيب",
+   "lemma",
+   "sayyib-1"
+  ],
+  [
+   "سيد",
+   "lemma",
+   "sayyid-1"
+  ],
+  [
    "شاء",
    "lemma",
    "shaaa-1"
+  ],
+  [
+   "شاق",
+   "lemma",
+   "shaaqqa-1"
   ],
   [
    "شعر",
@@ -2792,9 +16362,79 @@ const QM_SEARCH_INDEX = {
    "shaara-1"
   ],
   [
+   "شرع",
+   "lemma",
+   "shaaraa-1"
+  ],
+  [
+   "شارك",
+   "lemma",
+   "shaaraka-1"
+  ],
+  [
+   "شد",
+   "lemma",
+   "shadda-1"
+  ],
+  [
    "شديد",
    "lemma",
    "shadid-1"
+  ],
+  [
+   "شفع",
+   "lemma",
+   "shaf-1"
+  ],
+  [
+   "شفا",
+   "lemma",
+   "shafa-1"
+  ],
+  [
+   "شفي",
+   "lemma",
+   "shafa-2"
+  ],
+  [
+   "شفه",
+   "lemma",
+   "shafa-3"
+  ],
+  [
+   "شفع",
+   "lemma",
+   "shafaa-1"
+  ],
+  [
+   "شفاعه",
+   "lemma",
+   "shafaa-2"
+  ],
+  [
+   "شفعه",
+   "lemma",
+   "shafaa-2"
+  ],
+  [
+   "شفق",
+   "lemma",
+   "shafaq-1"
+  ],
+  [
+   "شفيع",
+   "lemma",
+   "shafi-1"
+  ],
+  [
+   "شافع",
+   "lemma",
+   "shafi-2"
+  ],
+  [
+   "شفيع",
+   "lemma",
+   "shafia-1"
   ],
   [
    "شهاده",
@@ -2817,6 +16457,36 @@ const QM_SEARCH_INDEX = {
    "shahida-1"
   ],
   [
+   "شهيق",
+   "lemma",
+   "shahiq-1"
+  ],
+  [
+   "شهر",
+   "lemma",
+   "shahr-1"
+  ],
+  [
+   "شهوه",
+   "lemma",
+   "shahwa-1"
+  ],
+  [
+   "شاعر",
+   "lemma",
+   "shair-1"
+  ],
+  [
+   "شعيره",
+   "lemma",
+   "shaira-1"
+  ],
+  [
+   "شجر",
+   "lemma",
+   "shajar-1"
+  ],
+  [
    "شجره",
    "lemma",
    "shajara-1"
@@ -2827,9 +16497,29 @@ const QM_SEARCH_INDEX = {
    "shakara-1"
   ],
   [
+   "شاكله",
+   "lemma",
+   "shakila-1"
+  ],
+  [
+   "شاكر",
+   "lemma",
+   "shakir-1"
+  ],
+  [
    "شك",
    "lemma",
    "shakk-1"
+  ],
+  [
+   "شكل",
+   "lemma",
+   "shakl-1"
+  ],
+  [
+   "شكور",
+   "lemma",
+   "shakur-1"
   ],
   [
    "شمس",
@@ -2837,9 +16527,79 @@ const QM_SEARCH_INDEX = {
    "shams-1"
   ],
   [
+   "شان",
+   "lemma",
+   "shan-1"
+  ],
+  [
+   "شنان",
+   "lemma",
+   "shanan-1"
+  ],
+  [
+   "شق",
+   "lemma",
+   "shaqaqa-1"
+  ],
+  [
+   "شقي",
+   "lemma",
+   "shaqiya-1"
+  ],
+  [
+   "شقي",
+   "lemma",
+   "shaqiyy-1"
+  ],
+  [
+   "شق",
+   "lemma",
+   "shaqq-1"
+  ],
+  [
    "شر",
    "lemma",
    "shar-1"
+  ],
+  [
+   "شعر",
+   "lemma",
+   "shar-2"
+  ],
+  [
+   "شري",
+   "lemma",
+   "shara-1"
+  ],
+  [
+   "شراب",
+   "lemma",
+   "sharab-1"
+  ],
+  [
+   "شرب",
+   "lemma",
+   "sharaba-1"
+  ],
+  [
+   "شرح",
+   "lemma",
+   "sharaha-1"
+  ],
+  [
+   "شرر",
+   "lemma",
+   "sharar-1"
+  ],
+  [
+   "شريعه",
+   "lemma",
+   "sharia-1"
+  ],
+  [
+   "شارب",
+   "lemma",
+   "sharib-1"
   ],
   [
    "شريك",
@@ -2847,9 +16607,64 @@ const QM_SEARCH_INDEX = {
    "sharik-1"
   ],
   [
+   "شرقي",
+   "lemma",
+   "sharqiyy-1"
+  ],
+  [
+   "شطط",
+   "lemma",
+   "shatat-1"
+  ],
+  [
+   "شطر",
+   "lemma",
+   "shatr-1"
+  ],
+  [
+   "شتي",
+   "lemma",
+   "shatta-1"
+  ],
+  [
+   "شوي",
+   "lemma",
+   "shawa-1"
+  ],
+  [
+   "شوي",
+   "lemma",
+   "shawa-2"
+  ],
+  [
+   "شاور",
+   "lemma",
+   "shawara-1"
+  ],
+  [
+   "شوب",
+   "lemma",
+   "shawb-1"
+  ],
+  [
+   "شوكه",
+   "lemma",
+   "shawka-1"
+  ],
+  [
    "شيء",
    "lemma",
    "shay-1"
+  ],
+  [
+   "شيب",
+   "lemma",
+   "shayb-1"
+  ],
+  [
+   "شيخ",
+   "lemma",
+   "shaykh-1"
   ],
   [
    "شيطان",
@@ -2862,9 +16677,119 @@ const QM_SEARCH_INDEX = {
    "shaytan-1"
   ],
   [
+   "شيعه",
+   "lemma",
+   "shia-1"
+  ],
+  [
+   "شفاء",
+   "lemma",
+   "shifa-1"
+  ],
+  [
+   "شهاب",
+   "lemma",
+   "shihab-1"
+  ],
+  [
+   "شمال",
+   "lemma",
+   "shimal-1"
+  ],
+  [
+   "شقاق",
+   "lemma",
+   "shiqaq-1"
+  ],
+  [
+   "شعر",
+   "lemma",
+   "shir-1"
+  ],
+  [
+   "شعري",
+   "lemma",
+   "shira-1"
+  ],
+  [
+   "شرعه",
+   "lemma",
+   "shira-2"
+  ],
+  [
+   "شرب",
+   "lemma",
+   "shirb-1"
+  ],
+  [
+   "شرك",
+   "lemma",
+   "shirk-1"
+  ],
+  [
+   "شتاء",
+   "lemma",
+   "shita-1"
+  ],
+  [
+   "شعبه",
+   "lemma",
+   "shuab-1"
+  ],
+  [
+   "شعيب",
+   "lemma",
+   "shuayb-1"
+  ],
+  [
+   "شح",
+   "lemma",
+   "shuhh-1"
+  ],
+  [
+   "شكر",
+   "lemma",
+   "shukr-1"
+  ],
+  [
+   "شوري",
+   "lemma",
+   "shura-1"
+  ],
+  [
+   "شوريا",
+   "lemma",
+   "shura-1"
+  ],
+  [
+   "شارع",
+   "lemma",
+   "shurra-1"
+  ],
+  [
+   "صبغه",
+   "lemma",
+   "sibgha-1"
+  ],
+  [
+   "سبط",
+   "lemma",
+   "sibt-1"
+  ],
+  [
+   "صديق",
+   "lemma",
+   "siddiq-1"
+  ],
+  [
    "صدق",
    "lemma",
    "sidq-1"
+  ],
+  [
+   "سدر",
+   "lemma",
+   "sidr-1"
   ],
   [
    "سحر",
@@ -2872,9 +16797,124 @@ const QM_SEARCH_INDEX = {
    "sihr-1"
   ],
   [
+   "صهر",
+   "lemma",
+   "sihr-2"
+  ],
+  [
+   "سجين",
+   "lemma",
+   "sijjin-1"
+  ],
+  [
+   "سجن",
+   "lemma",
+   "sijn-1"
+  ],
+  [
+   "سخري",
+   "lemma",
+   "sikhriyy-1"
+  ],
+  [
+   "سكين",
+   "lemma",
+   "sikkin-1"
+  ],
+  [
+   "سلاح",
+   "lemma",
+   "silah-1"
+  ],
+  [
+   "سلم",
+   "lemma",
+   "silm-1"
+  ],
+  [
+   "سلسله",
+   "lemma",
+   "silsila-1"
+  ],
+  [
+   "سيما",
+   "lemma",
+   "sima-1"
+  ],
+  [
+   "سينين",
+   "lemma",
+   "sina-1"
+  ],
+  [
+   "صنو",
+   "lemma",
+   "sinwan-1"
+  ],
+  [
+   "سقايه",
+   "lemma",
+   "siqaya-1"
+  ],
+  [
+   "سراع",
+   "lemma",
+   "sira-1"
+  ],
+  [
+   "سيره",
+   "lemma",
+   "sira-2"
+  ],
+  [
+   "سراج",
+   "lemma",
+   "siraj-1"
+  ],
+  [
    "صراط",
    "lemma",
    "sirat-1"
+  ],
+  [
+   "سربال",
+   "lemma",
+   "sirbal-1"
+  ],
+  [
+   "سر",
+   "lemma",
+   "sirr-1"
+  ],
+  [
+   "صر",
+   "lemma",
+   "sirr-2"
+  ],
+  [
+   "ستر",
+   "lemma",
+   "sitr-1"
+  ],
+  [
+   "سته",
+   "lemma",
+   "sitta-1"
+  ],
+  [
+   "ستون",
+   "lemma",
+   "sittun-1"
+  ],
+  [
+   "سوار",
+   "lemma",
+   "siwar-1"
+  ],
+  [
+   "صيام",
+   "lemma",
+   "siyam-1"
   ],
   [
    "سوء",
@@ -2882,9 +16922,94 @@ const QM_SEARCH_INDEX = {
    "su-1"
   ],
   [
+   "سبات",
+   "lemma",
+   "subat-1"
+  ],
+  [
+   "صبح",
+   "lemma",
+   "subh-1"
+  ],
+  [
+   "سبحان",
+   "lemma",
+   "subhan-1"
+  ],
+  [
+   "سبحن",
+   "lemma",
+   "subhan-1"
+  ],
+  [
+   "سدي",
+   "lemma",
+   "suda-1"
+  ],
+  [
+   "صدود",
+   "lemma",
+   "suddud-1"
+  ],
+  [
    "صدر",
    "lemma",
    "sudur-1"
+  ],
+  [
+   "سدس",
+   "lemma",
+   "sudus-1"
+  ],
+  [
+   "صوف",
+   "lemma",
+   "suf-1"
+  ],
+  [
+   "سفيه",
+   "lemma",
+   "sufaha-1"
+  ],
+  [
+   "صهر",
+   "lemma",
+   "suhira-1"
+  ],
+  [
+   "سحق",
+   "lemma",
+   "suhq-1"
+  ],
+  [
+   "سحت",
+   "lemma",
+   "suht-1"
+  ],
+  [
+   "سجود",
+   "lemma",
+   "sujud-1"
+  ],
+  [
+   "سكاري",
+   "lemma",
+   "sukara-1"
+  ],
+  [
+   "سخري",
+   "lemma",
+   "sukhriyy-1"
+  ],
+  [
+   "سؤل",
+   "lemma",
+   "sul-1"
+  ],
+  [
+   "سلاله",
+   "lemma",
+   "sulala-1"
   ],
   [
    "سليمان",
@@ -2897,6 +17022,16 @@ const QM_SEARCH_INDEX = {
    "sulayman-1"
   ],
   [
+   "صلب",
+   "lemma",
+   "sulb-1"
+  ],
+  [
+   "سلم",
+   "lemma",
+   "sullam-1"
+  ],
+  [
    "سلطان",
    "lemma",
    "sultan-1"
@@ -2907,14 +17042,124 @@ const QM_SEARCH_INDEX = {
    "sultan-1"
   ],
   [
+   "اصم",
+   "lemma",
+   "summ-1"
+  ],
+  [
+   "سنبله",
+   "lemma",
+   "sunbula-1"
+  ],
+  [
+   "سندس",
+   "lemma",
+   "sundus-1"
+  ],
+  [
    "سنه",
    "lemma",
    "sunna-1"
   ],
   [
+   "سوق",
+   "lemma",
+   "suq-1"
+  ],
+  [
+   "سقط",
+   "lemma",
+   "suqita-1"
+  ],
+  [
+   "سقيا",
+   "lemma",
+   "suqiya-1"
+  ],
+  [
    "صور",
    "lemma",
    "sur-1"
+  ],
+  [
+   "سور",
+   "lemma",
+   "sur-2"
+  ],
+  [
+   "سوره",
+   "lemma",
+   "sura-1"
+  ],
+  [
+   "صره",
+   "lemma",
+   "surra-1"
+  ],
+  [
+   "سرور",
+   "lemma",
+   "surur-1"
+  ],
+  [
+   "سعر",
+   "lemma",
+   "suur-1"
+  ],
+  [
+   "سوي",
+   "lemma",
+   "suw-1"
+  ],
+  [
+   "سواي",
+   "lemma",
+   "suwa-1"
+  ],
+  [
+   "سوايا",
+   "lemma",
+   "suwa-1"
+  ],
+  [
+   "سواع",
+   "lemma",
+   "suwa-2"
+  ],
+  [
+   "صوره",
+   "lemma",
+   "suwar-1"
+  ],
+  [
+   "ت",
+   "lemma",
+   "ta-1"
+  ],
+  [
+   "طاعه",
+   "lemma",
+   "taa-1"
+  ],
+  [
+   "اطاع",
+   "lemma",
+   "taa-2"
+  ],
+  [
+   "تعدي",
+   "lemma",
+   "taadda-1"
+  ],
+  [
+   "تعديا",
+   "lemma",
+   "taadda-1"
+  ],
+  [
+   "تاذن",
+   "lemma",
+   "taadhdhana-1"
   ],
   [
    "تعاليا",
@@ -2927,9 +17172,39 @@ const QM_SEARCH_INDEX = {
    "taala-1"
   ],
   [
+   "تعلم",
+   "lemma",
+   "taallama-1"
+  ],
+  [
    "طعام",
    "lemma",
    "taam-1"
+  ],
+  [
+   "طعن",
+   "lemma",
+   "taana-1"
+  ],
+  [
+   "طار",
+   "lemma",
+   "taara-1"
+  ],
+  [
+   "تعارف",
+   "lemma",
+   "taarafa-1"
+  ],
+  [
+   "تاثيم",
+   "lemma",
+   "taathim-1"
+  ],
+  [
+   "تعاون",
+   "lemma",
+   "taawana-1"
   ],
   [
    "تاب",
@@ -2937,9 +17212,114 @@ const QM_SEARCH_INDEX = {
    "taba-1"
   ],
   [
+   "تبع",
+   "lemma",
+   "taba-2"
+  ],
+  [
+   "طاب",
+   "lemma",
+   "taba-3"
+  ],
+  [
+   "طبع",
+   "lemma",
+   "tabaa-1"
+  ],
+  [
+   "تبايع",
+   "lemma",
+   "tabaaya-1"
+  ],
+  [
+   "تباب",
+   "lemma",
+   "tabab-1"
+  ],
+  [
+   "تبدل",
+   "lemma",
+   "tabaddala-1"
+  ],
+  [
+   "طبق",
+   "lemma",
+   "tabaq-1"
+  ],
+  [
+   "تبار",
+   "lemma",
+   "tabar-1"
+  ],
+  [
+   "تبارك",
+   "lemma",
+   "tabaraka-1"
+  ],
+  [
+   "تبرا",
+   "lemma",
+   "tabarraa-1"
+  ],
+  [
+   "تبرج",
+   "lemma",
+   "tabarraja-1"
+  ],
+  [
+   "تبرج",
+   "lemma",
+   "tabarruj-1"
+  ],
+  [
+   "تبسم",
+   "lemma",
+   "tabassama-1"
+  ],
+  [
+   "تبتل",
+   "lemma",
+   "tabattala-1"
+  ],
+  [
+   "تبوا",
+   "lemma",
+   "tabawwaa-1"
+  ],
+  [
+   "تبين",
+   "lemma",
+   "tabayyana-1"
+  ],
+  [
    "تب",
    "lemma",
    "tabba-1"
+  ],
+  [
+   "تبر",
+   "lemma",
+   "tabbara-1"
+  ],
+  [
+   "تبذير",
+   "lemma",
+   "tabdhir-1"
+  ],
+  [
+   "تبديل",
+   "lemma",
+   "tabdil-1"
+  ],
+  [
+   "تابع",
+   "lemma",
+   "tabi-1"
+  ],
+  [
+   "تبيع",
+   "lemma",
+   "tabi-2"
   ],
   [
    "تبع",
@@ -2947,9 +17327,209 @@ const QM_SEARCH_INDEX = {
    "tabia-1"
   ],
   [
+   "تبصره",
+   "lemma",
+   "tabsira-1"
+  ],
+  [
+   "تابوت",
+   "lemma",
+   "tabut-1"
+  ],
+  [
+   "تدبر",
+   "lemma",
+   "tadabbara-1"
+  ],
+  [
+   "تدارك",
+   "lemma",
+   "tadaraka-1"
+  ],
+  [
+   "تضرع",
+   "lemma",
+   "tadarraa-1"
+  ],
+  [
+   "تضرع",
+   "lemma",
+   "tadarru-1"
+  ],
+  [
    "تذكر",
    "lemma",
    "tadhakkara-1"
+  ],
+  [
+   "تذكير",
+   "lemma",
+   "tadhkir-1"
+  ],
+  [
+   "تذكره",
+   "lemma",
+   "tadhkira-1"
+  ],
+  [
+   "تدمير",
+   "lemma",
+   "tadmir-1"
+  ],
+  [
+   "طاف",
+   "lemma",
+   "tafa-1"
+  ],
+  [
+   "اطفا",
+   "lemma",
+   "tafaa-1"
+  ],
+  [
+   "تفضل",
+   "lemma",
+   "tafaddala-1"
+  ],
+  [
+   "تفاخر",
+   "lemma",
+   "tafakhur-1"
+  ],
+  [
+   "تفكر",
+   "lemma",
+   "tafakkara-1"
+  ],
+  [
+   "تفرق",
+   "lemma",
+   "tafarraqa-1"
+  ],
+  [
+   "تفطر",
+   "lemma",
+   "tafattara-1"
+  ],
+  [
+   "تفاوت",
+   "lemma",
+   "tafawut-1"
+  ],
+  [
+   "تفضيل",
+   "lemma",
+   "tafdil-1"
+  ],
+  [
+   "طفق",
+   "lemma",
+   "tafiqa-1"
+  ],
+  [
+   "تفجير",
+   "lemma",
+   "tafjir-1"
+  ],
+  [
+   "تفريق",
+   "lemma",
+   "tafriq-1"
+  ],
+  [
+   "تفصيل",
+   "lemma",
+   "tafsil-1"
+  ],
+  [
+   "طغي",
+   "lemma",
+   "tagha-1"
+  ],
+  [
+   "طغيا",
+   "lemma",
+   "tagha-1"
+  ],
+  [
+   "طاغ",
+   "lemma",
+   "taghin-1"
+  ],
+  [
+   "طاغيه",
+   "lemma",
+   "taghiya-1"
+  ],
+  [
+   "طاغوت",
+   "lemma",
+   "taghut-1"
+  ],
+  [
+   "طغوت",
+   "lemma",
+   "taghut-1"
+  ],
+  [
+   "طغوي",
+   "lemma",
+   "taghwa-1"
+  ],
+  [
+   "تاه",
+   "lemma",
+   "taha-1"
+  ],
+  [
+   "تحاج",
+   "lemma",
+   "tahajja-1"
+  ],
+  [
+   "تحاكم",
+   "lemma",
+   "tahakama-1"
+  ],
+  [
+   "تحري",
+   "lemma",
+   "tahara-1"
+  ],
+  [
+   "تحريا",
+   "lemma",
+   "tahara-1"
+  ],
+  [
+   "تحسس",
+   "lemma",
+   "tahassasa-1"
+  ],
+  [
+   "تحصن",
+   "lemma",
+   "tahassun-1"
+  ],
+  [
+   "طهر",
+   "lemma",
+   "tahhara-1"
+  ],
+  [
+   "تحله",
+   "lemma",
+   "tahilla-1"
+  ],
+  [
+   "تحيه",
+   "lemma",
+   "tahiyya-1"
+  ],
+  [
+   "تحرير",
+   "lemma",
+   "tahrir-1"
   ],
   [
    "تحت",
@@ -2957,14 +17537,409 @@ const QM_SEARCH_INDEX = {
    "tahta-1"
   ],
   [
+   "طهور",
+   "lemma",
+   "tahur-1"
+  ],
+  [
+   "طهر",
+   "lemma",
+   "tahura-1"
+  ],
+  [
+   "تحويل",
+   "lemma",
+   "tahwil-1"
+  ],
+  [
+   "تائب",
+   "lemma",
+   "taib-1"
+  ],
+  [
    "طائفه",
    "lemma",
    "taifa-1"
   ],
   [
+   "طائر",
+   "lemma",
+   "tair-1"
+  ],
+  [
+   "تجافي",
+   "lemma",
+   "tajafa-1"
+  ],
+  [
+   "تجافيا",
+   "lemma",
+   "tajafa-1"
+  ],
+  [
+   "تجنب",
+   "lemma",
+   "tajannaba-1"
+  ],
+  [
+   "جار",
+   "lemma",
+   "tajara-1"
+  ],
+  [
+   "تجرع",
+   "lemma",
+   "tajarraa-1"
+  ],
+  [
+   "تجسس",
+   "lemma",
+   "tajassasa-1"
+  ],
+  [
+   "تجاوز",
+   "lemma",
+   "tajawaza-1"
+  ],
+  [
+   "تعجل",
+   "lemma",
+   "tajjala-1"
+  ],
+  [
+   "تكبر",
+   "lemma",
+   "takabbara-1"
+  ],
+  [
+   "تكلم",
+   "lemma",
+   "takallama-1"
+  ],
+  [
+   "تكليم",
+   "lemma",
+   "takallum-1"
+  ],
+  [
+   "تكاثر",
+   "lemma",
+   "takathur-1"
+  ],
+  [
+   "تكبير",
+   "lemma",
+   "takbir-1"
+  ],
+  [
+   "تخبط",
+   "lemma",
+   "takhabbata-1"
+  ],
+  [
+   "تخافت",
+   "lemma",
+   "takhafata-1"
+  ],
+  [
+   "تاخر",
+   "lemma",
+   "takhara-1"
+  ],
+  [
+   "تخطف",
+   "lemma",
+   "takhattafa-1"
+  ],
+  [
+   "تخوف",
+   "lemma",
+   "takhawwuf-1"
+  ],
+  [
+   "خر",
+   "lemma",
+   "takhirru-1"
+  ],
+  [
+   "تخسير",
+   "lemma",
+   "takhsir-1"
+  ],
+  [
+   "تخويف",
+   "lemma",
+   "takhwif-1"
+  ],
+  [
    "تلا",
    "lemma",
    "tala-1"
+  ],
+  [
+   "طلع",
+   "lemma",
+   "tala-2"
+  ],
+  [
+   "طال",
+   "lemma",
+   "tala-3"
+  ],
+  [
+   "تطلع",
+   "lemma",
+   "talaa-2"
+  ],
+  [
+   "طلب",
+   "lemma",
+   "talab-1"
+  ],
+  [
+   "طلب",
+   "lemma",
+   "talaba-1"
+  ],
+  [
+   "تلهي",
+   "lemma",
+   "talahha-1"
+  ],
+  [
+   "تلاق",
+   "lemma",
+   "talaq-1"
+  ],
+  [
+   "طلاق",
+   "lemma",
+   "talaq-2"
+  ],
+  [
+   "تلقي",
+   "lemma",
+   "talaqqa-1"
+  ],
+  [
+   "تلقيا",
+   "lemma",
+   "talaqqa-1"
+  ],
+  [
+   "طلع",
+   "lemma",
+   "talh-1"
+  ],
+  [
+   "طالب",
+   "lemma",
+   "talib-1"
+  ],
+  [
+   "تاليات",
+   "lemma",
+   "taliyat-1"
+  ],
+  [
+   "لئلا",
+   "lemma",
+   "talla-1"
+  ],
+  [
+   "تل",
+   "lemma",
+   "tallahu-1"
+  ],
+  [
+   "طلق",
+   "lemma",
+   "tallaqa-1"
+  ],
+  [
+   "طالوت",
+   "lemma",
+   "talut-1"
+  ],
+  [
+   "طعم",
+   "lemma",
+   "tam-1"
+  ],
+  [
+   "طمع",
+   "lemma",
+   "tama-1"
+  ],
+  [
+   "تماري",
+   "lemma",
+   "tamaara-1"
+  ],
+  [
+   "تماريا",
+   "lemma",
+   "tamaara-1"
+  ],
+  [
+   "تماس",
+   "lemma",
+   "tamaassa-1"
+  ],
+  [
+   "تمام",
+   "lemma",
+   "tamam-1"
+  ],
+  [
+   "تمني",
+   "lemma",
+   "tamanna-1"
+  ],
+  [
+   "تمنيا",
+   "lemma",
+   "tamanna-1"
+  ],
+  [
+   "تماري",
+   "lemma",
+   "tamara-1"
+  ],
+  [
+   "تماريا",
+   "lemma",
+   "tamara-1"
+  ],
+  [
+   "طمس",
+   "lemma",
+   "tamasa-1"
+  ],
+  [
+   "طمث",
+   "lemma",
+   "tamatha-1"
+  ],
+  [
+   "تمتع",
+   "lemma",
+   "tamattaa-1"
+  ],
+  [
+   "طعم",
+   "lemma",
+   "tamia-1"
+  ],
+  [
+   "طاعم",
+   "lemma",
+   "tamim-1"
+  ],
+  [
+   "تم",
+   "lemma",
+   "tamma-1"
+  ],
+  [
+   "طامه",
+   "lemma",
+   "tamma-2"
+  ],
+  [
+   "طعن",
+   "lemma",
+   "tan-1"
+  ],
+  [
+   "تنادي",
+   "lemma",
+   "tanada-1"
+  ],
+  [
+   "تناديا",
+   "lemma",
+   "tanada-1"
+  ],
+  [
+   "تناجي",
+   "lemma",
+   "tanajaa-1"
+  ],
+  [
+   "تناجيا",
+   "lemma",
+   "tanajaa-1"
+  ],
+  [
+   "تنازع",
+   "lemma",
+   "tanazaa-1"
+  ],
+  [
+   "تنزل",
+   "lemma",
+   "tanazzala-1"
+  ],
+  [
+   "وني",
+   "lemma",
+   "taniya-1"
+  ],
+  [
+   "تنور",
+   "lemma",
+   "tannur-1"
+  ],
+  [
+   "تنزيل",
+   "lemma",
+   "tanzil-1"
+  ],
+  [
+   "طاقه",
+   "lemma",
+   "taqa-1"
+  ],
+  [
+   "تقبل",
+   "lemma",
+   "taqabbala-1"
+  ],
+  [
+   "تقدم",
+   "lemma",
+   "taqaddama-1"
+  ],
+  [
+   "تقلب",
+   "lemma",
+   "taqallaba-1"
+  ],
+  [
+   "تقلب",
+   "lemma",
+   "taqallub-1"
+  ],
+  [
+   "تقطع",
+   "lemma",
+   "taqattaa-1"
+  ],
+  [
+   "تقول",
+   "lemma",
+   "taqawwala-1"
+  ],
+  [
+   "تقدير",
+   "lemma",
+   "taqdir-1"
+  ],
+  [
+   "تقي",
+   "lemma",
+   "taqiyy-1"
   ],
   [
    "تقوي",
@@ -2977,9 +17952,244 @@ const QM_SEARCH_INDEX = {
    "taqwa-1"
   ],
   [
+   "تقويم",
+   "lemma",
+   "taqwim-1"
+  ],
+  [
+   "تاره",
+   "lemma",
+   "tara-1"
+  ],
+  [
+   "تربص",
+   "lemma",
+   "tarabbasa-1"
+  ],
+  [
+   "تربص",
+   "lemma",
+   "tarabbus-1"
+  ],
+  [
+   "طرد",
+   "lemma",
+   "tarada-1"
+  ],
+  [
+   "تراضي",
+   "lemma",
+   "taradaa-1"
+  ],
+  [
+   "تراضيا",
+   "lemma",
+   "taradaa-1"
+  ],
+  [
+   "تردي",
+   "lemma",
+   "taradda-1"
+  ],
+  [
+   "ترديا",
+   "lemma",
+   "taradda-1"
+  ],
+  [
+   "طرف",
+   "lemma",
+   "taraf-1"
+  ],
+  [
    "ترك",
    "lemma",
    "taraka-1"
+  ],
+  [
+   "تراقي",
+   "lemma",
+   "taraqi-1"
+  ],
+  [
+   "ترقب",
+   "lemma",
+   "taraqqaba-1"
+  ],
+  [
+   "طرف",
+   "lemma",
+   "tarf-1"
+  ],
+  [
+   "تارك",
+   "lemma",
+   "tarik-1"
+  ],
+  [
+   "طريق",
+   "lemma",
+   "tariq-1"
+  ],
+  [
+   "طارق",
+   "lemma",
+   "tariq-2"
+  ],
+  [
+   "طريقه",
+   "lemma",
+   "tariqa-1"
+  ],
+  [
+   "طري",
+   "lemma",
+   "tariyy-1"
+  ],
+  [
+   "ترتيل",
+   "lemma",
+   "tartil-1"
+  ],
+  [
+   "تساءل",
+   "lemma",
+   "tasaala-1"
+  ],
+  [
+   "تصدي",
+   "lemma",
+   "tasadda-1"
+  ],
+  [
+   "تصديا",
+   "lemma",
+   "tasadda-1"
+  ],
+  [
+   "تصدق",
+   "lemma",
+   "tasaddaqa-1"
+  ],
+  [
+   "تسور",
+   "lemma",
+   "tasawwara-1"
+  ],
+  [
+   "تسبيح",
+   "lemma",
+   "tasbih-1"
+  ],
+  [
+   "تصديق",
+   "lemma",
+   "tasdiq-1"
+  ],
+  [
+   "تصديه",
+   "lemma",
+   "tasdiya-1"
+  ],
+  [
+   "تشابه",
+   "lemma",
+   "tashabaha-1"
+  ],
+  [
+   "تشقق",
+   "lemma",
+   "tashaqqaqa-1"
+  ],
+  [
+   "تشاور",
+   "lemma",
+   "tashawur-1"
+  ],
+  [
+   "تسليم",
+   "lemma",
+   "taslim-1"
+  ],
+  [
+   "تصليه",
+   "lemma",
+   "tasliya-1"
+  ],
+  [
+   "تسميه",
+   "lemma",
+   "tasmiya-1"
+  ],
+  [
+   "تصريف",
+   "lemma",
+   "tasrif-1"
+  ],
+  [
+   "تسريح",
+   "lemma",
+   "tasrih-1"
+  ],
+  [
+   "تطهر",
+   "lemma",
+   "tatahhara-1"
+  ],
+  [
+   "تطير",
+   "lemma",
+   "tatayyara-1"
+  ],
+  [
+   "تتبيب",
+   "lemma",
+   "tatbib-1"
+  ],
+  [
+   "تتبير",
+   "lemma",
+   "tatbir-1"
+  ],
+  [
+   "تثبيت",
+   "lemma",
+   "tathbit-1"
+  ],
+  [
+   "تطهير",
+   "lemma",
+   "tathir-1"
+  ],
+  [
+   "تثريب",
+   "lemma",
+   "tathrib-1"
+  ],
+  [
+   "تترا",
+   "lemma",
+   "tatra-1"
+  ],
+  [
+   "طوع",
+   "lemma",
+   "taw-1"
+  ],
+  [
+   "توفي",
+   "lemma",
+   "tawaffa-1"
+  ],
+  [
+   "توفيا",
+   "lemma",
+   "tawaffa-1"
+  ],
+  [
+   "توجه",
+   "lemma",
+   "tawajjaha-1"
   ],
   [
    "توكل",
@@ -2997,9 +18207,59 @@ const QM_SEARCH_INDEX = {
    "tawalla-1"
   ],
   [
+   "تواري",
+   "lemma",
+   "tawara-1"
+  ],
+  [
+   "تواريا",
+   "lemma",
+   "tawara-1"
+  ],
+  [
+   "تواصي",
+   "lemma",
+   "tawasa-1"
+  ],
+  [
+   "تواصيا",
+   "lemma",
+   "tawasa-1"
+  ],
+  [
+   "توب",
+   "lemma",
+   "tawb-1"
+  ],
+  [
+   "توبه",
+   "lemma",
+   "tawba-1"
+  ],
+  [
+   "توفيق",
+   "lemma",
+   "tawfiq-1"
+  ],
+  [
    "تاويل",
    "lemma",
    "tawil-1"
+  ],
+  [
+   "طويل",
+   "lemma",
+   "tawil-2"
+  ],
+  [
+   "طول",
+   "lemma",
+   "tawl-1"
+  ],
+  [
+   "طور",
+   "lemma",
+   "tawr-1"
   ],
   [
    "تورياه",
@@ -3012,6 +18272,51 @@ const QM_SEARCH_INDEX = {
    "tawra-1"
   ],
   [
+   "توصيه",
+   "lemma",
+   "tawsiya-1"
+  ],
+  [
+   "طوع",
+   "lemma",
+   "tawwaa-1"
+  ],
+  [
+   "تطوع",
+   "lemma",
+   "tawwaa-2"
+  ],
+  [
+   "تواب",
+   "lemma",
+   "tawwab-1"
+  ],
+  [
+   "طواف",
+   "lemma",
+   "tawwaf-1"
+  ],
+  [
+   "طوق",
+   "lemma",
+   "tawwaqa-1"
+  ],
+  [
+   "تخير",
+   "lemma",
+   "tayakhkhara-1"
+  ],
+  [
+   "تيمم",
+   "lemma",
+   "tayammama-1"
+  ],
+  [
+   "تيسر",
+   "lemma",
+   "tayassara-1"
+  ],
+  [
    "طير",
    "lemma",
    "tayr-1"
@@ -3020,6 +18325,51 @@ const QM_SEARCH_INDEX = {
    "طيب",
    "lemma",
    "tayyib-1"
+  ],
+  [
+   "تظاهر",
+   "lemma",
+   "tazaahara-1"
+  ],
+  [
+   "تزكي",
+   "lemma",
+   "tazakka-1"
+  ],
+  [
+   "تزكيا",
+   "lemma",
+   "tazakka-1"
+  ],
+  [
+   "تزود",
+   "lemma",
+   "tazawwada-1"
+  ],
+  [
+   "تزيل",
+   "lemma",
+   "tazayyala-1"
+  ],
+  [
+   "زيل",
+   "lemma",
+   "tazayyala-2"
+  ],
+  [
+   "ثبت",
+   "lemma",
+   "thabata-1"
+  ],
+  [
+   "ثبت",
+   "lemma",
+   "thabbata-1"
+  ],
+  [
+   "ثابت",
+   "lemma",
+   "thabit-1"
   ],
   [
    "ثلاثه",
@@ -3032,9 +18382,29 @@ const QM_SEARCH_INDEX = {
    "thalatha-1"
   ],
   [
+   "ثالث",
+   "lemma",
+   "thalith-1"
+  ],
+  [
+   "ثمن",
+   "lemma",
+   "thaman-1"
+  ],
+  [
+   "ثمانيه",
+   "lemma",
+   "thamaniya-1"
+  ],
+  [
    "ثمره",
    "lemma",
    "thamara-1"
+  ],
+  [
+   "ثامن",
+   "lemma",
+   "thamin-1"
   ],
   [
    "ثمود",
@@ -3042,14 +18412,289 @@ const QM_SEARCH_INDEX = {
    "thamud-1"
   ],
   [
+   "ثني",
+   "lemma",
+   "thana-1"
+  ],
+  [
+   "ثان",
+   "lemma",
+   "thani-1"
+  ],
+  [
+   "ثقل",
+   "lemma",
+   "thaqal-1"
+  ],
+  [
+   "ثاقب",
+   "lemma",
+   "thaqib-1"
+  ],
+  [
+   "ثقف",
+   "lemma",
+   "thaqifa-1"
+  ],
+  [
+   "ثقيل",
+   "lemma",
+   "thaqil-1"
+  ],
+  [
+   "ثقل",
+   "lemma",
+   "thaqula-1"
+  ],
+  [
+   "ثري",
+   "lemma",
+   "thara-1"
+  ],
+  [
+   "ثواب",
+   "lemma",
+   "thawab-1"
+  ],
+  [
+   "ثوب",
+   "lemma",
+   "thawb-1"
+  ],
+  [
+   "ثاو",
+   "lemma",
+   "thawiyy-1"
+  ],
+  [
+   "ثوب",
+   "lemma",
+   "thawwaba-1"
+  ],
+  [
+   "ثيب",
+   "lemma",
+   "thayyib-1"
+  ],
+  [
+   "ثقل",
+   "lemma",
+   "thiql-1"
+  ],
+  [
+   "ثعبان",
+   "lemma",
+   "thuban-1"
+  ],
+  [
+   "ثبات",
+   "lemma",
+   "thubat-1"
+  ],
+  [
+   "ثبور",
+   "lemma",
+   "thubur-1"
+  ],
+  [
+   "ثبوت",
+   "lemma",
+   "thubut-1"
+  ],
+  [
+   "ثله",
+   "lemma",
+   "thulla-1"
+  ],
+  [
+   "ثلث",
+   "lemma",
+   "thuluth-1"
+  ],
+  [
    "ثم",
    "lemma",
    "thumma-1"
   ],
   [
+   "ثمن",
+   "lemma",
+   "thumun-1"
+  ],
+  [
+   "طباق",
+   "lemma",
+   "tibaq-1"
+  ],
+  [
+   "تبيان",
+   "lemma",
+   "tibyan-1"
+  ],
+  [
+   "طفل",
+   "lemma",
+   "tifl-1"
+  ],
+  [
+   "تجاره",
+   "lemma",
+   "tijara-1"
+  ],
+  [
+   "تجره",
+   "lemma",
+   "tijara-1"
+  ],
+  [
+   "تلاوه",
+   "lemma",
+   "tilawa-1"
+  ],
+  [
    "تلك",
    "lemma",
    "tilka-1"
+  ],
+  [
+   "تلقاء",
+   "lemma",
+   "tilqaa-1"
+  ],
+  [
+   "تمثال",
+   "lemma",
+   "timthal-1"
+  ],
+  [
+   "طين",
+   "lemma",
+   "tin-1"
+  ],
+  [
+   "تين",
+   "lemma",
+   "tin-2"
+  ],
+  [
+   "ترب",
+   "lemma",
+   "tirb-1"
+  ],
+  [
+   "تسع",
+   "lemma",
+   "tis-1"
+  ],
+  [
+   "تسعون",
+   "lemma",
+   "tisun-1"
+  ],
+  [
+   "تخلي",
+   "lemma",
+   "tkhalla-1"
+  ],
+  [
+   "طوبي",
+   "lemma",
+   "tuba-1"
+  ],
+  [
+   "تبع",
+   "lemma",
+   "tubba-1"
+  ],
+  [
+   "طوفان",
+   "lemma",
+   "tufan-1"
+  ],
+  [
+   "طغيان",
+   "lemma",
+   "tughyan-1"
+  ],
+  [
+   "طغين",
+   "lemma",
+   "tughyan-1"
+  ],
+  [
+   "طول",
+   "lemma",
+   "tul-1"
+  ],
+  [
+   "طلوع",
+   "lemma",
+   "tulu-1"
+  ],
+  [
+   "تقاه",
+   "lemma",
+   "tuqat-1"
+  ],
+  [
+   "طور",
+   "lemma",
+   "tur-1"
+  ],
+  [
+   "تراب",
+   "lemma",
+   "turab-1"
+  ],
+  [
+   "تراث",
+   "lemma",
+   "turath-1"
+  ],
+  [
+   "طوي",
+   "lemma",
+   "tuwa-1"
+  ],
+  [
+   "عذر",
+   "lemma",
+   "udhr-1"
+  ],
+  [
+   "عدوه",
+   "lemma",
+   "udwa-1"
+  ],
+  [
+   "عدوان",
+   "lemma",
+   "udwan-1"
+  ],
+  [
+   "عدون",
+   "lemma",
+   "udwan-1"
+  ],
+  [
+   "اف",
+   "lemma",
+   "uff-1"
+  ],
+  [
+   "افق",
+   "lemma",
+   "ufuq-1"
+  ],
+  [
+   "عجاب",
+   "lemma",
+   "ujab-1"
+  ],
+  [
+   "اجاج",
+   "lemma",
+   "ujaj-1"
   ],
   [
    "اخري",
@@ -3060,6 +18705,16 @@ const QM_SEARCH_INDEX = {
    "اخريا",
    "lemma",
    "ukhra-1"
+  ],
+  [
+   "اخت",
+   "lemma",
+   "ukht-1"
+  ],
+  [
+   "اكل",
+   "lemma",
+   "ukul-1"
   ],
   [
    "اولي",
@@ -3087,6 +18742,16 @@ const QM_SEARCH_INDEX = {
    "ulu-1"
   ],
   [
+   "علو",
+   "lemma",
+   "uluww-1"
+  ],
+  [
+   "عليا",
+   "lemma",
+   "ulya-1"
+  ],
+  [
    "ام",
    "lemma",
    "umm-1"
@@ -3095,6 +18760,31 @@ const QM_SEARCH_INDEX = {
    "امه",
    "lemma",
    "umma-1"
+  ],
+  [
+   "امي",
+   "lemma",
+   "ummiyy-1"
+  ],
+  [
+   "امنيه",
+   "lemma",
+   "umniyya-1"
+  ],
+  [
+   "عمره",
+   "lemma",
+   "umra-1"
+  ],
+  [
+   "عمر",
+   "lemma",
+   "umur-1"
+  ],
+  [
+   "اناس",
+   "lemma",
+   "unas-1"
   ],
   [
    "انثي",
@@ -3107,9 +18797,169 @@ const QM_SEARCH_INDEX = {
    "untha-1"
   ],
   [
+   "عنق",
+   "lemma",
+   "unuq-1"
+  ],
+  [
+   "عقب",
+   "lemma",
+   "uqb-1"
+  ],
+  [
+   "عقبي",
+   "lemma",
+   "uqba-1"
+  ],
+  [
+   "عقبيا",
+   "lemma",
+   "uqba-1"
+  ],
+  [
+   "عقده",
+   "lemma",
+   "uqda-1"
+  ],
+  [
+   "اقت",
+   "lemma",
+   "uqqita-1"
+  ],
+  [
+   "عرضه",
+   "lemma",
+   "urdha-1"
+  ],
+  [
+   "عرف",
+   "lemma",
+   "urf-1"
+  ],
+  [
+   "عروه",
+   "lemma",
+   "urwa-1"
+  ],
+  [
+   "عصبه",
+   "lemma",
+   "usba-1"
+  ],
+  [
+   "اشرب",
+   "lemma",
+   "ushriba-1"
+  ],
+  [
+   "عسر",
+   "lemma",
+   "usr-1"
+  ],
+  [
+   "عسره",
+   "lemma",
+   "usra-1"
+  ],
+  [
+   "عسري",
+   "lemma",
+   "usra-2"
+  ],
+  [
+   "عسريا",
+   "lemma",
+   "usra-2"
+  ],
+  [
+   "اسوه",
+   "lemma",
+   "uswa-1"
+  ],
+  [
+   "عثر",
+   "lemma",
+   "uthira-1"
+  ],
+  [
+   "عتل",
+   "lemma",
+   "utul-1"
+  ],
+  [
+   "عتو",
+   "lemma",
+   "utuww-1"
+  ],
+  [
+   "قعود",
+   "lemma",
+   "uud-1"
+  ],
+  [
+   "عزير",
+   "lemma",
+   "uzayr-1"
+  ],
+  [
+   "وزع",
+   "lemma",
+   "uzia-1"
+  ],
+  [
+   "عزي",
+   "lemma",
+   "uzza-1"
+  ],
+  [
    "وعد",
    "lemma",
    "waada-1"
+  ],
+  [
+   "واعد",
+   "lemma",
+   "waada-2"
+  ],
+  [
+   "واد",
+   "lemma",
+   "waadda-1"
+  ],
+  [
+   "واري",
+   "lemma",
+   "waara-1"
+  ],
+  [
+   "واريا",
+   "lemma",
+   "waara-1"
+  ],
+  [
+   "واطا",
+   "lemma",
+   "waata-1"
+  ],
+  [
+   "وبال",
+   "lemma",
+   "wabal-1"
+  ],
+  [
+   "وبر",
+   "lemma",
+   "wabar-1"
+  ],
+  [
+   "وابل",
+   "lemma",
+   "wabil-1"
+  ],
+  [
+   "وبيل",
+   "lemma",
+   "wabil-2"
   ],
   [
    "وعد",
@@ -3122,9 +18972,129 @@ const QM_SEARCH_INDEX = {
    "wadaa-1"
   ],
   [
+   "ودع",
+   "lemma",
+   "wadaa-2"
+  ],
+  [
+   "ود",
+   "lemma",
+   "wadd-2"
+  ],
+  [
+   "ود",
+   "lemma",
+   "wadda-1"
+  ],
+  [
+   "واد",
+   "lemma",
+   "wadi-1"
+  ],
+  [
+   "ودق",
+   "lemma",
+   "wadq-1"
+  ],
+  [
+   "ودود",
+   "lemma",
+   "wadud-1"
+  ],
+  [
+   "وفد",
+   "lemma",
+   "wafd-1"
+  ],
+  [
+   "وفي",
+   "lemma",
+   "waffa-1"
+  ],
+  [
+   "وفيا",
+   "lemma",
+   "waffa-1"
+  ],
+  [
+   "وفق",
+   "lemma",
+   "waffaqa-1"
+  ],
+  [
+   "وهب",
+   "lemma",
+   "waha-1"
+  ],
+  [
+   "وهب",
+   "lemma",
+   "wahaba-1"
+  ],
+  [
+   "وهن",
+   "lemma",
+   "wahana-1"
+  ],
+  [
+   "وحد",
+   "lemma",
+   "wahd-1"
+  ],
+  [
+   "وهاب",
+   "lemma",
+   "wahhab-1"
+  ],
+  [
+   "وهاج",
+   "lemma",
+   "wahhaj-1"
+  ],
+  [
    "واحد",
    "lemma",
    "wahid-1"
+  ],
+  [
+   "وحيد",
+   "lemma",
+   "wahid-2"
+  ],
+  [
+   "واهيه",
+   "lemma",
+   "wahiya-1"
+  ],
+  [
+   "وهن",
+   "lemma",
+   "wahn-1"
+  ],
+  [
+   "وحش",
+   "lemma",
+   "wahsh-1"
+  ],
+  [
+   "وحي",
+   "lemma",
+   "wahy-1"
+  ],
+  [
+   "وعيد",
+   "lemma",
+   "waid-1"
+  ],
+  [
+   "واعيه",
+   "lemma",
+   "waiya-1"
+  ],
+  [
+   "وجب",
+   "lemma",
+   "wajaba-1"
   ],
   [
    "وجد",
@@ -3135,6 +19105,21 @@ const QM_SEARCH_INDEX = {
    "وجه",
    "lemma",
    "wajh-1"
+  ],
+  [
+   "وجيه",
+   "lemma",
+   "wajih-1"
+  ],
+  [
+   "وجل",
+   "lemma",
+   "wajil-1"
+  ],
+  [
+   "وجل",
+   "lemma",
+   "wajila-1"
   ],
   [
    "وكيل",
@@ -3152,6 +19137,56 @@ const QM_SEARCH_INDEX = {
    "walada-1"
   ],
   [
+   "ولج",
+   "lemma",
+   "walaja-1"
+  ],
+  [
+   "ولايه",
+   "lemma",
+   "walaya-1"
+  ],
+  [
+   "وليه",
+   "lemma",
+   "walaya-1"
+  ],
+  [
+   "وال",
+   "lemma",
+   "wali-1"
+  ],
+  [
+   "والد",
+   "lemma",
+   "walid-1"
+  ],
+  [
+   "ولد",
+   "lemma",
+   "walid-1"
+  ],
+  [
+   "وليد",
+   "lemma",
+   "walid-2"
+  ],
+  [
+   "والده",
+   "lemma",
+   "walida-1"
+  ],
+  [
+   "وليجه",
+   "lemma",
+   "walija-1"
+  ],
+  [
+   "ولي",
+   "lemma",
+   "waliya-1"
+  ],
+  [
    "ولي",
    "lemma",
    "wallaa-1"
@@ -3162,9 +19197,64 @@ const QM_SEARCH_INDEX = {
    "wallaa-1"
   ],
   [
+   "وقي",
+   "lemma",
+   "waqa-1"
+  ],
+  [
+   "وقيا",
+   "lemma",
+   "waqa-1"
+  ],
+  [
+   "وقعه",
+   "lemma",
+   "waqa-2"
+  ],
+  [
    "وقع",
    "lemma",
    "waqaa-1"
+  ],
+  [
+   "وقف",
+   "lemma",
+   "waqafa-1"
+  ],
+  [
+   "وقار",
+   "lemma",
+   "waqar-1"
+  ],
+  [
+   "واقع",
+   "lemma",
+   "waqi-1"
+  ],
+  [
+   "واق",
+   "lemma",
+   "waqin-1"
+  ],
+  [
+   "وقر",
+   "lemma",
+   "waqqara-1"
+  ],
+  [
+   "وقر",
+   "lemma",
+   "waqr-1"
+  ],
+  [
+   "وقت",
+   "lemma",
+   "waqt-1"
+  ],
+  [
+   "وقود",
+   "lemma",
+   "waqud-1"
   ],
   [
    "وراء",
@@ -3172,9 +19262,124 @@ const QM_SEARCH_INDEX = {
    "waraa-1"
   ],
   [
+   "ورد",
+   "lemma",
+   "warada-1"
+  ],
+  [
+   "ورق",
+   "lemma",
+   "waraq-1"
+  ],
+  [
+   "ورقه",
+   "lemma",
+   "waraqa-1"
+  ],
+  [
+   "ورثه",
+   "lemma",
+   "waratha-1"
+  ],
+  [
+   "ورده",
+   "lemma",
+   "warda-1"
+  ],
+  [
+   "وريد",
+   "lemma",
+   "warid-1"
+  ],
+  [
+   "وارد",
+   "lemma",
+   "warid-2"
+  ],
+  [
+   "ورق",
+   "lemma",
+   "wariq-1"
+  ],
+  [
+   "وارث",
+   "lemma",
+   "warith-1"
+  ],
+  [
+   "ورث",
+   "lemma",
+   "waritha-1"
+  ],
+  [
+   "وصف",
+   "lemma",
+   "wasafa-1"
+  ],
+  [
+   "وصل",
+   "lemma",
+   "wasala-1"
+  ],
+  [
+   "وسق",
+   "lemma",
+   "wasaqa-1"
+  ],
+  [
+   "وسط",
+   "lemma",
+   "wasat-1"
+  ],
+  [
+   "وسط",
+   "lemma",
+   "wasata-1"
+  ],
+  [
+   "واسع",
+   "lemma",
+   "wasi-1"
+  ],
+  [
    "وسع",
    "lemma",
    "wasia-1"
+  ],
+  [
+   "واصب",
+   "lemma",
+   "wasib-1"
+  ],
+  [
+   "وصيد",
+   "lemma",
+   "wasid-1"
+  ],
+  [
+   "وسيله",
+   "lemma",
+   "wasila-1"
+  ],
+  [
+   "وصيله",
+   "lemma",
+   "wasila-2"
+  ],
+  [
+   "وصيه",
+   "lemma",
+   "wasiyya-1"
+  ],
+  [
+   "وصي",
+   "lemma",
+   "wassaa-1"
+  ],
+  [
+   "وصيا",
+   "lemma",
+   "wassaa-1"
   ],
   [
    "وسواس",
@@ -3187,9 +19392,144 @@ const QM_SEARCH_INDEX = {
    "waswasa-1"
   ],
   [
+   "وطء",
+   "lemma",
+   "wat-1"
+  ],
+  [
+   "وتد",
+   "lemma",
+   "watad-1"
+  ],
+  [
+   "وطر",
+   "lemma",
+   "watar-1"
+  ],
+  [
+   "وتر",
+   "lemma",
+   "watara-1"
+  ],
+  [
+   "وثن",
+   "lemma",
+   "wathan-1"
+  ],
+  [
+   "وثاق",
+   "lemma",
+   "wathaq-1"
+  ],
+  [
+   "وتين",
+   "lemma",
+   "watin-1"
+  ],
+  [
+   "وطئ",
+   "lemma",
+   "watiya-1"
+  ],
+  [
+   "وتر",
+   "lemma",
+   "watr-1"
+  ],
+  [
    "ويل",
    "lemma",
    "wayl-1"
+  ],
+  [
+   "وعظ",
+   "lemma",
+   "waza-1"
+  ],
+  [
+   "وزن",
+   "lemma",
+   "wazana-1"
+  ],
+  [
+   "وزر",
+   "lemma",
+   "wazara-1"
+  ],
+  [
+   "واعظ",
+   "lemma",
+   "wazi-1"
+  ],
+  [
+   "وزير",
+   "lemma",
+   "wazir-1"
+  ],
+  [
+   "وازر",
+   "lemma",
+   "waziru-1"
+  ],
+  [
+   "وزن",
+   "lemma",
+   "wazn-1"
+  ],
+  [
+   "وعاء",
+   "lemma",
+   "wiaa-1"
+  ],
+  [
+   "وفاق",
+   "lemma",
+   "wifaq-1"
+  ],
+  [
+   "وقر",
+   "lemma",
+   "wiqr-1"
+  ],
+  [
+   "ورد",
+   "lemma",
+   "wird-1"
+  ],
+  [
+   "وزر",
+   "lemma",
+   "wizr-1"
+  ],
+  [
+   "ود",
+   "lemma",
+   "wudd-1"
+  ],
+  [
+   "وكل",
+   "lemma",
+   "wukkila-1"
+  ],
+  [
+   "وسع",
+   "lemma",
+   "wus-1"
+  ],
+  [
+   "وسطي",
+   "lemma",
+   "wusta-1"
+  ],
+  [
+   "وسطيا",
+   "lemma",
+   "wusta-1"
+  ],
+  [
+   "وثقي",
+   "lemma",
+   "wuthqa-1"
   ],
   [
    "ياايها",
@@ -3202,9 +19542,59 @@ const QM_SEARCH_INDEX = {
    "ya-1"
   ],
   [
+   "يبس",
+   "lemma",
+   "yabas-1"
+  ],
+  [
+   "يابس",
+   "lemma",
+   "yabis-1"
+  ],
+  [
    "يد",
    "lemma",
    "yad-1"
+  ],
+  [
+   "يغوث",
+   "lemma",
+   "yaghuth-1"
+  ],
+  [
+   "يهود",
+   "lemma",
+   "yahud-1"
+  ],
+  [
+   "يهودي",
+   "lemma",
+   "yahudiyy-1"
+  ],
+  [
+   "يحيي",
+   "lemma",
+   "yahya-1"
+  ],
+  [
+   "يحييا",
+   "lemma",
+   "yahya-1"
+  ],
+  [
+   "يئس",
+   "lemma",
+   "yaisa-1"
+  ],
+  [
+   "جرم",
+   "lemma",
+   "yajrimanna-1"
+  ],
+  [
+   "ياجوج",
+   "lemma",
+   "yajuj-1"
   ],
   [
    "يمين",
@@ -3212,9 +19602,49 @@ const QM_SEARCH_INDEX = {
    "yamin-1"
   ],
   [
+   "يم",
+   "lemma",
+   "yamm-1"
+  ],
+  [
+   "ينبوع",
+   "lemma",
+   "yanbu-1"
+  ],
+  [
+   "يقين",
+   "lemma",
+   "yaqin-1"
+  ],
+  [
+   "يقطين",
+   "lemma",
+   "yaqtin-1"
+  ],
+  [
    "يعقوب",
    "lemma",
    "yaqub-1"
+  ],
+  [
+   "ياقوت",
+   "lemma",
+   "yaqut-1"
+  ],
+  [
+   "يسع",
+   "lemma",
+   "yasa-1"
+  ],
+  [
+   "يسير",
+   "lemma",
+   "yasir-1"
+  ],
+  [
+   "يسر",
+   "lemma",
+   "yassara-1"
   ],
   [
    "يتيم",
@@ -3222,9 +19652,39 @@ const QM_SEARCH_INDEX = {
    "yatim-1"
   ],
   [
+   "يوس",
+   "lemma",
+   "yaus-1"
+  ],
+  [
    "يوم",
    "lemma",
    "yawm-1"
+  ],
+  [
+   "زف",
+   "lemma",
+   "yazifun-1"
+  ],
+  [
+   "يونس",
+   "lemma",
+   "yunus-1"
+  ],
+  [
+   "يسر",
+   "lemma",
+   "yusr-1"
+  ],
+  [
+   "يسري",
+   "lemma",
+   "yusra-1"
+  ],
+  [
+   "يسريا",
+   "lemma",
+   "yusra-1"
   ],
   [
    "يوسف",
@@ -3237,6 +19697,101 @@ const QM_SEARCH_INDEX = {
    "zaada-1"
   ],
   [
+   "ظاهر",
+   "lemma",
+   "zaahara-1"
+  ],
+  [
+   "زعم",
+   "lemma",
+   "zaama-1"
+  ],
+  [
+   "زبد",
+   "lemma",
+   "zabad-1"
+  ],
+  [
+   "زبور",
+   "lemma",
+   "zabur-1"
+  ],
+  [
+   "زاد",
+   "lemma",
+   "zad-1"
+  ],
+  [
+   "زفير",
+   "lemma",
+   "zafir-1"
+  ],
+  [
+   "زاغ",
+   "lemma",
+   "zagha-1"
+  ],
+  [
+   "زهق",
+   "lemma",
+   "zahaqa-1"
+  ],
+  [
+   "ظهر",
+   "lemma",
+   "zahara-1"
+  ],
+  [
+   "زاهق",
+   "lemma",
+   "zahiq-1"
+  ],
+  [
+   "ظاهر",
+   "lemma",
+   "zahir-1"
+  ],
+  [
+   "ظهير",
+   "lemma",
+   "zahir-2"
+  ],
+  [
+   "ظهر",
+   "lemma",
+   "zahr-1"
+  ],
+  [
+   "زهوق",
+   "lemma",
+   "zahuq-1"
+  ],
+  [
+   "زعيم",
+   "lemma",
+   "zaim-1"
+  ],
+  [
+   "زاجر",
+   "lemma",
+   "zajir-1"
+  ],
+  [
+   "زجره",
+   "lemma",
+   "zajra-1"
+  ],
+  [
+   "زكا",
+   "lemma",
+   "zaka-1"
+  ],
+  [
+   "زكريا",
+   "lemma",
+   "zakariyya-1"
+  ],
+  [
    "زكواه",
    "lemma",
    "zakat-1"
@@ -3247,9 +19802,34 @@ const QM_SEARCH_INDEX = {
    "zakat-1"
   ],
   [
+   "زكي",
+   "lemma",
+   "zakiyy-1"
+  ],
+  [
+   "زكي",
+   "lemma",
+   "zakka-1"
+  ],
+  [
+   "زكيا",
+   "lemma",
+   "zakka-1"
+  ],
+  [
+   "زال",
+   "lemma",
+   "zala-1"
+  ],
+  [
    "ظلم",
    "lemma",
    "zalama-1"
+  ],
+  [
+   "ظليل",
+   "lemma",
+   "zalil-1"
   ],
   [
    "ظالم",
@@ -3257,9 +19837,54 @@ const QM_SEARCH_INDEX = {
    "zalim-1"
   ],
   [
+   "ظل",
+   "lemma",
+   "zalla-1"
+  ],
+  [
+   "ظلل",
+   "lemma",
+   "zallala-1"
+  ],
+  [
+   "ظلام",
+   "lemma",
+   "zallam-1"
+  ],
+  [
+   "ظلوم",
+   "lemma",
+   "zalum-1"
+  ],
+  [
    "زلزل",
    "lemma",
    "zalzala-1"
+  ],
+  [
+   "زعم",
+   "lemma",
+   "zam-1"
+  ],
+  [
+   "ظمان",
+   "lemma",
+   "zam-2"
+  ],
+  [
+   "ظما",
+   "lemma",
+   "zama-1"
+  ],
+  [
+   "زني",
+   "lemma",
+   "zana-1"
+  ],
+  [
+   "زان",
+   "lemma",
+   "zani-1"
   ],
   [
    "ظن",
@@ -3272,9 +19897,54 @@ const QM_SEARCH_INDEX = {
    "zanna-1"
   ],
   [
+   "زقوم",
+   "lemma",
+   "zaqqum-1"
+  ],
+  [
+   "زرع",
+   "lemma",
+   "zar-1"
+  ],
+  [
+   "زارع",
+   "lemma",
+   "zari-1"
+  ],
+  [
+   "زوال",
+   "lemma",
+   "zawal-1"
+  ],
+  [
    "زوج",
    "lemma",
    "zawj-1"
+  ],
+  [
+   "زوج",
+   "lemma",
+   "zawwaja-1"
+  ],
+  [
+   "زيد",
+   "lemma",
+   "zayd-1"
+  ],
+  [
+   "زيغ",
+   "lemma",
+   "zaygh-1"
+  ],
+  [
+   "زيت",
+   "lemma",
+   "zayt-1"
+  ],
+  [
+   "زيتون",
+   "lemma",
+   "zaytun-1"
   ],
   [
    "زين",
@@ -3282,9 +19952,64 @@ const QM_SEARCH_INDEX = {
    "zayyana-1"
   ],
   [
+   "ظهري",
+   "lemma",
+   "zihriyy-1"
+  ],
+  [
+   "ظل",
+   "lemma",
+   "zill-1"
+  ],
+  [
    "زلزال",
    "lemma",
    "zilzal-1"
+  ],
+  [
+   "زينه",
+   "lemma",
+   "zina-1"
+  ],
+  [
+   "زني",
+   "lemma",
+   "zina-2"
+  ],
+  [
+   "زياده",
+   "lemma",
+   "ziyada-1"
+  ],
+  [
+   "ظفر",
+   "lemma",
+   "zufur-1"
+  ],
+  [
+   "زجاجه",
+   "lemma",
+   "zujaj-1"
+  ],
+  [
+   "زخرف",
+   "lemma",
+   "zukhruf-1"
+  ],
+  [
+   "زلفي",
+   "lemma",
+   "zulfa-1"
+  ],
+  [
+   "زلفيا",
+   "lemma",
+   "zulfa-1"
+  ],
+  [
+   "ظله",
+   "lemma",
+   "zulla-1"
   ],
   [
    "ظلم",
@@ -3297,9 +20022,44 @@ const QM_SEARCH_INDEX = {
    "zulma-1"
   ],
   [
+   "زمر",
+   "lemma",
+   "zumar-1"
+  ],
+  [
+   "زور",
+   "lemma",
+   "zur-1"
+  ],
+  [
+   "ءبب",
+   "root",
+   "root-2-b-b"
+  ],
+  [
    "ءبد",
    "root",
    "root-2-b-d"
+  ],
+  [
+   "ءبل",
+   "root",
+   "root-2-b-l"
+  ],
+  [
+   "ءبق",
+   "root",
+   "root-2-b-q"
+  ],
+  [
+   "ءدد",
+   "root",
+   "root-2-d-d"
+  ],
+  [
+   "ءدي",
+   "root",
+   "root-2-d-y"
   ],
   [
    "ءذن",
@@ -3307,9 +20067,34 @@ const QM_SEARCH_INDEX = {
    "root-2-dh-n"
   ],
   [
+   "ءذي",
+   "root",
+   "root-2-dh-y"
+  ],
+  [
+   "ءفك",
+   "root",
+   "root-2-f-k"
+  ],
+  [
+   "ءفل",
+   "root",
+   "root-2-f-l"
+  ],
+  [
+   "ءفق",
+   "root",
+   "root-2-f-q"
+  ],
+  [
    "ءهل",
    "root",
    "root-2-h-l"
+  ],
+  [
+   "ءجج",
+   "root",
+   "root-2-j-j"
   ],
   [
    "ءجل",
@@ -3337,14 +20122,44 @@ const QM_SEARCH_INDEX = {
    "root-2-kh-r"
   ],
   [
+   "ءخو",
+   "root",
+   "root-2-kh-w"
+  ],
+  [
+   "ءلف",
+   "root",
+   "root-2-l-f"
+  ],
+  [
+   "ءلل",
+   "root",
+   "root-2-l-l"
+  ],
+  [
    "ءلم",
    "root",
    "root-2-l-m"
   ],
   [
+   "ءلن",
+   "root",
+   "root-2-l-n"
+  ],
+  [
    "ءلو",
    "root",
    "root-2-l-w"
+  ],
+  [
+   "ءمد",
+   "root",
+   "root-2-m-d"
+  ],
+  [
+   "ءمل",
+   "root",
+   "root-2-m-l"
   ],
   [
    "ءمم",
@@ -3362,14 +20177,99 @@ const QM_SEARCH_INDEX = {
    "root-2-m-r"
   ],
   [
+   "ءمس",
+   "root",
+   "root-2-m-s"
+  ],
+  [
+   "ءمو",
+   "root",
+   "root-2-m-w"
+  ],
+  [
+   "ءنف",
+   "root",
+   "root-2-n-f"
+  ],
+  [
+   "ءنم",
+   "root",
+   "root-2-n-m"
+  ],
+  [
+   "ءنس",
+   "root",
+   "root-2-n-s"
+  ],
+  [
    "ءنث",
    "root",
    "root-2-n-th"
   ],
   [
+   "ءني",
+   "root",
+   "root-2-n-y"
+  ],
+  [
+   "ءرب",
+   "root",
+   "root-2-r-b"
+  ],
+  [
    "ءرض",
    "root",
    "root-2-r-d2"
+  ],
+  [
+   "ءرك",
+   "root",
+   "root-2-r-k"
+  ],
+  [
+   "ءسف",
+   "root",
+   "root-2-s-f"
+  ],
+  [
+   "ءسن",
+   "root",
+   "root-2-s-n"
+  ],
+  [
+   "ءسر",
+   "root",
+   "root-2-s-r"
+  ],
+  [
+   "ءسس",
+   "root",
+   "root-2-s-s"
+  ],
+  [
+   "ءسو",
+   "root",
+   "root-2-s-w"
+  ],
+  [
+   "ءسي",
+   "root",
+   "root-2-s-y"
+  ],
+  [
+   "ءصل",
+   "root",
+   "root-2-s2-l"
+  ],
+  [
+   "ءصر",
+   "root",
+   "root-2-s2-r"
+  ],
+  [
+   "ءشر",
+   "root",
+   "root-2-sh-r"
   ],
   [
    "ءتي",
@@ -3382,6 +20282,31 @@ const QM_SEARCH_INDEX = {
    "root-2-th-m"
   ],
   [
+   "ءثر",
+   "root",
+   "root-2-th-r"
+  ],
+  [
+   "ءثث",
+   "root",
+   "root-2-th-th"
+  ],
+  [
+   "ءوب",
+   "root",
+   "root-2-w-b"
+  ],
+  [
+   "ءود",
+   "root",
+   "root-2-w-d"
+  ],
+  [
+   "ءوه",
+   "root",
+   "root-2-w-h"
+  ],
+  [
    "ءول",
    "root",
    "root-2-w-l"
@@ -3392,9 +20317,49 @@ const QM_SEARCH_INDEX = {
    "root-2-w-y"
   ],
   [
+   "ءيد",
+   "root",
+   "root-2-y-d"
+  ],
+  [
+   "ءيك",
+   "root",
+   "root-2-y-k"
+  ],
+  [
+   "ءيم",
+   "root",
+   "root-2-y-m"
+  ],
+  [
+   "ءزف",
+   "root",
+   "root-2-z-f"
+  ],
+  [
+   "ءزر",
+   "root",
+   "root-2-z-r"
+  ],
+  [
+   "ءزز",
+   "root",
+   "root-2-z-z"
+  ],
+  [
    "عبد",
    "root",
    "root-3-b-d"
+  ],
+  [
+   "عبر",
+   "root",
+   "root-3-b-r"
+  ],
+  [
+   "عبس",
+   "root",
+   "root-3-b-s"
   ],
   [
    "عدد",
@@ -3407,9 +20372,34 @@ const QM_SEARCH_INDEX = {
    "root-3-d-l"
   ],
   [
+   "عدن",
+   "root",
+   "root-3-d-n"
+  ],
+  [
    "عدو",
    "root",
    "root-3-d-w"
+  ],
+  [
+   "عضض",
+   "root",
+   "root-3-d2-d2"
+  ],
+  [
+   "عضد",
+   "root",
+   "root-3-d2-d"
+  ],
+  [
+   "عضل",
+   "root",
+   "root-3-d2-l"
+  ],
+  [
+   "عضو",
+   "root",
+   "root-3-d2-w"
   ],
   [
    "عذب",
@@ -3417,9 +20407,39 @@ const QM_SEARCH_INDEX = {
    "root-3-dh-b"
   ],
   [
+   "عذر",
+   "root",
+   "root-3-dh-r"
+  ],
+  [
+   "عفف",
+   "root",
+   "root-3-f-f"
+  ],
+  [
+   "عفو",
+   "root",
+   "root-3-f-w"
+  ],
+  [
    "عهد",
    "root",
    "root-3-h-d"
+  ],
+  [
+   "عهن",
+   "root",
+   "root-3-h-n"
+  ],
+  [
+   "عجب",
+   "root",
+   "root-3-j-b"
+  ],
+  [
+   "عجف",
+   "root",
+   "root-3-j-f"
   ],
   [
    "عجل",
@@ -3427,9 +20447,34 @@ const QM_SEARCH_INDEX = {
    "root-3-j-l"
   ],
   [
+   "عجم",
+   "root",
+   "root-3-j-m"
+  ],
+  [
+   "عجز",
+   "root",
+   "root-3-j-z"
+  ],
+  [
+   "عكف",
+   "root",
+   "root-3-k-f"
+  ],
+  [
    "علم",
    "root",
    "root-3-l-m"
+  ],
+  [
+   "علن",
+   "root",
+   "root-3-l-n"
+  ],
+  [
+   "علق",
+   "root",
+   "root-3-l-q"
   ],
   [
    "علو",
@@ -3437,9 +20482,29 @@ const QM_SEARCH_INDEX = {
    "root-3-l-w"
   ],
   [
+   "عمد",
+   "root",
+   "root-3-m-d"
+  ],
+  [
+   "عمه",
+   "root",
+   "root-3-m-h"
+  ],
+  [
    "عمل",
    "root",
    "root-3-m-l"
+  ],
+  [
+   "عمم",
+   "root",
+   "root-3-m-m"
+  ],
+  [
+   "عمر",
+   "root",
+   "root-3-m-r"
   ],
   [
    "عمي",
@@ -3447,9 +20512,24 @@ const QM_SEARCH_INDEX = {
    "root-3-m-y"
   ],
   [
+   "عنب",
+   "root",
+   "root-3-n-b"
+  ],
+  [
    "عند",
    "root",
    "root-3-n-d"
+  ],
+  [
+   "عنق",
+   "root",
+   "root-3-n-q"
+  ],
+  [
+   "عنت",
+   "root",
+   "root-3-n-t"
   ],
   [
    "عقب",
@@ -3457,9 +20537,29 @@ const QM_SEARCH_INDEX = {
    "root-3-q-b"
   ],
   [
+   "عقد",
+   "root",
+   "root-3-q-d"
+  ],
+  [
    "عقل",
    "root",
    "root-3-q-l"
+  ],
+  [
+   "عقم",
+   "root",
+   "root-3-q-m"
+  ],
+  [
+   "عقر",
+   "root",
+   "root-3-q-r"
+  ],
+  [
+   "عرب",
+   "root",
+   "root-3-r-b"
   ],
   [
    "عرض",
@@ -3472,9 +20572,24 @@ const QM_SEARCH_INDEX = {
    "root-3-r-f"
   ],
   [
+   "عرج",
+   "root",
+   "root-3-r-j"
+  ],
+  [
    "عرش",
    "root",
    "root-3-r-sh"
+  ],
+  [
+   "عرو",
+   "root",
+   "root-3-r-w"
+  ],
+  [
+   "عسر",
+   "root",
+   "root-3-s-r"
   ],
   [
    "عسي",
@@ -3482,9 +20597,89 @@ const QM_SEARCH_INDEX = {
    "root-3-s-y"
   ],
   [
+   "عصب",
+   "root",
+   "root-3-s2-b"
+  ],
+  [
+   "عصف",
+   "root",
+   "root-3-s2-f"
+  ],
+  [
+   "عصم",
+   "root",
+   "root-3-s2-m"
+  ],
+  [
+   "عصر",
+   "root",
+   "root-3-s2-r"
+  ],
+  [
+   "عصو",
+   "root",
+   "root-3-s2-w"
+  ],
+  [
+   "عصي",
+   "root",
+   "root-3-s2-y"
+  ],
+  [
+   "عشر",
+   "root",
+   "root-3-sh-r"
+  ],
+  [
+   "عشو",
+   "root",
+   "root-3-sh-w"
+  ],
+  [
+   "عتب",
+   "root",
+   "root-3-t-b"
+  ],
+  [
+   "عتد",
+   "root",
+   "root-3-t-d"
+  ],
+  [
+   "عتل",
+   "root",
+   "root-3-t-l"
+  ],
+  [
+   "عتق",
+   "root",
+   "root-3-t-q"
+  ],
+  [
+   "عتو",
+   "root",
+   "root-3-t-w"
+  ],
+  [
    "عطو",
    "root",
    "root-3-t2-w"
+  ],
+  [
+   "عثر",
+   "root",
+   "root-3-th-r"
+  ],
+  [
+   "عثو",
+   "root",
+   "root-3-th-w"
+  ],
+  [
+   "عوذ",
+   "root",
+   "root-3-w-dh"
   ],
   [
    "عود",
@@ -3492,14 +20687,79 @@ const QM_SEARCH_INDEX = {
    "root-3-w-d"
   ],
   [
+   "عوج",
+   "root",
+   "root-3-w-j"
+  ],
+  [
+   "عول",
+   "root",
+   "root-3-w-l"
+  ],
+  [
+   "عوم",
+   "root",
+   "root-3-w-m"
+  ],
+  [
    "عون",
    "root",
    "root-3-w-n"
   ],
   [
+   "عور",
+   "root",
+   "root-3-w-r"
+  ],
+  [
+   "عيذ",
+   "root",
+   "root-3-y-dh"
+  ],
+  [
+   "عيد",
+   "root",
+   "root-3-y-d"
+  ],
+  [
+   "عيل",
+   "root",
+   "root-3-y-l"
+  ],
+  [
    "عين",
    "root",
    "root-3-y-n"
+  ],
+  [
+   "عير",
+   "root",
+   "root-3-y-r"
+  ],
+  [
+   "عيش",
+   "root",
+   "root-3-y-sh"
+  ],
+  [
+   "عزب",
+   "root",
+   "root-3-z-b"
+  ],
+  [
+   "عزل",
+   "root",
+   "root-3-z-l"
+  ],
+  [
+   "عزم",
+   "root",
+   "root-3-z-m"
+  ],
+  [
+   "عزر",
+   "root",
+   "root-3-z-r"
   ],
   [
    "عزز",
@@ -3512,6 +20772,16 @@ const QM_SEARCH_INDEX = {
    "root-3-z2-m"
   ],
   [
+   "بءر",
+   "root",
+   "root-b-2-r"
+  ],
+  [
+   "بءس",
+   "root",
+   "root-b-2-s"
+  ],
+  [
    "بعض",
    "root",
    "root-b-3-d2"
@@ -3522,9 +20792,29 @@ const QM_SEARCH_INDEX = {
    "root-b-3-d"
   ],
   [
+   "بعل",
+   "root",
+   "root-b-3-l"
+  ],
+  [
+   "بعر",
+   "root",
+   "root-b-3-r"
+  ],
+  [
    "بعث",
    "root",
    "root-b-3-th"
+  ],
+  [
+   "بدء",
+   "root",
+   "root-b-d-2"
+  ],
+  [
+   "بدع",
+   "root",
+   "root-b-d-3"
   ],
   [
    "بدل",
@@ -3532,9 +20822,44 @@ const QM_SEARCH_INDEX = {
    "root-b-d-l"
   ],
   [
+   "بدن",
+   "root",
+   "root-b-d-n"
+  ],
+  [
+   "بدر",
+   "root",
+   "root-b-d-r"
+  ],
+  [
    "بدو",
    "root",
    "root-b-d-w"
+  ],
+  [
+   "بضع",
+   "root",
+   "root-b-d2-3"
+  ],
+  [
+   "بذر",
+   "root",
+   "root-b-dh-r"
+  ],
+  [
+   "بغض",
+   "root",
+   "root-b-gh-d2"
+  ],
+  [
+   "بغل",
+   "root",
+   "root-b-gh-l"
+  ],
+  [
+   "بغت",
+   "root",
+   "root-b-gh-t"
   ],
   [
    "بغي",
@@ -3542,9 +20867,69 @@ const QM_SEARCH_INDEX = {
    "root-b-gh-y"
   ],
   [
+   "بهج",
+   "root",
+   "root-b-h-j"
+  ],
+  [
+   "بهم",
+   "root",
+   "root-b-h-m"
+  ],
+  [
+   "بهت",
+   "root",
+   "root-b-h-t"
+  ],
+  [
    "بحر",
    "root",
    "root-b-h2-r"
+  ],
+  [
+   "بحث",
+   "root",
+   "root-b-h2-th"
+  ],
+  [
+   "بكم",
+   "root",
+   "root-b-k-m"
+  ],
+  [
+   "بكر",
+   "root",
+   "root-b-k-r"
+  ],
+  [
+   "بكي",
+   "root",
+   "root-b-k-y"
+  ],
+  [
+   "بخع",
+   "root",
+   "root-b-kh-3"
+  ],
+  [
+   "بخل",
+   "root",
+   "root-b-kh-l"
+  ],
+  [
+   "بخس",
+   "root",
+   "root-b-kh-s"
+  ],
+  [
+   "بلء",
+   "root",
+   "root-b-l-2"
+  ],
+  [
+   "بلع",
+   "root",
+   "root-b-l-3"
   ],
   [
    "بلد",
@@ -3557,9 +20942,29 @@ const QM_SEARCH_INDEX = {
    "root-b-l-gh"
   ],
   [
+   "بلل",
+   "root",
+   "root-b-l-l"
+  ],
+  [
+   "بلس",
+   "root",
+   "root-b-l-s"
+  ],
+  [
    "بلو",
    "root",
    "root-b-l-w"
+  ],
+  [
+   "بلي",
+   "root",
+   "root-b-l-y"
+  ],
+  [
+   "بنن",
+   "root",
+   "root-b-n-n"
   ],
   [
    "بني",
@@ -3567,9 +20972,109 @@ const QM_SEARCH_INDEX = {
    "root-b-n-y"
   ],
   [
+   "بقع",
+   "root",
+   "root-b-q-3"
+  ],
+  [
+   "بقر",
+   "root",
+   "root-b-q-r"
+  ],
+  [
+   "بقي",
+   "root",
+   "root-b-q-y"
+  ],
+  [
+   "برء",
+   "root",
+   "root-b-r-2"
+  ],
+  [
+   "برد",
+   "root",
+   "root-b-r-d"
+  ],
+  [
+   "برح",
+   "root",
+   "root-b-r-h2"
+  ],
+  [
+   "برج",
+   "root",
+   "root-b-r-j"
+  ],
+  [
+   "برك",
+   "root",
+   "root-b-r-k"
+  ],
+  [
+   "برم",
+   "root",
+   "root-b-r-m"
+  ],
+  [
+   "برق",
+   "root",
+   "root-b-r-q"
+  ],
+  [
    "برر",
    "root",
    "root-b-r-r"
+  ],
+  [
+   "برص",
+   "root",
+   "root-b-r-s2"
+  ],
+  [
+   "بري",
+   "root",
+   "root-b-r-y"
+  ],
+  [
+   "برز",
+   "root",
+   "root-b-r-z"
+  ],
+  [
+   "بسل",
+   "root",
+   "root-b-s-l"
+  ],
+  [
+   "بسم",
+   "root",
+   "root-b-s-m"
+  ],
+  [
+   "بسق",
+   "root",
+   "root-b-s-q"
+  ],
+  [
+   "بسر",
+   "root",
+   "root-b-s-r"
+  ],
+  [
+   "بسس",
+   "root",
+   "root-b-s-s"
+  ],
+  [
+   "بسط",
+   "root",
+   "root-b-s-t2"
+  ],
+  [
+   "بصل",
+   "root",
+   "root-b-s2-l"
   ],
   [
    "بصر",
@@ -3582,14 +21087,74 @@ const QM_SEARCH_INDEX = {
    "root-b-sh-r"
   ],
   [
+   "بتل",
+   "root",
+   "root-b-t-l"
+  ],
+  [
+   "بتر",
+   "root",
+   "root-b-t-r"
+  ],
+  [
+   "بطء",
+   "root",
+   "root-b-t2-2"
+  ],
+  [
    "بطل",
    "root",
    "root-b-t2-l"
   ],
   [
+   "بطن",
+   "root",
+   "root-b-t2-n"
+  ],
+  [
+   "بطر",
+   "root",
+   "root-b-t2-r"
+  ],
+  [
+   "بطش",
+   "root",
+   "root-b-t2-sh"
+  ],
+  [
+   "بثث",
+   "root",
+   "root-b-th-th"
+  ],
+  [
+   "بوء",
+   "root",
+   "root-b-w-2"
+  ],
+  [
    "بوب",
    "root",
    "root-b-w-b"
+  ],
+  [
+   "بور",
+   "root",
+   "root-b-w-r"
+  ],
+  [
+   "بيع",
+   "root",
+   "root-b-y-3"
+  ],
+  [
+   "بيض",
+   "root",
+   "root-b-y-d2"
+  ],
+  [
+   "بيد",
+   "root",
+   "root-b-y-d"
   ],
   [
    "بين",
@@ -3602,6 +21167,21 @@ const QM_SEARCH_INDEX = {
    "root-b-y-t"
   ],
   [
+   "بزغ",
+   "root",
+   "root-b-z-gh"
+  ],
+  [
+   "دءب",
+   "root",
+   "root-d-2-b"
+  ],
+  [
+   "دعع",
+   "root",
+   "root-d-3-3"
+  ],
+  [
    "دعو",
    "root",
    "root-d-3-w"
@@ -3612,9 +21192,94 @@ const QM_SEARCH_INDEX = {
    "root-d-b-b"
   ],
   [
+   "دبر",
+   "root",
+   "root-d-b-r"
+  ],
+  [
+   "دفع",
+   "root",
+   "root-d-f-3"
+  ],
+  [
+   "دهن",
+   "root",
+   "root-d-h-n"
+  ],
+  [
+   "دهر",
+   "root",
+   "root-d-h-r"
+  ],
+  [
+   "دهي",
+   "root",
+   "root-d-h-y"
+  ],
+  [
+   "دحض",
+   "root",
+   "root-d-h2-d2"
+  ],
+  [
+   "دحر",
+   "root",
+   "root-d-h2-r"
+  ],
+  [
+   "دحو",
+   "root",
+   "root-d-h2-w"
+  ],
+  [
+   "دكك",
+   "root",
+   "root-d-k-k"
+  ],
+  [
    "دخل",
    "root",
    "root-d-kh-l"
+  ],
+  [
+   "دخن",
+   "root",
+   "root-d-kh-n"
+  ],
+  [
+   "دخر",
+   "root",
+   "root-d-kh-r"
+  ],
+  [
+   "دلك",
+   "root",
+   "root-d-l-k"
+  ],
+  [
+   "دلل",
+   "root",
+   "root-d-l-l"
+  ],
+  [
+   "دلو",
+   "root",
+   "root-d-l-w"
+  ],
+  [
+   "دمع",
+   "root",
+   "root-d-m-3"
+  ],
+  [
+   "دمر",
+   "root",
+   "root-d-m-r"
+  ],
+  [
+   "دمو",
+   "root",
+   "root-d-m-w"
   ],
   [
    "دنو",
@@ -3622,14 +21287,49 @@ const QM_SEARCH_INDEX = {
    "root-d-n-w"
   ],
   [
+   "درء",
+   "root",
+   "root-d-r-2"
+  ],
+  [
    "درج",
    "root",
    "root-d-r-j"
   ],
   [
+   "درك",
+   "root",
+   "root-d-r-k"
+  ],
+  [
+   "درر",
+   "root",
+   "root-d-r-r"
+  ],
+  [
+   "درس",
+   "root",
+   "root-d-r-s"
+  ],
+  [
    "دري",
    "root",
    "root-d-r-y"
+  ],
+  [
+   "دسس",
+   "root",
+   "root-d-s-s"
+  ],
+  [
+   "دول",
+   "root",
+   "root-d-w-l"
+  ],
+  [
+   "دوم",
+   "root",
+   "root-d-w-m"
   ],
   [
    "دون",
@@ -3647,9 +21347,69 @@ const QM_SEARCH_INDEX = {
    "root-d-y-n"
   ],
   [
+   "دير",
+   "root",
+   "root-d-y-r"
+  ],
+  [
+   "ديي",
+   "root",
+   "root-d-y-y"
+  ],
+  [
+   "ضءن",
+   "root",
+   "root-d2-2-n"
+  ],
+  [
+   "ضعف",
+   "root",
+   "root-d2-3-f"
+  ],
+  [
+   "ضغن",
+   "root",
+   "root-d2-gh-n"
+  ],
+  [
+   "ضغث",
+   "root",
+   "root-d2-gh-th"
+  ],
+  [
+   "ضحك",
+   "root",
+   "root-d2-h2-k"
+  ],
+  [
+   "ضحو",
+   "root",
+   "root-d2-h2-w"
+  ],
+  [
+   "ضجع",
+   "root",
+   "root-d2-j-3"
+  ],
+  [
    "ضلل",
    "root",
    "root-d2-l-l"
+  ],
+  [
+   "ضمم",
+   "root",
+   "root-d2-m-m"
+  ],
+  [
+   "ضنن",
+   "root",
+   "root-d2-n-n"
+  ],
+  [
+   "ضرع",
+   "root",
+   "root-d2-r-3"
   ],
   [
    "ضرب",
@@ -3662,6 +21422,46 @@ const QM_SEARCH_INDEX = {
    "root-d2-r-r"
   ],
   [
+   "ضوء",
+   "root",
+   "root-d2-w-2"
+  ],
+  [
+   "ضيع",
+   "root",
+   "root-d2-y-3"
+  ],
+  [
+   "ضيف",
+   "root",
+   "root-d2-y-f"
+  ],
+  [
+   "ضيق",
+   "root",
+   "root-d2-y-q"
+  ],
+  [
+   "ضير",
+   "root",
+   "root-d2-y-r"
+  ],
+  [
+   "ذءب",
+   "root",
+   "root-dh-2-b"
+  ],
+  [
+   "ذبب",
+   "root",
+   "root-dh-b-b"
+  ],
+  [
+   "ذبح",
+   "root",
+   "root-dh-b-h2"
+  ],
+  [
    "ذهب",
    "root",
    "root-dh-h-b"
@@ -3672,14 +21472,44 @@ const QM_SEARCH_INDEX = {
    "root-dh-k-r"
   ],
   [
+   "ذلل",
+   "root",
+   "root-dh-l-l"
+  ],
+  [
+   "ذمم",
+   "root",
+   "root-dh-m-m"
+  ],
+  [
    "ذنب",
    "root",
    "root-dh-n-b"
   ],
   [
+   "ذقن",
+   "root",
+   "root-dh-q-n"
+  ],
+  [
+   "ذرء",
+   "root",
+   "root-dh-r-2"
+  ],
+  [
+   "ذرع",
+   "root",
+   "root-dh-r-3"
+  ],
+  [
    "ذرر",
    "root",
    "root-dh-r-r"
+  ],
+  [
+   "ذرو",
+   "root",
+   "root-dh-r-w"
   ],
   [
    "ذوق",
@@ -3692,9 +21522,29 @@ const QM_SEARCH_INDEX = {
    "root-dh-w-y"
   ],
   [
+   "فءد",
+   "root",
+   "root-f-2-d"
+  ],
+  [
+   "فءي",
+   "root",
+   "root-f-2-y"
+  ],
+  [
    "فعل",
    "root",
    "root-f-3-l"
+  ],
+  [
+   "فدي",
+   "root",
+   "root-f-d-y"
+  ],
+  [
+   "فضض",
+   "root",
+   "root-f-d2-d2"
   ],
   [
    "فضل",
@@ -3702,14 +21552,144 @@ const QM_SEARCH_INDEX = {
    "root-f-d2-l"
   ],
   [
+   "فضو",
+   "root",
+   "root-f-d2-w"
+  ],
+  [
+   "فحش",
+   "root",
+   "root-f-h2-sh"
+  ],
+  [
+   "فجج",
+   "root",
+   "root-f-j-j"
+  ],
+  [
+   "فجر",
+   "root",
+   "root-f-j-r"
+  ],
+  [
+   "فجو",
+   "root",
+   "root-f-j-w"
+  ],
+  [
+   "فكه",
+   "root",
+   "root-f-k-h"
+  ],
+  [
+   "فكك",
+   "root",
+   "root-f-k-k"
+  ],
+  [
+   "فكر",
+   "root",
+   "root-f-k-r"
+  ],
+  [
+   "فخر",
+   "root",
+   "root-f-kh-r"
+  ],
+  [
+   "فلح",
+   "root",
+   "root-f-l-h2"
+  ],
+  [
    "فلك",
    "root",
    "root-f-l-k"
   ],
   [
+   "فلق",
+   "root",
+   "root-f-l-q"
+  ],
+  [
+   "فنن",
+   "root",
+   "root-f-n-n"
+  ],
+  [
+   "فني",
+   "root",
+   "root-f-n-y"
+  ],
+  [
+   "فقع",
+   "root",
+   "root-f-q-3"
+  ],
+  [
+   "فقه",
+   "root",
+   "root-f-q-h"
+  ],
+  [
+   "فقر",
+   "root",
+   "root-f-q-r"
+  ],
+  [
+   "فرض",
+   "root",
+   "root-f-r-d2"
+  ],
+  [
+   "فرد",
+   "root",
+   "root-f-r-d"
+  ],
+  [
+   "فرغ",
+   "root",
+   "root-f-r-gh"
+  ],
+  [
+   "فرح",
+   "root",
+   "root-f-r-h2"
+  ],
+  [
+   "فره",
+   "root",
+   "root-f-r-h"
+  ],
+  [
+   "فرج",
+   "root",
+   "root-f-r-j"
+  ],
+  [
    "فرق",
    "root",
    "root-f-r-q"
+  ],
+  [
+   "فرر",
+   "root",
+   "root-f-r-r"
+  ],
+  [
+   "فرش",
+   "root",
+   "root-f-r-sh"
+  ],
+  [
+   "فرط",
+   "root",
+   "root-f-r-t2"
+  ],
+  [
+   "فرت",
+   "root",
+   "root-f-r-t"
   ],
   [
    "فري",
@@ -3722,9 +21702,34 @@ const QM_SEARCH_INDEX = {
    "root-f-s-d"
   ],
   [
+   "فسح",
+   "root",
+   "root-f-s-h2"
+  ],
+  [
+   "فسق",
+   "root",
+   "root-f-s-q"
+  ],
+  [
+   "فصل",
+   "root",
+   "root-f-s2-l"
+  ],
+  [
+   "فشل",
+   "root",
+   "root-f-sh-l"
+  ],
+  [
    "فتح",
    "root",
    "root-f-t-h2"
+  ],
+  [
+   "فتل",
+   "root",
+   "root-f-t-l"
   ],
   [
    "فتن",
@@ -3732,9 +21737,54 @@ const QM_SEARCH_INDEX = {
    "root-f-t-n"
   ],
   [
+   "فتر",
+   "root",
+   "root-f-t-r"
+  ],
+  [
+   "فتو",
+   "root",
+   "root-f-t-w"
+  ],
+  [
+   "فتي",
+   "root",
+   "root-f-t-y"
+  ],
+  [
+   "فطر",
+   "root",
+   "root-f-t2-r"
+  ],
+  [
+   "فوض",
+   "root",
+   "root-f-w-d2"
+  ],
+  [
+   "فوه",
+   "root",
+   "root-f-w-h"
+  ],
+  [
+   "فوج",
+   "root",
+   "root-f-w-j"
+  ],
+  [
    "فوق",
    "root",
    "root-f-w-q"
+  ],
+  [
+   "فور",
+   "root",
+   "root-f-w-r"
+  ],
+  [
+   "فوت",
+   "root",
+   "root-f-w-t"
   ],
   [
    "فوز",
@@ -3742,9 +21792,34 @@ const QM_SEARCH_INDEX = {
    "root-f-w-z"
   ],
   [
+   "فيء",
+   "root",
+   "root-f-y-2"
+  ],
+  [
+   "فيض",
+   "root",
+   "root-f-y-d2"
+  ],
+  [
    "فيل",
    "root",
    "root-f-y-l"
+  ],
+  [
+   "فزع",
+   "root",
+   "root-f-z-3"
+  ],
+  [
+   "غبر",
+   "root",
+   "root-gh-b-r"
+  ],
+  [
+   "غدو",
+   "root",
+   "root-gh-d-w"
   ],
   [
    "غضب",
@@ -3752,9 +21827,69 @@ const QM_SEARCH_INDEX = {
    "root-gh-d2-b"
   ],
   [
+   "غضض",
+   "root",
+   "root-gh-d2-d2"
+  ],
+  [
+   "غفل",
+   "root",
+   "root-gh-f-l"
+  ],
+  [
    "غفر",
    "root",
    "root-gh-f-r"
+  ],
+  [
+   "غلب",
+   "root",
+   "root-gh-l-b"
+  ],
+  [
+   "غلف",
+   "root",
+   "root-gh-l-f"
+  ],
+  [
+   "غلل",
+   "root",
+   "root-gh-l-l"
+  ],
+  [
+   "غلم",
+   "root",
+   "root-gh-l-m"
+  ],
+  [
+   "غلو",
+   "root",
+   "root-gh-l-w"
+  ],
+  [
+   "غلي",
+   "root",
+   "root-gh-l-y"
+  ],
+  [
+   "غلظ",
+   "root",
+   "root-gh-l-z2"
+  ],
+  [
+   "غمم",
+   "root",
+   "root-gh-m-m"
+  ],
+  [
+   "غمر",
+   "root",
+   "root-gh-m-r"
+  ],
+  [
+   "غنم",
+   "root",
+   "root-gh-n-m"
   ],
   [
    "غني",
@@ -3762,9 +21897,104 @@ const QM_SEARCH_INDEX = {
    "root-gh-n-y"
   ],
   [
+   "غرب",
+   "root",
+   "root-gh-r-b"
+  ],
+  [
+   "غرف",
+   "root",
+   "root-gh-r-f"
+  ],
+  [
+   "غرم",
+   "root",
+   "root-gh-r-m"
+  ],
+  [
+   "غرق",
+   "root",
+   "root-gh-r-q"
+  ],
+  [
+   "غرر",
+   "root",
+   "root-gh-r-r"
+  ],
+  [
+   "غري",
+   "root",
+   "root-gh-r-y"
+  ],
+  [
+   "غسل",
+   "root",
+   "root-gh-s-l"
+  ],
+  [
+   "غسق",
+   "root",
+   "root-gh-s-q"
+  ],
+  [
+   "غشو",
+   "root",
+   "root-gh-sh-w"
+  ],
+  [
+   "غشي",
+   "root",
+   "root-gh-sh-y"
+  ],
+  [
+   "غطو",
+   "root",
+   "root-gh-t2-w"
+  ],
+  [
+   "غثو",
+   "root",
+   "root-gh-th-w"
+  ],
+  [
+   "غول",
+   "root",
+   "root-gh-w-l"
+  ],
+  [
+   "غور",
+   "root",
+   "root-gh-w-r"
+  ],
+  [
+   "غوص",
+   "root",
+   "root-gh-w-s2"
+  ],
+  [
+   "غوط",
+   "root",
+   "root-gh-w-t2"
+  ],
+  [
+   "غوث",
+   "root",
+   "root-gh-w-th"
+  ],
+  [
+   "غوي",
+   "root",
+   "root-gh-w-y"
+  ],
+  [
    "غيب",
    "root",
    "root-gh-y-b"
+  ],
+  [
+   "غيض",
+   "root",
+   "root-gh-y-d2"
   ],
   [
    "غير",
@@ -3772,9 +22002,44 @@ const QM_SEARCH_INDEX = {
    "root-gh-y-r"
   ],
   [
+   "غيث",
+   "root",
+   "root-gh-y-th"
+  ],
+  [
+   "غيظ",
+   "root",
+   "root-gh-y-z2"
+  ],
+  [
+   "هبط",
+   "root",
+   "root-h-b-t2"
+  ],
+  [
+   "هبو",
+   "root",
+   "root-h-b-w"
+  ],
+  [
+   "هدد",
+   "root",
+   "root-h-d-d"
+  ],
+  [
    "هدي",
    "root",
    "root-h-d-y"
+  ],
+  [
+   "هضم",
+   "root",
+   "root-h-d2-m"
+  ],
+  [
+   "هجر",
+   "root",
+   "root-h-j-r"
   ],
   [
    "هلك",
@@ -3782,9 +22047,59 @@ const QM_SEARCH_INDEX = {
    "root-h-l-k"
   ],
   [
+   "هلل",
+   "root",
+   "root-h-l-l"
+  ],
+  [
+   "همم",
+   "root",
+   "root-h-m-m"
+  ],
+  [
+   "همن",
+   "root",
+   "root-h-m-n"
+  ],
+  [
+   "همز",
+   "root",
+   "root-h-m-z"
+  ],
+  [
+   "هنء",
+   "root",
+   "root-h-n-2"
+  ],
+  [
+   "هرع",
+   "root",
+   "root-h-r-3"
+  ],
+  [
+   "هشم",
+   "root",
+   "root-h-sh-m"
+  ],
+  [
+   "هطع",
+   "root",
+   "root-h-t2-3"
+  ],
+  [
+   "هود",
+   "root",
+   "root-h-w-d"
+  ],
+  [
    "هون",
    "root",
    "root-h-w-n"
+  ],
+  [
+   "هور",
+   "root",
+   "root-h-w-r"
   ],
   [
    "هوي",
@@ -3792,9 +22107,69 @@ const QM_SEARCH_INDEX = {
    "root-h-w-y"
   ],
   [
+   "هيء",
+   "root",
+   "root-h-y-2"
+  ],
+  [
+   "هيج",
+   "root",
+   "root-h-y-j"
+  ],
+  [
+   "هيل",
+   "root",
+   "root-h-y-l"
+  ],
+  [
+   "هيم",
+   "root",
+   "root-h-y-m"
+  ],
+  [
+   "هيت",
+   "root",
+   "root-h-y-t"
+  ],
+  [
+   "هزء",
+   "root",
+   "root-h-z-2"
+  ],
+  [
+   "هزم",
+   "root",
+   "root-h-z-m"
+  ],
+  [
+   "هزز",
+   "root",
+   "root-h-z-z"
+  ],
+  [
    "حبب",
    "root",
    "root-h2-b-b"
+  ],
+  [
+   "حبل",
+   "root",
+   "root-h2-b-l"
+  ],
+  [
+   "حبر",
+   "root",
+   "root-h2-b-r"
+  ],
+  [
+   "حبس",
+   "root",
+   "root-h2-b-s"
+  ],
+  [
+   "حبط",
+   "root",
+   "root-h2-b-t2"
   ],
   [
    "حدد",
@@ -3802,14 +22177,104 @@ const QM_SEARCH_INDEX = {
    "root-h2-d-d"
   ],
   [
+   "حدق",
+   "root",
+   "root-h2-d-q"
+  ],
+  [
    "حدث",
    "root",
    "root-h2-d-th"
   ],
   [
+   "حضض",
+   "root",
+   "root-h2-d2-d2"
+  ],
+  [
+   "حضر",
+   "root",
+   "root-h2-d2-r"
+  ],
+  [
+   "حذر",
+   "root",
+   "root-h2-dh-r"
+  ],
+  [
+   "حفف",
+   "root",
+   "root-h2-f-f"
+  ],
+  [
+   "حفر",
+   "root",
+   "root-h2-f-r"
+  ],
+  [
+   "حفو",
+   "root",
+   "root-h2-f-w"
+  ],
+  [
+   "حفظ",
+   "root",
+   "root-h2-f-z2"
+  ],
+  [
+   "حجب",
+   "root",
+   "root-h2-j-b"
+  ],
+  [
+   "حجج",
+   "root",
+   "root-h2-j-j"
+  ],
+  [
+   "حجر",
+   "root",
+   "root-h2-j-r"
+  ],
+  [
+   "حجز",
+   "root",
+   "root-h2-j-z"
+  ],
+  [
    "حكم",
    "root",
    "root-h2-k-m"
+  ],
+  [
+   "حلف",
+   "root",
+   "root-h2-l-f"
+  ],
+  [
+   "حلل",
+   "root",
+   "root-h2-l-l"
+  ],
+  [
+   "حلم",
+   "root",
+   "root-h2-l-m"
+  ],
+  [
+   "حلق",
+   "root",
+   "root-h2-l-q"
+  ],
+  [
+   "حلي",
+   "root",
+   "root-h2-l-y"
+  ],
+  [
+   "حمء",
+   "root",
+   "root-h2-m-2"
   ],
   [
    "حمد",
@@ -3827,9 +22292,64 @@ const QM_SEARCH_INDEX = {
    "root-h2-m-m"
   ],
   [
+   "حمر",
+   "root",
+   "root-h2-m-r"
+  ],
+  [
+   "حمي",
+   "root",
+   "root-h2-m-y"
+  ],
+  [
+   "حنف",
+   "root",
+   "root-h2-n-f"
+  ],
+  [
+   "حنن",
+   "root",
+   "root-h2-n-n"
+  ],
+  [
+   "حنث",
+   "root",
+   "root-h2-n-th"
+  ],
+  [
+   "حقب",
+   "root",
+   "root-h2-q-b"
+  ],
+  [
    "حقق",
    "root",
    "root-h2-q-q"
+  ],
+  [
+   "حرب",
+   "root",
+   "root-h2-r-b"
+  ],
+  [
+   "حرض",
+   "root",
+   "root-h2-r-d2"
+  ],
+  [
+   "حرف",
+   "root",
+   "root-h2-r-f"
+  ],
+  [
+   "حرج",
+   "root",
+   "root-h2-r-j"
+  ],
+  [
+   "حرك",
+   "root",
+   "root-h2-r-k"
   ],
   [
    "حرم",
@@ -3837,9 +22357,39 @@ const QM_SEARCH_INDEX = {
    "root-h2-r-m"
   ],
   [
+   "حرق",
+   "root",
+   "root-h2-r-q"
+  ],
+  [
+   "حرر",
+   "root",
+   "root-h2-r-r"
+  ],
+  [
+   "حرص",
+   "root",
+   "root-h2-r-s2"
+  ],
+  [
+   "حرث",
+   "root",
+   "root-h2-r-th"
+  ],
+  [
+   "حري",
+   "root",
+   "root-h2-r-y"
+  ],
+  [
    "حسب",
    "root",
    "root-h2-s-b"
+  ],
+  [
+   "حسد",
+   "root",
+   "root-h2-s-d"
   ],
   [
    "حسن",
@@ -3847,9 +22397,139 @@ const QM_SEARCH_INDEX = {
    "root-h2-s-n"
   ],
   [
+   "حسر",
+   "root",
+   "root-h2-s-r"
+  ],
+  [
+   "حسس",
+   "root",
+   "root-h2-s-s"
+  ],
+  [
+   "حصب",
+   "root",
+   "root-h2-s2-b"
+  ],
+  [
+   "حصد",
+   "root",
+   "root-h2-s2-d"
+  ],
+  [
+   "حصن",
+   "root",
+   "root-h2-s2-n"
+  ],
+  [
+   "حصر",
+   "root",
+   "root-h2-s2-r"
+  ],
+  [
+   "حصي",
+   "root",
+   "root-h2-s2-y"
+  ],
+  [
+   "حشر",
+   "root",
+   "root-h2-sh-r"
+  ],
+  [
+   "حتم",
+   "root",
+   "root-h2-t-m"
+  ],
+  [
+   "حطب",
+   "root",
+   "root-h2-t2-b"
+  ],
+  [
+   "حطم",
+   "root",
+   "root-h2-t2-m"
+  ],
+  [
+   "حطط",
+   "root",
+   "root-h2-t2-t2"
+  ],
+  [
+   "حوب",
+   "root",
+   "root-h2-w-b"
+  ],
+  [
+   "حوج",
+   "root",
+   "root-h2-w-j"
+  ],
+  [
+   "حول",
+   "root",
+   "root-h2-w-l"
+  ],
+  [
+   "حور",
+   "root",
+   "root-h2-w-r"
+  ],
+  [
+   "حوش",
+   "root",
+   "root-h2-w-sh"
+  ],
+  [
+   "حوط",
+   "root",
+   "root-h2-w-t2"
+  ],
+  [
+   "حوت",
+   "root",
+   "root-h2-w-t"
+  ],
+  [
+   "حوي",
+   "root",
+   "root-h2-w-y"
+  ],
+  [
+   "حيض",
+   "root",
+   "root-h2-y-d2"
+  ],
+  [
+   "حيد",
+   "root",
+   "root-h2-y-d"
+  ],
+  [
+   "حيل",
+   "root",
+   "root-h2-y-l"
+  ],
+  [
    "حين",
    "root",
    "root-h2-y-n"
+  ],
+  [
+   "حيق",
+   "root",
+   "root-h2-y-q"
+  ],
+  [
+   "حير",
+   "root",
+   "root-h2-y-r"
+  ],
+  [
+   "حيص",
+   "root",
+   "root-h2-y-s2"
   ],
   [
    "حيي",
@@ -3857,9 +22537,24 @@ const QM_SEARCH_INDEX = {
    "root-h2-y-y"
   ],
   [
+   "حزب",
+   "root",
+   "root-h2-z-b"
+  ],
+  [
    "حزن",
    "root",
    "root-h2-z-n"
+  ],
+  [
+   "حظظ",
+   "root",
+   "root-h2-z2-z2"
+  ],
+  [
+   "جءر",
+   "root",
+   "root-j-2-r"
   ],
   [
    "جعل",
@@ -3867,9 +22562,74 @@ const QM_SEARCH_INDEX = {
    "root-j-3-l"
   ],
   [
+   "جبب",
+   "root",
+   "root-j-b-b"
+  ],
+  [
    "جبل",
    "root",
    "root-j-b-l"
+  ],
+  [
+   "جبن",
+   "root",
+   "root-j-b-n"
+  ],
+  [
+   "جبر",
+   "root",
+   "root-j-b-r"
+  ],
+  [
+   "جبت",
+   "root",
+   "root-j-b-t"
+  ],
+  [
+   "جبو",
+   "root",
+   "root-j-b-w"
+  ],
+  [
+   "جبي",
+   "root",
+   "root-j-b-y"
+  ],
+  [
+   "جدد",
+   "root",
+   "root-j-d-d"
+  ],
+  [
+   "جدل",
+   "root",
+   "root-j-d-l"
+  ],
+  [
+   "جدر",
+   "root",
+   "root-j-d-r"
+  ],
+  [
+   "جدث",
+   "root",
+   "root-j-d-th"
+  ],
+  [
+   "جذع",
+   "root",
+   "root-j-dh-3"
+  ],
+  [
+   "جفن",
+   "root",
+   "root-j-f-n"
+  ],
+  [
+   "جفو",
+   "root",
+   "root-j-f-w"
   ],
   [
    "جهد",
@@ -3877,14 +22637,54 @@ const QM_SEARCH_INDEX = {
    "root-j-h-d"
   ],
   [
+   "جهل",
+   "root",
+   "root-j-h-l"
+  ],
+  [
+   "جهر",
+   "root",
+   "root-j-h-r"
+  ],
+  [
+   "جهز",
+   "root",
+   "root-j-h-z"
+  ],
+  [
+   "جحد",
+   "root",
+   "root-j-h2-d"
+  ],
+  [
    "جحم",
    "root",
    "root-j-h2-m"
   ],
   [
+   "جلد",
+   "root",
+   "root-j-l-d"
+  ],
+  [
+   "جلل",
+   "root",
+   "root-j-l-l"
+  ],
+  [
+   "جلو",
+   "root",
+   "root-j-l-w"
+  ],
+  [
    "جمع",
    "root",
    "root-j-m-3"
+  ],
+  [
+   "جمل",
+   "root",
+   "root-j-m-l"
   ],
   [
    "جنب",
@@ -3907,9 +22707,34 @@ const QM_SEARCH_INDEX = {
    "root-j-n-n"
   ],
   [
+   "جني",
+   "root",
+   "root-j-n-y"
+  ],
+  [
+   "جرع",
+   "root",
+   "root-j-r-3"
+  ],
+  [
+   "جرد",
+   "root",
+   "root-j-r-d"
+  ],
+  [
+   "جرح",
+   "root",
+   "root-j-r-h2"
+  ],
+  [
    "جرم",
    "root",
    "root-j-r-m"
+  ],
+  [
+   "جرر",
+   "root",
+   "root-j-r-r"
   ],
   [
    "جري",
@@ -3917,9 +22742,94 @@ const QM_SEARCH_INDEX = {
    "root-j-r-y"
   ],
   [
+   "جرز",
+   "root",
+   "root-j-r-z"
+  ],
+  [
+   "جسد",
+   "root",
+   "root-j-s-d"
+  ],
+  [
+   "جسم",
+   "root",
+   "root-j-s-m"
+  ],
+  [
+   "جسس",
+   "root",
+   "root-j-s-s"
+  ],
+  [
+   "جثم",
+   "root",
+   "root-j-th-m"
+  ],
+  [
+   "جثو",
+   "root",
+   "root-j-th-w"
+  ],
+  [
+   "جوع",
+   "root",
+   "root-j-w-3"
+  ],
+  [
+   "جوب",
+   "root",
+   "root-j-w-b"
+  ],
+  [
+   "جوف",
+   "root",
+   "root-j-w-f"
+  ],
+  [
+   "جور",
+   "root",
+   "root-j-w-r"
+  ],
+  [
+   "جوس",
+   "root",
+   "root-j-w-s"
+  ],
+  [
+   "جوي",
+   "root",
+   "root-j-w-y"
+  ],
+  [
+   "جوز",
+   "root",
+   "root-j-w-z"
+  ],
+  [
    "جيء",
    "root",
    "root-j-y-2"
+  ],
+  [
+   "جيب",
+   "root",
+   "root-j-y-b"
+  ],
+  [
+   "جيد",
+   "root",
+   "root-j-y-d"
+  ],
+  [
+   "جزء",
+   "root",
+   "root-j-z-2"
+  ],
+  [
+   "جزع",
+   "root",
+   "root-j-z-3"
   ],
   [
    "جزي",
@@ -3927,9 +22837,34 @@ const QM_SEARCH_INDEX = {
    "root-j-z-y"
   ],
   [
+   "كءس",
+   "root",
+   "root-k-2-s"
+  ],
+  [
+   "كعب",
+   "root",
+   "root-k-3-b"
+  ],
+  [
    "كبر",
    "root",
    "root-k-b-r"
+  ],
+  [
+   "كبت",
+   "root",
+   "root-k-b-t"
+  ],
+  [
+   "كدح",
+   "root",
+   "root-k-d-h2"
+  ],
+  [
+   "كدي",
+   "root",
+   "root-k-d-y"
   ],
   [
    "كذب",
@@ -3937,14 +22872,59 @@ const QM_SEARCH_INDEX = {
    "root-k-dh-b"
   ],
   [
+   "كفف",
+   "root",
+   "root-k-f-f"
+  ],
+  [
+   "كفل",
+   "root",
+   "root-k-f-l"
+  ],
+  [
    "كفر",
    "root",
    "root-k-f-r"
   ],
   [
+   "كفت",
+   "root",
+   "root-k-f-t"
+  ],
+  [
    "كفي",
    "root",
    "root-k-f-y"
+  ],
+  [
+   "كهف",
+   "root",
+   "root-k-h-f"
+  ],
+  [
+   "كهل",
+   "root",
+   "root-k-h-l"
+  ],
+  [
+   "كهن",
+   "root",
+   "root-k-h-n"
+  ],
+  [
+   "كلب",
+   "root",
+   "root-k-l-b"
+  ],
+  [
+   "كلف",
+   "root",
+   "root-k-l-f"
+  ],
+  [
+   "كلح",
+   "root",
+   "root-k-l-h2"
   ],
   [
    "كلل",
@@ -3957,6 +22937,36 @@ const QM_SEARCH_INDEX = {
    "root-k-l-m"
   ],
   [
+   "كمه",
+   "root",
+   "root-k-m-h"
+  ],
+  [
+   "كمل",
+   "root",
+   "root-k-m-l"
+  ],
+  [
+   "كمم",
+   "root",
+   "root-k-m-m"
+  ],
+  [
+   "كنن",
+   "root",
+   "root-k-n-n"
+  ],
+  [
+   "كنز",
+   "root",
+   "root-k-n-z"
+  ],
+  [
+   "كرب",
+   "root",
+   "root-k-r-b"
+  ],
+  [
    "كره",
    "root",
    "root-k-r-h"
@@ -3967,9 +22977,44 @@ const QM_SEARCH_INDEX = {
    "root-k-r-m"
   ],
   [
+   "كرر",
+   "root",
+   "root-k-r-r"
+  ],
+  [
+   "كرس",
+   "root",
+   "root-k-r-s"
+  ],
+  [
    "كسب",
    "root",
    "root-k-s-b"
+  ],
+  [
+   "كسد",
+   "root",
+   "root-k-s-d"
+  ],
+  [
+   "كسف",
+   "root",
+   "root-k-s-f"
+  ],
+  [
+   "كسل",
+   "root",
+   "root-k-s-l"
+  ],
+  [
+   "كسو",
+   "root",
+   "root-k-s-w"
+  ],
+  [
+   "كشف",
+   "root",
+   "root-k-sh-f"
   ],
   [
    "كتب",
@@ -3977,9 +23022,24 @@ const QM_SEARCH_INDEX = {
    "root-k-t-b"
   ],
   [
+   "كتم",
+   "root",
+   "root-k-t-m"
+  ],
+  [
+   "كثب",
+   "root",
+   "root-k-th-b"
+  ],
+  [
    "كثر",
    "root",
    "root-k-th-r"
+  ],
+  [
+   "كوب",
+   "root",
+   "root-k-w-b"
   ],
   [
    "كود",
@@ -3992,14 +23052,99 @@ const QM_SEARCH_INDEX = {
    "root-k-w-n"
   ],
   [
+   "كور",
+   "root",
+   "root-k-w-r"
+  ],
+  [
+   "كوي",
+   "root",
+   "root-k-w-y"
+  ],
+  [
    "كيد",
    "root",
    "root-k-y-d"
   ],
   [
+   "كيل",
+   "root",
+   "root-k-y-l"
+  ],
+  [
+   "كظم",
+   "root",
+   "root-k-z2-m"
+  ],
+  [
+   "خبل",
+   "root",
+   "root-kh-b-l"
+  ],
+  [
    "خبر",
    "root",
    "root-kh-b-r"
+  ],
+  [
+   "خبط",
+   "root",
+   "root-kh-b-t2"
+  ],
+  [
+   "خبث",
+   "root",
+   "root-kh-b-th"
+  ],
+  [
+   "خبت",
+   "root",
+   "root-kh-b-t"
+  ],
+  [
+   "خبو",
+   "root",
+   "root-kh-b-w"
+  ],
+  [
+   "خدع",
+   "root",
+   "root-kh-d-3"
+  ],
+  [
+   "خدن",
+   "root",
+   "root-kh-d-n"
+  ],
+  [
+   "خضر",
+   "root",
+   "root-kh-d2-r"
+  ],
+  [
+   "خذل",
+   "root",
+   "root-kh-dh-l"
+  ],
+  [
+   "خفض",
+   "root",
+   "root-kh-f-d2"
+  ],
+  [
+   "خفف",
+   "root",
+   "root-kh-f-f"
+  ],
+  [
+   "خفت",
+   "root",
+   "root-kh-f-t"
+  ],
+  [
+   "خفي",
+   "root",
+   "root-kh-f-y"
   ],
   [
    "خلد",
@@ -4012,6 +23157,11 @@ const QM_SEARCH_INDEX = {
    "root-kh-l-f"
   ],
   [
+   "خلل",
+   "root",
+   "root-kh-l-l"
+  ],
+  [
    "خلق",
    "root",
    "root-kh-l-q"
@@ -4022,9 +23172,44 @@ const QM_SEARCH_INDEX = {
    "root-kh-l-s2"
   ],
   [
+   "خلط",
+   "root",
+   "root-kh-l-t2"
+  ],
+  [
    "خلو",
    "root",
    "root-kh-l-w"
+  ],
+  [
+   "خمد",
+   "root",
+   "root-kh-m-d"
+  ],
+  [
+   "خمر",
+   "root",
+   "root-kh-m-r"
+  ],
+  [
+   "خمص",
+   "root",
+   "root-kh-m-s2"
+  ],
+  [
+   "خمس",
+   "root",
+   "root-kh-m-s"
+  ],
+  [
+   "خنس",
+   "root",
+   "root-kh-n-s"
+  ],
+  [
+   "خرب",
+   "root",
+   "root-kh-r-b"
   ],
   [
    "خرج",
@@ -4032,9 +23217,99 @@ const QM_SEARCH_INDEX = {
    "root-kh-r-j"
   ],
   [
+   "خرق",
+   "root",
+   "root-kh-r-q"
+  ],
+  [
+   "خرر",
+   "root",
+   "root-kh-r-r"
+  ],
+  [
+   "خرص",
+   "root",
+   "root-kh-r-s2"
+  ],
+  [
+   "خسء",
+   "root",
+   "root-kh-s-2"
+  ],
+  [
+   "خسف",
+   "root",
+   "root-kh-s-f"
+  ],
+  [
    "خسر",
    "root",
    "root-kh-s-r"
+  ],
+  [
+   "خصف",
+   "root",
+   "root-kh-s2-f"
+  ],
+  [
+   "خصم",
+   "root",
+   "root-kh-s2-m"
+  ],
+  [
+   "خصص",
+   "root",
+   "root-kh-s2-s2"
+  ],
+  [
+   "خشع",
+   "root",
+   "root-kh-sh-3"
+  ],
+  [
+   "خشي",
+   "root",
+   "root-kh-sh-y"
+  ],
+  [
+   "ختل",
+   "root",
+   "root-kh-t-l"
+  ],
+  [
+   "ختم",
+   "root",
+   "root-kh-t-m"
+  ],
+  [
+   "ختر",
+   "root",
+   "root-kh-t-r"
+  ],
+  [
+   "خطء",
+   "root",
+   "root-kh-t2-2"
+  ],
+  [
+   "خطب",
+   "root",
+   "root-kh-t2-b"
+  ],
+  [
+   "خطف",
+   "root",
+   "root-kh-t2-f"
+  ],
+  [
+   "خطو",
+   "root",
+   "root-kh-t2-w"
+  ],
+  [
+   "خوض",
+   "root",
+   "root-kh-w-d2"
   ],
   [
    "خوف",
@@ -4042,9 +23317,59 @@ const QM_SEARCH_INDEX = {
    "root-kh-w-f"
   ],
   [
+   "خول",
+   "root",
+   "root-kh-w-l"
+  ],
+  [
+   "خون",
+   "root",
+   "root-kh-w-n"
+  ],
+  [
+   "خور",
+   "root",
+   "root-kh-w-r"
+  ],
+  [
+   "خوي",
+   "root",
+   "root-kh-w-y"
+  ],
+  [
+   "خيب",
+   "root",
+   "root-kh-y-b"
+  ],
+  [
+   "خيل",
+   "root",
+   "root-kh-y-l"
+  ],
+  [
    "خير",
    "root",
    "root-kh-y-r"
+  ],
+  [
+   "خيط",
+   "root",
+   "root-kh-y-t2"
+  ],
+  [
+   "خزن",
+   "root",
+   "root-kh-z-n"
+  ],
+  [
+   "خزي",
+   "root",
+   "root-kh-z-y"
+  ],
+  [
+   "لعب",
+   "root",
+   "root-l-3-b"
   ],
   [
    "لعن",
@@ -4057,9 +23382,134 @@ const QM_SEARCH_INDEX = {
    "root-l-b-b"
   ],
   [
+   "لبد",
+   "root",
+   "root-l-b-d"
+  ],
+  [
+   "لبن",
+   "root",
+   "root-l-b-n"
+  ],
+  [
+   "لبس",
+   "root",
+   "root-l-b-s"
+  ],
+  [
+   "لبث",
+   "root",
+   "root-l-b-th"
+  ],
+  [
+   "لدد",
+   "root",
+   "root-l-d-d"
+  ],
+  [
+   "لذذ",
+   "root",
+   "root-l-dh-dh"
+  ],
+  [
+   "لفف",
+   "root",
+   "root-l-f-f"
+  ],
+  [
+   "لفت",
+   "root",
+   "root-l-f-t"
+  ],
+  [
+   "لفو",
+   "root",
+   "root-l-f-w"
+  ],
+  [
+   "لغب",
+   "root",
+   "root-l-gh-b"
+  ],
+  [
+   "لغو",
+   "root",
+   "root-l-gh-w"
+  ],
+  [
+   "لهب",
+   "root",
+   "root-l-h-b"
+  ],
+  [
+   "لهث",
+   "root",
+   "root-l-h-th"
+  ],
+  [
+   "لهو",
+   "root",
+   "root-l-h-w"
+  ],
+  [
+   "لحد",
+   "root",
+   "root-l-h2-d"
+  ],
+  [
+   "لحف",
+   "root",
+   "root-l-h2-f"
+  ],
+  [
    "لحم",
    "root",
    "root-l-h2-m"
+  ],
+  [
+   "لحق",
+   "root",
+   "root-l-h2-q"
+  ],
+  [
+   "لجء",
+   "root",
+   "root-l-j-2"
+  ],
+  [
+   "لجج",
+   "root",
+   "root-l-j-j"
+  ],
+  [
+   "لمح",
+   "root",
+   "root-l-m-h2"
+  ],
+  [
+   "لمم",
+   "root",
+   "root-l-m-m"
+  ],
+  [
+   "لمس",
+   "root",
+   "root-l-m-s"
+  ],
+  [
+   "لمز",
+   "root",
+   "root-l-m-z"
+  ],
+  [
+   "لقف",
+   "root",
+   "root-l-q-f"
+  ],
+  [
+   "لقم",
+   "root",
+   "root-l-q-m"
   ],
   [
    "لقي",
@@ -4067,9 +23517,69 @@ const QM_SEARCH_INDEX = {
    "root-l-q-y"
   ],
   [
+   "لسن",
+   "root",
+   "root-l-s-n"
+  ],
+  [
+   "لطف",
+   "root",
+   "root-l-t2-f"
+  ],
+  [
+   "لوذ",
+   "root",
+   "root-l-w-dh"
+  ],
+  [
+   "لوح",
+   "root",
+   "root-l-w-h2"
+  ],
+  [
+   "لوم",
+   "root",
+   "root-l-w-m"
+  ],
+  [
+   "لون",
+   "root",
+   "root-l-w-n"
+  ],
+  [
+   "لوي",
+   "root",
+   "root-l-w-y"
+  ],
+  [
    "ليل",
    "root",
    "root-l-y-l"
+  ],
+  [
+   "لين",
+   "root",
+   "root-l-y-n"
+  ],
+  [
+   "لزم",
+   "root",
+   "root-l-z-m"
+  ],
+  [
+   "مءي",
+   "root",
+   "root-m-2-y"
+  ],
+  [
+   "معن",
+   "root",
+   "root-m-3-n"
+  ],
+  [
+   "معي",
+   "root",
+   "root-m-3-y"
   ],
   [
    "مدد",
@@ -4082,9 +23592,69 @@ const QM_SEARCH_INDEX = {
    "root-m-d-n"
   ],
   [
+   "مضغ",
+   "root",
+   "root-m-d2-gh"
+  ],
+  [
+   "مضي",
+   "root",
+   "root-m-d2-y"
+  ],
+  [
+   "مهد",
+   "root",
+   "root-m-h-d"
+  ],
+  [
+   "مهل",
+   "root",
+   "root-m-h-l"
+  ],
+  [
+   "محل",
+   "root",
+   "root-m-h2-l"
+  ],
+  [
+   "محق",
+   "root",
+   "root-m-h2-q"
+  ],
+  [
+   "محو",
+   "root",
+   "root-m-h2-w"
+  ],
+  [
+   "مجد",
+   "root",
+   "root-m-j-d"
+  ],
+  [
+   "مكن",
+   "root",
+   "root-m-k-n"
+  ],
+  [
    "مكر",
    "root",
    "root-m-k-r"
+  ],
+  [
+   "مكث",
+   "root",
+   "root-m-k-th"
+  ],
+  [
+   "مكو",
+   "root",
+   "root-m-k-w"
+  ],
+  [
+   "مخر",
+   "root",
+   "root-m-kh-r"
   ],
   [
    "ملء",
@@ -4092,9 +23662,79 @@ const QM_SEARCH_INDEX = {
    "root-m-l-2"
   ],
   [
+   "ملح",
+   "root",
+   "root-m-l-h2"
+  ],
+  [
    "ملك",
    "root",
    "root-m-l-k"
+  ],
+  [
+   "ملل",
+   "root",
+   "root-m-l-l"
+  ],
+  [
+   "ملق",
+   "root",
+   "root-m-l-q"
+  ],
+  [
+   "ملو",
+   "root",
+   "root-m-l-w"
+  ],
+  [
+   "منع",
+   "root",
+   "root-m-n-3"
+  ],
+  [
+   "منن",
+   "root",
+   "root-m-n-n"
+  ],
+  [
+   "منو",
+   "root",
+   "root-m-n-w"
+  ],
+  [
+   "مني",
+   "root",
+   "root-m-n-y"
+  ],
+  [
+   "مقت",
+   "root",
+   "root-m-q-t"
+  ],
+  [
+   "مرء",
+   "root",
+   "root-m-r-2"
+  ],
+  [
+   "مرض",
+   "root",
+   "root-m-r-d2"
+  ],
+  [
+   "مرد",
+   "root",
+   "root-m-r-d"
+  ],
+  [
+   "مرح",
+   "root",
+   "root-m-r-h2"
+  ],
+  [
+   "مرج",
+   "root",
+   "root-m-r-j"
   ],
   [
    "مرر",
@@ -4102,9 +23742,64 @@ const QM_SEARCH_INDEX = {
    "root-m-r-r"
   ],
   [
+   "مرو",
+   "root",
+   "root-m-r-w"
+  ],
+  [
+   "مري",
+   "root",
+   "root-m-r-y"
+  ],
+  [
+   "مسد",
+   "root",
+   "root-m-s-d"
+  ],
+  [
+   "مسح",
+   "root",
+   "root-m-s-h2"
+  ],
+  [
+   "مسك",
+   "root",
+   "root-m-s-k"
+  ],
+  [
+   "مسس",
+   "root",
+   "root-m-s-s"
+  ],
+  [
+   "مسو",
+   "root",
+   "root-m-s-w"
+  ],
+  [
+   "مشي",
+   "root",
+   "root-m-sh-y"
+  ],
+  [
    "متع",
    "root",
    "root-m-t-3"
+  ],
+  [
+   "متن",
+   "root",
+   "root-m-t-n"
+  ],
+  [
+   "متت",
+   "root",
+   "root-m-t-t"
+  ],
+  [
+   "مطر",
+   "root",
+   "root-m-t2-r"
   ],
   [
    "مثل",
@@ -4112,9 +23807,29 @@ const QM_SEARCH_INDEX = {
    "root-m-th-l"
   ],
   [
+   "موه",
+   "root",
+   "root-m-w-h"
+  ],
+  [
+   "موج",
+   "root",
+   "root-m-w-j"
+  ],
+  [
    "مول",
    "root",
    "root-m-w-l"
+  ],
+  [
+   "مون",
+   "root",
+   "root-m-w-n"
+  ],
+  [
+   "مور",
+   "root",
+   "root-m-w-r"
   ],
   [
    "موت",
@@ -4122,9 +23837,44 @@ const QM_SEARCH_INDEX = {
    "root-m-w-t"
   ],
   [
+   "ميد",
+   "root",
+   "root-m-y-d"
+  ],
+  [
+   "ميل",
+   "root",
+   "root-m-y-l"
+  ],
+  [
+   "ميز",
+   "root",
+   "root-m-y-z"
+  ],
+  [
+   "مزج",
+   "root",
+   "root-m-z-j"
+  ],
+  [
+   "مزق",
+   "root",
+   "root-m-z-q"
+  ],
+  [
+   "نعج",
+   "root",
+   "root-n-3-j"
+  ],
+  [
    "نعم",
    "root",
    "root-n-3-m"
+  ],
+  [
+   "نعس",
+   "root",
+   "root-n-3-s"
   ],
   [
    "نبء",
@@ -4132,9 +23882,44 @@ const QM_SEARCH_INDEX = {
    "root-n-b-2"
   ],
   [
+   "نبع",
+   "root",
+   "root-n-b-3"
+  ],
+  [
+   "نبذ",
+   "root",
+   "root-n-b-dh"
+  ],
+  [
+   "نبت",
+   "root",
+   "root-n-b-t"
+  ],
+  [
+   "ندد",
+   "root",
+   "root-n-d-d"
+  ],
+  [
+   "ندم",
+   "root",
+   "root-n-d-m"
+  ],
+  [
    "ندي",
    "root",
    "root-n-d-y"
+  ],
+  [
+   "نضد",
+   "root",
+   "root-n-d2-d"
+  ],
+  [
+   "نضر",
+   "root",
+   "root-n-d2-r"
   ],
   [
    "نذر",
@@ -4147,9 +23932,34 @@ const QM_SEARCH_INDEX = {
    "root-n-f-3"
   ],
   [
+   "نفذ",
+   "root",
+   "root-n-f-dh"
+  ],
+  [
+   "نفد",
+   "root",
+   "root-n-f-d"
+  ],
+  [
+   "نفخ",
+   "root",
+   "root-n-f-kh"
+  ],
+  [
+   "نفل",
+   "root",
+   "root-n-f-l"
+  ],
+  [
    "نفق",
    "root",
    "root-n-f-q"
+  ],
+  [
+   "نفر",
+   "root",
+   "root-n-f-r"
   ],
   [
    "نفس",
@@ -4157,9 +23967,39 @@ const QM_SEARCH_INDEX = {
    "root-n-f-s"
   ],
   [
+   "نفي",
+   "root",
+   "root-n-f-y"
+  ],
+  [
    "نهر",
    "root",
    "root-n-h-r"
+  ],
+  [
+   "نهي",
+   "root",
+   "root-n-h-y"
+  ],
+  [
+   "نحل",
+   "root",
+   "root-n-h2-l"
+  ],
+  [
+   "نحس",
+   "root",
+   "root-n-h2-s"
+  ],
+  [
+   "نحت",
+   "root",
+   "root-n-h2-t"
+  ],
+  [
+   "نجم",
+   "root",
+   "root-n-j-m"
   ],
   [
    "نجو",
@@ -4167,9 +24007,109 @@ const QM_SEARCH_INDEX = {
    "root-n-j-w"
   ],
   [
+   "نكف",
+   "root",
+   "root-n-k-f"
+  ],
+  [
+   "نكح",
+   "root",
+   "root-n-k-h2"
+  ],
+  [
+   "نكل",
+   "root",
+   "root-n-k-l"
+  ],
+  [
    "نكر",
    "root",
    "root-n-k-r"
+  ],
+  [
+   "نكس",
+   "root",
+   "root-n-k-s"
+  ],
+  [
+   "نكث",
+   "root",
+   "root-n-k-th"
+  ],
+  [
+   "نخل",
+   "root",
+   "root-n-kh-l"
+  ],
+  [
+   "نمل",
+   "root",
+   "root-n-m-l"
+  ],
+  [
+   "نقب",
+   "root",
+   "root-n-q-b"
+  ],
+  [
+   "نقض",
+   "root",
+   "root-n-q-d2"
+  ],
+  [
+   "نقذ",
+   "root",
+   "root-n-q-dh"
+  ],
+  [
+   "نقم",
+   "root",
+   "root-n-q-m"
+  ],
+  [
+   "نقر",
+   "root",
+   "root-n-q-r"
+  ],
+  [
+   "نقص",
+   "root",
+   "root-n-q-s2"
+  ],
+  [
+   "نسء",
+   "root",
+   "root-n-s-2"
+  ],
+  [
+   "نسب",
+   "root",
+   "root-n-s-b"
+  ],
+  [
+   "نسف",
+   "root",
+   "root-n-s-f"
+  ],
+  [
+   "نسخ",
+   "root",
+   "root-n-s-kh"
+  ],
+  [
+   "نسك",
+   "root",
+   "root-n-s-k"
+  ],
+  [
+   "نسل",
+   "root",
+   "root-n-s-l"
+  ],
+  [
+   "نسو",
+   "root",
+   "root-n-s-w"
   ],
   [
    "نسي",
@@ -4182,9 +24122,29 @@ const QM_SEARCH_INDEX = {
    "root-n-s2-b"
   ],
   [
+   "نصف",
+   "root",
+   "root-n-s2-f"
+  ],
+  [
+   "نصح",
+   "root",
+   "root-n-s2-h2"
+  ],
+  [
    "نصر",
    "root",
    "root-n-s2-r"
+  ],
+  [
+   "نصت",
+   "root",
+   "root-n-s2-t"
+  ],
+  [
+   "نصي",
+   "root",
+   "root-n-s2-y"
   ],
   [
    "نشء",
@@ -4192,9 +24152,89 @@ const QM_SEARCH_INDEX = {
    "root-n-sh-2"
   ],
   [
+   "نشر",
+   "root",
+   "root-n-sh-r"
+  ],
+  [
+   "نشط",
+   "root",
+   "root-n-sh-t2"
+  ],
+  [
+   "نشز",
+   "root",
+   "root-n-sh-z"
+  ],
+  [
+   "نطف",
+   "root",
+   "root-n-t2-f"
+  ],
+  [
+   "نطق",
+   "root",
+   "root-n-t2-q"
+  ],
+  [
+   "نثر",
+   "root",
+   "root-n-th-r"
+  ],
+  [
+   "نوب",
+   "root",
+   "root-n-w-b"
+  ],
+  [
+   "نوم",
+   "root",
+   "root-n-w-m"
+  ],
+  [
+   "نون",
+   "root",
+   "root-n-w-n"
+  ],
+  [
+   "نوق",
+   "root",
+   "root-n-w-q"
+  ],
+  [
    "نور",
    "root",
    "root-n-w-r"
+  ],
+  [
+   "نوي",
+   "root",
+   "root-n-w-y"
+  ],
+  [
+   "نيب",
+   "root",
+   "root-n-y-b"
+  ],
+  [
+   "نيل",
+   "root",
+   "root-n-y-l"
+  ],
+  [
+   "نزع",
+   "root",
+   "root-n-z-3"
+  ],
+  [
+   "نزف",
+   "root",
+   "root-n-z-f"
+  ],
+  [
+   "نزغ",
+   "root",
+   "root-n-z-gh"
   ],
   [
    "نزل",
@@ -4207,9 +24247,29 @@ const QM_SEARCH_INDEX = {
    "root-n-z2-r"
   ],
   [
+   "قعد",
+   "root",
+   "root-q-3-d"
+  ],
+  [
+   "قبض",
+   "root",
+   "root-q-b-d2"
+  ],
+  [
    "قبل",
    "root",
    "root-q-b-l"
+  ],
+  [
+   "قبر",
+   "root",
+   "root-q-b-r"
+  ],
+  [
+   "قبس",
+   "root",
+   "root-q-b-s"
   ],
   [
    "قدم",
@@ -4222,9 +24282,34 @@ const QM_SEARCH_INDEX = {
    "root-q-d-r"
   ],
   [
+   "قدس",
+   "root",
+   "root-q-d-s"
+  ],
+  [
+   "قضض",
+   "root",
+   "root-q-d2-d2"
+  ],
+  [
    "قضي",
    "root",
    "root-q-d2-y"
+  ],
+  [
+   "قذف",
+   "root",
+   "root-q-dh-f"
+  ],
+  [
+   "قفو",
+   "root",
+   "root-q-f-w"
+  ],
+  [
+   "قهر",
+   "root",
+   "root-q-h-r"
   ],
   [
    "قلب",
@@ -4232,9 +24317,24 @@ const QM_SEARCH_INDEX = {
    "root-q-l-b"
   ],
   [
+   "قلد",
+   "root",
+   "root-q-l-d"
+  ],
+  [
    "قلل",
    "root",
    "root-q-l-l"
+  ],
+  [
+   "قلم",
+   "root",
+   "root-q-l-m"
+  ],
+  [
+   "قلي",
+   "root",
+   "root-q-l-y"
   ],
   [
    "قمر",
@@ -4242,9 +24342,34 @@ const QM_SEARCH_INDEX = {
    "root-q-m-r"
   ],
   [
+   "قمص",
+   "root",
+   "root-q-m-s2"
+  ],
+  [
+   "قنط",
+   "root",
+   "root-q-n-t2"
+  ],
+  [
+   "قنت",
+   "root",
+   "root-q-n-t"
+  ],
+  [
+   "قنو",
+   "root",
+   "root-q-n-w"
+  ],
+  [
    "قرء",
    "root",
    "root-q-r-2"
+  ],
+  [
+   "قرع",
+   "root",
+   "root-q-r-3"
   ],
   [
    "قرب",
@@ -4252,9 +24377,34 @@ const QM_SEARCH_INDEX = {
    "root-q-r-b"
   ],
   [
+   "قرض",
+   "root",
+   "root-q-r-d2"
+  ],
+  [
+   "قرد",
+   "root",
+   "root-q-r-d"
+  ],
+  [
+   "قرف",
+   "root",
+   "root-q-r-f"
+  ],
+  [
+   "قرح",
+   "root",
+   "root-q-r-h2"
+  ],
+  [
    "قرن",
    "root",
    "root-q-r-n"
+  ],
+  [
+   "قرر",
+   "root",
+   "root-q-r-r"
   ],
   [
    "قري",
@@ -4262,14 +24412,74 @@ const QM_SEARCH_INDEX = {
    "root-q-r-y"
   ],
   [
+   "قسم",
+   "root",
+   "root-q-s-m"
+  ],
+  [
    "قسط",
    "root",
    "root-q-s-t2"
   ],
   [
+   "قسو",
+   "root",
+   "root-q-s-w"
+  ],
+  [
+   "قصد",
+   "root",
+   "root-q-s2-d"
+  ],
+  [
+   "قصر",
+   "root",
+   "root-q-s2-r"
+  ],
+  [
+   "قصص",
+   "root",
+   "root-q-s2-s2"
+  ],
+  [
+   "قصو",
+   "root",
+   "root-q-s2-w"
+  ],
+  [
    "قتل",
    "root",
    "root-q-t-l"
+  ],
+  [
+   "قتر",
+   "root",
+   "root-q-t-r"
+  ],
+  [
+   "قطع",
+   "root",
+   "root-q-t2-3"
+  ],
+  [
+   "قطف",
+   "root",
+   "root-q-t2-f"
+  ],
+  [
+   "قطر",
+   "root",
+   "root-q-t2-r"
+  ],
+  [
+   "قطي",
+   "root",
+   "root-q-t2-y"
+  ],
+  [
+   "قوع",
+   "root",
+   "root-q-w-3"
   ],
   [
    "قول",
@@ -4282,9 +24492,44 @@ const QM_SEARCH_INDEX = {
    "root-q-w-m"
   ],
   [
+   "قوس",
+   "root",
+   "root-q-w-s"
+  ],
+  [
+   "قوت",
+   "root",
+   "root-q-w-t"
+  ],
+  [
    "قوي",
    "root",
    "root-q-w-y"
+  ],
+  [
+   "قيع",
+   "root",
+   "root-q-y-3"
+  ],
+  [
+   "قيب",
+   "root",
+   "root-q-y-b"
+  ],
+  [
+   "قيض",
+   "root",
+   "root-q-y-d2"
+  ],
+  [
+   "رءف",
+   "root",
+   "root-r-2-f"
+  ],
+  [
+   "رءس",
+   "root",
+   "root-r-2-s"
   ],
   [
    "رءي",
@@ -4292,9 +24537,69 @@ const QM_SEARCH_INDEX = {
    "root-r-2-y"
   ],
   [
+   "رعب",
+   "root",
+   "root-r-3-b"
+  ],
+  [
+   "رعد",
+   "root",
+   "root-r-3-d"
+  ],
+  [
+   "رعي",
+   "root",
+   "root-r-3-y"
+  ],
+  [
+   "ربع",
+   "root",
+   "root-r-b-3"
+  ],
+  [
    "ربب",
    "root",
    "root-r-b-b"
+  ],
+  [
+   "ربص",
+   "root",
+   "root-r-b-s2"
+  ],
+  [
+   "ربط",
+   "root",
+   "root-r-b-t2"
+  ],
+  [
+   "ربو",
+   "root",
+   "root-r-b-w"
+  ],
+  [
+   "ردء",
+   "root",
+   "root-r-d-2"
+  ],
+  [
+   "ردد",
+   "root",
+   "root-r-d-d"
+  ],
+  [
+   "ردف",
+   "root",
+   "root-r-d-f"
+  ],
+  [
+   "ردي",
+   "root",
+   "root-r-d-y"
+  ],
+  [
+   "رضع",
+   "root",
+   "root-r-d2-3"
   ],
   [
    "رضو",
@@ -4302,9 +24607,89 @@ const QM_SEARCH_INDEX = {
    "root-r-d2-w"
   ],
   [
+   "رضي",
+   "root",
+   "root-r-d2-y"
+  ],
+  [
+   "رذل",
+   "root",
+   "root-r-dh-l"
+  ],
+  [
+   "رفع",
+   "root",
+   "root-r-f-3"
+  ],
+  [
+   "رفق",
+   "root",
+   "root-r-f-q"
+  ],
+  [
+   "رفث",
+   "root",
+   "root-r-f-th"
+  ],
+  [
+   "رفت",
+   "root",
+   "root-r-f-t"
+  ],
+  [
+   "رغب",
+   "root",
+   "root-r-gh-b"
+  ],
+  [
+   "رغد",
+   "root",
+   "root-r-gh-d"
+  ],
+  [
+   "رهب",
+   "root",
+   "root-r-h-b"
+  ],
+  [
+   "رهن",
+   "root",
+   "root-r-h-n"
+  ],
+  [
+   "رهق",
+   "root",
+   "root-r-h-q"
+  ],
+  [
+   "رهط",
+   "root",
+   "root-r-h-t2"
+  ],
+  [
+   "رهو",
+   "root",
+   "root-r-h-w"
+  ],
+  [
+   "رحب",
+   "root",
+   "root-r-h2-b"
+  ],
+  [
+   "رحل",
+   "root",
+   "root-r-h2-l"
+  ],
+  [
    "رحم",
    "root",
    "root-r-h2-m"
+  ],
+  [
+   "رجء",
+   "root",
+   "root-r-j-2"
   ],
   [
    "رجع",
@@ -4312,14 +24697,154 @@ const QM_SEARCH_INDEX = {
    "root-r-j-3"
   ],
   [
+   "رجف",
+   "root",
+   "root-r-j-f"
+  ],
+  [
+   "رجج",
+   "root",
+   "root-r-j-j"
+  ],
+  [
    "رجل",
    "root",
    "root-r-j-l"
   ],
   [
+   "رجم",
+   "root",
+   "root-r-j-m"
+  ],
+  [
+   "رجس",
+   "root",
+   "root-r-j-s"
+  ],
+  [
+   "رجو",
+   "root",
+   "root-r-j-w"
+  ],
+  [
+   "رجز",
+   "root",
+   "root-r-j-z"
+  ],
+  [
+   "ركع",
+   "root",
+   "root-r-k-3"
+  ],
+  [
+   "ركب",
+   "root",
+   "root-r-k-b"
+  ],
+  [
+   "ركض",
+   "root",
+   "root-r-k-d2"
+  ],
+  [
+   "ركم",
+   "root",
+   "root-r-k-m"
+  ],
+  [
+   "ركن",
+   "root",
+   "root-r-k-n"
+  ],
+  [
+   "ركس",
+   "root",
+   "root-r-k-s"
+  ],
+  [
+   "رمد",
+   "root",
+   "root-r-m-d"
+  ],
+  [
+   "رمم",
+   "root",
+   "root-r-m-m"
+  ],
+  [
+   "رمن",
+   "root",
+   "root-r-m-n"
+  ],
+  [
+   "رقب",
+   "root",
+   "root-r-q-b"
+  ],
+  [
+   "رقم",
+   "root",
+   "root-r-q-m"
+  ],
+  [
+   "رقق",
+   "root",
+   "root-r-q-q"
+  ],
+  [
+   "رقي",
+   "root",
+   "root-r-q-y"
+  ],
+  [
+   "رسخ",
+   "root",
+   "root-r-s-kh"
+  ],
+  [
    "رسل",
    "root",
    "root-r-s-l"
+  ],
+  [
+   "رسس",
+   "root",
+   "root-r-s-s"
+  ],
+  [
+   "رسو",
+   "root",
+   "root-r-s-w"
+  ],
+  [
+   "رصد",
+   "root",
+   "root-r-s2-d"
+  ],
+  [
+   "رشد",
+   "root",
+   "root-r-sh-d"
+  ],
+  [
+   "رتل",
+   "root",
+   "root-r-t-l"
+  ],
+  [
+   "رطب",
+   "root",
+   "root-r-t2-b"
+  ],
+  [
+   "روع",
+   "root",
+   "root-r-w-3"
+  ],
+  [
+   "روض",
+   "root",
+   "root-r-w-d2"
   ],
   [
    "رود",
@@ -4332,9 +24857,34 @@ const QM_SEARCH_INDEX = {
    "root-r-w-h2"
   ],
   [
+   "روم",
+   "root",
+   "root-r-w-m"
+  ],
+  [
+   "ريع",
+   "root",
+   "root-r-y-3"
+  ],
+  [
    "ريب",
    "root",
    "root-r-y-b"
+  ],
+  [
+   "ريح",
+   "root",
+   "root-r-y-h2"
+  ],
+  [
+   "رين",
+   "root",
+   "root-r-y-n"
+  ],
+  [
+   "ريش",
+   "root",
+   "root-r-y-sh"
   ],
   [
    "رزق",
@@ -4347,9 +24897,34 @@ const QM_SEARCH_INDEX = {
    "root-s-2-l"
   ],
   [
+   "سءم",
+   "root",
+   "root-s-2-m"
+  ],
+  [
+   "سعد",
+   "root",
+   "root-s-3-d"
+  ],
+  [
+   "سعر",
+   "root",
+   "root-s-3-r"
+  ],
+  [
+   "سعي",
+   "root",
+   "root-s-3-y"
+  ],
+  [
    "سبع",
    "root",
    "root-s-b-3"
+  ],
+  [
+   "سبب",
+   "root",
+   "root-s-b-b"
   ],
   [
    "سبح",
@@ -4362,9 +24937,104 @@ const QM_SEARCH_INDEX = {
    "root-s-b-l"
   ],
   [
+   "سبق",
+   "root",
+   "root-s-b-q"
+  ],
+  [
+   "سبط",
+   "root",
+   "root-s-b-t2"
+  ],
+  [
+   "سبت",
+   "root",
+   "root-s-b-t"
+  ],
+  [
+   "سدد",
+   "root",
+   "root-s-d-d"
+  ],
+  [
+   "سدر",
+   "root",
+   "root-s-d-r"
+  ],
+  [
+   "سدس",
+   "root",
+   "root-s-d-s"
+  ],
+  [
+   "سدي",
+   "root",
+   "root-s-d-y"
+  ],
+  [
+   "سفح",
+   "root",
+   "root-s-f-h2"
+  ],
+  [
+   "سفه",
+   "root",
+   "root-s-f-h"
+  ],
+  [
+   "سفل",
+   "root",
+   "root-s-f-l"
+  ],
+  [
+   "سفن",
+   "root",
+   "root-s-f-n"
+  ],
+  [
+   "سفر",
+   "root",
+   "root-s-f-r"
+  ],
+  [
+   "سهل",
+   "root",
+   "root-s-h-l"
+  ],
+  [
+   "سهم",
+   "root",
+   "root-s-h-m"
+  ],
+  [
+   "سهو",
+   "root",
+   "root-s-h-w"
+  ],
+  [
+   "سحب",
+   "root",
+   "root-s-h2-b"
+  ],
+  [
+   "سحق",
+   "root",
+   "root-s-h2-q"
+  ],
+  [
    "سحر",
    "root",
    "root-s-h2-r"
+  ],
+  [
+   "سحت",
+   "root",
+   "root-s-h2-t"
+  ],
+  [
+   "سحو",
+   "root",
+   "root-s-h2-w"
   ],
   [
    "سجد",
@@ -4372,9 +25042,29 @@ const QM_SEARCH_INDEX = {
    "root-s-j-d"
   ],
   [
+   "سجن",
+   "root",
+   "root-s-j-n"
+  ],
+  [
+   "سجو",
+   "root",
+   "root-s-j-w"
+  ],
+  [
+   "سكك",
+   "root",
+   "root-s-k-k"
+  ],
+  [
    "سكن",
    "root",
    "root-s-k-n"
+  ],
+  [
+   "سكر",
+   "root",
+   "root-s-k-r"
   ],
   [
    "سخر",
@@ -4382,9 +25072,44 @@ const QM_SEARCH_INDEX = {
    "root-s-kh-r"
   ],
   [
+   "سخط",
+   "root",
+   "root-s-kh-t2"
+  ],
+  [
+   "سلف",
+   "root",
+   "root-s-l-f"
+  ],
+  [
+   "سلح",
+   "root",
+   "root-s-l-h2"
+  ],
+  [
+   "سلخ",
+   "root",
+   "root-s-l-kh"
+  ],
+  [
+   "سلك",
+   "root",
+   "root-s-l-k"
+  ],
+  [
+   "سلل",
+   "root",
+   "root-s-l-l"
+  ],
+  [
    "سلم",
    "root",
    "root-s-l-m"
+  ],
+  [
+   "سلق",
+   "root",
+   "root-s-l-q"
   ],
   [
    "سلط",
@@ -4392,9 +25117,39 @@ const QM_SEARCH_INDEX = {
    "root-s-l-t2"
   ],
   [
+   "سلو",
+   "root",
+   "root-s-l-w"
+  ],
+  [
    "سمع",
    "root",
    "root-s-m-3"
+  ],
+  [
+   "سمد",
+   "root",
+   "root-s-m-d"
+  ],
+  [
+   "سمك",
+   "root",
+   "root-s-m-k"
+  ],
+  [
+   "سمم",
+   "root",
+   "root-s-m-m"
+  ],
+  [
+   "سمن",
+   "root",
+   "root-s-m-n"
+  ],
+  [
+   "سمر",
+   "root",
+   "root-s-m-r"
   ],
   [
    "سمو",
@@ -4412,6 +25167,86 @@ const QM_SEARCH_INDEX = {
    "root-s-n-w"
   ],
   [
+   "سقف",
+   "root",
+   "root-s-q-f"
+  ],
+  [
+   "سقم",
+   "root",
+   "root-s-q-m"
+  ],
+  [
+   "سقر",
+   "root",
+   "root-s-q-r"
+  ],
+  [
+   "سقط",
+   "root",
+   "root-s-q-t2"
+  ],
+  [
+   "سقي",
+   "root",
+   "root-s-q-y"
+  ],
+  [
+   "سرع",
+   "root",
+   "root-s-r-3"
+  ],
+  [
+   "سرب",
+   "root",
+   "root-s-r-b"
+  ],
+  [
+   "سرف",
+   "root",
+   "root-s-r-f"
+  ],
+  [
+   "سرح",
+   "root",
+   "root-s-r-h2"
+  ],
+  [
+   "سرج",
+   "root",
+   "root-s-r-j"
+  ],
+  [
+   "سرق",
+   "root",
+   "root-s-r-q"
+  ],
+  [
+   "سرر",
+   "root",
+   "root-s-r-r"
+  ],
+  [
+   "سري",
+   "root",
+   "root-s-r-y"
+  ],
+  [
+   "ستر",
+   "root",
+   "root-s-t-r"
+  ],
+  [
+   "سطر",
+   "root",
+   "root-s-t2-r"
+  ],
+  [
+   "سطو",
+   "root",
+   "root-s-t2-w"
+  ],
+  [
    "سوء",
    "root",
    "root-s-w-2"
@@ -4422,14 +25257,129 @@ const QM_SEARCH_INDEX = {
    "root-s-w-3"
   ],
   [
+   "سود",
+   "root",
+   "root-s-w-d"
+  ],
+  [
+   "سوغ",
+   "root",
+   "root-s-w-gh"
+  ],
+  [
+   "سول",
+   "root",
+   "root-s-w-l"
+  ],
+  [
+   "سوم",
+   "root",
+   "root-s-w-m"
+  ],
+  [
+   "سوق",
+   "root",
+   "root-s-w-q"
+  ],
+  [
+   "سور",
+   "root",
+   "root-s-w-r"
+  ],
+  [
+   "سوط",
+   "root",
+   "root-s-w-t2"
+  ],
+  [
    "سوي",
    "root",
    "root-s-w-y"
   ],
   [
+   "سيء",
+   "root",
+   "root-s-y-2"
+  ],
+  [
+   "سيب",
+   "root",
+   "root-s-y-b"
+  ],
+  [
+   "سيح",
+   "root",
+   "root-s-y-h2"
+  ],
+  [
+   "سيل",
+   "root",
+   "root-s-y-l"
+  ],
+  [
+   "سير",
+   "root",
+   "root-s-y-r"
+  ],
+  [
+   "صعد",
+   "root",
+   "root-s2-3-d"
+  ],
+  [
+   "صعق",
+   "root",
+   "root-s2-3-q"
+  ],
+  [
+   "صبء",
+   "root",
+   "root-s2-b-2"
+  ],
+  [
+   "صبع",
+   "root",
+   "root-s2-b-3"
+  ],
+  [
+   "صبب",
+   "root",
+   "root-s2-b-b"
+  ],
+  [
+   "صبغ",
+   "root",
+   "root-s2-b-gh"
+  ],
+  [
+   "صبح",
+   "root",
+   "root-s2-b-h2"
+  ],
+  [
    "صبر",
    "root",
    "root-s2-b-r"
+  ],
+  [
+   "صبو",
+   "root",
+   "root-s2-b-w"
+  ],
+  [
+   "صدع",
+   "root",
+   "root-s2-d-3"
+  ],
+  [
+   "صدد",
+   "root",
+   "root-s2-d-d"
+  ],
+  [
+   "صدف",
+   "root",
+   "root-s2-d-f"
   ],
   [
    "صدق",
@@ -4442,9 +25392,64 @@ const QM_SEARCH_INDEX = {
    "root-s2-d-r"
   ],
   [
+   "صدي",
+   "root",
+   "root-s2-d-y"
+  ],
+  [
+   "صفد",
+   "root",
+   "root-s2-f-d"
+  ],
+  [
+   "صفف",
+   "root",
+   "root-s2-f-f"
+  ],
+  [
+   "صفح",
+   "root",
+   "root-s2-f-h2"
+  ],
+  [
+   "صفر",
+   "root",
+   "root-s2-f-r"
+  ],
+  [
+   "صفو",
+   "root",
+   "root-s2-f-w"
+  ],
+  [
+   "صغر",
+   "root",
+   "root-s2-gh-r"
+  ],
+  [
+   "صهر",
+   "root",
+   "root-s2-h-r"
+  ],
+  [
    "صحب",
    "root",
    "root-s2-h2-b"
+  ],
+  [
+   "صحف",
+   "root",
+   "root-s2-h2-f"
+  ],
+  [
+   "صخر",
+   "root",
+   "root-s2-kh-r"
+  ],
+  [
+   "صلب",
+   "root",
+   "root-s2-l-b"
   ],
   [
    "صلح",
@@ -4457,9 +25462,59 @@ const QM_SEARCH_INDEX = {
    "root-s2-l-w"
   ],
   [
+   "صلي",
+   "root",
+   "root-s2-l-y"
+  ],
+  [
    "صمد",
    "root",
    "root-s2-m-d"
+  ],
+  [
+   "صمم",
+   "root",
+   "root-s2-m-m"
+  ],
+  [
+   "صنع",
+   "root",
+   "root-s2-n-3"
+  ],
+  [
+   "صنم",
+   "root",
+   "root-s2-n-m"
+  ],
+  [
+   "صنو",
+   "root",
+   "root-s2-n-w"
+  ],
+  [
+   "صرف",
+   "root",
+   "root-s2-r-f"
+  ],
+  [
+   "صرح",
+   "root",
+   "root-s2-r-h2"
+  ],
+  [
+   "صرخ",
+   "root",
+   "root-s2-r-kh"
+  ],
+  [
+   "صرم",
+   "root",
+   "root-s2-r-m"
+  ],
+  [
+   "صرر",
+   "root",
+   "root-s2-r-r"
   ],
   [
    "صرط",
@@ -4472,9 +25527,39 @@ const QM_SEARCH_INDEX = {
    "root-s2-w-b"
   ],
   [
+   "صوف",
+   "root",
+   "root-s2-w-f"
+  ],
+  [
+   "صوم",
+   "root",
+   "root-s2-w-m"
+  ],
+  [
    "صور",
    "root",
    "root-s2-w-r"
+  ],
+  [
+   "صوت",
+   "root",
+   "root-s2-w-t"
+  ],
+  [
+   "صيد",
+   "root",
+   "root-s2-y-d"
+  ],
+  [
+   "صيف",
+   "root",
+   "root-s2-y-f"
+  ],
+  [
+   "صيح",
+   "root",
+   "root-s2-y-h2"
   ],
   [
    "صير",
@@ -4482,9 +25567,29 @@ const QM_SEARCH_INDEX = {
    "root-s2-y-r"
   ],
   [
+   "شءم",
+   "root",
+   "root-sh-2-m"
+  ],
+  [
+   "شءن",
+   "root",
+   "root-sh-2-n"
+  ],
+  [
+   "شعب",
+   "root",
+   "root-sh-3-b"
+  ],
+  [
    "شعر",
    "root",
    "root-sh-3-r"
+  ],
+  [
+   "شبه",
+   "root",
+   "root-sh-b-h"
   ],
   [
    "شدد",
@@ -4492,9 +25597,64 @@ const QM_SEARCH_INDEX = {
    "root-sh-d-d"
   ],
   [
+   "شفع",
+   "root",
+   "root-sh-f-3"
+  ],
+  [
+   "شفه",
+   "root",
+   "root-sh-f-h"
+  ],
+  [
+   "شفق",
+   "root",
+   "root-sh-f-q"
+  ],
+  [
+   "شفو",
+   "root",
+   "root-sh-f-w"
+  ],
+  [
+   "شفي",
+   "root",
+   "root-sh-f-y"
+  ],
+  [
+   "شهب",
+   "root",
+   "root-sh-h-b"
+  ],
+  [
    "شهد",
    "root",
    "root-sh-h-d"
+  ],
+  [
+   "شهق",
+   "root",
+   "root-sh-h-q"
+  ],
+  [
+   "شهر",
+   "root",
+   "root-sh-h-r"
+  ],
+  [
+   "شهو",
+   "root",
+   "root-sh-h-w"
+  ],
+  [
+   "شحح",
+   "root",
+   "root-sh-h2-h2"
+  ],
+  [
+   "شحن",
+   "root",
+   "root-sh-h2-n"
   ],
   [
    "شجر",
@@ -4507,9 +25667,24 @@ const QM_SEARCH_INDEX = {
    "root-sh-k-k"
   ],
   [
+   "شكل",
+   "root",
+   "root-sh-k-l"
+  ],
+  [
    "شكر",
    "root",
    "root-sh-k-r"
+  ],
+  [
+   "شكو",
+   "root",
+   "root-sh-k-w"
+  ],
+  [
+   "شمل",
+   "root",
+   "root-sh-m-l"
   ],
   [
    "شمس",
@@ -4517,9 +25692,44 @@ const QM_SEARCH_INDEX = {
    "root-sh-m-s"
   ],
   [
+   "شنء",
+   "root",
+   "root-sh-n-2"
+  ],
+  [
+   "شقق",
+   "root",
+   "root-sh-q-q"
+  ],
+  [
+   "شقو",
+   "root",
+   "root-sh-q-w"
+  ],
+  [
+   "شرع",
+   "root",
+   "root-sh-r-3"
+  ],
+  [
+   "شرب",
+   "root",
+   "root-sh-r-b"
+  ],
+  [
+   "شرح",
+   "root",
+   "root-sh-r-h2"
+  ],
+  [
    "شرك",
    "root",
    "root-sh-r-k"
+  ],
+  [
+   "شرق",
+   "root",
+   "root-sh-r-q"
   ],
   [
    "شرر",
@@ -4527,14 +25737,79 @@ const QM_SEARCH_INDEX = {
    "root-sh-r-r"
   ],
   [
+   "شرو",
+   "root",
+   "root-sh-r-w"
+  ],
+  [
    "شري",
    "root",
    "root-sh-r-y"
   ],
   [
+   "شتت",
+   "root",
+   "root-sh-t-t"
+  ],
+  [
+   "شتو",
+   "root",
+   "root-sh-t-w"
+  ],
+  [
+   "شطر",
+   "root",
+   "root-sh-t2-r"
+  ],
+  [
+   "شطط",
+   "root",
+   "root-sh-t2-t2"
+  ],
+  [
+   "شوب",
+   "root",
+   "root-sh-w-b"
+  ],
+  [
+   "شوك",
+   "root",
+   "root-sh-w-k"
+  ],
+  [
+   "شور",
+   "root",
+   "root-sh-w-r"
+  ],
+  [
+   "شوي",
+   "root",
+   "root-sh-w-y"
+  ],
+  [
    "شيء",
    "root",
    "root-sh-y-2"
+  ],
+  [
+   "شيع",
+   "root",
+   "root-sh-y-3"
+  ],
+  [
+   "شيب",
+   "root",
+   "root-sh-y-b"
+  ],
+  [
+   "شيد",
+   "root",
+   "root-sh-y-d"
+  ],
+  [
+   "شيخ",
+   "root",
+   "root-sh-y-kh"
   ],
   [
    "تبع",
@@ -4547,9 +25822,24 @@ const QM_SEARCH_INDEX = {
    "root-t-b-b"
   ],
   [
+   "تبر",
+   "root",
+   "root-t-b-r"
+  ],
+  [
    "تحت",
    "root",
    "root-t-h2-t"
+  ],
+  [
+   "تجر",
+   "root",
+   "root-t-j-r"
+  ],
+  [
+   "تلل",
+   "root",
+   "root-t-l-l"
   ],
   [
    "تلو",
@@ -4557,9 +25847,34 @@ const QM_SEARCH_INDEX = {
    "root-t-l-w"
   ],
   [
+   "تمم",
+   "root",
+   "root-t-m-m"
+  ],
+  [
+   "تقن",
+   "root",
+   "root-t-q-n"
+  ],
+  [
+   "ترب",
+   "root",
+   "root-t-r-b"
+  ],
+  [
+   "ترف",
+   "root",
+   "root-t-r-f"
+  ],
+  [
    "ترك",
    "root",
    "root-t-r-k"
+  ],
+  [
+   "تسع",
+   "root",
+   "root-t-s-3"
   ],
   [
    "توب",
@@ -4567,9 +25882,129 @@ const QM_SEARCH_INDEX = {
    "root-t-w-b"
   ],
   [
+   "تور",
+   "root",
+   "root-t-w-r"
+  ],
+  [
+   "تيه",
+   "root",
+   "root-t-y-h"
+  ],
+  [
+   "تين",
+   "root",
+   "root-t-y-n"
+  ],
+  [
    "طعم",
    "root",
    "root-t2-3-m"
+  ],
+  [
+   "طعن",
+   "root",
+   "root-t2-3-n"
+  ],
+  [
+   "طبع",
+   "root",
+   "root-t2-b-3"
+  ],
+  [
+   "طبق",
+   "root",
+   "root-t2-b-q"
+  ],
+  [
+   "طفء",
+   "root",
+   "root-t2-f-2"
+  ],
+  [
+   "طفل",
+   "root",
+   "root-t2-f-l"
+  ],
+  [
+   "طفق",
+   "root",
+   "root-t2-f-q"
+  ],
+  [
+   "طغو",
+   "root",
+   "root-t2-gh-w"
+  ],
+  [
+   "طغي",
+   "root",
+   "root-t2-gh-y"
+  ],
+  [
+   "طهر",
+   "root",
+   "root-t2-h-r"
+  ],
+  [
+   "طلع",
+   "root",
+   "root-t2-l-3"
+  ],
+  [
+   "طلب",
+   "root",
+   "root-t2-l-b"
+  ],
+  [
+   "طلق",
+   "root",
+   "root-t2-l-q"
+  ],
+  [
+   "طمع",
+   "root",
+   "root-t2-m-3"
+  ],
+  [
+   "طمم",
+   "root",
+   "root-t2-m-m"
+  ],
+  [
+   "طمن",
+   "root",
+   "root-t2-m-n"
+  ],
+  [
+   "طمس",
+   "root",
+   "root-t2-m-s"
+  ],
+  [
+   "طمث",
+   "root",
+   "root-t2-m-th"
+  ],
+  [
+   "طرد",
+   "root",
+   "root-t2-r-d"
+  ],
+  [
+   "طرف",
+   "root",
+   "root-t2-r-f"
+  ],
+  [
+   "طرق",
+   "root",
+   "root-t2-r-q"
+  ],
+  [
+   "طرو",
+   "root",
+   "root-t2-r-w"
   ],
   [
    "طوع",
@@ -4582,9 +26017,34 @@ const QM_SEARCH_INDEX = {
    "root-t2-w-f"
   ],
   [
+   "طول",
+   "root",
+   "root-t2-w-l"
+  ],
+  [
+   "طوق",
+   "root",
+   "root-t2-w-q"
+  ],
+  [
+   "طور",
+   "root",
+   "root-t2-w-r"
+  ],
+  [
+   "طوي",
+   "root",
+   "root-t2-w-y"
+  ],
+  [
    "طيب",
    "root",
    "root-t2-y-b"
+  ],
+  [
+   "طين",
+   "root",
+   "root-t2-y-n"
   ],
   [
    "طير",
@@ -4592,9 +26052,34 @@ const QM_SEARCH_INDEX = {
    "root-t2-y-r"
   ],
   [
+   "ثعب",
+   "root",
+   "root-th-3-b"
+  ],
+  [
+   "ثبر",
+   "root",
+   "root-th-b-r"
+  ],
+  [
+   "ثبت",
+   "root",
+   "root-th-b-t"
+  ],
+  [
+   "ثلل",
+   "root",
+   "root-th-l-l"
+  ],
+  [
    "ثلث",
    "root",
    "root-th-l-th"
+  ],
+  [
+   "ثمن",
+   "root",
+   "root-th-m-n"
   ],
   [
    "ثمر",
@@ -4602,14 +26087,164 @@ const QM_SEARCH_INDEX = {
    "root-th-m-r"
   ],
   [
+   "ثني",
+   "root",
+   "root-th-n-y"
+  ],
+  [
+   "ثقب",
+   "root",
+   "root-th-q-b"
+  ],
+  [
+   "ثقف",
+   "root",
+   "root-th-q-f"
+  ],
+  [
+   "ثقل",
+   "root",
+   "root-th-q-l"
+  ],
+  [
+   "ثرب",
+   "root",
+   "root-th-r-b"
+  ],
+  [
+   "ثري",
+   "root",
+   "root-th-r-y"
+  ],
+  [
+   "ثوب",
+   "root",
+   "root-th-w-b"
+  ],
+  [
+   "ثور",
+   "root",
+   "root-th-w-r"
+  ],
+  [
+   "ثوي",
+   "root",
+   "root-th-w-y"
+  ],
+  [
+   "ثيب",
+   "root",
+   "root-th-y-b"
+  ],
+  [
+   "وءد",
+   "root",
+   "root-w-2-d"
+  ],
+  [
    "وعد",
    "root",
    "root-w-3-d"
   ],
   [
+   "وعي",
+   "root",
+   "root-w-3-y"
+  ],
+  [
+   "وعظ",
+   "root",
+   "root-w-3-z2"
+  ],
+  [
+   "وبل",
+   "root",
+   "root-w-b-l"
+  ],
+  [
+   "وبق",
+   "root",
+   "root-w-b-q"
+  ],
+  [
+   "وبر",
+   "root",
+   "root-w-b-r"
+  ],
+  [
+   "ودع",
+   "root",
+   "root-w-d-3"
+  ],
+  [
+   "ودد",
+   "root",
+   "root-w-d-d"
+  ],
+  [
+   "ودق",
+   "root",
+   "root-w-d-q"
+  ],
+  [
+   "ودي",
+   "root",
+   "root-w-d-y"
+  ],
+  [
    "وضع",
    "root",
    "root-w-d2-3"
+  ],
+  [
+   "وذر",
+   "root",
+   "root-w-dh-r"
+  ],
+  [
+   "وفض",
+   "root",
+   "root-w-f-d2"
+  ],
+  [
+   "وفد",
+   "root",
+   "root-w-f-d"
+  ],
+  [
+   "وفق",
+   "root",
+   "root-w-f-q"
+  ],
+  [
+   "وفر",
+   "root",
+   "root-w-f-r"
+  ],
+  [
+   "وفي",
+   "root",
+   "root-w-f-y"
+  ],
+  [
+   "وهب",
+   "root",
+   "root-w-h-b"
+  ],
+  [
+   "وهج",
+   "root",
+   "root-w-h-j"
+  ],
+  [
+   "وهن",
+   "root",
+   "root-w-h-n"
+  ],
+  [
+   "وهي",
+   "root",
+   "root-w-h-y"
   ],
   [
    "وحد",
@@ -4622,6 +26257,11 @@ const QM_SEARCH_INDEX = {
    "root-w-h2-y"
   ],
   [
+   "وجب",
+   "root",
+   "root-w-j-b"
+  ],
+  [
    "وجد",
    "root",
    "root-w-j-d"
@@ -4630,6 +26270,21 @@ const QM_SEARCH_INDEX = {
    "وجه",
    "root",
    "root-w-j-h"
+  ],
+  [
+   "وجل",
+   "root",
+   "root-w-j-l"
+  ],
+  [
+   "وجس",
+   "root",
+   "root-w-j-s"
+  ],
+  [
+   "وكء",
+   "root",
+   "root-w-k-2"
   ],
   [
    "وكل",
@@ -4642,9 +26297,19 @@ const QM_SEARCH_INDEX = {
    "root-w-l-d"
   ],
   [
+   "ولج",
+   "root",
+   "root-w-l-j"
+  ],
+  [
    "ولي",
    "root",
    "root-w-l-y"
+  ],
+  [
+   "وني",
+   "root",
+   "root-w-n-y"
   ],
   [
    "وقع",
@@ -4652,9 +26317,44 @@ const QM_SEARCH_INDEX = {
    "root-w-q-3"
   ],
   [
+   "وقد",
+   "root",
+   "root-w-q-d"
+  ],
+  [
+   "وقف",
+   "root",
+   "root-w-q-f"
+  ],
+  [
+   "وقر",
+   "root",
+   "root-w-q-r"
+  ],
+  [
+   "وقت",
+   "root",
+   "root-w-q-t"
+  ],
+  [
    "وقي",
    "root",
    "root-w-q-y"
+  ],
+  [
+   "ورد",
+   "root",
+   "root-w-r-d"
+  ],
+  [
+   "ورق",
+   "root",
+   "root-w-r-q"
+  ],
+  [
+   "ورث",
+   "root",
+   "root-w-r-th"
   ],
   [
    "وري",
@@ -4667,6 +26367,81 @@ const QM_SEARCH_INDEX = {
    "root-w-s-3"
   ],
   [
+   "وسل",
+   "root",
+   "root-w-s-l"
+  ],
+  [
+   "وسق",
+   "root",
+   "root-w-s-q"
+  ],
+  [
+   "وسط",
+   "root",
+   "root-w-s-t2"
+  ],
+  [
+   "وصب",
+   "root",
+   "root-w-s2-b"
+  ],
+  [
+   "وصد",
+   "root",
+   "root-w-s2-d"
+  ],
+  [
+   "وصف",
+   "root",
+   "root-w-s2-f"
+  ],
+  [
+   "وصل",
+   "root",
+   "root-w-s2-l"
+  ],
+  [
+   "وصي",
+   "root",
+   "root-w-s2-y"
+  ],
+  [
+   "وتد",
+   "root",
+   "root-w-t-d"
+  ],
+  [
+   "وتن",
+   "root",
+   "root-w-t-n"
+  ],
+  [
+   "وتر",
+   "root",
+   "root-w-t-r"
+  ],
+  [
+   "وطء",
+   "root",
+   "root-w-t2-2"
+  ],
+  [
+   "وطن",
+   "root",
+   "root-w-t2-n"
+  ],
+  [
+   "وطر",
+   "root",
+   "root-w-t2-r"
+  ],
+  [
+   "وثن",
+   "root",
+   "root-w-th-n"
+  ],
+  [
    "وثق",
    "root",
    "root-w-th-q"
@@ -4677,9 +26452,59 @@ const QM_SEARCH_INDEX = {
    "root-w-y-l"
   ],
   [
+   "وزع",
+   "root",
+   "root-w-z-3"
+  ],
+  [
+   "وزن",
+   "root",
+   "root-w-z-n"
+  ],
+  [
+   "وزر",
+   "root",
+   "root-w-z-r"
+  ],
+  [
+   "يءس",
+   "root",
+   "root-y-2-s"
+  ],
+  [
+   "يبس",
+   "root",
+   "root-y-b-s"
+  ],
+  [
+   "يمم",
+   "root",
+   "root-y-m-m"
+  ],
+  [
    "يمن",
    "root",
    "root-y-m-n"
+  ],
+  [
+   "يقن",
+   "root",
+   "root-y-q-n"
+  ],
+  [
+   "يقت",
+   "root",
+   "root-y-q-t"
+  ],
+  [
+   "يسع",
+   "root",
+   "root-y-s-3"
+  ],
+  [
+   "يسر",
+   "root",
+   "root-y-s-r"
   ],
   [
    "يتم",
@@ -4692,9 +26517,94 @@ const QM_SEARCH_INDEX = {
    "root-y-w-m"
   ],
   [
+   "زعم",
+   "root",
+   "root-z-3-m"
+  ],
+  [
+   "زبد",
+   "root",
+   "root-z-b-d"
+  ],
+  [
+   "زبر",
+   "root",
+   "root-z-b-r"
+  ],
+  [
+   "زفف",
+   "root",
+   "root-z-f-f"
+  ],
+  [
+   "زفر",
+   "root",
+   "root-z-f-r"
+  ],
+  [
+   "زهق",
+   "root",
+   "root-z-h-q"
+  ],
+  [
+   "زجج",
+   "root",
+   "root-z-j-j"
+  ],
+  [
+   "زجر",
+   "root",
+   "root-z-j-r"
+  ],
+  [
+   "زجو",
+   "root",
+   "root-z-j-w"
+  ],
+  [
+   "زجي",
+   "root",
+   "root-z-j-y"
+  ],
+  [
    "زكو",
    "root",
    "root-z-k-w"
+  ],
+  [
+   "زلف",
+   "root",
+   "root-z-l-f"
+  ],
+  [
+   "زلم",
+   "root",
+   "root-z-l-m"
+  ],
+  [
+   "زمر",
+   "root",
+   "root-z-m-r"
+  ],
+  [
+   "زني",
+   "root",
+   "root-z-n-y"
+  ],
+  [
+   "زقم",
+   "root",
+   "root-z-q-m"
+  ],
+  [
+   "زرع",
+   "root",
+   "root-z-r-3"
+  ],
+  [
+   "زود",
+   "root",
+   "root-z-w-d"
   ],
   [
    "زوج",
@@ -4702,9 +26612,29 @@ const QM_SEARCH_INDEX = {
    "root-z-w-j"
   ],
   [
+   "زول",
+   "root",
+   "root-z-w-l"
+  ],
+  [
+   "زور",
+   "root",
+   "root-z-w-r"
+  ],
+  [
    "زيد",
    "root",
    "root-z-y-d"
+  ],
+  [
+   "زيغ",
+   "root",
+   "root-z-y-gh"
+  ],
+  [
+   "زيل",
+   "root",
+   "root-z-y-l"
   ],
   [
    "زين",
@@ -4712,9 +26642,34 @@ const QM_SEARCH_INDEX = {
    "root-z-y-n"
   ],
   [
+   "زيت",
+   "root",
+   "root-z-y-t"
+  ],
+  [
+   "ظفر",
+   "root",
+   "root-z2-f-r"
+  ],
+  [
+   "ظهر",
+   "root",
+   "root-z2-h-r"
+  ],
+  [
+   "ظلل",
+   "root",
+   "root-z2-l-l"
+  ],
+  [
    "ظلم",
    "root",
    "root-z2-l-m"
+  ],
+  [
+   "ظمء",
+   "root",
+   "root-z2-m-2"
   ],
   [
    "ظنن",
@@ -5992,6 +27947,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "membebani",
+   "lemma",
+   "aada-3",
+   "ms"
+  ],
+  [
+   "to burden; to weary",
+   "lemma",
+   "aada-3",
+   "en"
+  ],
+  [
    "berlindung",
    "lemma",
    "aadha-1",
@@ -6004,6 +27971,114 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memohon perlindungan",
+   "lemma",
+   "aadha-2",
+   "ms"
+  ],
+  [
+   "to seek refuge for",
+   "lemma",
+   "aadha-2",
+   "en"
+  ],
+  [
+   "mengumumkan; memberi pemberitahuan",
+   "lemma",
+   "aadhana-1",
+   "ms"
+  ],
+  [
+   "to announce; to give notice",
+   "lemma",
+   "aadhana-1",
+   "en"
+  ],
+  [
+   "membuat perjanjian",
+   "lemma",
+   "aahada-1",
+   "ms"
+  ],
+  [
+   "to make a covenant",
+   "lemma",
+   "aahada-1",
+   "en"
+  ],
+  [
+   "mendorong bersegera",
+   "lemma",
+   "aajala-1",
+   "ms"
+  ],
+  [
+   "to cause to hasten",
+   "lemma",
+   "aajala-1",
+   "en"
+  ],
+  [
+   "menghukum; menuntut pertanggungjawaban",
+   "lemma",
+   "aakhadha-1",
+   "ms"
+  ],
+  [
+   "to hold to account; to take to task",
+   "lemma",
+   "aakhadha-1",
+   "en"
+  ],
+  [
+   "higher; highest",
+   "lemma",
+   "aala-1",
+   "en"
+  ],
+  [
+   "lebih tinggi; paling tinggi",
+   "lemma",
+   "aala-1",
+   "ms"
+  ],
+  [
+   "menanggung tanggungan; condong",
+   "lemma",
+   "aala-2",
+   "ms"
+  ],
+  [
+   "to be burdened with a family; to incline",
+   "lemma",
+   "aala-2",
+   "en"
+  ],
+  [
+   "high; exalted",
+   "lemma",
+   "aali-1",
+   "en"
+  ],
+  [
+   "tinggi; unggul",
+   "lemma",
+   "aali-1",
+   "ms"
+  ],
+  [
+   "tahun",
+   "lemma",
+   "aam-1",
+   "ms"
+  ],
+  [
+   "year",
+   "lemma",
+   "aam-1",
+   "en"
+  ],
+  [
    "beriman; percaya",
    "lemma",
    "aamana-1",
@@ -6013,6 +28088,66 @@ const QM_SEARCH_INDEX = {
    "to believe; to have faith",
    "lemma",
    "aamana-1",
+   "en"
+  ],
+  [
+   "aman",
+   "lemma",
+   "aamin-1",
+   "ms"
+  ],
+  [
+   "secure; safe",
+   "lemma",
+   "aamin-1",
+   "en"
+  ],
+  [
+   "tiba masanya",
+   "lemma",
+   "aana-1",
+   "ms"
+  ],
+  [
+   "to be time for; to draw near",
+   "lemma",
+   "aana-1",
+   "en"
+  ],
+  [
+   "menolong",
+   "lemma",
+   "aana-2",
+   "ms"
+  ],
+  [
+   "to help",
+   "lemma",
+   "aana-2",
+   "en"
+  ],
+  [
+   "menyusahkan",
+   "lemma",
+   "aanata-1",
+   "ms"
+  ],
+  [
+   "to put into hardship",
+   "lemma",
+   "aanata-1",
+   "en"
+  ],
+  [
+   "membalas; menghukum",
+   "lemma",
+   "aaqaba-1",
+   "ms"
+  ],
+  [
+   "to punish; to retaliate",
+   "lemma",
+   "aaqaba-1",
    "en"
   ],
   [
@@ -6040,6 +28175,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bergaul",
+   "lemma",
+   "aashara-1",
+   "ms"
+  ],
+  [
+   "to live with; to treat kindly",
+   "lemma",
+   "aashara-1",
+   "en"
+  ],
+  [
    "memberi; mengurniakan",
    "lemma",
    "aata-1",
@@ -6061,6 +28208,18 @@ const QM_SEARCH_INDEX = {
    "to give",
    "lemma",
    "aata-2",
+   "en"
+  ],
+  [
+   "memberi perlindungan",
+   "lemma",
+   "aawa-1",
+   "ms"
+  ],
+  [
+   "to give shelter",
+   "lemma",
+   "aawa-1",
    "en"
   ],
   [
@@ -6112,6 +28271,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menjelaskan",
+   "lemma",
+   "abana-1",
+   "ms"
+  ],
+  [
+   "to make clear",
+   "lemma",
+   "abana-1",
+   "en"
+  ],
+  [
+   "melarikan diri",
+   "lemma",
+   "abaqa-1",
+   "ms"
+  ],
+  [
+   "to run away",
+   "lemma",
+   "abaqa-1",
+   "en"
+  ],
+  [
+   "bermasam muka",
+   "lemma",
+   "abasa-1",
+   "ms"
+  ],
+  [
+   "to frown",
+   "lemma",
+   "abasa-1",
+   "en"
+  ],
+  [
+   "pasture; fodder",
+   "lemma",
+   "abb-1",
+   "en"
+  ],
+  [
+   "rumput",
+   "lemma",
+   "abb-1",
+   "ms"
+  ],
+  [
+   "memperhamba",
+   "lemma",
+   "abbada-1",
+   "ms"
+  ],
+  [
+   "to enslave",
+   "lemma",
+   "abbada-1",
+   "en"
+  ],
+  [
    "hamba",
    "lemma",
    "abd-1",
@@ -6121,6 +28340,198 @@ const QM_SEARCH_INDEX = {
    "servant; slave",
    "lemma",
    "abd-1",
+   "en"
+  ],
+  [
+   "menzahirkan",
+   "lemma",
+   "abda-1",
+   "ms"
+  ],
+  [
+   "to disclose; to show",
+   "lemma",
+   "abda-1",
+   "en"
+  ],
+  [
+   "memulakan",
+   "lemma",
+   "abdaa-1",
+   "ms"
+  ],
+  [
+   "to originate",
+   "lemma",
+   "abdaa-1",
+   "en"
+  ],
+  [
+   "menggantikan",
+   "lemma",
+   "abdala-1",
+   "ms"
+  ],
+  [
+   "to give in exchange",
+   "lemma",
+   "abdala-1",
+   "en"
+  ],
+  [
+   "penyembah",
+   "lemma",
+   "abid-1",
+   "ms"
+  ],
+  [
+   "worshipper",
+   "lemma",
+   "abid-1",
+   "en"
+  ],
+  [
+   "menangiskan",
+   "lemma",
+   "abka-1",
+   "ms"
+  ],
+  [
+   "to make weep",
+   "lemma",
+   "abka-1",
+   "en"
+  ],
+  [
+   "bisu",
+   "lemma",
+   "abkam-1",
+   "ms"
+  ],
+  [
+   "dumb",
+   "lemma",
+   "abkam-1",
+   "en"
+  ],
+  [
+   "menyampaikan",
+   "lemma",
+   "ablagha-1",
+   "ms"
+  ],
+  [
+   "to cause to reach",
+   "lemma",
+   "ablagha-1",
+   "en"
+  ],
+  [
+   "berputus asa",
+   "lemma",
+   "ablasa-1",
+   "ms"
+  ],
+  [
+   "to despair",
+   "lemma",
+   "ablasa-1",
+   "en"
+  ],
+  [
+   "lebih kekal",
+   "lemma",
+   "abqa-1",
+   "ms"
+  ],
+  [
+   "more lasting; everlasting",
+   "lemma",
+   "abqa-1",
+   "en"
+  ],
+  [
+   "menyisakan",
+   "lemma",
+   "abqa-2",
+   "ms"
+  ],
+  [
+   "to leave remaining",
+   "lemma",
+   "abqa-2",
+   "en"
+  ],
+  [
+   "menyembuhkan",
+   "lemma",
+   "abra-1",
+   "ms"
+  ],
+  [
+   "to heal",
+   "lemma",
+   "abra-1",
+   "en"
+  ],
+  [
+   "berhenti",
+   "lemma",
+   "abraha-1",
+   "ms"
+  ],
+  [
+   "to cease (to be)",
+   "lemma",
+   "abraha-1",
+   "en"
+  ],
+  [
+   "menetapkan",
+   "lemma",
+   "abrama-1",
+   "ms"
+  ],
+  [
+   "to contrive; to settle (a matter)",
+   "lemma",
+   "abrama-1",
+   "en"
+  ],
+  [
+   "orang-orang yang berbakti",
+   "lemma",
+   "abrar-1",
+   "ms"
+  ],
+  [
+   "the righteous (plural of barr)",
+   "lemma",
+   "abrar-1",
+   "en"
+  ],
+  [
+   "berpenyakit sopak",
+   "lemma",
+   "abras-1",
+   "ms"
+  ],
+  [
+   "leprous",
+   "lemma",
+   "abras-1",
+   "en"
+  ],
+  [
+   "diserahkan kepada kebinasaan",
+   "lemma",
+   "absala-1",
+   "ms"
+  ],
+  [
+   "to be given up to destruction",
+   "lemma",
+   "absala-1",
    "en"
   ],
   [
@@ -6148,6 +28559,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memperlihatkan",
+   "lemma",
+   "absara-2",
+   "ms"
+  ],
+  [
+   "to make (them) see one another",
+   "lemma",
+   "absara-2",
+   "en"
+  ],
+  [
+   "membatalkan",
+   "lemma",
+   "abtala-1",
+   "ms"
+  ],
+  [
+   "to nullify",
+   "lemma",
+   "abtala-1",
+   "en"
+  ],
+  [
+   "cut off (without posterity)",
+   "lemma",
+   "abtar-1",
+   "en"
+  ],
+  [
+   "yang terputus",
+   "lemma",
+   "abtar-1",
+   "ms"
+  ],
+  [
+   "bermasam",
+   "lemma",
+   "abus-1",
+   "ms"
+  ],
+  [
+   "frowning",
+   "lemma",
+   "abus-1",
+   "en"
+  ],
+  [
    "aad (an ancient people)",
    "lemma",
    "ad-1",
@@ -6160,6 +28619,78 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "payment; rendering",
+   "lemma",
+   "ada-1",
+   "en"
+  ],
+  [
+   "penunaian",
+   "lemma",
+   "ada-1",
+   "ms"
+  ],
+  [
+   "melampaui; berlari",
+   "lemma",
+   "ada-2",
+   "ms"
+  ],
+  [
+   "to pass beyond; to run",
+   "lemma",
+   "ada-2",
+   "en"
+  ],
+  [
+   "mensia-siakan",
+   "lemma",
+   "adaa-1",
+   "ms"
+  ],
+  [
+   "to waste; to let be lost",
+   "lemma",
+   "adaa-1",
+   "en"
+  ],
+  [
+   "menerangi",
+   "lemma",
+   "adaa-2",
+   "ms"
+  ],
+  [
+   "to light up",
+   "lemma",
+   "adaa-2",
+   "en"
+  ],
+  [
+   "memusuhi",
+   "lemma",
+   "adaa-4",
+   "ms"
+  ],
+  [
+   "to be hostile",
+   "lemma",
+   "adaa-4",
+   "en"
+  ],
+  [
+   "bilangan",
+   "lemma",
+   "adad-1",
+   "ms"
+  ],
+  [
+   "number; count",
+   "lemma",
+   "adad-1",
+   "en"
+  ],
+  [
    "menyediakan",
    "lemma",
    "adadda-1",
@@ -6169,6 +28700,42 @@ const QM_SEARCH_INDEX = {
    "to prepare",
    "lemma",
    "adadda-1",
+   "en"
+  ],
+  [
+   "lebih lemah",
+   "lemma",
+   "adaf-1",
+   "ms"
+  ],
+  [
+   "weaker",
+   "lemma",
+   "adaf-1",
+   "en"
+  ],
+  [
+   "berlaku adil; menyimpang; menyamakan",
+   "lemma",
+   "adala-1",
+   "ms"
+  ],
+  [
+   "to be just; to deviate; to equate",
+   "lemma",
+   "adala-1",
+   "en"
+  ],
+  [
+   "menghalang",
+   "lemma",
+   "adala-2",
+   "ms"
+  ],
+  [
+   "to hinder",
+   "lemma",
+   "adala-2",
    "en"
   ],
   [
@@ -6208,6 +28775,150 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "mengedarkan",
+   "lemma",
+   "adara-1",
+   "ms"
+  ],
+  [
+   "to circulate",
+   "lemma",
+   "adara-1",
+   "en"
+  ],
+  [
+   "enmity",
+   "lemma",
+   "adawa-1",
+   "en"
+  ],
+  [
+   "permusuhan",
+   "lemma",
+   "adawa-1",
+   "ms"
+  ],
+  [
+   "berpaling; berundur",
+   "lemma",
+   "adbara-1",
+   "ms"
+  ],
+  [
+   "to turn the back; to retreat",
+   "lemma",
+   "adbara-1",
+   "en"
+  ],
+  [
+   "bilangan",
+   "lemma",
+   "add-1",
+   "ms"
+  ],
+  [
+   "counting",
+   "lemma",
+   "add-1",
+   "en"
+  ],
+  [
+   "menghitung",
+   "lemma",
+   "adda-1",
+   "ms"
+  ],
+  [
+   "to count; to reckon",
+   "lemma",
+   "adda-1",
+   "en"
+  ],
+  [
+   "menunaikan",
+   "lemma",
+   "adda-2",
+   "ms"
+  ],
+  [
+   "to pay; to render (a trust)",
+   "lemma",
+   "adda-2",
+   "en"
+  ],
+  [
+   "menggigit",
+   "lemma",
+   "adda-3",
+   "ms"
+  ],
+  [
+   "to bite",
+   "lemma",
+   "adda-3",
+   "en"
+  ],
+  [
+   "menunaikan",
+   "lemma",
+   "addaa-1",
+   "ms"
+  ],
+  [
+   "to render",
+   "lemma",
+   "addaa-1",
+   "en"
+  ],
+  [
+   "lebih dahsyat",
+   "lemma",
+   "adha-1",
+   "ms"
+  ],
+  [
+   "more calamitous",
+   "lemma",
+   "adha-1",
+   "en"
+  ],
+  [
+   "gangguan; kemudaratan",
+   "lemma",
+   "adha-2",
+   "ms"
+  ],
+  [
+   "harm; hurt",
+   "lemma",
+   "adha-2",
+   "en"
+  ],
+  [
+   "berlindung",
+   "lemma",
+   "adha-3",
+   "ms"
+  ],
+  [
+   "to seek refuge",
+   "lemma",
+   "adha-3",
+   "en"
+  ],
+  [
+   "menyakiti; mengganggu",
+   "lemma",
+   "adhaa-1",
+   "ms"
+  ],
+  [
+   "to harm; to annoy",
+   "lemma",
+   "adhaa-1",
+   "en"
+  ],
+  [
    "azab; seksaan",
    "lemma",
    "adhab-1",
@@ -6217,6 +28928,30 @@ const QM_SEARCH_INDEX = {
    "punishment; torment",
    "lemma",
    "adhab-1",
+   "en"
+  ],
+  [
+   "membatalkan",
+   "lemma",
+   "adhada-1",
+   "ms"
+  ],
+  [
+   "to refute",
+   "lemma",
+   "adhada-1",
+   "en"
+  ],
+  [
+   "lebih hina",
+   "lemma",
+   "adhall-1",
+   "ms"
+  ],
+  [
+   "more abject",
+   "lemma",
+   "adhall-1",
    "en"
   ],
   [
@@ -6232,6 +28967,54 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a proclamation",
+   "lemma",
+   "adhan-2",
+   "en"
+  ],
+  [
+   "pengumuman",
+   "lemma",
+   "adhan-2",
+   "ms"
+  ],
+  [
+   "berkompromi",
+   "lemma",
+   "adhana-1",
+   "ms"
+  ],
+  [
+   "to compromise; to be pliant",
+   "lemma",
+   "adhana-1",
+   "en"
+  ],
+  [
+   "merasakan",
+   "lemma",
+   "adhaqa-1",
+   "ms"
+  ],
+  [
+   "to cause to taste",
+   "lemma",
+   "adhaqa-1",
+   "en"
+  ],
+  [
+   "sweet (water)",
+   "lemma",
+   "adhb-1",
+   "en"
+  ],
+  [
+   "tawar",
+   "lemma",
+   "adhb-1",
+   "ms"
+  ],
+  [
    "menyeksa",
    "lemma",
    "adhdhaba-1",
@@ -6244,6 +29027,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "melaung; mengumumkan",
+   "lemma",
+   "adhdhana-1",
+   "ms"
+  ],
+  [
+   "to proclaim; to call",
+   "lemma",
+   "adhdhana-1",
+   "en"
+  ],
+  [
+   "menghilangkan",
+   "lemma",
+   "adhhaba-1",
+   "ms"
+  ],
+  [
+   "to take away; to remove",
+   "lemma",
+   "adhhaba-1",
+   "en"
+  ],
+  [
    "mengizinkan",
    "lemma",
    "adhina-1",
@@ -6253,6 +29060,18 @@ const QM_SEARCH_INDEX = {
    "to permit; to allow",
    "lemma",
    "adhina-1",
+   "en"
+  ],
+  [
+   "kuda yang berlari",
+   "lemma",
+   "adiyat-1",
+   "ms"
+  ],
+  [
+   "the racing steeds",
+   "lemma",
+   "adiyat-1",
    "en"
   ],
   [
@@ -6280,6 +29099,54 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "menurunkan (timba)",
+   "lemma",
+   "adla-1",
+   "ms"
+  ],
+  [
+   "to let down (a bucket)",
+   "lemma",
+   "adla-1",
+   "en"
+  ],
+  [
+   "adn (tempat menetap kekal)",
+   "lemma",
+   "adn-1",
+   "ms"
+  ],
+  [
+   "eden (a place of lasting stay)",
+   "lemma",
+   "adn-1",
+   "en"
+  ],
+  [
+   "lebih dekat; lebih rendah",
+   "lemma",
+   "adna-1",
+   "ms"
+  ],
+  [
+   "nearer; lower; lesser",
+   "lemma",
+   "adna-1",
+   "en"
+  ],
+  [
+   "mendekatkan",
+   "lemma",
+   "adna-2",
+   "ms"
+  ],
+  [
+   "to draw close",
+   "lemma",
+   "adna-2",
+   "en"
+  ],
+  [
    "memberitahu; menyedarkan",
    "lemma",
    "adraa-1",
@@ -6289,6 +29156,18 @@ const QM_SEARCH_INDEX = {
    "to let know; to make aware",
    "lemma",
    "adraa-1",
+   "en"
+  ],
+  [
+   "mencapai; mengetahui",
+   "lemma",
+   "adraka-1",
+   "ms"
+  ],
+  [
+   "to overtake; to grasp",
+   "lemma",
+   "adraka-1",
    "en"
   ],
   [
@@ -6302,6 +29181,342 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "adu-1",
    "ms"
+  ],
+  [
+   "pelampauan batas",
+   "lemma",
+   "adu-2",
+   "ms"
+  ],
+  [
+   "transgression; running",
+   "lemma",
+   "adu-2",
+   "en"
+  ],
+  [
+   "an arm; support",
+   "lemma",
+   "adud-1",
+   "en"
+  ],
+  [
+   "lengan; sokongan",
+   "lemma",
+   "adud-1",
+   "ms"
+  ],
+  [
+   "a transgressor",
+   "lemma",
+   "adun-1",
+   "en"
+  ],
+  [
+   "orang yang melampaui batas",
+   "lemma",
+   "adun-1",
+   "ms"
+  ],
+  [
+   "one who counts",
+   "lemma",
+   "adun-2",
+   "en"
+  ],
+  [
+   "pengira",
+   "lemma",
+   "adun-2",
+   "ms"
+  ],
+  [
+   "mengembalikan; mengulangi",
+   "lemma",
+   "aeada-1",
+   "ms"
+  ],
+  [
+   "to bring back; to restore",
+   "lemma",
+   "aeada-1",
+   "en"
+  ],
+  [
+   "memaafkan",
+   "lemma",
+   "afa-1",
+   "ms"
+  ],
+  [
+   "to pardon; to forgive",
+   "lemma",
+   "afa-1",
+   "en"
+  ],
+  [
+   "mengurniakan harta rampasan",
+   "lemma",
+   "afaa-1",
+   "ms"
+  ],
+  [
+   "to bestow as spoils",
+   "lemma",
+   "afaa-1",
+   "en"
+  ],
+  [
+   "mencurahkan; terlibat dalam",
+   "lemma",
+   "afada-1",
+   "ms"
+  ],
+  [
+   "to pour forth; to plunge into",
+   "lemma",
+   "afada-1",
+   "en"
+  ],
+  [
+   "dipalingkan; dibohongi",
+   "lemma",
+   "afaka-1",
+   "ms"
+  ],
+  [
+   "to turn away; to be turned away",
+   "lemma",
+   "afaka-1",
+   "en"
+  ],
+  [
+   "terbenam; lenyap",
+   "lemma",
+   "afala-1",
+   "ms"
+  ],
+  [
+   "to set; to disappear",
+   "lemma",
+   "afala-1",
+   "en"
+  ],
+  [
+   "terbenam",
+   "lemma",
+   "afala-2",
+   "ms"
+  ],
+  [
+   "to set; to vanish",
+   "lemma",
+   "afala-2",
+   "en"
+  ],
+  [
+   "sedar semula",
+   "lemma",
+   "afaqa-1",
+   "ms"
+  ],
+  [
+   "to recover (consciousness)",
+   "lemma",
+   "afaqa-1",
+   "en"
+  ],
+  [
+   "bercampur",
+   "lemma",
+   "afda-1",
+   "ms"
+  ],
+  [
+   "to go in unto",
+   "lemma",
+   "afda-1",
+   "en"
+  ],
+  [
+   "habitual liar",
+   "lemma",
+   "affak-1",
+   "en"
+  ],
+  [
+   "pendusta",
+   "lemma",
+   "affak-1",
+   "ms"
+  ],
+  [
+   "one who pardons",
+   "lemma",
+   "afi-1",
+   "en"
+  ],
+  [
+   "yang memaafkan",
+   "lemma",
+   "afi-1",
+   "ms"
+  ],
+  [
+   "that which sets",
+   "lemma",
+   "afil-1",
+   "en"
+  ],
+  [
+   "yang terbenam",
+   "lemma",
+   "afil-1",
+   "ms"
+  ],
+  [
+   "berjaya; beruntung",
+   "lemma",
+   "aflaha-1",
+   "ms"
+  ],
+  [
+   "to succeed; to prosper",
+   "lemma",
+   "aflaha-1",
+   "en"
+  ],
+  [
+   "a branch",
+   "lemma",
+   "afnan-1",
+   "en"
+  ],
+  [
+   "dahan",
+   "lemma",
+   "afnan-1",
+   "ms"
+  ],
+  [
+   "mencurahkan",
+   "lemma",
+   "afragha-1",
+   "ms"
+  ],
+  [
+   "to pour out",
+   "lemma",
+   "afragha-1",
+   "en"
+  ],
+  [
+   "membuat kerosakan",
+   "lemma",
+   "afsada-1",
+   "ms"
+  ],
+  [
+   "to corrupt; to spread corruption",
+   "lemma",
+   "afsada-1",
+   "en"
+  ],
+  [
+   "memberi fatwa",
+   "lemma",
+   "afta-1",
+   "ms"
+  ],
+  [
+   "to give a ruling",
+   "lemma",
+   "afta-1",
+   "en"
+  ],
+  [
+   "maha pemaaf",
+   "lemma",
+   "afuww-1",
+   "ms"
+  ],
+  [
+   "pardoning; ever-forgiving",
+   "lemma",
+   "afuww-1",
+   "en"
+  ],
+  [
+   "kemaafan; lebihan",
+   "lemma",
+   "afw-1",
+   "ms"
+  ],
+  [
+   "pardon; surplus",
+   "lemma",
+   "afw-1",
+   "en"
+  ],
+  [
+   "memberi kekayaan; berguna",
+   "lemma",
+   "aghna-1",
+   "ms"
+  ],
+  [
+   "to enrich; to avail",
+   "lemma",
+   "aghna-1",
+   "en"
+  ],
+  [
+   "menimbulkan",
+   "lemma",
+   "aghra-1",
+   "ms"
+  ],
+  [
+   "to stir up",
+   "lemma",
+   "aghra-1",
+   "en"
+  ],
+  [
+   "menenggelamkan",
+   "lemma",
+   "aghraqa-1",
+   "ms"
+  ],
+  [
+   "to drown; to sink",
+   "lemma",
+   "aghraqa-1",
+   "en"
+  ],
+  [
+   "menutupi",
+   "lemma",
+   "aghsha-1",
+   "ms"
+  ],
+  [
+   "to cover over",
+   "lemma",
+   "aghsha-1",
+   "en"
+  ],
+  [
+   "menyesatkan",
+   "lemma",
+   "aghwa-1",
+   "ms"
+  ],
+  [
+   "to lead astray",
+   "lemma",
+   "aghwa-1",
+   "en"
   ],
   [
    "menyukai; mencintai",
@@ -6328,6 +29543,54 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "berjanji setia",
+   "lemma",
+   "ahada-1",
+   "ms"
+  ],
+  [
+   "to make a covenant",
+   "lemma",
+   "ahada-1",
+   "en"
+  ],
+  [
+   "menghalalkan",
+   "lemma",
+   "ahalla-1",
+   "ms"
+  ],
+  [
+   "to make lawful; to allow",
+   "lemma",
+   "ahalla-1",
+   "en"
+  ],
+  [
+   "menyebut nama dengan suara kuat",
+   "lemma",
+   "ahalla-2",
+   "ms"
+  ],
+  [
+   "to raise the voice (in invoking a name)",
+   "lemma",
+   "ahalla-2",
+   "en"
+  ],
+  [
+   "menghina",
+   "lemma",
+   "ahana-1",
+   "ms"
+  ],
+  [
+   "to humiliate",
+   "lemma",
+   "ahana-1",
+   "en"
+  ],
+  [
    "lebih berhak",
    "lemma",
    "ahaqq-1",
@@ -6337,6 +29600,54 @@ const QM_SEARCH_INDEX = {
    "more entitled; more deserving",
    "lemma",
    "ahaqq-1",
+   "en"
+  ],
+  [
+   "menegakkan kebenaran",
+   "lemma",
+   "ahaqqa-1",
+   "ms"
+  ],
+  [
+   "to establish as true",
+   "lemma",
+   "ahaqqa-1",
+   "en"
+  ],
+  [
+   "merasa",
+   "lemma",
+   "ahassa-1",
+   "ms"
+  ],
+  [
+   "to perceive; to sense",
+   "lemma",
+   "ahassa-1",
+   "en"
+  ],
+  [
+   "meliputi; mengepung",
+   "lemma",
+   "ahata-1",
+   "ms"
+  ],
+  [
+   "to encompass; to surround",
+   "lemma",
+   "ahata-1",
+   "en"
+  ],
+  [
+   "menggugurkan",
+   "lemma",
+   "ahbata-1",
+   "ms"
+  ],
+  [
+   "to render void",
+   "lemma",
+   "ahbata-1",
    "en"
   ],
   [
@@ -6350,6 +29661,78 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "ahd-1",
    "ms"
+  ],
+  [
+   "better guided; more rightly guided",
+   "lemma",
+   "ahda-1",
+   "en"
+  ],
+  [
+   "lebih mendapat petunjuk",
+   "lemma",
+   "ahda-1",
+   "ms"
+  ],
+  [
+   "mengadakan; mencipta",
+   "lemma",
+   "ahdatha-1",
+   "ms"
+  ],
+  [
+   "to bring about; to originate",
+   "lemma",
+   "ahdatha-1",
+   "en"
+  ],
+  [
+   "mendesak",
+   "lemma",
+   "ahfa-1",
+   "ms"
+  ],
+  [
+   "to press hard",
+   "lemma",
+   "ahfa-1",
+   "en"
+  ],
+  [
+   "berpesan; berjanji",
+   "lemma",
+   "ahida-1",
+   "ms"
+  ],
+  [
+   "to charge; to covenant",
+   "lemma",
+   "ahida-1",
+   "en"
+  ],
+  [
+   "paling bijaksana",
+   "lemma",
+   "ahkam-1",
+   "ms"
+  ],
+  [
+   "wisest; most just",
+   "lemma",
+   "ahkam-1",
+   "en"
+  ],
+  [
+   "memperkukuh",
+   "lemma",
+   "ahkama-1",
+   "ms"
+  ],
+  [
+   "to make firm",
+   "lemma",
+   "ahkama-1",
+   "en"
   ],
   [
    "ahli; keluarga",
@@ -6373,6 +29756,30 @@ const QM_SEARCH_INDEX = {
    "to destroy",
    "lemma",
    "ahlaka-1",
+   "en"
+  ],
+  [
+   "ahmad",
+   "lemma",
+   "ahmad-1",
+   "en"
+  ],
+  [
+   "ahmad",
+   "lemma",
+   "ahmad-1",
+   "ms"
+  ],
+  [
+   "menghitung",
+   "lemma",
+   "ahsa-1",
+   "ms"
+  ],
+  [
+   "to count; to enumerate",
+   "lemma",
+   "ahsa-1",
    "en"
   ],
   [
@@ -6400,6 +29807,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memelihara",
+   "lemma",
+   "ahsana-2",
+   "ms"
+  ],
+  [
+   "to preserve; to guard (chastity)",
+   "lemma",
+   "ahsana-2",
+   "en"
+  ],
+  [
+   "dihalang",
+   "lemma",
+   "ahsara-1",
+   "ms"
+  ],
+  [
+   "to be prevented",
+   "lemma",
+   "ahsara-1",
+   "en"
+  ],
+  [
+   "dark; blackish-green",
+   "lemma",
+   "ahwa-1",
+   "en"
+  ],
+  [
+   "hitam kehijauan",
+   "lemma",
+   "ahwa-1",
+   "ms"
+  ],
+  [
+   "menjatuhkan",
+   "lemma",
+   "ahwa-2",
+   "ms"
+  ],
+  [
+   "to cast down",
+   "lemma",
+   "ahwa-2",
+   "en"
+  ],
+  [
+   "easier",
+   "lemma",
+   "ahwan-1",
+   "en"
+  ],
+  [
+   "lebih mudah",
+   "lemma",
+   "ahwan-1",
+   "ms"
+  ],
+  [
    "menghidupkan",
    "lemma",
    "ahyaa-1",
@@ -6424,6 +29891,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "to be certain; to have firm faith",
+   "lemma",
+   "aiqana-1",
+   "en"
+  ],
+  [
+   "yakin",
+   "lemma",
+   "aiqana-1",
+   "ms"
+  ],
+  [
+   "menyimpan",
+   "lemma",
+   "aiya-1",
+   "ms"
+  ],
+  [
+   "to retain; to preserve",
+   "lemma",
+   "aiya-1",
+   "en"
+  ],
+  [
+   "membawa (ke)",
+   "lemma",
+   "ajaa-1",
+   "ms"
+  ],
+  [
+   "to bring (to)",
+   "lemma",
+   "ajaa-1",
+   "en"
+  ],
+  [
+   "sesuatu yang menakjubkan",
+   "lemma",
+   "ajab-1",
+   "ms"
+  ],
+  [
+   "wonder; amazing thing",
+   "lemma",
+   "ajab-1",
+   "en"
+  ],
+  [
+   "mengagumkan",
+   "lemma",
+   "ajaba-1",
+   "ms"
+  ],
+  [
+   "to please; to astonish",
+   "lemma",
+   "ajaba-1",
+   "en"
+  ],
+  [
    "ajal; tempoh yang ditetapkan",
    "lemma",
    "ajal-1",
@@ -6433,6 +29960,198 @@ const QM_SEARCH_INDEX = {
    "appointed term; deadline",
    "lemma",
    "ajal-1",
+   "en"
+  ],
+  [
+   "haste",
+   "lemma",
+   "ajal-3",
+   "en"
+  ],
+  [
+   "ketergesaan",
+   "lemma",
+   "ajal-3",
+   "ms"
+  ],
+  [
+   "bukan arab",
+   "lemma",
+   "ajami-1",
+   "ms"
+  ],
+  [
+   "non-arab; foreign",
+   "lemma",
+   "ajami-1",
+   "en"
+  ],
+  [
+   "melindungi; memberi perlindungan",
+   "lemma",
+   "ajara-1",
+   "ms"
+  ],
+  [
+   "to protect; to grant refuge",
+   "lemma",
+   "ajara-1",
+   "en"
+  ],
+  [
+   "mengupah",
+   "lemma",
+   "ajara-2",
+   "ms"
+  ],
+  [
+   "to hire",
+   "lemma",
+   "ajara-2",
+   "en"
+  ],
+  [
+   "tidak berdaya",
+   "lemma",
+   "ajaza-1",
+   "ms"
+  ],
+  [
+   "to be unable",
+   "lemma",
+   "ajaza-1",
+   "en"
+  ],
+  [
+   "melemahkan",
+   "lemma",
+   "ajaza-2",
+   "ms"
+  ],
+  [
+   "to frustrate; to render powerless",
+   "lemma",
+   "ajaza-2",
+   "en"
+  ],
+  [
+   "lebih layak",
+   "lemma",
+   "ajdar-1",
+   "ms"
+  ],
+  [
+   "more fitting",
+   "lemma",
+   "ajdar-1",
+   "en"
+  ],
+  [
+   "menghairankan",
+   "lemma",
+   "ajib-1",
+   "ms"
+  ],
+  [
+   "wondrous; strange",
+   "lemma",
+   "ajib-1",
+   "en"
+  ],
+  [
+   "hairan",
+   "lemma",
+   "ajiba-1",
+   "ms"
+  ],
+  [
+   "to marvel",
+   "lemma",
+   "ajiba-1",
+   "en"
+  ],
+  [
+   "kurus",
+   "lemma",
+   "ajif-1",
+   "ms"
+  ],
+  [
+   "lean (cows)",
+   "lemma",
+   "ajif-1",
+   "en"
+  ],
+  [
+   "hasty; the immediate (life)",
+   "lemma",
+   "ajil-1",
+   "en"
+  ],
+  [
+   "yang segera",
+   "lemma",
+   "ajil-1",
+   "ms"
+  ],
+  [
+   "tergesa-gesa",
+   "lemma",
+   "ajila-1",
+   "ms"
+  ],
+  [
+   "to be hasty",
+   "lemma",
+   "ajila-1",
+   "en"
+  ],
+  [
+   "menetapkan tempoh",
+   "lemma",
+   "ajjala-1",
+   "ms"
+  ],
+  [
+   "to appoint a term",
+   "lemma",
+   "ajjala-1",
+   "en"
+  ],
+  [
+   "menyegerakan",
+   "lemma",
+   "ajjala-3",
+   "ms"
+  ],
+  [
+   "to hasten (something)",
+   "lemma",
+   "ajjala-3",
+   "en"
+  ],
+  [
+   "disebabkan",
+   "lemma",
+   "ajl-1",
+   "ms"
+  ],
+  [
+   "on account of",
+   "lemma",
+   "ajl-1",
+   "en"
+  ],
+  [
+   "bersepakat",
+   "lemma",
+   "ajmaa-1",
+   "ms"
+  ],
+  [
+   "to resolve; to agree upon",
+   "lemma",
+   "ajmaa-1",
    "en"
   ],
   [
@@ -6460,6 +30179,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "melakukan dosa",
+   "lemma",
+   "ajrama-1",
+   "ms"
+  ],
+  [
+   "to commit a crime",
+   "lemma",
+   "ajrama-1",
+   "en"
+  ],
+  [
+   "hasty",
+   "lemma",
+   "ajul-1",
+   "en"
+  ],
+  [
+   "tergesa-gesa",
+   "lemma",
+   "ajul-1",
+   "ms"
+  ],
+  [
+   "old woman",
+   "lemma",
+   "ajuz-1",
+   "en"
+  ],
+  [
+   "perempuan tua",
+   "lemma",
+   "ajuz-1",
+   "ms"
+  ],
+  [
    "makan",
    "lemma",
    "akala-1",
@@ -6469,6 +30224,18 @@ const QM_SEARCH_INDEX = {
    "to eat",
    "lemma",
    "akala-1",
+   "en"
+  ],
+  [
+   "menyembunyikan",
+   "lemma",
+   "akanna-1",
+   "ms"
+  ],
+  [
+   "to conceal",
+   "lemma",
+   "akanna-1",
    "en"
   ],
   [
@@ -6482,6 +30249,30 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "akbar-1",
    "ms"
+  ],
+  [
+   "berhenti memberi",
+   "lemma",
+   "akda-1",
+   "ms"
+  ],
+  [
+   "to give grudgingly; to stop",
+   "lemma",
+   "akda-1",
+   "en"
+  ],
+  [
+   "alangkah kufurnya",
+   "lemma",
+   "akfara-1",
+   "ms"
+  ],
+  [
+   "to be so ungrateful (how ungrateful)",
+   "lemma",
+   "akfara-1",
+   "en"
   ],
   [
    "brother",
@@ -6508,6 +30299,102 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "another; other",
+   "lemma",
+   "akhar-1",
+   "en"
+  ],
+  [
+   "yang lain; satu lagi",
+   "lemma",
+   "akhar-1",
+   "ms"
+  ],
+  [
+   "menangguhkan",
+   "lemma",
+   "akhara-2",
+   "ms"
+  ],
+  [
+   "to delay; to defer",
+   "lemma",
+   "akhara-2",
+   "en"
+  ],
+  [
+   "merendah diri",
+   "lemma",
+   "akhbata-1",
+   "ms"
+  ],
+  [
+   "to humble oneself",
+   "lemma",
+   "akhbata-1",
+   "en"
+  ],
+  [
+   "green",
+   "lemma",
+   "akhdar-1",
+   "en"
+  ],
+  [
+   "hijau",
+   "lemma",
+   "akhdar-1",
+   "ms"
+  ],
+  [
+   "pengambilan",
+   "lemma",
+   "akhdh-1",
+   "ms"
+  ],
+  [
+   "taking; seizing",
+   "lemma",
+   "akhdh-1",
+   "en"
+  ],
+  [
+   "menyembunyikan",
+   "lemma",
+   "akhfa-1",
+   "ms"
+  ],
+  [
+   "to conceal",
+   "lemma",
+   "akhfa-1",
+   "en"
+  ],
+  [
+   "menyembunyikan",
+   "lemma",
+   "akhfaa-1",
+   "ms"
+  ],
+  [
+   "to conceal; to hide",
+   "lemma",
+   "akhfaa-1",
+   "en"
+  ],
+  [
+   "one who takes",
+   "lemma",
+   "akhidh-1",
+   "en"
+  ],
+  [
+   "yang mengambil",
+   "lemma",
+   "akhidh-1",
+   "ms"
+  ],
+  [
    "last; other",
    "lemma",
    "akhir-1",
@@ -6532,6 +30419,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "cenderung (kepada dunia)",
+   "lemma",
+   "akhlada-1",
+   "ms"
+  ],
+  [
+   "to cling (to the earth)",
+   "lemma",
+   "akhlada-1",
+   "en"
+  ],
+  [
+   "mungkir; mengingkari",
+   "lemma",
+   "akhlafa-1",
+   "ms"
+  ],
+  [
+   "to break (a promise); to fail",
+   "lemma",
+   "akhlafa-1",
+   "en"
+  ],
+  [
+   "ikhlas",
+   "lemma",
+   "akhlasa-1",
+   "ms"
+  ],
+  [
+   "to be sincere; to purify",
+   "lemma",
+   "akhlasa-1",
+   "en"
+  ],
+  [
    "mengeluarkan",
    "lemma",
    "akhraja-1",
@@ -6544,6 +30467,150 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "greatest losers",
+   "lemma",
+   "akhsar-1",
+   "en"
+  ],
+  [
+   "orang-orang yang paling rugi",
+   "lemma",
+   "akhsar-1",
+   "ms"
+  ],
+  [
+   "merugikan",
+   "lemma",
+   "akhsara-3",
+   "ms"
+  ],
+  [
+   "to cause loss",
+   "lemma",
+   "akhsara-3",
+   "en"
+  ],
+  [
+   "tersilap",
+   "lemma",
+   "akhta-1",
+   "ms"
+  ],
+  [
+   "to err; to make a mistake",
+   "lemma",
+   "akhta-1",
+   "en"
+  ],
+  [
+   "menghinakan",
+   "lemma",
+   "akhza-1",
+   "ms"
+  ],
+  [
+   "to disgrace",
+   "lemma",
+   "akhza-1",
+   "en"
+  ],
+  [
+   "one who stays devoted (in retreat)",
+   "lemma",
+   "akif-1",
+   "en"
+  ],
+  [
+   "yang beriktikaf",
+   "lemma",
+   "akif-1",
+   "ms"
+  ],
+  [
+   "eater",
+   "lemma",
+   "akil-1",
+   "en"
+  ],
+  [
+   "pemakan",
+   "lemma",
+   "akil-1",
+   "ms"
+  ],
+  [
+   "coverings",
+   "lemma",
+   "akinna-1",
+   "en"
+  ],
+  [
+   "penutup",
+   "lemma",
+   "akinna-1",
+   "ms"
+  ],
+  [
+   "one who devours",
+   "lemma",
+   "akkal-1",
+   "en"
+  ],
+  [
+   "pelahap",
+   "lemma",
+   "akkal-1",
+   "ms"
+  ],
+  [
+   "born blind",
+   "lemma",
+   "akmah-1",
+   "en"
+  ],
+  [
+   "buta sejak lahir",
+   "lemma",
+   "akmah-1",
+   "ms"
+  ],
+  [
+   "dipaksa",
+   "lemma",
+   "akrahaa-1",
+   "ms"
+  ],
+  [
+   "to be compelled",
+   "lemma",
+   "akrahaa-1",
+   "en"
+  ],
+  [
+   "most noble",
+   "lemma",
+   "akram-1",
+   "en"
+  ],
+  [
+   "paling mulia",
+   "lemma",
+   "akram-1",
+   "ms"
+  ],
+  [
+   "memuliakan",
+   "lemma",
+   "akrama-1",
+   "ms"
+  ],
+  [
+   "to honour",
+   "lemma",
+   "akrama-1",
+   "en"
+  ],
+  [
    "kebanyakan; lebih banyak",
    "lemma",
    "akthar-1",
@@ -6553,6 +30620,18 @@ const QM_SEARCH_INDEX = {
    "most; more",
    "lemma",
    "akthar-1",
+   "en"
+  ],
+  [
+   "memperbanyak",
+   "lemma",
+   "akthara-1",
+   "ms"
+  ],
+  [
+   "to do much",
+   "lemma",
+   "akthara-1",
    "en"
   ],
   [
@@ -6592,6 +30671,18 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "mengurangkan (usaha)",
+   "lemma",
+   "ala-3",
+   "ms"
+  ],
+  [
+   "to fall short in (doing)",
+   "lemma",
+   "ala-3",
+   "en"
+  ],
+  [
    "favours; blessings",
    "lemma",
    "alaa-1",
@@ -6601,6 +30692,42 @@ const QM_SEARCH_INDEX = {
    "nikmat-nikmat",
    "lemma",
    "alaa-1",
+   "ms"
+  ],
+  [
+   "meninggi; berlagak tinggi",
+   "lemma",
+   "alaa-2",
+   "ms"
+  ],
+  [
+   "to be high; to exalt oneself",
+   "lemma",
+   "alaa-2",
+   "en"
+  ],
+  [
+   "bersumpah",
+   "lemma",
+   "alaa-3",
+   "ms"
+  ],
+  [
+   "to swear (an oath)",
+   "lemma",
+   "alaa-3",
+   "en"
+  ],
+  [
+   "most contentious",
+   "lemma",
+   "aladd-1",
+   "en"
+  ],
+  [
+   "paling pembantah",
+   "lemma",
+   "aladd-1",
    "ms"
   ],
   [
@@ -6626,6 +30753,150 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "alam-2",
    "ms"
+  ],
+  [
+   "a landmark; a sign",
+   "lemma",
+   "alama-1",
+   "en"
+  ],
+  [
+   "tanda",
+   "lemma",
+   "alama-1",
+   "ms"
+  ],
+  [
+   "mengumumkan; menzahirkan",
+   "lemma",
+   "alana-1",
+   "ms"
+  ],
+  [
+   "to announce; to make public",
+   "lemma",
+   "alana-1",
+   "en"
+  ],
+  [
+   "melembutkan",
+   "lemma",
+   "alana-2",
+   "ms"
+  ],
+  [
+   "to make soft",
+   "lemma",
+   "alana-2",
+   "en"
+  ],
+  [
+   "openly; in public",
+   "lemma",
+   "alaniya-1",
+   "en"
+  ],
+  [
+   "secara terbuka",
+   "lemma",
+   "alaniya-1",
+   "ms"
+  ],
+  [
+   "clinging clot",
+   "lemma",
+   "alaqa-1",
+   "en"
+  ],
+  [
+   "seketul darah yang melekat",
+   "lemma",
+   "alaqa-1",
+   "ms"
+  ],
+  [
+   "seribu",
+   "lemma",
+   "alf-1",
+   "ms"
+  ],
+  [
+   "thousand",
+   "lemma",
+   "alf-1",
+   "en"
+  ],
+  [
+   "mendapati",
+   "lemma",
+   "alfaa-1",
+   "ms"
+  ],
+  [
+   "to find",
+   "lemma",
+   "alfaa-1",
+   "en"
+  ],
+  [
+   "dense gardens",
+   "lemma",
+   "alfaf-1",
+   "en"
+  ],
+  [
+   "kebun yang rimbun",
+   "lemma",
+   "alfaf-1",
+   "ms"
+  ],
+  [
+   "melalaikan",
+   "lemma",
+   "alha-1",
+   "ms"
+  ],
+  [
+   "to divert",
+   "lemma",
+   "alha-1",
+   "en"
+  ],
+  [
+   "menyimpang",
+   "lemma",
+   "alhada-1",
+   "ms"
+  ],
+  [
+   "to deviate",
+   "lemma",
+   "alhada-1",
+   "en"
+  ],
+  [
+   "menyertakan",
+   "lemma",
+   "alhaqa-1",
+   "ms"
+  ],
+  [
+   "to join; to unite",
+   "lemma",
+   "alhaqa-1",
+   "en"
+  ],
+  [
+   "mengah",
+   "lemma",
+   "alhatha-1",
+   "ms"
+  ],
+  [
+   "to pant",
+   "lemma",
+   "alhatha-1",
+   "en"
   ],
   [
    "maha tinggi",
@@ -6676,6 +30947,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "kesakitan",
+   "lemma",
+   "alima-2",
+   "ms"
+  ],
+  [
+   "to suffer pain",
+   "lemma",
+   "alima-2",
+   "en"
+  ],
+  [
+   "lofty; high",
+   "lemma",
+   "aliya-1",
+   "en"
+  ],
+  [
+   "tinggi",
+   "lemma",
+   "aliya-1",
+   "ms"
+  ],
+  [
    "who; which; that (masculine singular)",
    "lemma",
    "alladhi-1",
@@ -6700,6 +30995,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menyatukan",
+   "lemma",
+   "allafa-1",
+   "ms"
+  ],
+  [
+   "to unite; to compose",
+   "lemma",
+   "allafa-1",
+   "en"
+  ],
+  [
    "allah — the one god",
    "lemma",
    "allah-1",
@@ -6709,6 +31016,18 @@ const QM_SEARCH_INDEX = {
    "allah — tuhan yang maha esa",
    "lemma",
    "allah-1",
+   "ms"
+  ],
+  [
+   "all-knowing; knower of all",
+   "lemma",
+   "allam-1",
+   "en"
+  ],
+  [
+   "maha mengetahui",
+   "lemma",
+   "allam-1",
    "ms"
   ],
   [
@@ -6772,6 +31091,54 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "blindness",
+   "lemma",
+   "ama-2",
+   "en"
+  ],
+  [
+   "kebutaan",
+   "lemma",
+   "ama-2",
+   "ms"
+  ],
+  [
+   "a female slave",
+   "lemma",
+   "ama-3",
+   "en"
+  ],
+  [
+   "hamba perempuan",
+   "lemma",
+   "ama-3",
+   "ms"
+  ],
+  [
+   "tempoh; jarak masa",
+   "lemma",
+   "amad-1",
+   "ms"
+  ],
+  [
+   "term; span of time",
+   "lemma",
+   "amad-1",
+   "en"
+  ],
+  [
+   "pillars",
+   "lemma",
+   "amad-2",
+   "en"
+  ],
+  [
+   "tiang",
+   "lemma",
+   "amad-2",
+   "ms"
+  ],
+  [
    "membekalkan; memanjangkan",
    "lemma",
    "amadda-1",
@@ -6796,6 +31163,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "harapan",
+   "lemma",
+   "amal-2",
+   "ms"
+  ],
+  [
+   "hope; expectation",
+   "lemma",
+   "amal-2",
+   "en"
+  ],
+  [
+   "mendiktekan",
+   "lemma",
+   "amalla-1",
+   "ms"
+  ],
+  [
+   "to dictate",
+   "lemma",
+   "amalla-1",
+   "en"
+  ],
+  [
+   "di hadapan",
+   "lemma",
+   "amam-1",
+   "ms"
+  ],
+  [
+   "in front of",
+   "lemma",
+   "amam-1",
+   "en"
+  ],
+  [
+   "amanah",
+   "lemma",
+   "amana-1",
+   "ms"
+  ],
+  [
+   "trust; something entrusted",
+   "lemma",
+   "amana-1",
+   "en"
+  ],
+  [
+   "ketenangan",
+   "lemma",
+   "amana-2",
+   "ms"
+  ],
+  [
+   "security; calm",
+   "lemma",
+   "amana-2",
+   "en"
+  ],
+  [
    "memerintah",
    "lemma",
    "amara-1",
@@ -6805,6 +31232,30 @@ const QM_SEARCH_INDEX = {
    "to command; to order",
    "lemma",
    "amara-1",
+   "en"
+  ],
+  [
+   "memakmurkan",
+   "lemma",
+   "amara-2",
+   "ms"
+  ],
+  [
+   "to inhabit; to cultivate",
+   "lemma",
+   "amara-2",
+   "en"
+  ],
+  [
+   "lebih pahit",
+   "lemma",
+   "amarr-1",
+   "ms"
+  ],
+  [
+   "more bitter",
+   "lemma",
+   "amarr-1",
    "en"
   ],
   [
@@ -6818,6 +31269,42 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "amata-1",
    "en"
+  ],
+  [
+   "memberi tangguh",
+   "lemma",
+   "amhala-1",
+   "ms"
+  ],
+  [
+   "to give respite",
+   "lemma",
+   "amhala-1",
+   "en"
+  ],
+  [
+   "tercari-cari dalam kebingungan",
+   "lemma",
+   "amiha-1",
+   "ms"
+  ],
+  [
+   "to wander blindly; to be bewildered",
+   "lemma",
+   "amiha-1",
+   "en"
+  ],
+  [
+   "one who works; doer",
+   "lemma",
+   "amil-1",
+   "en"
+  ],
+  [
+   "pekerja; pelaku",
+   "lemma",
+   "amil-1",
+   "ms"
   ],
   [
    "melakukan; beramal",
@@ -6844,6 +31331,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "blind; blind of heart",
+   "lemma",
+   "amin-2",
+   "en"
+  ],
+  [
+   "buta hati",
+   "lemma",
+   "amin-2",
+   "ms"
+  ],
+  [
    "berasa aman; mempercayai",
    "lemma",
    "amina-1",
@@ -6854,6 +31353,78 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "amina-1",
    "en"
+  ],
+  [
+   "one who commands",
+   "lemma",
+   "amir-1",
+   "en"
+  ],
+  [
+   "yang memerintah",
+   "lemma",
+   "amir-1",
+   "ms"
+  ],
+  [
+   "menjadi buta",
+   "lemma",
+   "amiya-1",
+   "ms"
+  ],
+  [
+   "to be blind",
+   "lemma",
+   "amiya-1",
+   "en"
+  ],
+  [
+   "memberi kuasa ke atas",
+   "lemma",
+   "amkana-1",
+   "ms"
+  ],
+  [
+   "to give power over",
+   "lemma",
+   "amkana-1",
+   "en"
+  ],
+  [
+   "memberi tangguh",
+   "lemma",
+   "amla-1",
+   "ms"
+  ],
+  [
+   "to grant respite; to give time",
+   "lemma",
+   "amla-1",
+   "en"
+  ],
+  [
+   "memberi tangguh",
+   "lemma",
+   "amlaa-1",
+   "ms"
+  ],
+  [
+   "to give respite",
+   "lemma",
+   "amlaa-1",
+   "en"
+  ],
+  [
+   "one heading for",
+   "lemma",
+   "amm-1",
+   "en"
+  ],
+  [
+   "yang menuju",
+   "lemma",
+   "amm-1",
+   "ms"
   ],
   [
    "adapun",
@@ -6868,6 +31439,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a paternal aunt",
+   "lemma",
+   "amma-2",
+   "en"
+  ],
+  [
+   "emak saudara sebelah bapa",
+   "lemma",
+   "amma-2",
+   "ms"
+  ],
+  [
+   "menyamarkan",
+   "lemma",
+   "ammaa-1",
+   "ms"
+  ],
+  [
+   "to make obscure",
+   "lemma",
+   "ammaa-1",
+   "en"
+  ],
+  [
+   "memanjangkan umur",
+   "lemma",
+   "ammara-1",
+   "ms"
+  ],
+  [
+   "to grant a long life",
+   "lemma",
+   "ammara-1",
+   "en"
+  ],
+  [
+   "one who bids (to evil)",
+   "lemma",
+   "ammara-2",
+   "en"
+  ],
+  [
+   "yang menyuruh",
+   "lemma",
+   "ammara-2",
+   "ms"
+  ],
+  [
+   "keamanan",
+   "lemma",
+   "amn-1",
+   "ms"
+  ],
+  [
+   "security; safety",
+   "lemma",
+   "amn-1",
+   "en"
+  ],
+  [
+   "memancarkan (mani)",
+   "lemma",
+   "amna-1",
+   "ms"
+  ],
+  [
+   "to emit (seed)",
+   "lemma",
+   "amna-1",
+   "en"
+  ],
+  [
    "command; affair; matter",
    "lemma",
    "amr-1",
@@ -6877,6 +31520,102 @@ const QM_SEARCH_INDEX = {
    "perintah; urusan; perkara",
    "lemma",
    "amr-1",
+   "ms"
+  ],
+  [
+   "hayat",
+   "lemma",
+   "amr-2",
+   "ms"
+  ],
+  [
+   "life",
+   "lemma",
+   "amr-2",
+   "en"
+  ],
+  [
+   "a woman; a wife",
+   "lemma",
+   "amra-1",
+   "en"
+  ],
+  [
+   "perempuan; isteri",
+   "lemma",
+   "amra-1",
+   "ms"
+  ],
+  [
+   "semalam",
+   "lemma",
+   "ams-1",
+   "ms"
+  ],
+  [
+   "yesterday",
+   "lemma",
+   "ams-1",
+   "en"
+  ],
+  [
+   "berpetang",
+   "lemma",
+   "amsa-1",
+   "ms"
+  ],
+  [
+   "to be at evening",
+   "lemma",
+   "amsa-1",
+   "en"
+  ],
+  [
+   "memegang; menahan",
+   "lemma",
+   "amsaka-1",
+   "ms"
+  ],
+  [
+   "to hold; to withhold",
+   "lemma",
+   "amsaka-1",
+   "en"
+  ],
+  [
+   "ketidakrataan",
+   "lemma",
+   "amt-1",
+   "ms"
+  ],
+  [
+   "unevenness",
+   "lemma",
+   "amt-1",
+   "en"
+  ],
+  [
+   "menurunkan hujan",
+   "lemma",
+   "amtara-1",
+   "ms"
+  ],
+  [
+   "to send rain; to rain down",
+   "lemma",
+   "amtara-1",
+   "en"
+  ],
+  [
+   "most exemplary",
+   "lemma",
+   "amthal-1",
+   "en"
+  ],
+  [
+   "paling utama",
+   "lemma",
+   "amthal-1",
    "ms"
   ],
   [
@@ -6916,6 +31655,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "now",
+   "lemma",
+   "ana-2",
+   "en"
+  ],
+  [
+   "sekarang",
+   "lemma",
+   "ana-2",
+   "ms"
+  ],
+  [
+   "hours (of the night)",
+   "lemma",
+   "ana-3",
+   "en"
+  ],
+  [
+   "waktu-waktu (malam)",
+   "lemma",
+   "ana-3",
+   "ms"
+  ],
+  [
+   "kembali bertaubat",
+   "lemma",
+   "anaba-1",
+   "ms"
+  ],
+  [
+   "to turn in repentance; to turn back (to god)",
+   "lemma",
+   "anaba-1",
+   "en"
+  ],
+  [
+   "binatang ternakan",
+   "lemma",
+   "anam-1",
+   "ms"
+  ],
+  [
+   "cattle; livestock",
+   "lemma",
+   "anam-1",
+   "en"
+  ],
+  [
+   "binatang ternakan",
+   "lemma",
+   "anam-2",
+   "ms"
+  ],
+  [
+   "cattle",
+   "lemma",
+   "anam-2",
+   "en"
+  ],
+  [
+   "makhluk",
+   "lemma",
+   "anam-3",
+   "ms"
+  ],
+  [
+   "mankind (the creatures)",
+   "lemma",
+   "anam-3",
+   "en"
+  ],
+  [
    "mengurniakan nikmat ke atas",
    "lemma",
    "anama-1",
@@ -6925,6 +31736,126 @@ const QM_SEARCH_INDEX = {
    "to bestow favor/blessing upon",
    "lemma",
    "anama-1",
+   "en"
+  ],
+  [
+   "melihat; merasakan",
+   "lemma",
+   "anasa-1",
+   "ms"
+  ],
+  [
+   "to perceive; to sense",
+   "lemma",
+   "anasa-1",
+   "en"
+  ],
+  [
+   "hardship",
+   "lemma",
+   "anat-1",
+   "en"
+  ],
+  [
+   "kesusahan",
+   "lemma",
+   "anat-1",
+   "ms"
+  ],
+  [
+   "berita",
+   "lemma",
+   "anba-1",
+   "ms"
+  ],
+  [
+   "news",
+   "lemma",
+   "anba-1",
+   "en"
+  ],
+  [
+   "memberitahu",
+   "lemma",
+   "anba-2",
+   "ms"
+  ],
+  [
+   "to inform",
+   "lemma",
+   "anba-2",
+   "en"
+  ],
+  [
+   "memberitahu",
+   "lemma",
+   "anbaa-1",
+   "ms"
+  ],
+  [
+   "to inform",
+   "lemma",
+   "anbaa-1",
+   "en"
+  ],
+  [
+   "menumbuhkan",
+   "lemma",
+   "anbata-1",
+   "ms"
+  ],
+  [
+   "to cause to grow",
+   "lemma",
+   "anbata-1",
+   "en"
+  ],
+  [
+   "memberi amaran",
+   "lemma",
+   "andhara-1",
+   "ms"
+  ],
+  [
+   "to warn",
+   "lemma",
+   "andhara-1",
+   "en"
+  ],
+  [
+   "a nose",
+   "lemma",
+   "anf-1",
+   "en"
+  ],
+  [
+   "hidung",
+   "lemma",
+   "anf-1",
+   "ms"
+  ],
+  [
+   "bersurai",
+   "lemma",
+   "anfadda-1",
+   "ms"
+  ],
+  [
+   "to disperse",
+   "lemma",
+   "anfadda-1",
+   "en"
+  ],
+  [
+   "harta rampasan",
+   "lemma",
+   "anfal-1",
+   "ms"
+  ],
+  [
+   "spoils of war",
+   "lemma",
+   "anfal-1",
    "en"
   ],
   [
@@ -6938,6 +31869,138 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "anfaqa-1",
    "en"
+  ],
+  [
+   "degil",
+   "lemma",
+   "anid-1",
+   "ms"
+  ],
+  [
+   "obstinate",
+   "lemma",
+   "anid-1",
+   "en"
+  ],
+  [
+   "baru sebentar tadi",
+   "lemma",
+   "anif-1",
+   "ms"
+  ],
+  [
+   "just now",
+   "lemma",
+   "anif-1",
+   "en"
+  ],
+  [
+   "menghadapi kesukaran",
+   "lemma",
+   "anita-1",
+   "ms"
+  ],
+  [
+   "to be in difficulty",
+   "lemma",
+   "anita-1",
+   "en"
+  ],
+  [
+   "a vessel",
+   "lemma",
+   "aniya-1",
+   "en"
+  ],
+  [
+   "bekas",
+   "lemma",
+   "aniya-1",
+   "ms"
+  ],
+  [
+   "menyelamatkan",
+   "lemma",
+   "anjaa-1",
+   "ms"
+  ],
+  [
+   "to save; to deliver",
+   "lemma",
+   "anjaa-1",
+   "en"
+  ],
+  [
+   "labah-labah",
+   "lemma",
+   "ankabut-1",
+   "ms"
+  ],
+  [
+   "the spider",
+   "lemma",
+   "ankabut-1",
+   "en"
+  ],
+  [
+   "mengahwinkan",
+   "lemma",
+   "ankaha-1",
+   "ms"
+  ],
+  [
+   "to give in marriage",
+   "lemma",
+   "ankaha-1",
+   "en"
+  ],
+  [
+   "belenggu",
+   "lemma",
+   "ankal-1",
+   "ms"
+  ],
+  [
+   "fetters",
+   "lemma",
+   "ankal-1",
+   "en"
+  ],
+  [
+   "mengingkari",
+   "lemma",
+   "ankara-1",
+   "ms"
+  ],
+  [
+   "to deny; to disapprove",
+   "lemma",
+   "ankara-1",
+   "en"
+  ],
+  [
+   "benang yang terurai",
+   "lemma",
+   "ankath-1",
+   "ms"
+  ],
+  [
+   "unravelled strands",
+   "lemma",
+   "ankath-1",
+   "en"
+  ],
+  [
+   "a fingertip",
+   "lemma",
+   "anmila-1",
+   "en"
+  ],
+  [
+   "hujung jari",
+   "lemma",
+   "anmila-1",
+   "ms"
   ],
   [
    "bahawa (sesungguhnya)",
@@ -6964,6 +32027,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memberatkan",
+   "lemma",
+   "anqada-1",
+   "ms"
+  ],
+  [
+   "to weigh heavily on",
+   "lemma",
+   "anqada-1",
+   "en"
+  ],
+  [
+   "menyelamatkan",
+   "lemma",
+   "anqadha-1",
+   "ms"
+  ],
+  [
+   "to rescue",
+   "lemma",
+   "anqadha-1",
+   "en"
+  ],
+  [
+   "melupakan",
+   "lemma",
+   "ansaa-1",
+   "ms"
+  ],
+  [
+   "to cause to forget",
+   "lemma",
+   "ansaa-1",
+   "en"
+  ],
+  [
+   "diam mendengar",
+   "lemma",
+   "ansata-1",
+   "ms"
+  ],
+  [
+   "to listen in silence",
+   "lemma",
+   "ansata-1",
+   "en"
+  ],
+  [
    "menciptakan; menumbuhkan",
    "lemma",
    "ansha-1",
@@ -6976,6 +32087,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "membangkitkan",
+   "lemma",
+   "anshara-1",
+   "ms"
+  ],
+  [
+   "to raise to life",
+   "lemma",
+   "anshara-1",
+   "en"
+  ],
+  [
    "engkau; kamu (lelaki)",
    "lemma",
    "anta-1",
@@ -6985,6 +32108,18 @@ const QM_SEARCH_INDEX = {
    "you (masculine singular)",
    "lemma",
    "anta-1",
+   "en"
+  ],
+  [
+   "menjadikan boleh bercakap",
+   "lemma",
+   "antaqa-1",
+   "ms"
+  ],
+  [
+   "to cause to speak",
+   "lemma",
+   "antaqa-1",
    "en"
   ],
   [
@@ -7012,6 +32147,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memberi tangguh",
+   "lemma",
+   "anzara-1",
+   "ms"
+  ],
+  [
+   "to give respite",
+   "lemma",
+   "anzara-1",
+   "en"
+  ],
+  [
+   "menyusuli dengan",
+   "lemma",
+   "aqaba-1",
+   "ms"
+  ],
+  [
+   "to cause to be followed by",
+   "lemma",
+   "aqaba-1",
+   "en"
+  ],
+  [
+   "a steep ascent",
+   "lemma",
+   "aqaba-2",
+   "en"
+  ],
+  [
+   "jalan mendaki",
+   "lemma",
+   "aqaba-2",
+   "ms"
+  ],
+  [
+   "mengikat; berakad",
+   "lemma",
+   "aqada-1",
+   "ms"
+  ],
+  [
+   "to tie a knot; to make a pledge",
+   "lemma",
+   "aqada-1",
+   "en"
+  ],
+  [
    "memahami; berfikir",
    "lemma",
    "aqala-1",
@@ -7021,6 +32204,30 @@ const QM_SEARCH_INDEX = {
    "to understand; to reason",
    "lemma",
    "aqala-1",
+   "en"
+  ],
+  [
+   "fewer; less",
+   "lemma",
+   "aqall-1",
+   "en"
+  ],
+  [
+   "lebih sedikit",
+   "lemma",
+   "aqall-1",
+   "ms"
+  ],
+  [
+   "mengangkut",
+   "lemma",
+   "aqalla-1",
+   "ms"
+  ],
+  [
+   "to carry; to bear",
+   "lemma",
+   "aqalla-1",
    "en"
   ],
   [
@@ -7036,6 +32243,90 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menyembelih (unta)",
+   "lemma",
+   "aqara-1",
+   "ms"
+  ],
+  [
+   "to hamstring",
+   "lemma",
+   "aqara-1",
+   "en"
+  ],
+  [
+   "menetapkan",
+   "lemma",
+   "aqarra-1",
+   "ms"
+  ],
+  [
+   "to establish",
+   "lemma",
+   "aqarra-1",
+   "en"
+  ],
+  [
+   "mengakui",
+   "lemma",
+   "aqarra-2",
+   "ms"
+  ],
+  [
+   "to acknowledge",
+   "lemma",
+   "aqarra-2",
+   "en"
+  ],
+  [
+   "menghampiri; menghadap",
+   "lemma",
+   "aqbala-1",
+   "ms"
+  ],
+  [
+   "to approach; to turn towards",
+   "lemma",
+   "aqbala-1",
+   "en"
+  ],
+  [
+   "a bond; a contract",
+   "lemma",
+   "aqd-1",
+   "en"
+  ],
+  [
+   "akad; perjanjian",
+   "lemma",
+   "aqd-1",
+   "ms"
+  ],
+  [
+   "lebih terdahulu",
+   "lemma",
+   "aqdam-1",
+   "ms"
+  ],
+  [
+   "more ancient",
+   "lemma",
+   "aqdam-1",
+   "en"
+  ],
+  [
+   "heel; descendants",
+   "lemma",
+   "aqib-1",
+   "en"
+  ],
+  [
+   "tumit; keturunan",
+   "lemma",
+   "aqib-1",
+   "ms"
+  ],
+  [
    "end; outcome",
    "lemma",
    "aqiba-1",
@@ -7046,6 +32337,222 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "aqiba-1",
    "ms"
+  ],
+  [
+   "barren",
+   "lemma",
+   "aqim-1",
+   "en"
+  ],
+  [
+   "mandul",
+   "lemma",
+   "aqim-1",
+   "ms"
+  ],
+  [
+   "barren",
+   "lemma",
+   "aqir-1",
+   "en"
+  ],
+  [
+   "mandul",
+   "lemma",
+   "aqir-1",
+   "ms"
+  ],
+  [
+   "memberi harta",
+   "lemma",
+   "aqna-1",
+   "ms"
+  ],
+  [
+   "to give possessions",
+   "lemma",
+   "aqna-1",
+   "en"
+  ],
+  [
+   "berpaling ke belakang",
+   "lemma",
+   "aqqaba-1",
+   "ms"
+  ],
+  [
+   "to turn back; to look back",
+   "lemma",
+   "aqqaba-1",
+   "en"
+  ],
+  [
+   "lebih dekat; paling dekat",
+   "lemma",
+   "aqrab-1",
+   "ms"
+  ],
+  [
+   "nearer; nearest",
+   "lemma",
+   "aqrab-1",
+   "en"
+  ],
+  [
+   "memberi pinjaman",
+   "lemma",
+   "aqrada-1",
+   "ms"
+  ],
+  [
+   "to lend",
+   "lemma",
+   "aqrada-1",
+   "en"
+  ],
+  [
+   "the farthest",
+   "lemma",
+   "aqsa-1",
+   "en"
+  ],
+  [
+   "yang paling jauh",
+   "lemma",
+   "aqsa-1",
+   "ms"
+  ],
+  [
+   "bersumpah",
+   "lemma",
+   "aqsama-1",
+   "ms"
+  ],
+  [
+   "to swear an oath",
+   "lemma",
+   "aqsama-1",
+   "en"
+  ],
+  [
+   "berhenti",
+   "lemma",
+   "aqsara-1",
+   "ms"
+  ],
+  [
+   "to cease; to desist",
+   "lemma",
+   "aqsara-1",
+   "en"
+  ],
+  [
+   "lebih adil",
+   "lemma",
+   "aqsat-1",
+   "ms"
+  ],
+  [
+   "more just",
+   "lemma",
+   "aqsat-1",
+   "en"
+  ],
+  [
+   "berlaku adil",
+   "lemma",
+   "aqsata-1",
+   "ms"
+  ],
+  [
+   "to act justly",
+   "lemma",
+   "aqsata-1",
+   "en"
+  ],
+  [
+   "more upright; most straight",
+   "lemma",
+   "aqwam-1",
+   "en"
+  ],
+  [
+   "paling lurus",
+   "lemma",
+   "aqwam-1",
+   "ms"
+  ],
+  [
+   "memperlihatkan",
+   "lemma",
+   "ara-1",
+   "ms"
+  ],
+  [
+   "to show",
+   "lemma",
+   "ara-1",
+   "en"
+  ],
+  [
+   "barren open ground",
+   "lemma",
+   "ara-2",
+   "en"
+  ],
+  [
+   "tanah lapang yang kosong",
+   "lemma",
+   "ara-2",
+   "ms"
+  ],
+  [
+   "bedouin arabs; desert arabs",
+   "lemma",
+   "arab-1",
+   "en"
+  ],
+  [
+   "orang arab badwi",
+   "lemma",
+   "arab-1",
+   "ms"
+  ],
+  [
+   "arabic",
+   "lemma",
+   "arabiyy-1",
+   "en"
+  ],
+  [
+   "berbahasa arab",
+   "lemma",
+   "arabiyy-1",
+   "ms"
+  ],
+  [
+   "harta dunia; kesenangan sementara",
+   "lemma",
+   "arad-1",
+   "ms"
+  ],
+  [
+   "the goods of the world; transient gain",
+   "lemma",
+   "arad-1",
+   "en"
+  ],
+  [
+   "mempamerkan; mengemukakan",
+   "lemma",
+   "aradha-1",
+   "ms"
+  ],
+  [
+   "to present; to display",
+   "lemma",
+   "aradha-1",
+   "en"
   ],
   [
    "mengenali",
@@ -7060,6 +32567,90 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "arafah",
+   "lemma",
+   "arafat-1",
+   "ms"
+  ],
+  [
+   "arafat",
+   "lemma",
+   "arafat-1",
+   "en"
+  ],
+  [
+   "lame",
+   "lemma",
+   "araj-1",
+   "en"
+  ],
+  [
+   "tempang",
+   "lemma",
+   "araj-1",
+   "ms"
+  ],
+  [
+   "naik",
+   "lemma",
+   "araja-1",
+   "ms"
+  ],
+  [
+   "to ascend",
+   "lemma",
+   "araja-1",
+   "en"
+  ],
+  [
+   "membina para; membina",
+   "lemma",
+   "arasha-1",
+   "ms"
+  ],
+  [
+   "to build a trellis; to construct",
+   "lemma",
+   "arasha-1",
+   "en"
+  ],
+  [
+   "menjadi lebih banyak",
+   "lemma",
+   "arba-1",
+   "ms"
+  ],
+  [
+   "to be more; to grow greater",
+   "lemma",
+   "arba-1",
+   "en"
+  ],
+  [
+   "empat",
+   "lemma",
+   "arbaa-1",
+   "ms"
+  ],
+  [
+   "four",
+   "lemma",
+   "arbaa-1",
+   "en"
+  ],
+  [
+   "empat puluh",
+   "lemma",
+   "arbaun-1",
+   "ms"
+  ],
+  [
+   "forty",
+   "lemma",
+   "arbaun-1",
+   "en"
+  ],
+  [
    "bumi; tanah; daratan",
    "lemma",
    "ard-1",
@@ -7069,6 +32660,174 @@ const QM_SEARCH_INDEX = {
    "earth; land; ground",
    "lemma",
    "ard-1",
+   "en"
+  ],
+  [
+   "meredakan",
+   "lemma",
+   "arda-1",
+   "ms"
+  ],
+  [
+   "to please",
+   "lemma",
+   "arda-1",
+   "en"
+  ],
+  [
+   "membinasakan",
+   "lemma",
+   "ardaa-1",
+   "ms"
+  ],
+  [
+   "to ruin; to bring to perdition",
+   "lemma",
+   "ardaa-1",
+   "en"
+  ],
+  [
+   "menyusukan",
+   "lemma",
+   "ardaa-2",
+   "ms"
+  ],
+  [
+   "to suckle; to nurse",
+   "lemma",
+   "ardaa-2",
+   "en"
+  ],
+  [
+   "breadth",
+   "lemma",
+   "ardh-2",
+   "en"
+  ],
+  [
+   "lebar",
+   "lemma",
+   "ardh-2",
+   "ms"
+  ],
+  [
+   "the lowest; the most abject",
+   "lemma",
+   "ardhal-1",
+   "en"
+  ],
+  [
+   "yang paling hina",
+   "lemma",
+   "ardhal-1",
+   "ms"
+  ],
+  [
+   "most merciful",
+   "lemma",
+   "arham-1",
+   "en"
+  ],
+  [
+   "paling penyayang",
+   "lemma",
+   "arham-1",
+   "ms"
+  ],
+  [
+   "membebankan",
+   "lemma",
+   "arhaqa-1",
+   "ms"
+  ],
+  [
+   "to impose a burden on",
+   "lemma",
+   "arhaqa-1",
+   "en"
+  ],
+  [
+   "a cloud spreading across the sky",
+   "lemma",
+   "arid-1",
+   "en"
+  ],
+  [
+   "awan yang terbentang",
+   "lemma",
+   "arid-1",
+   "ms"
+  ],
+  [
+   "broad; wide",
+   "lemma",
+   "aridh-1",
+   "en"
+  ],
+  [
+   "lebar",
+   "lemma",
+   "aridh-1",
+   "ms"
+  ],
+  [
+   "couches; raised seats",
+   "lemma",
+   "arika-1",
+   "en"
+  ],
+  [
+   "dipan; tempat bersandar",
+   "lemma",
+   "arika-1",
+   "ms"
+  ],
+  [
+   "menangguhkan",
+   "lemma",
+   "arjaa-1",
+   "ms"
+  ],
+  [
+   "to defer; to put off",
+   "lemma",
+   "arjaa-1",
+   "en"
+  ],
+  [
+   "menjatuhkan semula",
+   "lemma",
+   "arkasa-1",
+   "ms"
+  ],
+  [
+   "to overturn; to cast back",
+   "lemma",
+   "arkasa-1",
+   "en"
+  ],
+  [
+   "memperkenalkan",
+   "lemma",
+   "arrafa-1",
+   "ms"
+  ],
+  [
+   "to make known",
+   "lemma",
+   "arrafa-1",
+   "en"
+  ],
+  [
+   "menegakkan",
+   "lemma",
+   "arsaa-1",
+   "ms"
+  ],
+  [
+   "to anchor firmly",
+   "lemma",
+   "arsaa-1",
    "en"
   ],
   [
@@ -7108,6 +32867,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "staff; rod",
+   "lemma",
+   "asa-2",
+   "en"
+  ],
+  [
+   "tongkat",
+   "lemma",
+   "asa-2",
+   "ms"
+  ],
+  [
+   "menderhaka",
+   "lemma",
+   "asaa-1",
+   "ms"
+  ],
+  [
+   "to disobey",
+   "lemma",
+   "asaa-1",
+   "en"
+  ],
+  [
+   "berdukacita",
+   "lemma",
+   "asaa-2",
+   "ms"
+  ],
+  [
+   "to grieve",
+   "lemma",
+   "asaa-2",
+   "en"
+  ],
+  [
+   "melakukan kejahatan",
+   "lemma",
+   "asaa-3",
+   "ms"
+  ],
+  [
+   "to do evil",
+   "lemma",
+   "asaa-3",
+   "en"
+  ],
+  [
    "menimpa; mengenai",
    "lemma",
    "asaaba-1",
@@ -7117,6 +32924,258 @@ const QM_SEARCH_INDEX = {
    "to strike; to befall",
    "lemma",
    "asaaba-1",
+   "en"
+  ],
+  [
+   "dukacita",
+   "lemma",
+   "asaf-1",
+   "ms"
+  ],
+  [
+   "grief; sorrow",
+   "lemma",
+   "asaf-1",
+   "en"
+  ],
+  [
+   "memurkakan",
+   "lemma",
+   "asafa-1",
+   "ms"
+  ],
+  [
+   "to anger; to provoke",
+   "lemma",
+   "asafa-1",
+   "en"
+  ],
+  [
+   "melindungi",
+   "lemma",
+   "asama-1",
+   "ms"
+  ],
+  [
+   "to protect",
+   "lemma",
+   "asama-1",
+   "en"
+  ],
+  [
+   "menggembala",
+   "lemma",
+   "asama-2",
+   "ms"
+  ],
+  [
+   "to pasture (animals)",
+   "lemma",
+   "asama-2",
+   "en"
+  ],
+  [
+   "menawan",
+   "lemma",
+   "asara-1",
+   "ms"
+  ],
+  [
+   "to take captive",
+   "lemma",
+   "asara-1",
+   "en"
+  ],
+  [
+   "memeras",
+   "lemma",
+   "asara-2",
+   "ms"
+  ],
+  [
+   "to press",
+   "lemma",
+   "asara-2",
+   "en"
+  ],
+  [
+   "menyembunyikan; merahsiakan",
+   "lemma",
+   "asarra-1",
+   "ms"
+  ],
+  [
+   "to conceal; to keep secret",
+   "lemma",
+   "asarra-1",
+   "en"
+  ],
+  [
+   "berkeras (dalam)",
+   "lemma",
+   "asarra-2",
+   "ms"
+  ],
+  [
+   "to persist (in)",
+   "lemma",
+   "asarra-2",
+   "en"
+  ],
+  [
+   "dongeng; cerita lama",
+   "lemma",
+   "asatir-1",
+   "ms"
+  ],
+  [
+   "tales; legends",
+   "lemma",
+   "asatir-1",
+   "en"
+  ],
+  [
+   "menjadi; berpagi-pagi",
+   "lemma",
+   "asbaha-1",
+   "ms"
+  ],
+  [
+   "to become; to reach the morning",
+   "lemma",
+   "asbaha-1",
+   "en"
+  ],
+  [
+   "alangkah sabarnya",
+   "lemma",
+   "asbara-1",
+   "ms"
+  ],
+  [
+   "to make bear; how patient",
+   "lemma",
+   "asbara-1",
+   "en"
+  ],
+  [
+   "a finger",
+   "lemma",
+   "asbi-1",
+   "en"
+  ],
+  [
+   "jari",
+   "lemma",
+   "asbi-1",
+   "ms"
+  ],
+  [
+   "lebih benar",
+   "lemma",
+   "asdaq-1",
+   "ms"
+  ],
+  [
+   "more truthful",
+   "lemma",
+   "asdaq-1",
+   "en"
+  ],
+  [
+   "menghantar pulang",
+   "lemma",
+   "asdara-1",
+   "ms"
+  ],
+  [
+   "to send back",
+   "lemma",
+   "asdara-1",
+   "en"
+  ],
+  [
+   "chaff; husks",
+   "lemma",
+   "asf-1",
+   "en"
+  ],
+  [
+   "sekam",
+   "lemma",
+   "asf-1",
+   "ms"
+  ],
+  [
+   "memilih",
+   "lemma",
+   "asfa-1",
+   "ms"
+  ],
+  [
+   "to prefer; to choose for oneself",
+   "lemma",
+   "asfa-1",
+   "en"
+  ],
+  [
+   "belenggu",
+   "lemma",
+   "asfad-1",
+   "ms"
+  ],
+  [
+   "fetters",
+   "lemma",
+   "asfad-1",
+   "en"
+  ],
+  [
+   "lebih bawah; paling bawah",
+   "lemma",
+   "asfal-1",
+   "ms"
+  ],
+  [
+   "lower; lowest",
+   "lemma",
+   "asfal-1",
+   "en"
+  ],
+  [
+   "bercahaya",
+   "lemma",
+   "asfara-1",
+   "ms"
+  ],
+  [
+   "to brighten",
+   "lemma",
+   "asfara-1",
+   "en"
+  ],
+  [
+   "lebih kecil",
+   "lemma",
+   "asghar-1",
+   "ms"
+  ],
+  [
+   "smaller",
+   "lemma",
+   "asghar-1",
+   "en"
+  ],
+  [
+   "berpura-pura buta",
+   "lemma",
+   "asha-1",
+   "ms"
+  ],
+  [
+   "to turn a blind eye",
+   "lemma",
+   "asha-1",
    "en"
   ],
   [
@@ -7132,6 +33191,198 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "harder; more severe",
+   "lemma",
+   "ashaqq-1",
+   "en"
+  ],
+  [
+   "lebih berat",
+   "lemma",
+   "ashaqq-1",
+   "ms"
+  ],
+  [
+   "memberi isyarat",
+   "lemma",
+   "ashara-1",
+   "ms"
+  ],
+  [
+   "to point; to signal",
+   "lemma",
+   "ashara-1",
+   "en"
+  ],
+  [
+   "memberitahu",
+   "lemma",
+   "ashara-2",
+   "ms"
+  ],
+  [
+   "to make aware",
+   "lemma",
+   "ashara-2",
+   "en"
+  ],
+  [
+   "membinasakan",
+   "lemma",
+   "ashata-1",
+   "ms"
+  ],
+  [
+   "to destroy utterly",
+   "lemma",
+   "ashata-1",
+   "en"
+  ],
+  [
+   "bimbang",
+   "lemma",
+   "ashfaqa-1",
+   "ms"
+  ],
+  [
+   "to fear; to be apprehensive",
+   "lemma",
+   "ashfaqa-1",
+   "en"
+  ],
+  [
+   "mengambil sebagai saksi",
+   "lemma",
+   "ashhada-1",
+   "ms"
+  ],
+  [
+   "to call to witness",
+   "lemma",
+   "ashhada-1",
+   "en"
+  ],
+  [
+   "hard on; firm",
+   "lemma",
+   "ashidda-1",
+   "en"
+  ],
+  [
+   "tegas",
+   "lemma",
+   "ashidda-1",
+   "ms"
+  ],
+  [
+   "kedekut",
+   "lemma",
+   "ashihha-1",
+   "ms"
+  ],
+  [
+   "stingy; niggardly",
+   "lemma",
+   "ashihha-1",
+   "en"
+  ],
+  [
+   "bongkak",
+   "lemma",
+   "ashir-1",
+   "ms"
+  ],
+  [
+   "insolent; arrogant",
+   "lemma",
+   "ashir-1",
+   "en"
+  ],
+  [
+   "a companion",
+   "lemma",
+   "ashir-2",
+   "en"
+  ],
+  [
+   "teman rapat",
+   "lemma",
+   "ashir-2",
+   "ms"
+  ],
+  [
+   "kaum kerabat",
+   "lemma",
+   "ashira-1",
+   "ms"
+  ],
+  [
+   "one's clan",
+   "lemma",
+   "ashira-1",
+   "en"
+  ],
+  [
+   "evening",
+   "lemma",
+   "ashiyy-1",
+   "en"
+  ],
+  [
+   "petang",
+   "lemma",
+   "ashiyy-1",
+   "ms"
+  ],
+  [
+   "petang",
+   "lemma",
+   "ashiyya-1",
+   "ms"
+  ],
+  [
+   "the evening",
+   "lemma",
+   "ashiyya-1",
+   "en"
+  ],
+  [
+   "mengadu",
+   "lemma",
+   "ashku-1",
+   "ms"
+  ],
+  [
+   "to complain",
+   "lemma",
+   "ashku-1",
+   "en"
+  ],
+  [
+   "most wretched",
+   "lemma",
+   "ashqa-1",
+   "en"
+  ],
+  [
+   "paling celaka",
+   "lemma",
+   "ashqa-1",
+   "ms"
+  ],
+  [
+   "sepuluh",
+   "lemma",
+   "ashr-1",
+   "ms"
+  ],
+  [
+   "ten",
+   "lemma",
+   "ashr-1",
+   "en"
+  ],
+  [
    "menyekutukan",
    "lemma",
    "ashraka-1",
@@ -7141,6 +33392,222 @@ const QM_SEARCH_INDEX = {
    "to associate (partners with god)",
    "lemma",
    "ashraka-1",
+   "en"
+  ],
+  [
+   "bersinar",
+   "lemma",
+   "ashraqa-1",
+   "ms"
+  ],
+  [
+   "to shine",
+   "lemma",
+   "ashraqa-1",
+   "en"
+  ],
+  [
+   "orang-orang jahat",
+   "lemma",
+   "ashrar-1",
+   "ms"
+  ],
+  [
+   "the evil ones",
+   "lemma",
+   "ashrar-1",
+   "en"
+  ],
+  [
+   "berpecah-pecah",
+   "lemma",
+   "ashtat-1",
+   "ms"
+  ],
+  [
+   "in separate groups",
+   "lemma",
+   "ashtat-1",
+   "en"
+  ],
+  [
+   "full strength; maturity",
+   "lemma",
+   "ashudd-1",
+   "en"
+  ],
+  [
+   "kekuatan penuh; kematangan",
+   "lemma",
+   "ashudd-1",
+   "ms"
+  ],
+  [
+   "dahsyat",
+   "lemma",
+   "asib-1",
+   "ms"
+  ],
+  [
+   "dire; distressful",
+   "lemma",
+   "asib-1",
+   "en"
+  ],
+  [
+   "kencang",
+   "lemma",
+   "asif-1",
+   "ms"
+  ],
+  [
+   "violent (wind)",
+   "lemma",
+   "asif-1",
+   "en"
+  ],
+  [
+   "grieved; angry",
+   "lemma",
+   "asif-2",
+   "en"
+  ],
+  [
+   "sedih; murka",
+   "lemma",
+   "asif-2",
+   "ms"
+  ],
+  [
+   "evening",
+   "lemma",
+   "asil-1",
+   "en"
+  ],
+  [
+   "petang",
+   "lemma",
+   "asil-1",
+   "ms"
+  ],
+  [
+   "one who protects",
+   "lemma",
+   "asim-1",
+   "en"
+  ],
+  [
+   "pelindung",
+   "lemma",
+   "asim-1",
+   "ms"
+  ],
+  [
+   "busuk",
+   "lemma",
+   "asin-1",
+   "ms"
+  ],
+  [
+   "stagnant; foul",
+   "lemma",
+   "asin-1",
+   "en"
+  ],
+  [
+   "a captive",
+   "lemma",
+   "asir-1",
+   "en"
+  ],
+  [
+   "tawanan",
+   "lemma",
+   "asir-1",
+   "ms"
+  ],
+  [
+   "hard; difficult",
+   "lemma",
+   "asir-2",
+   "en"
+  ],
+  [
+   "sukar",
+   "lemma",
+   "asir-2",
+   "ms"
+  ],
+  [
+   "bersedih",
+   "lemma",
+   "asiya-1",
+   "ms"
+  ],
+  [
+   "to grieve",
+   "lemma",
+   "asiya-1",
+   "en"
+  ],
+  [
+   "derhaka",
+   "lemma",
+   "asiyy-1",
+   "ms"
+  ],
+  [
+   "disobedient; rebellious",
+   "lemma",
+   "asiyy-1",
+   "en"
+  ],
+  [
+   "menempatkan",
+   "lemma",
+   "askana-1",
+   "ms"
+  ],
+  [
+   "to settle (someone) in a dwelling",
+   "lemma",
+   "askana-1",
+   "en"
+  ],
+  [
+   "memurkakan",
+   "lemma",
+   "askhata-1",
+   "ms"
+  ],
+  [
+   "to displease",
+   "lemma",
+   "askhata-1",
+   "en"
+  ],
+  [
+   "akar; asal",
+   "lemma",
+   "asl-1",
+   "ms"
+  ],
+  [
+   "root; origin",
+   "lemma",
+   "asl-1",
+   "en"
+  ],
+  [
+   "memasukkan ke dalam api",
+   "lemma",
+   "asla-1",
+   "ms"
+  ],
+  [
+   "to cause to burn",
+   "lemma",
+   "asla-1",
    "en"
   ],
   [
@@ -7168,6 +33635,210 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "nama-nama",
+   "lemma",
+   "asma-1",
+   "ms"
+  ],
+  [
+   "names",
+   "lemma",
+   "asma-1",
+   "en"
+  ],
+  [
+   "memperdengarkan",
+   "lemma",
+   "asmaa-1",
+   "ms"
+  ],
+  [
+   "to make hear",
+   "lemma",
+   "asmaa-1",
+   "en"
+  ],
+  [
+   "menggemukkan",
+   "lemma",
+   "asmana-1",
+   "ms"
+  ],
+  [
+   "to fatten",
+   "lemma",
+   "asmana-1",
+   "en"
+  ],
+  [
+   "memberi minum kepada",
+   "lemma",
+   "asqaa-1",
+   "ms"
+  ],
+  [
+   "to cause to drink",
+   "lemma",
+   "asqaa-1",
+   "en"
+  ],
+  [
+   "menjatuhkan",
+   "lemma",
+   "asqata-1",
+   "ms"
+  ],
+  [
+   "to cause to fall",
+   "lemma",
+   "asqata-1",
+   "en"
+  ],
+  [
+   "binaan; ikatan",
+   "lemma",
+   "asr-1",
+   "ms"
+  ],
+  [
+   "build; binding",
+   "lemma",
+   "asr-1",
+   "en"
+  ],
+  [
+   "masa; waktu petang",
+   "lemma",
+   "asr-2",
+   "ms"
+  ],
+  [
+   "time; the afternoon",
+   "lemma",
+   "asr-2",
+   "en"
+  ],
+  [
+   "berjalan pada waktu malam",
+   "lemma",
+   "asra-1",
+   "ms"
+  ],
+  [
+   "to travel by night",
+   "lemma",
+   "asra-1",
+   "en"
+  ],
+  [
+   "paling cepat",
+   "lemma",
+   "asraa-1",
+   "ms"
+  ],
+  [
+   "swiftest",
+   "lemma",
+   "asraa-1",
+   "en"
+  ],
+  [
+   "melampau",
+   "lemma",
+   "asrafa-1",
+   "ms"
+  ],
+  [
+   "to be excessive",
+   "lemma",
+   "asrafa-1",
+   "en"
+  ],
+  [
+   "menyembunyikan",
+   "lemma",
+   "asrara-1",
+   "ms"
+  ],
+  [
+   "to conceal",
+   "lemma",
+   "asrara-1",
+   "en"
+  ],
+  [
+   "mengasaskan",
+   "lemma",
+   "assasa-1",
+   "ms"
+  ],
+  [
+   "to found",
+   "lemma",
+   "assasa-1",
+   "en"
+  ],
+  [
+   "paling buruk",
+   "lemma",
+   "aswa-1",
+   "ms"
+  ],
+  [
+   "worst; more evil",
+   "lemma",
+   "aswa-1",
+   "en"
+  ],
+  [
+   "black",
+   "lemma",
+   "aswad-1",
+   "en"
+  ],
+  [
+   "hitam",
+   "lemma",
+   "aswad-1",
+   "ms"
+  ],
+  [
+   "melampaui batas",
+   "lemma",
+   "ata-3",
+   "ms"
+  ],
+  [
+   "to be insolent",
+   "lemma",
+   "ata-3",
+   "en"
+  ],
+  [
+   "a gift",
+   "lemma",
+   "ata-4",
+   "en"
+  ],
+  [
+   "pemberian",
+   "lemma",
+   "ata-4",
+   "ms"
+  ],
+  [
+   "memberi",
+   "lemma",
+   "ata-5",
+   "ms"
+  ],
+  [
+   "to give",
+   "lemma",
+   "ata-5",
+   "en"
+  ],
+  [
    "datang; tiba",
    "lemma",
    "ataa-1",
@@ -7192,6 +33863,354 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menyediakan",
+   "lemma",
+   "atada-1",
+   "ms"
+  ],
+  [
+   "to prepare; to make ready",
+   "lemma",
+   "atada-1",
+   "en"
+  ],
+  [
+   "memberi makan",
+   "lemma",
+   "atama-1",
+   "ms"
+  ],
+  [
+   "to feed",
+   "lemma",
+   "atama-1",
+   "en"
+  ],
+  [
+   "menyempurnakan",
+   "lemma",
+   "atamma-1",
+   "ms"
+  ],
+  [
+   "to complete; to fulfil",
+   "lemma",
+   "atamma-1",
+   "en"
+  ],
+  [
+   "menyusuli",
+   "lemma",
+   "atbaa-1",
+   "ms"
+  ],
+  [
+   "to follow up; to cause to follow",
+   "lemma",
+   "atbaa-1",
+   "en"
+  ],
+  [
+   "menyebabkan melampaui batas",
+   "lemma",
+   "atgha-1",
+   "ms"
+  ],
+  [
+   "to cause to transgress",
+   "lemma",
+   "atgha-1",
+   "en"
+  ],
+  [
+   "berbuat kerosakan",
+   "lemma",
+   "atha-1",
+   "ms"
+  ],
+  [
+   "to act corruptly; to cause mischief",
+   "lemma",
+   "atha-1",
+   "en"
+  ],
+  [
+   "memberi balasan",
+   "lemma",
+   "athaba-1",
+   "ms"
+  ],
+  [
+   "to reward",
+   "lemma",
+   "athaba-1",
+   "en"
+  ],
+  [
+   "a penalty for sin",
+   "lemma",
+   "atham-1",
+   "en"
+  ],
+  [
+   "balasan dosa",
+   "lemma",
+   "atham-1",
+   "ms"
+  ],
+  [
+   "kesan; jejak",
+   "lemma",
+   "athar-1",
+   "ms"
+  ],
+  [
+   "trace; footprint",
+   "lemma",
+   "athar-1",
+   "en"
+  ],
+  [
+   "lebih suci",
+   "lemma",
+   "athar-2",
+   "ms"
+  ],
+  [
+   "purer; cleaner",
+   "lemma",
+   "athar-2",
+   "en"
+  ],
+  [
+   "mengutamakan",
+   "lemma",
+   "athara-1",
+   "ms"
+  ],
+  [
+   "to prefer",
+   "lemma",
+   "athara-1",
+   "en"
+  ],
+  [
+   "membangkitkan",
+   "lemma",
+   "athara-2",
+   "ms"
+  ],
+  [
+   "to stir up",
+   "lemma",
+   "athara-2",
+   "en"
+  ],
+  [
+   "a vestige (of knowledge)",
+   "lemma",
+   "athara-3",
+   "en"
+  ],
+  [
+   "sisa (ilmu)",
+   "lemma",
+   "athara-3",
+   "ms"
+  ],
+  [
+   "menyebabkan ditemui",
+   "lemma",
+   "athara-4",
+   "ms"
+  ],
+  [
+   "to cause (people) to discover",
+   "lemma",
+   "athara-4",
+   "en"
+  ],
+  [
+   "menggerakkan",
+   "lemma",
+   "athara-5",
+   "ms"
+  ],
+  [
+   "to stir up",
+   "lemma",
+   "athara-5",
+   "en"
+  ],
+  [
+   "mengutamakan",
+   "lemma",
+   "athara-6",
+   "ms"
+  ],
+  [
+   "to prefer",
+   "lemma",
+   "athara-6",
+   "en"
+  ],
+  [
+   "furnishings",
+   "lemma",
+   "athath-1",
+   "en"
+  ],
+  [
+   "perabot",
+   "lemma",
+   "athath-1",
+   "ms"
+  ],
+  [
+   "menahan; menetapkan",
+   "lemma",
+   "athbata-1",
+   "ms"
+  ],
+  [
+   "to confine; to fix",
+   "lemma",
+   "athbata-1",
+   "en"
+  ],
+  [
+   "pendosa",
+   "lemma",
+   "athim-1",
+   "ms"
+  ],
+  [
+   "sinful; one who sins",
+   "lemma",
+   "athim-1",
+   "en"
+  ],
+  [
+   "berdosa",
+   "lemma",
+   "athim-2",
+   "ms"
+  ],
+  [
+   "sinful",
+   "lemma",
+   "athim-2",
+   "en"
+  ],
+  [
+   "berbuah",
+   "lemma",
+   "athmara-1",
+   "ms"
+  ],
+  [
+   "to bear fruit",
+   "lemma",
+   "athmara-1",
+   "en"
+  ],
+  [
+   "menjadi berat",
+   "lemma",
+   "athqala-1",
+   "ms"
+  ],
+  [
+   "to become heavy",
+   "lemma",
+   "athqala-1",
+   "en"
+  ],
+  [
+   "ready; at hand",
+   "lemma",
+   "atid-1",
+   "en"
+  ],
+  [
+   "sedia",
+   "lemma",
+   "atid-1",
+   "ms"
+  ],
+  [
+   "ancient (the ancient house)",
+   "lemma",
+   "atiq-1",
+   "en"
+  ],
+  [
+   "purba",
+   "lemma",
+   "atiq-1",
+   "ms"
+  ],
+  [
+   "akan datang",
+   "lemma",
+   "atiya-1",
+   "ms"
+  ],
+  [
+   "coming; sure to come",
+   "lemma",
+   "atiya-1",
+   "en"
+  ],
+  [
+   "fierce; violent",
+   "lemma",
+   "atiya-2",
+   "en"
+  ],
+  [
+   "ganas",
+   "lemma",
+   "atiya-2",
+   "ms"
+  ],
+  [
+   "memberitahu",
+   "lemma",
+   "atlaa-1",
+   "ms"
+  ],
+  [
+   "to inform; to disclose",
+   "lemma",
+   "atlaa-1",
+   "en"
+  ],
+  [
+   "most god-fearing",
+   "lemma",
+   "atqa-1",
+   "en"
+  ],
+  [
+   "paling bertakwa",
+   "lemma",
+   "atqa-1",
+   "ms"
+  ],
+  [
+   "menyempurnakan",
+   "lemma",
+   "atqana-1",
+   "ms"
+  ],
+  [
+   "to perfect",
+   "lemma",
+   "atqana-1",
+   "en"
+  ],
+  [
    "atau",
    "lemma",
    "aw-1",
@@ -7201,6 +34220,126 @@ const QM_SEARCH_INDEX = {
    "or",
    "lemma",
    "aw-1",
+   "en"
+  ],
+  [
+   "menyimpan",
+   "lemma",
+   "awa-3",
+   "ms"
+  ],
+  [
+   "to hoard",
+   "lemma",
+   "awa-3",
+   "en"
+  ],
+  [
+   "berlindung",
+   "lemma",
+   "awaa-2",
+   "ms"
+  ],
+  [
+   "to take refuge",
+   "lemma",
+   "awaa-2",
+   "en"
+  ],
+  [
+   "mengancam",
+   "lemma",
+   "awada-1",
+   "ms"
+  ],
+  [
+   "to threaten",
+   "lemma",
+   "awada-1",
+   "en"
+  ],
+  [
+   "hairan",
+   "lemma",
+   "awajibtum-1",
+   "ms"
+  ],
+  [
+   "to marvel",
+   "lemma",
+   "awajibtum-1",
+   "en"
+  ],
+  [
+   "middle-aged",
+   "lemma",
+   "awan-1",
+   "en"
+  ],
+  [
+   "pertengahan umur",
+   "lemma",
+   "awan-1",
+   "ms"
+  ],
+  [
+   "membinasakan",
+   "lemma",
+   "awbaqa-1",
+   "ms"
+  ],
+  [
+   "to destroy",
+   "lemma",
+   "awbaqa-1",
+   "en"
+  ],
+  [
+   "bergegas (menyebarkan fitnah)",
+   "lemma",
+   "awdaa-1",
+   "ms"
+  ],
+  [
+   "to hasten about (spreading discord)",
+   "lemma",
+   "awdaa-1",
+   "en"
+  ],
+  [
+   "menunaikan; memenuhi",
+   "lemma",
+   "awfa-1",
+   "ms"
+  ],
+  [
+   "to fulfil; to pay in full",
+   "lemma",
+   "awfa-1",
+   "en"
+  ],
+  [
+   "lebih menepati",
+   "lemma",
+   "awfa-2",
+   "ms"
+  ],
+  [
+   "more faithful",
+   "lemma",
+   "awfa-2",
+   "en"
+  ],
+  [
+   "bergegas",
+   "lemma",
+   "awfada-1",
+   "ms"
+  ],
+  [
+   "to rush (towards)",
+   "lemma",
+   "awfada-1",
    "en"
   ],
   [
@@ -7216,6 +34355,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "paling lemah",
+   "lemma",
+   "awhan-1",
+   "ms"
+  ],
+  [
+   "weakest",
+   "lemma",
+   "awhan-1",
+   "en"
+  ],
+  [
+   "merasai (takut)",
+   "lemma",
+   "awjasa-1",
+   "ms"
+  ],
+  [
+   "to conceive (fear)",
+   "lemma",
+   "awjasa-1",
+   "en"
+  ],
+  [
+   "lebih layak; lebih dekat",
+   "lemma",
+   "awla-1",
+   "ms"
+  ],
+  [
+   "more fitting; closer; nearer",
+   "lemma",
+   "awla-1",
+   "en"
+  ],
+  [
+   "memasukkan",
+   "lemma",
+   "awlaja-1",
+   "ms"
+  ],
+  [
+   "to cause to enter; to merge",
+   "lemma",
+   "awlaja-1",
+   "en"
+  ],
+  [
    "guardian; ally; friend",
    "lemma",
    "awliya-1",
@@ -7226,6 +34413,174 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "awliya-1",
    "ms"
+  ],
+  [
+   "menimbulkan",
+   "lemma",
+   "awqaa-1",
+   "ms"
+  ],
+  [
+   "to cause to fall; to sow (enmity)",
+   "lemma",
+   "awqaa-1",
+   "en"
+  ],
+  [
+   "menyalakan (api)",
+   "lemma",
+   "awqada-1",
+   "ms"
+  ],
+  [
+   "to kindle (a fire)",
+   "lemma",
+   "awqada-1",
+   "en"
+  ],
+  [
+   "rezeki",
+   "lemma",
+   "awqat-1",
+   "ms"
+  ],
+  [
+   "sustenance",
+   "lemma",
+   "awqat-1",
+   "en"
+  ],
+  [
+   "exposed; vulnerable",
+   "lemma",
+   "awra-1",
+   "en"
+  ],
+  [
+   "terdedah",
+   "lemma",
+   "awra-1",
+   "ms"
+  ],
+  [
+   "menyalakan api",
+   "lemma",
+   "awra-2",
+   "ms"
+  ],
+  [
+   "to strike fire",
+   "lemma",
+   "awra-2",
+   "en"
+  ],
+  [
+   "membawa ke tempat air",
+   "lemma",
+   "awrada-1",
+   "ms"
+  ],
+  [
+   "to bring to the water; to lead to",
+   "lemma",
+   "awrada-1",
+   "en"
+  ],
+  [
+   "mewariskan",
+   "lemma",
+   "awratha-1",
+   "ms"
+  ],
+  [
+   "to cause to inherit",
+   "lemma",
+   "awratha-1",
+   "en"
+  ],
+  [
+   "berwasiat",
+   "lemma",
+   "awsa-1",
+   "ms"
+  ],
+  [
+   "to enjoin",
+   "lemma",
+   "awsa-1",
+   "en"
+  ],
+  [
+   "mewasiatkan",
+   "lemma",
+   "awsaa-1",
+   "ms"
+  ],
+  [
+   "to enjoin; to bequeath",
+   "lemma",
+   "awsaa-1",
+   "en"
+  ],
+  [
+   "middlemost; best",
+   "lemma",
+   "awsat-1",
+   "en"
+  ],
+  [
+   "yang pertengahan",
+   "lemma",
+   "awsat-1",
+   "ms"
+  ],
+  [
+   "mengikat kuat",
+   "lemma",
+   "awthaqa-1",
+   "ms"
+  ],
+  [
+   "to bind firmly",
+   "lemma",
+   "awthaqa-1",
+   "en"
+  ],
+  [
+   "oft-returning (to god)",
+   "lemma",
+   "awwab-1",
+   "en"
+  ],
+  [
+   "sentiasa kembali (kepada allah)",
+   "lemma",
+   "awwab-1",
+   "ms"
+  ],
+  [
+   "mengulang",
+   "lemma",
+   "awwaba-1",
+   "ms"
+  ],
+  [
+   "to echo; to repeat",
+   "lemma",
+   "awwaba-1",
+   "en"
+  ],
+  [
+   "lembut hati",
+   "lemma",
+   "awwah-1",
+   "ms"
+  ],
+  [
+   "tender-hearted; much-sighing",
+   "lemma",
+   "awwah-1",
+   "en"
   ],
   [
    "first",
@@ -7240,6 +34595,18 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "mengilhamkan",
+   "lemma",
+   "awzaa-1",
+   "ms"
+  ],
+  [
+   "to inspire; to enable",
+   "lemma",
+   "awzaa-1",
+   "en"
+  ],
+  [
    "sign; verse; miracle",
    "lemma",
    "aya-1",
@@ -7249,6 +34616,42 @@ const QM_SEARCH_INDEX = {
    "tanda; ayat; mukjizat",
    "lemma",
    "aya-1",
+   "ms"
+  ],
+  [
+   "belukar (al-aikah)",
+   "lemma",
+   "ayka-1",
+   "ms"
+  ],
+  [
+   "the thicket (al-aykah)",
+   "lemma",
+   "ayka-1",
+   "en"
+  ],
+  [
+   "kemiskinan",
+   "lemma",
+   "ayla-1",
+   "ms"
+  ],
+  [
+   "poverty",
+   "lemma",
+   "ayla-1",
+   "en"
+  ],
+  [
+   "right (side)",
+   "lemma",
+   "ayman-1",
+   "en"
+  ],
+  [
+   "sebelah kanan",
+   "lemma",
+   "ayman-1",
    "ms"
   ],
   [
@@ -7276,6 +34679,174 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "menguatkan; menyokong",
+   "lemma",
+   "ayyada-1",
+   "ms"
+  ],
+  [
+   "to strengthen; to support",
+   "lemma",
+   "ayyada-1",
+   "en"
+  ],
+  [
+   "bilakah?",
+   "lemma",
+   "ayyana-1",
+   "ms"
+  ],
+  [
+   "when? (at what time)",
+   "lemma",
+   "ayyana-1",
+   "en"
+  ],
+  [
+   "a single person (unmarried)",
+   "lemma",
+   "ayyim-1",
+   "en"
+  ],
+  [
+   "orang yang tidak berpasangan",
+   "lemma",
+   "ayyim-1",
+   "ms"
+  ],
+  [
+   "job (ayyub)",
+   "lemma",
+   "ayyub-1",
+   "en"
+  ],
+  [
+   "nabi ayyub",
+   "lemma",
+   "ayyub-1",
+   "ms"
+  ],
+  [
+   "tersembunyi",
+   "lemma",
+   "azaba-1",
+   "ms"
+  ],
+  [
+   "to be hidden; to escape",
+   "lemma",
+   "azaba-1",
+   "en"
+  ],
+  [
+   "memalingkan",
+   "lemma",
+   "azagha-1",
+   "ms"
+  ],
+  [
+   "to cause to swerve",
+   "lemma",
+   "azagha-1",
+   "en"
+  ],
+  [
+   "greater; greatest",
+   "lemma",
+   "azam-1",
+   "en"
+  ],
+  [
+   "lebih besar; paling besar",
+   "lemma",
+   "azam-1",
+   "ms"
+  ],
+  [
+   "berazam",
+   "lemma",
+   "azama-1",
+   "ms"
+  ],
+  [
+   "to resolve",
+   "lemma",
+   "azama-1",
+   "en"
+  ],
+  [
+   "membesarkan",
+   "lemma",
+   "azama-2",
+   "ms"
+  ],
+  [
+   "to make great",
+   "lemma",
+   "azama-2",
+   "en"
+  ],
+  [
+   "azar",
+   "lemma",
+   "azar-1",
+   "en"
+  ],
+  [
+   "azar",
+   "lemma",
+   "azar-1",
+   "ms"
+  ],
+  [
+   "memberi kemenangan",
+   "lemma",
+   "azfara-1",
+   "ms"
+  ],
+  [
+   "to give victory",
+   "lemma",
+   "azfara-1",
+   "en"
+  ],
+  [
+   "menzahirkan; memenangkan",
+   "lemma",
+   "azhara-1",
+   "ms"
+  ],
+  [
+   "to make manifest; to cause to prevail",
+   "lemma",
+   "azhara-1",
+   "en"
+  ],
+  [
+   "semakin dekat",
+   "lemma",
+   "azifa-1",
+   "ms"
+  ],
+  [
+   "to draw near",
+   "lemma",
+   "azifa-1",
+   "en"
+  ],
+  [
+   "hari yang hampir",
+   "lemma",
+   "azifa-2",
+   "ms"
+  ],
+  [
+   "the impending (hour)",
+   "lemma",
+   "azifa-2",
+   "en"
+  ],
+  [
    "agung; besar",
    "lemma",
    "azim-1",
@@ -7300,6 +34871,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menghalau perlahan",
+   "lemma",
+   "azjaa-1",
+   "ms"
+  ],
+  [
+   "to drive gently",
+   "lemma",
+   "azjaa-1",
+   "en"
+  ],
+  [
+   "lebih suci; lebih bersih",
+   "lemma",
+   "azka-1",
+   "ms"
+  ],
+  [
+   "purer; more wholesome",
+   "lemma",
+   "azka-1",
+   "en"
+  ],
+  [
+   "mendekatkan",
+   "lemma",
+   "azlafa-1",
+   "ms"
+  ],
+  [
+   "to bring near",
+   "lemma",
+   "azlafa-1",
+   "en"
+  ],
+  [
    "lebih zalim",
    "lemma",
    "azlam-1",
@@ -7309,6 +34916,114 @@ const QM_SEARCH_INDEX = {
    "more unjust",
    "lemma",
    "azlam-1",
+   "en"
+  ],
+  [
+   "anak panah ramalan",
+   "lemma",
+   "azlam-2",
+   "ms"
+  ],
+  [
+   "divining arrows",
+   "lemma",
+   "azlam-2",
+   "en"
+  ],
+  [
+   "bone",
+   "lemma",
+   "azm-1",
+   "en"
+  ],
+  [
+   "tulang",
+   "lemma",
+   "azm-1",
+   "ms"
+  ],
+  [
+   "azam",
+   "lemma",
+   "azm-2",
+   "ms"
+  ],
+  [
+   "resolve; determination",
+   "lemma",
+   "azm-2",
+   "en"
+  ],
+  [
+   "kekuatan",
+   "lemma",
+   "azr-1",
+   "ms"
+  ],
+  [
+   "strength",
+   "lemma",
+   "azr-1",
+   "en"
+  ],
+  [
+   "lebih perkasa",
+   "lemma",
+   "azz-1",
+   "ms"
+  ],
+  [
+   "mightier",
+   "lemma",
+   "azz-1",
+   "en"
+  ],
+  [
+   "menghasut",
+   "lemma",
+   "azza-1",
+   "ms"
+  ],
+  [
+   "to incite",
+   "lemma",
+   "azza-1",
+   "en"
+  ],
+  [
+   "memuliakan",
+   "lemma",
+   "azzama-1",
+   "ms"
+  ],
+  [
+   "to honour; to magnify",
+   "lemma",
+   "azzama-1",
+   "en"
+  ],
+  [
+   "memuliakan; membantu",
+   "lemma",
+   "azzara-1",
+   "ms"
+  ],
+  [
+   "to honour; to support",
+   "lemma",
+   "azzara-1",
+   "en"
+  ],
+  [
+   "kembali membawa",
+   "lemma",
+   "baa-1",
+   "ms"
+  ],
+  [
+   "to return with; to bear",
+   "lemma",
+   "baa-1",
    "en"
   ],
   [
@@ -7322,6 +35037,30 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "baad-1",
    "ms"
+  ],
+  [
+   "a husband; a lord",
+   "lemma",
+   "baal-1",
+   "en"
+  ],
+  [
+   "suami; tuan",
+   "lemma",
+   "baal-1",
+   "ms"
+  ],
+  [
+   "memberkati",
+   "lemma",
+   "baaraka-1",
+   "ms"
+  ],
+  [
+   "to bless",
+   "lemma",
+   "baaraka-1",
+   "en"
   ],
   [
    "membangkitkan; mengutus",
@@ -7348,6 +35087,18 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "babil",
+   "lemma",
+   "babil-1",
+   "ms"
+  ],
+  [
+   "babylon",
+   "lemma",
+   "babil-1",
+   "en"
+  ],
+  [
    "sebahagian",
    "lemma",
    "bad-1",
@@ -7372,6 +35123,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "binasa",
+   "lemma",
+   "bada-3",
+   "ms"
+  ],
+  [
+   "to perish",
+   "lemma",
+   "bada-3",
+   "en"
+  ],
+  [
+   "memulakan",
+   "lemma",
+   "badaa-1",
+   "ms"
+  ],
+  [
+   "to begin; to initiate",
+   "lemma",
+   "badaa-1",
+   "en"
+  ],
+  [
+   "a substitute",
+   "lemma",
+   "badal-1",
+   "en"
+  ],
+  [
+   "gantian",
+   "lemma",
+   "badal-1",
+   "ms"
+  ],
+  [
+   "a body; a sacrificial camel",
+   "lemma",
+   "badana-1",
+   "en"
+  ],
+  [
+   "tubuh; unta korban",
+   "lemma",
+   "badana-1",
+   "ms"
+  ],
+  [
    "menukar; mengganti",
    "lemma",
    "baddala-1",
@@ -7381,6 +35180,234 @@ const QM_SEARCH_INDEX = {
    "to change; to replace",
    "lemma",
    "baddala-1",
+   "en"
+  ],
+  [
+   "membazir",
+   "lemma",
+   "badhdhara-1",
+   "ms"
+  ],
+  [
+   "to squander",
+   "lemma",
+   "badhdhara-1",
+   "en"
+  ],
+  [
+   "one who is in the desert; apparent",
+   "lemma",
+   "badi-1",
+   "en"
+  ],
+  [
+   "orang badwi; yang nyata",
+   "lemma",
+   "badi-1",
+   "ms"
+  ],
+  [
+   "pencipta tanpa contoh",
+   "lemma",
+   "badi-2",
+   "ms"
+  ],
+  [
+   "the originator",
+   "lemma",
+   "badi-2",
+   "en"
+  ],
+  [
+   "badar",
+   "lemma",
+   "badr-1",
+   "ms"
+  ],
+  [
+   "badr",
+   "lemma",
+   "badr-1",
+   "en"
+  ],
+  [
+   "padang pasir",
+   "lemma",
+   "badw-1",
+   "ms"
+  ],
+  [
+   "the desert",
+   "lemma",
+   "badw-1",
+   "en"
+  ],
+  [
+   "melampaui batas; mencari",
+   "lemma",
+   "bagha-1",
+   "ms"
+  ],
+  [
+   "to transgress; to seek",
+   "lemma",
+   "bagha-1",
+   "en"
+  ],
+  [
+   "mencari; melampaui batas",
+   "lemma",
+   "baghaa-1",
+   "ms"
+  ],
+  [
+   "to seek; to transgress",
+   "lemma",
+   "baghaa-1",
+   "en"
+  ],
+  [
+   "hatred",
+   "lemma",
+   "baghda-1",
+   "en"
+  ],
+  [
+   "kebencian",
+   "lemma",
+   "baghda-1",
+   "ms"
+  ],
+  [
+   "one who transgresses; seeker",
+   "lemma",
+   "baghin-1",
+   "en"
+  ],
+  [
+   "yang melampaui batas",
+   "lemma",
+   "baghin-1",
+   "ms"
+  ],
+  [
+   "perempuan jalang",
+   "lemma",
+   "baghiyy-1",
+   "ms"
+  ],
+  [
+   "unchaste woman",
+   "lemma",
+   "baghiyy-1",
+   "en"
+  ],
+  [
+   "a mule",
+   "lemma",
+   "baghl-1",
+   "en"
+  ],
+  [
+   "baghal",
+   "lemma",
+   "baghl-1",
+   "ms"
+  ],
+  [
+   "secara tiba-tiba",
+   "lemma",
+   "baghta-1",
+   "ms"
+  ],
+  [
+   "suddenly; unexpectedly",
+   "lemma",
+   "baghta-1",
+   "en"
+  ],
+  [
+   "kezaliman; pelampauan batas",
+   "lemma",
+   "baghy-1",
+   "ms"
+  ],
+  [
+   "transgression; oppression",
+   "lemma",
+   "baghy-1",
+   "en"
+  ],
+  [
+   "memeranjatkan",
+   "lemma",
+   "bahata-1",
+   "ms"
+  ],
+  [
+   "to confound",
+   "lemma",
+   "bahata-1",
+   "en"
+  ],
+  [
+   "menggali",
+   "lemma",
+   "bahatha-1",
+   "ms"
+  ],
+  [
+   "to search; to dig",
+   "lemma",
+   "bahatha-1",
+   "en"
+  ],
+  [
+   "delightful; beautiful",
+   "lemma",
+   "bahij-1",
+   "en"
+  ],
+  [
+   "indah; menggembirakan",
+   "lemma",
+   "bahij-1",
+   "ms"
+  ],
+  [
+   "binatang ternakan",
+   "lemma",
+   "bahima-1",
+   "ms"
+  ],
+  [
+   "grazing livestock",
+   "lemma",
+   "bahima-1",
+   "en"
+  ],
+  [
+   "a she-camel with slit ears (a bahira)",
+   "lemma",
+   "bahira-1",
+   "en"
+  ],
+  [
+   "bahirah (unta yang dibelah telinganya)",
+   "lemma",
+   "bahira-1",
+   "ms"
+  ],
+  [
+   "terpana",
+   "lemma",
+   "bahita-1",
+   "ms"
+  ],
+  [
+   "to be confounded",
+   "lemma",
+   "bahita-1",
    "en"
   ],
   [
@@ -7408,6 +35435,114 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "dijauhkan",
+   "lemma",
+   "baida-1",
+   "ms"
+  ],
+  [
+   "to be removed (far away)",
+   "lemma",
+   "baida-1",
+   "en"
+  ],
+  [
+   "camel; a camel's load",
+   "lemma",
+   "bair-1",
+   "en"
+  ],
+  [
+   "unta; muatan unta",
+   "lemma",
+   "bair-1",
+   "ms"
+  ],
+  [
+   "amat buruk",
+   "lemma",
+   "bais-1",
+   "ms"
+  ],
+  [
+   "wretched; grievous",
+   "lemma",
+   "bais-1",
+   "en"
+  ],
+  [
+   "menangis",
+   "lemma",
+   "baka-1",
+   "ms"
+  ],
+  [
+   "to weep",
+   "lemma",
+   "baka-1",
+   "en"
+  ],
+  [
+   "mengurangkan",
+   "lemma",
+   "bakhasa-1",
+   "ms"
+  ],
+  [
+   "to diminish",
+   "lemma",
+   "bakhasa-1",
+   "en"
+  ],
+  [
+   "one who destroys himself (with grief)",
+   "lemma",
+   "bakhia-1",
+   "en"
+  ],
+  [
+   "yang membinasakan diri",
+   "lemma",
+   "bakhia-1",
+   "ms"
+  ],
+  [
+   "kedekut",
+   "lemma",
+   "bakhila-1",
+   "ms"
+  ],
+  [
+   "to be miserly",
+   "lemma",
+   "bakhila-1",
+   "en"
+  ],
+  [
+   "a diminution; a paltry price",
+   "lemma",
+   "bakhs-1",
+   "en"
+  ],
+  [
+   "kerugian; harga murah",
+   "lemma",
+   "bakhs-1",
+   "ms"
+  ],
+  [
+   "bakka (makkah)",
+   "lemma",
+   "bakka-1",
+   "en"
+  ],
+  [
+   "bakkah (makkah)",
+   "lemma",
+   "bakka-1",
+   "ms"
+  ],
+  [
    "bahkan; sebaliknya",
    "lemma",
    "bal-1",
@@ -7417,6 +35552,18 @@ const QM_SEARCH_INDEX = {
    "rather; nay",
    "lemma",
    "bal-1",
+   "en"
+  ],
+  [
+   "keadaan",
+   "lemma",
+   "bal-2",
+   "ms"
+  ],
+  [
+   "state; condition",
+   "lemma",
+   "bal-2",
    "en"
   ],
   [
@@ -7432,6 +35579,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "trial; test; favour",
+   "lemma",
+   "bala-2",
+   "en"
+  ],
+  [
+   "ujian; kurniaan",
+   "lemma",
+   "bala-2",
+   "ms"
+  ],
+  [
+   "a trial",
+   "lemma",
+   "bala-5",
+   "en"
+  ],
+  [
+   "ujian",
+   "lemma",
+   "bala-5",
+   "ms"
+  ],
+  [
+   "menelan",
+   "lemma",
+   "bala-6",
+   "ms"
+  ],
+  [
+   "to swallow up",
+   "lemma",
+   "bala-6",
+   "en"
+  ],
+  [
+   "menguji",
+   "lemma",
+   "balaa-1",
+   "ms"
+  ],
+  [
+   "to test; to try",
+   "lemma",
+   "balaa-1",
+   "en"
+  ],
+  [
    "land; city",
    "lemma",
    "balad-1",
@@ -7441,6 +35636,18 @@ const QM_SEARCH_INDEX = {
    "negeri; kota",
    "lemma",
    "balad-1",
+   "ms"
+  ],
+  [
+   "conveying (the message); sufficiency",
+   "lemma",
+   "balagh-1",
+   "en"
+  ],
+  [
+   "penyampaian; cukup",
+   "lemma",
+   "balagh-1",
    "ms"
   ],
   [
@@ -7456,6 +35663,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "lusuh",
+   "lemma",
+   "bali-1",
+   "ms"
+  ],
+  [
+   "to wear out",
+   "lemma",
+   "bali-1",
+   "en"
+  ],
+  [
+   "mencapai; sampai",
+   "lemma",
+   "baligh-1",
+   "ms"
+  ],
+  [
+   "reaching; attaining",
+   "lemma",
+   "baligh-1",
+   "en"
+  ],
+  [
+   "menyampaikan",
+   "lemma",
+   "ballagha-1",
+   "ms"
+  ],
+  [
+   "to convey",
+   "lemma",
+   "ballagha-1",
+   "en"
+  ],
+  [
    "membina",
    "lemma",
    "bana-1",
@@ -7468,6 +35711,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "fingertips",
+   "lemma",
+   "banan-1",
+   "en"
+  ],
+  [
+   "hujung jari",
+   "lemma",
+   "banan-1",
+   "ms"
+  ],
+  [
+   "a builder",
+   "lemma",
+   "banna-1",
+   "en"
+  ],
+  [
+   "tukang bina",
+   "lemma",
+   "banna-1",
+   "ms"
+  ],
+  [
    "anak-anak; bani",
    "lemma",
    "banu-1",
@@ -7477,6 +35744,66 @@ const QM_SEARCH_INDEX = {
    "sons of; children of",
    "lemma",
    "banu-1",
+   "en"
+  ],
+  [
+   "cattle (cows)",
+   "lemma",
+   "baqar-1",
+   "en"
+  ],
+  [
+   "lembu",
+   "lemma",
+   "baqar-1",
+   "ms"
+  ],
+  [
+   "cow",
+   "lemma",
+   "baqara-1",
+   "en"
+  ],
+  [
+   "lembu",
+   "lemma",
+   "baqara-1",
+   "ms"
+  ],
+  [
+   "kekal",
+   "lemma",
+   "baqi-1",
+   "ms"
+  ],
+  [
+   "lasting; remaining",
+   "lemma",
+   "baqi-1",
+   "en"
+  ],
+  [
+   "kekal",
+   "lemma",
+   "baqiya-1",
+   "ms"
+  ],
+  [
+   "to remain",
+   "lemma",
+   "baqiya-1",
+   "en"
+  ],
+  [
+   "baki",
+   "lemma",
+   "baqiyya-1",
+   "ms"
+  ],
+  [
+   "remainder; what remains",
+   "lemma",
+   "baqiyya-1",
    "en"
   ],
   [
@@ -7492,6 +35819,246 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "berlepas diri",
+   "lemma",
+   "bara-1",
+   "ms"
+  ],
+  [
+   "clear of; free",
+   "lemma",
+   "bara-1",
+   "en"
+  ],
+  [
+   "binasa",
+   "lemma",
+   "bara-2",
+   "ms"
+  ],
+  [
+   "to perish; to come to nothing",
+   "lemma",
+   "bara-2",
+   "en"
+  ],
+  [
+   "disavowal; immunity",
+   "lemma",
+   "baraa-1",
+   "en"
+  ],
+  [
+   "pelepasan diri; kebebasan daripada",
+   "lemma",
+   "baraa-1",
+   "ms"
+  ],
+  [
+   "blessings",
+   "lemma",
+   "baraka-2",
+   "en"
+  ],
+  [
+   "keberkatan",
+   "lemma",
+   "baraka-2",
+   "ms"
+  ],
+  [
+   "muncul; keluar",
+   "lemma",
+   "baraza-1",
+   "ms"
+  ],
+  [
+   "to come forth; to appear",
+   "lemma",
+   "baraza-1",
+   "en"
+  ],
+  [
+   "coldness",
+   "lemma",
+   "bard-1",
+   "en"
+  ],
+  [
+   "kesejukan",
+   "lemma",
+   "bard-1",
+   "ms"
+  ],
+  [
+   "maker; originator",
+   "lemma",
+   "bari-1",
+   "en"
+  ],
+  [
+   "pencipta",
+   "lemma",
+   "bari-1",
+   "ms"
+  ],
+  [
+   "cold",
+   "lemma",
+   "barid-1",
+   "en"
+  ],
+  [
+   "sejuk",
+   "lemma",
+   "barid-1",
+   "ms"
+  ],
+  [
+   "berlepas diri; tidak bersalah",
+   "lemma",
+   "barii-1",
+   "ms"
+  ],
+  [
+   "free from; innocent",
+   "lemma",
+   "barii-1",
+   "en"
+  ],
+  [
+   "terpana",
+   "lemma",
+   "bariqa-1",
+   "ms"
+  ],
+  [
+   "to be dazzled",
+   "lemma",
+   "bariqa-1",
+   "en"
+  ],
+  [
+   "creation; created beings",
+   "lemma",
+   "bariyya-1",
+   "en"
+  ],
+  [
+   "makhluk",
+   "lemma",
+   "bariyya-1",
+   "ms"
+  ],
+  [
+   "standing forth; emerging",
+   "lemma",
+   "bariza-1",
+   "en"
+  ],
+  [
+   "yang menonjol",
+   "lemma",
+   "bariza-1",
+   "ms"
+  ],
+  [
+   "kilat",
+   "lemma",
+   "barq-1",
+   "ms"
+  ],
+  [
+   "lightning",
+   "lemma",
+   "barq-1",
+   "en"
+  ],
+  [
+   "berbuat baik kepada",
+   "lemma",
+   "barra-1",
+   "ms"
+  ],
+  [
+   "to deal kindly with",
+   "lemma",
+   "barra-1",
+   "en"
+  ],
+  [
+   "membersihkan nama",
+   "lemma",
+   "barra-2",
+   "ms"
+  ],
+  [
+   "to clear of blame",
+   "lemma",
+   "barra-2",
+   "en"
+  ],
+  [
+   "a barrier",
+   "lemma",
+   "barzakh-1",
+   "en"
+  ],
+  [
+   "dinding pemisah",
+   "lemma",
+   "barzakh-1",
+   "ms"
+  ],
+  [
+   "kekuatan; kesusahan",
+   "lemma",
+   "bas-1",
+   "ms"
+  ],
+  [
+   "might; hardship",
+   "lemma",
+   "bas-1",
+   "en"
+  ],
+  [
+   "hardship; distress",
+   "lemma",
+   "basa-1",
+   "en"
+  ],
+  [
+   "kesusahan",
+   "lemma",
+   "basa-1",
+   "ms"
+  ],
+  [
+   "an onion",
+   "lemma",
+   "basal-1",
+   "en"
+  ],
+  [
+   "bawang",
+   "lemma",
+   "basal-1",
+   "ms"
+  ],
+  [
+   "membentangkan; melapangkan",
+   "lemma",
+   "basata-1",
+   "ms"
+  ],
+  [
+   "to spread out; to extend",
+   "lemma",
+   "basata-1",
+   "en"
+  ],
+  [
    "human being; mortal",
    "lemma",
    "bashar-1",
@@ -7501,6 +36068,30 @@ const QM_SEARCH_INDEX = {
    "manusia",
    "lemma",
    "bashar-1",
+   "ms"
+  ],
+  [
+   "bercampur",
+   "lemma",
+   "bashara-2",
+   "ms"
+  ],
+  [
+   "to have intimate contact",
+   "lemma",
+   "bashara-2",
+   "en"
+  ],
+  [
+   "bearer of good news",
+   "lemma",
+   "bashir-1",
+   "en"
+  ],
+  [
+   "pembawa berita gembira",
+   "lemma",
+   "bashir-1",
    "ms"
   ],
   [
@@ -7516,6 +36107,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menjulang",
+   "lemma",
+   "basiq-1",
+   "ms"
+  ],
+  [
+   "tall; lofty",
+   "lemma",
+   "basiq-1",
+   "en"
+  ],
+  [
    "all-seeing; seeing",
    "lemma",
    "basir-1",
@@ -7528,6 +36131,150 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "bermasam muka",
+   "lemma",
+   "basir-2",
+   "ms"
+  ],
+  [
+   "frowning; gloomy",
+   "lemma",
+   "basir-2",
+   "en"
+  ],
+  [
+   "one who stretches out",
+   "lemma",
+   "basit-1",
+   "en"
+  ],
+  [
+   "yang menghulurkan",
+   "lemma",
+   "basit-1",
+   "ms"
+  ],
+  [
+   "crumbling",
+   "lemma",
+   "bass-1",
+   "en"
+  ],
+  [
+   "menjadi serbuk",
+   "lemma",
+   "bass-1",
+   "ms"
+  ],
+  [
+   "melihat",
+   "lemma",
+   "basura-1",
+   "ms"
+  ],
+  [
+   "to perceive",
+   "lemma",
+   "basura-1",
+   "en"
+  ],
+  [
+   "bermalam",
+   "lemma",
+   "bata-1",
+   "ms"
+  ],
+  [
+   "to spend the night",
+   "lemma",
+   "bata-1",
+   "en"
+  ],
+  [
+   "menjadi batil",
+   "lemma",
+   "batala-1",
+   "ms"
+  ],
+  [
+   "to be vain",
+   "lemma",
+   "batala-1",
+   "en"
+  ],
+  [
+   "tersembunyi",
+   "lemma",
+   "batana-1",
+   "ms"
+  ],
+  [
+   "to be hidden",
+   "lemma",
+   "batana-1",
+   "en"
+  ],
+  [
+   "bongkak",
+   "lemma",
+   "batar-1",
+   "ms"
+  ],
+  [
+   "exultation; insolence",
+   "lemma",
+   "batar-1",
+   "en"
+  ],
+  [
+   "menyerang",
+   "lemma",
+   "batasha-1",
+   "ms"
+  ],
+  [
+   "to seize violently",
+   "lemma",
+   "batasha-1",
+   "en"
+  ],
+  [
+   "distress; complaint",
+   "lemma",
+   "bath-1",
+   "en"
+  ],
+  [
+   "kesedihan; keluhan",
+   "lemma",
+   "bath-1",
+   "ms"
+  ],
+  [
+   "kebangkitan",
+   "lemma",
+   "bath-2",
+   "ms"
+  ],
+  [
+   "resurrection",
+   "lemma",
+   "bath-2",
+   "en"
+  ],
+  [
+   "menyebarkan",
+   "lemma",
+   "baththa-1",
+   "ms"
+  ],
+  [
+   "to scatter; to spread abroad",
+   "lemma",
+   "baththa-1",
+   "en"
+  ],
+  [
    "falsehood; vain",
    "lemma",
    "batil-1",
@@ -7538,6 +36285,198 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "batil-1",
    "ms"
+  ],
+  [
+   "batin; tersembunyi",
+   "lemma",
+   "batin-1",
+   "ms"
+  ],
+  [
+   "inner; hidden",
+   "lemma",
+   "batin-1",
+   "en"
+  ],
+  [
+   "bongkak",
+   "lemma",
+   "batira-1",
+   "ms"
+  ],
+  [
+   "to be exultant",
+   "lemma",
+   "batira-1",
+   "en"
+  ],
+  [
+   "belly; womb",
+   "lemma",
+   "batn-1",
+   "en"
+  ],
+  [
+   "perut; rahim",
+   "lemma",
+   "batn-1",
+   "ms"
+  ],
+  [
+   "a violent grip",
+   "lemma",
+   "batsh-1",
+   "en"
+  ],
+  [
+   "cengkaman",
+   "lemma",
+   "batsh-1",
+   "ms"
+  ],
+  [
+   "a grip; a seizure",
+   "lemma",
+   "batsha-1",
+   "en"
+  ],
+  [
+   "cengkaman",
+   "lemma",
+   "batsha-1",
+   "ms"
+  ],
+  [
+   "berlambat-lambat",
+   "lemma",
+   "battaa-1",
+   "ms"
+  ],
+  [
+   "to lag behind",
+   "lemma",
+   "battaa-1",
+   "en"
+  ],
+  [
+   "jauh",
+   "lemma",
+   "bauda-1",
+   "ms"
+  ],
+  [
+   "to be far",
+   "lemma",
+   "bauda-1",
+   "en"
+  ],
+  [
+   "a gnat",
+   "lemma",
+   "bauda-2",
+   "en"
+  ],
+  [
+   "agas",
+   "lemma",
+   "bauda-2",
+   "ms"
+  ],
+  [
+   "kebinasaan",
+   "lemma",
+   "bawar-1",
+   "ms"
+  ],
+  [
+   "perdition",
+   "lemma",
+   "bawar-1",
+   "en"
+  ],
+  [
+   "menempatkan",
+   "lemma",
+   "bawwaa-1",
+   "ms"
+  ],
+  [
+   "to settle; to lodge",
+   "lemma",
+   "bawwaa-1",
+   "en"
+  ],
+  [
+   "jual beli",
+   "lemma",
+   "bay-1",
+   "ms"
+  ],
+  [
+   "sale; trade",
+   "lemma",
+   "bay-1",
+   "en"
+  ],
+  [
+   "berbaiah",
+   "lemma",
+   "baya-1",
+   "ms"
+  ],
+  [
+   "to pledge allegiance",
+   "lemma",
+   "baya-1",
+   "en"
+  ],
+  [
+   "putih",
+   "lemma",
+   "bayad-1",
+   "ms"
+  ],
+  [
+   "white",
+   "lemma",
+   "bayad-1",
+   "en"
+  ],
+  [
+   "an exposition; clear statement",
+   "lemma",
+   "bayan-1",
+   "en"
+  ],
+  [
+   "penjelasan",
+   "lemma",
+   "bayan-1",
+   "ms"
+  ],
+  [
+   "by night; overnight",
+   "lemma",
+   "bayat-1",
+   "en"
+  ],
+  [
+   "pada waktu malam",
+   "lemma",
+   "bayat-1",
+   "ms"
+  ],
+  [
+   "putih (perempuan)",
+   "lemma",
+   "baydaa-1",
+   "ms"
+  ],
+  [
+   "white (feminine)",
+   "lemma",
+   "baydaa-1",
+   "en"
   ],
   [
    "antara; di antara",
@@ -7576,6 +36515,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "merancang pada waktu malam",
+   "lemma",
+   "bayyata-1",
+   "ms"
+  ],
+  [
+   "to plot by night",
+   "lemma",
+   "bayyata-1",
+   "en"
+  ],
+  [
+   "clear; evident",
+   "lemma",
+   "bayyin-1",
+   "en"
+  ],
+  [
+   "jelas",
+   "lemma",
+   "bayyin-1",
+   "ms"
+  ],
+  [
    "bukti yang nyata",
    "lemma",
    "bayyina-1",
@@ -7588,6 +36551,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "rising",
+   "lemma",
+   "bazigh-1",
+   "en"
+  ],
+  [
+   "yang terbit",
+   "lemma",
+   "bazigh-1",
+   "ms"
+  ],
+  [
    "dengan; di",
    "lemma",
    "bi-1",
@@ -7598,6 +36573,102 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "bi-1",
    "en"
+  ],
+  [
+   "sesuatu yang baru",
+   "lemma",
+   "bid-1",
+   "ms"
+  ],
+  [
+   "something new; a novelty",
+   "lemma",
+   "bid-1",
+   "en"
+  ],
+  [
+   "a few (years)",
+   "lemma",
+   "bid-2",
+   "en"
+  ],
+  [
+   "beberapa",
+   "lemma",
+   "bid-2",
+   "ms"
+  ],
+  [
+   "barang dagangan",
+   "lemma",
+   "bidat-1",
+   "ms"
+  ],
+  [
+   "merchandise; goods",
+   "lemma",
+   "bidat-1",
+   "en"
+  ],
+  [
+   "pelacuran",
+   "lemma",
+   "bigha-1",
+   "ms"
+  ],
+  [
+   "prostitution",
+   "lemma",
+   "bigha-1",
+   "en"
+  ],
+  [
+   "a virgin",
+   "lemma",
+   "bikr-1",
+   "en"
+  ],
+  [
+   "anak dara",
+   "lemma",
+   "bikr-1",
+   "ms"
+  ],
+  [
+   "bangunan",
+   "lemma",
+   "bina-1",
+   "ms"
+  ],
+  [
+   "edifice; building",
+   "lemma",
+   "bina-1",
+   "en"
+  ],
+  [
+   "anak perempuan",
+   "lemma",
+   "bint-1",
+   "ms"
+  ],
+  [
+   "daughter",
+   "lemma",
+   "bint-1",
+   "en"
+  ],
+  [
+   "a well",
+   "lemma",
+   "bir-1",
+   "en"
+  ],
+  [
+   "perigi",
+   "lemma",
+   "bir-1",
+   "ms"
   ],
   [
    "kebajikan",
@@ -7624,6 +36695,222 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a carpet; an expanse",
+   "lemma",
+   "bisat-1",
+   "en"
+  ],
+  [
+   "hamparan",
+   "lemma",
+   "bisat-1",
+   "ms"
+  ],
+  [
+   "an intimate friend; a lining",
+   "lemma",
+   "bitana-1",
+   "en"
+  ],
+  [
+   "orang kepercayaan",
+   "lemma",
+   "bitana-1",
+   "ms"
+  ],
+  [
+   "a synagogue",
+   "lemma",
+   "biya-1",
+   "en"
+  ],
+  [
+   "rumah ibadat yahudi",
+   "lemma",
+   "biya-1",
+   "ms"
+  ],
+  [
+   "one who stretches out",
+   "lemma",
+   "bsit-1",
+   "en"
+  ],
+  [
+   "yang menghulurkan",
+   "lemma",
+   "bsit-1",
+   "ms"
+  ],
+  [
+   "distance; remoteness",
+   "lemma",
+   "budd-1",
+   "en"
+  ],
+  [
+   "kejauhan",
+   "lemma",
+   "budd-1",
+   "ms"
+  ],
+  [
+   "fitnah",
+   "lemma",
+   "buhtan-1",
+   "ms"
+  ],
+  [
+   "slander; calumny",
+   "lemma",
+   "buhtan-1",
+   "en"
+  ],
+  [
+   "kekikiran",
+   "lemma",
+   "bukhl-1",
+   "ms"
+  ],
+  [
+   "miserliness",
+   "lemma",
+   "bukhl-1",
+   "en"
+  ],
+  [
+   "menangis",
+   "lemma",
+   "buki-1",
+   "ms"
+  ],
+  [
+   "weeping (plural)",
+   "lemma",
+   "buki-1",
+   "en"
+  ],
+  [
+   "awal pagi",
+   "lemma",
+   "bukra-1",
+   "ms"
+  ],
+  [
+   "early morning",
+   "lemma",
+   "bukra-1",
+   "en"
+  ],
+  [
+   "binaan",
+   "lemma",
+   "bunyan-1",
+   "ms"
+  ],
+  [
+   "structure; building",
+   "lemma",
+   "bunyan-1",
+   "en"
+  ],
+  [
+   "a spot of land",
+   "lemma",
+   "buqa-1",
+   "en"
+  ],
+  [
+   "bidang tanah",
+   "lemma",
+   "buqa-1",
+   "ms"
+  ],
+  [
+   "binasa",
+   "lemma",
+   "bur-1",
+   "ms"
+  ],
+  [
+   "perished; ruined",
+   "lemma",
+   "bur-1",
+   "en"
+  ],
+  [
+   "bukti yang jelas",
+   "lemma",
+   "burhan-1",
+   "ms"
+  ],
+  [
+   "proof; clear evidence",
+   "lemma",
+   "burhan-1",
+   "en"
+  ],
+  [
+   "menara; buruj",
+   "lemma",
+   "burj-1",
+   "ms"
+  ],
+  [
+   "tower; constellation",
+   "lemma",
+   "burj-1",
+   "en"
+  ],
+  [
+   "dinampakkan",
+   "lemma",
+   "burrizat-1",
+   "ms"
+  ],
+  [
+   "to be laid bare",
+   "lemma",
+   "burrizat-1",
+   "en"
+  ],
+  [
+   "glad tidings",
+   "lemma",
+   "bushr-1",
+   "en"
+  ],
+  [
+   "khabar gembira",
+   "lemma",
+   "bushr-1",
+   "ms"
+  ],
+  [
+   "good news",
+   "lemma",
+   "bushra-1",
+   "en"
+  ],
+  [
+   "khabar gembira",
+   "lemma",
+   "bushra-1",
+   "ms"
+  ],
+  [
+   "dibongkar (kubur)",
+   "lemma",
+   "buthira-1",
+   "ms"
+  ],
+  [
+   "to be overturned (the graves)",
+   "lemma",
+   "buthira-1",
+   "en"
+  ],
+  [
    "menyeru; berdoa",
    "lemma",
    "daaa-1",
@@ -7633,6 +36920,54 @@ const QM_SEARCH_INDEX = {
    "to call; to invoke",
    "lemma",
    "daaa-1",
+   "en"
+  ],
+  [
+   "menolak dengan kasar",
+   "lemma",
+   "daaa-3",
+   "ms"
+  ],
+  [
+   "to push away roughly",
+   "lemma",
+   "daaa-3",
+   "en"
+  ],
+  [
+   "melipat gandakan",
+   "lemma",
+   "daafa-1",
+   "ms"
+  ],
+  [
+   "to double; to multiply",
+   "lemma",
+   "daafa-1",
+   "en"
+  ],
+  [
+   "memudaratkan",
+   "lemma",
+   "daarra-1",
+   "ms"
+  ],
+  [
+   "to harm",
+   "lemma",
+   "daarra-1",
+   "en"
+  ],
+  [
+   "kebiasaan; keadaan",
+   "lemma",
+   "dab-1",
+   "ms"
+  ],
+  [
+   "manner; habit; wont",
+   "lemma",
+   "dab-1",
    "en"
   ],
   [
@@ -7648,6 +36983,222 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "mentadbir; mengatur",
+   "lemma",
+   "dabbara-1",
+   "ms"
+  ],
+  [
+   "to manage; to direct",
+   "lemma",
+   "dabbara-1",
+   "en"
+  ],
+  [
+   "last remnant; rear",
+   "lemma",
+   "dabir-1",
+   "en"
+  ],
+  [
+   "sisa terakhir",
+   "lemma",
+   "dabir-1",
+   "ms"
+  ],
+  [
+   "kelemahan",
+   "lemma",
+   "daf-1",
+   "ms"
+  ],
+  [
+   "weakness",
+   "lemma",
+   "daf-1",
+   "en"
+  ],
+  [
+   "penolakan; pertahanan",
+   "lemma",
+   "daf-2",
+   "ms"
+  ],
+  [
+   "repelling; defence",
+   "lemma",
+   "daf-2",
+   "en"
+  ],
+  [
+   "menolak; menangkis",
+   "lemma",
+   "dafa-1",
+   "ms"
+  ],
+  [
+   "to repel; to push back",
+   "lemma",
+   "dafa-1",
+   "en"
+  ],
+  [
+   "mempertahankan",
+   "lemma",
+   "dafaa-1",
+   "ms"
+  ],
+  [
+   "to defend",
+   "lemma",
+   "dafaa-1",
+   "en"
+  ],
+  [
+   "one who repels",
+   "lemma",
+   "dafi-1",
+   "en"
+  ],
+  [
+   "yang menolak",
+   "lemma",
+   "dafi-1",
+   "ms"
+  ],
+  [
+   "menghamparkan",
+   "lemma",
+   "dahaa-1",
+   "ms"
+  ],
+  [
+   "to spread out",
+   "lemma",
+   "dahaa-1",
+   "en"
+  ],
+  [
+   "batal",
+   "lemma",
+   "dahid-1",
+   "ms"
+  ],
+  [
+   "null; void",
+   "lemma",
+   "dahid-1",
+   "en"
+  ],
+  [
+   "laughing",
+   "lemma",
+   "dahik-1",
+   "en"
+  ],
+  [
+   "yang ketawa",
+   "lemma",
+   "dahik-1",
+   "ms"
+  ],
+  [
+   "ketawa",
+   "lemma",
+   "dahika-1",
+   "ms"
+  ],
+  [
+   "to laugh",
+   "lemma",
+   "dahika-1",
+   "en"
+  ],
+  [
+   "masa",
+   "lemma",
+   "dahr-1",
+   "ms"
+  ],
+  [
+   "time; the course of time",
+   "lemma",
+   "dahr-1",
+   "en"
+  ],
+  [
+   "caller",
+   "lemma",
+   "dai-1",
+   "en"
+  ],
+  [
+   "penyeru",
+   "lemma",
+   "dai-1",
+   "ms"
+  ],
+  [
+   "lemah",
+   "lemma",
+   "daif-1",
+   "ms"
+  ],
+  [
+   "weak",
+   "lemma",
+   "daif-1",
+   "en"
+  ],
+  [
+   "berterusan",
+   "lemma",
+   "daim-1",
+   "ms"
+  ],
+  [
+   "constant; abiding",
+   "lemma",
+   "daim-1",
+   "en"
+  ],
+  [
+   "a turn of fortune; a reversal",
+   "lemma",
+   "daira-1",
+   "en"
+  ],
+  [
+   "giliran malapetaka",
+   "lemma",
+   "daira-1",
+   "ms"
+  ],
+  [
+   "an adopted son",
+   "lemma",
+   "daiyy-1",
+   "en"
+  ],
+  [
+   "anak angkat",
+   "lemma",
+   "daiyy-1",
+   "ms"
+  ],
+  [
+   "deceit",
+   "lemma",
+   "dakhal-1",
+   "en"
+  ],
+  [
+   "tipu daya",
+   "lemma",
+   "dakhal-1",
+   "ms"
+  ],
+  [
    "masuk",
    "lemma",
    "dakhala-1",
@@ -7660,6 +37211,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "one who enters",
+   "lemma",
+   "dakhil-1",
+   "en"
+  ],
+  [
+   "orang yang masuk",
+   "lemma",
+   "dakhil-1",
+   "ms"
+  ],
+  [
+   "hina",
+   "lemma",
+   "dakhir-1",
+   "ms"
+  ],
+  [
+   "humble; abased",
+   "lemma",
+   "dakhir-1",
+   "en"
+  ],
+  [
+   "crushing",
+   "lemma",
+   "dakk-1",
+   "en"
+  ],
+  [
+   "penghancuran",
+   "lemma",
+   "dakk-1",
+   "ms"
+  ],
+  [
+   "menghancurkan",
+   "lemma",
+   "dakka-1",
+   "ms"
+  ],
+  [
+   "to crush to powder",
+   "lemma",
+   "dakka-1",
+   "en"
+  ],
+  [
    "error; going astray",
    "lemma",
    "dalal-1",
@@ -7669,6 +37268,18 @@ const QM_SEARCH_INDEX = {
    "kesesatan",
    "lemma",
    "dalal-1",
+   "ms"
+  ],
+  [
+   "error; misguidance",
+   "lemma",
+   "dalala-1",
+   "en"
+  ],
+  [
+   "kesesatan",
+   "lemma",
+   "dalala-1",
    "ms"
   ],
   [
@@ -7696,6 +37307,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menunjukkan",
+   "lemma",
+   "dalla-2",
+   "ms"
+  ],
+  [
+   "to guide; to point out",
+   "lemma",
+   "dalla-2",
+   "en"
+  ],
+  [
+   "memperdaya",
+   "lemma",
+   "dallaa-1",
+   "ms"
+  ],
+  [
+   "to lead on; to let down",
+   "lemma",
+   "dallaa-1",
+   "en"
+  ],
+  [
+   "a bucket",
+   "lemma",
+   "dalw-1",
+   "en"
+  ],
+  [
+   "timba",
+   "lemma",
+   "dalw-1",
+   "ms"
+  ],
+  [
+   "blood",
+   "lemma",
+   "dam-1",
+   "en"
+  ],
+  [
+   "darah",
+   "lemma",
+   "dam-1",
+   "ms"
+  ],
+  [
+   "a tear",
+   "lemma",
+   "dam-2",
+   "en"
+  ],
+  [
+   "air mata",
+   "lemma",
+   "dam-2",
+   "ms"
+  ],
+  [
+   "berterusan",
+   "lemma",
+   "dama-1",
+   "ms"
+  ],
+  [
+   "to continue; to remain",
+   "lemma",
+   "dama-1",
+   "en"
+  ],
+  [
    "membinasakan sepenuhnya",
    "lemma",
    "damdama-1",
@@ -7705,6 +37388,114 @@ const QM_SEARCH_INDEX = {
    "to crush; to destroy utterly",
    "lemma",
    "damdama-1",
+   "en"
+  ],
+  [
+   "merapatkan",
+   "lemma",
+   "damma-1",
+   "ms"
+  ],
+  [
+   "to draw close",
+   "lemma",
+   "damma-1",
+   "en"
+  ],
+  [
+   "memusnahkan",
+   "lemma",
+   "dammara-1",
+   "ms"
+  ],
+  [
+   "to destroy utterly",
+   "lemma",
+   "dammara-1",
+   "en"
+  ],
+  [
+   "biri-biri",
+   "lemma",
+   "dan-1",
+   "ms"
+  ],
+  [
+   "sheep",
+   "lemma",
+   "dan-1",
+   "en"
+  ],
+  [
+   "menghampiri",
+   "lemma",
+   "dana-1",
+   "ms"
+  ],
+  [
+   "to draw near",
+   "lemma",
+   "dana-1",
+   "en"
+  ],
+  [
+   "menganut",
+   "lemma",
+   "dana-2",
+   "ms"
+  ],
+  [
+   "to owe allegiance; to profess",
+   "lemma",
+   "dana-2",
+   "en"
+  ],
+  [
+   "dekat",
+   "lemma",
+   "dani-1",
+   "ms"
+  ],
+  [
+   "near; hanging low",
+   "lemma",
+   "dani-1",
+   "en"
+  ],
+  [
+   "dekat; menjuntai",
+   "lemma",
+   "danin-1",
+   "ms"
+  ],
+  [
+   "near; hanging low",
+   "lemma",
+   "danin-1",
+   "en"
+  ],
+  [
+   "kedekut",
+   "lemma",
+   "danin-2",
+   "ms"
+  ],
+  [
+   "niggardly",
+   "lemma",
+   "danin-2",
+   "en"
+  ],
+  [
+   "menjadi sempit; berasa sempit",
+   "lemma",
+   "daqa-1",
+   "ms"
+  ],
+  [
+   "to be narrow; to be distressed",
+   "lemma",
+   "daqa-1",
    "en"
   ],
   [
@@ -7718,6 +37509,42 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "dar-1",
    "ms"
+  ],
+  [
+   "one who harms",
+   "lemma",
+   "dar-3",
+   "en"
+  ],
+  [
+   "yang memudaratkan",
+   "lemma",
+   "dar-3",
+   "ms"
+  ],
+  [
+   "berputar",
+   "lemma",
+   "dara-1",
+   "ms"
+  ],
+  [
+   "to revolve",
+   "lemma",
+   "dara-1",
+   "en"
+  ],
+  [
+   "mengetahui",
+   "lemma",
+   "daraa-1",
+   "ms"
+  ],
+  [
+   "to know; to perceive",
+   "lemma",
+   "daraa-1",
+   "en"
   ],
   [
    "memukul; mengemukakan (perumpamaan)",
@@ -7744,6 +37571,162 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "overtaking; a depth",
+   "lemma",
+   "darak-1",
+   "en"
+  ],
+  [
+   "susulan; lapisan",
+   "lemma",
+   "darak-1",
+   "ms"
+  ],
+  [
+   "harm; injury",
+   "lemma",
+   "darar-1",
+   "en"
+  ],
+  [
+   "mudarat",
+   "lemma",
+   "darar-1",
+   "ms"
+  ],
+  [
+   "mempelajari",
+   "lemma",
+   "darasa-1",
+   "ms"
+  ],
+  [
+   "to study; to read closely",
+   "lemma",
+   "darasa-1",
+   "en"
+  ],
+  [
+   "pukulan",
+   "lemma",
+   "darb-1",
+   "ms"
+  ],
+  [
+   "striking",
+   "lemma",
+   "darb-1",
+   "en"
+  ],
+  [
+   "bitter thorny plant (dari')",
+   "lemma",
+   "darii-1",
+   "en"
+  ],
+  [
+   "pokok berduri (dari')",
+   "lemma",
+   "darii-1",
+   "ms"
+  ],
+  [
+   "memudaratkan",
+   "lemma",
+   "darra-1",
+   "ms"
+  ],
+  [
+   "to harm; to cause damage",
+   "lemma",
+   "darra-1",
+   "en"
+  ],
+  [
+   "hardship; adversity",
+   "lemma",
+   "darra-2",
+   "en"
+  ],
+  [
+   "kesusahan",
+   "lemma",
+   "darra-2",
+   "ms"
+  ],
+  [
+   "menolak",
+   "lemma",
+   "darraa-1",
+   "ms"
+  ],
+  [
+   "to ward off",
+   "lemma",
+   "darraa-1",
+   "en"
+  ],
+  [
+   "mengotorkan",
+   "lemma",
+   "dassa-1",
+   "ms"
+  ],
+  [
+   "to corrupt; to bury",
+   "lemma",
+   "dassa-1",
+   "en"
+  ],
+  [
+   "menjadi lemah",
+   "lemma",
+   "dauf-1",
+   "ms"
+  ],
+  [
+   "to be weak",
+   "lemma",
+   "dauf-1",
+   "en"
+  ],
+  [
+   "claim; cry; invocation",
+   "lemma",
+   "dawa-1",
+   "en"
+  ],
+  [
+   "seruan; tuntutan",
+   "lemma",
+   "dawa-1",
+   "ms"
+  ],
+  [
+   "a call; a prayer",
+   "lemma",
+   "dawa-2",
+   "en"
+  ],
+  [
+   "seruan; doa",
+   "lemma",
+   "dawa-2",
+   "ms"
+  ],
+  [
+   "menggilirkan",
+   "lemma",
+   "dawala-1",
+   "ms"
+  ],
+  [
+   "to cause to alternate",
+   "lemma",
+   "dawala-1",
+   "en"
+  ],
+  [
    "david (dawud)",
    "lemma",
    "dawud-1",
@@ -7753,6 +37736,90 @@ const QM_SEARCH_INDEX = {
    "nabi daud",
    "lemma",
    "dawud-1",
+   "ms"
+  ],
+  [
+   "a guest",
+   "lemma",
+   "dayf-1",
+   "en"
+  ],
+  [
+   "tetamu",
+   "lemma",
+   "dayf-1",
+   "ms"
+  ],
+  [
+   "debt",
+   "lemma",
+   "dayn-1",
+   "en"
+  ],
+  [
+   "hutang",
+   "lemma",
+   "dayn-1",
+   "ms"
+  ],
+  [
+   "distress; narrowness",
+   "lemma",
+   "dayq-1",
+   "en"
+  ],
+  [
+   "kesempitan; kesusahan",
+   "lemma",
+   "dayq-1",
+   "ms"
+  ],
+  [
+   "harm",
+   "lemma",
+   "dayr-1",
+   "en"
+  ],
+  [
+   "mudarat",
+   "lemma",
+   "dayr-1",
+   "ms"
+  ],
+  [
+   "menjamu",
+   "lemma",
+   "dayyafa-1",
+   "ms"
+  ],
+  [
+   "to receive as a guest",
+   "lemma",
+   "dayyafa-1",
+   "en"
+  ],
+  [
+   "a dweller; anyone",
+   "lemma",
+   "dayyar-1",
+   "en"
+  ],
+  [
+   "seorang pun",
+   "lemma",
+   "dayyar-1",
+   "ms"
+  ],
+  [
+   "narrow; straitened",
+   "lemma",
+   "dayyiq-1",
+   "en"
+  ],
+  [
+   "sempit",
+   "lemma",
+   "dayyiq-1",
    "ms"
   ],
   [
@@ -7768,6 +37835,54 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "menyembelih",
+   "lemma",
+   "dhabaha-1",
+   "ms"
+  ],
+  [
+   "to slaughter",
+   "lemma",
+   "dhabaha-1",
+   "en"
+  ],
+  [
+   "membunuh beramai-ramai",
+   "lemma",
+   "dhabbaha-1",
+   "ms"
+  ],
+  [
+   "to slay",
+   "lemma",
+   "dhabbaha-1",
+   "en"
+  ],
+  [
+   "emas",
+   "lemma",
+   "dhahab-1",
+   "ms"
+  ],
+  [
+   "gold",
+   "lemma",
+   "dhahab-1",
+   "en"
+  ],
+  [
+   "going away",
+   "lemma",
+   "dhahab-2",
+   "en"
+  ],
+  [
+   "pemergian",
+   "lemma",
+   "dhahab-2",
+   "ms"
+  ],
+  [
    "pergi",
    "lemma",
    "dhahaba-1",
@@ -7777,6 +37892,42 @@ const QM_SEARCH_INDEX = {
    "to go away",
    "lemma",
    "dhahaba-1",
+   "en"
+  ],
+  [
+   "one who goes",
+   "lemma",
+   "dhahib-1",
+   "en"
+  ],
+  [
+   "yang pergi",
+   "lemma",
+   "dhahib-1",
+   "ms"
+  ],
+  [
+   "one who tastes",
+   "lemma",
+   "dhaiq-1",
+   "en"
+  ],
+  [
+   "orang yang merasai",
+   "lemma",
+   "dhaiq-1",
+   "ms"
+  ],
+  [
+   "lelaki; jantan",
+   "lemma",
+   "dhakar-1",
+   "ms"
+  ],
+  [
+   "male",
+   "lemma",
+   "dhakar-1",
    "en"
   ],
   [
@@ -7790,6 +37941,18 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "dhakara-1",
    "en"
+  ],
+  [
+   "one who remembers",
+   "lemma",
+   "dhakir-1",
+   "en"
+  ],
+  [
+   "orang yang mengingat",
+   "lemma",
+   "dhakir-1",
+   "ms"
   ],
   [
    "mengingatkan",
@@ -7828,6 +37991,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "jinak",
+   "lemma",
+   "dhalul-1",
+   "ms"
+  ],
+  [
+   "tame; subdued",
+   "lemma",
+   "dhalul-1",
+   "en"
+  ],
+  [
    "dosa",
    "lemma",
    "dhanb-1",
@@ -7838,6 +38013,18 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "dhanb-1",
    "en"
+  ],
+  [
+   "a portion (of punishment)",
+   "lemma",
+   "dhanub-1",
+   "en"
+  ],
+  [
+   "bahagian (azab)",
+   "lemma",
+   "dhanub-1",
+   "ms"
   ],
   [
    "merasai",
@@ -7852,6 +38039,90 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "kemampuan",
+   "lemma",
+   "dhar-1",
+   "ms"
+  ],
+  [
+   "strength; reach",
+   "lemma",
+   "dhar-1",
+   "en"
+  ],
+  [
+   "membiarkan; meninggalkan",
+   "lemma",
+   "dhara-1",
+   "ms"
+  ],
+  [
+   "to leave; to let alone",
+   "lemma",
+   "dhara-1",
+   "en"
+  ],
+  [
+   "menerbangkan",
+   "lemma",
+   "dhara-3",
+   "ms"
+  ],
+  [
+   "to scatter (as the wind)",
+   "lemma",
+   "dhara-3",
+   "en"
+  ],
+  [
+   "mencipta; membiakkan",
+   "lemma",
+   "dharaa-1",
+   "ms"
+  ],
+  [
+   "to create; to multiply",
+   "lemma",
+   "dharaa-1",
+   "en"
+  ],
+  [
+   "angin yang menerbangkan",
+   "lemma",
+   "dhari-1",
+   "ms"
+  ],
+  [
+   "the winds that scatter",
+   "lemma",
+   "dhari-1",
+   "en"
+  ],
+  [
+   "an atom's weight; a tiny particle",
+   "lemma",
+   "dharra-1",
+   "en"
+  ],
+  [
+   "zarah",
+   "lemma",
+   "dharra-1",
+   "ms"
+  ],
+  [
+   "menerbangkan",
+   "lemma",
+   "dharw-1",
+   "ms"
+  ],
+  [
+   "scattering",
+   "lemma",
+   "dharw-1",
+   "en"
+  ],
+  [
    "possessor of (feminine); self",
    "lemma",
    "dhat-1",
@@ -7861,6 +38132,30 @@ const QM_SEARCH_INDEX = {
    "yang mempunyai (perempuan); diri",
    "lemma",
    "dhat-1",
+   "ms"
+  ],
+  [
+   "a wolf",
+   "lemma",
+   "dhib-1",
+   "en"
+  ],
+  [
+   "serigala",
+   "lemma",
+   "dhib-1",
+   "ms"
+  ],
+  [
+   "a sacrifice",
+   "lemma",
+   "dhibh-1",
+   "en"
+  ],
+  [
+   "sembelihan",
+   "lemma",
+   "dhibh-1",
    "ms"
   ],
   [
@@ -7888,6 +38183,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "humiliation; lowliness",
+   "lemma",
+   "dhilla-1",
+   "en"
+  ],
+  [
+   "kehinaan",
+   "lemma",
+   "dhilla-1",
+   "ms"
+  ],
+  [
+   "a pledge; an obligation",
+   "lemma",
+   "dhimma-1",
+   "en"
+  ],
+  [
+   "tanggungan; perjanjian",
+   "lemma",
+   "dhimma-1",
+   "ms"
+  ],
+  [
+   "an arm; a cubit",
+   "lemma",
+   "dhira-1",
+   "en"
+  ],
+  [
+   "lengan; hasta",
+   "lemma",
+   "dhira-1",
+   "ms"
+  ],
+  [
    "pemilik; yang mempunyai",
    "lemma",
    "dhu-1",
@@ -7898,6 +38229,66 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "dhu-1",
    "en"
+  ],
+  [
+   "a fly",
+   "lemma",
+   "dhubab-1",
+   "en"
+  ],
+  [
+   "lalat",
+   "lemma",
+   "dhubab-1",
+   "ms"
+  ],
+  [
+   "lelaki",
+   "lemma",
+   "dhukran-1",
+   "ms"
+  ],
+  [
+   "males",
+   "lemma",
+   "dhukran-1",
+   "en"
+  ],
+  [
+   "humility; disgrace",
+   "lemma",
+   "dhull-1",
+   "en"
+  ],
+  [
+   "kehinaan",
+   "lemma",
+   "dhull-1",
+   "ms"
+  ],
+  [
+   "merendahkan; menundukkan",
+   "lemma",
+   "dhulla-1",
+   "ms"
+  ],
+  [
+   "to make low; to subdue",
+   "lemma",
+   "dhulla-1",
+   "en"
+  ],
+  [
+   "a chin",
+   "lemma",
+   "dhuqan-1",
+   "en"
+  ],
+  [
+   "dagu",
+   "lemma",
+   "dhuqan-1",
+   "ms"
   ],
   [
    "offspring; descendants",
@@ -7912,6 +38303,114 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "double; twice as much",
+   "lemma",
+   "dif-1",
+   "en"
+  ],
+  [
+   "dua kali ganda",
+   "lemma",
+   "dif-1",
+   "ms"
+  ],
+  [
+   "orang-orang lemah",
+   "lemma",
+   "difaf-1",
+   "ms"
+  ],
+  [
+   "weak ones",
+   "lemma",
+   "difaf-1",
+   "en"
+  ],
+  [
+   "dendam",
+   "lemma",
+   "dighn-1",
+   "ms"
+  ],
+  [
+   "rancour; malice",
+   "lemma",
+   "dighn-1",
+   "en"
+  ],
+  [
+   "a bundle (of grass)",
+   "lemma",
+   "dighth-1",
+   "en"
+  ],
+  [
+   "seikat rumput",
+   "lemma",
+   "dighth-1",
+   "ms"
+  ],
+  [
+   "minyak merah",
+   "lemma",
+   "dihan-1",
+   "ms"
+  ],
+  [
+   "red oil",
+   "lemma",
+   "dihan-1",
+   "en"
+  ],
+  [
+   "minyak",
+   "lemma",
+   "dihn-2",
+   "ms"
+  ],
+  [
+   "oil",
+   "lemma",
+   "dihn-2",
+   "en"
+  ],
+  [
+   "harm; injury",
+   "lemma",
+   "dirar-1",
+   "en"
+  ],
+  [
+   "mudarat",
+   "lemma",
+   "dirar-1",
+   "ms"
+  ],
+  [
+   "blood-money",
+   "lemma",
+   "diya-1",
+   "en"
+  ],
+  [
+   "diat",
+   "lemma",
+   "diya-1",
+   "ms"
+  ],
+  [
+   "cahaya terang",
+   "lemma",
+   "diya-2",
+   "ms"
+  ],
+  [
+   "radiance",
+   "lemma",
+   "diya-2",
+   "en"
+  ],
+  [
    "calling; supplication",
    "lemma",
    "dua-1",
@@ -7922,6 +38421,78 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "dua-1",
    "ms"
+  ],
+  [
+   "orang lemah",
+   "lemma",
+   "duafa-1",
+   "ms"
+  ],
+  [
+   "weak ones",
+   "lemma",
+   "duafa-1",
+   "en"
+  ],
+  [
+   "back; rear",
+   "lemma",
+   "dubur-1",
+   "en"
+  ],
+  [
+   "belakang",
+   "lemma",
+   "dubur-1",
+   "ms"
+  ],
+  [
+   "forenoon; morning",
+   "lemma",
+   "duha-1",
+   "en"
+  ],
+  [
+   "waktu dhuha",
+   "lemma",
+   "duha-1",
+   "ms"
+  ],
+  [
+   "asap",
+   "lemma",
+   "dukhan-1",
+   "ms"
+  ],
+  [
+   "smoke",
+   "lemma",
+   "dukhan-1",
+   "en"
+  ],
+  [
+   "a circulating possession; a turn",
+   "lemma",
+   "dula-1",
+   "en"
+  ],
+  [
+   "harta yang berpusing",
+   "lemma",
+   "dula-1",
+   "ms"
+  ],
+  [
+   "tergelincirnya (matahari)",
+   "lemma",
+   "duluk-1",
+   "ms"
+  ],
+  [
+   "the declining (of the sun)",
+   "lemma",
+   "duluk-1",
+   "en"
   ],
   [
    "besides; other than; below",
@@ -7960,6 +38531,54 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "bagai mutiara",
+   "lemma",
+   "durriyy-1",
+   "ms"
+  ],
+  [
+   "pearl-like; brilliant",
+   "lemma",
+   "durriyy-1",
+   "en"
+  ],
+  [
+   "kembali",
+   "lemma",
+   "faa-1",
+   "ms"
+  ],
+  [
+   "to return; to revert",
+   "lemma",
+   "faa-1",
+   "en"
+  ],
+  [
+   "doer; one who does",
+   "lemma",
+   "faail-1",
+   "en"
+  ],
+  [
+   "pelaku",
+   "lemma",
+   "faail-1",
+   "ms"
+  ],
+  [
+   "one who does (habitually)",
+   "lemma",
+   "faal-1",
+   "en"
+  ],
+  [
+   "yang sentiasa melakukan",
+   "lemma",
+   "faal-1",
+   "ms"
+  ],
+  [
    "melakukan, bertindak",
    "lemma",
    "faala-1",
@@ -7969,6 +38588,42 @@ const QM_SEARCH_INDEX = {
    "to do, to act",
    "lemma",
    "faala-1",
+   "en"
+  ],
+  [
+   "berpisah dengan",
+   "lemma",
+   "faaraqa-1",
+   "ms"
+  ],
+  [
+   "to separate from",
+   "lemma",
+   "faaraqa-1",
+   "en"
+  ],
+  [
+   "melimpah",
+   "lemma",
+   "fada-1",
+   "ms"
+  ],
+  [
+   "to overflow",
+   "lemma",
+   "fada-1",
+   "en"
+  ],
+  [
+   "melebihkan",
+   "lemma",
+   "faddala-1",
+   "ms"
+  ],
+  [
+   "to prefer; to favour",
+   "lemma",
+   "faddala-1",
    "en"
   ],
   [
@@ -7984,6 +38639,402 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "indecency; shameful deed",
+   "lemma",
+   "fahisha-1",
+   "en"
+  ],
+  [
+   "perbuatan keji",
+   "lemma",
+   "fahisha-1",
+   "ms"
+  ],
+  [
+   "indecency; immorality",
+   "lemma",
+   "fahsha-1",
+   "en"
+  ],
+  [
+   "kekejian; kemungkaran",
+   "lemma",
+   "fahsha-1",
+   "ms"
+  ],
+  [
+   "one who attains success",
+   "lemma",
+   "faiz-1",
+   "en"
+  ],
+  [
+   "orang yang berjaya",
+   "lemma",
+   "faiz-1",
+   "ms"
+  ],
+  [
+   "berbuat fasik",
+   "lemma",
+   "fajara-1",
+   "ms"
+  ],
+  [
+   "to be wicked",
+   "lemma",
+   "fajara-1",
+   "en"
+  ],
+  [
+   "a wicked person",
+   "lemma",
+   "fajir-1",
+   "en"
+  ],
+  [
+   "orang yang fasik",
+   "lemma",
+   "fajir-1",
+   "ms"
+  ],
+  [
+   "a wide mountain pass",
+   "lemma",
+   "fajj-1",
+   "en"
+  ],
+  [
+   "lorong gunung",
+   "lemma",
+   "fajj-1",
+   "ms"
+  ],
+  [
+   "memancarkan",
+   "lemma",
+   "fajjara-1",
+   "ms"
+  ],
+  [
+   "to cause to gush forth",
+   "lemma",
+   "fajjara-1",
+   "en"
+  ],
+  [
+   "dawn",
+   "lemma",
+   "fajr-1",
+   "en"
+  ],
+  [
+   "fajar",
+   "lemma",
+   "fajr-1",
+   "ms"
+  ],
+  [
+   "a spacious place",
+   "lemma",
+   "fajwa-1",
+   "en"
+  ],
+  [
+   "tempat lapang",
+   "lemma",
+   "fajwa-1",
+   "ms"
+  ],
+  [
+   "pottery",
+   "lemma",
+   "fakhkhar-1",
+   "en"
+  ],
+  [
+   "tembikar",
+   "lemma",
+   "fakhkhar-1",
+   "ms"
+  ],
+  [
+   "boastful",
+   "lemma",
+   "fakhur-1",
+   "en"
+  ],
+  [
+   "suka bermegah",
+   "lemma",
+   "fakhur-1",
+   "ms"
+  ],
+  [
+   "bergembira; menikmati",
+   "lemma",
+   "fakih-1",
+   "ms"
+  ],
+  [
+   "enjoying; delighted",
+   "lemma",
+   "fakih-1",
+   "en"
+  ],
+  [
+   "buah-buahan",
+   "lemma",
+   "fakiha-1",
+   "ms"
+  ],
+  [
+   "fruit",
+   "lemma",
+   "fakiha-1",
+   "en"
+  ],
+  [
+   "freeing",
+   "lemma",
+   "fakk-1",
+   "en"
+  ],
+  [
+   "membebaskan",
+   "lemma",
+   "fakk-1",
+   "ms"
+  ],
+  [
+   "a deed",
+   "lemma",
+   "fala-1",
+   "en"
+  ],
+  [
+   "perbuatan",
+   "lemma",
+   "fala-1",
+   "ms"
+  ],
+  [
+   "one who splits; cleaver",
+   "lemma",
+   "faliq-1",
+   "en"
+  ],
+  [
+   "yang membelah",
+   "lemma",
+   "faliq-1",
+   "ms"
+  ],
+  [
+   "mouth",
+   "lemma",
+   "fam-1",
+   "en"
+  ],
+  [
+   "mulut",
+   "lemma",
+   "fam-1",
+   "ms"
+  ],
+  [
+   "perishing",
+   "lemma",
+   "fan-1",
+   "en"
+  ],
+  [
+   "yang binasa",
+   "lemma",
+   "fan-1",
+   "ms"
+  ],
+  [
+   "bright (of colour)",
+   "lemma",
+   "faqi-1",
+   "en"
+  ],
+  [
+   "terang (warna)",
+   "lemma",
+   "faqi-1",
+   "ms"
+  ],
+  [
+   "memahami; mengerti",
+   "lemma",
+   "faqiha-1",
+   "ms"
+  ],
+  [
+   "to understand; to grasp",
+   "lemma",
+   "faqiha-1",
+   "en"
+  ],
+  [
+   "fakir; memerlukan",
+   "lemma",
+   "faqir-1",
+   "ms"
+  ],
+  [
+   "poor; in need",
+   "lemma",
+   "faqir-1",
+   "en"
+  ],
+  [
+   "mendidih; memancar",
+   "lemma",
+   "fara-1",
+   "ms"
+  ],
+  [
+   "to boil; to gush",
+   "lemma",
+   "fara-1",
+   "en"
+  ],
+  [
+   "mewajibkan; menetapkan",
+   "lemma",
+   "farada-1",
+   "ms"
+  ],
+  [
+   "to ordain; to make obligatory",
+   "lemma",
+   "farada-1",
+   "en"
+  ],
+  [
+   "kemaluan; kehormatan",
+   "lemma",
+   "faraj-1",
+   "ms"
+  ],
+  [
+   "private part; chastity",
+   "lemma",
+   "faraj-1",
+   "en"
+  ],
+  [
+   "memisahkan",
+   "lemma",
+   "faraqa-1",
+   "ms"
+  ],
+  [
+   "to separate; to divide",
+   "lemma",
+   "faraqa-1",
+   "en"
+  ],
+  [
+   "bertindak melampau",
+   "lemma",
+   "farata-1",
+   "ms"
+  ],
+  [
+   "to act hastily",
+   "lemma",
+   "farata-1",
+   "en"
+  ],
+  [
+   "alone; single",
+   "lemma",
+   "fard-1",
+   "en"
+  ],
+  [
+   "bersendirian",
+   "lemma",
+   "fard-1",
+   "ms"
+  ],
+  [
+   "old (of a cow)",
+   "lemma",
+   "farid-1",
+   "en"
+  ],
+  [
+   "tua",
+   "lemma",
+   "farid-1",
+   "ms"
+  ],
+  [
+   "kewajipan; bahagian yang ditetapkan",
+   "lemma",
+   "farida-1",
+   "ms"
+  ],
+  [
+   "obligation; an ordained portion",
+   "lemma",
+   "farida-1",
+   "en"
+  ],
+  [
+   "empty",
+   "lemma",
+   "farigh-1",
+   "en"
+  ],
+  [
+   "kosong",
+   "lemma",
+   "farigh-1",
+   "ms"
+  ],
+  [
+   "bergembira; riang",
+   "lemma",
+   "farih-1",
+   "ms"
+  ],
+  [
+   "rejoicing; exultant",
+   "lemma",
+   "farih-1",
+   "en"
+  ],
+  [
+   "mahir",
+   "lemma",
+   "farih-2",
+   "ms"
+  ],
+  [
+   "skilful",
+   "lemma",
+   "farih-2",
+   "en"
+  ],
+  [
+   "bergembira",
+   "lemma",
+   "fariha-1",
+   "ms"
+  ],
+  [
+   "to rejoice",
+   "lemma",
+   "fariha-1",
+   "en"
+  ],
+  [
    "golongan; pihak",
    "lemma",
    "fariq-1",
@@ -7996,6 +39047,222 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a monstrous thing",
+   "lemma",
+   "fariyy-1",
+   "en"
+  ],
+  [
+   "perkara yang amat besar",
+   "lemma",
+   "fariyy-1",
+   "ms"
+  ],
+  [
+   "pemisahan",
+   "lemma",
+   "farq-1",
+   "ms"
+  ],
+  [
+   "separation; distinguishing",
+   "lemma",
+   "farq-1",
+   "en"
+  ],
+  [
+   "lari",
+   "lemma",
+   "farra-1",
+   "ms"
+  ],
+  [
+   "to flee",
+   "lemma",
+   "farra-1",
+   "en"
+  ],
+  [
+   "memisahkan; memecah-belahkan",
+   "lemma",
+   "farraqa-1",
+   "ms"
+  ],
+  [
+   "to separate; to divide",
+   "lemma",
+   "farraqa-1",
+   "en"
+  ],
+  [
+   "mengabaikan",
+   "lemma",
+   "farrata-1",
+   "ms"
+  ],
+  [
+   "to neglect",
+   "lemma",
+   "farrata-1",
+   "en"
+  ],
+  [
+   "corruption; mischief",
+   "lemma",
+   "fasad-1",
+   "en"
+  ],
+  [
+   "kerosakan",
+   "lemma",
+   "fasad-1",
+   "ms"
+  ],
+  [
+   "rosak",
+   "lemma",
+   "fasada-1",
+   "ms"
+  ],
+  [
+   "to be corrupt; to go to ruin",
+   "lemma",
+   "fasada-1",
+   "en"
+  ],
+  [
+   "memberi ruang",
+   "lemma",
+   "fasaha-1",
+   "ms"
+  ],
+  [
+   "to make room",
+   "lemma",
+   "fasaha-1",
+   "en"
+  ],
+  [
+   "memisahkan; memutuskan",
+   "lemma",
+   "fasala-1",
+   "ms"
+  ],
+  [
+   "to separate; to decide",
+   "lemma",
+   "fasala-1",
+   "en"
+  ],
+  [
+   "menjadi fasik; menderhaka",
+   "lemma",
+   "fasaqa-1",
+   "ms"
+  ],
+  [
+   "to transgress; to be disobedient",
+   "lemma",
+   "fasaqa-1",
+   "en"
+  ],
+  [
+   "gagal semangat",
+   "lemma",
+   "fashila-1",
+   "ms"
+  ],
+  [
+   "to lose heart",
+   "lemma",
+   "fashila-1",
+   "en"
+  ],
+  [
+   "one who decides",
+   "lemma",
+   "fasil-1",
+   "en"
+  ],
+  [
+   "yang memutuskan",
+   "lemma",
+   "fasil-1",
+   "ms"
+  ],
+  [
+   "kaum kerabat",
+   "lemma",
+   "fasila-1",
+   "ms"
+  ],
+  [
+   "one's kindred",
+   "lemma",
+   "fasila-1",
+   "en"
+  ],
+  [
+   "orang fasik; penderhaka",
+   "lemma",
+   "fasiq-1",
+   "ms"
+  ],
+  [
+   "transgressor; disobedient",
+   "lemma",
+   "fasiq-1",
+   "en"
+  ],
+  [
+   "decision; separation",
+   "lemma",
+   "fasl-1",
+   "en"
+  ],
+  [
+   "keputusan; pemisahan",
+   "lemma",
+   "fasl-1",
+   "ms"
+  ],
+  [
+   "menjelaskan secara terperinci",
+   "lemma",
+   "fassala-1",
+   "ms"
+  ],
+  [
+   "to set out in detail",
+   "lemma",
+   "fassala-1",
+   "en"
+  ],
+  [
+   "terlepas",
+   "lemma",
+   "fata-1",
+   "ms"
+  ],
+  [
+   "to slip away; to miss",
+   "lemma",
+   "fata-1",
+   "en"
+  ],
+  [
+   "a young woman; a slave-girl",
+   "lemma",
+   "fatah-1",
+   "en"
+  ],
+  [
+   "hamba perempuan muda",
+   "lemma",
+   "fatah-1",
+   "ms"
+  ],
+  [
    "membuka",
    "lemma",
    "fataha-1",
@@ -8005,6 +39272,138 @@ const QM_SEARCH_INDEX = {
    "to open",
    "lemma",
    "fataha-1",
+   "en"
+  ],
+  [
+   "a young man",
+   "lemma",
+   "fatan-1",
+   "en"
+  ],
+  [
+   "pemuda",
+   "lemma",
+   "fatan-1",
+   "ms"
+  ],
+  [
+   "menguji",
+   "lemma",
+   "fatana-1",
+   "ms"
+  ],
+  [
+   "to test; to put to trial",
+   "lemma",
+   "fatana-1",
+   "en"
+  ],
+  [
+   "menciptakan",
+   "lemma",
+   "fatara-1",
+   "ms"
+  ],
+  [
+   "to originate; to create",
+   "lemma",
+   "fatara-1",
+   "en"
+  ],
+  [
+   "opening; victory",
+   "lemma",
+   "fath-1",
+   "en"
+  ],
+  [
+   "pembukaan; kemenangan",
+   "lemma",
+   "fath-1",
+   "ms"
+  ],
+  [
+   "one who opens",
+   "lemma",
+   "fatih-1",
+   "en"
+  ],
+  [
+   "pembuka",
+   "lemma",
+   "fatih-1",
+   "ms"
+  ],
+  [
+   "a tiny thread (a trace)",
+   "lemma",
+   "fatil-1",
+   "en"
+  ],
+  [
+   "benang halus",
+   "lemma",
+   "fatil-1",
+   "ms"
+  ],
+  [
+   "one who tempts",
+   "lemma",
+   "fatin-1",
+   "en"
+  ],
+  [
+   "penggoda",
+   "lemma",
+   "fatin-1",
+   "ms"
+  ],
+  [
+   "originator; creator",
+   "lemma",
+   "fatir-1",
+   "en"
+  ],
+  [
+   "pencipta",
+   "lemma",
+   "fatir-1",
+   "ms"
+  ],
+  [
+   "maha pembuka",
+   "lemma",
+   "fattah-1",
+   "ms"
+  ],
+  [
+   "the opener",
+   "lemma",
+   "fattah-1",
+   "en"
+  ],
+  [
+   "mengendur",
+   "lemma",
+   "fattara-1",
+   "ms"
+  ],
+  [
+   "to slacken; to relax",
+   "lemma",
+   "fattara-1",
+   "en"
+  ],
+  [
+   "berbondong-bondong; kumpulan",
+   "lemma",
+   "fawj-1",
+   "ms"
+  ],
+  [
+   "throng; crowd",
+   "lemma",
+   "fawj-1",
    "en"
   ],
   [
@@ -8020,6 +39419,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "escape",
+   "lemma",
+   "fawt-1",
+   "en"
+  ],
+  [
+   "terlepas",
+   "lemma",
+   "fawt-1",
+   "ms"
+  ],
+  [
+   "menyerahkan",
+   "lemma",
+   "fawwada-1",
+   "ms"
+  ],
+  [
+   "to entrust",
+   "lemma",
+   "fawwada-1",
+   "en"
+  ],
+  [
    "kejayaan; kemenangan",
    "lemma",
    "fawz-1",
@@ -8029,6 +39452,66 @@ const QM_SEARCH_INDEX = {
    "success; triumph",
    "lemma",
    "fawz-1",
+   "en"
+  ],
+  [
+   "ketakutan",
+   "lemma",
+   "faza-1",
+   "ms"
+  ],
+  [
+   "terror; fright",
+   "lemma",
+   "faza-1",
+   "en"
+  ],
+  [
+   "berjaya",
+   "lemma",
+   "faza-2",
+   "ms"
+  ],
+  [
+   "to attain success",
+   "lemma",
+   "faza-2",
+   "en"
+  ],
+  [
+   "terkejut",
+   "lemma",
+   "faziaa-1",
+   "ms"
+  ],
+  [
+   "to be terrified",
+   "lemma",
+   "faziaa-1",
+   "en"
+  ],
+  [
+   "terkejut ketakutan",
+   "lemma",
+   "faziya-1",
+   "ms"
+  ],
+  [
+   "to be terrified",
+   "lemma",
+   "faziya-1",
+   "en"
+  ],
+  [
+   "menghilangkan ketakutan",
+   "lemma",
+   "fazza-1",
+   "ms"
+  ],
+  [
+   "to remove terror",
+   "lemma",
+   "fazza-1",
    "en"
   ],
   [
@@ -8044,6 +39527,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "golongan; pasukan",
+   "lemma",
+   "fia-1",
+   "ms"
+  ],
+  [
+   "group; company; troop",
+   "lemma",
+   "fia-1",
+   "en"
+  ],
+  [
+   "ransom",
+   "lemma",
+   "fidaa-1",
+   "en"
+  ],
+  [
+   "tebusan",
+   "lemma",
+   "fidaa-1",
+   "ms"
+  ],
+  [
+   "perak",
+   "lemma",
+   "fidda-1",
+   "ms"
+  ],
+  [
+   "silver",
+   "lemma",
+   "fidda-1",
+   "en"
+  ],
+  [
+   "a ransom",
+   "lemma",
+   "fidya-1",
+   "en"
+  ],
+  [
+   "tebusan",
+   "lemma",
+   "fidya-1",
+   "ms"
+  ],
+  [
    "elephant",
    "lemma",
    "fil-1",
@@ -8053,6 +39584,30 @@ const QM_SEARCH_INDEX = {
    "gajah",
    "lemma",
    "fil-1",
+   "ms"
+  ],
+  [
+   "parting",
+   "lemma",
+   "firaq-1",
+   "en"
+  ],
+  [
+   "perpisahan",
+   "lemma",
+   "firaq-1",
+   "ms"
+  ],
+  [
+   "flight",
+   "lemma",
+   "firar-1",
+   "en"
+  ],
+  [
+   "larian",
+   "lemma",
+   "firar-1",
    "ms"
   ],
   [
@@ -8068,6 +39623,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "firdaus",
+   "lemma",
+   "firdaws-1",
+   "ms"
+  ],
+  [
+   "paradise (firdaws)",
+   "lemma",
+   "firdaws-1",
+   "en"
+  ],
+  [
+   "a portion; a section",
+   "lemma",
+   "firq-1",
+   "en"
+  ],
+  [
+   "bahagian",
+   "lemma",
+   "firq-1",
+   "ms"
+  ],
+  [
+   "a party; a section",
+   "lemma",
+   "firqa-1",
+   "en"
+  ],
+  [
+   "golongan",
+   "lemma",
+   "firqa-1",
+   "ms"
+  ],
+  [
+   "penyapihan",
+   "lemma",
+   "fisal-1",
+   "ms"
+  ],
+  [
+   "weaning",
+   "lemma",
+   "fisal-1",
+   "en"
+  ],
+  [
+   "kefasikan",
+   "lemma",
+   "fisq-1",
+   "ms"
+  ],
+  [
+   "transgression; disobedience",
+   "lemma",
+   "fisq-1",
+   "en"
+  ],
+  [
    "trial; temptation; discord",
    "lemma",
    "fitna-1",
@@ -8080,6 +39695,42 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "fitrah",
+   "lemma",
+   "fitra-1",
+   "ms"
+  ],
+  [
+   "the natural disposition",
+   "lemma",
+   "fitra-1",
+   "en"
+  ],
+  [
+   "hati; fikiran dalam",
+   "lemma",
+   "fuad-1",
+   "ms"
+  ],
+  [
+   "heart; inner mind",
+   "lemma",
+   "fuad-1",
+   "en"
+  ],
+  [
+   "kefasikan",
+   "lemma",
+   "fujur-1",
+   "ms"
+  ],
+  [
+   "wickedness",
+   "lemma",
+   "fujur-1",
+   "en"
+  ],
+  [
    "kapal",
    "lemma",
    "fulk-1",
@@ -8089,6 +39740,150 @@ const QM_SEARCH_INDEX = {
    "ship",
    "lemma",
    "fulk-1",
+   "en"
+  ],
+  [
+   "one by one; alone",
+   "lemma",
+   "furada-1",
+   "en"
+  ],
+  [
+   "seorang demi seorang",
+   "lemma",
+   "furada-1",
+   "ms"
+  ],
+  [
+   "air tawar",
+   "lemma",
+   "furat-1",
+   "ms"
+  ],
+  [
+   "sweet water",
+   "lemma",
+   "furat-1",
+   "en"
+  ],
+  [
+   "terbelah",
+   "lemma",
+   "furija-1",
+   "ms"
+  ],
+  [
+   "to split open",
+   "lemma",
+   "furija-1",
+   "en"
+  ],
+  [
+   "pembeza; al-furqan",
+   "lemma",
+   "furqan-1",
+   "ms"
+  ],
+  [
+   "the criterion; that which distinguishes",
+   "lemma",
+   "furqan-1",
+   "en"
+  ],
+  [
+   "a bed; a moth",
+   "lemma",
+   "furush-1",
+   "en"
+  ],
+  [
+   "hamparan; rama-rama",
+   "lemma",
+   "furush-1",
+   "ms"
+  ],
+  [
+   "trial; testing",
+   "lemma",
+   "futun-1",
+   "en"
+  ],
+  [
+   "ujian",
+   "lemma",
+   "futun-1",
+   "ms"
+  ],
+  [
+   "a flaw; a rift",
+   "lemma",
+   "futur-1",
+   "en"
+  ],
+  [
+   "keretakan",
+   "lemma",
+   "futur-1",
+   "ms"
+  ],
+  [
+   "one who stays behind",
+   "lemma",
+   "ghabir-1",
+   "en"
+  ],
+  [
+   "yang tertinggal",
+   "lemma",
+   "ghabir-1",
+   "ms"
+  ],
+  [
+   "esok",
+   "lemma",
+   "ghad-1",
+   "ms"
+  ],
+  [
+   "tomorrow",
+   "lemma",
+   "ghad-1",
+   "en"
+  ],
+  [
+   "a morning meal",
+   "lemma",
+   "ghada-1",
+   "en"
+  ],
+  [
+   "makanan pagi",
+   "lemma",
+   "ghada-1",
+   "ms"
+  ],
+  [
+   "keluar pagi-pagi",
+   "lemma",
+   "ghada-2",
+   "ms"
+  ],
+  [
+   "to go out early",
+   "lemma",
+   "ghada-2",
+   "en"
+  ],
+  [
+   "surut",
+   "lemma",
+   "ghada-3",
+   "ms"
+  ],
+  [
+   "to subside",
+   "lemma",
+   "ghada-3",
    "en"
   ],
   [
@@ -8104,6 +39899,54 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "angry",
+   "lemma",
+   "ghadban-1",
+   "en"
+  ],
+  [
+   "marah",
+   "lemma",
+   "ghadban-1",
+   "ms"
+  ],
+  [
+   "merendahkan",
+   "lemma",
+   "ghadda-1",
+   "ms"
+  ],
+  [
+   "to lower (the voice or gaze)",
+   "lemma",
+   "ghadda-1",
+   "en"
+  ],
+  [
+   "marah",
+   "lemma",
+   "ghadiba-1",
+   "ms"
+  ],
+  [
+   "to be angry",
+   "lemma",
+   "ghadiba-1",
+   "en"
+  ],
+  [
+   "pagi",
+   "lemma",
+   "ghadwa-1",
+   "ms"
+  ],
+  [
+   "the morning",
+   "lemma",
+   "ghadwa-1",
+   "en"
+  ],
+  [
    "mengampuni",
    "lemma",
    "ghafara-1",
@@ -8114,6 +39957,54 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "ghafara-1",
    "en"
+  ],
+  [
+   "maha pengampun",
+   "lemma",
+   "ghaffar-1",
+   "ms"
+  ],
+  [
+   "the all-forgiving",
+   "lemma",
+   "ghaffar-1",
+   "en"
+  ],
+  [
+   "heedless; unaware",
+   "lemma",
+   "ghafil-1",
+   "en"
+  ],
+  [
+   "lalai; lengah",
+   "lemma",
+   "ghafil-1",
+   "ms"
+  ],
+  [
+   "one who forgives",
+   "lemma",
+   "ghafir-1",
+   "en"
+  ],
+  [
+   "yang mengampun",
+   "lemma",
+   "ghafir-1",
+   "ms"
+  ],
+  [
+   "heedlessness",
+   "lemma",
+   "ghafla-1",
+   "en"
+  ],
+  [
+   "kelalaian",
+   "lemma",
+   "ghafla-1",
+   "ms"
   ],
   [
    "all-forgiving",
@@ -8128,6 +40019,186 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "absent; hidden",
+   "lemma",
+   "ghaib-1",
+   "en"
+  ],
+  [
+   "yang ghaib",
+   "lemma",
+   "ghaib-1",
+   "ms"
+  ],
+  [
+   "a low ground (the privy)",
+   "lemma",
+   "ghait-1",
+   "en"
+  ],
+  [
+   "tempat membuang air",
+   "lemma",
+   "ghait-1",
+   "ms"
+  ],
+  [
+   "mendidih",
+   "lemma",
+   "ghala-1",
+   "ms"
+  ],
+  [
+   "to boil",
+   "lemma",
+   "ghala-1",
+   "en"
+  ],
+  [
+   "melampau",
+   "lemma",
+   "ghala-2",
+   "ms"
+  ],
+  [
+   "to exceed the limit",
+   "lemma",
+   "ghala-2",
+   "en"
+  ],
+  [
+   "kemenangan",
+   "lemma",
+   "ghalab-1",
+   "ms"
+  ],
+  [
+   "victory",
+   "lemma",
+   "ghalab-1",
+   "en"
+  ],
+  [
+   "mengalahkan; menang",
+   "lemma",
+   "ghalaba-1",
+   "ms"
+  ],
+  [
+   "to overcome; to prevail",
+   "lemma",
+   "ghalaba-1",
+   "en"
+  ],
+  [
+   "victorious; prevailing",
+   "lemma",
+   "ghalib-1",
+   "en"
+  ],
+  [
+   "yang menang",
+   "lemma",
+   "ghalib-1",
+   "ms"
+  ],
+  [
+   "harsh; thick; stern",
+   "lemma",
+   "ghalith-1",
+   "en"
+  ],
+  [
+   "keras; tebal",
+   "lemma",
+   "ghalith-1",
+   "ms"
+  ],
+  [
+   "menyelewengkan; membelenggu",
+   "lemma",
+   "ghalla-1",
+   "ms"
+  ],
+  [
+   "to defraud; to fetter",
+   "lemma",
+   "ghalla-1",
+   "en"
+  ],
+  [
+   "bersikap keras",
+   "lemma",
+   "ghaluza-1",
+   "ms"
+  ],
+  [
+   "to be harsh; to be stern",
+   "lemma",
+   "ghaluza-1",
+   "en"
+  ],
+  [
+   "boiling",
+   "lemma",
+   "ghaly-1",
+   "en"
+  ],
+  [
+   "pendidihan",
+   "lemma",
+   "ghaly-1",
+   "ms"
+  ],
+  [
+   "awan",
+   "lemma",
+   "ghamam-1",
+   "ms"
+  ],
+  [
+   "clouds",
+   "lemma",
+   "ghamam-1",
+   "en"
+  ],
+  [
+   "distress; grief",
+   "lemma",
+   "ghamm-1",
+   "en"
+  ],
+  [
+   "kedukaan",
+   "lemma",
+   "ghamm-1",
+   "ms"
+  ],
+  [
+   "a deep flood; confusion",
+   "lemma",
+   "ghamra-1",
+   "en"
+  ],
+  [
+   "kebingungan",
+   "lemma",
+   "ghamra-1",
+   "ms"
+  ],
+  [
+   "kambing biri-biri",
+   "lemma",
+   "ghanam-1",
+   "ms"
+  ],
+  [
+   "sheep",
+   "lemma",
+   "ghanam-1",
+   "en"
+  ],
+  [
    "maha kaya; kaya",
    "lemma",
    "ghani-1",
@@ -8137,6 +40208,318 @@ const QM_SEARCH_INDEX = {
    "self-sufficient; rich",
    "lemma",
    "ghani-1",
+   "en"
+  ],
+  [
+   "mendapat rampasan",
+   "lemma",
+   "ghanima-1",
+   "ms"
+  ],
+  [
+   "to take as spoil",
+   "lemma",
+   "ghanima-1",
+   "en"
+  ],
+  [
+   "menetap; makmur",
+   "lemma",
+   "ghaniya-1",
+   "ms"
+  ],
+  [
+   "to dwell; to prosper",
+   "lemma",
+   "ghaniya-1",
+   "en"
+  ],
+  [
+   "a cave",
+   "lemma",
+   "ghar-1",
+   "en"
+  ],
+  [
+   "gua",
+   "lemma",
+   "ghar-1",
+   "ms"
+  ],
+  [
+   "terbenam",
+   "lemma",
+   "gharaba-1",
+   "ms"
+  ],
+  [
+   "to set (of the sun)",
+   "lemma",
+   "gharaba-1",
+   "en"
+  ],
+  [
+   "a grievous penalty",
+   "lemma",
+   "gharam-1",
+   "en"
+  ],
+  [
+   "azab yang berat",
+   "lemma",
+   "gharam-1",
+   "ms"
+  ],
+  [
+   "barat",
+   "lemma",
+   "gharbiyy-1",
+   "ms"
+  ],
+  [
+   "western",
+   "lemma",
+   "gharbiyy-1",
+   "en"
+  ],
+  [
+   "one in debt",
+   "lemma",
+   "gharim-1",
+   "en"
+  ],
+  [
+   "orang yang berhutang",
+   "lemma",
+   "gharim-1",
+   "ms"
+  ],
+  [
+   "drowning; drenching",
+   "lemma",
+   "ghariqa-1",
+   "en"
+  ],
+  [
+   "tenggelam",
+   "lemma",
+   "ghariqa-1",
+   "ms"
+  ],
+  [
+   "memperdaya",
+   "lemma",
+   "gharra-1",
+   "ms"
+  ],
+  [
+   "to deceive; to delude",
+   "lemma",
+   "gharra-1",
+   "en"
+  ],
+  [
+   "menyelam",
+   "lemma",
+   "ghasa-1",
+   "ms"
+  ],
+  [
+   "to dive",
+   "lemma",
+   "ghasa-1",
+   "en"
+  ],
+  [
+   "membasuh",
+   "lemma",
+   "ghasala-1",
+   "ms"
+  ],
+  [
+   "to wash",
+   "lemma",
+   "ghasala-1",
+   "en"
+  ],
+  [
+   "kegelapan malam",
+   "lemma",
+   "ghasaq-1",
+   "ms"
+  ],
+  [
+   "the darkness (of night)",
+   "lemma",
+   "ghasaq-1",
+   "en"
+  ],
+  [
+   "menyelubungi; meliputi",
+   "lemma",
+   "ghashiya-1",
+   "ms"
+  ],
+  [
+   "to cover; to overwhelm",
+   "lemma",
+   "ghashiya-1",
+   "en"
+  ],
+  [
+   "an overwhelming event",
+   "lemma",
+   "ghashiya-2",
+   "en"
+  ],
+  [
+   "peristiwa yang meliputi",
+   "lemma",
+   "ghashiya-2",
+   "ms"
+  ],
+  [
+   "menutupi",
+   "lemma",
+   "ghashsha-1",
+   "ms"
+  ],
+  [
+   "to cover; to overwhelm",
+   "lemma",
+   "ghashsha-1",
+   "en"
+  ],
+  [
+   "darkness (of night)",
+   "lemma",
+   "ghasiq-1",
+   "en"
+  ],
+  [
+   "kegelapan malam",
+   "lemma",
+   "ghasiq-1",
+   "ms"
+  ],
+  [
+   "a foul fluid",
+   "lemma",
+   "ghassaq-1",
+   "en"
+  ],
+  [
+   "nanah",
+   "lemma",
+   "ghassaq-1",
+   "ms"
+  ],
+  [
+   "mendapat hujan",
+   "lemma",
+   "ghatha-1",
+   "ms"
+  ],
+  [
+   "to be given rain",
+   "lemma",
+   "ghatha-1",
+   "en"
+  ],
+  [
+   "sesat; tersilap",
+   "lemma",
+   "ghawa-1",
+   "ms"
+  ],
+  [
+   "to go astray; to err",
+   "lemma",
+   "ghawa-1",
+   "en"
+  ],
+  [
+   "coverings",
+   "lemma",
+   "ghawashin-1",
+   "en"
+  ],
+  [
+   "selimut",
+   "lemma",
+   "ghawashin-1",
+   "ms"
+  ],
+  [
+   "one who goes astray",
+   "lemma",
+   "ghawi-1",
+   "en"
+  ],
+  [
+   "orang yang sesat",
+   "lemma",
+   "ghawi-1",
+   "ms"
+  ],
+  [
+   "misguided",
+   "lemma",
+   "ghawiyy-1",
+   "en"
+  ],
+  [
+   "sesat",
+   "lemma",
+   "ghawiyy-1",
+   "ms"
+  ],
+  [
+   "harm; intoxication",
+   "lemma",
+   "ghawl-1",
+   "en"
+  ],
+  [
+   "kemudaratan; mabuk",
+   "lemma",
+   "ghawl-1",
+   "ms"
+  ],
+  [
+   "sunken; receded",
+   "lemma",
+   "ghawr-1",
+   "en"
+  ],
+  [
+   "surut ke dalam",
+   "lemma",
+   "ghawr-1",
+   "ms"
+  ],
+  [
+   "a diver",
+   "lemma",
+   "ghawwas-1",
+   "en"
+  ],
+  [
+   "penyelam",
+   "lemma",
+   "ghawwas-1",
+   "ms"
+  ],
+  [
+   "dasar (perigi)",
+   "lemma",
+   "ghayaba-1",
+   "ms"
+  ],
+  [
+   "the depths (of a well)",
+   "lemma",
+   "ghayaba-1",
    "en"
   ],
   [
@@ -8164,6 +40547,390 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "hujan",
+   "lemma",
+   "ghayth-1",
+   "ms"
+  ],
+  [
+   "rain",
+   "lemma",
+   "ghayth-1",
+   "en"
+  ],
+  [
+   "error; perdition",
+   "lemma",
+   "ghayy-1",
+   "en"
+  ],
+  [
+   "kesesatan",
+   "lemma",
+   "ghayy-1",
+   "ms"
+  ],
+  [
+   "mengubah",
+   "lemma",
+   "ghayyara-1",
+   "ms"
+  ],
+  [
+   "to change",
+   "lemma",
+   "ghayyara-1",
+   "en"
+  ],
+  [
+   "kemarahan",
+   "lemma",
+   "ghayz-1",
+   "ms"
+  ],
+  [
+   "rage; anger",
+   "lemma",
+   "ghayz-1",
+   "en"
+  ],
+  [
+   "memarahkan",
+   "lemma",
+   "ghaza-1",
+   "ms"
+  ],
+  [
+   "to enrage",
+   "lemma",
+   "ghaza-1",
+   "en"
+  ],
+  [
+   "harsh ones",
+   "lemma",
+   "ghilaz-1",
+   "en"
+  ],
+  [
+   "yang kasar",
+   "lemma",
+   "ghilaz-1",
+   "ms"
+  ],
+  [
+   "dendam",
+   "lemma",
+   "ghill-1",
+   "ms"
+  ],
+  [
+   "rancour; spite",
+   "lemma",
+   "ghill-1",
+   "en"
+  ],
+  [
+   "harshness",
+   "lemma",
+   "ghilza-1",
+   "en"
+  ],
+  [
+   "kekerasan",
+   "lemma",
+   "ghilza-1",
+   "ms"
+  ],
+  [
+   "a covering",
+   "lemma",
+   "ghishawa-1",
+   "en"
+  ],
+  [
+   "penutup",
+   "lemma",
+   "ghishawa-1",
+   "ms"
+  ],
+  [
+   "nanah",
+   "lemma",
+   "ghislin-1",
+   "ms"
+  ],
+  [
+   "washings of wounds (ghislin)",
+   "lemma",
+   "ghislin-1",
+   "en"
+  ],
+  [
+   "a covering",
+   "lemma",
+   "ghita-1",
+   "en"
+  ],
+  [
+   "penutup",
+   "lemma",
+   "ghita-1",
+   "ms"
+  ],
+  [
+   "morning; early day",
+   "lemma",
+   "ghuduww-1",
+   "en"
+  ],
+  [
+   "waktu pagi",
+   "lemma",
+   "ghuduww-1",
+   "ms"
+  ],
+  [
+   "boy; youth",
+   "lemma",
+   "ghulam-1",
+   "en"
+  ],
+  [
+   "budak lelaki; pemuda",
+   "lemma",
+   "ghulam-1",
+   "ms"
+  ],
+  [
+   "covered (hearts)",
+   "lemma",
+   "ghulf-1",
+   "en"
+  ],
+  [
+   "tertutup",
+   "lemma",
+   "ghulf-1",
+   "ms"
+  ],
+  [
+   "a fetter; a shackle",
+   "lemma",
+   "ghull-1",
+   "en"
+  ],
+  [
+   "belenggu",
+   "lemma",
+   "ghull-1",
+   "ms"
+  ],
+  [
+   "a crow",
+   "lemma",
+   "ghurab-1",
+   "en"
+  ],
+  [
+   "gagak",
+   "lemma",
+   "ghurab-1",
+   "ms"
+  ],
+  [
+   "a lofty chamber; a handful",
+   "lemma",
+   "ghurfa-1",
+   "en"
+  ],
+  [
+   "bilik tinggi; senduk",
+   "lemma",
+   "ghurfa-1",
+   "ms"
+  ],
+  [
+   "setting (of the sun)",
+   "lemma",
+   "ghurub-1",
+   "en"
+  ],
+  [
+   "terbenam",
+   "lemma",
+   "ghurub-1",
+   "ms"
+  ],
+  [
+   "deception; delusion",
+   "lemma",
+   "ghurur-1",
+   "en"
+  ],
+  [
+   "tipu daya",
+   "lemma",
+   "ghurur-1",
+   "ms"
+  ],
+  [
+   "buih; sampah",
+   "lemma",
+   "ghutha-1",
+   "ms"
+  ],
+  [
+   "foam; flotsam",
+   "lemma",
+   "ghutha-1",
+   "en"
+  ],
+  [
+   "lihatlah! (huruf peringatan)",
+   "lemma",
+   "ha-1",
+   "ms"
+  ],
+  [
+   "look! behold! (attention particle)",
+   "lemma",
+   "ha-1",
+   "en"
+  ],
+  [
+   "haid",
+   "lemma",
+   "haada-1",
+   "ms"
+  ],
+  [
+   "to menstruate",
+   "lemma",
+   "haada-1",
+   "en"
+  ],
+  [
+   "menentang",
+   "lemma",
+   "haadda-1",
+   "ms"
+  ],
+  [
+   "to oppose; to contend with",
+   "lemma",
+   "haadda-1",
+   "en"
+  ],
+  [
+   "berhujah dengan",
+   "lemma",
+   "haajja-1",
+   "ms"
+  ],
+  [
+   "to argue with",
+   "lemma",
+   "haajja-1",
+   "en"
+  ],
+  [
+   "the inevitable (reality)",
+   "lemma",
+   "haaqqa-1",
+   "en"
+  ],
+  [
+   "yang pasti berlaku",
+   "lemma",
+   "haaqqa-1",
+   "ms"
+  ],
+  [
+   "debu berterbangan",
+   "lemma",
+   "haba-1",
+   "ms"
+  ],
+  [
+   "floating dust",
+   "lemma",
+   "haba-1",
+   "en"
+  ],
+  [
+   "menahan",
+   "lemma",
+   "habasa-1",
+   "ms"
+  ],
+  [
+   "to detain",
+   "lemma",
+   "habasa-1",
+   "en"
+  ],
+  [
+   "to go down; to descend",
+   "lemma",
+   "habata-1",
+   "en"
+  ],
+  [
+   "turun",
+   "lemma",
+   "habata-1",
+   "ms"
+  ],
+  [
+   "a grain; a seed",
+   "lemma",
+   "habba-1",
+   "en"
+  ],
+  [
+   "sebutir biji",
+   "lemma",
+   "habba-1",
+   "ms"
+  ],
+  [
+   "menjadi sia-sia",
+   "lemma",
+   "habita-1",
+   "ms"
+  ],
+  [
+   "to come to nothing; to be void",
+   "lemma",
+   "habita-1",
+   "en"
+  ],
+  [
+   "a rope",
+   "lemma",
+   "habl-1",
+   "en"
+  ],
+  [
+   "tali",
+   "lemma",
+   "habl-1",
+   "ms"
+  ],
+  [
+   "a rabbi; a scholar",
+   "lemma",
+   "habr-1",
+   "en"
+  ],
+  [
+   "pendeta",
+   "lemma",
+   "habr-1",
+   "ms"
+  ],
+  [
    "memberi petunjuk",
    "lemma",
    "hada-1",
@@ -8176,6 +40943,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menjadi yahudi",
+   "lemma",
+   "hada-2",
+   "ms"
+  ],
+  [
+   "to be jewish; to follow judaism",
+   "lemma",
+   "hada-2",
+   "en"
+  ],
+  [
+   "lari menghindar",
+   "lemma",
+   "hada-3",
+   "ms"
+  ],
+  [
+   "to shun",
+   "lemma",
+   "hada-3",
+   "en"
+  ],
+  [
+   "hadir",
+   "lemma",
+   "hadara-1",
+   "ms"
+  ],
+  [
+   "to be present; to attend",
+   "lemma",
+   "hadara-1",
+   "en"
+  ],
+  [
    "had; batas",
    "lemma",
    "hadd-1",
@@ -8185,6 +40988,54 @@ const QM_SEARCH_INDEX = {
    "limit; boundary",
    "lemma",
    "hadd-1",
+   "en"
+  ],
+  [
+   "a crashing down",
+   "lemma",
+   "hadd-2",
+   "en"
+  ],
+  [
+   "keruntuhan",
+   "lemma",
+   "hadd-2",
+   "ms"
+  ],
+  [
+   "mendorong",
+   "lemma",
+   "hadda-2",
+   "ms"
+  ],
+  [
+   "to urge",
+   "lemma",
+   "hadda-2",
+   "en"
+  ],
+  [
+   "menceritakan",
+   "lemma",
+   "haddatha-1",
+   "ms"
+  ],
+  [
+   "to relate; to tell",
+   "lemma",
+   "haddatha-1",
+   "en"
+  ],
+  [
+   "memberi amaran",
+   "lemma",
+   "haddhara-1",
+   "ms"
+  ],
+  [
+   "to warn; to caution",
+   "lemma",
+   "haddhara-1",
    "en"
   ],
   [
@@ -8212,6 +41063,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "berwaspada",
+   "lemma",
+   "hadhira-1",
+   "ms"
+  ],
+  [
+   "to beware; to be cautious",
+   "lemma",
+   "hadhira-1",
+   "en"
+  ],
+  [
+   "besi",
+   "lemma",
+   "hadid-1",
+   "ms"
+  ],
+  [
+   "iron",
+   "lemma",
+   "hadid-1",
+   "en"
+  ],
+  [
+   "delicate; soft",
+   "lemma",
+   "hadim-1",
+   "en"
+  ],
+  [
+   "lembut",
+   "lemma",
+   "hadim-1",
+   "ms"
+  ],
+  [
+   "guide",
+   "lemma",
+   "hadin-1",
+   "en"
+  ],
+  [
+   "pemberi petunjuk",
+   "lemma",
+   "hadin-1",
+   "ms"
+  ],
+  [
+   "a garden",
+   "lemma",
+   "hadiqa-1",
+   "en"
+  ],
+  [
+   "kebun",
+   "lemma",
+   "hadiqa-1",
+   "ms"
+  ],
+  [
+   "hadir",
+   "lemma",
+   "hadir-1",
+   "ms"
+  ],
+  [
+   "present",
+   "lemma",
+   "hadir-1",
+   "en"
+  ],
+  [
    "perkataan; berita; kisah",
    "lemma",
    "hadith-1",
@@ -8224,6 +41147,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a gift",
+   "lemma",
+   "hadiyya-1",
+   "en"
+  ],
+  [
+   "hadiah",
+   "lemma",
+   "hadiyya-1",
+   "ms"
+  ],
+  [
+   "curtailment of right",
+   "lemma",
+   "hadm-1",
+   "en"
+  ],
+  [
+   "pengurangan hak",
+   "lemma",
+   "hadm-1",
+   "ms"
+  ],
+  [
    "binatang korban (hadyu)",
    "lemma",
    "hady-1",
@@ -8234,6 +41181,210 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "hady-1",
    "en"
+  ],
+  [
+   "memelihara dengan teliti",
+   "lemma",
+   "hafaza-1",
+   "ms"
+  ],
+  [
+   "to guard carefully",
+   "lemma",
+   "hafaza-1",
+   "en"
+  ],
+  [
+   "surrounding",
+   "lemma",
+   "haffin-1",
+   "en"
+  ],
+  [
+   "yang mengelilingi",
+   "lemma",
+   "haffin-1",
+   "ms"
+  ],
+  [
+   "amat mengasihani",
+   "lemma",
+   "hafiyy-1",
+   "ms"
+  ],
+  [
+   "gracious; solicitous",
+   "lemma",
+   "hafiyy-1",
+   "en"
+  ],
+  [
+   "guardian; one who guards",
+   "lemma",
+   "hafiz-1",
+   "en"
+  ],
+  [
+   "penjaga; pemelihara",
+   "lemma",
+   "hafiz-1",
+   "ms"
+  ],
+  [
+   "menjaga",
+   "lemma",
+   "hafiza-1",
+   "ms"
+  ],
+  [
+   "to guard; to preserve",
+   "lemma",
+   "hafiza-1",
+   "en"
+  ],
+  [
+   "di sini",
+   "lemma",
+   "hahuna-1",
+   "ms"
+  ],
+  [
+   "here",
+   "lemma",
+   "hahuna-1",
+   "en"
+  ],
+  [
+   "a need; a want",
+   "lemma",
+   "haja-1",
+   "en"
+  ],
+  [
+   "hajat",
+   "lemma",
+   "haja-1",
+   "ms"
+  ],
+  [
+   "mengering",
+   "lemma",
+   "haja-2",
+   "ms"
+  ],
+  [
+   "to dry up; to flourish",
+   "lemma",
+   "haja-2",
+   "en"
+  ],
+  [
+   "a stone",
+   "lemma",
+   "hajar-1",
+   "en"
+  ],
+  [
+   "batu",
+   "lemma",
+   "hajar-1",
+   "ms"
+  ],
+  [
+   "berhijrah",
+   "lemma",
+   "hajara-1",
+   "ms"
+  ],
+  [
+   "to emigrate; to migrate (for faith)",
+   "lemma",
+   "hajara-1",
+   "en"
+  ],
+  [
+   "meninggalkan",
+   "lemma",
+   "hajara-3",
+   "ms"
+  ],
+  [
+   "to forsake; to shun",
+   "lemma",
+   "hajara-3",
+   "en"
+  ],
+  [
+   "a barrier",
+   "lemma",
+   "hajiz-1",
+   "en"
+  ],
+  [
+   "penghalang",
+   "lemma",
+   "hajiz-1",
+   "ms"
+  ],
+  [
+   "haji",
+   "lemma",
+   "hajj-1",
+   "ms"
+  ],
+  [
+   "pilgrimage (hajj)",
+   "lemma",
+   "hajj-1",
+   "en"
+  ],
+  [
+   "berbantah dengan",
+   "lemma",
+   "hajja-3",
+   "ms"
+  ],
+  [
+   "to dispute with",
+   "lemma",
+   "hajja-3",
+   "en"
+  ],
+  [
+   "avoidance; forsaking",
+   "lemma",
+   "hajr-1",
+   "en"
+  ],
+  [
+   "meninggalkan",
+   "lemma",
+   "hajr-1",
+   "ms"
+  ],
+  [
+   "abandoned",
+   "lemma",
+   "hajr-2",
+   "en"
+  ],
+  [
+   "ditinggalkan",
+   "lemma",
+   "hajr-2",
+   "ms"
+  ],
+  [
+   "an arbitrator; a judge",
+   "lemma",
+   "hakam-1",
+   "en"
+  ],
+  [
+   "hakim; penimbang tara",
+   "lemma",
+   "hakam-1",
+   "ms"
   ],
   [
    "menghukum; memutuskan",
@@ -8260,6 +41411,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "hakim; pemerintah",
+   "lemma",
+   "hakim-2",
+   "ms"
+  ],
+  [
+   "judge; ruler",
+   "lemma",
+   "hakim-2",
+   "en"
+  ],
+  [
+   "a ruler; a judge",
+   "lemma",
+   "hakim-3",
+   "en"
+  ],
+  [
+   "pemerintah; hakim",
+   "lemma",
+   "hakim-3",
+   "ms"
+  ],
+  [
+   "menjadikan hakim",
+   "lemma",
+   "hakkama-1",
+   "ms"
+  ],
+  [
+   "to make (someone) judge",
+   "lemma",
+   "hakkama-1",
+   "en"
+  ],
+  [
    "(kata tanya) adakah?",
    "lemma",
    "hal-1",
@@ -8269,6 +41456,162 @@ const QM_SEARCH_INDEX = {
    "(question word) is / does / do?",
    "lemma",
    "hal-1",
+   "en"
+  ],
+  [
+   "menghalang",
+   "lemma",
+   "hala-1",
+   "ms"
+  ],
+  [
+   "to intervene; to come between",
+   "lemma",
+   "hala-1",
+   "en"
+  ],
+  [
+   "bersumpah",
+   "lemma",
+   "halafa-1",
+   "ms"
+  ],
+  [
+   "to swear an oath",
+   "lemma",
+   "halafa-1",
+   "en"
+  ],
+  [
+   "binasa",
+   "lemma",
+   "halaka-1",
+   "ms"
+  ],
+  [
+   "to perish; to be destroyed",
+   "lemma",
+   "halaka-1",
+   "en"
+  ],
+  [
+   "halal",
+   "lemma",
+   "halal-1",
+   "ms"
+  ],
+  [
+   "lawful",
+   "lemma",
+   "halal-1",
+   "en"
+  ],
+  [
+   "mencukur",
+   "lemma",
+   "halaqa-1",
+   "ms"
+  ],
+  [
+   "to shave",
+   "lemma",
+   "halaqa-1",
+   "en"
+  ],
+  [
+   "binasa",
+   "lemma",
+   "halik-1",
+   "ms"
+  ],
+  [
+   "perishing",
+   "lemma",
+   "halik-1",
+   "en"
+  ],
+  [
+   "forbearing; clement",
+   "lemma",
+   "halim-1",
+   "en"
+  ],
+  [
+   "penyantun; sabar",
+   "lemma",
+   "halim-1",
+   "ms"
+  ],
+  [
+   "menjadi wajib; singgah",
+   "lemma",
+   "halla-1",
+   "ms"
+  ],
+  [
+   "to become due; to alight",
+   "lemma",
+   "halla-1",
+   "en"
+  ],
+  [
+   "banyak bersumpah",
+   "lemma",
+   "hallaf-1",
+   "ms"
+  ],
+  [
+   "one who swears often",
+   "lemma",
+   "hallaf-1",
+   "en"
+  ],
+  [
+   "come here",
+   "lemma",
+   "halumma-1",
+   "en"
+  ],
+  [
+   "marilah ke sini",
+   "lemma",
+   "halumma-1",
+   "ms"
+  ],
+  [
+   "black mud",
+   "lemma",
+   "hama-1",
+   "en"
+  ],
+  [
+   "lumpur hitam",
+   "lemma",
+   "hama-1",
+   "ms"
+  ],
+  [
+   "memanaskan; melindungi",
+   "lemma",
+   "hama-2",
+   "ms"
+  ],
+  [
+   "to heat; to protect",
+   "lemma",
+   "hama-2",
+   "en"
+  ],
+  [
+   "mengembara bingung",
+   "lemma",
+   "hama-3",
+   "ms"
+  ],
+  [
+   "to wander distractedly",
+   "lemma",
+   "hama-3",
    "en"
   ],
   [
@@ -8284,6 +41627,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "haman",
+   "lemma",
+   "haman-1",
+   "en"
+  ],
+  [
+   "haman",
+   "lemma",
+   "haman-1",
+   "ms"
+  ],
+  [
    "praise",
    "lemma",
    "hamd-1",
@@ -8294,6 +41649,30 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "hamd-1",
    "ms"
+  ],
+  [
+   "a protected camel (hami)",
+   "lemma",
+   "hami-1",
+   "en"
+  ],
+  [
+   "hami (unta yang dilindungi)",
+   "lemma",
+   "hami-1",
+   "ms"
+  ],
+  [
+   "sangat panas",
+   "lemma",
+   "hami-2",
+   "ms"
+  ],
+  [
+   "scorching",
+   "lemma",
+   "hami-2",
+   "en"
   ],
   [
    "maha terpuji; terpuji",
@@ -8308,6 +41687,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "one who praises",
+   "lemma",
+   "hamid-2",
+   "en"
+  ],
+  [
+   "yang memuji",
+   "lemma",
+   "hamid-2",
+   "ms"
+  ],
+  [
+   "memuji",
+   "lemma",
+   "hamida-1",
+   "ms"
+  ],
+  [
+   "to praise",
+   "lemma",
+   "hamida-1",
+   "en"
+  ],
+  [
+   "bearer; one who carries",
+   "lemma",
+   "hamil-1",
+   "en"
+  ],
+  [
+   "pembawa; yang memikul",
+   "lemma",
+   "hamil-1",
+   "ms"
+  ],
+  [
    "air yang sangat panas; sahabat karib",
    "lemma",
    "hamim-1",
@@ -8317,6 +41732,174 @@ const QM_SEARCH_INDEX = {
    "scalding water; close friend",
    "lemma",
    "hamim-1",
+   "en"
+  ],
+  [
+   "kesombongan jahiliah",
+   "lemma",
+   "hamiyya-1",
+   "ms"
+  ],
+  [
+   "zealotry; fierce pride",
+   "lemma",
+   "hamiyya-1",
+   "en"
+  ],
+  [
+   "carrying; load; pregnancy",
+   "lemma",
+   "haml-1",
+   "en"
+  ],
+  [
+   "memikul; beban; kehamilan",
+   "lemma",
+   "haml-1",
+   "ms"
+  ],
+  [
+   "berazam; berniat",
+   "lemma",
+   "hamma-1",
+   "ms"
+  ],
+  [
+   "to intend; to resolve",
+   "lemma",
+   "hamma-1",
+   "en"
+  ],
+  [
+   "membebankan",
+   "lemma",
+   "hammala-1",
+   "ms"
+  ],
+  [
+   "to burden; to charge with",
+   "lemma",
+   "hammala-1",
+   "en"
+  ],
+  [
+   "a carrier (of firewood)",
+   "lemma",
+   "hammala-2",
+   "en"
+  ],
+  [
+   "pembawa (kayu api)",
+   "lemma",
+   "hammala-2",
+   "ms"
+  ],
+  [
+   "merah",
+   "lemma",
+   "hamra-1",
+   "ms"
+  ],
+  [
+   "red",
+   "lemma",
+   "hamra-1",
+   "en"
+  ],
+  [
+   "beasts of burden",
+   "lemma",
+   "hamula-1",
+   "en"
+  ],
+  [
+   "haiwan beban",
+   "lemma",
+   "hamula-1",
+   "ms"
+  ],
+  [
+   "a backbiter",
+   "lemma",
+   "hamza-1",
+   "en"
+  ],
+  [
+   "pengumpat",
+   "lemma",
+   "hamza-1",
+   "ms"
+  ],
+  [
+   "belas kasihan",
+   "lemma",
+   "hanan-1",
+   "ms"
+  ],
+  [
+   "compassion",
+   "lemma",
+   "hanan-1",
+   "en"
+  ],
+  [
+   "lurus; cenderung kepada kebenaran",
+   "lemma",
+   "hanif-1",
+   "ms"
+  ],
+  [
+   "upright in faith; inclining to the truth",
+   "lemma",
+   "hanif-1",
+   "en"
+  ],
+  [
+   "pleasant; wholesome",
+   "lemma",
+   "hanii-1",
+   "en"
+  ],
+  [
+   "sedap",
+   "lemma",
+   "hanii-1",
+   "ms"
+  ],
+  [
+   "melanggar sumpah",
+   "lemma",
+   "hanitha-1",
+   "ms"
+  ],
+  [
+   "to break an oath",
+   "lemma",
+   "hanitha-1",
+   "en"
+  ],
+  [
+   "kerongkong",
+   "lemma",
+   "hanjara-1",
+   "ms"
+  ],
+  [
+   "the throat",
+   "lemma",
+   "hanjara-1",
+   "en"
+  ],
+  [
+   "meliputi; menimpa",
+   "lemma",
+   "haqa-1",
+   "ms"
+  ],
+  [
+   "to encompass; to befall",
+   "lemma",
+   "haqa-1",
    "en"
   ],
   [
@@ -8332,6 +41915,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menjadi wajib; terbukti benar",
+   "lemma",
+   "haqqa-1",
+   "ms"
+  ],
+  [
+   "to be due; to come true",
+   "lemma",
+   "haqqa-1",
+   "en"
+  ],
+  [
+   "kembali",
+   "lemma",
+   "hara-1",
+   "ms"
+  ],
+  [
+   "to return (to god)",
+   "lemma",
+   "hara-1",
+   "en"
+  ],
+  [
+   "memerangi",
+   "lemma",
+   "haraba-1",
+   "ms"
+  ],
+  [
+   "to wage war against",
+   "lemma",
+   "haraba-1",
+   "en"
+  ],
+  [
+   "difficulty; blame",
+   "lemma",
+   "haraj-1",
+   "en"
+  ],
+  [
+   "kesulitan; dosa",
+   "lemma",
+   "haraj-1",
+   "ms"
+  ],
+  [
    "forbidden; sacred",
    "lemma",
    "haram-1",
@@ -8344,6 +41975,186 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "sanctuary; sacred territory",
+   "lemma",
+   "haram-2",
+   "en"
+  ],
+  [
+   "tanah haram",
+   "lemma",
+   "haram-2",
+   "ms"
+  ],
+  [
+   "forbidden",
+   "lemma",
+   "haram-3",
+   "en"
+  ],
+  [
+   "haram",
+   "lemma",
+   "haram-3",
+   "ms"
+  ],
+  [
+   "bersungguh-sungguh",
+   "lemma",
+   "harasa-1",
+   "ms"
+  ],
+  [
+   "to be eager",
+   "lemma",
+   "harasa-1",
+   "en"
+  ],
+  [
+   "membajak",
+   "lemma",
+   "haratha-1",
+   "ms"
+  ],
+  [
+   "to till",
+   "lemma",
+   "haratha-1",
+   "en"
+  ],
+  [
+   "perang",
+   "lemma",
+   "harb-1",
+   "ms"
+  ],
+  [
+   "war",
+   "lemma",
+   "harb-1",
+   "en"
+  ],
+  [
+   "an edge; a letter",
+   "lemma",
+   "harf-1",
+   "en"
+  ],
+  [
+   "tepi; huruf",
+   "lemma",
+   "harf-1",
+   "ms"
+  ],
+  [
+   "consumptive; at death's door",
+   "lemma",
+   "harida-1",
+   "en"
+  ],
+  [
+   "hampir binasa",
+   "lemma",
+   "harida-1",
+   "ms"
+  ],
+  [
+   "crumbling",
+   "lemma",
+   "harin-1",
+   "en"
+  ],
+  [
+   "yang runtuh",
+   "lemma",
+   "harin-1",
+   "ms"
+  ],
+  [
+   "burning; blaze",
+   "lemma",
+   "hariq-1",
+   "en"
+  ],
+  [
+   "pembakaran; api yang menyala",
+   "lemma",
+   "hariq-1",
+   "ms"
+  ],
+  [
+   "silk",
+   "lemma",
+   "harir-1",
+   "en"
+  ],
+  [
+   "sutera",
+   "lemma",
+   "harir-1",
+   "ms"
+  ],
+  [
+   "amat inginkan",
+   "lemma",
+   "harisa-1",
+   "ms"
+  ],
+  [
+   "eager; solicitous",
+   "lemma",
+   "harisa-1",
+   "en"
+  ],
+  [
+   "heat",
+   "lemma",
+   "harr-1",
+   "en"
+  ],
+  [
+   "panas",
+   "lemma",
+   "harr-1",
+   "ms"
+  ],
+  [
+   "menggalakkan",
+   "lemma",
+   "harrada-1",
+   "ms"
+  ],
+  [
+   "to urge on",
+   "lemma",
+   "harrada-1",
+   "en"
+  ],
+  [
+   "mengubah",
+   "lemma",
+   "harrafa-1",
+   "ms"
+  ],
+  [
+   "to distort",
+   "lemma",
+   "harrafa-1",
+   "en"
+  ],
+  [
+   "menggerakkan",
+   "lemma",
+   "harraka-1",
+   "ms"
+  ],
+  [
+   "to move",
+   "lemma",
+   "harraka-1",
+   "en"
+  ],
+  [
    "mengharamkan",
    "lemma",
    "harrama-1",
@@ -8353,6 +42164,30 @@ const QM_SEARCH_INDEX = {
    "to forbid; to make unlawful",
    "lemma",
    "harrama-1",
+   "en"
+  ],
+  [
+   "membakar",
+   "lemma",
+   "harraqa-1",
+   "ms"
+  ],
+  [
+   "to burn",
+   "lemma",
+   "harraqa-1",
+   "en"
+  ],
+  [
+   "tanaman; ladang",
+   "lemma",
+   "harth-1",
+   "ms"
+  ],
+  [
+   "tilled land; crops; ploughing",
+   "lemma",
+   "harth-1",
    "en"
   ],
   [
@@ -8368,6 +42203,90 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "panas terik",
+   "lemma",
+   "harur-1",
+   "ms"
+  ],
+  [
+   "the scorching heat",
+   "lemma",
+   "harur-1",
+   "en"
+  ],
+  [
+   "harut",
+   "lemma",
+   "harut-1",
+   "en"
+  ],
+  [
+   "harut",
+   "lemma",
+   "harut-1",
+   "ms"
+  ],
+  [
+   "menghisab",
+   "lemma",
+   "hasaba-2",
+   "ms"
+  ],
+  [
+   "to take to account",
+   "lemma",
+   "hasaba-2",
+   "en"
+  ],
+  [
+   "hisabku",
+   "lemma",
+   "hasabiya-1",
+   "ms"
+  ],
+  [
+   "my reckoning",
+   "lemma",
+   "hasabiya-1",
+   "en"
+  ],
+  [
+   "harvesting",
+   "lemma",
+   "hasad-1",
+   "en"
+  ],
+  [
+   "penuaian",
+   "lemma",
+   "hasad-1",
+   "ms"
+  ],
+  [
+   "dengki",
+   "lemma",
+   "hasad-2",
+   "ms"
+  ],
+  [
+   "envy",
+   "lemma",
+   "hasad-2",
+   "en"
+  ],
+  [
+   "mendengki",
+   "lemma",
+   "hasada-1",
+   "ms"
+  ],
+  [
+   "to envy",
+   "lemma",
+   "hasada-1",
+   "en"
+  ],
+  [
    "baik; indah",
    "lemma",
    "hasana-1",
@@ -8380,6 +42299,102 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "mengepung",
+   "lemma",
+   "hasara-1",
+   "ms"
+  ],
+  [
+   "to besiege; to confine",
+   "lemma",
+   "hasara-1",
+   "en"
+  ],
+  [
+   "cukup",
+   "lemma",
+   "hasb-1",
+   "ms"
+  ],
+  [
+   "sufficient; enough",
+   "lemma",
+   "hasb-1",
+   "en"
+  ],
+  [
+   "mengumpulkan",
+   "lemma",
+   "hashara-1",
+   "ms"
+  ],
+  [
+   "to gather; to assemble",
+   "lemma",
+   "hashara-1",
+   "en"
+  ],
+  [
+   "dry crushed stubble",
+   "lemma",
+   "hashim-1",
+   "en"
+  ],
+  [
+   "jerami yang hancur",
+   "lemma",
+   "hashim-1",
+   "ms"
+  ],
+  [
+   "one who gathers",
+   "lemma",
+   "hashir-1",
+   "en"
+  ],
+  [
+   "yang mengumpulkan",
+   "lemma",
+   "hashir-1",
+   "ms"
+  ],
+  [
+   "gathering",
+   "lemma",
+   "hashr-1",
+   "en"
+  ],
+  [
+   "pengumpulan",
+   "lemma",
+   "hashr-1",
+   "ms"
+  ],
+  [
+   "pengira; mencukupi",
+   "lemma",
+   "hasib-1",
+   "ms"
+  ],
+  [
+   "reckoner; sufficient",
+   "lemma",
+   "hasib-1",
+   "en"
+  ],
+  [
+   "a stone-bearing wind (storm of pebbles)",
+   "lemma",
+   "hasib-2",
+   "en"
+  ],
+  [
+   "angin yang membawa batu",
+   "lemma",
+   "hasib-2",
+   "ms"
+  ],
+  [
    "menyangka; mengira",
    "lemma",
    "hasiba-1",
@@ -8390,6 +42405,162 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "hasiba-1",
    "en"
+  ],
+  [
+   "one who reckons",
+   "lemma",
+   "hasibin-1",
+   "en"
+  ],
+  [
+   "pengira",
+   "lemma",
+   "hasibin-1",
+   "ms"
+  ],
+  [
+   "reaped; a harvest",
+   "lemma",
+   "hasid-1",
+   "en"
+  ],
+  [
+   "yang dituai",
+   "lemma",
+   "hasid-1",
+   "ms"
+  ],
+  [
+   "an envier",
+   "lemma",
+   "hasid-2",
+   "en"
+  ],
+  [
+   "orang yang dengki",
+   "lemma",
+   "hasid-2",
+   "ms"
+  ],
+  [
+   "a prison; a mat",
+   "lemma",
+   "hasir-1",
+   "en"
+  ],
+  [
+   "penjara; tikar",
+   "lemma",
+   "hasir-1",
+   "ms"
+  ],
+  [
+   "menjadi sempit (hati)",
+   "lemma",
+   "hasira-1",
+   "ms"
+  ],
+  [
+   "to be constrained (in heart)",
+   "lemma",
+   "hasira-1",
+   "en"
+  ],
+  [
+   "penyesalan",
+   "lemma",
+   "hasra-1",
+   "ms"
+  ],
+  [
+   "regret; anguish",
+   "lemma",
+   "hasra-1",
+   "en"
+  ],
+  [
+   "membunuh; merasa",
+   "lemma",
+   "hassa-1",
+   "ms"
+  ],
+  [
+   "to slay; to perceive",
+   "lemma",
+   "hassa-1",
+   "en"
+  ],
+  [
+   "menjadi baik",
+   "lemma",
+   "hasuna-1",
+   "ms"
+  ],
+  [
+   "to be good",
+   "lemma",
+   "hasuna-1",
+   "en"
+  ],
+  [
+   "one who restrains himself",
+   "lemma",
+   "hasur-1",
+   "en"
+  ],
+  [
+   "orang yang menahan diri",
+   "lemma",
+   "hasur-1",
+   "ms"
+  ],
+  [
+   "bawalah! kemukakan!",
+   "lemma",
+   "hat-1",
+   "ms"
+  ],
+  [
+   "bring! produce!",
+   "lemma",
+   "hat-1",
+   "en"
+  ],
+  [
+   "firewood",
+   "lemma",
+   "hatab-1",
+   "en"
+  ],
+  [
+   "kayu api",
+   "lemma",
+   "hatab-1",
+   "ms"
+  ],
+  [
+   "kedua-dua ini",
+   "lemma",
+   "hatan-1",
+   "ms"
+  ],
+  [
+   "these two (f.)",
+   "lemma",
+   "hatan-1",
+   "en"
+  ],
+  [
+   "a decree",
+   "lemma",
+   "hatm-1",
+   "en"
+  ],
+  [
+   "ketetapan",
+   "lemma",
+   "hatm-1",
+   "ms"
   ],
   [
    "sehingga; sampai",
@@ -8428,6 +42599,114 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "kosong",
+   "lemma",
+   "hawa-2",
+   "ms"
+  ],
+  [
+   "void; empty air",
+   "lemma",
+   "hawa-2",
+   "en"
+  ],
+  [
+   "jatuh; menginginkan",
+   "lemma",
+   "hawa-3",
+   "ms"
+  ],
+  [
+   "to fall; to desire",
+   "lemma",
+   "hawa-3",
+   "en"
+  ],
+  [
+   "berbual dengan",
+   "lemma",
+   "hawara-1",
+   "ms"
+  ],
+  [
+   "to converse with",
+   "lemma",
+   "hawara-1",
+   "en"
+  ],
+  [
+   "disciple (of jesus)",
+   "lemma",
+   "hawari-1",
+   "en"
+  ],
+  [
+   "pengikut setia (nabi isa)",
+   "lemma",
+   "hawari-1",
+   "ms"
+  ],
+  [
+   "jurang api",
+   "lemma",
+   "hawiya-1",
+   "ms"
+  ],
+  [
+   "the abyss",
+   "lemma",
+   "hawiya-1",
+   "en"
+  ],
+  [
+   "the intestines",
+   "lemma",
+   "hawiyya-1",
+   "en"
+  ],
+  [
+   "usus",
+   "lemma",
+   "hawiyya-1",
+   "ms"
+  ],
+  [
+   "around; surroundings",
+   "lemma",
+   "hawla-1",
+   "en"
+  ],
+  [
+   "sekeliling",
+   "lemma",
+   "hawla-1",
+   "ms"
+  ],
+  [
+   "dengan lemah lembut",
+   "lemma",
+   "hawn-1",
+   "ms"
+  ],
+  [
+   "gentleness; ease",
+   "lemma",
+   "hawn-1",
+   "en"
+  ],
+  [
+   "a shape; a figure",
+   "lemma",
+   "hay-1",
+   "en"
+  ],
+  [
+   "bentuk",
+   "lemma",
+   "hay-1",
+   "ms"
+  ],
+  [
    "kehidupan; hidup",
    "lemma",
    "hayat-1",
@@ -8438,6 +42717,54 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "hayat-1",
    "en"
+  ],
+  [
+   "kehidupan sebenar",
+   "lemma",
+   "hayawan-1",
+   "ms"
+  ],
+  [
+   "life itself; the true life",
+   "lemma",
+   "hayawan-1",
+   "en"
+  ],
+  [
+   "hidup",
+   "lemma",
+   "hayiya-1",
+   "ms"
+  ],
+  [
+   "to live",
+   "lemma",
+   "hayiya-1",
+   "en"
+  ],
+  [
+   "bewildered",
+   "lemma",
+   "hayran-1",
+   "en"
+  ],
+  [
+   "kebingungan",
+   "lemma",
+   "hayran-1",
+   "ms"
+  ],
+  [
+   "come on",
+   "lemma",
+   "hayta-1",
+   "en"
+  ],
+  [
+   "marilah",
+   "lemma",
+   "hayta-1",
+   "ms"
   ],
   [
    "di mana; dari mana",
@@ -8464,6 +42791,90 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "far, far away",
+   "lemma",
+   "hayya-1",
+   "en"
+  ],
+  [
+   "jauh sekali",
+   "lemma",
+   "hayya-1",
+   "ms"
+  ],
+  [
+   "menyediakan",
+   "lemma",
+   "hayya-2",
+   "ms"
+  ],
+  [
+   "to prepare",
+   "lemma",
+   "hayya-2",
+   "en"
+  ],
+  [
+   "memberi salam",
+   "lemma",
+   "hayya-3",
+   "ms"
+  ],
+  [
+   "to greet",
+   "lemma",
+   "hayya-3",
+   "en"
+  ],
+  [
+   "memberi salam",
+   "lemma",
+   "hayyaa-1",
+   "ms"
+  ],
+  [
+   "to greet",
+   "lemma",
+   "hayyaa-1",
+   "en"
+  ],
+  [
+   "easy; light",
+   "lemma",
+   "hayyin-1",
+   "en"
+  ],
+  [
+   "mudah; ringan",
+   "lemma",
+   "hayyin-1",
+   "ms"
+  ],
+  [
+   "mengalahkan",
+   "lemma",
+   "hazama-1",
+   "ms"
+  ],
+  [
+   "to defeat",
+   "lemma",
+   "hazama-1",
+   "en"
+  ],
+  [
+   "grief",
+   "lemma",
+   "hazan-1",
+   "en"
+  ],
+  [
+   "kesedihan",
+   "lemma",
+   "hazan-1",
+   "ms"
+  ],
+  [
    "berdukacita",
    "lemma",
    "hazina-1",
@@ -8476,6 +42887,90 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bahagian; habuan",
+   "lemma",
+   "hazz-1",
+   "ms"
+  ],
+  [
+   "share; portion",
+   "lemma",
+   "hazz-1",
+   "en"
+  ],
+  [
+   "sharp",
+   "lemma",
+   "hidad-1",
+   "en"
+  ],
+  [
+   "tajam",
+   "lemma",
+   "hidad-1",
+   "ms"
+  ],
+  [
+   "berwaspada; langkah berjaga-jaga",
+   "lemma",
+   "hidhr-1",
+   "ms"
+  ],
+  [
+   "caution; precaution",
+   "lemma",
+   "hidhr-1",
+   "en"
+  ],
+  [
+   "guarding; protection",
+   "lemma",
+   "hifz-1",
+   "en"
+  ],
+  [
+   "pemeliharaan",
+   "lemma",
+   "hifz-1",
+   "ms"
+  ],
+  [
+   "a screen; veil",
+   "lemma",
+   "hijab-1",
+   "en"
+  ],
+  [
+   "tabir; hijab",
+   "lemma",
+   "hijab-1",
+   "ms"
+  ],
+  [
+   "batu",
+   "lemma",
+   "hijara-1",
+   "ms"
+  ],
+  [
+   "stones",
+   "lemma",
+   "hijara-1",
+   "en"
+  ],
+  [
+   "a lap; a prohibition; al-hijr",
+   "lemma",
+   "hijr-1",
+   "en"
+  ],
+  [
+   "pangkuan; larangan; al-hijr",
+   "lemma",
+   "hijr-1",
+   "ms"
+  ],
+  [
    "hikmah",
    "lemma",
    "hikma-1",
@@ -8486,6 +42981,78 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "hikma-1",
    "en"
+  ],
+  [
+   "a stratagem; a means",
+   "lemma",
+   "hila-1",
+   "en"
+  ],
+  [
+   "helah; daya",
+   "lemma",
+   "hila-1",
+   "ms"
+  ],
+  [
+   "a new moon",
+   "lemma",
+   "hilal-1",
+   "en"
+  ],
+  [
+   "bulan sabit",
+   "lemma",
+   "hilal-1",
+   "ms"
+  ],
+  [
+   "halal",
+   "lemma",
+   "hill-1",
+   "ms"
+  ],
+  [
+   "lawful",
+   "lemma",
+   "hill-1",
+   "en"
+  ],
+  [
+   "ornament; jewellery",
+   "lemma",
+   "hilya-1",
+   "en"
+  ],
+  [
+   "perhiasan",
+   "lemma",
+   "hilya-1",
+   "ms"
+  ],
+  [
+   "thirsty camels",
+   "lemma",
+   "him-1",
+   "en"
+  ],
+  [
+   "unta dahaga",
+   "lemma",
+   "him-1",
+   "ms"
+  ],
+  [
+   "a donkey",
+   "lemma",
+   "himar-1",
+   "en"
+  ],
+  [
+   "keldai",
+   "lemma",
+   "himar-1",
+   "ms"
   ],
   [
    "time; while",
@@ -8512,6 +43079,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "beautiful ones",
+   "lemma",
+   "hisan-1",
+   "en"
+  ],
+  [
+   "yang cantik",
+   "lemma",
+   "hisan-1",
+   "ms"
+  ],
+  [
+   "a fortress",
+   "lemma",
+   "hisn-1",
+   "en"
+  ],
+  [
+   "benteng",
+   "lemma",
+   "hisn-1",
+   "ms"
+  ],
+  [
+   "ampunan",
+   "lemma",
+   "hitta-1",
+   "ms"
+  ],
+  [
+   "forgiveness (hitta)",
+   "lemma",
+   "hitta-1",
+   "en"
+  ],
+  [
+   "change; removal",
+   "lemma",
+   "hiwal-1",
+   "en"
+  ],
+  [
+   "perpindahan",
+   "lemma",
+   "hiwal-1",
+   "ms"
+  ],
+  [
    "dia (perempuan); ia",
    "lemma",
    "hiya-1",
@@ -8522,6 +43137,78 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "hiya-1",
    "en"
+  ],
+  [
+   "golongan; puak",
+   "lemma",
+   "hizb-1",
+   "ms"
+  ],
+  [
+   "party; faction",
+   "lemma",
+   "hizb-1",
+   "en"
+  ],
+  [
+   "a grave sin",
+   "lemma",
+   "hub-1",
+   "en"
+  ],
+  [
+   "dosa besar",
+   "lemma",
+   "hub-1",
+   "ms"
+  ],
+  [
+   "cinta",
+   "lemma",
+   "hubb-1",
+   "ms"
+  ],
+  [
+   "love",
+   "lemma",
+   "hubb-1",
+   "en"
+  ],
+  [
+   "digembirakan",
+   "lemma",
+   "hubira-1",
+   "ms"
+  ],
+  [
+   "to be made joyful",
+   "lemma",
+   "hubira-1",
+   "en"
+  ],
+  [
+   "jews",
+   "lemma",
+   "hud-1",
+   "en"
+  ],
+  [
+   "orang yahudi",
+   "lemma",
+   "hud-1",
+   "ms"
+  ],
+  [
+   "hud (a prophet)",
+   "lemma",
+   "hud-2",
+   "en"
+  ],
+  [
+   "hud (seorang nabi)",
+   "lemma",
+   "hud-2",
+   "ms"
   ],
   [
    "guidance",
@@ -8536,6 +43223,42 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a pit",
+   "lemma",
+   "hufra-1",
+   "en"
+  ],
+  [
+   "lubang",
+   "lemma",
+   "hufra-1",
+   "ms"
+  ],
+  [
+   "an argument; a proof",
+   "lemma",
+   "hujja-1",
+   "en"
+  ],
+  [
+   "hujah",
+   "lemma",
+   "hujja-1",
+   "ms"
+  ],
+  [
+   "an apartment; a chamber",
+   "lemma",
+   "hujra-1",
+   "en"
+  ],
+  [
+   "bilik",
+   "lemma",
+   "hujra-1",
+   "ms"
+  ],
+  [
    "hukum; keputusan",
    "lemma",
    "hukm-1",
@@ -8546,6 +43269,18 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "hukm-1",
    "en"
+  ],
+  [
+   "ornaments; jewellery",
+   "lemma",
+   "huliyy-1",
+   "en"
+  ],
+  [
+   "perhiasan",
+   "lemma",
+   "huliyy-1",
+   "ms"
   ],
   [
    "mereka",
@@ -8572,6 +43307,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "humiliation; disgrace",
+   "lemma",
+   "hun-1",
+   "en"
+  ],
+  [
+   "kehinaan",
+   "lemma",
+   "hun-1",
+   "ms"
+  ],
+  [
+   "di sana; ketika itu",
+   "lemma",
+   "hunalika-1",
+   "ms"
+  ],
+  [
+   "there; at that place or time",
+   "lemma",
+   "hunalika-1",
+   "en"
+  ],
+  [
+   "hunain",
+   "lemma",
+   "hunayn-1",
+   "ms"
+  ],
+  [
+   "hunayn",
+   "lemma",
+   "hunayn-1",
+   "en"
+  ],
+  [
    "mereka (perempuan)",
    "lemma",
    "hunna-1",
@@ -8582,6 +43353,90 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "hunna-1",
    "en"
+  ],
+  [
+   "a long age",
+   "lemma",
+   "huqub-1",
+   "en"
+  ],
+  [
+   "zaman yang panjang",
+   "lemma",
+   "huqub-1",
+   "ms"
+  ],
+  [
+   "bidadari",
+   "lemma",
+   "hur-1",
+   "ms"
+  ],
+  [
+   "fair maidens (hur)",
+   "lemma",
+   "hur-1",
+   "en"
+  ],
+  [
+   "a free man",
+   "lemma",
+   "hurr-1",
+   "en"
+  ],
+  [
+   "orang merdeka",
+   "lemma",
+   "hurr-1",
+   "ms"
+  ],
+  [
+   "bergegas",
+   "lemma",
+   "hurria-1",
+   "ms"
+  ],
+  [
+   "to rush in haste",
+   "lemma",
+   "hurria-1",
+   "en"
+  ],
+  [
+   "perkara-perkara suci",
+   "lemma",
+   "hurumat-1",
+   "ms"
+  ],
+  [
+   "sacred things",
+   "lemma",
+   "hurumat-1",
+   "en"
+  ],
+  [
+   "perkiraan",
+   "lemma",
+   "husban-1",
+   "ms"
+  ],
+  [
+   "reckoning; calculation",
+   "lemma",
+   "husban-1",
+   "en"
+  ],
+  [
+   "far be it",
+   "lemma",
+   "hush-1",
+   "en"
+  ],
+  [
+   "maha suci",
+   "lemma",
+   "hush-1",
+   "ms"
   ],
   [
    "goodness; beauty",
@@ -8596,6 +43451,42 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a fish; a whale",
+   "lemma",
+   "hut-1",
+   "en"
+  ],
+  [
+   "ikan",
+   "lemma",
+   "hut-1",
+   "ms"
+  ],
+  [
+   "crushed stubble",
+   "lemma",
+   "hutam-1",
+   "en"
+  ],
+  [
+   "hancur remuk",
+   "lemma",
+   "hutam-1",
+   "ms"
+  ],
+  [
+   "al-hutamah (neraka)",
+   "lemma",
+   "hutama-1",
+   "ms"
+  ],
+  [
+   "the crusher (a name of hell)",
+   "lemma",
+   "hutama-1",
+   "en"
+  ],
+  [
    "dia; ia (kata ganti nama)",
    "lemma",
    "huwa-1",
@@ -8608,6 +43499,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "dukacita",
+   "lemma",
+   "huzn-1",
+   "ms"
+  ],
+  [
+   "sorrow",
+   "lemma",
+   "huzn-1",
+   "en"
+  ],
+  [
+   "ejekan",
+   "lemma",
+   "huzu-1",
+   "ms"
+  ],
+  [
+   "mockery; ridicule",
+   "lemma",
+   "huzu-1",
+   "en"
+  ],
+  [
    "hamba-hamba",
    "lemma",
    "ibad-1",
@@ -8617,6 +43532,42 @@ const QM_SEARCH_INDEX = {
    "servants (of god)",
    "lemma",
    "ibad-1",
+   "en"
+  ],
+  [
+   "ibadah",
+   "lemma",
+   "ibada-1",
+   "ms"
+  ],
+  [
+   "worship",
+   "lemma",
+   "ibada-1",
+   "en"
+  ],
+  [
+   "camels",
+   "lemma",
+   "ibil-1",
+   "en"
+  ],
+  [
+   "unta",
+   "lemma",
+   "ibil-1",
+   "ms"
+  ],
+  [
+   "awal pagi",
+   "lemma",
+   "ibkar-1",
+   "ms"
+  ],
+  [
+   "early morning",
+   "lemma",
+   "ibkar-1",
    "en"
   ],
   [
@@ -8644,6 +43595,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a daughter",
+   "lemma",
+   "ibna-1",
+   "en"
+  ],
+  [
+   "anak perempuan",
+   "lemma",
+   "ibna-1",
+   "ms"
+  ],
+  [
+   "lesson; admonition",
+   "lemma",
+   "ibra-1",
+   "en"
+  ],
+  [
+   "pengajaran; iktibar",
+   "lemma",
+   "ibra-1",
+   "ms"
+  ],
+  [
    "abraham (ibrahim)",
    "lemma",
    "ibrahim-1",
@@ -8654,6 +43629,54 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "ibrahim-1",
    "ms"
+  ],
+  [
+   "a pitcher",
+   "lemma",
+   "ibriq-1",
+   "en"
+  ],
+  [
+   "cerek",
+   "lemma",
+   "ibriq-1",
+   "ms"
+  ],
+  [
+   "dawn",
+   "lemma",
+   "ibsah-1",
+   "en"
+  ],
+  [
+   "waktu subuh",
+   "lemma",
+   "ibsah-1",
+   "ms"
+  ],
+  [
+   "berdukacita",
+   "lemma",
+   "ibtaasa-1",
+   "ms"
+  ],
+  [
+   "to be distressed",
+   "lemma",
+   "ibtaasa-1",
+   "en"
+  ],
+  [
+   "mereka-reka",
+   "lemma",
+   "ibtada-1",
+   "ms"
+  ],
+  [
+   "to invent",
+   "lemma",
+   "ibtada-1",
+   "en"
   ],
   [
    "mencari; mengharapkan",
@@ -8692,6 +43715,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menjadi putih",
+   "lemma",
+   "ibyadda-1",
+   "ms"
+  ],
+  [
+   "to turn white",
+   "lemma",
+   "ibyadda-1",
+   "en"
+  ],
+  [
+   "a festival",
+   "lemma",
+   "id-1",
+   "en"
+  ],
+  [
+   "hari raya",
+   "lemma",
+   "id-1",
+   "ms"
+  ],
+  [
+   "terbenam",
+   "lemma",
+   "idbar-1",
+   "ms"
+  ],
+  [
+   "the going away (of stars)",
+   "lemma",
+   "idbar-1",
+   "en"
+  ],
+  [
+   "a monstrous thing",
+   "lemma",
+   "idd-1",
+   "en"
+  ],
+  [
+   "perkara yang amat mungkar",
+   "lemma",
+   "idd-1",
+   "ms"
+  ],
+  [
    "bilangan; tempoh (iddah)",
    "lemma",
    "idda-1",
@@ -8701,6 +43772,42 @@ const QM_SEARCH_INDEX = {
    "number; prescribed period",
    "lemma",
    "idda-1",
+   "en"
+  ],
+  [
+   "mendakwa; menuntut",
+   "lemma",
+   "iddaa-1",
+   "ms"
+  ],
+  [
+   "to claim; to call for",
+   "lemma",
+   "iddaa-1",
+   "en"
+  ],
+  [
+   "memikirkan",
+   "lemma",
+   "iddabbara-1",
+   "ms"
+  ],
+  [
+   "to ponder",
+   "lemma",
+   "iddabbara-1",
+   "en"
+  ],
+  [
+   "sampai had",
+   "lemma",
+   "iddaraka-1",
+   "ms"
+  ],
+  [
+   "to reach its limit (of knowledge)",
+   "lemma",
+   "iddaraka-1",
    "en"
   ],
   [
@@ -8752,6 +43859,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bahagian-bahagian",
+   "lemma",
+   "idin-1",
+   "ms"
+  ],
+  [
+   "parts; fragments",
+   "lemma",
+   "idin-1",
+   "en"
+  ],
+  [
+   "idris",
+   "lemma",
+   "idris-1",
+   "en"
+  ],
+  [
+   "idris",
+   "lemma",
+   "idris-1",
+   "ms"
+  ],
+  [
+   "memaksa; terpaksa",
+   "lemma",
+   "idtarra-1",
+   "ms"
+  ],
+  [
+   "to compel; to be compelled",
+   "lemma",
+   "idtarra-1",
+   "en"
+  ],
+  [
+   "dusta; fitnah",
+   "lemma",
+   "ifk-1",
+   "ms"
+  ],
+  [
+   "lie; slander",
+   "lemma",
+   "ifk-1",
+   "en"
+  ],
+  [
+   "menebus diri",
+   "lemma",
+   "iftada-1",
+   "ms"
+  ],
+  [
+   "to ransom oneself",
+   "lemma",
+   "iftada-1",
+   "en"
+  ],
+  [
    "mereka-reka (dusta)",
    "lemma",
    "iftara-1",
@@ -8761,6 +43928,54 @@ const QM_SEARCH_INDEX = {
    "to fabricate; to invent (a lie)",
    "lemma",
    "iftara-1",
+   "en"
+  ],
+  [
+   "forgery; invention",
+   "lemma",
+   "iftira-1",
+   "en"
+  ],
+  [
+   "rekaan",
+   "lemma",
+   "iftira-1",
+   "ms"
+  ],
+  [
+   "one (feminine); one of two",
+   "lemma",
+   "ihda-1",
+   "en"
+  ],
+  [
+   "salah satu (perempuan)",
+   "lemma",
+   "ihda-1",
+   "ms"
+  ],
+  [
+   "bulu",
+   "lemma",
+   "ihn-1",
+   "ms"
+  ],
+  [
+   "wool",
+   "lemma",
+   "ihn-1",
+   "en"
+  ],
+  [
+   "berbuat baik",
+   "lemma",
+   "ihsan-1",
+   "ms"
+  ],
+  [
+   "doing good; kindness",
+   "lemma",
+   "ihsan-1",
    "en"
   ],
   [
@@ -8788,6 +44003,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memikul",
+   "lemma",
+   "ihtamala-1",
+   "ms"
+  ],
+  [
+   "to bear; to carry",
+   "lemma",
+   "ihtamala-1",
+   "en"
+  ],
+  [
+   "menyangka",
+   "lemma",
+   "ihtasaba-1",
+   "ms"
+  ],
+  [
+   "to reckon",
+   "lemma",
+   "ihtasaba-1",
+   "en"
+  ],
+  [
+   "bergetar",
+   "lemma",
+   "ihtazza-1",
+   "ms"
+  ],
+  [
+   "to quiver",
+   "lemma",
+   "ihtazza-1",
+   "en"
+  ],
+  [
    "anak lembu",
    "lemma",
    "ijl-1",
@@ -8797,6 +44048,42 @@ const QM_SEARCH_INDEX = {
    "calf",
    "lemma",
    "ijl-1",
+   "en"
+  ],
+  [
+   "crime; wrongdoing",
+   "lemma",
+   "ijram-1",
+   "en"
+  ],
+  [
+   "jenayah",
+   "lemma",
+   "ijram-1",
+   "ms"
+  ],
+  [
+   "memilih",
+   "lemma",
+   "ijtaba-1",
+   "ms"
+  ],
+  [
+   "to choose; to select",
+   "lemma",
+   "ijtaba-1",
+   "en"
+  ],
+  [
+   "berhimpun",
+   "lemma",
+   "ijtamaa-1",
+   "ms"
+  ],
+  [
+   "to gather together",
+   "lemma",
+   "ijtamaa-1",
    "en"
   ],
   [
@@ -8812,6 +44099,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menjauhi",
+   "lemma",
+   "ijtanaba-2",
+   "ms"
+  ],
+  [
+   "to avoid",
+   "lemma",
+   "ijtanaba-2",
+   "en"
+  ],
+  [
+   "bringing out; expulsion",
+   "lemma",
+   "ikhraj-1",
+   "en"
+  ],
+  [
+   "pengeluaran; pengusiran",
+   "lemma",
+   "ikhraj-1",
+   "ms"
+  ],
+  [
+   "enyahlah",
+   "lemma",
+   "ikhsau-1",
+   "ms"
+  ],
+  [
+   "to be driven away (be gone!)",
+   "lemma",
+   "ikhsau-1",
+   "en"
+  ],
+  [
    "berselisih; berbeza",
    "lemma",
    "ikhtalafa-1",
@@ -8821,6 +44144,114 @@ const QM_SEARCH_INDEX = {
    "to differ; to disagree",
    "lemma",
    "ikhtalafa-1",
+   "en"
+  ],
+  [
+   "bercampur",
+   "lemma",
+   "ikhtalata-1",
+   "ms"
+  ],
+  [
+   "to mingle",
+   "lemma",
+   "ikhtalata-1",
+   "en"
+  ],
+  [
+   "mengkhianati diri",
+   "lemma",
+   "ikhtana-1",
+   "ms"
+  ],
+  [
+   "to betray oneself",
+   "lemma",
+   "ikhtana-1",
+   "en"
+  ],
+  [
+   "memilih",
+   "lemma",
+   "ikhtara-1",
+   "ms"
+  ],
+  [
+   "to choose",
+   "lemma",
+   "ikhtara-1",
+   "en"
+  ],
+  [
+   "berbalah; bertikai",
+   "lemma",
+   "ikhtasama-1",
+   "ms"
+  ],
+  [
+   "to dispute; to quarrel",
+   "lemma",
+   "ikhtasama-1",
+   "en"
+  ],
+  [
+   "mengkhususkan",
+   "lemma",
+   "ikhtassa-1",
+   "ms"
+  ],
+  [
+   "to single out",
+   "lemma",
+   "ikhtassa-1",
+   "en"
+  ],
+  [
+   "difference; alternation",
+   "lemma",
+   "ikhtilaf-1",
+   "en"
+  ],
+  [
+   "perbezaan; pertukaran",
+   "lemma",
+   "ikhtilaf-1",
+   "ms"
+  ],
+  [
+   "compulsion",
+   "lemma",
+   "ikrah-1",
+   "en"
+  ],
+  [
+   "paksaan",
+   "lemma",
+   "ikrah-1",
+   "ms"
+  ],
+  [
+   "honour",
+   "lemma",
+   "ikram-1",
+   "en"
+  ],
+  [
+   "kemuliaan",
+   "lemma",
+   "ikram-1",
+   "ms"
+  ],
+  [
+   "mengusahakan",
+   "lemma",
+   "iktasaba-1",
+   "ms"
+  ],
+  [
+   "to earn",
+   "lemma",
+   "iktasaba-1",
    "en"
   ],
   [
@@ -8836,6 +44267,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "pemeliharaan perjalanan",
+   "lemma",
+   "ilaf-1",
+   "ms"
+  ],
+  [
+   "safe-conduct; accustoming",
+   "lemma",
+   "ilaf-1",
+   "en"
+  ],
+  [
    "god; deity; one worshipped",
    "lemma",
    "ilah-1",
@@ -8845,6 +44288,42 @@ const QM_SEARCH_INDEX = {
    "tuhan; yang disembah",
    "lemma",
    "ilah-1",
+   "ms"
+  ],
+  [
+   "deviation (in religion)",
+   "lemma",
+   "ilhad-1",
+   "en"
+  ],
+  [
+   "penyelewengan",
+   "lemma",
+   "ilhad-1",
+   "ms"
+  ],
+  [
+   "importunity",
+   "lemma",
+   "ilhaf-1",
+   "en"
+  ],
+  [
+   "mendesak",
+   "lemma",
+   "ilhaf-1",
+   "ms"
+  ],
+  [
+   "kinship; a pledge",
+   "lemma",
+   "ill-1",
+   "en"
+  ],
+  [
+   "pertalian; ikatan",
+   "lemma",
+   "ill-1",
    "ms"
   ],
   [
@@ -8860,6 +44339,18 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "illiyyun (kedudukan tertinggi)",
+   "lemma",
+   "illiyyun-1",
+   "ms"
+  ],
+  [
+   "illiyyun (the highest register)",
+   "lemma",
+   "illiyyun-1",
+   "en"
+  ],
+  [
    "ilmu; pengetahuan",
    "lemma",
    "ilm-1",
@@ -8870,6 +44361,90 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "ilm-1",
    "en"
+  ],
+  [
+   "menoleh",
+   "lemma",
+   "iltafata-1",
+   "ms"
+  ],
+  [
+   "to turn around",
+   "lemma",
+   "iltafata-1",
+   "en"
+  ],
+  [
+   "mencari",
+   "lemma",
+   "iltamasa-1",
+   "ms"
+  ],
+  [
+   "to seek",
+   "lemma",
+   "iltamasa-1",
+   "en"
+  ],
+  [
+   "bertemu",
+   "lemma",
+   "iltaqa-1",
+   "ms"
+  ],
+  [
+   "to meet; to come together",
+   "lemma",
+   "iltaqa-1",
+   "en"
+  ],
+  [
+   "menelan",
+   "lemma",
+   "iltaqama-1",
+   "ms"
+  ],
+  [
+   "to swallow",
+   "lemma",
+   "iltaqama-1",
+   "en"
+  ],
+  [
+   "ilyas",
+   "lemma",
+   "ilyas-1",
+   "ms"
+  ],
+  [
+   "ilyas (elijah)",
+   "lemma",
+   "ilyas-1",
+   "en"
+  ],
+  [
+   "pillars (columns)",
+   "lemma",
+   "imad-1",
+   "en"
+  ],
+  [
+   "tiang-tiang",
+   "lemma",
+   "imad-1",
+   "ms"
+  ],
+  [
+   "leader; model; guide",
+   "lemma",
+   "imam-1",
+   "en"
+  ],
+  [
+   "pemimpin; ikutan",
+   "lemma",
+   "imam-1",
+   "ms"
   ],
   [
    "faith; belief",
@@ -8884,6 +44459,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "pemeliharaan",
+   "lemma",
+   "imara-1",
+   "ms"
+  ],
+  [
+   "tending; upkeep (of a place)",
+   "lemma",
+   "imara-1",
+   "en"
+  ],
+  [
+   "kepapaan",
+   "lemma",
+   "imlaq-1",
+   "ms"
+  ],
+  [
+   "poverty; want",
+   "lemma",
+   "imlaq-1",
+   "en"
+  ],
+  [
    "either; whether",
    "lemma",
    "imma-1",
@@ -8893,6 +44492,18 @@ const QM_SEARCH_INDEX = {
    "sama ada; atau",
    "lemma",
    "imma-1",
+   "ms"
+  ],
+  [
+   "a grave thing",
+   "lemma",
+   "imr-1",
+   "en"
+  ],
+  [
+   "perkara yang mungkar",
+   "lemma",
+   "imr-1",
    "ms"
   ],
   [
@@ -8908,6 +44519,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "imran",
+   "lemma",
+   "imran-1",
+   "en"
+  ],
+  [
+   "imran",
+   "lemma",
+   "imran-1",
+   "ms"
+  ],
+  [
+   "a man; a person",
+   "lemma",
+   "imru-1",
+   "en"
+  ],
+  [
+   "seseorang",
+   "lemma",
+   "imru-1",
+   "ms"
+  ],
+  [
+   "menahan",
+   "lemma",
+   "imsak-1",
+   "ms"
+  ],
+  [
+   "retaining",
+   "lemma",
+   "imsak-1",
+   "en"
+  ],
+  [
+   "ragu",
+   "lemma",
+   "imtara-1",
+   "ms"
+  ],
+  [
+   "to doubt",
+   "lemma",
+   "imtara-1",
+   "en"
+  ],
+  [
    "if; (not)",
    "lemma",
    "in-1",
@@ -8920,6 +44579,66 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "masa masaknya",
+   "lemma",
+   "ina-1",
+   "ms"
+  ],
+  [
+   "the time of its ripening",
+   "lemma",
+   "ina-1",
+   "en"
+  ],
+  [
+   "anggur",
+   "lemma",
+   "inab-1",
+   "ms"
+  ],
+  [
+   "grapes",
+   "lemma",
+   "inab-1",
+   "en"
+  ],
+  [
+   "bangkit",
+   "lemma",
+   "inbaatha-1",
+   "ms"
+  ],
+  [
+   "to rise (with energy)",
+   "lemma",
+   "inbaatha-1",
+   "en"
+  ],
+  [
+   "layak; patut",
+   "lemma",
+   "inbaghaa-1",
+   "ms"
+  ],
+  [
+   "to be fitting; to be proper",
+   "lemma",
+   "inbaghaa-1",
+   "en"
+  ],
+  [
+   "kebangkitan",
+   "lemma",
+   "inbiath-1",
+   "ms"
+  ],
+  [
+   "rising up",
+   "lemma",
+   "inbiath-1",
+   "en"
+  ],
+  [
    "at; with; in the presence of",
    "lemma",
    "inda-1",
@@ -8930,6 +44649,42 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "inda-1",
    "ms"
+  ],
+  [
+   "membelanjakan",
+   "lemma",
+   "infaq-1",
+   "ms"
+  ],
+  [
+   "spending",
+   "lemma",
+   "infaq-1",
+   "en"
+  ],
+  [
+   "runtuh",
+   "lemma",
+   "inhara-1",
+   "ms"
+  ],
+  [
+   "to collapse",
+   "lemma",
+   "inhara-1",
+   "en"
+  ],
+  [
+   "injil",
+   "lemma",
+   "injil-1",
+   "ms"
+  ],
+  [
+   "the gospel (injil)",
+   "lemma",
+   "injil-1",
+   "en"
   ],
   [
    "indeed; verily",
@@ -8956,6 +44711,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "runtuh",
+   "lemma",
+   "inqadda-1",
+   "ms"
+  ],
+  [
+   "to collapse",
+   "lemma",
+   "inqadda-1",
+   "en"
+  ],
+  [
+   "berbalik; kembali",
+   "lemma",
+   "inqalaba-1",
+   "ms"
+  ],
+  [
+   "to turn back; to return",
+   "lemma",
+   "inqalaba-1",
+   "en"
+  ],
+  [
    "humankind",
    "lemma",
    "ins-1",
@@ -8966,6 +44745,18 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "ins-1",
    "ms"
+  ],
+  [
+   "terlepas; berlalu",
+   "lemma",
+   "insalakha-1",
+   "ms"
+  ],
+  [
+   "to slip out of; to pass away",
+   "lemma",
+   "insalakha-1",
+   "en"
   ],
   [
    "human being; man",
@@ -8980,6 +44771,138 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "mengadakan",
+   "lemma",
+   "insha-1",
+   "ms"
+  ],
+  [
+   "producing; creating",
+   "lemma",
+   "insha-1",
+   "en"
+  ],
+  [
+   "terbelah",
+   "lemma",
+   "inshaqqa-1",
+   "ms"
+  ],
+  [
+   "to split open",
+   "lemma",
+   "inshaqqa-1",
+   "en"
+  ],
+  [
+   "a human being",
+   "lemma",
+   "insiyy-1",
+   "en"
+  ],
+  [
+   "manusia",
+   "lemma",
+   "insiyy-1",
+   "ms"
+  ],
+  [
+   "mengasingkan diri",
+   "lemma",
+   "intabadha-1",
+   "ms"
+  ],
+  [
+   "to withdraw",
+   "lemma",
+   "intabadha-1",
+   "en"
+  ],
+  [
+   "berhenti; menghentikan",
+   "lemma",
+   "intaha-1",
+   "ms"
+  ],
+  [
+   "to desist; to refrain",
+   "lemma",
+   "intaha-1",
+   "en"
+  ],
+  [
+   "bergerak; pergi",
+   "lemma",
+   "intalaqa-1",
+   "ms"
+  ],
+  [
+   "to set off; to go",
+   "lemma",
+   "intalaqa-1",
+   "en"
+  ],
+  [
+   "membalas; menghukum",
+   "lemma",
+   "intaqama-1",
+   "ms"
+  ],
+  [
+   "to take vengeance; to punish",
+   "lemma",
+   "intaqama-1",
+   "en"
+  ],
+  [
+   "membela diri",
+   "lemma",
+   "intasara-1",
+   "ms"
+  ],
+  [
+   "to take revenge; to help oneself",
+   "lemma",
+   "intasara-1",
+   "en"
+  ],
+  [
+   "bertebaran",
+   "lemma",
+   "intashara-1",
+   "ms"
+  ],
+  [
+   "to disperse",
+   "lemma",
+   "intashara-1",
+   "en"
+  ],
+  [
+   "menunggu",
+   "lemma",
+   "intazara-1",
+   "ms"
+  ],
+  [
+   "to wait",
+   "lemma",
+   "intazara-1",
+   "en"
+  ],
+  [
+   "pembalasan",
+   "lemma",
+   "intiqam-1",
+   "ms"
+  ],
+  [
+   "vengeance; retribution",
+   "lemma",
+   "intiqam-1",
+   "en"
+  ],
+  [
    "punishment",
    "lemma",
    "iqab-1",
@@ -8992,6 +44915,186 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "establishing",
+   "lemma",
+   "iqama-1",
+   "en"
+  ],
+  [
+   "mendirikan",
+   "lemma",
+   "iqama-1",
+   "ms"
+  ],
+  [
+   "bersederhana",
+   "lemma",
+   "iqsid-1",
+   "ms"
+  ],
+  [
+   "to be moderate",
+   "lemma",
+   "iqsid-1",
+   "en"
+  ],
+  [
+   "menghampiri",
+   "lemma",
+   "iqtaraba-1",
+   "ms"
+  ],
+  [
+   "to draw near",
+   "lemma",
+   "iqtaraba-1",
+   "en"
+  ],
+  [
+   "melakukan; mengusahakan",
+   "lemma",
+   "iqtarafa-1",
+   "ms"
+  ],
+  [
+   "to commit; to acquire",
+   "lemma",
+   "iqtarafa-1",
+   "en"
+  ],
+  [
+   "berperang sesama sendiri",
+   "lemma",
+   "iqtatala-1",
+   "ms"
+  ],
+  [
+   "to fight one another",
+   "lemma",
+   "iqtatala-1",
+   "en"
+  ],
+  [
+   "caravan",
+   "lemma",
+   "ir-1",
+   "en"
+  ],
+  [
+   "kafilah",
+   "lemma",
+   "ir-1",
+   "ms"
+  ],
+  [
+   "berpaling",
+   "lemma",
+   "iradh-1",
+   "ms"
+  ],
+  [
+   "turning away",
+   "lemma",
+   "iradh-1",
+   "en"
+  ],
+  [
+   "iram",
+   "lemma",
+   "iram-1",
+   "en"
+  ],
+  [
+   "iram",
+   "lemma",
+   "iram-1",
+   "ms"
+  ],
+  [
+   "hajat syahwat",
+   "lemma",
+   "irba-1",
+   "ms"
+  ],
+  [
+   "physical need; desire",
+   "lemma",
+   "irba-1",
+   "en"
+  ],
+  [
+   "ambushing",
+   "lemma",
+   "irsad-1",
+   "en"
+  ],
+  [
+   "penyergapan",
+   "lemma",
+   "irsad-1",
+   "ms"
+  ],
+  [
+   "ragu",
+   "lemma",
+   "irtaba-1",
+   "ms"
+  ],
+  [
+   "to doubt",
+   "lemma",
+   "irtaba-1",
+   "en"
+  ],
+  [
+   "ragu",
+   "lemma",
+   "irtaba-2",
+   "ms"
+  ],
+  [
+   "to doubt",
+   "lemma",
+   "irtaba-2",
+   "en"
+  ],
+  [
+   "meredai",
+   "lemma",
+   "irtada-1",
+   "ms"
+  ],
+  [
+   "to approve",
+   "lemma",
+   "irtada-1",
+   "en"
+  ],
+  [
+   "berbalik; murtad",
+   "lemma",
+   "irtadda-1",
+   "ms"
+  ],
+  [
+   "to turn back; to apostatise",
+   "lemma",
+   "irtadda-1",
+   "en"
+  ],
+  [
+   "menunggu",
+   "lemma",
+   "irtaqaba-1",
+   "ms"
+  ],
+  [
+   "to watch; to wait",
+   "lemma",
+   "irtaqaba-1",
+   "en"
+  ],
+  [
    "jesus (isa)",
    "lemma",
    "isa-1",
@@ -9001,6 +45104,54 @@ const QM_SEARCH_INDEX = {
    "nabi isa",
    "lemma",
    "isa-1",
+   "ms"
+  ],
+  [
+   "a marriage bond",
+   "lemma",
+   "isam-1",
+   "en"
+  ],
+  [
+   "ikatan perkahwinan",
+   "lemma",
+   "isam-1",
+   "ms"
+  ],
+  [
+   "a whirlwind",
+   "lemma",
+   "isar-1",
+   "en"
+  ],
+  [
+   "puting beliung",
+   "lemma",
+   "isar-1",
+   "ms"
+  ],
+  [
+   "a way of life",
+   "lemma",
+   "isha-1",
+   "en"
+  ],
+  [
+   "kehidupan",
+   "lemma",
+   "isha-1",
+   "ms"
+  ],
+  [
+   "the evening; night-prayer",
+   "lemma",
+   "isha-2",
+   "en"
+  ],
+  [
+   "waktu petang; isyak",
+   "lemma",
+   "isha-2",
    "ms"
   ],
   [
@@ -9016,6 +45167,78 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "she-camels near calving",
+   "lemma",
+   "ishar-1",
+   "en"
+  ],
+  [
+   "unta bunting",
+   "lemma",
+   "ishar-1",
+   "ms"
+  ],
+  [
+   "sunrise",
+   "lemma",
+   "ishraq-1",
+   "en"
+  ],
+  [
+   "terbit matahari",
+   "lemma",
+   "ishraq-1",
+   "ms"
+  ],
+  [
+   "dua puluh",
+   "lemma",
+   "ishrun-1",
+   "ms"
+  ],
+  [
+   "twenty",
+   "lemma",
+   "ishrun-1",
+   "en"
+  ],
+  [
+   "menginginkan",
+   "lemma",
+   "ishtaha-1",
+   "ms"
+  ],
+  [
+   "to desire",
+   "lemma",
+   "ishtaha-1",
+   "en"
+  ],
+  [
+   "mengingini",
+   "lemma",
+   "ishtahaa-1",
+   "ms"
+  ],
+  [
+   "to desire; to crave",
+   "lemma",
+   "ishtahaa-1",
+   "en"
+  ],
+  [
+   "merangkumi",
+   "lemma",
+   "ishtamala-1",
+   "ms"
+  ],
+  [
+   "to enfold",
+   "lemma",
+   "ishtamala-1",
+   "en"
+  ],
+  [
    "membeli",
    "lemma",
    "ishtara-1",
@@ -9025,6 +45248,42 @@ const QM_SEARCH_INDEX = {
    "to buy; to purchase",
    "lemma",
    "ishtara-1",
+   "en"
+  ],
+  [
+   "a staff",
+   "lemma",
+   "isiyy-1",
+   "en"
+  ],
+  [
+   "tongkat",
+   "lemma",
+   "isiyy-1",
+   "ms"
+  ],
+  [
+   "pembaikan; perdamaian",
+   "lemma",
+   "islah-1",
+   "ms"
+  ],
+  [
+   "reform; setting right",
+   "lemma",
+   "islah-1",
+   "en"
+  ],
+  [
+   "penyerahan diri; islam",
+   "lemma",
+   "islam-1",
+   "ms"
+  ],
+  [
+   "submission; islam",
+   "lemma",
+   "islam-1",
    "en"
   ],
   [
@@ -9040,6 +45299,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "ishmael (ismail)",
+   "lemma",
+   "ismail-1",
+   "en"
+  ],
+  [
+   "nabi ismail",
+   "lemma",
+   "ismail-1",
+   "ms"
+  ],
+  [
+   "a heavy burden",
+   "lemma",
+   "isr-1",
+   "en"
+  ],
+  [
+   "beban yang berat",
+   "lemma",
+   "isr-1",
+   "ms"
+  ],
+  [
    "israel (bani israil)",
    "lemma",
    "isra-1",
@@ -9049,6 +45332,54 @@ const QM_SEARCH_INDEX = {
    "israel (isra'il)",
    "lemma",
    "isra-1",
+   "en"
+  ],
+  [
+   "excess",
+   "lemma",
+   "israf-1",
+   "en"
+  ],
+  [
+   "pemborosan",
+   "lemma",
+   "israf-1",
+   "ms"
+  ],
+  [
+   "kerahsiaan",
+   "lemma",
+   "israr-1",
+   "ms"
+  ],
+  [
+   "secrecy",
+   "lemma",
+   "israr-1",
+   "en"
+  ],
+  [
+   "memohon perlindungan",
+   "lemma",
+   "istaadha-1",
+   "ms"
+  ],
+  [
+   "to seek refuge",
+   "lemma",
+   "istaadha-1",
+   "en"
+  ],
+  [
+   "menahan diri",
+   "lemma",
+   "istaaffa-1",
+   "ms"
+  ],
+  [
+   "to abstain",
+   "lemma",
+   "istaaffa-1",
    "en"
   ],
   [
@@ -9064,6 +45395,150 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "berlumba",
+   "lemma",
+   "istabaqa-1",
+   "ms"
+  ],
+  [
+   "to race one another",
+   "lemma",
+   "istabaqa-1",
+   "en"
+  ],
+  [
+   "bersabar",
+   "lemma",
+   "istabara-1",
+   "ms"
+  ],
+  [
+   "to be steadfast",
+   "lemma",
+   "istabara-1",
+   "en"
+  ],
+  [
+   "menukar ganti",
+   "lemma",
+   "istabdala-1",
+   "ms"
+  ],
+  [
+   "to exchange (one thing for another)",
+   "lemma",
+   "istabdala-1",
+   "en"
+  ],
+  [
+   "brocade",
+   "lemma",
+   "istabraq-1",
+   "en"
+  ],
+  [
+   "sutera tebal",
+   "lemma",
+   "istabraq-1",
+   "ms"
+  ],
+  [
+   "bergembira dengan berita baik",
+   "lemma",
+   "istabshara-1",
+   "ms"
+  ],
+  [
+   "to rejoice at good news",
+   "lemma",
+   "istabshara-1",
+   "en"
+  ],
+  [
+   "menganggap lemah; menindas",
+   "lemma",
+   "istadafa-1",
+   "ms"
+  ],
+  [
+   "to consider weak; to oppress",
+   "lemma",
+   "istadafa-1",
+   "en"
+  ],
+  [
+   "meminta izin",
+   "lemma",
+   "istadhana-1",
+   "ms"
+  ],
+  [
+   "to ask permission",
+   "lemma",
+   "istadhana-1",
+   "en"
+  ],
+  [
+   "menarik berperingkat-peringkat",
+   "lemma",
+   "istadraja-1",
+   "ms"
+  ],
+  [
+   "to lead on step by step",
+   "lemma",
+   "istadraja-1",
+   "en"
+  ],
+  [
+   "memilih",
+   "lemma",
+   "istafa-1",
+   "ms"
+  ],
+  [
+   "to choose; to elect",
+   "lemma",
+   "istafa-1",
+   "en"
+  ],
+  [
+   "meminta fatwa",
+   "lemma",
+   "istafta-1",
+   "ms"
+  ],
+  [
+   "to seek a ruling",
+   "lemma",
+   "istafta-1",
+   "en"
+  ],
+  [
+   "memohon kemenangan",
+   "lemma",
+   "istaftaha-1",
+   "ms"
+  ],
+  [
+   "to seek victory",
+   "lemma",
+   "istaftaha-1",
+   "en"
+  ],
+  [
+   "memohon pertolongan",
+   "lemma",
+   "istaghatha-1",
+   "ms"
+  ],
+  [
+   "to cry for help",
+   "lemma",
+   "istaghatha-1",
+   "en"
+  ],
+  [
    "memohon ampun",
    "lemma",
    "istaghfara-1",
@@ -9073,6 +45548,138 @@ const QM_SEARCH_INDEX = {
    "to seek forgiveness",
    "lemma",
    "istaghfara-1",
+   "en"
+  ],
+  [
+   "merasa cukup",
+   "lemma",
+   "istaghna-1",
+   "ms"
+  ],
+  [
+   "to be self-sufficient",
+   "lemma",
+   "istaghna-1",
+   "en"
+  ],
+  [
+   "menyelimuti diri",
+   "lemma",
+   "istaghsha-1",
+   "ms"
+  ],
+  [
+   "to wrap oneself",
+   "lemma",
+   "istaghsha-1",
+   "en"
+  ],
+  [
+   "mengutamakan",
+   "lemma",
+   "istahabba-1",
+   "ms"
+  ],
+  [
+   "to prefer",
+   "lemma",
+   "istahabba-1",
+   "en"
+  ],
+  [
+   "layak; berhak",
+   "lemma",
+   "istahaqqa-1",
+   "ms"
+  ],
+  [
+   "to be deserving; to be guilty of",
+   "lemma",
+   "istahaqqa-1",
+   "en"
+  ],
+  [
+   "membiarkan hidup; malu",
+   "lemma",
+   "istahya-1",
+   "ms"
+  ],
+  [
+   "to spare alive; to be shy",
+   "lemma",
+   "istahya-1",
+   "en"
+  ],
+  [
+   "mengejek; memperolok-olokkan",
+   "lemma",
+   "istahzaa-1",
+   "ms"
+  ],
+  [
+   "to mock; to ridicule",
+   "lemma",
+   "istahzaa-1",
+   "en"
+  ],
+  [
+   "menyahut; memperkenankan",
+   "lemma",
+   "istajaba-1",
+   "ms"
+  ],
+  [
+   "to respond; to answer (a call)",
+   "lemma",
+   "istajaba-1",
+   "en"
+  ],
+  [
+   "meminta disegerakan; tergesa-gesa",
+   "lemma",
+   "istajala-1",
+   "ms"
+  ],
+  [
+   "to seek to hasten; to be impatient",
+   "lemma",
+   "istajala-1",
+   "en"
+  ],
+  [
+   "meminta perlindungan",
+   "lemma",
+   "istajara-1",
+   "ms"
+  ],
+  [
+   "to seek protection",
+   "lemma",
+   "istajara-1",
+   "en"
+  ],
+  [
+   "mengupah",
+   "lemma",
+   "istajara-2",
+   "ms"
+  ],
+  [
+   "to hire",
+   "lemma",
+   "istajara-2",
+   "en"
+  ],
+  [
+   "menjadi lemah",
+   "lemma",
+   "istakana-1",
+   "ms"
+  ],
+  [
+   "to be humbled",
+   "lemma",
+   "istakana-1",
    "en"
   ],
   [
@@ -9088,6 +45695,174 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memperlekehkan; bersembunyi",
+   "lemma",
+   "istakhaffa-1",
+   "ms"
+  ],
+  [
+   "to make light of; to hide",
+   "lemma",
+   "istakhaffa-1",
+   "en"
+  ],
+  [
+   "menangguhkan",
+   "lemma",
+   "istakhara-1",
+   "ms"
+  ],
+  [
+   "to delay; to put off",
+   "lemma",
+   "istakhara-1",
+   "en"
+  ],
+  [
+   "menjadikan khalifah",
+   "lemma",
+   "istakhlafa-1",
+   "ms"
+  ],
+  [
+   "to make successor",
+   "lemma",
+   "istakhlafa-1",
+   "en"
+  ],
+  [
+   "mengeluarkan",
+   "lemma",
+   "istakhraja-1",
+   "ms"
+  ],
+  [
+   "to extract; to bring out",
+   "lemma",
+   "istakhraja-1",
+   "en"
+  ],
+  [
+   "merasai (api)",
+   "lemma",
+   "istala-1",
+   "ms"
+  ],
+  [
+   "to be exposed to (fire)",
+   "lemma",
+   "istala-1",
+   "en"
+  ],
+  [
+   "mendengar dengan teliti",
+   "lemma",
+   "istamaa-1",
+   "ms"
+  ],
+  [
+   "to listen",
+   "lemma",
+   "istamaa-1",
+   "en"
+  ],
+  [
+   "berpegang teguh",
+   "lemma",
+   "istamsaka-1",
+   "ms"
+  ],
+  [
+   "to hold fast",
+   "lemma",
+   "istamsaka-1",
+   "en"
+  ],
+  [
+   "menikmati",
+   "lemma",
+   "istamtaa-1",
+   "ms"
+  ],
+  [
+   "to enjoy",
+   "lemma",
+   "istamtaa-1",
+   "en"
+  ],
+  [
+   "enggan dengan angkuh",
+   "lemma",
+   "istankafa-1",
+   "ms"
+  ],
+  [
+   "to disdain",
+   "lemma",
+   "istankafa-1",
+   "en"
+  ],
+  [
+   "meminta pertolongan",
+   "lemma",
+   "istansara-1",
+   "ms"
+  ],
+  [
+   "to ask for help",
+   "lemma",
+   "istansara-1",
+   "en"
+  ],
+  [
+   "istiqamah; berdiri teguh",
+   "lemma",
+   "istaqama-1",
+   "ms"
+  ],
+  [
+   "to be upright; to stand firm",
+   "lemma",
+   "istaqama-1",
+   "en"
+  ],
+  [
+   "mendahului",
+   "lemma",
+   "istaqdama-1",
+   "ms"
+  ],
+  [
+   "to advance",
+   "lemma",
+   "istaqdama-1",
+   "en"
+  ],
+  [
+   "mengambil saksi",
+   "lemma",
+   "istashhada-1",
+   "ms"
+  ],
+  [
+   "to call to witness",
+   "lemma",
+   "istashhada-1",
+   "en"
+  ],
+  [
+   "meminta air",
+   "lemma",
+   "istasqa-1",
+   "ms"
+  ],
+  [
+   "to ask for water",
+   "lemma",
+   "istasqa-1",
+   "en"
+  ],
+  [
    "mampu; sanggup",
    "lemma",
    "istataa-1",
@@ -9097,6 +45872,18 @@ const QM_SEARCH_INDEX = {
    "to be able",
    "lemma",
    "istataa-1",
+   "en"
+  ],
+  [
+   "meminta reda",
+   "lemma",
+   "istatba-1",
+   "ms"
+  ],
+  [
+   "to seek to please",
+   "lemma",
+   "istatba-1",
    "en"
   ],
   [
@@ -9112,6 +45899,174 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "berputus asa",
+   "lemma",
+   "istaysa-1",
+   "ms"
+  ],
+  [
+   "to lose hope",
+   "lemma",
+   "istaysa-1",
+   "en"
+  ],
+  [
+   "mudah didapati",
+   "lemma",
+   "istaysara-1",
+   "ms"
+  ],
+  [
+   "to be easy; to be obtainable",
+   "lemma",
+   "istaysara-1",
+   "en"
+  ],
+  [
+   "exchanging",
+   "lemma",
+   "istibdal-1",
+   "en"
+  ],
+  [
+   "penukaran",
+   "lemma",
+   "istibdal-1",
+   "ms"
+  ],
+  [
+   "bashfulness",
+   "lemma",
+   "istihya-1",
+   "en"
+  ],
+  [
+   "rasa malu",
+   "lemma",
+   "istihya-1",
+   "ms"
+  ],
+  [
+   "arrogance",
+   "lemma",
+   "istikbar-1",
+   "en"
+  ],
+  [
+   "kesombongan",
+   "lemma",
+   "istikbar-1",
+   "ms"
+  ],
+  [
+   "menjadi hitam",
+   "lemma",
+   "iswadda-1",
+   "ms"
+  ],
+  [
+   "to turn black",
+   "lemma",
+   "iswadda-1",
+   "en"
+  ],
+  [
+   "disobedience",
+   "lemma",
+   "isyan-1",
+   "en"
+  ],
+  [
+   "kederhakaan",
+   "lemma",
+   "isyan-1",
+   "ms"
+  ],
+  [
+   "giving",
+   "lemma",
+   "ita-1",
+   "en"
+  ],
+  [
+   "pemberian",
+   "lemma",
+   "ita-1",
+   "ms"
+  ],
+  [
+   "memberi alasan",
+   "lemma",
+   "itadhara-1",
+   "ms"
+  ],
+  [
+   "to make excuses",
+   "lemma",
+   "itadhara-1",
+   "en"
+  ],
+  [
+   "menyeret dengan kasar",
+   "lemma",
+   "itala-1",
+   "ms"
+  ],
+  [
+   "to drag by force",
+   "lemma",
+   "itala-1",
+   "en"
+  ],
+  [
+   "feeding",
+   "lemma",
+   "itam-1",
+   "en"
+  ],
+  [
+   "memberi makan",
+   "lemma",
+   "itam-1",
+   "ms"
+  ],
+  [
+   "mengakui",
+   "lemma",
+   "itarafa-1",
+   "ms"
+  ],
+  [
+   "to confess",
+   "lemma",
+   "itarafa-1",
+   "en"
+  ],
+  [
+   "berpegang teguh",
+   "lemma",
+   "itasama-1",
+   "ms"
+  ],
+  [
+   "to hold fast",
+   "lemma",
+   "itasama-1",
+   "en"
+  ],
+  [
+   "menjauhkan diri daripada",
+   "lemma",
+   "itazala-1",
+   "ms"
+  ],
+  [
+   "to withdraw from",
+   "lemma",
+   "itazala-1",
+   "en"
+  ],
+  [
    "dosa",
    "lemma",
    "ithm-1",
@@ -9121,6 +46076,42 @@ const QM_SEARCH_INDEX = {
    "sin; wrongdoing",
    "lemma",
    "ithm-1",
+   "en"
+  ],
+  [
+   "dua",
+   "lemma",
+   "ithnan-1",
+   "ms"
+  ],
+  [
+   "two",
+   "lemma",
+   "ithnan-1",
+   "en"
+  ],
+  [
+   "extreme old age; insolence",
+   "lemma",
+   "itiyy-1",
+   "en"
+  ],
+  [
+   "usia lanjut; kederhakaan",
+   "lemma",
+   "itiyy-1",
+   "ms"
+  ],
+  [
+   "tenang",
+   "lemma",
+   "itmaanna-1",
+   "ms"
+  ],
+  [
+   "to be at rest",
+   "lemma",
+   "itmaanna-1",
    "en"
   ],
   [
@@ -9136,6 +46127,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bersuci",
+   "lemma",
+   "ittahhara-1",
+   "ms"
+  ],
+  [
+   "to purify oneself",
+   "lemma",
+   "ittahhara-1",
+   "en"
+  ],
+  [
+   "bersandar",
+   "lemma",
+   "ittaka-1",
+   "ms"
+  ],
+  [
+   "to recline",
+   "lemma",
+   "ittaka-1",
+   "en"
+  ],
+  [
    "menjadikan; mengambil",
    "lemma",
    "ittakhadha-1",
@@ -9145,6 +46160,30 @@ const QM_SEARCH_INDEX = {
    "to take (as); to adopt",
    "lemma",
    "ittakhadha-1",
+   "en"
+  ],
+  [
+   "meninjau",
+   "lemma",
+   "ittalaa-1",
+   "ms"
+  ],
+  [
+   "to look closely; to observe",
+   "lemma",
+   "ittalaa-1",
+   "en"
+  ],
+  [
+   "bermesyuarat",
+   "lemma",
+   "ittamara-1",
+   "ms"
+  ],
+  [
+   "to take counsel together",
+   "lemma",
+   "ittamara-1",
    "en"
   ],
   [
@@ -9160,6 +46199,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menjadi purnama",
+   "lemma",
+   "ittasaqa-1",
+   "ms"
+  ],
+  [
+   "to become full (of the moon)",
+   "lemma",
+   "ittasaqa-1",
+   "en"
+  ],
+  [
+   "mengelilingi",
+   "lemma",
+   "ittawwafa-1",
+   "ms"
+  ],
+  [
+   "to go around",
+   "lemma",
+   "ittawwafa-1",
+   "en"
+  ],
+  [
+   "following",
+   "lemma",
+   "ittiba-1",
+   "en"
+  ],
+  [
+   "pengikutan",
+   "lemma",
+   "ittiba-1",
+   "ms"
+  ],
+  [
+   "mengambil sebagai",
+   "lemma",
+   "ittikhadh-1",
+   "ms"
+  ],
+  [
+   "taking (as)",
+   "lemma",
+   "ittikhadh-1",
+   "en"
+  ],
+  [
+   "crookedness",
+   "lemma",
+   "iwaj-1",
+   "en"
+  ],
+  [
+   "kebengkokan",
+   "lemma",
+   "iwaj-1",
+   "ms"
+  ],
+  [
+   "kepulangan",
+   "lemma",
+   "iyab-1",
+   "ms"
+  ],
+  [
+   "return",
+   "lemma",
+   "iyab-1",
+   "en"
+  ],
+  [
    "(kata dasar ganti nama objek)",
    "lemma",
    "iyyaa-1",
@@ -9169,6 +46280,66 @@ const QM_SEARCH_INDEX = {
    "(object-pronoun base)",
    "lemma",
    "iyyaa-1",
+   "en"
+  ],
+  [
+   "bertambah",
+   "lemma",
+   "izdada-1",
+   "ms"
+  ],
+  [
+   "to increase; to grow in",
+   "lemma",
+   "izdada-1",
+   "en"
+  ],
+  [
+   "keperkasaan",
+   "lemma",
+   "izz-1",
+   "ms"
+  ],
+  [
+   "might; honour",
+   "lemma",
+   "izz-1",
+   "en"
+  ],
+  [
+   "kemuliaan; kekuatan",
+   "lemma",
+   "izza-1",
+   "ms"
+  ],
+  [
+   "might; honour",
+   "lemma",
+   "izza-1",
+   "en"
+  ],
+  [
+   "berhias",
+   "lemma",
+   "izzayyana-1",
+   "ms"
+  ],
+  [
+   "to be adorned",
+   "lemma",
+   "izzayyana-1",
+   "en"
+  ],
+  [
+   "lapar",
+   "lemma",
+   "jaa-2",
+   "ms"
+  ],
+  [
+   "to be hungry",
+   "lemma",
+   "jaa-2",
    "en"
   ],
   [
@@ -9196,6 +46367,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "melintasi",
+   "lemma",
+   "jaawaza-2",
+   "ms"
+  ],
+  [
+   "to cross",
+   "lemma",
+   "jaawaza-2",
+   "en"
+  ],
+  [
+   "memahat",
+   "lemma",
+   "jaba-1",
+   "ms"
+  ],
+  [
+   "to carve; to hew out",
+   "lemma",
+   "jaba-1",
+   "en"
+  ],
+  [
+   "mengutip",
+   "lemma",
+   "jabaa-1",
+   "ms"
+  ],
+  [
+   "to collect; to bring together",
+   "lemma",
+   "jabaa-1",
+   "en"
+  ],
+  [
    "gunung",
    "lemma",
    "jabal-1",
@@ -9206,6 +46413,102 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "jabal-1",
    "en"
+  ],
+  [
+   "maha perkasa; zalim",
+   "lemma",
+   "jabbar-1",
+   "ms"
+  ],
+  [
+   "mighty; tyrant",
+   "lemma",
+   "jabbar-1",
+   "en"
+  ],
+  [
+   "dahi",
+   "lemma",
+   "jabin-1",
+   "ms"
+  ],
+  [
+   "the forehead",
+   "lemma",
+   "jabin-1",
+   "en"
+  ],
+  [
+   "disputation",
+   "lemma",
+   "jadal-1",
+   "en"
+  ],
+  [
+   "perbantahan",
+   "lemma",
+   "jadal-1",
+   "ms"
+  ],
+  [
+   "berbahas; berdebat",
+   "lemma",
+   "jadala-1",
+   "ms"
+  ],
+  [
+   "to dispute; to argue",
+   "lemma",
+   "jadala-1",
+   "en"
+  ],
+  [
+   "a grave",
+   "lemma",
+   "jadath-1",
+   "en"
+  ],
+  [
+   "kubur",
+   "lemma",
+   "jadath-1",
+   "ms"
+  ],
+  [
+   "kebesaran",
+   "lemma",
+   "jadd-1",
+   "ms"
+  ],
+  [
+   "majesty; fortune",
+   "lemma",
+   "jadd-1",
+   "en"
+  ],
+  [
+   "baharu",
+   "lemma",
+   "jadid-1",
+   "ms"
+  ],
+  [
+   "new",
+   "lemma",
+   "jadid-1",
+   "en"
+  ],
+  [
+   "a large dish",
+   "lemma",
+   "jafna-1",
+   "en"
+  ],
+  [
+   "talam besar",
+   "lemma",
+   "jafna-1",
+   "ms"
   ],
   [
    "berjihad; bersungguh-sungguh",
@@ -9220,6 +46523,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menafikan; menolak",
+   "lemma",
+   "jahada-2",
+   "ms"
+  ],
+  [
+   "to deny; to reject knowingly",
+   "lemma",
+   "jahada-2",
+   "en"
+  ],
+  [
+   "ignorance",
+   "lemma",
+   "jahala-1",
+   "en"
+  ],
+  [
+   "kejahilan",
+   "lemma",
+   "jahala-1",
+   "ms"
+  ],
+  [
    "hell (jahannam)",
    "lemma",
    "jahannam-1",
@@ -9229,6 +46556,90 @@ const QM_SEARCH_INDEX = {
    "neraka jahannam",
    "lemma",
    "jahannam-1",
+   "ms"
+  ],
+  [
+   "menyaringkan suara",
+   "lemma",
+   "jahara-1",
+   "ms"
+  ],
+  [
+   "to speak aloud",
+   "lemma",
+   "jahara-1",
+   "en"
+  ],
+  [
+   "bekalan",
+   "lemma",
+   "jahaz-1",
+   "ms"
+  ],
+  [
+   "provisions; equipment",
+   "lemma",
+   "jahaz-1",
+   "en"
+  ],
+  [
+   "effort; utmost",
+   "lemma",
+   "jahd-1",
+   "en"
+  ],
+  [
+   "usaha; sedaya upaya",
+   "lemma",
+   "jahd-1",
+   "ms"
+  ],
+  [
+   "membekalkan",
+   "lemma",
+   "jahhaza-1",
+   "ms"
+  ],
+  [
+   "to equip; to provision",
+   "lemma",
+   "jahhaza-1",
+   "en"
+  ],
+  [
+   "ignorant person",
+   "lemma",
+   "jahil-1",
+   "en"
+  ],
+  [
+   "orang jahil",
+   "lemma",
+   "jahil-1",
+   "ms"
+  ],
+  [
+   "jahil; tidak mengetahui",
+   "lemma",
+   "jahila-1",
+   "ms"
+  ],
+  [
+   "to be ignorant",
+   "lemma",
+   "jahila-1",
+   "en"
+  ],
+  [
+   "the age of ignorance (jahiliyya)",
+   "lemma",
+   "jahiliyya-1",
+   "en"
+  ],
+  [
+   "zaman jahiliah",
+   "lemma",
+   "jahiliyya-1",
    "ms"
   ],
   [
@@ -9244,6 +46655,162 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "secara lantang",
+   "lemma",
+   "jahr-1",
+   "ms"
+  ],
+  [
+   "speaking aloud; openness",
+   "lemma",
+   "jahr-1",
+   "en"
+  ],
+  [
+   "openly",
+   "lemma",
+   "jahra-1",
+   "en"
+  ],
+  [
+   "secara terang-terangan",
+   "lemma",
+   "jahra-1",
+   "ms"
+  ],
+  [
+   "one who makes or appoints",
+   "lemma",
+   "jail-1",
+   "en"
+  ],
+  [
+   "yang menjadikan",
+   "lemma",
+   "jail-1",
+   "ms"
+  ],
+  [
+   "exile",
+   "lemma",
+   "jala-1",
+   "en"
+  ],
+  [
+   "pengusiran",
+   "lemma",
+   "jala-1",
+   "ms"
+  ],
+  [
+   "menyebat",
+   "lemma",
+   "jalada-1",
+   "ms"
+  ],
+  [
+   "to flog",
+   "lemma",
+   "jalada-1",
+   "en"
+  ],
+  [
+   "keagungan",
+   "lemma",
+   "jalal-1",
+   "ms"
+  ],
+  [
+   "majesty",
+   "lemma",
+   "jalal-1",
+   "en"
+  ],
+  [
+   "a lash; a stripe",
+   "lemma",
+   "jalda-1",
+   "en"
+  ],
+  [
+   "sebatan",
+   "lemma",
+   "jalda-1",
+   "ms"
+  ],
+  [
+   "menzahirkan",
+   "lemma",
+   "jalla-1",
+   "ms"
+  ],
+  [
+   "to reveal; to display",
+   "lemma",
+   "jalla-1",
+   "en"
+  ],
+  [
+   "goliath (jalut)",
+   "lemma",
+   "jalut-1",
+   "en"
+  ],
+  [
+   "jalut",
+   "lemma",
+   "jalut-1",
+   "ms"
+  ],
+  [
+   "gathering; crowd",
+   "lemma",
+   "jam-1",
+   "en"
+  ],
+  [
+   "perhimpunan; kumpulan",
+   "lemma",
+   "jam-1",
+   "ms"
+  ],
+  [
+   "mengumpulkan",
+   "lemma",
+   "jamaa-1",
+   "ms"
+  ],
+  [
+   "to gather; to collect",
+   "lemma",
+   "jamaa-1",
+   "en"
+  ],
+  [
+   "mengumpulkan",
+   "lemma",
+   "jamaa-2",
+   "ms"
+  ],
+  [
+   "to gather",
+   "lemma",
+   "jamaa-2",
+   "en"
+  ],
+  [
+   "a camel; beauty",
+   "lemma",
+   "jamal-1",
+   "en"
+  ],
+  [
+   "unta; keindahan",
+   "lemma",
+   "jamal-1",
+   "ms"
+  ],
+  [
    "all; together",
    "lemma",
    "jami-1",
@@ -9254,6 +46821,102 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "jami-1",
    "ms"
+  ],
+  [
+   "one who gathers",
+   "lemma",
+   "jami-2",
+   "en"
+  ],
+  [
+   "yang mengumpulkan",
+   "lemma",
+   "jami-2",
+   "ms"
+  ],
+  [
+   "beautiful; gracious",
+   "lemma",
+   "jamil-1",
+   "en"
+  ],
+  [
+   "indah; baik",
+   "lemma",
+   "jamil-1",
+   "ms"
+  ],
+  [
+   "buah yang dipetik",
+   "lemma",
+   "jana-1",
+   "ms"
+  ],
+  [
+   "the fruit (to be picked)",
+   "lemma",
+   "jana-1",
+   "en"
+  ],
+  [
+   "condong",
+   "lemma",
+   "janaha-1",
+   "ms"
+  ],
+  [
+   "to incline",
+   "lemma",
+   "janaha-1",
+   "en"
+  ],
+  [
+   "side",
+   "lemma",
+   "janb-1",
+   "en"
+  ],
+  [
+   "sisi",
+   "lemma",
+   "janb-1",
+   "ms"
+  ],
+  [
+   "side",
+   "lemma",
+   "janib-1",
+   "en"
+  ],
+  [
+   "sisi",
+   "lemma",
+   "janib-1",
+   "ms"
+  ],
+  [
+   "freshly gathered",
+   "lemma",
+   "janiyy-1",
+   "en"
+  ],
+  [
+   "yang baru dipetik",
+   "lemma",
+   "janiyy-1",
+   "ms"
+  ],
+  [
+   "jin; makhluk seperti ular",
+   "lemma",
+   "jann-1",
+   "ms"
+  ],
+  [
+   "jinn; a serpent-like creature",
+   "lemma",
+   "jann-1",
+   "en"
   ],
   [
    "garden; paradise",
@@ -9268,6 +46931,42 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "menyelubungi",
+   "lemma",
+   "janna-2",
+   "ms"
+  ],
+  [
+   "to cover over (of night)",
+   "lemma",
+   "janna-2",
+   "en"
+  ],
+  [
+   "menjauhkan",
+   "lemma",
+   "jannaba-1",
+   "ms"
+  ],
+  [
+   "to keep away from",
+   "lemma",
+   "jannaba-1",
+   "en"
+  ],
+  [
+   "jiran",
+   "lemma",
+   "jar-1",
+   "ms"
+  ],
+  [
+   "neighbour",
+   "lemma",
+   "jar-1",
+   "en"
+  ],
+  [
    "mengalir",
    "lemma",
    "jara-1",
@@ -9280,6 +46979,186 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "belalang",
+   "lemma",
+   "jarad-1",
+   "ms"
+  ],
+  [
+   "locusts",
+   "lemma",
+   "jarad-1",
+   "en"
+  ],
+  [
+   "melakukan; (la jarama: tidak syak lagi)",
+   "lemma",
+   "jarama-1",
+   "ms"
+  ],
+  [
+   "to earn; to commit (la jarama: no doubt)",
+   "lemma",
+   "jarama-1",
+   "en"
+  ],
+  [
+   "a bird or beast of prey",
+   "lemma",
+   "jariha-1",
+   "en"
+  ],
+  [
+   "binatang pemburu",
+   "lemma",
+   "jariha-1",
+   "ms"
+  ],
+  [
+   "flowing; a ship",
+   "lemma",
+   "jariya-1",
+   "en"
+  ],
+  [
+   "yang mengalir; kapal",
+   "lemma",
+   "jariya-1",
+   "ms"
+  ],
+  [
+   "menarik",
+   "lemma",
+   "jarra-1",
+   "ms"
+  ],
+  [
+   "to drag",
+   "lemma",
+   "jarra-1",
+   "en"
+  ],
+  [
+   "menjelajah",
+   "lemma",
+   "jasa-1",
+   "ms"
+  ],
+  [
+   "to search through",
+   "lemma",
+   "jasa-1",
+   "en"
+  ],
+  [
+   "body",
+   "lemma",
+   "jasad-1",
+   "en"
+  ],
+  [
+   "jasad; badan",
+   "lemma",
+   "jasad-1",
+   "ms"
+  ],
+  [
+   "crouching; prostrate (in death)",
+   "lemma",
+   "jathim-1",
+   "en"
+  ],
+  [
+   "tersungkur; mendekam",
+   "lemma",
+   "jathim-1",
+   "ms"
+  ],
+  [
+   "berlutut",
+   "lemma",
+   "jathiya-1",
+   "ms"
+  ],
+  [
+   "kneeling",
+   "lemma",
+   "jathiya-1",
+   "en"
+  ],
+  [
+   "answer; reply",
+   "lemma",
+   "jawab-1",
+   "en"
+  ],
+  [
+   "jawapan",
+   "lemma",
+   "jawab-1",
+   "ms"
+  ],
+  [
+   "berjiran",
+   "lemma",
+   "jawara-1",
+   "ms"
+  ],
+  [
+   "to be a neighbour",
+   "lemma",
+   "jawara-1",
+   "en"
+  ],
+  [
+   "menyeberangi",
+   "lemma",
+   "jawaza-1",
+   "ms"
+  ],
+  [
+   "to cross; to pass beyond",
+   "lemma",
+   "jawaza-1",
+   "en"
+  ],
+  [
+   "bahagian dalam",
+   "lemma",
+   "jawf-1",
+   "ms"
+  ],
+  [
+   "the inside",
+   "lemma",
+   "jawf-1",
+   "en"
+  ],
+  [
+   "ruang udara",
+   "lemma",
+   "jaww-1",
+   "ms"
+  ],
+  [
+   "the air; the atmosphere",
+   "lemma",
+   "jaww-1",
+   "en"
+  ],
+  [
+   "a bosom; the opening of a garment",
+   "lemma",
+   "jayb-1",
+   "en"
+  ],
+  [
+   "dada baju",
+   "lemma",
+   "jayb-1",
+   "ms"
+  ],
+  [
    "membalas",
    "lemma",
    "jaza-1",
@@ -9289,6 +47168,30 @@ const QM_SEARCH_INDEX = {
    "to recompense; to repay",
    "lemma",
    "jaza-1",
+   "en"
+  ],
+  [
+   "membalas",
+   "lemma",
+   "jaza-2",
+   "ms"
+  ],
+  [
+   "to repay; to recompense",
+   "lemma",
+   "jaza-2",
+   "en"
+  ],
+  [
+   "membalas",
+   "lemma",
+   "jaza-3",
+   "ms"
+  ],
+  [
+   "to repay",
+   "lemma",
+   "jaza-3",
    "en"
   ],
   [
@@ -9304,6 +47207,162 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "gelisah",
+   "lemma",
+   "jazia-1",
+   "ms"
+  ],
+  [
+   "to be impatient",
+   "lemma",
+   "jazia-1",
+   "en"
+  ],
+  [
+   "one who repays",
+   "lemma",
+   "jazin-1",
+   "en"
+  ],
+  [
+   "yang membalas",
+   "lemma",
+   "jazin-1",
+   "ms"
+  ],
+  [
+   "gelisah",
+   "lemma",
+   "jazuu-1",
+   "ms"
+  ],
+  [
+   "impatient",
+   "lemma",
+   "jazuu-1",
+   "en"
+  ],
+  [
+   "a creation; a generation",
+   "lemma",
+   "jibill-1",
+   "en"
+  ],
+  [
+   "makhluk; generasi",
+   "lemma",
+   "jibill-1",
+   "ms"
+  ],
+  [
+   "jibril",
+   "lemma",
+   "jibril-1",
+   "ms"
+  ],
+  [
+   "jibril (gabriel)",
+   "lemma",
+   "jibril-1",
+   "en"
+  ],
+  [
+   "an idol (jibt)",
+   "lemma",
+   "jibt-1",
+   "en"
+  ],
+  [
+   "jibt (berhala)",
+   "lemma",
+   "jibt-1",
+   "ms"
+  ],
+  [
+   "a neck",
+   "lemma",
+   "jid-1",
+   "en"
+  ],
+  [
+   "leher",
+   "lemma",
+   "jid-1",
+   "ms"
+  ],
+  [
+   "arguing",
+   "lemma",
+   "jidal-1",
+   "en"
+  ],
+  [
+   "berbantah",
+   "lemma",
+   "jidal-1",
+   "ms"
+  ],
+  [
+   "a wall",
+   "lemma",
+   "jidar-1",
+   "en"
+  ],
+  [
+   "dinding",
+   "lemma",
+   "jidar-1",
+   "ms"
+  ],
+  [
+   "a palm-trunk",
+   "lemma",
+   "jidh-1",
+   "en"
+  ],
+  [
+   "batang kurma",
+   "lemma",
+   "jidh-1",
+   "ms"
+  ],
+  [
+   "jihad",
+   "lemma",
+   "jihad-1",
+   "ms"
+  ],
+  [
+   "striving; jihad",
+   "lemma",
+   "jihad-1",
+   "en"
+  ],
+  [
+   "kulit",
+   "lemma",
+   "jild-1",
+   "ms"
+  ],
+  [
+   "skin",
+   "lemma",
+   "jild-1",
+   "en"
+  ],
+  [
+   "unta-unta kuning",
+   "lemma",
+   "jimala-1",
+   "ms"
+  ],
+  [
+   "yellowish camels",
+   "lemma",
+   "jimala-1",
+   "en"
+  ],
+  [
    "jin",
    "lemma",
    "jinn-1",
@@ -9314,6 +47373,138 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "jinn-1",
    "en"
+  ],
+  [
+   "kegilaan; golongan jin",
+   "lemma",
+   "jinna-1",
+   "ms"
+  ],
+  [
+   "madness; the jinn (as a class)",
+   "lemma",
+   "jinna-1",
+   "en"
+  ],
+  [
+   "a body",
+   "lemma",
+   "jism-1",
+   "en"
+  ],
+  [
+   "tubuh",
+   "lemma",
+   "jism-1",
+   "ms"
+  ],
+  [
+   "kneeling",
+   "lemma",
+   "jithiyy-1",
+   "en"
+  ],
+  [
+   "melutut",
+   "lemma",
+   "jithiyy-1",
+   "ms"
+  ],
+  [
+   "jizyah",
+   "lemma",
+   "jizya-1",
+   "ms"
+  ],
+  [
+   "the tax (jizya)",
+   "lemma",
+   "jizya-1",
+   "en"
+  ],
+  [
+   "hunger",
+   "lemma",
+   "jua-1",
+   "en"
+  ],
+  [
+   "kelaparan",
+   "lemma",
+   "jua-1",
+   "ms"
+  ],
+  [
+   "a well",
+   "lemma",
+   "jubb-1",
+   "en"
+  ],
+  [
+   "perigi",
+   "lemma",
+   "jubb-1",
+   "ms"
+  ],
+  [
+   "gunung judi",
+   "lemma",
+   "judi-1",
+   "ms"
+  ],
+  [
+   "mount judi",
+   "lemma",
+   "judi-1",
+   "en"
+  ],
+  [
+   "buih",
+   "lemma",
+   "jufa-1",
+   "ms"
+  ],
+  [
+   "scum; froth",
+   "lemma",
+   "jufa-1",
+   "en"
+  ],
+  [
+   "effort; utmost power",
+   "lemma",
+   "juhd-1",
+   "en"
+  ],
+  [
+   "kesungguhan",
+   "lemma",
+   "juhd-1",
+   "ms"
+  ],
+  [
+   "friday",
+   "lemma",
+   "juma-1",
+   "en"
+  ],
+  [
+   "jumaat",
+   "lemma",
+   "juma-1",
+   "ms"
+  ],
+  [
+   "all at once",
+   "lemma",
+   "jumla-1",
+   "en"
+  ],
+  [
+   "sekali gus",
+   "lemma",
+   "jumla-1",
+   "ms"
   ],
   [
    "blame; sin; wing",
@@ -9340,6 +47531,78 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a shield; a cover",
+   "lemma",
+   "junna-1",
+   "en"
+  ],
+  [
+   "perisai",
+   "lemma",
+   "junna-1",
+   "ms"
+  ],
+  [
+   "berjunub; orang jauh",
+   "lemma",
+   "junub-1",
+   "ms"
+  ],
+  [
+   "ritually impure; a stranger",
+   "lemma",
+   "junub-1",
+   "en"
+  ],
+  [
+   "a wound",
+   "lemma",
+   "juruh-1",
+   "en"
+  ],
+  [
+   "luka",
+   "lemma",
+   "juruh-1",
+   "ms"
+  ],
+  [
+   "barren land",
+   "lemma",
+   "juruz-1",
+   "en"
+  ],
+  [
+   "tanah gersang",
+   "lemma",
+   "juruz-1",
+   "ms"
+  ],
+  [
+   "bahagian",
+   "lemma",
+   "juz-1",
+   "ms"
+  ],
+  [
+   "part; portion",
+   "lemma",
+   "juz-1",
+   "en"
+  ],
+  [
+   "an ankle; the ka'ba",
+   "lemma",
+   "kaab-1",
+   "en"
+  ],
+  [
+   "buku lali; kaabah",
+   "lemma",
+   "kaab-1",
+   "ms"
+  ],
+  [
    "hampir",
    "lemma",
    "kaada-1",
@@ -9349,6 +47612,18 @@ const QM_SEARCH_INDEX = {
    "to be about to; to almost",
    "lemma",
    "kaada-1",
+   "en"
+  ],
+  [
+   "menyukat",
+   "lemma",
+   "kaala-1",
+   "ms"
+  ],
+  [
+   "to measure",
+   "lemma",
+   "kaala-1",
    "en"
   ],
   [
@@ -9376,6 +47651,42 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "betapa banyaknya",
+   "lemma",
+   "kaayyin-1",
+   "ms"
+  ],
+  [
+   "how many (a great many)",
+   "lemma",
+   "kaayyin-1",
+   "en"
+  ],
+  [
+   "menghinakan",
+   "lemma",
+   "kabata-1",
+   "ms"
+  ],
+  [
+   "to humiliate",
+   "lemma",
+   "kabata-1",
+   "en"
+  ],
+  [
+   "membesarkan; bertakbir",
+   "lemma",
+   "kabbara-1",
+   "ms"
+  ],
+  [
+   "to magnify; to proclaim greatness",
+   "lemma",
+   "kabbara-1",
+   "en"
+  ],
+  [
    "besar; agung",
    "lemma",
    "kabir-1",
@@ -9385,6 +47696,42 @@ const QM_SEARCH_INDEX = {
    "great; big",
    "lemma",
    "kabir-1",
+   "en"
+  ],
+  [
+   "menjadi besar",
+   "lemma",
+   "kabura-1",
+   "ms"
+  ],
+  [
+   "to be great; to grow big",
+   "lemma",
+   "kabura-1",
+   "en"
+  ],
+  [
+   "merancang tipu daya",
+   "lemma",
+   "kada-2",
+   "ms"
+  ],
+  [
+   "to plot",
+   "lemma",
+   "kada-2",
+   "en"
+  ],
+  [
+   "kesusahan",
+   "lemma",
+   "kadh-1",
+   "ms"
+  ],
+  [
+   "toil",
+   "lemma",
+   "kadh-1",
    "en"
   ],
   [
@@ -9400,6 +47747,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "great liar",
+   "lemma",
+   "kadhdhab-1",
+   "en"
+  ],
+  [
+   "pendusta besar",
+   "lemma",
+   "kadhdhab-1",
+   "ms"
+  ],
+  [
    "mendustakan",
    "lemma",
    "kadhdhaba-1",
@@ -9412,6 +47771,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "dusta",
+   "lemma",
+   "kadhib-1",
+   "ms"
+  ],
+  [
+   "lie; falsehood",
+   "lemma",
+   "kadhib-1",
+   "en"
+  ],
+  [
+   "liar; lying",
+   "lemma",
+   "kadhib-2",
+   "en"
+  ],
+  [
+   "pendusta",
+   "lemma",
+   "kadhib-2",
+   "ms"
+  ],
+  [
+   "one who strives hard",
+   "lemma",
+   "kadih-1",
+   "en"
+  ],
+  [
+   "orang yang bersusah payah",
+   "lemma",
+   "kadih-1",
+   "ms"
+  ],
+  [
    "mencukupi",
    "lemma",
    "kafa-1",
@@ -9421,6 +47816,18 @@ const QM_SEARCH_INDEX = {
    "to suffice; to be enough",
    "lemma",
    "kafa-1",
+   "en"
+  ],
+  [
+   "menjaga",
+   "lemma",
+   "kafala-1",
+   "ms"
+  ],
+  [
+   "to take charge of",
+   "lemma",
+   "kafala-1",
    "en"
   ],
   [
@@ -9436,6 +47843,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a palm",
+   "lemma",
+   "kaff-1",
+   "en"
+  ],
+  [
+   "tapak tangan",
+   "lemma",
+   "kaff-1",
+   "ms"
+  ],
+  [
+   "all; altogether",
+   "lemma",
+   "kaffa-1",
+   "en"
+  ],
+  [
+   "semuanya; seluruhnya",
+   "lemma",
+   "kaffa-1",
+   "ms"
+  ],
+  [
+   "menahan",
+   "lemma",
+   "kaffa-2",
+   "ms"
+  ],
+  [
+   "to restrain; to hold back",
+   "lemma",
+   "kaffa-2",
+   "en"
+  ],
+  [
+   "menyerahkan penjagaan",
+   "lemma",
+   "kaffala-1",
+   "ms"
+  ],
+  [
+   "to place in the charge of",
+   "lemma",
+   "kaffala-1",
+   "en"
+  ],
+  [
+   "great disbeliever; ungrateful",
+   "lemma",
+   "kaffar-1",
+   "en"
+  ],
+  [
+   "pengingkar besar",
+   "lemma",
+   "kaffar-1",
+   "ms"
+  ],
+  [
    "menghapuskan (dosa)",
    "lemma",
    "kaffara-1",
@@ -9445,6 +47912,42 @@ const QM_SEARCH_INDEX = {
    "to expiate; to remove (sins)",
    "lemma",
    "kaffara-1",
+   "en"
+  ],
+  [
+   "an expiation",
+   "lemma",
+   "kaffara-2",
+   "en"
+  ],
+  [
+   "kafarah",
+   "lemma",
+   "kaffara-2",
+   "ms"
+  ],
+  [
+   "a surety; a guarantor",
+   "lemma",
+   "kafil-1",
+   "en"
+  ],
+  [
+   "penjamin",
+   "lemma",
+   "kafil-1",
+   "ms"
+  ],
+  [
+   "mencukupi",
+   "lemma",
+   "kafin-1",
+   "ms"
+  ],
+  [
+   "sufficient",
+   "lemma",
+   "kafin-1",
    "en"
   ],
   [
@@ -9460,6 +47963,114 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "sangat kufur nikmat",
+   "lemma",
+   "kafur-1",
+   "ms"
+  ],
+  [
+   "ungrateful; thankless",
+   "lemma",
+   "kafur-1",
+   "en"
+  ],
+  [
+   "camphor",
+   "lemma",
+   "kafur-2",
+   "en"
+  ],
+  [
+   "kapur barus",
+   "lemma",
+   "kafur-2",
+   "ms"
+  ],
+  [
+   "cave",
+   "lemma",
+   "kahf-1",
+   "en"
+  ],
+  [
+   "gua",
+   "lemma",
+   "kahf-1",
+   "ms"
+  ],
+  [
+   "a soothsayer",
+   "lemma",
+   "kahin-1",
+   "en"
+  ],
+  [
+   "tukang tenung",
+   "lemma",
+   "kahin-1",
+   "ms"
+  ],
+  [
+   "middle-aged",
+   "lemma",
+   "kahl-1",
+   "en"
+  ],
+  [
+   "separuh umur",
+   "lemma",
+   "kahl-1",
+   "ms"
+  ],
+  [
+   "gadis sebaya",
+   "lemma",
+   "kaib-1",
+   "ms"
+  ],
+  [
+   "maidens of equal age",
+   "lemma",
+   "kaib-1",
+   "en"
+  ],
+  [
+   "a person without direct heirs (kalala)",
+   "lemma",
+   "kalala-1",
+   "en"
+  ],
+  [
+   "kalalah",
+   "lemma",
+   "kalala-1",
+   "ms"
+  ],
+  [
+   "percakapan; kalam",
+   "lemma",
+   "kalam-1",
+   "ms"
+  ],
+  [
+   "speech; words",
+   "lemma",
+   "kalam-1",
+   "en"
+  ],
+  [
+   "a dog",
+   "lemma",
+   "kalb-1",
+   "en"
+  ],
+  [
+   "anjing",
+   "lemma",
+   "kalb-1",
+   "ms"
+  ],
+  [
    "kalimah; perkataan",
    "lemma",
    "kalima-1",
@@ -9470,6 +48081,18 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "kalima-1",
    "en"
+  ],
+  [
+   "a burden",
+   "lemma",
+   "kall-1",
+   "en"
+  ],
+  [
+   "beban",
+   "lemma",
+   "kall-1",
+   "ms"
   ],
   [
    "nay; never; by no means",
@@ -9508,6 +48131,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "complete; full",
+   "lemma",
+   "kamil-1",
+   "en"
+  ],
+  [
+   "lengkap; sempurna",
+   "lemma",
+   "kamil-1",
+   "ms"
+  ],
+  [
+   "menyimpan harta",
+   "lemma",
+   "kanaza-1",
+   "ms"
+  ],
+  [
+   "to hoard",
+   "lemma",
+   "kanaza-1",
+   "en"
+  ],
+  [
+   "a treasure",
+   "lemma",
+   "kanz-1",
+   "en"
+  ],
+  [
+   "harta karun",
+   "lemma",
+   "kanz-1",
+   "ms"
+  ],
+  [
+   "distress",
+   "lemma",
+   "karb-1",
+   "en"
+  ],
+  [
+   "kesusahan",
+   "lemma",
+   "karb-1",
+   "ms"
+  ],
+  [
+   "keengganan; paksaan",
+   "lemma",
+   "karh-1",
+   "ms"
+  ],
+  [
+   "reluctance; compulsion",
+   "lemma",
+   "karh-1",
+   "en"
+  ],
+  [
+   "one who dislikes",
+   "lemma",
+   "karih-1",
+   "en"
+  ],
+  [
+   "orang yang membenci",
+   "lemma",
+   "karih-1",
+   "ms"
+  ],
+  [
    "membenci; tidak suka",
    "lemma",
    "kariha-1",
@@ -9532,6 +48227,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a return; a turn",
+   "lemma",
+   "karra-1",
+   "en"
+  ],
+  [
+   "kembali; giliran",
+   "lemma",
+   "karra-1",
+   "ms"
+  ],
+  [
+   "menjadikan benci",
+   "lemma",
+   "karraha-1",
+   "ms"
+  ],
+  [
+   "to make hateful",
+   "lemma",
+   "karraha-1",
+   "en"
+  ],
+  [
+   "cawan",
+   "lemma",
+   "kas-1",
+   "ms"
+  ],
+  [
+   "cup",
+   "lemma",
+   "kas-1",
+   "en"
+  ],
+  [
+   "memakaikan",
+   "lemma",
+   "kasa-1",
+   "ms"
+  ],
+  [
+   "to clothe",
+   "lemma",
+   "kasa-1",
+   "en"
+  ],
+  [
    "memperoleh; mengusahakan",
    "lemma",
    "kasaba-1",
@@ -9542,6 +48285,54 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "kasaba-1",
    "en"
+  ],
+  [
+   "kelembapan (perniagaan)",
+   "lemma",
+   "kasad-1",
+   "ms"
+  ],
+  [
+   "slackness (of trade)",
+   "lemma",
+   "kasad-1",
+   "en"
+  ],
+  [
+   "menyingkap; menghilangkan",
+   "lemma",
+   "kashafa-1",
+   "ms"
+  ],
+  [
+   "to uncover; to remove (a hardship)",
+   "lemma",
+   "kashafa-1",
+   "en"
+  ],
+  [
+   "one who removes (a hardship)",
+   "lemma",
+   "kashif-1",
+   "en"
+  ],
+  [
+   "yang menghilangkan",
+   "lemma",
+   "kashif-1",
+   "ms"
+  ],
+  [
+   "one that removes",
+   "lemma",
+   "kashifa-1",
+   "en"
+  ],
+  [
+   "yang menyingkap",
+   "lemma",
+   "kashifa-1",
+   "ms"
   ],
   [
    "menulis; mewajibkan",
@@ -9556,6 +48347,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menyembunyikan",
+   "lemma",
+   "katama-1",
+   "ms"
+  ],
+  [
+   "to conceal; to hide",
+   "lemma",
+   "katama-1",
+   "en"
+  ],
+  [
+   "a heap of sand",
+   "lemma",
+   "kathib-1",
+   "en"
+  ],
+  [
+   "timbunan pasir",
+   "lemma",
+   "kathib-1",
+   "ms"
+  ],
+  [
    "banyak",
    "lemma",
    "kathir-1",
@@ -9565,6 +48380,90 @@ const QM_SEARCH_INDEX = {
    "many; much",
    "lemma",
    "kathir-1",
+   "en"
+  ],
+  [
+   "abundance",
+   "lemma",
+   "kathra-1",
+   "en"
+  ],
+  [
+   "kebanyakan",
+   "lemma",
+   "kathra-1",
+   "ms"
+  ],
+  [
+   "memperbanyak",
+   "lemma",
+   "kaththara-1",
+   "ms"
+  ],
+  [
+   "to multiply",
+   "lemma",
+   "kaththara-1",
+   "en"
+  ],
+  [
+   "menjadi banyak",
+   "lemma",
+   "kathura-1",
+   "ms"
+  ],
+  [
+   "to be many",
+   "lemma",
+   "kathura-1",
+   "en"
+  ],
+  [
+   "penulis",
+   "lemma",
+   "katib-1",
+   "ms"
+  ],
+  [
+   "writer; scribe",
+   "lemma",
+   "katib-1",
+   "en"
+  ],
+  [
+   "a star",
+   "lemma",
+   "kawkab-1",
+   "en"
+  ],
+  [
+   "bintang",
+   "lemma",
+   "kawkab-1",
+   "ms"
+  ],
+  [
+   "al-kauthar (kebaikan yang banyak)",
+   "lemma",
+   "kawthar-1",
+   "ms"
+  ],
+  [
+   "al-kawthar (abundance)",
+   "lemma",
+   "kawthar-1",
+   "en"
+  ],
+  [
+   "menggulung",
+   "lemma",
+   "kawwara-1",
+   "ms"
+  ],
+  [
+   "to wind up; to roll up",
+   "lemma",
+   "kawwara-1",
    "en"
   ],
   [
@@ -9604,6 +48503,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "measure (of grain or goods)",
+   "lemma",
+   "kayl-1",
+   "en"
+  ],
+  [
+   "sukatan",
+   "lemma",
+   "kayl-1",
+   "ms"
+  ],
+  [
+   "menahan kesedihan",
+   "lemma",
+   "kazim-1",
+   "ms"
+  ],
+  [
+   "suppressing (grief or anger)",
+   "lemma",
+   "kazim-1",
+   "en"
+  ],
+  [
+   "one who restrains (anger)",
+   "lemma",
+   "kazim-2",
+   "en"
+  ],
+  [
+   "yang menahan marah",
+   "lemma",
+   "kazim-2",
+   "ms"
+  ],
+  [
+   "terjun; berbual kosong",
+   "lemma",
+   "khaada-1",
+   "ms"
+  ],
+  [
+   "to plunge into; to engage in idle talk",
+   "lemma",
+   "khaada-1",
+   "en"
+  ],
+  [
+   "cuba menipu",
+   "lemma",
+   "khaada-2",
+   "ms"
+  ],
+  [
+   "to try to deceive",
+   "lemma",
+   "khaada-2",
+   "en"
+  ],
+  [
    "takut",
    "lemma",
    "khaafa-1",
@@ -9613,6 +48572,78 @@ const QM_SEARCH_INDEX = {
    "to fear",
    "lemma",
    "khaafa-1",
+   "en"
+  ],
+  [
+   "menyalahi",
+   "lemma",
+   "khaalafa-1",
+   "ms"
+  ],
+  [
+   "to oppose; to differ",
+   "lemma",
+   "khaalafa-1",
+   "en"
+  ],
+  [
+   "berbicara kepada",
+   "lemma",
+   "khaataba-1",
+   "ms"
+  ],
+  [
+   "to address",
+   "lemma",
+   "khaataba-1",
+   "en"
+  ],
+  [
+   "kecewa",
+   "lemma",
+   "khaba-1",
+   "ms"
+  ],
+  [
+   "to be disappointed",
+   "lemma",
+   "khaba-1",
+   "en"
+  ],
+  [
+   "reda (api)",
+   "lemma",
+   "khaba-2",
+   "ms"
+  ],
+  [
+   "to subside (of fire)",
+   "lemma",
+   "khaba-2",
+   "en"
+  ],
+  [
+   "corruption; harm",
+   "lemma",
+   "khabal-1",
+   "en"
+  ],
+  [
+   "kerosakan",
+   "lemma",
+   "khabal-1",
+   "ms"
+  ],
+  [
+   "berita",
+   "lemma",
+   "khabar-1",
+   "ms"
+  ],
+  [
+   "news; report",
+   "lemma",
+   "khabar-1",
    "en"
   ],
   [
@@ -9628,6 +48659,246 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "buruk; kotor",
+   "lemma",
+   "khabith-1",
+   "ms"
+  ],
+  [
+   "vile; impure",
+   "lemma",
+   "khabith-1",
+   "en"
+  ],
+  [
+   "menjadi buruk",
+   "lemma",
+   "khabutha-1",
+   "ms"
+  ],
+  [
+   "to be bad; impure",
+   "lemma",
+   "khabutha-1",
+   "en"
+  ],
+  [
+   "menipu",
+   "lemma",
+   "khada-1",
+   "ms"
+  ],
+  [
+   "to deceive",
+   "lemma",
+   "khada-1",
+   "en"
+  ],
+  [
+   "meninggalkan",
+   "lemma",
+   "khadhala-1",
+   "ms"
+  ],
+  [
+   "to forsake",
+   "lemma",
+   "khadhala-1",
+   "en"
+  ],
+  [
+   "one who forsakes",
+   "lemma",
+   "khadhul-1",
+   "en"
+  ],
+  [
+   "yang meninggalkan",
+   "lemma",
+   "khadhul-1",
+   "ms"
+  ],
+  [
+   "one who deceives",
+   "lemma",
+   "khadi-1",
+   "en"
+  ],
+  [
+   "penipu",
+   "lemma",
+   "khadi-1",
+   "ms"
+  ],
+  [
+   "green",
+   "lemma",
+   "khadir-1",
+   "en"
+  ],
+  [
+   "hijau",
+   "lemma",
+   "khadir-1",
+   "ms"
+  ],
+  [
+   "takut",
+   "lemma",
+   "khafa-1",
+   "ms"
+  ],
+  [
+   "to fear",
+   "lemma",
+   "khafa-1",
+   "en"
+  ],
+  [
+   "merendahkan",
+   "lemma",
+   "khafada-1",
+   "ms"
+  ],
+  [
+   "to lower",
+   "lemma",
+   "khafada-1",
+   "en"
+  ],
+  [
+   "berbisik",
+   "lemma",
+   "khafata-1",
+   "ms"
+  ],
+  [
+   "to speak in a low voice",
+   "lemma",
+   "khafata-1",
+   "en"
+  ],
+  [
+   "menjadi ringan",
+   "lemma",
+   "khaffa-1",
+   "ms"
+  ],
+  [
+   "to be light",
+   "lemma",
+   "khaffa-1",
+   "en"
+  ],
+  [
+   "meringankan",
+   "lemma",
+   "khaffafa-1",
+   "ms"
+  ],
+  [
+   "to lighten; to ease",
+   "lemma",
+   "khaffafa-1",
+   "en"
+  ],
+  [
+   "that which lowers",
+   "lemma",
+   "khafida-1",
+   "en"
+  ],
+  [
+   "yang merendahkan",
+   "lemma",
+   "khafida-1",
+   "ms"
+  ],
+  [
+   "light",
+   "lemma",
+   "khafif-1",
+   "en"
+  ],
+  [
+   "ringan",
+   "lemma",
+   "khafif-1",
+   "ms"
+  ],
+  [
+   "tersembunyi",
+   "lemma",
+   "khafiya-1",
+   "ms"
+  ],
+  [
+   "to be hidden",
+   "lemma",
+   "khafiya-1",
+   "en"
+  ],
+  [
+   "a secret",
+   "lemma",
+   "khafiya-2",
+   "en"
+  ],
+  [
+   "rahsia",
+   "lemma",
+   "khafiya-2",
+   "ms"
+  ],
+  [
+   "hidden; secret",
+   "lemma",
+   "khafiyy-1",
+   "en"
+  ],
+  [
+   "tersembunyi",
+   "lemma",
+   "khafiyy-1",
+   "ms"
+  ],
+  [
+   "pengkhianat",
+   "lemma",
+   "khain-1",
+   "ms"
+  ],
+  [
+   "treacherous; a traitor",
+   "lemma",
+   "khain-1",
+   "en"
+  ],
+  [
+   "fearful",
+   "lemma",
+   "khain-2",
+   "en"
+  ],
+  [
+   "takut",
+   "lemma",
+   "khain-2",
+   "ms"
+  ],
+  [
+   "a maternal uncle",
+   "lemma",
+   "khal-1",
+   "en"
+  ],
+  [
+   "bapa saudara sebelah ibu",
+   "lemma",
+   "khal-1",
+   "ms"
+  ],
+  [
    "berlalu; kosong",
    "lemma",
    "khala-1",
@@ -9640,6 +48911,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "kekal",
+   "lemma",
+   "khalada-1",
+   "ms"
+  ],
+  [
+   "to remain forever",
+   "lemma",
+   "khalada-1",
+   "en"
+  ],
+  [
+   "menggantikan; datang selepas",
+   "lemma",
+   "khalafa-1",
+   "ms"
+  ],
+  [
+   "to succeed; to come after",
+   "lemma",
+   "khalafa-1",
+   "en"
+  ],
+  [
+   "bahagian",
+   "lemma",
+   "khalaq-1",
+   "ms"
+  ],
+  [
+   "portion; share (in the hereafter)",
+   "lemma",
+   "khalaq-1",
+   "en"
+  ],
+  [
    "mencipta",
    "lemma",
    "khalaqa-1",
@@ -9649,6 +48956,42 @@ const QM_SEARCH_INDEX = {
    "to create",
    "lemma",
    "khalaqa-1",
+   "en"
+  ],
+  [
+   "menyendiri; menjadi murni",
+   "lemma",
+   "khalasa-1",
+   "ms"
+  ],
+  [
+   "to withdraw; to become pure",
+   "lemma",
+   "khalasa-1",
+   "en"
+  ],
+  [
+   "a maternal aunt",
+   "lemma",
+   "khalat-1",
+   "en"
+  ],
+  [
+   "emak saudara sebelah ibu",
+   "lemma",
+   "khalat-1",
+   "ms"
+  ],
+  [
+   "mencampur",
+   "lemma",
+   "khalata-1",
+   "ms"
+  ],
+  [
+   "to mix",
+   "lemma",
+   "khalata-1",
    "en"
   ],
   [
@@ -9676,6 +49019,126 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "one who stays behind",
+   "lemma",
+   "khalif-1",
+   "en"
+  ],
+  [
+   "yang tinggal di belakang",
+   "lemma",
+   "khalif-1",
+   "ms"
+  ],
+  [
+   "khalifah; pengganti",
+   "lemma",
+   "khalifa-1",
+   "ms"
+  ],
+  [
+   "successor; vicegerent",
+   "lemma",
+   "khalifa-1",
+   "en"
+  ],
+  [
+   "close friend",
+   "lemma",
+   "khalil-1",
+   "en"
+  ],
+  [
+   "sahabat karib",
+   "lemma",
+   "khalil-1",
+   "ms"
+  ],
+  [
+   "creator",
+   "lemma",
+   "khaliq-1",
+   "en"
+  ],
+  [
+   "pencipta",
+   "lemma",
+   "khaliq-1",
+   "ms"
+  ],
+  [
+   "murni; khusus",
+   "lemma",
+   "khalis-1",
+   "ms"
+  ],
+  [
+   "pure; exclusive",
+   "lemma",
+   "khalis-1",
+   "en"
+  ],
+  [
+   "a partner; an associate",
+   "lemma",
+   "khalit-1",
+   "en"
+  ],
+  [
+   "rakan kongsi",
+   "lemma",
+   "khalit-1",
+   "ms"
+  ],
+  [
+   "past; empty",
+   "lemma",
+   "khaliya-1",
+   "en"
+  ],
+  [
+   "yang lalu; kosong",
+   "lemma",
+   "khaliya-1",
+   "ms"
+  ],
+  [
+   "melepaskan",
+   "lemma",
+   "khalla-1",
+   "ms"
+  ],
+  [
+   "to let go; to leave free",
+   "lemma",
+   "khalla-1",
+   "en"
+  ],
+  [
+   "meninggalkan di belakang",
+   "lemma",
+   "khallafa-1",
+   "ms"
+  ],
+  [
+   "to leave behind",
+   "lemma",
+   "khallafa-1",
+   "en"
+  ],
+  [
+   "maha pencipta",
+   "lemma",
+   "khallaq-1",
+   "ms"
+  ],
+  [
+   "the all-knowing creator",
+   "lemma",
+   "khallaq-1",
+   "en"
+  ],
+  [
    "ciptaan; penciptaan",
    "lemma",
    "khalq-1",
@@ -9685,6 +49148,102 @@ const QM_SEARCH_INDEX = {
    "creation",
    "lemma",
    "khalq-1",
+   "en"
+  ],
+  [
+   "extinguished; lifeless",
+   "lemma",
+   "khamid-1",
+   "en"
+  ],
+  [
+   "padam; mati",
+   "lemma",
+   "khamid-1",
+   "ms"
+  ],
+  [
+   "the fifth",
+   "lemma",
+   "khamis-1",
+   "en"
+  ],
+  [
+   "yang kelima",
+   "lemma",
+   "khamis-1",
+   "ms"
+  ],
+  [
+   "arak; minuman memabukkan",
+   "lemma",
+   "khamr-1",
+   "ms"
+  ],
+  [
+   "wine; intoxicant",
+   "lemma",
+   "khamr-1",
+   "en"
+  ],
+  [
+   "five",
+   "lemma",
+   "khamsa-1",
+   "en"
+  ],
+  [
+   "lima",
+   "lemma",
+   "khamsa-1",
+   "ms"
+  ],
+  [
+   "mengkhianati",
+   "lemma",
+   "khana-1",
+   "ms"
+  ],
+  [
+   "to betray",
+   "lemma",
+   "khana-1",
+   "en"
+  ],
+  [
+   "melubangi; mereka-reka",
+   "lemma",
+   "khaqaqa-1",
+   "ms"
+  ],
+  [
+   "to make a hole; to invent",
+   "lemma",
+   "khaqaqa-1",
+   "en"
+  ],
+  [
+   "kerosakan",
+   "lemma",
+   "kharab-1",
+   "ms"
+  ],
+  [
+   "ruin",
+   "lemma",
+   "kharab-1",
+   "en"
+  ],
+  [
+   "memusnahkan",
+   "lemma",
+   "kharaba-1",
+   "ms"
+  ],
+  [
+   "to ruin",
+   "lemma",
+   "kharaba-1",
    "en"
   ],
   [
@@ -9700,6 +49259,198 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menduga-duga",
+   "lemma",
+   "kharasa-1",
+   "ms"
+  ],
+  [
+   "to conjecture; to guess",
+   "lemma",
+   "kharasa-1",
+   "en"
+  ],
+  [
+   "mustard",
+   "lemma",
+   "khardal-1",
+   "en"
+  ],
+  [
+   "sawi",
+   "lemma",
+   "khardal-1",
+   "ms"
+  ],
+  [
+   "one who comes out",
+   "lemma",
+   "kharij-1",
+   "en"
+  ],
+  [
+   "yang keluar",
+   "lemma",
+   "kharij-1",
+   "ms"
+  ],
+  [
+   "bayaran; ufti",
+   "lemma",
+   "kharj-1",
+   "ms"
+  ],
+  [
+   "payment; tribute",
+   "lemma",
+   "kharj-1",
+   "en"
+  ],
+  [
+   "jatuh tersungkur",
+   "lemma",
+   "kharra-1",
+   "ms"
+  ],
+  [
+   "to fall down",
+   "lemma",
+   "kharra-1",
+   "en"
+  ],
+  [
+   "a conjecturer",
+   "lemma",
+   "kharras-1",
+   "en"
+  ],
+  [
+   "pendusta",
+   "lemma",
+   "kharras-1",
+   "ms"
+  ],
+  [
+   "membenamkan",
+   "lemma",
+   "khasafa-1",
+   "ms"
+  ],
+  [
+   "to cause (the earth) to swallow",
+   "lemma",
+   "khasafa-1",
+   "en"
+  ],
+  [
+   "menampal",
+   "lemma",
+   "khasafa-2",
+   "ms"
+  ],
+  [
+   "to stitch together",
+   "lemma",
+   "khasafa-2",
+   "en"
+  ],
+  [
+   "kerugian",
+   "lemma",
+   "khasar-1",
+   "ms"
+  ],
+  [
+   "loss; ruin",
+   "lemma",
+   "khasar-1",
+   "en"
+  ],
+  [
+   "humble; submissive",
+   "lemma",
+   "khashi-1",
+   "en"
+  ],
+  [
+   "khusyuk; tunduk",
+   "lemma",
+   "khashi-1",
+   "ms"
+  ],
+  [
+   "menjadi khusyuk",
+   "lemma",
+   "khashia-1",
+   "ms"
+  ],
+  [
+   "to be humbled",
+   "lemma",
+   "khashia-1",
+   "en"
+  ],
+  [
+   "takut; gentar",
+   "lemma",
+   "khashiya-1",
+   "ms"
+  ],
+  [
+   "to fear; to stand in awe",
+   "lemma",
+   "khashiya-1",
+   "en"
+  ],
+  [
+   "awe; fear",
+   "lemma",
+   "khashya-1",
+   "en"
+  ],
+  [
+   "takut; gentar",
+   "lemma",
+   "khashya-1",
+   "ms"
+  ],
+  [
+   "driven away; despised",
+   "lemma",
+   "khasi-1",
+   "en"
+  ],
+  [
+   "terhina",
+   "lemma",
+   "khasi-1",
+   "ms"
+  ],
+  [
+   "adversary; disputant",
+   "lemma",
+   "khasim-1",
+   "en"
+  ],
+  [
+   "lawan; pembantah",
+   "lemma",
+   "khasim-1",
+   "ms"
+  ],
+  [
+   "disputatious",
+   "lemma",
+   "khasim-2",
+   "en"
+  ],
+  [
+   "suka bertikai",
+   "lemma",
+   "khasim-2",
+   "ms"
+  ],
+  [
    "loser",
    "lemma",
    "khasir-1",
@@ -9712,6 +49463,186 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "rugi; kerugian",
+   "lemma",
+   "khasira-1",
+   "ms"
+  ],
+  [
+   "to lose; to be at a loss",
+   "lemma",
+   "khasira-1",
+   "en"
+  ],
+  [
+   "mengurangkan",
+   "lemma",
+   "khasira-2",
+   "ms"
+  ],
+  [
+   "to give short measure",
+   "lemma",
+   "khasira-2",
+   "en"
+  ],
+  [
+   "losing; a loss",
+   "lemma",
+   "khasira-3",
+   "en"
+  ],
+  [
+   "rugi",
+   "lemma",
+   "khasira-3",
+   "ms"
+  ],
+  [
+   "adversary; litigant",
+   "lemma",
+   "khasm-1",
+   "en"
+  ],
+  [
+   "pihak yang bertikai",
+   "lemma",
+   "khasm-1",
+   "ms"
+  ],
+  [
+   "a seal; the last",
+   "lemma",
+   "khatam-1",
+   "en"
+  ],
+  [
+   "cap; penutup",
+   "lemma",
+   "khatam-1",
+   "ms"
+  ],
+  [
+   "memeteraikan",
+   "lemma",
+   "khatama-1",
+   "ms"
+  ],
+  [
+   "to seal",
+   "lemma",
+   "khatama-1",
+   "en"
+  ],
+  [
+   "matter; affair",
+   "lemma",
+   "khatb-1",
+   "en"
+  ],
+  [
+   "perkara; urusan",
+   "lemma",
+   "khatb-1",
+   "ms"
+  ],
+  [
+   "a snatch",
+   "lemma",
+   "khatfa-1",
+   "en"
+  ],
+  [
+   "sambaran",
+   "lemma",
+   "khatfa-1",
+   "ms"
+  ],
+  [
+   "one who errs or sins",
+   "lemma",
+   "khati-1",
+   "en"
+  ],
+  [
+   "orang yang berdosa",
+   "lemma",
+   "khati-1",
+   "ms"
+  ],
+  [
+   "a sin; an error",
+   "lemma",
+   "khati-2",
+   "en"
+  ],
+  [
+   "dosa; kesilapan",
+   "lemma",
+   "khati-2",
+   "ms"
+  ],
+  [
+   "a sin; a fault",
+   "lemma",
+   "khatia-1",
+   "en"
+  ],
+  [
+   "dosa; kesalahan",
+   "lemma",
+   "khatia-1",
+   "ms"
+  ],
+  [
+   "a proposal of marriage",
+   "lemma",
+   "khatib-1",
+   "en"
+  ],
+  [
+   "pinangan",
+   "lemma",
+   "khatib-1",
+   "ms"
+  ],
+  [
+   "menyambar",
+   "lemma",
+   "khatifa-1",
+   "ms"
+  ],
+  [
+   "to snatch",
+   "lemma",
+   "khatifa-1",
+   "en"
+  ],
+  [
+   "khianat",
+   "lemma",
+   "khattar-1",
+   "ms"
+  ],
+  [
+   "treacherous",
+   "lemma",
+   "khattar-1",
+   "en"
+  ],
+  [
+   "berbual kosong",
+   "lemma",
+   "khawd-1",
+   "ms"
+  ],
+  [
+   "plunging into (idle talk)",
+   "lemma",
+   "khawd-1",
+   "en"
+  ],
+  [
    "fear",
    "lemma",
    "khawf-1",
@@ -9721,6 +49652,66 @@ const QM_SEARCH_INDEX = {
    "ketakutan",
    "lemma",
    "khawf-1",
+   "ms"
+  ],
+  [
+   "fallen; empty; ruined",
+   "lemma",
+   "khawiya-1",
+   "en"
+  ],
+  [
+   "runtuh; kosong",
+   "lemma",
+   "khawiya-1",
+   "ms"
+  ],
+  [
+   "menakut-nakuti",
+   "lemma",
+   "khawwafa-1",
+   "ms"
+  ],
+  [
+   "to frighten",
+   "lemma",
+   "khawwafa-1",
+   "en"
+  ],
+  [
+   "mengurniakan",
+   "lemma",
+   "khawwala-1",
+   "ms"
+  ],
+  [
+   "to bestow; to grant",
+   "lemma",
+   "khawwala-1",
+   "en"
+  ],
+  [
+   "amat khianat",
+   "lemma",
+   "khawwan-1",
+   "ms"
+  ],
+  [
+   "very treacherous",
+   "lemma",
+   "khawwan-1",
+   "en"
+  ],
+  [
+   "horses",
+   "lemma",
+   "khayl-1",
+   "en"
+  ],
+  [
+   "kuda",
+   "lemma",
+   "khayl-1",
    "ms"
   ],
   [
@@ -9736,6 +49727,438 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a thread",
+   "lemma",
+   "khayt-1",
+   "en"
+  ],
+  [
+   "benang",
+   "lemma",
+   "khayt-1",
+   "ms"
+  ],
+  [
+   "mengkhayalkan",
+   "lemma",
+   "khayyala-1",
+   "ms"
+  ],
+  [
+   "to make (someone) imagine",
+   "lemma",
+   "khayyala-1",
+   "en"
+  ],
+  [
+   "perbendaharaan",
+   "lemma",
+   "khazain-1",
+   "ms"
+  ],
+  [
+   "treasuries",
+   "lemma",
+   "khazain-1",
+   "en"
+  ],
+  [
+   "a keeper; a guardian",
+   "lemma",
+   "khazana-1",
+   "en"
+  ],
+  [
+   "penjaga",
+   "lemma",
+   "khazana-1",
+   "ms"
+  ],
+  [
+   "menjadi hina",
+   "lemma",
+   "khaziya-1",
+   "ms"
+  ],
+  [
+   "to be disgraced",
+   "lemma",
+   "khaziya-1",
+   "en"
+  ],
+  [
+   "a secret lover",
+   "lemma",
+   "khidn-1",
+   "en"
+  ],
+  [
+   "teman gelap",
+   "lemma",
+   "khidn-1",
+   "ms"
+  ],
+  [
+   "fear; apprehension",
+   "lemma",
+   "khifa-1",
+   "en"
+  ],
+  [
+   "rasa takut",
+   "lemma",
+   "khifa-1",
+   "ms"
+  ],
+  [
+   "bertentangan; selepas",
+   "lemma",
+   "khilaf-1",
+   "ms"
+  ],
+  [
+   "opposite side; after",
+   "lemma",
+   "khilaf-1",
+   "en"
+  ],
+  [
+   "celah; di celah-celah",
+   "lemma",
+   "khilal-1",
+   "ms"
+  ],
+  [
+   "gaps; the midst",
+   "lemma",
+   "khilal-1",
+   "en"
+  ],
+  [
+   "one following the other",
+   "lemma",
+   "khilfa-1",
+   "en"
+  ],
+  [
+   "silih berganti",
+   "lemma",
+   "khilfa-1",
+   "ms"
+  ],
+  [
+   "a pig",
+   "lemma",
+   "khinzir-1",
+   "en"
+  ],
+  [
+   "babi",
+   "lemma",
+   "khinzir-1",
+   "ms"
+  ],
+  [
+   "a choice",
+   "lemma",
+   "khira-1",
+   "en"
+  ],
+  [
+   "pilihan",
+   "lemma",
+   "khira-1",
+   "ms"
+  ],
+  [
+   "disputation; quarrel",
+   "lemma",
+   "khisam-1",
+   "en"
+  ],
+  [
+   "pertengkaran",
+   "lemma",
+   "khisam-1",
+   "ms"
+  ],
+  [
+   "speech; address",
+   "lemma",
+   "khitab-1",
+   "en"
+  ],
+  [
+   "ucapan; perbicaraan",
+   "lemma",
+   "khitab-1",
+   "ms"
+  ],
+  [
+   "pengkhianatan",
+   "lemma",
+   "khiyana-1",
+   "ms"
+  ],
+  [
+   "treachery",
+   "lemma",
+   "khiyana-1",
+   "en"
+  ],
+  [
+   "a needle",
+   "lemma",
+   "khiyat-1",
+   "en"
+  ],
+  [
+   "jarum",
+   "lemma",
+   "khiyat-1",
+   "ms"
+  ],
+  [
+   "disgrace; humiliation",
+   "lemma",
+   "khizy-1",
+   "en"
+  ],
+  [
+   "kehinaan",
+   "lemma",
+   "khizy-1",
+   "ms"
+  ],
+  [
+   "full knowledge",
+   "lemma",
+   "khubr-1",
+   "en"
+  ],
+  [
+   "pengetahuan menyeluruh",
+   "lemma",
+   "khubr-1",
+   "ms"
+  ],
+  [
+   "secara rahsia",
+   "lemma",
+   "khufya-1",
+   "ms"
+  ],
+  [
+   "secretly; in concealment",
+   "lemma",
+   "khufya-1",
+   "en"
+  ],
+  [
+   "eternity; immortality",
+   "lemma",
+   "khuld-1",
+   "en"
+  ],
+  [
+   "kekekalan",
+   "lemma",
+   "khuld-1",
+   "ms"
+  ],
+  [
+   "eternity",
+   "lemma",
+   "khulud-1",
+   "en"
+  ],
+  [
+   "kekekalan",
+   "lemma",
+   "khulud-1",
+   "ms"
+  ],
+  [
+   "akhlak; adat",
+   "lemma",
+   "khuluq-1",
+   "ms"
+  ],
+  [
+   "character; manners",
+   "lemma",
+   "khuluq-1",
+   "en"
+  ],
+  [
+   "a fifth",
+   "lemma",
+   "khums-1",
+   "en"
+  ],
+  [
+   "seperlima",
+   "lemma",
+   "khums-1",
+   "ms"
+  ],
+  [
+   "bintang yang tersembunyi; pembisik",
+   "lemma",
+   "khunnas-1",
+   "ms"
+  ],
+  [
+   "the retreating (stars); the sneaking one",
+   "lemma",
+   "khunnas-1",
+   "en"
+  ],
+  [
+   "going out; exit",
+   "lemma",
+   "khuruj-1",
+   "en"
+  ],
+  [
+   "keluar",
+   "lemma",
+   "khuruj-1",
+   "ms"
+  ],
+  [
+   "humility",
+   "lemma",
+   "khushu-1",
+   "en"
+  ],
+  [
+   "khusyuk",
+   "lemma",
+   "khushu-1",
+   "ms"
+  ],
+  [
+   "langkah",
+   "lemma",
+   "khutwa-1",
+   "ms"
+  ],
+  [
+   "step; footstep",
+   "lemma",
+   "khutwa-1",
+   "en"
+  ],
+  [
+   "a lowing sound",
+   "lemma",
+   "khuwar-1",
+   "en"
+  ],
+  [
+   "suara lembu",
+   "lemma",
+   "khuwar-1",
+   "ms"
+  ],
+  [
+   "old age",
+   "lemma",
+   "kibar-1",
+   "en"
+  ],
+  [
+   "usia tua",
+   "lemma",
+   "kibar-1",
+   "ms"
+  ],
+  [
+   "greatness; grandeur",
+   "lemma",
+   "kibriya-1",
+   "en"
+  ],
+  [
+   "kebesaran",
+   "lemma",
+   "kibriya-1",
+   "ms"
+  ],
+  [
+   "a gathering place",
+   "lemma",
+   "kifat-1",
+   "en"
+  ],
+  [
+   "tempat berhimpun",
+   "lemma",
+   "kifat-1",
+   "ms"
+  ],
+  [
+   "a double portion",
+   "lemma",
+   "kifl-1",
+   "en"
+  ],
+  [
+   "bahagian berganda",
+   "lemma",
+   "kifl-1",
+   "ms"
+  ],
+  [
+   "a sheath; a spathe",
+   "lemma",
+   "kimm-1",
+   "en"
+  ],
+  [
+   "seludang",
+   "lemma",
+   "kimm-1",
+   "ms"
+  ],
+  [
+   "a shelter",
+   "lemma",
+   "kinn-1",
+   "en"
+  ],
+  [
+   "tempat berteduh",
+   "lemma",
+   "kinn-1",
+   "ms"
+  ],
+  [
+   "fragment; piece",
+   "lemma",
+   "kisf-1",
+   "en"
+  ],
+  [
+   "kepingan; potongan",
+   "lemma",
+   "kisf-1",
+   "ms"
+  ],
+  [
+   "clothing",
+   "lemma",
+   "kiswa-1",
+   "en"
+  ],
+  [
+   "pakaian",
+   "lemma",
+   "kiswa-1",
+   "ms"
+  ],
+  [
    "book, decree, that which is written",
    "lemma",
    "kitab-1",
@@ -9748,6 +50171,66 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a goblet",
+   "lemma",
+   "kub-1",
+   "en"
+  ],
+  [
+   "cawan",
+   "lemma",
+   "kub-1",
+   "ms"
+  ],
+  [
+   "great ones (leaders)",
+   "lemma",
+   "kubara-1",
+   "en"
+  ],
+  [
+   "para pemimpin",
+   "lemma",
+   "kubara-1",
+   "ms"
+  ],
+  [
+   "amat besar",
+   "lemma",
+   "kubbar-1",
+   "ms"
+  ],
+  [
+   "very great (a great plot)",
+   "lemma",
+   "kubbar-1",
+   "en"
+  ],
+  [
+   "menghinakan",
+   "lemma",
+   "kubbat-1",
+   "ms"
+  ],
+  [
+   "to humble",
+   "lemma",
+   "kubbat-1",
+   "en"
+  ],
+  [
+   "greatest (feminine)",
+   "lemma",
+   "kubra-1",
+   "en"
+  ],
+  [
+   "yang paling besar",
+   "lemma",
+   "kubra-1",
+   "ms"
+  ],
+  [
    "disbelief",
    "lemma",
    "kufr-1",
@@ -9757,6 +50240,18 @@ const QM_SEARCH_INDEX = {
    "kekufuran",
    "lemma",
    "kufr-1",
+   "ms"
+  ],
+  [
+   "ingratitude",
+   "lemma",
+   "kufran-1",
+   "en"
+  ],
+  [
+   "keingkaran",
+   "lemma",
+   "kufran-1",
    "ms"
   ],
   [
@@ -9808,6 +50303,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a seat; a throne (kursi)",
+   "lemma",
+   "kursi-1",
+   "en"
+  ],
+  [
+   "kursi",
+   "lemma",
+   "kursi-1",
+   "ms"
+  ],
+  [
+   "lazy; sluggish",
+   "lemma",
+   "kusala-1",
+   "en"
+  ],
+  [
+   "malas",
+   "lemma",
+   "kusala-1",
+   "ms"
+  ],
+  [
+   "disetrika",
+   "lemma",
+   "kuwiya-1",
+   "ms"
+  ],
+  [
+   "to brand",
+   "lemma",
+   "kuwiya-1",
+   "en"
+  ],
+  [
    "no, not",
    "lemma",
    "la-1",
@@ -9832,6 +50363,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "cursing",
+   "lemma",
+   "laan-1",
+   "en"
+  ],
+  [
+   "laknat",
+   "lemma",
+   "laan-1",
+   "ms"
+  ],
+  [
    "melaknat",
    "lemma",
    "laana-1",
@@ -9844,6 +50387,222 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bertemu; menghadapi",
+   "lemma",
+   "laaqa-1",
+   "ms"
+  ],
+  [
+   "to meet; to face",
+   "lemma",
+   "laaqa-1",
+   "en"
+  ],
+  [
+   "milk",
+   "lemma",
+   "laban-1",
+   "en"
+  ],
+  [
+   "susu",
+   "lemma",
+   "laban-1",
+   "ms"
+  ],
+  [
+   "mengelirukan; memakai",
+   "lemma",
+   "labasa-1",
+   "ms"
+  ],
+  [
+   "to confuse; to clothe",
+   "lemma",
+   "labasa-1",
+   "en"
+  ],
+  [
+   "memakai",
+   "lemma",
+   "labisa-1",
+   "ms"
+  ],
+  [
+   "to wear",
+   "lemma",
+   "labisa-1",
+   "en"
+  ],
+  [
+   "one who stays",
+   "lemma",
+   "labith-1",
+   "en"
+  ],
+  [
+   "orang yang tinggal",
+   "lemma",
+   "labith-1",
+   "ms"
+  ],
+  [
+   "tinggal; menetap",
+   "lemma",
+   "labitha-1",
+   "ms"
+  ],
+  [
+   "to stay; to remain",
+   "lemma",
+   "labitha-1",
+   "en"
+  ],
+  [
+   "confusion",
+   "lemma",
+   "labs-1",
+   "en"
+  ],
+  [
+   "kekeliruan",
+   "lemma",
+   "labs-1",
+   "ms"
+  ],
+  [
+   "armour; clothing",
+   "lemma",
+   "labus-1",
+   "en"
+  ],
+  [
+   "baju besi",
+   "lemma",
+   "labus-1",
+   "ms"
+  ],
+  [
+   "di sisi; di hadapan",
+   "lemma",
+   "lada-1",
+   "ms"
+  ],
+  [
+   "with; at; in the presence of",
+   "lemma",
+   "lada-1",
+   "en"
+  ],
+  [
+   "delight",
+   "lemma",
+   "ladhdha-1",
+   "en"
+  ],
+  [
+   "kelazatan",
+   "lemma",
+   "ladhdha-1",
+   "ms"
+  ],
+  [
+   "dari sisi",
+   "lemma",
+   "ladun-1",
+   "ms"
+  ],
+  [
+   "from the presence of; from",
+   "lemma",
+   "ladun-1",
+   "en"
+  ],
+  [
+   "a mixed crowd",
+   "lemma",
+   "lafif-1",
+   "en"
+  ],
+  [
+   "kumpulan bercampur",
+   "lemma",
+   "lafif-1",
+   "ms"
+  ],
+  [
+   "bercakap sia-sia",
+   "lemma",
+   "laghaa-1",
+   "ms"
+  ],
+  [
+   "to talk idly; to make noise",
+   "lemma",
+   "laghaa-1",
+   "en"
+  ],
+  [
+   "idle talk; vanity",
+   "lemma",
+   "laghw-1",
+   "en"
+  ],
+  [
+   "perkataan sia-sia",
+   "lemma",
+   "laghw-1",
+   "ms"
+  ],
+  [
+   "a flame",
+   "lemma",
+   "lahab-1",
+   "en"
+  ],
+  [
+   "api yang menyala",
+   "lemma",
+   "lahab-1",
+   "ms"
+  ],
+  [
+   "heedless; distracted",
+   "lemma",
+   "lahi-1",
+   "en"
+  ],
+  [
+   "leka",
+   "lemma",
+   "lahi-1",
+   "ms"
+  ],
+  [
+   "grim-faced",
+   "lemma",
+   "lahin-1",
+   "en"
+  ],
+  [
+   "muram",
+   "lemma",
+   "lahin-1",
+   "ms"
+  ],
+  [
+   "menyertai",
+   "lemma",
+   "lahiqa-1",
+   "ms"
+  ],
+  [
+   "to join",
+   "lemma",
+   "lahiqa-1",
+   "en"
+  ],
+  [
    "daging",
    "lemma",
    "lahm-1",
@@ -9853,6 +50612,66 @@ const QM_SEARCH_INDEX = {
    "flesh; meat",
    "lemma",
    "lahm-1",
+   "en"
+  ],
+  [
+   "amusement; diversion",
+   "lemma",
+   "lahw-1",
+   "en"
+  ],
+  [
+   "hiburan; kelalaian",
+   "lemma",
+   "lahw-1",
+   "ms"
+  ],
+  [
+   "one who plays; playing",
+   "lemma",
+   "laib-1",
+   "en"
+  ],
+  [
+   "orang yang bermain",
+   "lemma",
+   "laib-1",
+   "ms"
+  ],
+  [
+   "bermain; berhibur",
+   "lemma",
+   "laiba-1",
+   "ms"
+  ],
+  [
+   "to play; to amuse oneself",
+   "lemma",
+   "laiba-1",
+   "en"
+  ],
+  [
+   "a blamer",
+   "lemma",
+   "laim-1",
+   "en"
+  ],
+  [
+   "pencela",
+   "lemma",
+   "laim-1",
+   "ms"
+  ],
+  [
+   "berdegil",
+   "lemma",
+   "lajja-1",
+   "ms"
+  ],
+  [
+   "to persist obstinately",
+   "lemma",
+   "lajja-1",
    "en"
   ],
   [
@@ -9892,6 +50711,66 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "mencela",
+   "lemma",
+   "lama-1",
+   "ms"
+  ],
+  [
+   "to blame",
+   "lemma",
+   "lama-1",
+   "en"
+  ],
+  [
+   "menyentuh",
+   "lemma",
+   "lamasa-1",
+   "ms"
+  ],
+  [
+   "to touch",
+   "lemma",
+   "lamasa-1",
+   "en"
+  ],
+  [
+   "mencela",
+   "lemma",
+   "lamaza-1",
+   "ms"
+  ],
+  [
+   "to find fault",
+   "lemma",
+   "lamaza-1",
+   "en"
+  ],
+  [
+   "a glance",
+   "lemma",
+   "lamh-1",
+   "en"
+  ],
+  [
+   "sekelip mata",
+   "lemma",
+   "lamh-1",
+   "ms"
+  ],
+  [
+   "devouring greedily",
+   "lemma",
+   "lamm-1",
+   "en"
+  ],
+  [
+   "melahap",
+   "lemma",
+   "lamm-1",
+   "ms"
+  ],
+  [
    "apabila; ketika",
    "lemma",
    "lamma-1",
@@ -9916,6 +50795,42 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "curse",
+   "lemma",
+   "lana-1",
+   "en"
+  ],
+  [
+   "laknat",
+   "lemma",
+   "lana-1",
+   "ms"
+  ],
+  [
+   "one who meets",
+   "lemma",
+   "laqi-1",
+   "en"
+  ],
+  [
+   "yang bertemu",
+   "lemma",
+   "laqi-1",
+   "ms"
+  ],
+  [
+   "menelan",
+   "lemma",
+   "laqifa-1",
+   "ms"
+  ],
+  [
+   "to swallow up",
+   "lemma",
+   "laqifa-1",
+   "en"
+  ],
+  [
    "bertemu",
    "lemma",
    "laqiya-1",
@@ -9925,6 +50840,30 @@ const QM_SEARCH_INDEX = {
    "to meet; to encounter",
    "lemma",
    "laqiya-1",
+   "en"
+  ],
+  [
+   "mempertemukan; mengurniakan",
+   "lemma",
+   "laqqa-1",
+   "ms"
+  ],
+  [
+   "to cause to meet; to bestow",
+   "lemma",
+   "laqqa-1",
+   "en"
+  ],
+  [
+   "maha halus; lemah lembut",
+   "lemma",
+   "latif-1",
+   "ms"
+  ],
+  [
+   "subtle; gracious; gentle",
+   "lemma",
+   "latif-1",
    "en"
   ],
   [
@@ -9940,6 +50879,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "memutar; memalingkan",
+   "lemma",
+   "lawa-1",
+   "ms"
+  ],
+  [
+   "to twist; to turn",
+   "lemma",
+   "lawa-1",
+   "en"
+  ],
+  [
+   "a tablet; a plank",
+   "lemma",
+   "lawh-1",
+   "en"
+  ],
+  [
+   "lauh; papan",
+   "lemma",
+   "lawh-1",
+   "ms"
+  ],
+  [
    "if not for; why not",
    "lemma",
    "lawla-1",
@@ -9949,6 +50912,54 @@ const QM_SEARCH_INDEX = {
    "sekiranya tidak; mengapa tidak",
    "lemma",
    "lawla-1",
+   "ms"
+  ],
+  [
+   "a reproach",
+   "lemma",
+   "lawma-1",
+   "en"
+  ],
+  [
+   "celaan",
+   "lemma",
+   "lawma-1",
+   "ms"
+  ],
+  [
+   "colour",
+   "lemma",
+   "lawn-1",
+   "en"
+  ],
+  [
+   "warna",
+   "lemma",
+   "lawn-1",
+   "ms"
+  ],
+  [
+   "membakar",
+   "lemma",
+   "lawwah-1",
+   "ms"
+  ],
+  [
+   "scorching; burning",
+   "lemma",
+   "lawwah-1",
+   "en"
+  ],
+  [
+   "self-reproaching",
+   "lemma",
+   "lawwama-1",
+   "en"
+  ],
+  [
+   "yang mencela diri",
+   "lemma",
+   "lawwama-1",
    "ms"
   ],
   [
@@ -9962,6 +50973,18 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "layl-1",
    "en"
+  ],
+  [
+   "night (a single night)",
+   "lemma",
+   "layla-1",
+   "en"
+  ],
+  [
+   "satu malam",
+   "lemma",
+   "layla-1",
+   "ms"
   ],
   [
    "if indeed; surely if",
@@ -10000,6 +51023,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memutar-mutarkan",
+   "lemma",
+   "layy-1",
+   "ms"
+  ],
+  [
+   "twisting",
+   "lemma",
+   "layy-1",
+   "en"
+  ],
+  [
+   "gentle; soft",
+   "lemma",
+   "layyin-1",
+   "en"
+  ],
+  [
+   "lembut",
+   "lemma",
+   "layyin-1",
+   "ms"
+  ],
+  [
    "for; to; belonging to",
    "lemma",
    "li-1",
@@ -10009,6 +51056,90 @@ const QM_SEARCH_INDEX = {
    "untuk; bagi; kepunyaan",
    "lemma",
    "li-1",
+   "ms"
+  ],
+  [
+   "bertimbun-timbun",
+   "lemma",
+   "libad-1",
+   "ms"
+  ],
+  [
+   "heaped up; in crowds",
+   "lemma",
+   "libad-1",
+   "en"
+  ],
+  [
+   "clothing; garment",
+   "lemma",
+   "libas-1",
+   "en"
+  ],
+  [
+   "pakaian",
+   "lemma",
+   "libas-1",
+   "ms"
+  ],
+  [
+   "a palm tree",
+   "lemma",
+   "lina-1",
+   "en"
+  ],
+  [
+   "pokok kurma",
+   "lemma",
+   "lina-1",
+   "ms"
+  ],
+  [
+   "meeting; encounter",
+   "lemma",
+   "liqa-1",
+   "en"
+  ],
+  [
+   "pertemuan",
+   "lemma",
+   "liqa-1",
+   "ms"
+  ],
+  [
+   "lidah; bahasa",
+   "lemma",
+   "lisan-1",
+   "ms"
+  ],
+  [
+   "tongue; language",
+   "lemma",
+   "lisan-1",
+   "en"
+  ],
+  [
+   "dengan sembunyi",
+   "lemma",
+   "liwadh-1",
+   "ms"
+  ],
+  [
+   "stealthily; taking cover",
+   "lemma",
+   "liwadh-1",
+   "en"
+  ],
+  [
+   "inevitable (punishment)",
+   "lemma",
+   "lizam-1",
+   "en"
+  ],
+  [
+   "yang pasti menimpa",
+   "lemma",
+   "lizam-1",
    "ms"
   ],
   [
@@ -10022,6 +51153,66 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "lubb-1",
    "en"
+  ],
+  [
+   "contentious (people)",
+   "lemma",
+   "ludd-1",
+   "en"
+  ],
+  [
+   "kaum yang suka berbantah",
+   "lemma",
+   "ludd-1",
+   "ms"
+  ],
+  [
+   "fatigue",
+   "lemma",
+   "lughub-1",
+   "en"
+  ],
+  [
+   "keletihan",
+   "lemma",
+   "lughub-1",
+   "ms"
+  ],
+  [
+   "dalam",
+   "lemma",
+   "lujjiyy-1",
+   "ms"
+  ],
+  [
+   "deep",
+   "lemma",
+   "lujjiyy-1",
+   "en"
+  ],
+  [
+   "mutiara",
+   "lemma",
+   "lulu-1",
+   "ms"
+  ],
+  [
+   "pearls",
+   "lemma",
+   "lulu-1",
+   "en"
+  ],
+  [
+   "luqman",
+   "lemma",
+   "luqman-1",
+   "en"
+  ],
+  [
+   "luqman",
+   "lemma",
+   "luqman-1",
+   "ms"
   ],
   [
    "lot (lut)",
@@ -10096,6 +51287,126 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "air",
+   "lemma",
+   "maa-1",
+   "ms"
+  ],
+  [
+   "water",
+   "lemma",
+   "maa-1",
+   "en"
+  ],
+  [
+   "place of return",
+   "lemma",
+   "maab-1",
+   "en"
+  ],
+  [
+   "tempat kembali",
+   "lemma",
+   "maab-1",
+   "ms"
+  ],
+  [
+   "bergoncang",
+   "lemma",
+   "maada-1",
+   "ms"
+  ],
+  [
+   "to sway; to shake",
+   "lemma",
+   "maada-1",
+   "en"
+  ],
+  [
+   "perlindungan",
+   "lemma",
+   "maadh-1",
+   "ms"
+  ],
+  [
+   "refuge",
+   "lemma",
+   "maadh-1",
+   "en"
+  ],
+  [
+   "alasan-alasan",
+   "lemma",
+   "maadhir-1",
+   "ms"
+  ],
+  [
+   "excuses",
+   "lemma",
+   "maadhir-1",
+   "en"
+  ],
+  [
+   "eaten",
+   "lemma",
+   "maakul-1",
+   "en"
+  ],
+  [
+   "yang dimakan",
+   "lemma",
+   "maakul-1",
+   "ms"
+  ],
+  [
+   "condong",
+   "lemma",
+   "maala-1",
+   "ms"
+  ],
+  [
+   "to incline; to lean",
+   "lemma",
+   "maala-1",
+   "en"
+  ],
+  [
+   "berbantah",
+   "lemma",
+   "maara-1",
+   "ms"
+  ],
+  [
+   "to dispute; to argue",
+   "lemma",
+   "maara-1",
+   "en"
+  ],
+  [
+   "bergegar",
+   "lemma",
+   "maara-2",
+   "ms"
+  ],
+  [
+   "to sway; to move violently",
+   "lemma",
+   "maara-2",
+   "en"
+  ],
+  [
+   "tangga-tangga",
+   "lemma",
+   "maarij-1",
+   "ms"
+  ],
+  [
+   "ways of ascent",
+   "lemma",
+   "maarij-1",
+   "en"
+  ],
+  [
    "mati",
    "lemma",
    "maata-1",
@@ -10106,6 +51417,90 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "maata-1",
    "en"
+  ],
+  [
+   "built; elevated",
+   "lemma",
+   "mabniyy-1",
+   "en"
+  ],
+  [
+   "dibina",
+   "lemma",
+   "mabniyy-1",
+   "ms"
+  ],
+  [
+   "bertaburan",
+   "lemma",
+   "mabthuth-1",
+   "ms"
+  ],
+  [
+   "scattered",
+   "lemma",
+   "mabthuth-1",
+   "en"
+  ],
+  [
+   "one who is raised up",
+   "lemma",
+   "mabuth-1",
+   "en"
+  ],
+  [
+   "yang dibangkitkan",
+   "lemma",
+   "mabuth-1",
+   "ms"
+  ],
+  [
+   "a place of return",
+   "lemma",
+   "mad-1",
+   "en"
+  ],
+  [
+   "tempat kembali",
+   "lemma",
+   "mad-1",
+   "ms"
+  ],
+  [
+   "meneruskan",
+   "lemma",
+   "mada-1",
+   "ms"
+  ],
+  [
+   "to go on",
+   "lemma",
+   "mada-1",
+   "en"
+  ],
+  [
+   "bantuan; dakwat",
+   "lemma",
+   "madad-1",
+   "ms"
+  ],
+  [
+   "extension; ink",
+   "lemma",
+   "madad-1",
+   "en"
+  ],
+  [
+   "extending; stretching out",
+   "lemma",
+   "madd-1",
+   "en"
+  ],
+  [
+   "memanjangkan",
+   "lemma",
+   "madd-1",
+   "ms"
   ],
   [
    "membentangkan; menghamparkan",
@@ -10120,6 +51515,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "apa? apakah yang ...?",
+   "lemma",
+   "madha-1",
+   "ms"
+  ],
+  [
+   "what? what is it that ...?",
+   "lemma",
+   "madha-1",
+   "en"
+  ],
+  [
+   "alasan",
+   "lemma",
+   "madhira-1",
+   "ms"
+  ],
+  [
+   "an excuse",
+   "lemma",
+   "madhira-1",
+   "en"
+  ],
+  [
+   "disebut",
+   "lemma",
+   "madhkur-1",
+   "ms"
+  ],
+  [
+   "mentioned",
+   "lemma",
+   "madhkur-1",
+   "en"
+  ],
+  [
+   "blamed",
+   "lemma",
+   "madhmum-1",
+   "en"
+  ],
+  [
+   "tercela",
+   "lemma",
+   "madhmum-1",
+   "ms"
+  ],
+  [
+   "rejected; driven away",
+   "lemma",
+   "madhur-1",
+   "en"
+  ],
+  [
+   "terhina dan tertolak",
+   "lemma",
+   "madhur-1",
+   "ms"
+  ],
+  [
+   "requited; held to account",
+   "lemma",
+   "madin-1",
+   "en"
+  ],
+  [
+   "yang dibalas",
+   "lemma",
+   "madin-1",
+   "ms"
+  ],
+  [
    "bandar; kota",
    "lemma",
    "madina-1",
@@ -10132,6 +51599,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a bed; a place of lying down",
+   "lemma",
+   "madja-1",
+   "en"
+  ],
+  [
+   "tempat pembaringan",
+   "lemma",
+   "madja-1",
+   "ms"
+  ],
+  [
+   "counted; a few",
+   "lemma",
+   "maduda-1",
+   "en"
+  ],
+  [
+   "terhitung; beberapa",
+   "lemma",
+   "maduda-1",
+   "ms"
+  ],
+  [
    "madyan",
    "lemma",
    "madyan-1",
@@ -10142,6 +51633,66 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "madyan-1",
    "en"
+  ],
+  [
+   "a place of escape",
+   "lemma",
+   "mafarr-1",
+   "en"
+  ],
+  [
+   "tempat lari",
+   "lemma",
+   "mafarr-1",
+   "ms"
+  ],
+  [
+   "a place of success",
+   "lemma",
+   "mafaza-1",
+   "en"
+  ],
+  [
+   "tempat kejayaan",
+   "lemma",
+   "mafaza-1",
+   "ms"
+  ],
+  [
+   "something done; accomplished",
+   "lemma",
+   "mafool-1",
+   "en"
+  ],
+  [
+   "yang dilaksanakan",
+   "lemma",
+   "mafool-1",
+   "ms"
+  ],
+  [
+   "obligatory; ordained",
+   "lemma",
+   "mafrud-1",
+   "en"
+  ],
+  [
+   "yang diwajibkan",
+   "lemma",
+   "mafrud-1",
+   "ms"
+  ],
+  [
+   "caves",
+   "lemma",
+   "maghara-1",
+   "en"
+  ],
+  [
+   "gua-gua",
+   "lemma",
+   "maghara-1",
+   "ms"
   ],
   [
    "one who is the object of [divine] anger",
@@ -10168,6 +51719,330 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "shackled",
+   "lemma",
+   "maghlula-1",
+   "en"
+  ],
+  [
+   "terbelenggu",
+   "lemma",
+   "maghlula-1",
+   "ms"
+  ],
+  [
+   "harta rampasan",
+   "lemma",
+   "maghnam-1",
+   "ms"
+  ],
+  [
+   "spoils of war",
+   "lemma",
+   "maghnam-1",
+   "en"
+  ],
+  [
+   "a debt; a penalty",
+   "lemma",
+   "maghram-1",
+   "en"
+  ],
+  [
+   "hutang; denda",
+   "lemma",
+   "maghram-1",
+   "ms"
+  ],
+  [
+   "barat; tempat terbenam",
+   "lemma",
+   "maghrib-1",
+   "ms"
+  ],
+  [
+   "west; place of sunset",
+   "lemma",
+   "maghrib-1",
+   "en"
+  ],
+  [
+   "memadam",
+   "lemma",
+   "maha-1",
+   "ms"
+  ],
+  [
+   "to efface",
+   "lemma",
+   "maha-1",
+   "en"
+  ],
+  [
+   "membentang; menyediakan",
+   "lemma",
+   "mahada-1",
+   "ms"
+  ],
+  [
+   "to prepare; to smooth the way",
+   "lemma",
+   "mahada-1",
+   "en"
+  ],
+  [
+   "membinasakan",
+   "lemma",
+   "mahaqa-1",
+   "ms"
+  ],
+  [
+   "to blot out",
+   "lemma",
+   "mahaqa-1",
+   "en"
+  ],
+  [
+   "buaian; hamparan",
+   "lemma",
+   "mahd-1",
+   "ms"
+  ],
+  [
+   "cradle; resting place",
+   "lemma",
+   "mahd-1",
+   "en"
+  ],
+  [
+   "guarded; preserved",
+   "lemma",
+   "mahfuz-1",
+   "en"
+  ],
+  [
+   "terpelihara",
+   "lemma",
+   "mahfuz-1",
+   "ms"
+  ],
+  [
+   "menangguhkan",
+   "lemma",
+   "mahhala-1",
+   "ms"
+  ],
+  [
+   "to give a delay",
+   "lemma",
+   "mahhala-1",
+   "en"
+  ],
+  [
+   "one who prepares a bed",
+   "lemma",
+   "mahid-1",
+   "en"
+  ],
+  [
+   "yang membentang",
+   "lemma",
+   "mahid-1",
+   "ms"
+  ],
+  [
+   "haid",
+   "lemma",
+   "mahid-2",
+   "ms"
+  ],
+  [
+   "menstruation",
+   "lemma",
+   "mahid-2",
+   "en"
+  ],
+  [
+   "crumbling",
+   "lemma",
+   "mahil-1",
+   "en"
+  ],
+  [
+   "yang bertaburan",
+   "lemma",
+   "mahil-1",
+   "ms"
+  ],
+  [
+   "tempat sembelihan",
+   "lemma",
+   "mahill-1",
+   "ms"
+  ],
+  [
+   "the place of sacrifice",
+   "lemma",
+   "mahill-1",
+   "en"
+  ],
+  [
+   "a place of escape",
+   "lemma",
+   "mahis-1",
+   "en"
+  ],
+  [
+   "tempat melarikan diri",
+   "lemma",
+   "mahis-1",
+   "ms"
+  ],
+  [
+   "forbidden",
+   "lemma",
+   "mahjur-1",
+   "en"
+  ],
+  [
+   "terlarang",
+   "lemma",
+   "mahjur-1",
+   "ms"
+  ],
+  [
+   "the time or place of destruction",
+   "lemma",
+   "mahlik-1",
+   "en"
+  ],
+  [
+   "waktu atau tempat kebinasaan",
+   "lemma",
+   "mahlik-1",
+   "ms"
+  ],
+  [
+   "walau apa pun",
+   "lemma",
+   "mahma-1",
+   "ms"
+  ],
+  [
+   "whatever",
+   "lemma",
+   "mahma-1",
+   "en"
+  ],
+  [
+   "praised",
+   "lemma",
+   "mahmud-1",
+   "en"
+  ],
+  [
+   "terpuji",
+   "lemma",
+   "mahmud-1",
+   "ms"
+  ],
+  [
+   "deprived",
+   "lemma",
+   "mahrum-1",
+   "en"
+  ],
+  [
+   "yang terhalang; yang miskin",
+   "lemma",
+   "mahrum-1",
+   "ms"
+  ],
+  [
+   "a table spread with food",
+   "lemma",
+   "maida-1",
+   "en"
+  ],
+  [
+   "hidangan",
+   "lemma",
+   "maida-1",
+   "ms"
+  ],
+  [
+   "kehidupan; rezeki",
+   "lemma",
+   "maisha-1",
+   "ms"
+  ],
+  [
+   "livelihood",
+   "lemma",
+   "maisha-1",
+   "en"
+  ],
+  [
+   "glorious",
+   "lemma",
+   "majid-1",
+   "en"
+  ],
+  [
+   "mulia",
+   "lemma",
+   "majid-1",
+   "ms"
+  ],
+  [
+   "a meeting-place; a confluence",
+   "lemma",
+   "majma-1",
+   "en"
+  ],
+  [
+   "pertemuan",
+   "lemma",
+   "majma-1",
+   "ms"
+  ],
+  [
+   "gathered together",
+   "lemma",
+   "majmu-1",
+   "en"
+  ],
+  [
+   "yang dikumpulkan",
+   "lemma",
+   "majmu-1",
+   "ms"
+  ],
+  [
+   "gila; dirasuk",
+   "lemma",
+   "majnun-1",
+   "ms"
+  ],
+  [
+   "possessed; mad",
+   "lemma",
+   "majnun-1",
+   "en"
+  ],
+  [
+   "ma'juj (magog)",
+   "lemma",
+   "majuj-1",
+   "en"
+  ],
+  [
+   "makjuj",
+   "lemma",
+   "majuj-1",
+   "ms"
+  ],
+  [
    "place",
    "lemma",
    "makan-1",
@@ -10178,6 +52053,18 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "makan-1",
    "ms"
+  ],
+  [
+   "kedudukan; tempat",
+   "lemma",
+   "makana-1",
+   "ms"
+  ],
+  [
+   "position; place",
+   "lemma",
+   "makana-1",
+   "en"
   ],
   [
    "merancang tipu daya",
@@ -10192,6 +52079,114 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "tinggal",
+   "lemma",
+   "makatha-1",
+   "ms"
+  ],
+  [
+   "to stay; to remain",
+   "lemma",
+   "makatha-1",
+   "en"
+  ],
+  [
+   "hunger; famine",
+   "lemma",
+   "makhmasa-1",
+   "en"
+  ],
+  [
+   "kelaparan",
+   "lemma",
+   "makhmasa-1",
+   "ms"
+  ],
+  [
+   "a way out",
+   "lemma",
+   "makhraj-1",
+   "en"
+  ],
+  [
+   "jalan keluar",
+   "lemma",
+   "makhraj-1",
+   "ms"
+  ],
+  [
+   "established; secure",
+   "lemma",
+   "makin-1",
+   "en"
+  ],
+  [
+   "kukuh; terpercaya",
+   "lemma",
+   "makin-1",
+   "ms"
+  ],
+  [
+   "one who plots",
+   "lemma",
+   "makir-1",
+   "en"
+  ],
+  [
+   "perancang tipu daya",
+   "lemma",
+   "makir-1",
+   "ms"
+  ],
+  [
+   "one who stays",
+   "lemma",
+   "makith-1",
+   "en"
+  ],
+  [
+   "orang yang tinggal",
+   "lemma",
+   "makith-1",
+   "ms"
+  ],
+  [
+   "makkah",
+   "lemma",
+   "makka-1",
+   "en"
+  ],
+  [
+   "makkah",
+   "lemma",
+   "makka-1",
+   "ms"
+  ],
+  [
+   "mengukuhkan; memberi kekuasaan",
+   "lemma",
+   "makkana-1",
+   "ms"
+  ],
+  [
+   "to establish; to give power",
+   "lemma",
+   "makkana-1",
+   "en"
+  ],
+  [
+   "hidden; well-guarded",
+   "lemma",
+   "maknun-1",
+   "en"
+  ],
+  [
+   "terpelihara; tersembunyi",
+   "lemma",
+   "maknun-1",
+   "ms"
+  ],
+  [
    "plotting; scheming",
    "lemma",
    "makr-1",
@@ -10201,6 +52196,18 @@ const QM_SEARCH_INDEX = {
    "tipu daya; rancangan jahat",
    "lemma",
    "makr-1",
+   "ms"
+  ],
+  [
+   "detestable",
+   "lemma",
+   "makruh-1",
+   "en"
+  ],
+  [
+   "dibenci",
+   "lemma",
+   "makruh-1",
    "ms"
   ],
   [
@@ -10228,6 +52235,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "condong",
+   "lemma",
+   "mala-3",
+   "ms"
+  ],
+  [
+   "to incline",
+   "lemma",
+   "mala-3",
+   "en"
+  ],
+  [
+   "memenuhi",
+   "lemma",
+   "malaa-2",
+   "ms"
+  ],
+  [
+   "to fill",
+   "lemma",
+   "malaa-2",
+   "en"
+  ],
+  [
    "angel",
    "lemma",
    "malak-1",
@@ -10250,6 +52281,18 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "malaka-1",
    "en"
+  ],
+  [
+   "dominion; sovereignty",
+   "lemma",
+   "malakut-1",
+   "en"
+  ],
+  [
+   "kerajaan; kekuasaan",
+   "lemma",
+   "malakut-1",
+   "ms"
   ],
   [
    "master, owner, sovereign",
@@ -10276,6 +52319,162 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a sovereign",
+   "lemma",
+   "malik-3",
+   "en"
+  ],
+  [
+   "raja yang berdaulat",
+   "lemma",
+   "malik-3",
+   "ms"
+  ],
+  [
+   "a long while",
+   "lemma",
+   "maliyy-1",
+   "en"
+  ],
+  [
+   "masa yang lama",
+   "lemma",
+   "maliyy-1",
+   "ms"
+  ],
+  [
+   "a refuge",
+   "lemma",
+   "malja-1",
+   "en"
+  ],
+  [
+   "tempat berlindung",
+   "lemma",
+   "malja-1",
+   "ms"
+  ],
+  [
+   "kuasa sendiri",
+   "lemma",
+   "malk-1",
+   "ms"
+  ],
+  [
+   "our own power; possession",
+   "lemma",
+   "malk-1",
+   "en"
+  ],
+  [
+   "blameworthy",
+   "lemma",
+   "malum-1",
+   "en"
+  ],
+  [
+   "tercela",
+   "lemma",
+   "malum-1",
+   "ms"
+  ],
+  [
+   "accursed",
+   "lemma",
+   "malun-1",
+   "en"
+  ],
+  [
+   "dilaknat",
+   "lemma",
+   "malun-1",
+   "ms"
+  ],
+  [
+   "known; appointed",
+   "lemma",
+   "maluum-1",
+   "en"
+  ],
+  [
+   "yang diketahui; yang ditentukan",
+   "lemma",
+   "maluum-1",
+   "ms"
+  ],
+  [
+   "death",
+   "lemma",
+   "mamat-1",
+   "en"
+  ],
+  [
+   "kematian",
+   "lemma",
+   "mamat-1",
+   "ms"
+  ],
+  [
+   "extended; outspread",
+   "lemma",
+   "mamdud-1",
+   "en"
+  ],
+  [
+   "terbentang",
+   "lemma",
+   "mamdud-1",
+   "ms"
+  ],
+  [
+   "air mengalir",
+   "lemma",
+   "mamn-1",
+   "ms"
+  ],
+  [
+   "flowing water",
+   "lemma",
+   "mamn-1",
+   "en"
+  ],
+  [
+   "cut off; interrupted",
+   "lemma",
+   "mamnun-1",
+   "en"
+  ],
+  [
+   "terputus",
+   "lemma",
+   "mamnun-1",
+   "ms"
+  ],
+  [
+   "secure; safe",
+   "lemma",
+   "mamun-1",
+   "en"
+  ],
+  [
+   "selamat",
+   "lemma",
+   "mamun-1",
+   "ms"
+  ],
+  [
+   "frequented; inhabited",
+   "lemma",
+   "mamur-1",
+   "en"
+  ],
+  [
+   "yang dimakmurkan",
+   "lemma",
+   "mamur-1",
+   "ms"
+  ],
+  [
    "siapa; sesiapa",
    "lemma",
    "man-1",
@@ -10286,6 +52485,234 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "man-1",
    "en"
+  ],
+  [
+   "menghalang; menahan",
+   "lemma",
+   "manaa-1",
+   "ms"
+  ],
+  [
+   "to prevent; to withhold",
+   "lemma",
+   "manaa-1",
+   "en"
+  ],
+  [
+   "sleep; a dream",
+   "lemma",
+   "manam-1",
+   "en"
+  ],
+  [
+   "tidur; mimpi",
+   "lemma",
+   "manam-1",
+   "ms"
+  ],
+  [
+   "manat (an idol)",
+   "lemma",
+   "manawat-1",
+   "en"
+  ],
+  [
+   "manat (berhala)",
+   "lemma",
+   "manawat-1",
+   "ms"
+  ],
+  [
+   "bersusun",
+   "lemma",
+   "mandud-1",
+   "ms"
+  ],
+  [
+   "piled up",
+   "lemma",
+   "mandud-1",
+   "en"
+  ],
+  [
+   "benefits; uses",
+   "lemma",
+   "manfaa-1",
+   "en"
+  ],
+  [
+   "manfaat; kegunaan",
+   "lemma",
+   "manfaa-1",
+   "ms"
+  ],
+  [
+   "air mani",
+   "lemma",
+   "maniyy-1",
+   "ms"
+  ],
+  [
+   "semen; a sperm-drop",
+   "lemma",
+   "maniyy-1",
+   "en"
+  ],
+  [
+   "memberi kurnia",
+   "lemma",
+   "manna-1",
+   "ms"
+  ],
+  [
+   "to bestow a favour",
+   "lemma",
+   "manna-1",
+   "en"
+  ],
+  [
+   "manna; budi",
+   "lemma",
+   "manna-2",
+   "ms"
+  ],
+  [
+   "manna; favour",
+   "lemma",
+   "manna-2",
+   "en"
+  ],
+  [
+   "memberi angan-angan",
+   "lemma",
+   "manna-3",
+   "ms"
+  ],
+  [
+   "to fill with false hopes",
+   "lemma",
+   "manna-3",
+   "en"
+  ],
+  [
+   "one who withholds",
+   "lemma",
+   "mannaa-1",
+   "en"
+  ],
+  [
+   "yang menghalang",
+   "lemma",
+   "mannaa-1",
+   "ms"
+  ],
+  [
+   "a rite of worship",
+   "lemma",
+   "mansak-1",
+   "en"
+  ],
+  [
+   "manasik; ibadat",
+   "lemma",
+   "mansak-1",
+   "ms"
+  ],
+  [
+   "spread out",
+   "lemma",
+   "manshur-1",
+   "en"
+  ],
+  [
+   "terbentang",
+   "lemma",
+   "manshur-1",
+   "ms"
+  ],
+  [
+   "something forgotten",
+   "lemma",
+   "mansiyy-1",
+   "en"
+  ],
+  [
+   "yang dilupakan",
+   "lemma",
+   "mansiyy-1",
+   "ms"
+  ],
+  [
+   "ditolong",
+   "lemma",
+   "mansur-1",
+   "ms"
+  ],
+  [
+   "helped; made victorious",
+   "lemma",
+   "mansur-1",
+   "en"
+  ],
+  [
+   "bertaburan",
+   "lemma",
+   "manthur-1",
+   "ms"
+  ],
+  [
+   "scattered",
+   "lemma",
+   "manthur-1",
+   "en"
+  ],
+  [
+   "peredaran zaman; kematian",
+   "lemma",
+   "manun-1",
+   "ms"
+  ],
+  [
+   "the vicissitudes of time; death",
+   "lemma",
+   "manun-1",
+   "en"
+  ],
+  [
+   "peringkat; tempat singgah",
+   "lemma",
+   "manzil-1",
+   "ms"
+  ],
+  [
+   "stage; abode",
+   "lemma",
+   "manzil-1",
+   "en"
+  ],
+  [
+   "a seat; a station",
+   "lemma",
+   "maqad-1",
+   "en"
+  ],
+  [
+   "tempat duduk",
+   "lemma",
+   "maqad-1",
+   "ms"
+  ],
+  [
+   "keys; treasuries",
+   "lemma",
+   "maqalid-1",
+   "en"
+  ],
+  [
+   "kunci-kunci",
+   "lemma",
+   "maqalid-1",
+   "ms"
   ],
   [
    "kedudukan; tempat berdiri",
@@ -10300,6 +52727,318 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "decreed",
+   "lemma",
+   "maqdi-1",
+   "en"
+  ],
+  [
+   "ditetapkan",
+   "lemma",
+   "maqdi-1",
+   "ms"
+  ],
+  [
+   "decreed",
+   "lemma",
+   "maqdur-1",
+   "en"
+  ],
+  [
+   "ditakdirkan",
+   "lemma",
+   "maqdur-1",
+   "ms"
+  ],
+  [
+   "apportioned",
+   "lemma",
+   "maqsum-1",
+   "en"
+  ],
+  [
+   "yang dibahagikan",
+   "lemma",
+   "maqsum-1",
+   "ms"
+  ],
+  [
+   "confined",
+   "lemma",
+   "maqsura-1",
+   "en"
+  ],
+  [
+   "terkurung",
+   "lemma",
+   "maqsura-1",
+   "ms"
+  ],
+  [
+   "abhorrence",
+   "lemma",
+   "maqt-1",
+   "en"
+  ],
+  [
+   "kebencian",
+   "lemma",
+   "maqt-1",
+   "ms"
+  ],
+  [
+   "cut off",
+   "lemma",
+   "maqtu-1",
+   "en"
+  ],
+  [
+   "terputus",
+   "lemma",
+   "maqtu-1",
+   "ms"
+  ],
+  [
+   "a man; a person",
+   "lemma",
+   "mar-1",
+   "en"
+  ],
+  [
+   "seseorang",
+   "lemma",
+   "mar-1",
+   "ms"
+  ],
+  [
+   "padang ragut",
+   "lemma",
+   "maraa-1",
+   "ms"
+  ],
+  [
+   "pasture",
+   "lemma",
+   "maraa-1",
+   "en"
+  ],
+  [
+   "illness; disease",
+   "lemma",
+   "marad-1",
+   "en"
+  ],
+  [
+   "penyakit",
+   "lemma",
+   "marad-1",
+   "ms"
+  ],
+  [
+   "a turning back",
+   "lemma",
+   "marad-2",
+   "en"
+  ],
+  [
+   "penolakan",
+   "lemma",
+   "marad-2",
+   "ms"
+  ],
+  [
+   "keterlaluan (dalam kejahatan)",
+   "lemma",
+   "marada-1",
+   "ms"
+  ],
+  [
+   "to be stubborn in (wrongdoing)",
+   "lemma",
+   "marada-1",
+   "en"
+  ],
+  [
+   "exultation; insolence",
+   "lemma",
+   "marah-1",
+   "en"
+  ],
+  [
+   "kesombongan",
+   "lemma",
+   "marah-1",
+   "ms"
+  ],
+  [
+   "membiarkan mengalir",
+   "lemma",
+   "maraja-1",
+   "ms"
+  ],
+  [
+   "to let flow freely",
+   "lemma",
+   "maraja-1",
+   "en"
+  ],
+  [
+   "approval; pleasure",
+   "lemma",
+   "mardat-1",
+   "en"
+  ],
+  [
+   "keredaan",
+   "lemma",
+   "mardat-1",
+   "ms"
+  ],
+  [
+   "well-pleasing",
+   "lemma",
+   "mardiyy-1",
+   "en"
+  ],
+  [
+   "yang diredai",
+   "lemma",
+   "mardiyy-1",
+   "ms"
+  ],
+  [
+   "returned; turned back",
+   "lemma",
+   "mardud-1",
+   "en"
+  ],
+  [
+   "yang dikembalikan",
+   "lemma",
+   "mardud-1",
+   "ms"
+  ],
+  [
+   "raised; elevated",
+   "lemma",
+   "marfu-1",
+   "en"
+  ],
+  [
+   "yang ditinggikan",
+   "lemma",
+   "marfu-1",
+   "ms"
+  ],
+  [
+   "selamat datang",
+   "lemma",
+   "marhaba-1",
+   "ms"
+  ],
+  [
+   "welcome",
+   "lemma",
+   "marhaba-1",
+   "en"
+  ],
+  [
+   "sakit",
+   "lemma",
+   "marid-1",
+   "ms"
+  ],
+  [
+   "sick; ill",
+   "lemma",
+   "marid-1",
+   "en"
+  ],
+  [
+   "membangkang",
+   "lemma",
+   "marid-2",
+   "ms"
+  ],
+  [
+   "rebellious; obstinate",
+   "lemma",
+   "marid-2",
+   "en"
+  ],
+  [
+   "derhaka",
+   "lemma",
+   "marid-3",
+   "ms"
+  ],
+  [
+   "rebellious",
+   "lemma",
+   "marid-3",
+   "en"
+  ],
+  [
+   "sakit",
+   "lemma",
+   "marida-1",
+   "ms"
+  ],
+  [
+   "to be ill",
+   "lemma",
+   "marida-1",
+   "en"
+  ],
+  [
+   "sedap; menyenangkan",
+   "lemma",
+   "marii-1",
+   "ms"
+  ],
+  [
+   "wholesome",
+   "lemma",
+   "marii-1",
+   "en"
+  ],
+  [
+   "api tanpa asap",
+   "lemma",
+   "marij-1",
+   "ms"
+  ],
+  [
+   "smokeless flame",
+   "lemma",
+   "marij-1",
+   "en"
+  ],
+  [
+   "confused; troubled",
+   "lemma",
+   "marij-2",
+   "en"
+  ],
+  [
+   "kacau",
+   "lemma",
+   "marij-2",
+   "ms"
+  ],
+  [
+   "coral",
+   "lemma",
+   "marjan-1",
+   "en"
+  ],
+  [
+   "marjan",
+   "lemma",
+   "marjan-1",
+   "ms"
+  ],
+  [
    "return; place of return",
    "lemma",
    "marji-1",
@@ -10309,6 +53048,30 @@ const QM_SEARCH_INDEX = {
    "tempat kembali",
    "lemma",
    "marji-1",
+   "ms"
+  ],
+  [
+   "hoped for",
+   "lemma",
+   "marju-1",
+   "en"
+  ],
+  [
+   "yang diharapkan",
+   "lemma",
+   "marju-1",
+   "ms"
+  ],
+  [
+   "inscribed",
+   "lemma",
+   "marqum-1",
+   "en"
+  ],
+  [
+   "yang tertulis",
+   "lemma",
+   "marqum-1",
    "ms"
   ],
   [
@@ -10324,6 +53087,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "melalui",
+   "lemma",
+   "marra-2",
+   "ms"
+  ],
+  [
+   "to pass by",
+   "lemma",
+   "marra-2",
+   "en"
+  ],
+  [
+   "melintas",
+   "lemma",
+   "marra-3",
+   "ms"
+  ],
+  [
+   "to pass by",
+   "lemma",
+   "marra-3",
+   "en"
+  ],
+  [
+   "a place of ambush",
+   "lemma",
+   "marsad-1",
+   "en"
+  ],
+  [
+   "tempat mengintai",
+   "lemma",
+   "marsad-1",
+   "ms"
+  ],
+  [
+   "trellised",
+   "lemma",
+   "maruh-1",
+   "en"
+  ],
+  [
+   "yang merambat",
+   "lemma",
+   "maruh-1",
+   "ms"
+  ],
+  [
+   "marut",
+   "lemma",
+   "marut-1",
+   "en"
+  ],
+  [
+   "marut",
+   "lemma",
+   "marut-1",
+   "ms"
+  ],
+  [
+   "marwa (a hill)",
+   "lemma",
+   "marwa-1",
+   "en"
+  ],
+  [
+   "marwah (bukit)",
+   "lemma",
+   "marwa-1",
+   "ms"
+  ],
+  [
    "mary (maryam)",
    "lemma",
    "maryam-1",
@@ -10336,6 +53171,222 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "palm-fibre rope",
+   "lemma",
+   "masad-1",
+   "en"
+  ],
+  [
+   "tali sabut",
+   "lemma",
+   "masad-1",
+   "ms"
+  ],
+  [
+   "menyapu",
+   "lemma",
+   "masaha-1",
+   "ms"
+  ],
+  [
+   "to wipe",
+   "lemma",
+   "masaha-1",
+   "en"
+  ],
+  [
+   "outstripped",
+   "lemma",
+   "masbuq-1",
+   "en"
+  ],
+  [
+   "yang terdahului",
+   "lemma",
+   "masbuq-1",
+   "ms"
+  ],
+  [
+   "ranged in rows",
+   "lemma",
+   "masfuf-1",
+   "en"
+  ],
+  [
+   "tersusun",
+   "lemma",
+   "masfuf-1",
+   "ms"
+  ],
+  [
+   "poured forth",
+   "lemma",
+   "masfuh-1",
+   "en"
+  ],
+  [
+   "yang mengalir",
+   "lemma",
+   "masfuh-1",
+   "ms"
+  ],
+  [
+   "menyapu",
+   "lemma",
+   "mash-1",
+   "ms"
+  ],
+  [
+   "wiping; stroking",
+   "lemma",
+   "mash-1",
+   "en"
+  ],
+  [
+   "berjalan",
+   "lemma",
+   "masha-1",
+   "ms"
+  ],
+  [
+   "to walk",
+   "lemma",
+   "masha-1",
+   "en"
+  ],
+  [
+   "sebelah kiri",
+   "lemma",
+   "mashama-1",
+   "ms"
+  ],
+  [
+   "the left-hand side",
+   "lemma",
+   "mashama-1",
+   "en"
+  ],
+  [
+   "a company; an assembly",
+   "lemma",
+   "mashar-1",
+   "en"
+  ],
+  [
+   "golongan",
+   "lemma",
+   "mashar-1",
+   "ms"
+  ],
+  [
+   "laden; full",
+   "lemma",
+   "mashhun-1",
+   "en"
+  ],
+  [
+   "penuh muatan",
+   "lemma",
+   "mashhun-1",
+   "ms"
+  ],
+  [
+   "lofty; raised high",
+   "lemma",
+   "mashid-1",
+   "en"
+  ],
+  [
+   "menjulang",
+   "lemma",
+   "mashid-1",
+   "ms"
+  ],
+  [
+   "appreciated; thanked",
+   "lemma",
+   "mashkur-1",
+   "en"
+  ],
+  [
+   "dihargai",
+   "lemma",
+   "mashkur-1",
+   "ms"
+  ],
+  [
+   "a drinking-place",
+   "lemma",
+   "mashrab-1",
+   "en"
+  ],
+  [
+   "tempat minum",
+   "lemma",
+   "mashrab-1",
+   "ms"
+  ],
+  [
+   "east; place of sunrise",
+   "lemma",
+   "mashriq-1",
+   "en"
+  ],
+  [
+   "timur; tempat terbit",
+   "lemma",
+   "mashriq-1",
+   "ms"
+  ],
+  [
+   "one who goes about (slandering)",
+   "lemma",
+   "mashsha-1",
+   "en"
+  ],
+  [
+   "pengadu domba",
+   "lemma",
+   "mashsha-1",
+   "ms"
+  ],
+  [
+   "bewitched",
+   "lemma",
+   "mashur-1",
+   "en"
+  ],
+  [
+   "terkena sihir",
+   "lemma",
+   "mashur-1",
+   "ms"
+  ],
+  [
+   "berjalan",
+   "lemma",
+   "mashy-1",
+   "ms"
+  ],
+  [
+   "walking",
+   "lemma",
+   "mashy-1",
+   "en"
+  ],
+  [
+   "al-masih",
+   "lemma",
+   "masih-1",
+   "ms"
+  ],
+  [
+   "the messiah (al-masih)",
+   "lemma",
+   "masih-1",
+   "en"
+  ],
+  [
    "destination; final return",
    "lemma",
    "masir-1",
@@ -10345,6 +53396,18 @@ const QM_SEARCH_INDEX = {
    "tempat kembali",
    "lemma",
    "masir-1",
+   "ms"
+  ],
+  [
+   "disobedience",
+   "lemma",
+   "masiya-1",
+   "en"
+  ],
+  [
+   "kemaksiatan",
+   "lemma",
+   "masiya-1",
    "ms"
   ],
   [
@@ -10372,6 +53435,138 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "abasement; poverty",
+   "lemma",
+   "maskana-1",
+   "en"
+  ],
+  [
+   "kehinaan; kemiskinan",
+   "lemma",
+   "maskana-1",
+   "ms"
+  ],
+  [
+   "berpenghuni",
+   "lemma",
+   "maskuna-1",
+   "ms"
+  ],
+  [
+   "inhabited",
+   "lemma",
+   "maskuna-1",
+   "en"
+  ],
+  [
+   "moulded; smooth (clay)",
+   "lemma",
+   "masnun-1",
+   "en"
+  ],
+  [
+   "yang dibentuk",
+   "lemma",
+   "masnun-1",
+   "ms"
+  ],
+  [
+   "an escape; a place to turn to",
+   "lemma",
+   "masrif-1",
+   "en"
+  ],
+  [
+   "tempat berpaling",
+   "lemma",
+   "masrif-1",
+   "ms"
+  ],
+  [
+   "averted",
+   "lemma",
+   "masruf-1",
+   "en"
+  ],
+  [
+   "yang dipalingkan",
+   "lemma",
+   "masruf-1",
+   "ms"
+  ],
+  [
+   "gembira",
+   "lemma",
+   "masrur-1",
+   "ms"
+  ],
+  [
+   "joyful",
+   "lemma",
+   "masrur-1",
+   "en"
+  ],
+  [
+   "sentuhan",
+   "lemma",
+   "mass-1",
+   "ms"
+  ],
+  [
+   "touch",
+   "lemma",
+   "mass-1",
+   "en"
+  ],
+  [
+   "menyentuh; menimpa",
+   "lemma",
+   "massa-1",
+   "ms"
+  ],
+  [
+   "to touch; to afflict",
+   "lemma",
+   "massa-1",
+   "en"
+  ],
+  [
+   "berpegang teguh",
+   "lemma",
+   "massaka-1",
+   "ms"
+  ],
+  [
+   "to hold fast",
+   "lemma",
+   "massaka-1",
+   "en"
+  ],
+  [
+   "written",
+   "lemma",
+   "mastur-1",
+   "en"
+  ],
+  [
+   "yang tertulis",
+   "lemma",
+   "mastur-1",
+   "ms"
+  ],
+  [
+   "one to be questioned",
+   "lemma",
+   "masul-1",
+   "en"
+  ],
+  [
+   "yang akan ditanya",
+   "lemma",
+   "masul-1",
+   "ms"
+  ],
+  [
    "bilakah",
    "lemma",
    "mata-1",
@@ -10396,6 +53591,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "repentance; return",
+   "lemma",
+   "mataab-1",
+   "en"
+  ],
+  [
+   "taubat; kembali",
+   "lemma",
+   "mataab-1",
+   "ms"
+  ],
+  [
+   "hujan",
+   "lemma",
+   "matar-1",
+   "ms"
+  ],
+  [
+   "rain",
+   "lemma",
+   "matar-1",
+   "en"
+  ],
+  [
    "likeness; parable; example",
    "lemma",
    "mathal-1",
@@ -10406,6 +53625,138 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "mathal-1",
    "ms"
+  ],
+  [
+   "oft-repeated (verses)",
+   "lemma",
+   "mathani-1",
+   "en"
+  ],
+  [
+   "yang diulang-ulang",
+   "lemma",
+   "mathani-1",
+   "ms"
+  ],
+  [
+   "dua-dua",
+   "lemma",
+   "mathna-1",
+   "ms"
+  ],
+  [
+   "two by two",
+   "lemma",
+   "mathna-1",
+   "en"
+  ],
+  [
+   "a reward",
+   "lemma",
+   "mathuba-1",
+   "en"
+  ],
+  [
+   "balasan",
+   "lemma",
+   "mathuba-1",
+   "ms"
+  ],
+  [
+   "balasan yang dijadikan teladan",
+   "lemma",
+   "mathulat-1",
+   "ms"
+  ],
+  [
+   "exemplary punishments",
+   "lemma",
+   "mathulat-1",
+   "en"
+  ],
+  [
+   "abode; dwelling place",
+   "lemma",
+   "mathwa-1",
+   "en"
+  ],
+  [
+   "tempat tinggal",
+   "lemma",
+   "mathwa-1",
+   "ms"
+  ],
+  [
+   "pasti datang",
+   "lemma",
+   "mati-1",
+   "ms"
+  ],
+  [
+   "sure to come",
+   "lemma",
+   "mati-1",
+   "en"
+  ],
+  [
+   "firm; strong",
+   "lemma",
+   "matin-1",
+   "en"
+  ],
+  [
+   "kukuh; teguh",
+   "lemma",
+   "matin-1",
+   "ms"
+  ],
+  [
+   "tempat terbit",
+   "lemma",
+   "matla-1",
+   "ms"
+  ],
+  [
+   "the place of rising",
+   "lemma",
+   "matla-1",
+   "en"
+  ],
+  [
+   "memberi kesenangan",
+   "lemma",
+   "mattaa-1",
+   "ms"
+  ],
+  [
+   "to grant enjoyment",
+   "lemma",
+   "mattaa-1",
+   "en"
+  ],
+  [
+   "digulung",
+   "lemma",
+   "matwiyya-1",
+   "ms"
+  ],
+  [
+   "rolled up",
+   "lemma",
+   "matwiyya-1",
+   "en"
+  ],
+  [
+   "bantuan kecil",
+   "lemma",
+   "maun-1",
+   "ms"
+  ],
+  [
+   "small kindnesses",
+   "lemma",
+   "maun-1",
+   "en"
   ],
   [
    "abode; refuge",
@@ -10420,6 +53771,126 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "affection; love",
+   "lemma",
+   "mawadda-1",
+   "en"
+  ],
+  [
+   "kasih sayang",
+   "lemma",
+   "mawadda-1",
+   "ms"
+  ],
+  [
+   "cleaving (the waves)",
+   "lemma",
+   "mawakhir-1",
+   "en"
+  ],
+  [
+   "membelah ombak",
+   "lemma",
+   "mawakhir-1",
+   "ms"
+  ],
+  [
+   "a battlefield; a place",
+   "lemma",
+   "mawatin-1",
+   "en"
+  ],
+  [
+   "medan; tempat",
+   "lemma",
+   "mawatin-1",
+   "ms"
+  ],
+  [
+   "a place; a position",
+   "lemma",
+   "mawdi-1",
+   "en"
+  ],
+  [
+   "tempat",
+   "lemma",
+   "mawdi-1",
+   "ms"
+  ],
+  [
+   "set down; laid out",
+   "lemma",
+   "mawdu-1",
+   "en"
+  ],
+  [
+   "yang diletakkan",
+   "lemma",
+   "mawdu-1",
+   "ms"
+  ],
+  [
+   "ample",
+   "lemma",
+   "mawfur-1",
+   "en"
+  ],
+  [
+   "cukup",
+   "lemma",
+   "mawfur-1",
+   "ms"
+  ],
+  [
+   "appointment; promised time",
+   "lemma",
+   "mawid-1",
+   "en"
+  ],
+  [
+   "janji; masa yang dijanjikan",
+   "lemma",
+   "mawid-1",
+   "ms"
+  ],
+  [
+   "a promise",
+   "lemma",
+   "mawida-1",
+   "en"
+  ],
+  [
+   "janji",
+   "lemma",
+   "mawida-1",
+   "ms"
+  ],
+  [
+   "admonition; exhortation",
+   "lemma",
+   "mawiza-1",
+   "en"
+  ],
+  [
+   "nasihat",
+   "lemma",
+   "mawiza-1",
+   "ms"
+  ],
+  [
+   "ombak",
+   "lemma",
+   "mawj-1",
+   "ms"
+  ],
+  [
+   "wave",
+   "lemma",
+   "mawj-1",
+   "en"
+  ],
+  [
    "master; protector; patron",
    "lemma",
    "mawla-1",
@@ -10429,6 +53900,66 @@ const QM_SEARCH_INDEX = {
    "pelindung; tuan",
    "lemma",
    "mawla-1",
+   "ms"
+  ],
+  [
+   "a new-born child",
+   "lemma",
+   "mawlud-1",
+   "en"
+  ],
+  [
+   "bayi",
+   "lemma",
+   "mawlud-1",
+   "ms"
+  ],
+  [
+   "a setting; a place of falling",
+   "lemma",
+   "mawqi-1",
+   "en"
+  ],
+  [
+   "tempat jatuh",
+   "lemma",
+   "mawqi-1",
+   "ms"
+  ],
+  [
+   "ditetapkan waktunya",
+   "lemma",
+   "mawqut-1",
+   "ms"
+  ],
+  [
+   "timed; prescribed at fixed times",
+   "lemma",
+   "mawqut-1",
+   "en"
+  ],
+  [
+   "bergegar",
+   "lemma",
+   "mawr-1",
+   "ms"
+  ],
+  [
+   "swaying",
+   "lemma",
+   "mawr-1",
+   "en"
+  ],
+  [
+   "that which is led to",
+   "lemma",
+   "mawrud-1",
+   "en"
+  ],
+  [
+   "yang didatangi",
+   "lemma",
+   "mawrud-1",
    "ms"
   ],
   [
@@ -10456,6 +53987,342 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a solemn pledge",
+   "lemma",
+   "mawthiq-1",
+   "en"
+  ],
+  [
+   "ikatan janji",
+   "lemma",
+   "mawthiq-1",
+   "ms"
+  ],
+  [
+   "promised",
+   "lemma",
+   "mawud-1",
+   "en"
+  ],
+  [
+   "yang dijanjikan",
+   "lemma",
+   "mawud-1",
+   "ms"
+  ],
+  [
+   "bayi perempuan yang ditanam hidup-hidup",
+   "lemma",
+   "mawuda-1",
+   "ms"
+  ],
+  [
+   "the girl buried alive",
+   "lemma",
+   "mawuda-1",
+   "en"
+  ],
+  [
+   "weighed; measured",
+   "lemma",
+   "mawzun-1",
+   "en"
+  ],
+  [
+   "yang ditimbang",
+   "lemma",
+   "mawzun-1",
+   "ms"
+  ],
+  [
+   "condong",
+   "lemma",
+   "mayl-1",
+   "ms"
+  ],
+  [
+   "inclination; leaning",
+   "lemma",
+   "mayl-1",
+   "en"
+  ],
+  [
+   "sebelah kanan",
+   "lemma",
+   "maymana-1",
+   "ms"
+  ],
+  [
+   "the right-hand side",
+   "lemma",
+   "maymana-1",
+   "en"
+  ],
+  [
+   "ease (of means)",
+   "lemma",
+   "maysara-1",
+   "en"
+  ],
+  [
+   "kelapangan",
+   "lemma",
+   "maysara-1",
+   "ms"
+  ],
+  [
+   "gambling",
+   "lemma",
+   "maysir-1",
+   "en"
+  ],
+  [
+   "judi",
+   "lemma",
+   "maysir-1",
+   "ms"
+  ],
+  [
+   "easy; gentle",
+   "lemma",
+   "maysur-1",
+   "en"
+  ],
+  [
+   "lembut; mudah",
+   "lemma",
+   "maysur-1",
+   "ms"
+  ],
+  [
+   "bangkai",
+   "lemma",
+   "mayta-1",
+   "ms"
+  ],
+  [
+   "carrion; a dead animal",
+   "lemma",
+   "mayta-1",
+   "en"
+  ],
+  [
+   "membezakan",
+   "lemma",
+   "mayyaza-1",
+   "ms"
+  ],
+  [
+   "to distinguish",
+   "lemma",
+   "mayyaza-1",
+   "en"
+  ],
+  [
+   "more; an increase",
+   "lemma",
+   "mazid-1",
+   "en"
+  ],
+  [
+   "tambahan",
+   "lemma",
+   "mazid-1",
+   "ms"
+  ],
+  [
+   "a place apart",
+   "lemma",
+   "mazil-1",
+   "en"
+  ],
+  [
+   "tempat terasing",
+   "lemma",
+   "mazil-1",
+   "ms"
+  ],
+  [
+   "dizalimi",
+   "lemma",
+   "mazlum-1",
+   "ms"
+  ],
+  [
+   "wronged",
+   "lemma",
+   "mazlum-1",
+   "en"
+  ],
+  [
+   "removed; debarred",
+   "lemma",
+   "mazul-1",
+   "en"
+  ],
+  [
+   "yang dijauhkan",
+   "lemma",
+   "mazul-1",
+   "ms"
+  ],
+  [
+   "hundred",
+   "lemma",
+   "mia-1",
+   "en"
+  ],
+  [
+   "seratus",
+   "lemma",
+   "mia-1",
+   "ms"
+  ],
+  [
+   "intestines",
+   "lemma",
+   "mia-2",
+   "en"
+  ],
+  [
+   "usus",
+   "lemma",
+   "mia-2",
+   "ms"
+  ],
+  [
+   "a hundred",
+   "lemma",
+   "mia-3",
+   "en"
+  ],
+  [
+   "seratus",
+   "lemma",
+   "mia-3",
+   "ms"
+  ],
+  [
+   "appointed time; tryst",
+   "lemma",
+   "miad-1",
+   "en"
+  ],
+  [
+   "waktu yang dijanjikan",
+   "lemma",
+   "miad-1",
+   "ms"
+  ],
+  [
+   "in abundance (rain)",
+   "lemma",
+   "midrar-1",
+   "en"
+  ],
+  [
+   "mencurah-curah",
+   "lemma",
+   "midrar-1",
+   "ms"
+  ],
+  [
+   "a key",
+   "lemma",
+   "miftah-1",
+   "en"
+  ],
+  [
+   "kunci",
+   "lemma",
+   "miftah-1",
+   "ms"
+  ],
+  [
+   "resting place; bed",
+   "lemma",
+   "mihad-1",
+   "en"
+  ],
+  [
+   "tempat berehat; hamparan",
+   "lemma",
+   "mihad-1",
+   "ms"
+  ],
+  [
+   "amat kuat tipu dayanya",
+   "lemma",
+   "mihal-1",
+   "ms"
+  ],
+  [
+   "mighty in plot",
+   "lemma",
+   "mihal-1",
+   "en"
+  ],
+  [
+   "a sanctuary; a prayer-niche",
+   "lemma",
+   "mihrab-1",
+   "en"
+  ],
+  [
+   "mihrab",
+   "lemma",
+   "mihrab-1",
+   "ms"
+  ],
+  [
+   "a measure",
+   "lemma",
+   "mikyal-1",
+   "en"
+  ],
+  [
+   "sukatan",
+   "lemma",
+   "mikyal-1",
+   "ms"
+  ],
+  [
+   "a fullness; enough to fill",
+   "lemma",
+   "mil-1",
+   "en"
+  ],
+  [
+   "sepenuh",
+   "lemma",
+   "mil-1",
+   "ms"
+  ],
+  [
+   "masin",
+   "lemma",
+   "milh-1",
+   "ms"
+  ],
+  [
+   "salty",
+   "lemma",
+   "milh-1",
+   "en"
+  ],
+  [
+   "agama; millah",
+   "lemma",
+   "milla-1",
+   "ms"
+  ],
+  [
+   "creed; religion",
+   "lemma",
+   "milla-1",
+   "en"
+  ],
+  [
    "daripada; dari",
    "lemma",
    "min-1",
@@ -10465,6 +54332,138 @@ const QM_SEARCH_INDEX = {
    "from; of",
    "lemma",
    "min-1",
+   "en"
+  ],
+  [
+   "a staff",
+   "lemma",
+   "minsa-1",
+   "en"
+  ],
+  [
+   "tongkat",
+   "lemma",
+   "minsa-1",
+   "ms"
+  ],
+  [
+   "an appointed time",
+   "lemma",
+   "miqat-1",
+   "en"
+  ],
+  [
+   "waktu yang ditetapkan",
+   "lemma",
+   "miqat-1",
+   "ms"
+  ],
+  [
+   "a measure",
+   "lemma",
+   "miqdar-1",
+   "en"
+  ],
+  [
+   "kadar",
+   "lemma",
+   "miqdar-1",
+   "ms"
+  ],
+  [
+   "disputation",
+   "lemma",
+   "mira-1",
+   "en"
+  ],
+  [
+   "perbantahan",
+   "lemma",
+   "mira-1",
+   "ms"
+  ],
+  [
+   "inheritance",
+   "lemma",
+   "mirath-1",
+   "en"
+  ],
+  [
+   "pusaka",
+   "lemma",
+   "mirath-1",
+   "ms"
+  ],
+  [
+   "an elbow; a support",
+   "lemma",
+   "mirfaq-1",
+   "en"
+  ],
+  [
+   "siku; sokongan",
+   "lemma",
+   "mirfaq-1",
+   "ms"
+  ],
+  [
+   "an ambush",
+   "lemma",
+   "mirsad-1",
+   "en"
+  ],
+  [
+   "tempat mengintai",
+   "lemma",
+   "mirsad-1",
+   "ms"
+  ],
+  [
+   "doubt",
+   "lemma",
+   "miryah-1",
+   "en"
+  ],
+  [
+   "keraguan",
+   "lemma",
+   "miryah-1",
+   "ms"
+  ],
+  [
+   "sentuhan",
+   "lemma",
+   "misas-1",
+   "ms"
+  ],
+  [
+   "touching",
+   "lemma",
+   "misas-1",
+   "en"
+  ],
+  [
+   "lamp",
+   "lemma",
+   "misbah-1",
+   "en"
+  ],
+  [
+   "pelita",
+   "lemma",
+   "misbah-1",
+   "ms"
+  ],
+  [
+   "kasturi",
+   "lemma",
+   "misk-1",
+   "ms"
+  ],
+  [
+   "musk",
+   "lemma",
+   "misk-1",
    "en"
   ],
   [
@@ -10480,6 +54479,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "egypt; a town",
+   "lemma",
+   "misr-1",
+   "en"
+  ],
+  [
+   "mesir; sebuah bandar",
+   "lemma",
+   "misr-1",
+   "ms"
+  ],
+  [
    "covenant; solemn pledge",
    "lemma",
    "mithaq-1",
@@ -10489,6 +54500,186 @@ const QM_SEARCH_INDEX = {
    "perjanjian; ikatan janji",
    "lemma",
    "mithaq-1",
+   "ms"
+  ],
+  [
+   "timbangan; seberat zarah",
+   "lemma",
+   "mithqal-1",
+   "ms"
+  ],
+  [
+   "weight; an atom's weight",
+   "lemma",
+   "mithqal-1",
+   "en"
+  ],
+  [
+   "a mixture",
+   "lemma",
+   "mizaj-1",
+   "en"
+  ],
+  [
+   "campuran",
+   "lemma",
+   "mizaj-1",
+   "ms"
+  ],
+  [
+   "balance; scale",
+   "lemma",
+   "mizan-1",
+   "en"
+  ],
+  [
+   "neraca; timbangan",
+   "lemma",
+   "mizan-1",
+   "ms"
+  ],
+  [
+   "one who is punished",
+   "lemma",
+   "muadhdhab-1",
+   "en"
+  ],
+  [
+   "yang diazab",
+   "lemma",
+   "muadhdhab-1",
+   "ms"
+  ],
+  [
+   "one who punishes",
+   "lemma",
+   "muadhdhib-1",
+   "en"
+  ],
+  [
+   "yang mengazab",
+   "lemma",
+   "muadhdhib-1",
+   "ms"
+  ],
+  [
+   "a crier; a herald",
+   "lemma",
+   "muadhdhin-1",
+   "en"
+  ],
+  [
+   "penyeru",
+   "lemma",
+   "muadhdhin-1",
+   "ms"
+  ],
+  [
+   "one who makes excuses",
+   "lemma",
+   "muadhdhir-1",
+   "en"
+  ],
+  [
+   "orang yang beralasan",
+   "lemma",
+   "muadhdhir-1",
+   "ms"
+  ],
+  [
+   "taught",
+   "lemma",
+   "muallam-1",
+   "en"
+  ],
+  [
+   "yang diajar",
+   "lemma",
+   "muallam-1",
+   "ms"
+  ],
+  [
+   "one granted long life",
+   "lemma",
+   "muammar-1",
+   "en"
+  ],
+  [
+   "yang dipanjangkan umur",
+   "lemma",
+   "muammar-1",
+   "ms"
+  ],
+  [
+   "one who follows after",
+   "lemma",
+   "muaqqib-1",
+   "en"
+  ],
+  [
+   "yang mengikuti",
+   "lemma",
+   "muaqqib-1",
+   "ms"
+  ],
+  [
+   "one who changes",
+   "lemma",
+   "mubaddil-1",
+   "en"
+  ],
+  [
+   "yang mengubah",
+   "lemma",
+   "mubaddil-1",
+   "ms"
+  ],
+  [
+   "blessed",
+   "lemma",
+   "mubarak-1",
+   "en"
+  ],
+  [
+   "yang diberkati",
+   "lemma",
+   "mubarak-1",
+   "ms"
+  ],
+  [
+   "bearer of good news",
+   "lemma",
+   "mubashshir-1",
+   "en"
+  ],
+  [
+   "pembawa berita gembira",
+   "lemma",
+   "mubashshir-1",
+   "ms"
+  ],
+  [
+   "a dwelling-place",
+   "lemma",
+   "mubawwa-1",
+   "en"
+  ],
+  [
+   "tempat tinggal",
+   "lemma",
+   "mubawwa-1",
+   "ms"
+  ],
+  [
+   "making clear",
+   "lemma",
+   "mubayyin-1",
+   "en"
+  ],
+  [
+   "yang menjelaskan",
+   "lemma",
+   "mubayyin-1",
    "ms"
   ],
   [
@@ -10504,6 +54695,234 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "one in despair",
+   "lemma",
+   "mubsil-1",
+   "en"
+  ],
+  [
+   "orang yang berputus asa",
+   "lemma",
+   "mubsil-1",
+   "ms"
+  ],
+  [
+   "making clear; one who sees",
+   "lemma",
+   "mubsir-1",
+   "en"
+  ],
+  [
+   "yang menerangi; yang melihat",
+   "lemma",
+   "mubsir-1",
+   "ms"
+  ],
+  [
+   "one who tests",
+   "lemma",
+   "mubtala-1",
+   "en"
+  ],
+  [
+   "yang menguji",
+   "lemma",
+   "mubtala-1",
+   "ms"
+  ],
+  [
+   "one who follows falsehood",
+   "lemma",
+   "mubtil-1",
+   "en"
+  ],
+  [
+   "pengikut kebatilan",
+   "lemma",
+   "mubtil-1",
+   "ms"
+  ],
+  [
+   "berganda",
+   "lemma",
+   "mudaafa-1",
+   "ms"
+  ],
+  [
+   "doubled",
+   "lemma",
+   "mudaafa-1",
+   "en"
+  ],
+  [
+   "those that arrange affairs",
+   "lemma",
+   "mudabbira-1",
+   "en"
+  ],
+  [
+   "yang mengatur urusan",
+   "lemma",
+   "mudabbira-1",
+   "ms"
+  ],
+  [
+   "one who turns the back",
+   "lemma",
+   "mudbir-1",
+   "en"
+  ],
+  [
+   "yang berpaling",
+   "lemma",
+   "mudbir-1",
+   "ms"
+  ],
+  [
+   "a term; a period",
+   "lemma",
+   "mudda-1",
+   "en"
+  ],
+  [
+   "tempoh",
+   "lemma",
+   "mudda-1",
+   "ms"
+  ],
+  [
+   "a place to enter",
+   "lemma",
+   "muddakhal-1",
+   "en"
+  ],
+  [
+   "tempat masuk",
+   "lemma",
+   "muddakhal-1",
+   "ms"
+  ],
+  [
+   "one who takes heed",
+   "lemma",
+   "muddakir-1",
+   "en"
+  ],
+  [
+   "orang yang mengambil peringatan",
+   "lemma",
+   "muddakir-1",
+   "ms"
+  ],
+  [
+   "one who reminds",
+   "lemma",
+   "muddhakkir-1",
+   "en"
+  ],
+  [
+   "pemberi peringatan",
+   "lemma",
+   "muddhakkir-1",
+   "ms"
+  ],
+  [
+   "a chewed lump (of flesh)",
+   "lemma",
+   "mudgha-1",
+   "en"
+  ],
+  [
+   "seketul daging",
+   "lemma",
+   "mudgha-1",
+   "ms"
+  ],
+  [
+   "one who receives double",
+   "lemma",
+   "mudif-1",
+   "en"
+  ],
+  [
+   "yang digandakan",
+   "lemma",
+   "mudif-1",
+   "ms"
+  ],
+  [
+   "one who misleads",
+   "lemma",
+   "mudill-1",
+   "en"
+  ],
+  [
+   "yang menyesatkan",
+   "lemma",
+   "mudill-1",
+   "ms"
+  ],
+  [
+   "going on",
+   "lemma",
+   "mudiyy-1",
+   "en"
+  ],
+  [
+   "meneruskan",
+   "lemma",
+   "mudiyy-1",
+   "ms"
+  ],
+  [
+   "an entrance; a place of entry",
+   "lemma",
+   "mudkhal-1",
+   "en"
+  ],
+  [
+   "tempat masuk",
+   "lemma",
+   "mudkhal-1",
+   "ms"
+  ],
+  [
+   "diperincikan",
+   "lemma",
+   "mufassal-1",
+   "ms"
+  ],
+  [
+   "explained in detail",
+   "lemma",
+   "mufassal-1",
+   "en"
+  ],
+  [
+   "opened wide",
+   "lemma",
+   "mufattah-1",
+   "en"
+  ],
+  [
+   "terbuka luas",
+   "lemma",
+   "mufattah-1",
+   "ms"
+  ],
+  [
+   "one who succeeds; successful",
+   "lemma",
+   "muflih-1",
+   "en"
+  ],
+  [
+   "orang yang berjaya",
+   "lemma",
+   "muflih-1",
+   "ms"
+  ],
+  [
    "corrupter; one who spreads corruption",
    "lemma",
    "mufsid-1",
@@ -10513,6 +54932,198 @@ const QM_SEARCH_INDEX = {
    "perosak",
    "lemma",
    "mufsid-1",
+   "ms"
+  ],
+  [
+   "forged; invented",
+   "lemma",
+   "muftara-1",
+   "en"
+  ],
+  [
+   "yang diada-adakan",
+   "lemma",
+   "muftara-1",
+   "ms"
+  ],
+  [
+   "a forger",
+   "lemma",
+   "muftarin-1",
+   "en"
+  ],
+  [
+   "pengada-ada",
+   "lemma",
+   "muftarin-1",
+   "ms"
+  ],
+  [
+   "kota-kota yang dijungkirbalikkan",
+   "lemma",
+   "muftika-1",
+   "ms"
+  ],
+  [
+   "the overturned cities",
+   "lemma",
+   "muftika-1",
+   "en"
+  ],
+  [
+   "those that raid",
+   "lemma",
+   "mughir-1",
+   "en"
+  ],
+  [
+   "yang menyerbu",
+   "lemma",
+   "mughir-1",
+   "ms"
+  ],
+  [
+   "one who avails",
+   "lemma",
+   "mughn-1",
+   "en"
+  ],
+  [
+   "yang mencukupi",
+   "lemma",
+   "mughn-1",
+   "ms"
+  ],
+  [
+   "one burdened with debt",
+   "lemma",
+   "mughram-1",
+   "en"
+  ],
+  [
+   "yang terbeban hutang",
+   "lemma",
+   "mughram-1",
+   "ms"
+  ],
+  [
+   "one who is drowned",
+   "lemma",
+   "mughraq-1",
+   "en"
+  ],
+  [
+   "yang ditenggelamkan",
+   "lemma",
+   "mughraq-1",
+   "ms"
+  ],
+  [
+   "one who emigrates",
+   "lemma",
+   "muhajir-1",
+   "en"
+  ],
+  [
+   "orang yang berhijrah",
+   "lemma",
+   "muhajir-1",
+   "ms"
+  ],
+  [
+   "muhammad",
+   "lemma",
+   "muhammad-1",
+   "en"
+  ],
+  [
+   "muhammad",
+   "lemma",
+   "muhammad-1",
+   "ms"
+  ],
+  [
+   "dihina",
+   "lemma",
+   "muhan-1",
+   "ms"
+  ],
+  [
+   "humiliated",
+   "lemma",
+   "muhan-1",
+   "en"
+  ],
+  [
+   "diharamkan",
+   "lemma",
+   "muharram-1",
+   "ms"
+  ],
+  [
+   "forbidden",
+   "lemma",
+   "muharram-1",
+   "en"
+  ],
+  [
+   "berkubu",
+   "lemma",
+   "muhassana-1",
+   "ms"
+  ],
+  [
+   "fortified",
+   "lemma",
+   "muhassana-1",
+   "en"
+  ],
+  [
+   "the guardian",
+   "lemma",
+   "muhaymin-1",
+   "en"
+  ],
+  [
+   "yang memelihara",
+   "lemma",
+   "muhaymin-1",
+   "ms"
+  ],
+  [
+   "one brought forward; presented",
+   "lemma",
+   "muhdar-1",
+   "en"
+  ],
+  [
+   "yang dihadirkan",
+   "lemma",
+   "muhdar-1",
+   "ms"
+  ],
+  [
+   "newly sent; recent",
+   "lemma",
+   "muhdath-1",
+   "en"
+  ],
+  [
+   "yang baru",
+   "lemma",
+   "muhdath-1",
+   "ms"
+  ],
+  [
+   "one who treats as lawful",
+   "lemma",
+   "muhill-1",
+   "en"
+  ],
+  [
+   "orang yang menghalalkan",
+   "lemma",
+   "muhill-1",
    "ms"
   ],
   [
@@ -10528,6 +55139,66 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "encompassing",
+   "lemma",
+   "muhit-1",
+   "en"
+  ],
+  [
+   "meliputi",
+   "lemma",
+   "muhit-1",
+   "ms"
+  ],
+  [
+   "firmly constructed; precise",
+   "lemma",
+   "muhkam-1",
+   "en"
+  ],
+  [
+   "yang kukuh",
+   "lemma",
+   "muhkam-1",
+   "ms"
+  ],
+  [
+   "logam cair; keladak minyak",
+   "lemma",
+   "muhl-1",
+   "ms"
+  ],
+  [
+   "molten metal; dregs of oil",
+   "lemma",
+   "muhl-1",
+   "en"
+  ],
+  [
+   "one who destroys",
+   "lemma",
+   "muhlik-1",
+   "en"
+  ],
+  [
+   "yang membinasakan",
+   "lemma",
+   "muhlik-1",
+   "ms"
+  ],
+  [
+   "chaste (woman); protected",
+   "lemma",
+   "muhsana-1",
+   "en"
+  ],
+  [
+   "wanita yang terpelihara",
+   "lemma",
+   "muhsana-1",
+   "ms"
+  ],
+  [
    "doer of good",
    "lemma",
    "muhsin-1",
@@ -10537,6 +55208,90 @@ const QM_SEARCH_INDEX = {
    "orang yang berbuat baik",
    "lemma",
    "muhsin-1",
+   "ms"
+  ],
+  [
+   "chaste; protected (in marriage)",
+   "lemma",
+   "muhsin-2",
+   "en"
+  ],
+  [
+   "menjaga kehormatan",
+   "lemma",
+   "muhsin-2",
+   "ms"
+  ],
+  [
+   "rightly guided",
+   "lemma",
+   "muhtadi-1",
+   "en"
+  ],
+  [
+   "yang mendapat petunjuk",
+   "lemma",
+   "muhtadi-1",
+   "ms"
+  ],
+  [
+   "bergegas dengan leher terjulur",
+   "lemma",
+   "muhti-1",
+   "ms"
+  ],
+  [
+   "hurrying with outstretched neck",
+   "lemma",
+   "muhti-1",
+   "en"
+  ],
+  [
+   "kehidupan",
+   "lemma",
+   "muhy-1",
+   "ms"
+  ],
+  [
+   "life; living",
+   "lemma",
+   "muhy-1",
+   "en"
+  ],
+  [
+   "one who strives",
+   "lemma",
+   "mujahid-1",
+   "en"
+  ],
+  [
+   "pejuang",
+   "lemma",
+   "mujahid-1",
+   "ms"
+  ],
+  [
+   "one who responds",
+   "lemma",
+   "mujib-1",
+   "en"
+  ],
+  [
+   "yang menyahut",
+   "lemma",
+   "mujib-1",
+   "ms"
+  ],
+  [
+   "one who can frustrate (god's plan)",
+   "lemma",
+   "mujiz-1",
+   "en"
+  ],
+  [
+   "yang dapat melemahkan",
+   "lemma",
+   "mujiz-1",
    "ms"
   ],
   [
@@ -10552,6 +55307,18 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "siulan",
+   "lemma",
+   "muka-1",
+   "ms"
+  ],
+  [
+   "whistling",
+   "lemma",
+   "muka-1",
+   "en"
+  ],
+  [
    "one who denies",
    "lemma",
    "mukadhdhib-1",
@@ -10561,6 +55328,66 @@ const QM_SEARCH_INDEX = {
    "orang yang mendustakan",
    "lemma",
    "mukadhdhib-1",
+   "ms"
+  ],
+  [
+   "dimuliakan",
+   "lemma",
+   "mukarram-1",
+   "ms"
+  ],
+  [
+   "honoured",
+   "lemma",
+   "mukarram-1",
+   "en"
+  ],
+  [
+   "ever-youthful (immortal)",
+   "lemma",
+   "mukhalladun-1",
+   "en"
+  ],
+  [
+   "kekal muda",
+   "lemma",
+   "mukhalladun-1",
+   "ms"
+  ],
+  [
+   "one left behind",
+   "lemma",
+   "mukhallaf-1",
+   "en"
+  ],
+  [
+   "yang ditinggalkan",
+   "lemma",
+   "mukhallaf-1",
+   "ms"
+  ],
+  [
+   "fully formed",
+   "lemma",
+   "mukhallaqa-1",
+   "en"
+  ],
+  [
+   "sempurna kejadiannya",
+   "lemma",
+   "mukhallaqa-1",
+   "ms"
+  ],
+  [
+   "one who breaks (a promise)",
+   "lemma",
+   "mukhlif-1",
+   "en"
+  ],
+  [
+   "yang mungkir",
+   "lemma",
+   "mukhlif-1",
    "ms"
   ],
   [
@@ -10576,6 +55403,138 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "one who is brought out",
+   "lemma",
+   "mukhraj-1",
+   "en"
+  ],
+  [
+   "yang dikeluarkan",
+   "lemma",
+   "mukhraj-1",
+   "ms"
+  ],
+  [
+   "one who brings out",
+   "lemma",
+   "mukhrij-1",
+   "en"
+  ],
+  [
+   "yang mengeluarkan",
+   "lemma",
+   "mukhrij-1",
+   "ms"
+  ],
+  [
+   "one who is conceited",
+   "lemma",
+   "mukhtal-1",
+   "en"
+  ],
+  [
+   "orang yang angkuh",
+   "lemma",
+   "mukhtal-1",
+   "ms"
+  ],
+  [
+   "berbeza-beza; pelbagai",
+   "lemma",
+   "mukhtalif-1",
+   "ms"
+  ],
+  [
+   "differing; various",
+   "lemma",
+   "mukhtalif-1",
+   "en"
+  ],
+  [
+   "honoured",
+   "lemma",
+   "mukram-1",
+   "en"
+  ],
+  [
+   "yang dimuliakan",
+   "lemma",
+   "mukram-1",
+   "ms"
+  ],
+  [
+   "one who honours",
+   "lemma",
+   "mukrim-1",
+   "en"
+  ],
+  [
+   "yang memuliakan",
+   "lemma",
+   "mukrim-1",
+   "ms"
+  ],
+  [
+   "a long stay",
+   "lemma",
+   "mukth-1",
+   "en"
+  ],
+  [
+   "perlahan-lahan",
+   "lemma",
+   "mukth-1",
+   "ms"
+  ],
+  [
+   "one who meets",
+   "lemma",
+   "mulaqi-1",
+   "en"
+  ],
+  [
+   "yang bertemu",
+   "lemma",
+   "mulaqi-1",
+   "ms"
+  ],
+  [
+   "one who meets",
+   "lemma",
+   "mulaqin-1",
+   "en"
+  ],
+  [
+   "yang menemui",
+   "lemma",
+   "mulaqin-1",
+   "ms"
+  ],
+  [
+   "dipenuhi",
+   "lemma",
+   "mulia-1",
+   "ms"
+  ],
+  [
+   "to be filled",
+   "lemma",
+   "mulia-1",
+   "en"
+  ],
+  [
+   "blameworthy",
+   "lemma",
+   "mulim-1",
+   "en"
+  ],
+  [
+   "tercela",
+   "lemma",
+   "mulim-1",
+   "ms"
+  ],
+  [
    "dominion; sovereignty",
    "lemma",
    "mulk-1",
@@ -10588,6 +55547,54 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "one who casts",
+   "lemma",
+   "mulqi-1",
+   "en"
+  ],
+  [
+   "yang melemparkan",
+   "lemma",
+   "mulqi-1",
+   "ms"
+  ],
+  [
+   "those who cast",
+   "lemma",
+   "mulqin-1",
+   "en"
+  ],
+  [
+   "yang mencampakkan",
+   "lemma",
+   "mulqin-1",
+   "ms"
+  ],
+  [
+   "a refuge",
+   "lemma",
+   "multahad-1",
+   "en"
+  ],
+  [
+   "tempat berlindung",
+   "lemma",
+   "multahad-1",
+   "ms"
+  ],
+  [
+   "dicarik-carik",
+   "lemma",
+   "mumazzaq-1",
+   "ms"
+  ],
+  [
+   "torn to pieces",
+   "lemma",
+   "mumazzaq-1",
+   "en"
+  ],
+  [
    "believer",
    "lemma",
    "mumin-1",
@@ -10597,6 +55604,30 @@ const QM_SEARCH_INDEX = {
    "orang yang beriman",
    "lemma",
    "mumin-1",
+   "ms"
+  ],
+  [
+   "one who doubts",
+   "lemma",
+   "mumtari-1",
+   "en"
+  ],
+  [
+   "orang yang ragu-ragu",
+   "lemma",
+   "mumtari-1",
+   "ms"
+  ],
+  [
+   "one who calls",
+   "lemma",
+   "munadi-1",
+   "en"
+  ],
+  [
+   "penyeru",
+   "lemma",
+   "munadi-1",
    "ms"
   ],
   [
@@ -10612,6 +55643,42 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "one who saves",
+   "lemma",
+   "munajji-1",
+   "en"
+  ],
+  [
+   "yang menyelamatkan",
+   "lemma",
+   "munajji-1",
+   "ms"
+  ],
+  [
+   "sent down",
+   "lemma",
+   "munazzal-1",
+   "en"
+  ],
+  [
+   "yang diturunkan",
+   "lemma",
+   "munazzal-1",
+   "ms"
+  ],
+  [
+   "one who sends down",
+   "lemma",
+   "munazzil-1",
+   "en"
+  ],
+  [
+   "yang menurunkan",
+   "lemma",
+   "munazzil-1",
+   "ms"
+  ],
+  [
    "pemberi peringatan",
    "lemma",
    "mundhir-1",
@@ -10622,6 +55689,30 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "mundhir-1",
    "en"
+  ],
+  [
+   "one who turns in repentance",
+   "lemma",
+   "munib-1",
+   "en"
+  ],
+  [
+   "yang kembali bertaubat",
+   "lemma",
+   "munib-1",
+   "ms"
+  ],
+  [
+   "illuminating; radiant",
+   "lemma",
+   "munir-1",
+   "en"
+  ],
+  [
+   "yang menerangi",
+   "lemma",
+   "munir-1",
+   "ms"
   ],
   [
    "kemungkaran",
@@ -10636,6 +55727,390 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "one who denies; unknowing",
+   "lemma",
+   "munkir-1",
+   "en"
+  ],
+  [
+   "yang mengingkari",
+   "lemma",
+   "munkir-1",
+   "ms"
+  ],
+  [
+   "a destination; a return",
+   "lemma",
+   "munqalab-1",
+   "en"
+  ],
+  [
+   "tempat kembali",
+   "lemma",
+   "munqalab-1",
+   "ms"
+  ],
+  [
+   "one who returns",
+   "lemma",
+   "munqalib-1",
+   "en"
+  ],
+  [
+   "yang kembali",
+   "lemma",
+   "munqalib-1",
+   "ms"
+  ],
+  [
+   "raised aloft (ships)",
+   "lemma",
+   "munsha-1",
+   "en"
+  ],
+  [
+   "yang ditinggikan",
+   "lemma",
+   "munsha-1",
+   "ms"
+  ],
+  [
+   "one raised to life",
+   "lemma",
+   "munshar-1",
+   "en"
+  ],
+  [
+   "yang dibangkitkan",
+   "lemma",
+   "munshar-1",
+   "ms"
+  ],
+  [
+   "one who produces",
+   "lemma",
+   "munshi-1",
+   "en"
+  ],
+  [
+   "yang menumbuhkan",
+   "lemma",
+   "munshi-1",
+   "ms"
+  ],
+  [
+   "penghujung",
+   "lemma",
+   "muntaha-1",
+   "ms"
+  ],
+  [
+   "the utmost end",
+   "lemma",
+   "muntaha-1",
+   "en"
+  ],
+  [
+   "one who desists",
+   "lemma",
+   "muntahun-1",
+   "en"
+  ],
+  [
+   "orang yang berhenti",
+   "lemma",
+   "muntahun-1",
+   "ms"
+  ],
+  [
+   "one who takes vengeance",
+   "lemma",
+   "muntaqim-1",
+   "en"
+  ],
+  [
+   "pembalas dendam",
+   "lemma",
+   "muntaqim-1",
+   "ms"
+  ],
+  [
+   "one who defends himself",
+   "lemma",
+   "muntasir-1",
+   "en"
+  ],
+  [
+   "orang yang membela diri",
+   "lemma",
+   "muntasir-1",
+   "ms"
+  ],
+  [
+   "one who waits",
+   "lemma",
+   "muntazir-1",
+   "en"
+  ],
+  [
+   "orang yang menunggu",
+   "lemma",
+   "muntazir-1",
+   "ms"
+  ],
+  [
+   "a landing-place; a lodging",
+   "lemma",
+   "munzal-1",
+   "en"
+  ],
+  [
+   "tempat singgah",
+   "lemma",
+   "munzal-1",
+   "ms"
+  ],
+  [
+   "one granted respite",
+   "lemma",
+   "munzar-1",
+   "en"
+  ],
+  [
+   "yang diberi tangguh",
+   "lemma",
+   "munzar-1",
+   "ms"
+  ],
+  [
+   "one who sends down; host",
+   "lemma",
+   "munzil-1",
+   "en"
+  ],
+  [
+   "yang menurunkan",
+   "lemma",
+   "munzil-1",
+   "ms"
+  ],
+  [
+   "holy; sacred",
+   "lemma",
+   "muqaddas-1",
+   "en"
+  ],
+  [
+   "suci",
+   "lemma",
+   "muqaddas-1",
+   "ms"
+  ],
+  [
+   "a station; a dwelling",
+   "lemma",
+   "muqam-1",
+   "en"
+  ],
+  [
+   "kedudukan; tempat tinggal",
+   "lemma",
+   "muqam-1",
+   "ms"
+  ],
+  [
+   "tempat tinggal kekal",
+   "lemma",
+   "muqama-1",
+   "ms"
+  ],
+  [
+   "the abode of permanence",
+   "lemma",
+   "muqama-1",
+   "en"
+  ],
+  [
+   "one brought near",
+   "lemma",
+   "muqarrab-1",
+   "en"
+  ],
+  [
+   "yang didekatkan",
+   "lemma",
+   "muqarrab-1",
+   "ms"
+  ],
+  [
+   "bound together",
+   "lemma",
+   "muqarran-1",
+   "en"
+  ],
+  [
+   "diikat bersama",
+   "lemma",
+   "muqarran-1",
+   "ms"
+  ],
+  [
+   "those that distribute",
+   "lemma",
+   "muqassim-1",
+   "en"
+  ],
+  [
+   "yang membahagikan",
+   "lemma",
+   "muqassim-1",
+   "ms"
+  ],
+  [
+   "one who cuts short (the hair)",
+   "lemma",
+   "muqassir-1",
+   "en"
+  ],
+  [
+   "yang menggunting",
+   "lemma",
+   "muqassir-1",
+   "ms"
+  ],
+  [
+   "disjoined letters (opening of a surah)",
+   "lemma",
+   "muqattaat-1",
+   "en"
+  ],
+  [
+   "huruf-huruf muqattaah (pembuka surah)",
+   "lemma",
+   "muqattaat-1",
+   "ms"
+  ],
+  [
+   "kekal; tetap",
+   "lemma",
+   "muqim-1",
+   "ms"
+  ],
+  [
+   "lasting; established",
+   "lemma",
+   "muqim-1",
+   "en"
+  ],
+  [
+   "one who is certain",
+   "lemma",
+   "muqin-1",
+   "en"
+  ],
+  [
+   "orang yang yakin",
+   "lemma",
+   "muqin-1",
+   "ms"
+  ],
+  [
+   "a sustainer",
+   "lemma",
+   "muqit-1",
+   "en"
+  ],
+  [
+   "pemberi rezeki",
+   "lemma",
+   "muqit-1",
+   "ms"
+  ],
+  [
+   "able to subdue",
+   "lemma",
+   "muqrin-1",
+   "en"
+  ],
+  [
+   "mampu menguasai",
+   "lemma",
+   "muqrin-1",
+   "ms"
+  ],
+  [
+   "one who acts justly",
+   "lemma",
+   "muqsit-1",
+   "en"
+  ],
+  [
+   "orang yang adil",
+   "lemma",
+   "muqsit-1",
+   "ms"
+  ],
+  [
+   "all-powerful",
+   "lemma",
+   "muqtadir-1",
+   "en"
+  ],
+  [
+   "maha berkuasa",
+   "lemma",
+   "muqtadir-1",
+   "ms"
+  ],
+  [
+   "moderate",
+   "lemma",
+   "muqtasid-1",
+   "en"
+  ],
+  [
+   "sederhana",
+   "lemma",
+   "muqtasid-1",
+   "ms"
+  ],
+  [
+   "pengembara padang pasir",
+   "lemma",
+   "muqwi-1",
+   "ms"
+  ],
+  [
+   "travellers in the desert",
+   "lemma",
+   "muqwi-1",
+   "en"
+  ],
+  [
+   "a nursing mother",
+   "lemma",
+   "murdia-1",
+   "en"
+  ],
+  [
+   "ibu yang menyusukan",
+   "lemma",
+   "murdia-1",
+   "ms"
+  ],
+  [
+   "causing grave doubt",
+   "lemma",
+   "murib-1",
+   "en"
+  ],
+  [
+   "menimbulkan keraguan",
+   "lemma",
+   "murib-1",
+   "ms"
+  ],
+  [
    "one who turns away",
    "lemma",
    "murid-1",
@@ -10645,6 +56120,42 @@ const QM_SEARCH_INDEX = {
    "orang yang berpaling",
    "lemma",
    "murid-1",
+   "ms"
+  ],
+  [
+   "those that strike fire",
+   "lemma",
+   "muriyat-1",
+   "en"
+  ],
+  [
+   "yang memercikkan api",
+   "lemma",
+   "muriyat-1",
+   "ms"
+  ],
+  [
+   "one whose affair is deferred",
+   "lemma",
+   "murja-1",
+   "en"
+  ],
+  [
+   "yang ditangguhkan urusannya",
+   "lemma",
+   "murja-1",
+   "ms"
+  ],
+  [
+   "anchorage; the time of its coming to port",
+   "lemma",
+   "mursa-1",
+   "en"
+  ],
+  [
+   "labuhan",
+   "lemma",
+   "mursa-1",
    "ms"
   ],
   [
@@ -10660,6 +56171,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "one who sends",
+   "lemma",
+   "mursila-1",
+   "en"
+  ],
+  [
+   "yang menghantar",
+   "lemma",
+   "mursila-1",
+   "ms"
+  ],
+  [
+   "a resting-place",
+   "lemma",
+   "murtafaq-1",
+   "en"
+  ],
+  [
+   "tempat bersandar",
+   "lemma",
+   "murtafaq-1",
+   "ms"
+  ],
+  [
    "moses (musa)",
    "lemma",
    "musa-1",
@@ -10669,6 +56204,30 @@ const QM_SEARCH_INDEX = {
    "nabi musa",
    "lemma",
    "musa-1",
+   "ms"
+  ],
+  [
+   "one who glorifies",
+   "lemma",
+   "musabbih-1",
+   "en"
+  ],
+  [
+   "orang yang bertasbih",
+   "lemma",
+   "musabbih-1",
+   "ms"
+  ],
+  [
+   "closed over",
+   "lemma",
+   "musada-1",
+   "en"
+  ],
+  [
+   "ditutup rapat",
+   "lemma",
+   "musada-1",
    "ms"
   ],
   [
@@ -10684,6 +56243,66 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "one who commits fornication",
+   "lemma",
+   "musafih-1",
+   "en"
+  ],
+  [
+   "orang yang berzina",
+   "lemma",
+   "musafih-1",
+   "ms"
+  ],
+  [
+   "one thoroughly bewitched",
+   "lemma",
+   "musahhar-1",
+   "en"
+  ],
+  [
+   "yang disihir",
+   "lemma",
+   "musahhar-1",
+   "ms"
+  ],
+  [
+   "ditundukkan",
+   "lemma",
+   "musakhkhar-1",
+   "ms"
+  ],
+  [
+   "subjugated; made subservient",
+   "lemma",
+   "musakhkhar-1",
+   "en"
+  ],
+  [
+   "sound; free from blemish",
+   "lemma",
+   "musallama-1",
+   "en"
+  ],
+  [
+   "tidak bercacat",
+   "lemma",
+   "musallama-1",
+   "ms"
+  ],
+  [
+   "one who prays",
+   "lemma",
+   "musalli-1",
+   "en"
+  ],
+  [
+   "orang yang bersolat",
+   "lemma",
+   "musalli-1",
+   "ms"
+  ],
+  [
    "appointed; named",
    "lemma",
    "musamma-1",
@@ -10693,6 +56312,78 @@ const QM_SEARCH_INDEX = {
    "yang ditetapkan; bernama",
    "lemma",
    "musamma-1",
+   "ms"
+  ],
+  [
+   "blackened",
+   "lemma",
+   "musawwad-1",
+   "en"
+  ],
+  [
+   "hitam",
+   "lemma",
+   "musawwad-1",
+   "ms"
+  ],
+  [
+   "bertanda",
+   "lemma",
+   "musawwam-1",
+   "ms"
+  ],
+  [
+   "marked; branded",
+   "lemma",
+   "musawwam-1",
+   "en"
+  ],
+  [
+   "one in authority",
+   "lemma",
+   "musaytir-1",
+   "en"
+  ],
+  [
+   "yang berkuasa",
+   "lemma",
+   "musaytir-1",
+   "ms"
+  ],
+  [
+   "one who enters the morning",
+   "lemma",
+   "musbih-1",
+   "en"
+  ],
+  [
+   "orang yang berpagi-pagi",
+   "lemma",
+   "musbih-1",
+   "ms"
+  ],
+  [
+   "menguning",
+   "lemma",
+   "musfarr-1",
+   "ms"
+  ],
+  [
+   "yellowed",
+   "lemma",
+   "musfarr-1",
+   "en"
+  ],
+  [
+   "fearful; concerned",
+   "lemma",
+   "mushfiq-1",
+   "en"
+  ],
+  [
+   "takut; bimbang",
+   "lemma",
+   "mushfiq-1",
    "ms"
   ],
   [
@@ -10708,6 +56399,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "at sunrise",
+   "lemma",
+   "mushriq-1",
+   "en"
+  ],
+  [
+   "ketika terbit matahari",
+   "lemma",
+   "mushriq-1",
+   "ms"
+  ],
+  [
+   "sharing together",
+   "lemma",
+   "mushtarik-1",
+   "en"
+  ],
+  [
+   "turut serta",
+   "lemma",
+   "mushtarik-1",
+   "ms"
+  ],
+  [
+   "orang yang berbuat jahat",
+   "lemma",
+   "musi-1",
+   "ms"
+  ],
+  [
+   "the evil-doer",
+   "lemma",
+   "musi-1",
+   "en"
+  ],
+  [
+   "one who has ample means",
+   "lemma",
+   "musi-2",
+   "en"
+  ],
+  [
+   "yang mempunyai kelapangan",
+   "lemma",
+   "musi-2",
+   "ms"
+  ],
+  [
+   "misfortune; calamity",
+   "lemma",
+   "musiba-1",
+   "en"
+  ],
+  [
+   "musibah",
+   "lemma",
+   "musiba-1",
+   "ms"
+  ],
+  [
+   "one who reforms",
+   "lemma",
+   "muslih-1",
+   "en"
+  ],
+  [
+   "pembuat kebaikan",
+   "lemma",
+   "muslih-1",
+   "ms"
+  ],
+  [
    "one who submits (to god); muslim",
    "lemma",
    "muslim-1",
@@ -10717,6 +56480,126 @@ const QM_SEARCH_INDEX = {
    "orang yang berserah diri; muslim",
    "lemma",
    "muslim-1",
+   "ms"
+  ],
+  [
+   "one who makes (another) hear",
+   "lemma",
+   "musmi-1",
+   "en"
+  ],
+  [
+   "pemperdengar",
+   "lemma",
+   "musmi-1",
+   "ms"
+  ],
+  [
+   "one who exceeds the limits; extravagant",
+   "lemma",
+   "musrif-1",
+   "en"
+  ],
+  [
+   "orang yang melampaui batas",
+   "lemma",
+   "musrif-1",
+   "ms"
+  ],
+  [
+   "one who helps (answering a cry)",
+   "lemma",
+   "musrikh-1",
+   "en"
+  ],
+  [
+   "penolong",
+   "lemma",
+   "musrikh-1",
+   "ms"
+  ],
+  [
+   "tempat memohon pertolongan",
+   "lemma",
+   "mustaan-1",
+   "ms"
+  ],
+  [
+   "the one whose help is sought",
+   "lemma",
+   "mustaan-1",
+   "en"
+  ],
+  [
+   "one deemed weak; oppressed",
+   "lemma",
+   "mustadaf-1",
+   "en"
+  ],
+  [
+   "orang yang ditindas",
+   "lemma",
+   "mustadaf-1",
+   "ms"
+  ],
+  [
+   "one who mocks",
+   "lemma",
+   "mustahzi-1",
+   "en"
+  ],
+  [
+   "pengolok-olok",
+   "lemma",
+   "mustahzi-1",
+   "ms"
+  ],
+  [
+   "one who is arrogant",
+   "lemma",
+   "mustakbir-1",
+   "en"
+  ],
+  [
+   "yang menyombongkan diri",
+   "lemma",
+   "mustakbir-1",
+   "ms"
+  ],
+  [
+   "one who listens",
+   "lemma",
+   "mustami-1",
+   "en"
+  ],
+  [
+   "pendengar",
+   "lemma",
+   "mustami-1",
+   "ms"
+  ],
+  [
+   "berterusan",
+   "lemma",
+   "mustamirr-1",
+   "ms"
+  ],
+  [
+   "continuing; passing",
+   "lemma",
+   "mustamirr-1",
+   "en"
+  ],
+  [
+   "resting place; settled",
+   "lemma",
+   "mustaqarr-1",
+   "en"
+  ],
+  [
+   "tempat menetap",
+   "lemma",
+   "mustaqarr-1",
    "ms"
   ],
   [
@@ -10732,6 +56615,318 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "tertulis",
+   "lemma",
+   "mustatar-1",
+   "ms"
+  ],
+  [
+   "written down",
+   "lemma",
+   "mustatar-1",
+   "en"
+  ],
+  [
+   "menyebar luas",
+   "lemma",
+   "mustatir-1",
+   "ms"
+  ],
+  [
+   "spreading far and wide",
+   "lemma",
+   "mustatir-1",
+   "en"
+  ],
+  [
+   "a depository",
+   "lemma",
+   "mustawdaa-1",
+   "en"
+  ],
+  [
+   "tempat simpanan",
+   "lemma",
+   "mustawdaa-1",
+   "ms"
+  ],
+  [
+   "obeyed",
+   "lemma",
+   "mutaa-1",
+   "en"
+  ],
+  [
+   "yang ditaati",
+   "lemma",
+   "mutaa-1",
+   "ms"
+  ],
+  [
+   "one who intends",
+   "lemma",
+   "mutaammid-1",
+   "en"
+  ],
+  [
+   "orang yang sengaja",
+   "lemma",
+   "mutaammid-1",
+   "ms"
+  ],
+  [
+   "pelampau batas",
+   "lemma",
+   "mutadi-1",
+   "ms"
+  ],
+  [
+   "transgressor",
+   "lemma",
+   "mutadi-1",
+   "en"
+  ],
+  [
+   "berpecah",
+   "lemma",
+   "mutafarriq-1",
+   "ms"
+  ],
+  [
+   "scattered",
+   "lemma",
+   "mutafarriq-1",
+   "en"
+  ],
+  [
+   "purified",
+   "lemma",
+   "mutahhar-1",
+   "en"
+  ],
+  [
+   "yang disucikan",
+   "lemma",
+   "mutahhar-1",
+   "ms"
+  ],
+  [
+   "one who purifies",
+   "lemma",
+   "mutahhir-1",
+   "en"
+  ],
+  [
+   "yang menyucikan",
+   "lemma",
+   "mutahhir-1",
+   "ms"
+  ],
+  [
+   "arrogant",
+   "lemma",
+   "mutakabbir-1",
+   "en"
+  ],
+  [
+   "sombong",
+   "lemma",
+   "mutakabbir-1",
+   "ms"
+  ],
+  [
+   "berhadap-hadapan",
+   "lemma",
+   "mutaqabil-1",
+   "ms"
+  ],
+  [
+   "facing one another",
+   "lemma",
+   "mutaqabil-1",
+   "en"
+  ],
+  [
+   "one who waits",
+   "lemma",
+   "mutarabbis-1",
+   "en"
+  ],
+  [
+   "orang yang menunggu",
+   "lemma",
+   "mutarabbis-1",
+   "ms"
+  ],
+  [
+   "one who gives in charity",
+   "lemma",
+   "mutasaddiq-1",
+   "en"
+  ],
+  [
+   "orang yang bersedekah",
+   "lemma",
+   "mutasaddiq-1",
+   "ms"
+  ],
+  [
+   "serupa",
+   "lemma",
+   "mutashabih-1",
+   "ms"
+  ],
+  [
+   "similar; resembling one another",
+   "lemma",
+   "mutashabih-1",
+   "en"
+  ],
+  [
+   "berturut-turut",
+   "lemma",
+   "mutatabi-1",
+   "ms"
+  ],
+  [
+   "consecutive",
+   "lemma",
+   "mutatabi-1",
+   "en"
+  ],
+  [
+   "one who relies (on god)",
+   "lemma",
+   "mutawakkil-1",
+   "en"
+  ],
+  [
+   "orang yang bertawakal",
+   "lemma",
+   "mutawakkil-1",
+   "ms"
+  ],
+  [
+   "burdened",
+   "lemma",
+   "muthqal-1",
+   "en"
+  ],
+  [
+   "terbeban",
+   "lemma",
+   "muthqal-1",
+   "ms"
+  ],
+  [
+   "one who completes",
+   "lemma",
+   "mutimm-1",
+   "en"
+  ],
+  [
+   "yang menyempurnakan",
+   "lemma",
+   "mutimm-1",
+   "ms"
+  ],
+  [
+   "at peace; settled",
+   "lemma",
+   "mutmainn-1",
+   "en"
+  ],
+  [
+   "tenang",
+   "lemma",
+   "mutmainn-1",
+   "ms"
+  ],
+  [
+   "a pampered one",
+   "lemma",
+   "mutraf-1",
+   "en"
+  ],
+  [
+   "orang yang bermewah-mewah",
+   "lemma",
+   "mutraf-1",
+   "ms"
+  ],
+  [
+   "diikuti",
+   "lemma",
+   "muttabaun-1",
+   "ms"
+  ],
+  [
+   "followed; pursued",
+   "lemma",
+   "muttabaun-1",
+   "en"
+  ],
+  [
+   "one who keeps clean",
+   "lemma",
+   "muttahhir-1",
+   "en"
+  ],
+  [
+   "yang menyucikan diri",
+   "lemma",
+   "muttahhir-1",
+   "ms"
+  ],
+  [
+   "one who takes (as)",
+   "lemma",
+   "muttakhidh-1",
+   "en"
+  ],
+  [
+   "orang yang mengambil",
+   "lemma",
+   "muttakhidh-1",
+   "ms"
+  ],
+  [
+   "one who reclines",
+   "lemma",
+   "muttaki-1",
+   "en"
+  ],
+  [
+   "orang yang bersandar",
+   "lemma",
+   "muttaki-1",
+   "ms"
+  ],
+  [
+   "a cushion; a banquet",
+   "lemma",
+   "muttaki-2",
+   "en"
+  ],
+  [
+   "tempat bersandar",
+   "lemma",
+   "muttaki-2",
+   "ms"
+  ],
+  [
+   "one who looks down",
+   "lemma",
+   "muttali-1",
+   "en"
+  ],
+  [
+   "orang yang meninjau",
+   "lemma",
+   "muttali-1",
+   "ms"
+  ],
+  [
    "one who is god-conscious / mindful of god",
    "lemma",
    "muttaqin-1",
@@ -10744,6 +56939,90 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "orang yang sukarela",
+   "lemma",
+   "muttawwi-1",
+   "ms"
+  ],
+  [
+   "volunteer",
+   "lemma",
+   "muttawwi-1",
+   "en"
+  ],
+  [
+   "one who fulfils",
+   "lemma",
+   "muwaffa-1",
+   "en"
+  ],
+  [
+   "yang menunaikan",
+   "lemma",
+   "muwaffa-1",
+   "ms"
+  ],
+  [
+   "one who turns (something) towards",
+   "lemma",
+   "muwalli-1",
+   "en"
+  ],
+  [
+   "yang menghadap",
+   "lemma",
+   "muwalli-1",
+   "ms"
+  ],
+  [
+   "one about to fall into",
+   "lemma",
+   "muwaqi-1",
+   "en"
+  ],
+  [
+   "yang akan terjerumus",
+   "lemma",
+   "muwaqi-1",
+   "ms"
+  ],
+  [
+   "of little worth",
+   "lemma",
+   "muzja-1",
+   "en"
+  ],
+  [
+   "tidak seberapa",
+   "lemma",
+   "muzja-1",
+   "ms"
+  ],
+  [
+   "dark; plunged in darkness",
+   "lemma",
+   "muzlim-1",
+   "en"
+  ],
+  [
+   "gelap",
+   "lemma",
+   "muzlim-1",
+   "ms"
+  ],
+  [
+   "ya",
+   "lemma",
+   "naam-1",
+   "ms"
+  ],
+  [
+   "yes",
+   "lemma",
+   "naam-1",
+   "en"
+  ],
+  [
    "berita",
    "lemma",
    "naba-1",
@@ -10753,6 +57032,66 @@ const QM_SEARCH_INDEX = {
    "news; tidings",
    "lemma",
    "naba-1",
+   "en"
+  ],
+  [
+   "mencampakkan",
+   "lemma",
+   "nabadha-1",
+   "ms"
+  ],
+  [
+   "to cast away",
+   "lemma",
+   "nabadha-1",
+   "en"
+  ],
+  [
+   "plant growth; vegetation",
+   "lemma",
+   "nabat-1",
+   "en"
+  ],
+  [
+   "tumbuh-tumbuhan",
+   "lemma",
+   "nabat-1",
+   "ms"
+  ],
+  [
+   "to grow",
+   "lemma",
+   "nabata-1",
+   "en"
+  ],
+  [
+   "tumbuh",
+   "lemma",
+   "nabata-1",
+   "ms"
+  ],
+  [
+   "memberitahu",
+   "lemma",
+   "nabba-1",
+   "ms"
+  ],
+  [
+   "to inform; to tell",
+   "lemma",
+   "nabba-1",
+   "en"
+  ],
+  [
+   "memberitahu",
+   "lemma",
+   "nabbaa-2",
+   "ms"
+  ],
+  [
+   "to inform",
+   "lemma",
+   "nabbaa-2",
    "en"
   ],
   [
@@ -10780,6 +57119,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "an assembly",
+   "lemma",
+   "nada-2",
+   "en"
+  ],
+  [
+   "majlis",
+   "lemma",
+   "nada-2",
+   "ms"
+  ],
+  [
+   "penyesalan",
+   "lemma",
+   "nadama-1",
+   "ms"
+  ],
+  [
+   "regret",
+   "lemma",
+   "nadama-1",
+   "en"
+  ],
+  [
+   "bernazar",
+   "lemma",
+   "nadhara-1",
+   "ms"
+  ],
+  [
+   "to vow",
+   "lemma",
+   "nadhara-1",
+   "en"
+  ],
+  [
    "pemberi peringatan",
    "lemma",
    "nadhir-1",
@@ -10789,6 +57164,90 @@ const QM_SEARCH_INDEX = {
    "warner",
    "lemma",
    "nadhir-1",
+   "en"
+  ],
+  [
+   "a vow",
+   "lemma",
+   "nadhr-1",
+   "en"
+  ],
+  [
+   "nazar",
+   "lemma",
+   "nadhr-1",
+   "ms"
+  ],
+  [
+   "menyesal",
+   "lemma",
+   "nadim-1",
+   "ms"
+  ],
+  [
+   "regretful",
+   "lemma",
+   "nadim-1",
+   "en"
+  ],
+  [
+   "berseri",
+   "lemma",
+   "nadira-1",
+   "ms"
+  ],
+  [
+   "radiant",
+   "lemma",
+   "nadira-1",
+   "en"
+  ],
+  [
+   "an assembly; a gathering",
+   "lemma",
+   "nadiyy-1",
+   "en"
+  ],
+  [
+   "perhimpunan",
+   "lemma",
+   "nadiyy-1",
+   "ms"
+  ],
+  [
+   "radiance",
+   "lemma",
+   "nadra-1",
+   "en"
+  ],
+  [
+   "seri",
+   "lemma",
+   "nadra-1",
+   "ms"
+  ],
+  [
+   "benefit; profit",
+   "lemma",
+   "naf-1",
+   "en"
+  ],
+  [
+   "manfaat; faedah",
+   "lemma",
+   "naf-1",
+   "ms"
+  ],
+  [
+   "membuang negeri",
+   "lemma",
+   "nafa-1",
+   "ms"
+  ],
+  [
+   "to banish",
+   "lemma",
+   "nafa-1",
    "en"
   ],
   [
@@ -10804,6 +57263,126 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "exhaustion",
+   "lemma",
+   "nafad-1",
+   "en"
+  ],
+  [
+   "kehabisan",
+   "lemma",
+   "nafad-1",
+   "ms"
+  ],
+  [
+   "menembusi",
+   "lemma",
+   "nafadha-1",
+   "ms"
+  ],
+  [
+   "to pass through",
+   "lemma",
+   "nafadha-1",
+   "en"
+  ],
+  [
+   "meniup",
+   "lemma",
+   "nafakha-1",
+   "ms"
+  ],
+  [
+   "to blow; to breathe into",
+   "lemma",
+   "nafakha-1",
+   "en"
+  ],
+  [
+   "a tunnel",
+   "lemma",
+   "nafaq-1",
+   "en"
+  ],
+  [
+   "terowong",
+   "lemma",
+   "nafaq-1",
+   "ms"
+  ],
+  [
+   "berpura-pura (munafik)",
+   "lemma",
+   "nafaqa-1",
+   "ms"
+  ],
+  [
+   "to be hypocritical",
+   "lemma",
+   "nafaqa-1",
+   "en"
+  ],
+  [
+   "expenditure",
+   "lemma",
+   "nafaqa-2",
+   "en"
+  ],
+  [
+   "perbelanjaan",
+   "lemma",
+   "nafaqa-2",
+   "ms"
+  ],
+  [
+   "a group of men",
+   "lemma",
+   "nafar-1",
+   "en"
+  ],
+  [
+   "sekumpulan orang",
+   "lemma",
+   "nafar-1",
+   "ms"
+  ],
+  [
+   "keluar; berangkat",
+   "lemma",
+   "nafara-1",
+   "ms"
+  ],
+  [
+   "to go forth; to march out",
+   "lemma",
+   "nafara-1",
+   "en"
+  ],
+  [
+   "habis",
+   "lemma",
+   "nafida-1",
+   "ms"
+  ],
+  [
+   "to be exhausted",
+   "lemma",
+   "nafida-1",
+   "en"
+  ],
+  [
+   "an extra gift",
+   "lemma",
+   "nafila-1",
+   "en"
+  ],
+  [
+   "tambahan",
+   "lemma",
+   "nafila-1",
+   "ms"
+  ],
+  [
    "diri; jiwa; orang",
    "lemma",
    "nafs-1",
@@ -10813,6 +57392,30 @@ const QM_SEARCH_INDEX = {
    "self; soul; person",
    "lemma",
    "nafs-1",
+   "en"
+  ],
+  [
+   "melarang",
+   "lemma",
+   "naha-1",
+   "ms"
+  ],
+  [
+   "to forbid",
+   "lemma",
+   "naha-1",
+   "en"
+  ],
+  [
+   "melarang",
+   "lemma",
+   "nahaa-1",
+   "ms"
+  ],
+  [
+   "to forbid; to prohibit",
+   "lemma",
+   "nahaa-1",
    "en"
   ],
   [
@@ -10826,6 +57429,54 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "nahar-1",
    "ms"
+  ],
+  [
+   "menengking",
+   "lemma",
+   "nahara-1",
+   "ms"
+  ],
+  [
+   "to rebuke harshly",
+   "lemma",
+   "nahara-1",
+   "en"
+  ],
+  [
+   "memahat",
+   "lemma",
+   "nahata-1",
+   "ms"
+  ],
+  [
+   "to hew (rocks)",
+   "lemma",
+   "nahata-1",
+   "en"
+  ],
+  [
+   "one who forbids",
+   "lemma",
+   "nahi-1",
+   "en"
+  ],
+  [
+   "orang yang melarang",
+   "lemma",
+   "nahi-1",
+   "ms"
+  ],
+  [
+   "lebah",
+   "lemma",
+   "nahl-1",
+   "ms"
+  ],
+  [
+   "the bee",
+   "lemma",
+   "nahl-1",
+   "en"
   ],
   [
    "kami; kita",
@@ -10852,6 +57503,18 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "ill-omened",
+   "lemma",
+   "nahs-1",
+   "en"
+  ],
+  [
+   "malang",
+   "lemma",
+   "nahs-1",
+   "ms"
+  ],
+  [
    "bliss; delight",
    "lemma",
    "naim-1",
@@ -10864,6 +57527,78 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "bahagia",
+   "lemma",
+   "naim-2",
+   "ms"
+  ],
+  [
+   "joyful; blissful",
+   "lemma",
+   "naim-2",
+   "en"
+  ],
+  [
+   "sleeping",
+   "lemma",
+   "naim-3",
+   "en"
+  ],
+  [
+   "tidur",
+   "lemma",
+   "naim-3",
+   "ms"
+  ],
+  [
+   "selamat; terlepas",
+   "lemma",
+   "naja-1",
+   "ms"
+  ],
+  [
+   "to be saved; to escape",
+   "lemma",
+   "naja-1",
+   "en"
+  ],
+  [
+   "one who is saved",
+   "lemma",
+   "naja-2",
+   "en"
+  ],
+  [
+   "yang selamat",
+   "lemma",
+   "naja-2",
+   "ms"
+  ],
+  [
+   "a ewe",
+   "lemma",
+   "naja-3",
+   "en"
+  ],
+  [
+   "kambing betina",
+   "lemma",
+   "naja-3",
+   "ms"
+  ],
+  [
+   "confidant; one spoken to in secret",
+   "lemma",
+   "najiyy-1",
+   "en"
+  ],
+  [
+   "teman berbisik",
+   "lemma",
+   "najiyy-1",
+   "ms"
+  ],
+  [
    "menyelamatkan",
    "lemma",
    "najja-1",
@@ -10873,6 +57608,354 @@ const QM_SEARCH_INDEX = {
    "to save; to rescue",
    "lemma",
    "najja-1",
+   "en"
+  ],
+  [
+   "bintang",
+   "lemma",
+   "najm-1",
+   "ms"
+  ],
+  [
+   "star",
+   "lemma",
+   "najm-1",
+   "en"
+  ],
+  [
+   "bisikan rahsia",
+   "lemma",
+   "najwa-1",
+   "ms"
+  ],
+  [
+   "secret conversation",
+   "lemma",
+   "najwa-1",
+   "en"
+  ],
+  [
+   "keselamatan",
+   "lemma",
+   "najwa-2",
+   "ms"
+  ],
+  [
+   "salvation",
+   "lemma",
+   "najwa-2",
+   "en"
+  ],
+  [
+   "berkahwin",
+   "lemma",
+   "nakaha-1",
+   "ms"
+  ],
+  [
+   "to marry",
+   "lemma",
+   "nakaha-1",
+   "en"
+  ],
+  [
+   "an exemplary punishment",
+   "lemma",
+   "nakal-1",
+   "en"
+  ],
+  [
+   "azab pengajaran",
+   "lemma",
+   "nakal-1",
+   "ms"
+  ],
+  [
+   "memungkiri",
+   "lemma",
+   "nakatha-1",
+   "ms"
+  ],
+  [
+   "to break (a pledge)",
+   "lemma",
+   "nakatha-1",
+   "en"
+  ],
+  [
+   "date palms",
+   "lemma",
+   "nakhl-1",
+   "en"
+  ],
+  [
+   "pokok kurma",
+   "lemma",
+   "nakhl-1",
+   "ms"
+  ],
+  [
+   "a palm tree",
+   "lemma",
+   "nakhla-1",
+   "en"
+  ],
+  [
+   "pokok kurma",
+   "lemma",
+   "nakhla-1",
+   "ms"
+  ],
+  [
+   "denial; disapproval",
+   "lemma",
+   "nakir-1",
+   "en"
+  ],
+  [
+   "pengingkaran; teguran",
+   "lemma",
+   "nakir-1",
+   "ms"
+  ],
+  [
+   "curiga",
+   "lemma",
+   "nakira-1",
+   "ms"
+  ],
+  [
+   "to mistrust; to find strange",
+   "lemma",
+   "nakira-1",
+   "en"
+  ],
+  [
+   "hanging (the heads)",
+   "lemma",
+   "nakis-1",
+   "en"
+  ],
+  [
+   "menundukkan kepala",
+   "lemma",
+   "nakis-1",
+   "ms"
+  ],
+  [
+   "membebani",
+   "lemma",
+   "nakkafa-1",
+   "ms"
+  ],
+  [
+   "to burden",
+   "lemma",
+   "nakkafa-1",
+   "en"
+  ],
+  [
+   "menyamarkan",
+   "lemma",
+   "nakkara-1",
+   "ms"
+  ],
+  [
+   "to disguise",
+   "lemma",
+   "nakkara-1",
+   "en"
+  ],
+  [
+   "menundukkan kepala; membalikkan",
+   "lemma",
+   "nakkasa-1",
+   "ms"
+  ],
+  [
+   "to hang the head; to reverse",
+   "lemma",
+   "nakkasa-1",
+   "en"
+  ],
+  [
+   "mencapai",
+   "lemma",
+   "nala-1",
+   "ms"
+  ],
+  [
+   "to attain; to reach",
+   "lemma",
+   "nala-1",
+   "en"
+  ],
+  [
+   "a blessing; favour",
+   "lemma",
+   "nama-1",
+   "en"
+  ],
+  [
+   "nikmat",
+   "lemma",
+   "nama-1",
+   "ms"
+  ],
+  [
+   "ants",
+   "lemma",
+   "naml-1",
+   "en"
+  ],
+  [
+   "semut",
+   "lemma",
+   "naml-1",
+   "ms"
+  ],
+  [
+   "memberi kesenangan",
+   "lemma",
+   "nammaa-1",
+   "ms"
+  ],
+  [
+   "to make comfortable",
+   "lemma",
+   "nammaa-1",
+   "en"
+  ],
+  [
+   "a she-camel",
+   "lemma",
+   "naqa-1",
+   "en"
+  ],
+  [
+   "unta betina",
+   "lemma",
+   "naqa-1",
+   "ms"
+  ],
+  [
+   "memungkiri; membatalkan",
+   "lemma",
+   "naqada-1",
+   "ms"
+  ],
+  [
+   "to break (a pledge); to undo",
+   "lemma",
+   "naqada-1",
+   "en"
+  ],
+  [
+   "membenci; membalas",
+   "lemma",
+   "naqama-1",
+   "ms"
+  ],
+  [
+   "to resent; to take vengeance",
+   "lemma",
+   "naqama-1",
+   "en"
+  ],
+  [
+   "meniup",
+   "lemma",
+   "naqara-1",
+   "ms"
+  ],
+  [
+   "to blow (the trumpet)",
+   "lemma",
+   "naqara-1",
+   "en"
+  ],
+  [
+   "mengurangi",
+   "lemma",
+   "naqasa-1",
+   "ms"
+  ],
+  [
+   "to diminish",
+   "lemma",
+   "naqasa-1",
+   "en"
+  ],
+  [
+   "a way; a passage",
+   "lemma",
+   "naqb-1",
+   "en"
+  ],
+  [
+   "jalan",
+   "lemma",
+   "naqb-1",
+   "ms"
+  ],
+  [
+   "a chief; a leader",
+   "lemma",
+   "naqib-1",
+   "en"
+  ],
+  [
+   "ketua",
+   "lemma",
+   "naqib-1",
+   "ms"
+  ],
+  [
+   "a speck on a date-stone",
+   "lemma",
+   "naqir-1",
+   "en"
+  ],
+  [
+   "bintik kecil",
+   "lemma",
+   "naqir-1",
+   "ms"
+  ],
+  [
+   "menjelajah",
+   "lemma",
+   "naqqaba-1",
+   "ms"
+  ],
+  [
+   "to explore; to roam",
+   "lemma",
+   "naqqaba-1",
+   "en"
+  ],
+  [
+   "diminution",
+   "lemma",
+   "naqs-1",
+   "en"
+  ],
+  [
+   "pengurangan",
+   "lemma",
+   "naqs-1",
+   "ms"
+  ],
+  [
+   "sangkakala",
+   "lemma",
+   "naqur-1",
+   "ms"
+  ],
+  [
+   "the trumpet",
+   "lemma",
+   "naqur-1",
    "en"
   ],
   [
@@ -10900,6 +57983,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "keletihan",
+   "lemma",
+   "nasab-1",
+   "ms"
+  ],
+  [
+   "toil; fatigue",
+   "lemma",
+   "nasab-1",
+   "en"
+  ],
+  [
+   "keturunan",
+   "lemma",
+   "nasab-2",
+   "ms"
+  ],
+  [
+   "lineage; kinship",
+   "lemma",
+   "nasab-2",
+   "en"
+  ],
+  [
+   "bersusah payah; menegakkan",
+   "lemma",
+   "nasaba-1",
+   "ms"
+  ],
+  [
+   "to toil; to set up",
+   "lemma",
+   "nasaba-1",
+   "en"
+  ],
+  [
+   "menghancurkan",
+   "lemma",
+   "nasafa-1",
+   "ms"
+  ],
+  [
+   "to scatter",
+   "lemma",
+   "nasafa-1",
+   "en"
+  ],
+  [
+   "menasihati dengan ikhlas",
+   "lemma",
+   "nasaha-1",
+   "ms"
+  ],
+  [
+   "to advise sincerely",
+   "lemma",
+   "nasaha-1",
+   "en"
+  ],
+  [
+   "bergegas keluar",
+   "lemma",
+   "nasala-1",
+   "ms"
+  ],
+  [
+   "to hasten forth",
+   "lemma",
+   "nasala-1",
+   "en"
+  ],
+  [
    "christians",
    "lemma",
    "nasara-1",
@@ -10924,6 +58079,138 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a christian",
+   "lemma",
+   "nasara-3",
+   "en"
+  ],
+  [
+   "seorang nasrani",
+   "lemma",
+   "nasara-3",
+   "ms"
+  ],
+  [
+   "menerbangkan",
+   "lemma",
+   "nasf-1",
+   "ms"
+  ],
+  [
+   "scattering (as dust)",
+   "lemma",
+   "nasf-1",
+   "en"
+  ],
+  [
+   "a creation; an origination",
+   "lemma",
+   "nashaa-1",
+   "en"
+  ],
+  [
+   "penciptaan",
+   "lemma",
+   "nashaa-1",
+   "ms"
+  ],
+  [
+   "membesar",
+   "lemma",
+   "nashaa-2",
+   "ms"
+  ],
+  [
+   "to grow up; to arise",
+   "lemma",
+   "nashaa-2",
+   "en"
+  ],
+  [
+   "menyebarkan",
+   "lemma",
+   "nashara-1",
+   "ms"
+  ],
+  [
+   "to spread out",
+   "lemma",
+   "nashara-1",
+   "en"
+  ],
+  [
+   "bangun",
+   "lemma",
+   "nashaza-1",
+   "ms"
+  ],
+  [
+   "to rise up",
+   "lemma",
+   "nashaza-1",
+   "en"
+  ],
+  [
+   "bangun malam",
+   "lemma",
+   "nashia-1",
+   "ms"
+  ],
+  [
+   "rising by night",
+   "lemma",
+   "nashia-1",
+   "en"
+  ],
+  [
+   "those that spread out",
+   "lemma",
+   "nashir-1",
+   "en"
+  ],
+  [
+   "yang menyebarkan",
+   "lemma",
+   "nashir-1",
+   "ms"
+  ],
+  [
+   "menyebar",
+   "lemma",
+   "nashr-1",
+   "ms"
+  ],
+  [
+   "spreading out",
+   "lemma",
+   "nashr-1",
+   "en"
+  ],
+  [
+   "dengan lembut",
+   "lemma",
+   "nasht-1",
+   "ms"
+  ],
+  [
+   "gently",
+   "lemma",
+   "nasht-1",
+   "en"
+  ],
+  [
+   "penangguhan",
+   "lemma",
+   "nasi-1",
+   "ms"
+  ],
+  [
+   "postponement (of a sacred month)",
+   "lemma",
+   "nasi-1",
+   "en"
+  ],
+  [
    "bahagian; habuan",
    "lemma",
    "nasib-1",
@@ -10936,6 +58223,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "toiling",
+   "lemma",
+   "nasib-2",
+   "en"
+  ],
+  [
+   "yang bersusah payah",
+   "lemma",
+   "nasib-2",
+   "ms"
+  ],
+  [
+   "a sincere adviser",
+   "lemma",
+   "nasih-1",
+   "en"
+  ],
+  [
+   "penasihat yang ikhlas",
+   "lemma",
+   "nasih-1",
+   "ms"
+  ],
+  [
+   "one who performs a rite",
+   "lemma",
+   "nasik-1",
+   "en"
+  ],
+  [
+   "pelaksana ibadah",
+   "lemma",
+   "nasik-1",
+   "ms"
+  ],
+  [
    "helper",
    "lemma",
    "nasir-1",
@@ -10945,6 +58268,18 @@ const QM_SEARCH_INDEX = {
    "penolong",
    "lemma",
    "nasir-1",
+   "ms"
+  ],
+  [
+   "helper",
+   "lemma",
+   "nasir-2",
+   "en"
+  ],
+  [
+   "penolong",
+   "lemma",
+   "nasir-2",
    "ms"
   ],
   [
@@ -10960,6 +58295,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a forelock",
+   "lemma",
+   "nasiya-2",
+   "en"
+  ],
+  [
+   "ubun-ubun",
+   "lemma",
+   "nasiya-2",
+   "ms"
+  ],
+  [
+   "something forgotten",
+   "lemma",
+   "nasiyy-1",
+   "en"
+  ],
+  [
+   "yang dilupakan",
+   "lemma",
+   "nasiyy-1",
+   "ms"
+  ],
+  [
+   "offspring; progeny",
+   "lemma",
+   "nasl-1",
+   "en"
+  ],
+  [
+   "zuriat",
+   "lemma",
+   "nasl-1",
+   "ms"
+  ],
+  [
    "help; victory",
    "lemma",
    "nasr-1",
@@ -10970,6 +58341,126 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "nasr-1",
    "ms"
+  ],
+  [
+   "nasr (an idol); a vulture",
+   "lemma",
+   "nasr-2",
+   "en"
+  ],
+  [
+   "nasr (berhala); burung nasar",
+   "lemma",
+   "nasr-2",
+   "ms"
+  ],
+  [
+   "sincere",
+   "lemma",
+   "nasuh-1",
+   "en"
+  ],
+  [
+   "yang ikhlas",
+   "lemma",
+   "nasuh-1",
+   "ms"
+  ],
+  [
+   "forgetting",
+   "lemma",
+   "nasy-1",
+   "en"
+  ],
+  [
+   "lupa",
+   "lemma",
+   "nasy-1",
+   "ms"
+  ],
+  [
+   "bercakap; menuturkan",
+   "lemma",
+   "nataqa-1",
+   "ms"
+  ],
+  [
+   "to speak; to utter",
+   "lemma",
+   "nataqa-1",
+   "en"
+  ],
+  [
+   "biji kurma",
+   "lemma",
+   "nawaa-1",
+   "ms"
+  ],
+  [
+   "the date-stone; the kernel",
+   "lemma",
+   "nawaa-1",
+   "en"
+  ],
+  [
+   "sleep",
+   "lemma",
+   "nawm-1",
+   "en"
+  ],
+  [
+   "tidur",
+   "lemma",
+   "nawm-1",
+   "ms"
+  ],
+  [
+   "an attainment; a gain",
+   "lemma",
+   "nayl-1",
+   "en"
+  ],
+  [
+   "perolehan",
+   "lemma",
+   "nayl-1",
+   "ms"
+  ],
+  [
+   "mencabut; menghilangkan",
+   "lemma",
+   "nazaa-1",
+   "ms"
+  ],
+  [
+   "to remove; to pull out",
+   "lemma",
+   "nazaa-1",
+   "en"
+  ],
+  [
+   "mabuk; habis",
+   "lemma",
+   "nazafa-1",
+   "ms"
+  ],
+  [
+   "to be intoxicated or drained",
+   "lemma",
+   "nazafa-1",
+   "en"
+  ],
+  [
+   "menghasut",
+   "lemma",
+   "nazagha-1",
+   "ms"
+  ],
+  [
+   "to incite",
+   "lemma",
+   "nazagha-1",
+   "en"
   ],
   [
    "to descend",
@@ -10996,6 +58487,90 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "an incitement (by satan)",
+   "lemma",
+   "nazgh-1",
+   "en"
+  ],
+  [
+   "hasutan",
+   "lemma",
+   "nazgh-1",
+   "ms"
+  ],
+  [
+   "those that pull out",
+   "lemma",
+   "nazia-1",
+   "en"
+  ],
+  [
+   "yang mencabut",
+   "lemma",
+   "nazia-1",
+   "ms"
+  ],
+  [
+   "one who looks",
+   "lemma",
+   "nazir-1",
+   "en"
+  ],
+  [
+   "orang yang melihat",
+   "lemma",
+   "nazir-1",
+   "ms"
+  ],
+  [
+   "respite; a delay",
+   "lemma",
+   "nazira-1",
+   "en"
+  ],
+  [
+   "tangguh",
+   "lemma",
+   "nazira-1",
+   "ms"
+  ],
+  [
+   "a descent",
+   "lemma",
+   "nazla-1",
+   "en"
+  ],
+  [
+   "turunan",
+   "lemma",
+   "nazla-1",
+   "ms"
+  ],
+  [
+   "a look; a glance",
+   "lemma",
+   "nazra-1",
+   "en"
+  ],
+  [
+   "pandangan",
+   "lemma",
+   "nazra-1",
+   "ms"
+  ],
+  [
+   "a snatcher (of the scalp)",
+   "lemma",
+   "nazzaa-1",
+   "en"
+  ],
+  [
+   "penarik kulit",
+   "lemma",
+   "nazzaa-1",
+   "ms"
+  ],
+  [
    "menurunkan (beransur-ansur)",
    "lemma",
    "nazzala-1",
@@ -11018,6 +58593,66 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "niama-1",
    "en"
+  ],
+  [
+   "a call",
+   "lemma",
+   "nida-1",
+   "en"
+  ],
+  [
+   "seruan",
+   "lemma",
+   "nida-1",
+   "ms"
+  ],
+  [
+   "rival; equal (set up beside god)",
+   "lemma",
+   "nidd-1",
+   "en"
+  ],
+  [
+   "sekutu; saingan",
+   "lemma",
+   "nidd-1",
+   "ms"
+  ],
+  [
+   "hypocrisy",
+   "lemma",
+   "nifaq-1",
+   "en"
+  ],
+  [
+   "kemunafikan",
+   "lemma",
+   "nifaq-1",
+   "ms"
+  ],
+  [
+   "a free gift",
+   "lemma",
+   "nihla-1",
+   "en"
+  ],
+  [
+   "pemberian",
+   "lemma",
+   "nihla-1",
+   "ms"
+  ],
+  [
+   "marriage",
+   "lemma",
+   "nikah-1",
+   "en"
+  ],
+  [
+   "perkahwinan",
+   "lemma",
+   "nikah-1",
+   "ms"
   ],
   [
    "blessing; favour",
@@ -11044,6 +58679,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a half",
+   "lemma",
+   "nisf-1",
+   "en"
+  ],
+  [
+   "separuh",
+   "lemma",
+   "nisf-1",
+   "ms"
+  ],
+  [
+   "wanita",
+   "lemma",
+   "niswa-1",
+   "ms"
+  ],
+  [
+   "women",
+   "lemma",
+   "niswa-1",
+   "en"
+  ],
+  [
+   "drowsiness",
+   "lemma",
+   "nuas-1",
+   "en"
+  ],
+  [
+   "mengantuk",
+   "lemma",
+   "nuas-1",
+   "ms"
+  ],
+  [
+   "kenabian",
+   "lemma",
+   "nubuwwa-1",
+   "ms"
+  ],
+  [
+   "prophethood",
+   "lemma",
+   "nubuwwa-1",
+   "en"
+  ],
+  [
+   "a warning",
+   "lemma",
+   "nudhr-1",
+   "en"
+  ],
+  [
+   "amaran",
+   "lemma",
+   "nudhr-1",
+   "ms"
+  ],
+  [
+   "aversion; flight",
+   "lemma",
+   "nufur-1",
+   "en"
+  ],
+  [
+   "menjauhi; lari",
+   "lemma",
+   "nufur-1",
+   "ms"
+  ],
+  [
    "nabi nuh",
    "lemma",
    "nuh-1",
@@ -11056,6 +58763,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "akal; pemikiran",
+   "lemma",
+   "nuha-1",
+   "ms"
+  ],
+  [
+   "intellect; understanding",
+   "lemma",
+   "nuha-1",
+   "en"
+  ],
+  [
+   "molten brass",
+   "lemma",
+   "nuhas-1",
+   "en"
+  ],
+  [
+   "tembaga cair",
+   "lemma",
+   "nuhas-1",
+   "ms"
+  ],
+  [
+   "perkara yang dahsyat",
+   "lemma",
+   "nukr-1",
+   "ms"
+  ],
+  [
+   "something dreadful",
+   "lemma",
+   "nukr-1",
+   "en"
+  ],
+  [
+   "a dreadful thing",
+   "lemma",
+   "nukur-1",
+   "en"
+  ],
+  [
+   "perkara yang mengerikan",
+   "lemma",
+   "nukur-1",
+   "ms"
+  ],
+  [
+   "ikan (zun-nun)",
+   "lemma",
+   "nun-1",
+   "ms"
+  ],
+  [
+   "the fish (dhu-n-nun)",
+   "lemma",
+   "nun-1",
+   "en"
+  ],
+  [
    "cahaya",
    "lemma",
    "nur-1",
@@ -11065,6 +58832,126 @@ const QM_SEARCH_INDEX = {
    "light",
    "lemma",
    "nur-1",
+   "en"
+  ],
+  [
+   "affliction",
+   "lemma",
+   "nusb-1",
+   "en"
+  ],
+  [
+   "bencana",
+   "lemma",
+   "nusb-1",
+   "ms"
+  ],
+  [
+   "nasihat yang ikhlas",
+   "lemma",
+   "nush-1",
+   "ms"
+  ],
+  [
+   "sincere advice",
+   "lemma",
+   "nush-1",
+   "en"
+  ],
+  [
+   "kebangkitan",
+   "lemma",
+   "nushur-1",
+   "ms"
+  ],
+  [
+   "resurrection; spreading out",
+   "lemma",
+   "nushur-1",
+   "en"
+  ],
+  [
+   "ill-will; disobedience",
+   "lemma",
+   "nushuz-1",
+   "en"
+  ],
+  [
+   "keengganan; nusyuz",
+   "lemma",
+   "nushuz-1",
+   "ms"
+  ],
+  [
+   "a standing stone; an idol",
+   "lemma",
+   "nusub-1",
+   "en"
+  ],
+  [
+   "berhala; batu persembahan",
+   "lemma",
+   "nusub-1",
+   "ms"
+  ],
+  [
+   "ibadat korban",
+   "lemma",
+   "nusuk-1",
+   "ms"
+  ],
+  [
+   "sacrifice; worship",
+   "lemma",
+   "nusuk-1",
+   "en"
+  ],
+  [
+   "a drop (of fluid)",
+   "lemma",
+   "nutfa-1",
+   "en"
+  ],
+  [
+   "setitik air mani",
+   "lemma",
+   "nutfa-1",
+   "ms"
+  ],
+  [
+   "hidangan; penginapan",
+   "lemma",
+   "nuzul-1",
+   "ms"
+  ],
+  [
+   "hospitality; a lodging provided",
+   "lemma",
+   "nuzul-1",
+   "en"
+  ],
+  [
+   "a level plain",
+   "lemma",
+   "qa-1",
+   "en"
+  ],
+  [
+   "tanah rata",
+   "lemma",
+   "qa-1",
+   "ms"
+  ],
+  [
+   "duduk; tinggal",
+   "lemma",
+   "qaada-1",
+   "ms"
+  ],
+  [
+   "to sit; to stay behind",
+   "lemma",
+   "qaada-1",
    "en"
   ],
   [
@@ -11092,6 +58979,114 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bersumpah kepada",
+   "lemma",
+   "qaasama-1",
+   "ms"
+  ],
+  [
+   "to swear to",
+   "lemma",
+   "qaasama-1",
+   "en"
+  ],
+  [
+   "a span; a distance",
+   "lemma",
+   "qab-1",
+   "en"
+  ],
+  [
+   "jarak",
+   "lemma",
+   "qab-1",
+   "ms"
+  ],
+  [
+   "menggenggam; menarik",
+   "lemma",
+   "qabada-1",
+   "ms"
+  ],
+  [
+   "to grasp; to withdraw",
+   "lemma",
+   "qabada-1",
+   "en"
+  ],
+  [
+   "a firebrand",
+   "lemma",
+   "qabas-1",
+   "en"
+  ],
+  [
+   "bara api",
+   "lemma",
+   "qabas-1",
+   "ms"
+  ],
+  [
+   "gathering up; a grasp",
+   "lemma",
+   "qabd-1",
+   "en"
+  ],
+  [
+   "genggaman",
+   "lemma",
+   "qabd-1",
+   "ms"
+  ],
+  [
+   "a handful",
+   "lemma",
+   "qabda-1",
+   "en"
+  ],
+  [
+   "segenggam",
+   "lemma",
+   "qabda-1",
+   "ms"
+  ],
+  [
+   "berhadapan; kaum",
+   "lemma",
+   "qabil-1",
+   "ms"
+  ],
+  [
+   "face to face; a tribe",
+   "lemma",
+   "qabil-1",
+   "en"
+  ],
+  [
+   "one who accepts",
+   "lemma",
+   "qabil-2",
+   "en"
+  ],
+  [
+   "penerima",
+   "lemma",
+   "qabil-2",
+   "ms"
+  ],
+  [
+   "menerima",
+   "lemma",
+   "qabila-1",
+   "ms"
+  ],
+  [
+   "to accept",
+   "lemma",
+   "qabila-1",
+   "en"
+  ],
+  [
    "before",
    "lemma",
    "qabl-1",
@@ -11101,6 +59096,30 @@ const QM_SEARCH_INDEX = {
    "sebelum",
    "lemma",
    "qabl-1",
+   "ms"
+  ],
+  [
+   "grave",
+   "lemma",
+   "qabr-1",
+   "en"
+  ],
+  [
+   "kubur",
+   "lemma",
+   "qabr-1",
+   "ms"
+  ],
+  [
+   "acceptance",
+   "lemma",
+   "qabul-1",
+   "en"
+  ],
+  [
+   "penerimaan",
+   "lemma",
+   "qabul-1",
    "ms"
   ],
   [
@@ -11128,6 +59147,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "foot; footing",
+   "lemma",
+   "qadam-1",
+   "en"
+  ],
+  [
+   "kaki; pendirian",
+   "lemma",
+   "qadam-1",
+   "ms"
+  ],
+  [
    "measure; decree",
    "lemma",
    "qadar-1",
@@ -11140,6 +59171,18 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "berkuasa; menentukan ukuran",
+   "lemma",
+   "qadara-1",
+   "ms"
+  ],
+  [
+   "to be able; to measure out",
+   "lemma",
+   "qadara-1",
+   "en"
+  ],
+  [
    "mengemukakan; mendahulukan",
    "lemma",
    "qaddama-1",
@@ -11149,6 +59192,78 @@ const QM_SEARCH_INDEX = {
    "to put forward; to send ahead",
    "lemma",
    "qaddama-1",
+   "en"
+  ],
+  [
+   "menentukan; mentakdirkan",
+   "lemma",
+   "qaddara-1",
+   "ms"
+  ],
+  [
+   "to determine; to ordain",
+   "lemma",
+   "qaddara-1",
+   "en"
+  ],
+  [
+   "menyucikan",
+   "lemma",
+   "qaddasa-1",
+   "ms"
+  ],
+  [
+   "to sanctify",
+   "lemma",
+   "qaddasa-1",
+   "en"
+  ],
+  [
+   "mencampak",
+   "lemma",
+   "qadhafa-1",
+   "ms"
+  ],
+  [
+   "to cast; to hurl",
+   "lemma",
+   "qadhafa-1",
+   "en"
+  ],
+  [
+   "a judge; one who decrees",
+   "lemma",
+   "qadi-1",
+   "en"
+  ],
+  [
+   "hakim",
+   "lemma",
+   "qadi-1",
+   "ms"
+  ],
+  [
+   "ancient; old",
+   "lemma",
+   "qadim-1",
+   "en"
+  ],
+  [
+   "lama; purba",
+   "lemma",
+   "qadim-1",
+   "ms"
+  ],
+  [
+   "tiba",
+   "lemma",
+   "qadima-1",
+   "ms"
+  ],
+  [
+   "to arrive",
+   "lemma",
+   "qadima-1",
    "en"
   ],
   [
@@ -11164,6 +59279,162 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "able; capable",
+   "lemma",
+   "qadir-2",
+   "en"
+  ],
+  [
+   "berkuasa; mampu",
+   "lemma",
+   "qadir-2",
+   "ms"
+  ],
+  [
+   "penamat segala",
+   "lemma",
+   "qadiya-1",
+   "ms"
+  ],
+  [
+   "the decisive end (death)",
+   "lemma",
+   "qadiya-1",
+   "en"
+  ],
+  [
+   "menyusuli",
+   "lemma",
+   "qaffaa-1",
+   "ms"
+  ],
+  [
+   "to send after; to cause to follow",
+   "lemma",
+   "qaffaa-1",
+   "en"
+  ],
+  [
+   "maha menundukkan",
+   "lemma",
+   "qahhar-1",
+   "ms"
+  ],
+  [
+   "the subduer; all-overpowering",
+   "lemma",
+   "qahhar-1",
+   "en"
+  ],
+  [
+   "one who has power over",
+   "lemma",
+   "qahir-1",
+   "en"
+  ],
+  [
+   "yang berkuasa",
+   "lemma",
+   "qahir-1",
+   "ms"
+  ],
+  [
+   "one who sits; one who stays behind",
+   "lemma",
+   "qaid-1",
+   "en"
+  ],
+  [
+   "yang duduk; yang tinggal",
+   "lemma",
+   "qaid-1",
+   "ms"
+  ],
+  [
+   "one sitting (as a recorder)",
+   "lemma",
+   "qaid-2",
+   "en"
+  ],
+  [
+   "yang duduk (mencatat)",
+   "lemma",
+   "qaid-2",
+   "ms"
+  ],
+  [
+   "a foundation; a woman past child-bearing",
+   "lemma",
+   "qaida-1",
+   "en"
+  ],
+  [
+   "asas; perempuan tua",
+   "lemma",
+   "qaida-1",
+   "ms"
+  ],
+  [
+   "one who says",
+   "lemma",
+   "qail-1",
+   "en"
+  ],
+  [
+   "orang yang berkata",
+   "lemma",
+   "qail-1",
+   "ms"
+  ],
+  [
+   "berdiri; tegak",
+   "lemma",
+   "qaim-1",
+   "ms"
+  ],
+  [
+   "standing; upright; established",
+   "lemma",
+   "qaim-1",
+   "en"
+  ],
+  [
+   "membenci",
+   "lemma",
+   "qala-2",
+   "ms"
+  ],
+  [
+   "to forsake in hatred",
+   "lemma",
+   "qala-2",
+   "en"
+  ],
+  [
+   "a garland; a necklace",
+   "lemma",
+   "qalaid-1",
+   "en"
+  ],
+  [
+   "kalungan",
+   "lemma",
+   "qalaid-1",
+   "ms"
+  ],
+  [
+   "a pen",
+   "lemma",
+   "qalam-1",
+   "en"
+  ],
+  [
+   "pena",
+   "lemma",
+   "qalam-1",
+   "ms"
+  ],
+  [
    "hati; jantung",
    "lemma",
    "qalb-1",
@@ -11174,6 +59445,18 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "qalb-1",
    "en"
+  ],
+  [
+   "one who hates",
+   "lemma",
+   "qali-1",
+   "en"
+  ],
+  [
+   "orang yang membenci",
+   "lemma",
+   "qali-1",
+   "ms"
   ],
   [
    "few; little",
@@ -11188,6 +59471,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "sedikit",
+   "lemma",
+   "qalla-1",
+   "ms"
+  ],
+  [
+   "to be few",
+   "lemma",
+   "qalla-1",
+   "en"
+  ],
+  [
+   "membalikkan",
+   "lemma",
+   "qallaba-1",
+   "ms"
+  ],
+  [
+   "to turn over",
+   "lemma",
+   "qallaba-1",
+   "en"
+  ],
+  [
    "bulan",
    "lemma",
    "qamar-1",
@@ -11197,6 +59504,78 @@ const QM_SEARCH_INDEX = {
    "moon",
    "lemma",
    "qamar-1",
+   "en"
+  ],
+  [
+   "baju",
+   "lemma",
+   "qamis-1",
+   "ms"
+  ],
+  [
+   "shirt",
+   "lemma",
+   "qamis-1",
+   "en"
+  ],
+  [
+   "berputus asa",
+   "lemma",
+   "qanata-1",
+   "ms"
+  ],
+  [
+   "to despair",
+   "lemma",
+   "qanata-1",
+   "en"
+  ],
+  [
+   "taat dan khusyuk",
+   "lemma",
+   "qanata-2",
+   "ms"
+  ],
+  [
+   "to be devoutly obedient",
+   "lemma",
+   "qanata-2",
+   "en"
+  ],
+  [
+   "devoutly obedient",
+   "lemma",
+   "qanit-1",
+   "en"
+  ],
+  [
+   "yang taat",
+   "lemma",
+   "qanit-1",
+   "ms"
+  ],
+  [
+   "one who despairs",
+   "lemma",
+   "qanit-2",
+   "en"
+  ],
+  [
+   "orang yang berputus asa",
+   "lemma",
+   "qanit-2",
+   "ms"
+  ],
+  [
+   "berputus asa",
+   "lemma",
+   "qanut-1",
+   "ms"
+  ],
+  [
+   "despairing",
+   "lemma",
+   "qanut-1",
    "en"
   ],
   [
@@ -11212,6 +59591,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menghampiri",
+   "lemma",
+   "qaraba-1",
+   "ms"
+  ],
+  [
+   "to approach; to come near",
+   "lemma",
+   "qaraba-1",
+   "en"
+  ],
+  [
+   "settled place; stability",
+   "lemma",
+   "qarar-1",
+   "en"
+  ],
+  [
+   "tempat menetap; kemantapan",
+   "lemma",
+   "qarar-1",
+   "ms"
+  ],
+  [
+   "loan",
+   "lemma",
+   "qard-1",
+   "en"
+  ],
+  [
+   "pinjaman",
+   "lemma",
+   "qard-1",
+   "ms"
+  ],
+  [
+   "a wound",
+   "lemma",
+   "qarh-1",
+   "en"
+  ],
+  [
+   "luka",
+   "lemma",
+   "qarh-1",
+   "ms"
+  ],
+  [
+   "hari yang menggoncang",
+   "lemma",
+   "qaria-1",
+   "ms"
+  ],
+  [
+   "the striking calamity",
+   "lemma",
+   "qaria-1",
+   "en"
+  ],
+  [
    "dekat",
    "lemma",
    "qarib-1",
@@ -11224,6 +59663,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "companion; close associate",
+   "lemma",
+   "qarin-1",
+   "en"
+  ],
+  [
+   "teman rapat",
+   "lemma",
+   "qarin-1",
+   "ms"
+  ],
+  [
    "generasi; kurun",
    "lemma",
    "qarn-1",
@@ -11233,6 +59684,42 @@ const QM_SEARCH_INDEX = {
    "generation; age",
    "lemma",
    "qarn-1",
+   "en"
+  ],
+  [
+   "tenang",
+   "lemma",
+   "qarra-1",
+   "ms"
+  ],
+  [
+   "to be at rest; to be cool",
+   "lemma",
+   "qarra-1",
+   "en"
+  ],
+  [
+   "mendekatkan; mempersembahkan",
+   "lemma",
+   "qarraba-1",
+   "ms"
+  ],
+  [
+   "to bring near; to offer",
+   "lemma",
+   "qarraba-1",
+   "en"
+  ],
+  [
+   "mendekati",
+   "lemma",
+   "qaruba-1",
+   "ms"
+  ],
+  [
+   "to approach",
+   "lemma",
+   "qaruba-1",
    "en"
   ],
   [
@@ -11248,6 +59735,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a glass vessel",
+   "lemma",
+   "qarura-1",
+   "en"
+  ],
+  [
+   "bekas kaca",
+   "lemma",
+   "qarura-1",
+   "ms"
+  ],
+  [
    "negeri; kampung",
    "lemma",
    "qarya-1",
@@ -11257,6 +59756,174 @@ const QM_SEARCH_INDEX = {
    "town; village",
    "lemma",
    "qarya-1",
+   "en"
+  ],
+  [
+   "menjadi keras",
+   "lemma",
+   "qasa-1",
+   "ms"
+  ],
+  [
+   "to harden",
+   "lemma",
+   "qasa-1",
+   "en"
+  ],
+  [
+   "an oath",
+   "lemma",
+   "qasam-1",
+   "en"
+  ],
+  [
+   "sumpah",
+   "lemma",
+   "qasam-1",
+   "ms"
+  ],
+  [
+   "membahagikan",
+   "lemma",
+   "qasama-1",
+   "ms"
+  ],
+  [
+   "to divide; to apportion",
+   "lemma",
+   "qasama-1",
+   "en"
+  ],
+  [
+   "kisah; cerita",
+   "lemma",
+   "qasas-1",
+   "ms"
+  ],
+  [
+   "narrative; story",
+   "lemma",
+   "qasas-1",
+   "en"
+  ],
+  [
+   "jalan lurus",
+   "lemma",
+   "qasd-1",
+   "ms"
+  ],
+  [
+   "the right course",
+   "lemma",
+   "qasd-1",
+   "en"
+  ],
+  [
+   "moderate; easy",
+   "lemma",
+   "qasid-1",
+   "en"
+  ],
+  [
+   "sederhana; dekat",
+   "lemma",
+   "qasid-1",
+   "ms"
+  ],
+  [
+   "restraining (the glance)",
+   "lemma",
+   "qasir-1",
+   "en"
+  ],
+  [
+   "yang menahan pandangan",
+   "lemma",
+   "qasir-1",
+   "ms"
+  ],
+  [
+   "one who is unjust",
+   "lemma",
+   "qasit-1",
+   "en"
+  ],
+  [
+   "yang menyimpang dari keadilan",
+   "lemma",
+   "qasit-1",
+   "ms"
+  ],
+  [
+   "hard",
+   "lemma",
+   "qasiya-1",
+   "en"
+  ],
+  [
+   "keras",
+   "lemma",
+   "qasiya-1",
+   "ms"
+  ],
+  [
+   "remote",
+   "lemma",
+   "qasiyy-1",
+   "en"
+  ],
+  [
+   "terpencil",
+   "lemma",
+   "qasiyy-1",
+   "ms"
+  ],
+  [
+   "a palace",
+   "lemma",
+   "qasr-1",
+   "en"
+  ],
+  [
+   "istana",
+   "lemma",
+   "qasr-1",
+   "ms"
+  ],
+  [
+   "menceritakan",
+   "lemma",
+   "qassa-1",
+   "ms"
+  ],
+  [
+   "to narrate; to relate",
+   "lemma",
+   "qassa-1",
+   "en"
+  ],
+  [
+   "hardness",
+   "lemma",
+   "qaswa-1",
+   "en"
+  ],
+  [
+   "kekerasan",
+   "lemma",
+   "qaswa-1",
+   "ms"
+  ],
+  [
+   "memotong; memutuskan",
+   "lemma",
+   "qataa-1",
+   "ms"
+  ],
+  [
+   "to cut; to cut off",
+   "lemma",
+   "qataa-1",
    "en"
   ],
   [
@@ -11284,6 +59951,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "debu; kegelapan",
+   "lemma",
+   "qatar-1",
+   "ms"
+  ],
+  [
+   "dust; gloom",
+   "lemma",
+   "qatar-1",
+   "en"
+  ],
+  [
+   "kedekut",
+   "lemma",
+   "qatara-1",
+   "ms"
+  ],
+  [
+   "to be stingy",
+   "lemma",
+   "qatara-1",
+   "en"
+  ],
+  [
+   "cutting; decisive",
+   "lemma",
+   "qati-1",
+   "en"
+  ],
+  [
+   "yang memutuskan",
+   "lemma",
+   "qati-1",
+   "ms"
+  ],
+  [
+   "tar",
+   "lemma",
+   "qatiran-1",
+   "en"
+  ],
+  [
+   "tar",
+   "lemma",
+   "qatiran-1",
+   "ms"
+  ],
+  [
    "killing",
    "lemma",
    "qatl-1",
@@ -11294,6 +60009,54 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "qatl-1",
    "ms"
+  ],
+  [
+   "memotong-motong",
+   "lemma",
+   "qatta-1",
+   "ms"
+  ],
+  [
+   "to cut into pieces",
+   "lemma",
+   "qatta-1",
+   "en"
+  ],
+  [
+   "membunuh beramai-ramai",
+   "lemma",
+   "qattala-1",
+   "ms"
+  ],
+  [
+   "to slay in numbers",
+   "lemma",
+   "qattala-1",
+   "en"
+  ],
+  [
+   "kedekut",
+   "lemma",
+   "qatur-1",
+   "ms"
+  ],
+  [
+   "niggardly",
+   "lemma",
+   "qatur-1",
+   "en"
+  ],
+  [
+   "kuat; perkasa",
+   "lemma",
+   "qawiyy-1",
+   "ms"
+  ],
+  [
+   "strong; powerful",
+   "lemma",
+   "qawiyy-1",
+   "en"
   ],
   [
    "perkataan; ucapan",
@@ -11320,6 +60083,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a bow",
+   "lemma",
+   "qaws-1",
+   "en"
+  ],
+  [
+   "busur",
+   "lemma",
+   "qaws-1",
+   "ms"
+  ],
+  [
+   "one who stands firmly (for)",
+   "lemma",
+   "qawwam-1",
+   "en"
+  ],
+  [
+   "yang menegakkan",
+   "lemma",
+   "qawwam-1",
+   "ms"
+  ],
+  [
+   "menugaskan",
+   "lemma",
+   "qayyada-1",
+   "ms"
+  ],
+  [
+   "to assign (companions)",
+   "lemma",
+   "qayyada-1",
+   "en"
+  ],
+  [
+   "lurus; teguh",
+   "lemma",
+   "qayyim-1",
+   "ms"
+  ],
+  [
+   "upright; straight; the firm one",
+   "lemma",
+   "qayyim-1",
+   "en"
+  ],
+  [
    "berdiri sendiri; yang mengurus segala sesuatu",
    "lemma",
    "qayyum-1",
@@ -11330,6 +60141,126 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "qayyum-1",
    "en"
+  ],
+  [
+   "a plain; a flat land",
+   "lemma",
+   "qia-1",
+   "en"
+  ],
+  [
+   "tanah rata",
+   "lemma",
+   "qia-1",
+   "ms"
+  ],
+  [
+   "kekuatan; hadapan",
+   "lemma",
+   "qibal-1",
+   "ms"
+  ],
+  [
+   "power; side; before",
+   "lemma",
+   "qibal-1",
+   "en"
+  ],
+  [
+   "direction of prayer (qibla)",
+   "lemma",
+   "qibla-1",
+   "en"
+  ],
+  [
+   "kiblat",
+   "lemma",
+   "qibla-1",
+   "ms"
+  ],
+  [
+   "perkataan",
+   "lemma",
+   "qil-1",
+   "ms"
+  ],
+  [
+   "saying; word",
+   "lemma",
+   "qil-1",
+   "en"
+  ],
+  [
+   "a heap of wealth",
+   "lemma",
+   "qintar-1",
+   "en"
+  ],
+  [
+   "harta yang banyak",
+   "lemma",
+   "qintar-1",
+   "ms"
+  ],
+  [
+   "a date-cluster",
+   "lemma",
+   "qinwan-1",
+   "en"
+  ],
+  [
+   "tandan kurma",
+   "lemma",
+   "qinwan-1",
+   "ms"
+  ],
+  [
+   "an ape",
+   "lemma",
+   "qird-1",
+   "en"
+  ],
+  [
+   "monyet",
+   "lemma",
+   "qird-1",
+   "ms"
+  ],
+  [
+   "a parchment",
+   "lemma",
+   "qirtas-1",
+   "en"
+  ],
+  [
+   "lembaran",
+   "lemma",
+   "qirtas-1",
+   "ms"
+  ],
+  [
+   "qisas; balasan setimpal",
+   "lemma",
+   "qisas-1",
+   "ms"
+  ],
+  [
+   "retaliation in kind",
+   "lemma",
+   "qisas-1",
+   "en"
+  ],
+  [
+   "a division; a distribution",
+   "lemma",
+   "qisma-1",
+   "en"
+  ],
+  [
+   "pembahagian",
+   "lemma",
+   "qisma-1",
+   "ms"
   ],
   [
    "justice; equity",
@@ -11344,6 +60275,78 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a balance",
+   "lemma",
+   "qistas-1",
+   "en"
+  ],
+  [
+   "neraca",
+   "lemma",
+   "qistas-1",
+   "ms"
+  ],
+  [
+   "a part; a portion (of the night)",
+   "lemma",
+   "qit-1",
+   "en"
+  ],
+  [
+   "sebahagian; sepotong",
+   "lemma",
+   "qit-1",
+   "ms"
+  ],
+  [
+   "fighting; combat",
+   "lemma",
+   "qital-1",
+   "en"
+  ],
+  [
+   "peperangan",
+   "lemma",
+   "qital-1",
+   "ms"
+  ],
+  [
+   "molten copper",
+   "lemma",
+   "qitr-1",
+   "en"
+  ],
+  [
+   "tembaga cair",
+   "lemma",
+   "qitr-1",
+   "ms"
+  ],
+  [
+   "a firm stance; a balance",
+   "lemma",
+   "qiwam-1",
+   "en"
+  ],
+  [
+   "keseimbangan",
+   "lemma",
+   "qiwam-1",
+   "ms"
+  ],
+  [
+   "berdiri; penegakan",
+   "lemma",
+   "qiyam-1",
+   "ms"
+  ],
+  [
+   "standing; maintenance",
+   "lemma",
+   "qiyam-1",
+   "en"
+  ],
+  [
    "kiamat; hari bangkit",
    "lemma",
    "qiyama-1",
@@ -11354,6 +60357,54 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "qiyama-1",
    "en"
+  ],
+  [
+   "menjaga",
+   "lemma",
+   "qu-1",
+   "ms"
+  ],
+  [
+   "to guard",
+   "lemma",
+   "qu-1",
+   "en"
+  ],
+  [
+   "berdepan",
+   "lemma",
+   "qubul-1",
+   "ms"
+  ],
+  [
+   "face to face; in front",
+   "lemma",
+   "qubul-1",
+   "en"
+  ],
+  [
+   "maha suci",
+   "lemma",
+   "quddus-1",
+   "ms"
+  ],
+  [
+   "the most holy",
+   "lemma",
+   "quddus-1",
+   "en"
+  ],
+  [
+   "holiness; (ruh al-qudus)",
+   "lemma",
+   "quds-1",
+   "en"
+  ],
+  [
+   "kesucian",
+   "lemma",
+   "quds-1",
+   "ms"
   ],
   [
    "al-quran; bacaan",
@@ -11380,6 +60431,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "korban",
+   "lemma",
+   "qurban-1",
+   "ms"
+  ],
+  [
+   "offering; a means of drawing near",
+   "lemma",
+   "qurban-1",
+   "en"
+  ],
+  [
+   "dibacakan",
+   "lemma",
+   "quria-1",
+   "ms"
+  ],
+  [
+   "to be recited",
+   "lemma",
+   "quria-1",
+   "en"
+  ],
+  [
+   "coolness (of the eyes)",
+   "lemma",
+   "qurra-1",
+   "en"
+  ],
+  [
+   "penyejuk (mata)",
+   "lemma",
+   "qurra-1",
+   "ms"
+  ],
+  [
+   "a menstrual period",
+   "lemma",
+   "quru-1",
+   "en"
+  ],
+  [
+   "quru' (kitaran haid)",
+   "lemma",
+   "quru-1",
+   "ms"
+  ],
+  [
+   "a region",
+   "lemma",
+   "qutr-1",
+   "en"
+  ],
+  [
+   "kawasan",
+   "lemma",
+   "qutr-1",
+   "ms"
+  ],
+  [
+   "clusters (of fruit)",
+   "lemma",
+   "qutuf-1",
+   "en"
+  ],
+  [
+   "tandan buah",
+   "lemma",
+   "qutuf-1",
+   "ms"
+  ],
+  [
    "kekuatan",
    "lemma",
    "quwwa-1",
@@ -11404,6 +60527,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menggembala; menjaga",
+   "lemma",
+   "raa-2",
+   "ms"
+  ],
+  [
+   "to pasture; to observe",
+   "lemma",
+   "raa-2",
+   "en"
+  ],
+  [
+   "riak; menunjuk-nunjuk",
+   "lemma",
+   "raaa-1",
+   "ms"
+  ],
+  [
+   "to show off; to be seen of men",
+   "lemma",
+   "raaa-1",
+   "en"
+  ],
+  [
+   "bertambah",
+   "lemma",
+   "raba-1",
+   "ms"
+  ],
+  [
+   "to increase; to swell",
+   "lemma",
+   "raba-1",
+   "en"
+  ],
+  [
+   "mengikat; meneguhkan",
+   "lemma",
+   "rabata-1",
+   "ms"
+  ],
+  [
+   "to bind; to strengthen",
+   "lemma",
+   "rabata-1",
+   "en"
+  ],
+  [
+   "berkawal",
+   "lemma",
+   "rabata-2",
+   "ms"
+  ],
+  [
+   "to be stationed (at the frontier)",
+   "lemma",
+   "rabata-2",
+   "en"
+  ],
+  [
    "lord, master, sustainer",
    "lemma",
    "rabb-1",
@@ -11413,6 +60596,186 @@ const QM_SEARCH_INDEX = {
    "tuhan, pemilik, pemelihara",
    "lemma",
    "rabb-1",
+   "ms"
+  ],
+  [
+   "a godly scholar (rabbani)",
+   "lemma",
+   "rabbaniyy-1",
+   "en"
+  ],
+  [
+   "orang rabbani",
+   "lemma",
+   "rabbaniyy-1",
+   "ms"
+  ],
+  [
+   "mendidik",
+   "lemma",
+   "rabbaya-2",
+   "ms"
+  ],
+  [
+   "to rear; to bring up",
+   "lemma",
+   "rabbaya-2",
+   "en"
+  ],
+  [
+   "the fourth",
+   "lemma",
+   "rabi-1",
+   "en"
+  ],
+  [
+   "yang keempat",
+   "lemma",
+   "rabi-1",
+   "ms"
+  ],
+  [
+   "swelling; rising",
+   "lemma",
+   "rabiyy-1",
+   "en"
+  ],
+  [
+   "yang membuak; yang meninggi",
+   "lemma",
+   "rabiyy-1",
+   "ms"
+  ],
+  [
+   "a devoted scholar (of the lord)",
+   "lemma",
+   "rabiyy-2",
+   "en"
+  ],
+  [
+   "orang yang bertuhan",
+   "lemma",
+   "rabiyy-2",
+   "ms"
+  ],
+  [
+   "a height; a hill",
+   "lemma",
+   "rabwa-1",
+   "en"
+  ],
+  [
+   "bukit",
+   "lemma",
+   "rabwa-1",
+   "ms"
+  ],
+  [
+   "guruh",
+   "lemma",
+   "rad-1",
+   "ms"
+  ],
+  [
+   "thunder",
+   "lemma",
+   "rad-1",
+   "en"
+  ],
+  [
+   "memujuk",
+   "lemma",
+   "radaa-1",
+   "ms"
+  ],
+  [
+   "to solicit",
+   "lemma",
+   "radaa-1",
+   "en"
+  ],
+  [
+   "penyusuan",
+   "lemma",
+   "radaa-3",
+   "ms"
+  ],
+  [
+   "suckling",
+   "lemma",
+   "radaa-3",
+   "en"
+  ],
+  [
+   "one who turns back or repels",
+   "lemma",
+   "radd-2",
+   "en"
+  ],
+  [
+   "yang menolak; yang menghalang",
+   "lemma",
+   "radd-2",
+   "ms"
+  ],
+  [
+   "mengembalikan",
+   "lemma",
+   "radd-3",
+   "ms"
+  ],
+  [
+   "returning",
+   "lemma",
+   "radd-3",
+   "en"
+  ],
+  [
+   "mengembalikan; menolak",
+   "lemma",
+   "radda-1",
+   "ms"
+  ],
+  [
+   "to return; to turn back",
+   "lemma",
+   "radda-1",
+   "en"
+  ],
+  [
+   "pleased; content",
+   "lemma",
+   "radi-1",
+   "en"
+  ],
+  [
+   "reda; berpuas hati",
+   "lemma",
+   "radi-1",
+   "ms"
+  ],
+  [
+   "mengikuti rapat",
+   "lemma",
+   "radifa-1",
+   "ms"
+  ],
+  [
+   "to follow close behind",
+   "lemma",
+   "radifa-1",
+   "en"
+  ],
+  [
+   "the second blast",
+   "lemma",
+   "radifa-2",
+   "en"
+  ],
+  [
+   "tiupan yang kedua",
+   "lemma",
+   "radifa-2",
    "ms"
   ],
   [
@@ -11428,6 +60791,210 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "well-pleasing",
+   "lemma",
+   "radiyy-1",
+   "en"
+  ],
+  [
+   "yang diredai",
+   "lemma",
+   "radiyy-1",
+   "ms"
+  ],
+  [
+   "belas kasihan",
+   "lemma",
+   "rafa-1",
+   "ms"
+  ],
+  [
+   "compassion",
+   "lemma",
+   "rafa-1",
+   "en"
+  ],
+  [
+   "mengangkat; meninggikan",
+   "lemma",
+   "rafaa-1",
+   "ms"
+  ],
+  [
+   "to raise; to lift up",
+   "lemma",
+   "rafaa-1",
+   "en"
+  ],
+  [
+   "bercampur; kata keji",
+   "lemma",
+   "rafath-1",
+   "ms"
+  ],
+  [
+   "intercourse; indecent talk",
+   "lemma",
+   "rafath-1",
+   "en"
+  ],
+  [
+   "one who raises",
+   "lemma",
+   "rafi-1",
+   "en"
+  ],
+  [
+   "yang mengangkat",
+   "lemma",
+   "rafi-1",
+   "ms"
+  ],
+  [
+   "exalted",
+   "lemma",
+   "rafi-2",
+   "en"
+  ],
+  [
+   "yang tinggi",
+   "lemma",
+   "rafi-2",
+   "ms"
+  ],
+  [
+   "berharap",
+   "lemma",
+   "ragh-1",
+   "ms"
+  ],
+  [
+   "longing",
+   "lemma",
+   "ragh-1",
+   "en"
+  ],
+  [
+   "dengan melimpah ruah",
+   "lemma",
+   "raghad-1",
+   "ms"
+  ],
+  [
+   "plentifully",
+   "lemma",
+   "raghad-1",
+   "en"
+  ],
+  [
+   "one who desires",
+   "lemma",
+   "raghib-1",
+   "en"
+  ],
+  [
+   "orang yang berhasrat",
+   "lemma",
+   "raghib-1",
+   "ms"
+  ],
+  [
+   "berhasrat",
+   "lemma",
+   "raghiba-1",
+   "ms"
+  ],
+  [
+   "to desire; to turn to",
+   "lemma",
+   "raghiba-1",
+   "en"
+  ],
+  [
+   "fear; awe",
+   "lemma",
+   "rahab-1",
+   "en"
+  ],
+  [
+   "gerun",
+   "lemma",
+   "rahab-1",
+   "ms"
+  ],
+  [
+   "rahim; pertalian darah",
+   "lemma",
+   "raham-1",
+   "ms"
+  ],
+  [
+   "womb; blood relationship",
+   "lemma",
+   "raham-1",
+   "en"
+  ],
+  [
+   "kesusahan",
+   "lemma",
+   "rahaq-1",
+   "ms"
+  ],
+  [
+   "trouble; burden",
+   "lemma",
+   "rahaq-1",
+   "en"
+  ],
+  [
+   "menimpa",
+   "lemma",
+   "rahaqa-1",
+   "ms"
+  ],
+  [
+   "to cover; to overtake",
+   "lemma",
+   "rahaqa-1",
+   "en"
+  ],
+  [
+   "fear",
+   "lemma",
+   "rahb-1",
+   "en"
+  ],
+  [
+   "ketakutan",
+   "lemma",
+   "rahb-1",
+   "ms"
+  ],
+  [
+   "fear; dread",
+   "lemma",
+   "rahba-1",
+   "en"
+  ],
+  [
+   "ketakutan",
+   "lemma",
+   "rahba-1",
+   "ms"
+  ],
+  [
+   "kerahiban",
+   "lemma",
+   "rahbaniyya-1",
+   "ms"
+  ],
+  [
+   "monasticism",
+   "lemma",
+   "rahbaniyya-1",
+   "en"
+  ],
+  [
    "the most merciful",
    "lemma",
    "raheem-1",
@@ -11437,6 +61004,66 @@ const QM_SEARCH_INDEX = {
    "yang maha penyayang",
    "lemma",
    "raheem-1",
+   "ms"
+  ],
+  [
+   "gerun; takut",
+   "lemma",
+   "rahiba-1",
+   "ms"
+  ],
+  [
+   "to fear; to dread",
+   "lemma",
+   "rahiba-1",
+   "en"
+  ],
+  [
+   "one who shows mercy",
+   "lemma",
+   "rahim-1",
+   "en"
+  ],
+  [
+   "yang mengasihani",
+   "lemma",
+   "rahim-1",
+   "ms"
+  ],
+  [
+   "mengasihani",
+   "lemma",
+   "rahima-1",
+   "ms"
+  ],
+  [
+   "to show mercy",
+   "lemma",
+   "rahima-1",
+   "en"
+  ],
+  [
+   "held in pledge",
+   "lemma",
+   "rahin-1",
+   "en"
+  ],
+  [
+   "tergadai",
+   "lemma",
+   "rahin-1",
+   "ms"
+  ],
+  [
+   "a saddle-bag; a baggage",
+   "lemma",
+   "rahl-1",
+   "en"
+  ],
+  [
+   "muatan",
+   "lemma",
+   "rahl-1",
    "ms"
   ],
   [
@@ -11464,6 +61091,90 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a clan; a group",
+   "lemma",
+   "rahtun-1",
+   "en"
+  ],
+  [
+   "kaum kerabat",
+   "lemma",
+   "rahtun-1",
+   "ms"
+  ],
+  [
+   "menjadi luas",
+   "lemma",
+   "rahuba-1",
+   "ms"
+  ],
+  [
+   "to be spacious",
+   "lemma",
+   "rahuba-1",
+   "en"
+  ],
+  [
+   "calm; at rest",
+   "lemma",
+   "rahw-1",
+   "en"
+  ],
+  [
+   "tenang",
+   "lemma",
+   "rahw-1",
+   "ms"
+  ],
+  [
+   "a keeper; a shepherd",
+   "lemma",
+   "rai-1",
+   "en"
+  ],
+  [
+   "penjaga; penggembala",
+   "lemma",
+   "rai-1",
+   "ms"
+  ],
+  [
+   "ra'ina (pay heed to us)",
+   "lemma",
+   "raina-1",
+   "en"
+  ],
+  [
+   "ra'ina (perhatikan kami)",
+   "lemma",
+   "raina-1",
+   "ms"
+  ],
+  [
+   "kembali",
+   "lemma",
+   "raj-1",
+   "ms"
+  ],
+  [
+   "returning",
+   "lemma",
+   "raj-1",
+   "en"
+  ],
+  [
+   "berharap",
+   "lemma",
+   "raja-1",
+   "ms"
+  ],
+  [
+   "to hope; to look forward to",
+   "lemma",
+   "raja-1",
+   "en"
+  ],
+  [
    "kembali",
    "lemma",
    "rajaa-1",
@@ -11473,6 +61184,102 @@ const QM_SEARCH_INDEX = {
    "to return",
    "lemma",
    "rajaa-1",
+   "en"
+  ],
+  [
+   "menangguhkan",
+   "lemma",
+   "rajaa-4",
+   "ms"
+  ],
+  [
+   "to defer",
+   "lemma",
+   "rajaa-4",
+   "en"
+  ],
+  [
+   "bergegar",
+   "lemma",
+   "rajafa-1",
+   "ms"
+  ],
+  [
+   "to quake",
+   "lemma",
+   "rajafa-1",
+   "en"
+  ],
+  [
+   "merejam",
+   "lemma",
+   "rajama-1",
+   "ms"
+  ],
+  [
+   "to stone",
+   "lemma",
+   "rajama-1",
+   "en"
+  ],
+  [
+   "gegaran",
+   "lemma",
+   "rajfa-1",
+   "ms"
+  ],
+  [
+   "quake; violent shaking",
+   "lemma",
+   "rajfa-1",
+   "en"
+  ],
+  [
+   "one who returns",
+   "lemma",
+   "raji-1",
+   "en"
+  ],
+  [
+   "yang kembali",
+   "lemma",
+   "raji-1",
+   "ms"
+  ],
+  [
+   "accursed; cast out",
+   "lemma",
+   "rajim-1",
+   "en"
+  ],
+  [
+   "yang dilaknat; yang terusir",
+   "lemma",
+   "rajim-1",
+   "ms"
+  ],
+  [
+   "a violent shaking",
+   "lemma",
+   "rajj-1",
+   "en"
+  ],
+  [
+   "goncangan",
+   "lemma",
+   "rajj-1",
+   "ms"
+  ],
+  [
+   "rejaman; sangkaan",
+   "lemma",
+   "rajm-1",
+   "ms"
+  ],
+  [
+   "stoning; conjecture",
+   "lemma",
+   "rajm-1",
    "en"
   ],
   [
@@ -11488,6 +61295,114 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "rukuk",
+   "lemma",
+   "rakaa-1",
+   "ms"
+  ],
+  [
+   "to bow (in prayer)",
+   "lemma",
+   "rakaa-1",
+   "en"
+  ],
+  [
+   "berlari; menghentak",
+   "lemma",
+   "rakada-1",
+   "ms"
+  ],
+  [
+   "to run; to strike with the foot",
+   "lemma",
+   "rakada-1",
+   "en"
+  ],
+  [
+   "menindih",
+   "lemma",
+   "rakama-1",
+   "ms"
+  ],
+  [
+   "to heap up",
+   "lemma",
+   "rakama-1",
+   "en"
+  ],
+  [
+   "cenderung",
+   "lemma",
+   "rakana-1",
+   "ms"
+  ],
+  [
+   "to incline (to)",
+   "lemma",
+   "rakana-1",
+   "en"
+  ],
+  [
+   "kafilah",
+   "lemma",
+   "rakb-1",
+   "ms"
+  ],
+  [
+   "the caravan",
+   "lemma",
+   "rakb-1",
+   "en"
+  ],
+  [
+   "one who bows (in prayer)",
+   "lemma",
+   "raki-1",
+   "en"
+  ],
+  [
+   "orang yang rukuk",
+   "lemma",
+   "raki-1",
+   "ms"
+  ],
+  [
+   "menunggang; menaiki",
+   "lemma",
+   "rakiba-1",
+   "ms"
+  ],
+  [
+   "to ride; to embark",
+   "lemma",
+   "rakiba-1",
+   "en"
+  ],
+  [
+   "menyusun",
+   "lemma",
+   "rakkaba-1",
+   "ms"
+  ],
+  [
+   "to put together; to fashion",
+   "lemma",
+   "rakkaba-1",
+   "en"
+  ],
+  [
+   "a mount; a beast of burden",
+   "lemma",
+   "rakub-1",
+   "en"
+  ],
+  [
+   "tunggangan",
+   "lemma",
+   "rakub-1",
+   "ms"
+  ],
+  [
    "melempar; melontar",
    "lemma",
    "rama-1",
@@ -11497,6 +61412,210 @@ const QM_SEARCH_INDEX = {
    "to throw; to shoot",
    "lemma",
    "rama-1",
+   "en"
+  ],
+  [
+   "abu",
+   "lemma",
+   "ramad-1",
+   "ms"
+  ],
+  [
+   "ashes",
+   "lemma",
+   "ramad-1",
+   "en"
+  ],
+  [
+   "decayed; rotten",
+   "lemma",
+   "ramim-1",
+   "en"
+  ],
+  [
+   "reput",
+   "lemma",
+   "ramim-1",
+   "ms"
+  ],
+  [
+   "menutupi (hati)",
+   "lemma",
+   "rana-1",
+   "ms"
+  ],
+  [
+   "to cover over (the hearts)",
+   "lemma",
+   "rana-1",
+   "en"
+  ],
+  [
+   "one who charms or heals",
+   "lemma",
+   "raq-1",
+   "en"
+  ],
+  [
+   "pembaca jampi",
+   "lemma",
+   "raq-1",
+   "ms"
+  ],
+  [
+   "leher; hamba (yang dimerdekakan)",
+   "lemma",
+   "raqaba-1",
+   "ms"
+  ],
+  [
+   "neck; (a slave to be freed)",
+   "lemma",
+   "raqaba-1",
+   "en"
+  ],
+  [
+   "mengawasi",
+   "lemma",
+   "raqaba-2",
+   "ms"
+  ],
+  [
+   "to watch",
+   "lemma",
+   "raqaba-2",
+   "en"
+  ],
+  [
+   "pengawas",
+   "lemma",
+   "raqib-1",
+   "ms"
+  ],
+  [
+   "watcher; guardian",
+   "lemma",
+   "raqib-1",
+   "en"
+  ],
+  [
+   "naik",
+   "lemma",
+   "raqiya-1",
+   "ms"
+  ],
+  [
+   "to ascend",
+   "lemma",
+   "raqiya-1",
+   "en"
+  ],
+  [
+   "kulit lembaran",
+   "lemma",
+   "raqq-1",
+   "ms"
+  ],
+  [
+   "parchment",
+   "lemma",
+   "raqq-1",
+   "en"
+  ],
+  [
+   "head",
+   "lemma",
+   "ras-1",
+   "en"
+  ],
+  [
+   "kepala",
+   "lemma",
+   "ras-1",
+   "ms"
+  ],
+  [
+   "a watcher; an ambush",
+   "lemma",
+   "rasad-1",
+   "en"
+  ],
+  [
+   "pengawas; penyergapan",
+   "lemma",
+   "rasad-1",
+   "ms"
+  ],
+  [
+   "petunjuk yang benar",
+   "lemma",
+   "rashad-1",
+   "ms"
+  ],
+  [
+   "right guidance; rectitude",
+   "lemma",
+   "rashad-1",
+   "en"
+  ],
+  [
+   "mendapat petunjuk",
+   "lemma",
+   "rashada-1",
+   "ms"
+  ],
+  [
+   "to be rightly guided",
+   "lemma",
+   "rashada-1",
+   "en"
+  ],
+  [
+   "berpetunjuk; bijak",
+   "lemma",
+   "rashid-1",
+   "ms"
+  ],
+  [
+   "rightly guided; wise",
+   "lemma",
+   "rashid-1",
+   "en"
+  ],
+  [
+   "one rightly guided",
+   "lemma",
+   "rashid-2",
+   "en"
+  ],
+  [
+   "orang yang berpetunjuk",
+   "lemma",
+   "rashid-2",
+   "ms"
+  ],
+  [
+   "firmly rooted",
+   "lemma",
+   "rasikh-1",
+   "en"
+  ],
+  [
+   "yang teguh",
+   "lemma",
+   "rasikh-1",
+   "ms"
+  ],
+  [
+   "ar-rass (perigi)",
+   "lemma",
+   "rass-1",
+   "ms"
+  ],
+  [
+   "ar-rass (the well)",
+   "lemma",
+   "rass-1",
    "en"
   ],
   [
@@ -11512,6 +61631,114 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "basah",
+   "lemma",
+   "ratb-1",
+   "ms"
+  ],
+  [
+   "fresh; moist",
+   "lemma",
+   "ratb-1",
+   "en"
+  ],
+  [
+   "compassionate; kind",
+   "lemma",
+   "rauf-1",
+   "en"
+  ],
+  [
+   "penyantun; penyayang",
+   "lemma",
+   "rauf-1",
+   "ms"
+  ],
+  [
+   "fright",
+   "lemma",
+   "raw-1",
+   "en"
+  ],
+  [
+   "ketakutan",
+   "lemma",
+   "raw-1",
+   "ms"
+  ],
+  [
+   "memujuk; menggoda",
+   "lemma",
+   "rawada-1",
+   "ms"
+  ],
+  [
+   "to seek to win over; to solicit",
+   "lemma",
+   "rawada-1",
+   "en"
+  ],
+  [
+   "perjalanan petang",
+   "lemma",
+   "rawah-1",
+   "ms"
+  ],
+  [
+   "the evening journey",
+   "lemma",
+   "rawah-1",
+   "en"
+  ],
+  [
+   "firm mountains",
+   "lemma",
+   "rawasi-1",
+   "en"
+  ],
+  [
+   "gunung-ganang yang teguh",
+   "lemma",
+   "rawasi-1",
+   "ms"
+  ],
+  [
+   "a garden",
+   "lemma",
+   "rawda-1",
+   "en"
+  ],
+  [
+   "taman",
+   "lemma",
+   "rawda-1",
+   "ms"
+  ],
+  [
+   "kerehatan; kelegaan",
+   "lemma",
+   "rawh-1",
+   "ms"
+  ],
+  [
+   "rest; relief",
+   "lemma",
+   "rawh-1",
+   "en"
+  ],
+  [
+   "pandangan",
+   "lemma",
+   "ray-1",
+   "ms"
+  ],
+  [
+   "sight; opinion",
+   "lemma",
+   "ray-1",
+   "en"
+  ],
+  [
    "doubt, suspicion",
    "lemma",
    "rayb-1",
@@ -11521,6 +61748,30 @@ const QM_SEARCH_INDEX = {
    "keraguan, syak wasangka",
    "lemma",
    "rayb-1",
+   "ms"
+  ],
+  [
+   "doubt; suspicion",
+   "lemma",
+   "rayba-1",
+   "en"
+  ],
+  [
+   "keraguan",
+   "lemma",
+   "rayba-1",
+   "ms"
+  ],
+  [
+   "fragrant plants; sweet scent",
+   "lemma",
+   "rayhan-1",
+   "en"
+  ],
+  [
+   "tumbuhan wangi",
+   "lemma",
+   "rayhan-1",
    "ms"
   ],
   [
@@ -11536,6 +61787,102 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "pemberi rezeki",
+   "lemma",
+   "raziq-1",
+   "ms"
+  ],
+  [
+   "provider",
+   "lemma",
+   "raziq-1",
+   "en"
+  ],
+  [
+   "a high place",
+   "lemma",
+   "ri-1",
+   "en"
+  ],
+  [
+   "tempat tinggi",
+   "lemma",
+   "ri-1",
+   "ms"
+  ],
+  [
+   "para penggembala",
+   "lemma",
+   "ri-2",
+   "ms"
+  ],
+  [
+   "shepherds",
+   "lemma",
+   "ri-2",
+   "en"
+  ],
+  [
+   "ostentation; show",
+   "lemma",
+   "ria-1",
+   "en"
+  ],
+  [
+   "riak; menunjuk-nunjuk",
+   "lemma",
+   "ria-1",
+   "ms"
+  ],
+  [
+   "riba",
+   "lemma",
+   "riba-1",
+   "ms"
+  ],
+  [
+   "usury; interest (increase)",
+   "lemma",
+   "riba-1",
+   "en"
+  ],
+  [
+   "berkawal",
+   "lemma",
+   "ribat-1",
+   "ms"
+  ],
+  [
+   "stationing; a frontier post",
+   "lemma",
+   "ribat-1",
+   "en"
+  ],
+  [
+   "a helper; support",
+   "lemma",
+   "rid-1",
+   "en"
+  ],
+  [
+   "penolong; sokongan",
+   "lemma",
+   "rid-1",
+   "ms"
+  ],
+  [
+   "approval; good pleasure",
+   "lemma",
+   "ridwan-1",
+   "en"
+  ],
+  [
+   "keredaan",
+   "lemma",
+   "ridwan-1",
+   "ms"
+  ],
+  [
    "angin",
    "lemma",
    "rih-1",
@@ -11548,6 +61895,114 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "gadaian",
+   "lemma",
+   "rihan-1",
+   "ms"
+  ],
+  [
+   "pledges",
+   "lemma",
+   "rihan-1",
+   "en"
+  ],
+  [
+   "a journey; a caravan",
+   "lemma",
+   "rihla-1",
+   "en"
+  ],
+  [
+   "perjalanan",
+   "lemma",
+   "rihla-1",
+   "ms"
+  ],
+  [
+   "foot; leg",
+   "lemma",
+   "rijl-1",
+   "en"
+  ],
+  [
+   "kaki",
+   "lemma",
+   "rijl-1",
+   "ms"
+  ],
+  [
+   "filth; abomination",
+   "lemma",
+   "rijs-1",
+   "en"
+  ],
+  [
+   "kekotoran; kekejian",
+   "lemma",
+   "rijs-1",
+   "ms"
+  ],
+  [
+   "defilement; scourge",
+   "lemma",
+   "rijz-1",
+   "en"
+  ],
+  [
+   "kekotoran; seksa",
+   "lemma",
+   "rijz-1",
+   "ms"
+  ],
+  [
+   "riding-beasts",
+   "lemma",
+   "rikab-1",
+   "en"
+  ],
+  [
+   "tunggangan",
+   "lemma",
+   "rikab-1",
+   "ms"
+  ],
+  [
+   "message; mission",
+   "lemma",
+   "risala-1",
+   "en"
+  ],
+  [
+   "risalah; perutusan",
+   "lemma",
+   "risala-1",
+   "ms"
+  ],
+  [
+   "bulu; perhiasan",
+   "lemma",
+   "rish-1",
+   "ms"
+  ],
+  [
+   "feathers; finery",
+   "lemma",
+   "rish-1",
+   "en"
+  ],
+  [
+   "outward appearance",
+   "lemma",
+   "riy-1",
+   "en"
+  ],
+  [
+   "rupa lahiriah",
+   "lemma",
+   "riy-1",
+   "ms"
+  ],
+  [
    "provision; sustenance",
    "lemma",
    "rizq-1",
@@ -11557,6 +62012,42 @@ const QM_SEARCH_INDEX = {
    "rezeki",
    "lemma",
    "rizq-1",
+   "ms"
+  ],
+  [
+   "kegerunan",
+   "lemma",
+   "rub-1",
+   "ms"
+  ],
+  [
+   "terror",
+   "lemma",
+   "rub-1",
+   "en"
+  ],
+  [
+   "a quarter",
+   "lemma",
+   "rubu-1",
+   "en"
+  ],
+  [
+   "satu perempat",
+   "lemma",
+   "rubu-1",
+   "ms"
+  ],
+  [
+   "crumbled dust",
+   "lemma",
+   "rufat-1",
+   "en"
+  ],
+  [
+   "serpihan",
+   "lemma",
+   "rufat-1",
    "ms"
   ],
   [
@@ -11572,6 +62063,174 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "merciful ones",
+   "lemma",
+   "ruhama-1",
+   "en"
+  ],
+  [
+   "orang yang penyayang",
+   "lemma",
+   "ruhama-1",
+   "ms"
+  ],
+  [
+   "monks",
+   "lemma",
+   "ruhban-1",
+   "en"
+  ],
+  [
+   "rahib",
+   "lemma",
+   "ruhban-1",
+   "ms"
+  ],
+  [
+   "menggoncang",
+   "lemma",
+   "rujjat-1",
+   "ms"
+  ],
+  [
+   "to shake violently",
+   "lemma",
+   "rujjat-1",
+   "en"
+  ],
+  [
+   "a heap",
+   "lemma",
+   "rukam-1",
+   "en"
+  ],
+  [
+   "timbunan",
+   "lemma",
+   "rukam-1",
+   "ms"
+  ],
+  [
+   "penunggang",
+   "lemma",
+   "rukban-1",
+   "ms"
+  ],
+  [
+   "riders",
+   "lemma",
+   "rukban-1",
+   "en"
+  ],
+  [
+   "a support; a pillar",
+   "lemma",
+   "rukn-1",
+   "en"
+  ],
+  [
+   "sandaran",
+   "lemma",
+   "rukn-1",
+   "ms"
+  ],
+  [
+   "bangsa rom",
+   "lemma",
+   "rum-1",
+   "ms"
+  ],
+  [
+   "the romans",
+   "lemma",
+   "rum-1",
+   "en"
+  ],
+  [
+   "delima",
+   "lemma",
+   "rummaan-1",
+   "ms"
+  ],
+  [
+   "pomegranate",
+   "lemma",
+   "rummaan-1",
+   "en"
+  ],
+  [
+   "ascent",
+   "lemma",
+   "ruqiyy-1",
+   "en"
+  ],
+  [
+   "kenaikan",
+   "lemma",
+   "ruqiyy-1",
+   "ms"
+  ],
+  [
+   "petunjuk yang benar",
+   "lemma",
+   "rushd-1",
+   "ms"
+  ],
+  [
+   "right guidance; maturity",
+   "lemma",
+   "rushd-1",
+   "en"
+  ],
+  [
+   "fresh ripe dates",
+   "lemma",
+   "rutab-1",
+   "en"
+  ],
+  [
+   "kurma masak",
+   "lemma",
+   "rutab-1",
+   "ms"
+  ],
+  [
+   "gently; for a while",
+   "lemma",
+   "ruwayd-1",
+   "en"
+  ],
+  [
+   "perlahan-lahan; sebentar",
+   "lemma",
+   "ruwayd-1",
+   "ms"
+  ],
+  [
+   "dream; vision",
+   "lemma",
+   "ruya-1",
+   "en"
+  ],
+  [
+   "mimpi; penglihatan",
+   "lemma",
+   "ruya-1",
+   "ms"
+  ],
+  [
+   "a steep ascent",
+   "lemma",
+   "sa-ud-1",
+   "en"
+  ],
+  [
+   "pendakian yang sukar",
+   "lemma",
+   "sa-ud-1",
+   "ms"
+  ],
+  [
    "hour; the hour",
    "lemma",
    "saa-1",
@@ -11581,6 +62240,42 @@ const QM_SEARCH_INDEX = {
    "saat; hari kiamat",
    "lemma",
    "saa-1",
+   "ms"
+  ],
+  [
+   "berusaha; bergegas",
+   "lemma",
+   "saa-2",
+   "ms"
+  ],
+  [
+   "to strive; to hasten",
+   "lemma",
+   "saa-2",
+   "en"
+  ],
+  [
+   "buruk; menyedihkan",
+   "lemma",
+   "saa-3",
+   "ms"
+  ],
+  [
+   "to be evil; to grieve",
+   "lemma",
+   "saa-3",
+   "en"
+  ],
+  [
+   "ample means; spaciousness",
+   "lemma",
+   "saa-5",
+   "en"
+  ],
+  [
+   "kelapangan",
+   "lemma",
+   "saa-5",
    "ms"
   ],
   [
@@ -11596,6 +62291,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "berlumba",
+   "lemma",
+   "saabaqa-1",
+   "ms"
+  ],
+  [
+   "to compete; to vie",
+   "lemma",
+   "saabaqa-1",
+   "en"
+  ],
+  [
+   "bersabar bersama",
+   "lemma",
+   "saabara-1",
+   "ms"
+  ],
+  [
+   "to be steadfast",
+   "lemma",
+   "saabara-1",
+   "en"
+  ],
+  [
+   "naik",
+   "lemma",
+   "saada-1",
+   "ms"
+  ],
+  [
+   "to ascend",
+   "lemma",
+   "saada-1",
+   "en"
+  ],
+  [
+   "mendaki dengan susah",
+   "lemma",
+   "saadd-1",
+   "ms"
+  ],
+  [
+   "to climb (painfully)",
+   "lemma",
+   "saadd-1",
+   "en"
+  ],
+  [
+   "mengembara",
+   "lemma",
+   "saaha-1",
+   "ms"
+  ],
+  [
+   "to roam; to travel about",
+   "lemma",
+   "saaha-1",
+   "en"
+  ],
+  [
+   "membuat undian",
+   "lemma",
+   "saaham-1",
+   "ms"
+  ],
+  [
+   "to draw lots",
+   "lemma",
+   "saaham-1",
+   "en"
+  ],
+  [
    "bertanya; meminta",
    "lemma",
    "saala-1",
@@ -11605,6 +62372,42 @@ const QM_SEARCH_INDEX = {
    "to ask; to request",
    "lemma",
    "saala-1",
+   "en"
+  ],
+  [
+   "menghalau; membawa",
+   "lemma",
+   "saaqa-1",
+   "ms"
+  ],
+  [
+   "to drive; to lead",
+   "lemma",
+   "saaqa-1",
+   "en"
+  ],
+  [
+   "menggugurkan",
+   "lemma",
+   "saaqata-1",
+   "ms"
+  ],
+  [
+   "to let fall",
+   "lemma",
+   "saaqata-1",
+   "en"
+  ],
+  [
+   "mengembara; berjalan",
+   "lemma",
+   "saara-1",
+   "ms"
+  ],
+  [
+   "to travel; to journey",
+   "lemma",
+   "saara-1",
    "en"
   ],
   [
@@ -11620,6 +62423,90 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "seventy",
+   "lemma",
+   "sab-2",
+   "en"
+  ],
+  [
+   "tujuh puluh",
+   "lemma",
+   "sab-2",
+   "ms"
+  ],
+  [
+   "cenderung",
+   "lemma",
+   "saba-1",
+   "ms"
+  ],
+  [
+   "to incline (towards)",
+   "lemma",
+   "saba-1",
+   "en"
+  ],
+  [
+   "saba'",
+   "lemma",
+   "saba-2",
+   "ms"
+  ],
+  [
+   "saba' (sheba)",
+   "lemma",
+   "saba-2",
+   "en"
+  ],
+  [
+   "means; cause",
+   "lemma",
+   "sabab-1",
+   "en"
+  ],
+  [
+   "sebab; jalan",
+   "lemma",
+   "sabab-1",
+   "ms"
+  ],
+  [
+   "morning",
+   "lemma",
+   "sabah-1",
+   "en"
+  ],
+  [
+   "pagi",
+   "lemma",
+   "sabah-1",
+   "ms"
+  ],
+  [
+   "berenang",
+   "lemma",
+   "sabaha-1",
+   "ms"
+  ],
+  [
+   "to swim; to glide",
+   "lemma",
+   "sabaha-1",
+   "en"
+  ],
+  [
+   "mendahului",
+   "lemma",
+   "sabaqa-1",
+   "ms"
+  ],
+  [
+   "to precede; to outstrip",
+   "lemma",
+   "sabaqa-1",
+   "en"
+  ],
+  [
    "bersabar",
    "lemma",
    "sabara-1",
@@ -11629,6 +62516,42 @@ const QM_SEARCH_INDEX = {
    "to be patient",
    "lemma",
    "sabara-1",
+   "en"
+  ],
+  [
+   "curahan",
+   "lemma",
+   "sabb-1",
+   "ms"
+  ],
+  [
+   "pouring",
+   "lemma",
+   "sabb-1",
+   "en"
+  ],
+  [
+   "menuang",
+   "lemma",
+   "sabba-1",
+   "ms"
+  ],
+  [
+   "to pour",
+   "lemma",
+   "sabba-1",
+   "en"
+  ],
+  [
+   "mencaci",
+   "lemma",
+   "sabba-2",
+   "ms"
+  ],
+  [
+   "to revile",
+   "lemma",
+   "sabba-2",
    "en"
   ],
   [
@@ -11644,6 +62567,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menimpa waktu pagi",
+   "lemma",
+   "sabbaha-2",
+   "ms"
+  ],
+  [
+   "to come upon in the morning",
+   "lemma",
+   "sabbaha-2",
+   "en"
+  ],
+  [
+   "most patient; very steadfast",
+   "lemma",
+   "sabbar-1",
+   "en"
+  ],
+  [
+   "sangat sabar",
+   "lemma",
+   "sabbar-1",
+   "ms"
+  ],
+  [
+   "swimming; long occupation",
+   "lemma",
+   "sabh-1",
+   "en"
+  ],
+  [
+   "urusan panjang",
+   "lemma",
+   "sabh-1",
+   "ms"
+  ],
+  [
+   "a sabian",
+   "lemma",
+   "sabi-1",
+   "en"
+  ],
+  [
+   "golongan sabiah",
+   "lemma",
+   "sabi-1",
+   "ms"
+  ],
+  [
+   "one that glides",
+   "lemma",
+   "sabih-1",
+   "en"
+  ],
+  [
+   "yang meluncur",
+   "lemma",
+   "sabih-1",
+   "ms"
+  ],
+  [
    "jalan; laluan",
    "lemma",
    "sabil-1",
@@ -11656,6 +62639,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "one who goes ahead; foremost",
+   "lemma",
+   "sabiq-1",
+   "en"
+  ],
+  [
+   "yang mendahului",
+   "lemma",
+   "sabiq-1",
+   "ms"
+  ],
+  [
    "orang yang sabar",
    "lemma",
    "sabir-1",
@@ -11665,6 +62660,102 @@ const QM_SEARCH_INDEX = {
    "patient",
    "lemma",
    "sabir-1",
+   "en"
+  ],
+  [
+   "boy; child",
+   "lemma",
+   "sabiyy-1",
+   "en"
+  ],
+  [
+   "kanak-kanak lelaki",
+   "lemma",
+   "sabiyy-1",
+   "ms"
+  ],
+  [
+   "mendahului",
+   "lemma",
+   "sabq-1",
+   "ms"
+  ],
+  [
+   "racing ahead",
+   "lemma",
+   "sabq-1",
+   "en"
+  ],
+  [
+   "kesabaran",
+   "lemma",
+   "sabr-1",
+   "ms"
+  ],
+  [
+   "patience; endurance",
+   "lemma",
+   "sabr-1",
+   "en"
+  ],
+  [
+   "hari sabtu",
+   "lemma",
+   "sabt-1",
+   "ms"
+  ],
+  [
+   "the sabbath",
+   "lemma",
+   "sabt-1",
+   "en"
+  ],
+  [
+   "pembelahan",
+   "lemma",
+   "sad-1",
+   "ms"
+  ],
+  [
+   "splitting",
+   "lemma",
+   "sad-1",
+   "en"
+  ],
+  [
+   "menyatakan terang-terangan; membelah",
+   "lemma",
+   "sada-1",
+   "ms"
+  ],
+  [
+   "to proclaim openly; to split",
+   "lemma",
+   "sada-1",
+   "en"
+  ],
+  [
+   "a mountain side",
+   "lemma",
+   "sadaf-1",
+   "en"
+  ],
+  [
+   "tebing gunung",
+   "lemma",
+   "sadaf-1",
+   "ms"
+  ],
+  [
+   "berpaling",
+   "lemma",
+   "sadafa-1",
+   "ms"
+  ],
+  [
+   "to turn away",
+   "lemma",
+   "sadafa-1",
    "en"
   ],
   [
@@ -11680,6 +62771,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "charity; alms",
+   "lemma",
+   "sadaqa-2",
+   "en"
+  ],
+  [
+   "sedekah",
+   "lemma",
+   "sadaqa-2",
+   "ms"
+  ],
+  [
+   "berangkat",
+   "lemma",
+   "sadara-1",
+   "ms"
+  ],
+  [
+   "to depart (from the watering-place)",
+   "lemma",
+   "sadara-1",
+   "en"
+  ],
+  [
+   "a barrier; a dam",
+   "lemma",
+   "sadd-1",
+   "en"
+  ],
+  [
+   "tembok penghalang",
+   "lemma",
+   "sadd-1",
+   "ms"
+  ],
+  [
+   "menghalang",
+   "lemma",
+   "sadd-2",
+   "ms"
+  ],
+  [
+   "turning away; hindering",
+   "lemma",
+   "sadd-2",
+   "en"
+  ],
+  [
+   "menghalang; berpaling",
+   "lemma",
+   "sadda-1",
+   "ms"
+  ],
+  [
+   "to turn away; to hinder",
+   "lemma",
+   "sadda-1",
+   "en"
+  ],
+  [
+   "berpecah",
+   "lemma",
+   "saddaa-1",
+   "ms"
+  ],
+  [
+   "to split apart",
+   "lemma",
+   "saddaa-1",
+   "en"
+  ],
+  [
    "membenarkan",
    "lemma",
    "saddaqa-1",
@@ -11689,6 +62852,30 @@ const QM_SEARCH_INDEX = {
    "to confirm; to believe as true",
    "lemma",
    "saddaqa-1",
+   "en"
+  ],
+  [
+   "right; straight",
+   "lemma",
+   "sadid-1",
+   "en"
+  ],
+  [
+   "tepat; benar",
+   "lemma",
+   "sadid-1",
+   "ms"
+  ],
+  [
+   "nanah",
+   "lemma",
+   "sadid-2",
+   "ms"
+  ],
+  [
+   "pus",
+   "lemma",
+   "sadid-2",
    "en"
   ],
   [
@@ -11704,6 +62891,318 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a friend",
+   "lemma",
+   "sadiq-2",
+   "en"
+  ],
+  [
+   "sahabat",
+   "lemma",
+   "sadiq-2",
+   "ms"
+  ],
+  [
+   "the sixth",
+   "lemma",
+   "sadis-1",
+   "en"
+  ],
+  [
+   "yang keenam",
+   "lemma",
+   "sadis-1",
+   "ms"
+  ],
+  [
+   "safa (a hill); smooth rock",
+   "lemma",
+   "safa-1",
+   "en"
+  ],
+  [
+   "safa (bukit)",
+   "lemma",
+   "safa-1",
+   "ms"
+  ],
+  [
+   "folly",
+   "lemma",
+   "safah-1",
+   "en"
+  ],
+  [
+   "kebodohan",
+   "lemma",
+   "safah-1",
+   "ms"
+  ],
+  [
+   "memaafkan",
+   "lemma",
+   "safaha-1",
+   "ms"
+  ],
+  [
+   "to forgive; to overlook",
+   "lemma",
+   "safaha-1",
+   "en"
+  ],
+  [
+   "foolishness",
+   "lemma",
+   "safaha-2",
+   "en"
+  ],
+  [
+   "kebodohan",
+   "lemma",
+   "safaha-2",
+   "ms"
+  ],
+  [
+   "journey; travel",
+   "lemma",
+   "safar-1",
+   "en"
+  ],
+  [
+   "perjalanan; musafir",
+   "lemma",
+   "safar-1",
+   "ms"
+  ],
+  [
+   "a scribe",
+   "lemma",
+   "safara-1",
+   "en"
+  ],
+  [
+   "penulis",
+   "lemma",
+   "safara-1",
+   "ms"
+  ],
+  [
+   "barisan; saf",
+   "lemma",
+   "saff-1",
+   "ms"
+  ],
+  [
+   "row; rank",
+   "lemma",
+   "saff-1",
+   "en"
+  ],
+  [
+   "berbaris-baris",
+   "lemma",
+   "saff-2",
+   "ms"
+  ],
+  [
+   "ranged in rows",
+   "lemma",
+   "saff-2",
+   "en"
+  ],
+  [
+   "those ranged in rows",
+   "lemma",
+   "saffat-1",
+   "en"
+  ],
+  [
+   "yang bersaf-saf",
+   "lemma",
+   "saffat-1",
+   "ms"
+  ],
+  [
+   "forgiveness; turning aside",
+   "lemma",
+   "safh-1",
+   "en"
+  ],
+  [
+   "kemaafan",
+   "lemma",
+   "safh-1",
+   "ms"
+  ],
+  [
+   "bahagian bawah",
+   "lemma",
+   "safil-1",
+   "ms"
+  ],
+  [
+   "lowest part; nether",
+   "lemma",
+   "safil-1",
+   "en"
+  ],
+  [
+   "a ship",
+   "lemma",
+   "safina-1",
+   "en"
+  ],
+  [
+   "kapal",
+   "lemma",
+   "safina-1",
+   "ms"
+  ],
+  [
+   "kuning",
+   "lemma",
+   "safra-1",
+   "ms"
+  ],
+  [
+   "yellow",
+   "lemma",
+   "safra-1",
+   "en"
+  ],
+  [
+   "a smooth rock",
+   "lemma",
+   "safwan-1",
+   "en"
+  ],
+  [
+   "batu licin",
+   "lemma",
+   "safwan-1",
+   "ms"
+  ],
+  [
+   "humiliation",
+   "lemma",
+   "saghar-1",
+   "en"
+  ],
+  [
+   "kehinaan",
+   "lemma",
+   "saghar-1",
+   "ms"
+  ],
+  [
+   "kecil; hina",
+   "lemma",
+   "saghir-1",
+   "ms"
+  ],
+  [
+   "small; lowly",
+   "lemma",
+   "saghir-1",
+   "en"
+  ],
+  [
+   "a courtyard; a square",
+   "lemma",
+   "saha-1",
+   "en"
+  ],
+  [
+   "halaman",
+   "lemma",
+   "saha-1",
+   "ms"
+  ],
+  [
+   "awan",
+   "lemma",
+   "sahab-1",
+   "ms"
+  ],
+  [
+   "clouds",
+   "lemma",
+   "sahab-1",
+   "en"
+  ],
+  [
+   "menemani",
+   "lemma",
+   "sahaba-1",
+   "ms"
+  ],
+  [
+   "to accompany",
+   "lemma",
+   "sahaba-1",
+   "en"
+  ],
+  [
+   "menyeret",
+   "lemma",
+   "sahaba-2",
+   "ms"
+  ],
+  [
+   "to drag",
+   "lemma",
+   "sahaba-2",
+   "en"
+  ],
+  [
+   "the early dawn",
+   "lemma",
+   "sahar-1",
+   "en"
+  ],
+  [
+   "waktu sahur",
+   "lemma",
+   "sahar-1",
+   "ms"
+  ],
+  [
+   "menyihir",
+   "lemma",
+   "sahara-1",
+   "ms"
+  ],
+  [
+   "to bewitch",
+   "lemma",
+   "sahara-1",
+   "en"
+  ],
+  [
+   "a skilled sorcerer",
+   "lemma",
+   "sahhar-1",
+   "en"
+  ],
+  [
+   "ahli sihir",
+   "lemma",
+   "sahhar-1",
+   "ms"
+  ],
+  [
+   "heedless",
+   "lemma",
+   "sahi-1",
+   "en"
+  ],
+  [
+   "lalai",
+   "lemma",
+   "sahi-1",
+   "ms"
+  ],
+  [
    "companion, one who accompanies",
    "lemma",
    "sahib-1",
@@ -11716,6 +63215,246 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "female companion; wife",
+   "lemma",
+   "sahiba-1",
+   "en"
+  ],
+  [
+   "isteri; teman perempuan",
+   "lemma",
+   "sahiba-1",
+   "ms"
+  ],
+  [
+   "lembaran; suhuf",
+   "lemma",
+   "sahifa-1",
+   "ms"
+  ],
+  [
+   "scroll; page",
+   "lemma",
+   "sahifa-1",
+   "en"
+  ],
+  [
+   "far-off",
+   "lemma",
+   "sahiq-1",
+   "en"
+  ],
+  [
+   "jauh",
+   "lemma",
+   "sahiq-1",
+   "ms"
+  ],
+  [
+   "ahli sihir",
+   "lemma",
+   "sahir-1",
+   "ms"
+  ],
+  [
+   "sorcerer; magician",
+   "lemma",
+   "sahir-1",
+   "en"
+  ],
+  [
+   "a plain; level ground",
+   "lemma",
+   "sahl-1",
+   "en"
+  ],
+  [
+   "dataran",
+   "lemma",
+   "sahl-1",
+   "ms"
+  ],
+  [
+   "a camel set free (saiba)",
+   "lemma",
+   "saib-1",
+   "en"
+  ],
+  [
+   "saibah (unta yang dibebaskan)",
+   "lemma",
+   "saib-1",
+   "ms"
+  ],
+  [
+   "ground; surface of the earth",
+   "lemma",
+   "said-1",
+   "en"
+  ],
+  [
+   "permukaan tanah",
+   "lemma",
+   "said-1",
+   "ms"
+  ],
+  [
+   "berbahagia",
+   "lemma",
+   "said-2",
+   "ms"
+  ],
+  [
+   "fortunate; blessed",
+   "lemma",
+   "said-2",
+   "en"
+  ],
+  [
+   "berbahagia",
+   "lemma",
+   "saida-1",
+   "ms"
+  ],
+  [
+   "to be happy",
+   "lemma",
+   "saida-1",
+   "en"
+  ],
+  [
+   "palatable",
+   "lemma",
+   "saigh-1",
+   "en"
+  ],
+  [
+   "sedap ditelan",
+   "lemma",
+   "saigh-1",
+   "ms"
+  ],
+  [
+   "one who roams",
+   "lemma",
+   "saih-1",
+   "en"
+  ],
+  [
+   "pengembara",
+   "lemma",
+   "saih-1",
+   "ms"
+  ],
+  [
+   "one who asks; beggar",
+   "lemma",
+   "sail-1",
+   "en"
+  ],
+  [
+   "orang yang meminta",
+   "lemma",
+   "sail-1",
+   "ms"
+  ],
+  [
+   "one who fasts",
+   "lemma",
+   "saim-1",
+   "en"
+  ],
+  [
+   "orang yang berpuasa",
+   "lemma",
+   "saim-1",
+   "ms"
+  ],
+  [
+   "jemu",
+   "lemma",
+   "saima-1",
+   "ms"
+  ],
+  [
+   "to grow weary",
+   "lemma",
+   "saima-1",
+   "en"
+  ],
+  [
+   "pengsan terkena petir",
+   "lemma",
+   "saiq-1",
+   "ms"
+  ],
+  [
+   "thunderstruck",
+   "lemma",
+   "saiq-1",
+   "en"
+  ],
+  [
+   "a driver",
+   "lemma",
+   "saiq-2",
+   "en"
+  ],
+  [
+   "penghalau",
+   "lemma",
+   "saiq-2",
+   "ms"
+  ],
+  [
+   "a thunderbolt",
+   "lemma",
+   "saiqa-1",
+   "en"
+  ],
+  [
+   "petir",
+   "lemma",
+   "saiqa-1",
+   "ms"
+  ],
+  [
+   "pengsan",
+   "lemma",
+   "saiqa-2",
+   "ms"
+  ],
+  [
+   "to be thunderstruck",
+   "lemma",
+   "saiqa-2",
+   "en"
+  ],
+  [
+   "api yang menyala-nyala",
+   "lemma",
+   "sair-1",
+   "ms"
+  ],
+  [
+   "blazing fire",
+   "lemma",
+   "sair-1",
+   "en"
+  ],
+  [
+   "menjadi sunyi",
+   "lemma",
+   "sajaa-1",
+   "ms"
+  ],
+  [
+   "to be still (night)",
+   "lemma",
+   "sajaa-1",
+   "en"
+  ],
+  [
    "bersujud",
    "lemma",
    "sajada-1",
@@ -11725,6 +63464,102 @@ const QM_SEARCH_INDEX = {
    "to prostrate",
    "lemma",
    "sajada-1",
+   "en"
+  ],
+  [
+   "memenjarakan",
+   "lemma",
+   "sajana-1",
+   "ms"
+  ],
+  [
+   "to imprison",
+   "lemma",
+   "sajana-1",
+   "en"
+  ],
+  [
+   "one who prostrates",
+   "lemma",
+   "sajid-1",
+   "en"
+  ],
+  [
+   "orang yang bersujud",
+   "lemma",
+   "sajid-1",
+   "ms"
+  ],
+  [
+   "a place of rest; repose",
+   "lemma",
+   "sakan-1",
+   "en"
+  ],
+  [
+   "tempat berehat; ketenteraman",
+   "lemma",
+   "sakan-1",
+   "ms"
+  ],
+  [
+   "menetap; tenang",
+   "lemma",
+   "sakana-1",
+   "ms"
+  ],
+  [
+   "to dwell; to be still",
+   "lemma",
+   "sakana-1",
+   "en"
+  ],
+  [
+   "an intoxicant",
+   "lemma",
+   "sakar-1",
+   "en"
+  ],
+  [
+   "minuman memabukkan",
+   "lemma",
+   "sakar-1",
+   "ms"
+  ],
+  [
+   "displeasure",
+   "lemma",
+   "sakhat-1",
+   "en"
+  ],
+  [
+   "kemurkaan",
+   "lemma",
+   "sakhat-1",
+   "ms"
+  ],
+  [
+   "mengejek; mencemuh",
+   "lemma",
+   "sakhira-1",
+   "ms"
+  ],
+  [
+   "to mock; to ridicule",
+   "lemma",
+   "sakhira-1",
+   "en"
+  ],
+  [
+   "murka",
+   "lemma",
+   "sakhita-1",
+   "ms"
+  ],
+  [
+   "to be displeased",
+   "lemma",
+   "sakhita-1",
    "en"
   ],
   [
@@ -11740,6 +63575,150 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a rock",
+   "lemma",
+   "sakhra-1",
+   "en"
+  ],
+  [
+   "batu besar",
+   "lemma",
+   "sakhra-1",
+   "ms"
+  ],
+  [
+   "still; motionless",
+   "lemma",
+   "sakin-1",
+   "en"
+  ],
+  [
+   "tetap; diam",
+   "lemma",
+   "sakin-1",
+   "ms"
+  ],
+  [
+   "ketenangan; sakinah",
+   "lemma",
+   "sakina-1",
+   "ms"
+  ],
+  [
+   "tranquillity; divine peace",
+   "lemma",
+   "sakina-1",
+   "en"
+  ],
+  [
+   "kepayahan; mabuk",
+   "lemma",
+   "sakra-1",
+   "ms"
+  ],
+  [
+   "stupor; agony",
+   "lemma",
+   "sakra-1",
+   "en"
+  ],
+  [
+   "memasuki api; terbakar",
+   "lemma",
+   "sala-1",
+   "ms"
+  ],
+  [
+   "to burn; to enter the fire",
+   "lemma",
+   "sala-1",
+   "en"
+  ],
+  [
+   "mengalir",
+   "lemma",
+   "sala-2",
+   "ms"
+  ],
+  [
+   "to flow",
+   "lemma",
+   "sala-2",
+   "en"
+  ],
+  [
+   "menyalib",
+   "lemma",
+   "salaba-1",
+   "ms"
+  ],
+  [
+   "to crucify",
+   "lemma",
+   "salaba-1",
+   "en"
+  ],
+  [
+   "a precedent; a forerunner",
+   "lemma",
+   "salaf-1",
+   "en"
+  ],
+  [
+   "yang terdahulu",
+   "lemma",
+   "salaf-1",
+   "ms"
+  ],
+  [
+   "telah berlalu",
+   "lemma",
+   "salafa-1",
+   "ms"
+  ],
+  [
+   "to have passed; to precede",
+   "lemma",
+   "salafa-1",
+   "en"
+  ],
+  [
+   "menjadi baik",
+   "lemma",
+   "salaha-1",
+   "ms"
+  ],
+  [
+   "to be righteous; to be sound",
+   "lemma",
+   "salaha-1",
+   "en"
+  ],
+  [
+   "memasukkan; menempuh",
+   "lemma",
+   "salaka-1",
+   "ms"
+  ],
+  [
+   "to enter; to take (a path)",
+   "lemma",
+   "salaka-1",
+   "en"
+  ],
+  [
+   "menanggalkan",
+   "lemma",
+   "salakha-1",
+   "ms"
+  ],
+  [
+   "to strip off",
+   "lemma",
+   "salakha-1",
+   "en"
+  ],
+  [
    "kesejahteraan; salam",
    "lemma",
    "salam-1",
@@ -11749,6 +63728,18 @@ const QM_SEARCH_INDEX = {
    "peace; greeting of peace",
    "lemma",
    "salam-1",
+   "en"
+  ],
+  [
+   "menyakiti dengan lidah tajam",
+   "lemma",
+   "salaqa-1",
+   "ms"
+  ],
+  [
+   "to assail with sharp tongues",
+   "lemma",
+   "salaqa-1",
    "en"
   ],
   [
@@ -11764,6 +63755,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "perdamaian",
+   "lemma",
+   "salh-1",
+   "ms"
+  ],
+  [
+   "reconciliation",
+   "lemma",
+   "salh-1",
+   "en"
+  ],
+  [
+   "one who burns in (the fire)",
+   "lemma",
+   "sali-1",
+   "en"
+  ],
+  [
+   "orang yang masuk (ke api)",
+   "lemma",
+   "sali-1",
+   "ms"
+  ],
+  [
    "righteous; good",
    "lemma",
    "salih-1",
@@ -11776,6 +63791,114 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "selamat; sejahtera",
+   "lemma",
+   "salim-1",
+   "ms"
+  ],
+  [
+   "sound; whole",
+   "lemma",
+   "salim-1",
+   "en"
+  ],
+  [
+   "one who submits; safe",
+   "lemma",
+   "salim-2",
+   "en"
+  ],
+  [
+   "yang berserah",
+   "lemma",
+   "salim-2",
+   "ms"
+  ],
+  [
+   "burning",
+   "lemma",
+   "saliyy-1",
+   "en"
+  ],
+  [
+   "pembakaran",
+   "lemma",
+   "saliyy-1",
+   "ms"
+  ],
+  [
+   "bersolat; berselawat",
+   "lemma",
+   "salla-1",
+   "ms"
+  ],
+  [
+   "to pray; to invoke blessings",
+   "lemma",
+   "salla-1",
+   "en"
+  ],
+  [
+   "menyalib beramai-ramai",
+   "lemma",
+   "sallaba-1",
+   "ms"
+  ],
+  [
+   "to crucify (many)",
+   "lemma",
+   "sallaba-1",
+   "en"
+  ],
+  [
+   "memberi salam; menyerah diri",
+   "lemma",
+   "sallama-1",
+   "ms"
+  ],
+  [
+   "to greet with peace; to submit",
+   "lemma",
+   "sallama-1",
+   "en"
+  ],
+  [
+   "memberi kuasa ke atas",
+   "lemma",
+   "sallata-1",
+   "ms"
+  ],
+  [
+   "to give power over",
+   "lemma",
+   "sallata-1",
+   "en"
+  ],
+  [
+   "dry, ringing clay",
+   "lemma",
+   "salsal-1",
+   "en"
+  ],
+  [
+   "tanah liat kering yang berbunyi",
+   "lemma",
+   "salsal-1",
+   "ms"
+  ],
+  [
+   "burung puyuh (makanan ajaib)",
+   "lemma",
+   "salwa-1",
+   "ms"
+  ],
+  [
+   "quails (as the miraculous food)",
+   "lemma",
+   "salwa-1",
+   "en"
+  ],
+  [
    "hearing",
    "lemma",
    "sama-1",
@@ -11786,6 +63909,18 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "sama-1",
    "ms"
+  ],
+  [
+   "mengenakan (azab)",
+   "lemma",
+   "sama-3",
+   "ms"
+  ],
+  [
+   "to impose (a punishment)",
+   "lemma",
+   "sama-3",
+   "en"
   ],
   [
    "langit",
@@ -11836,6 +63971,126 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "heedless; proud",
+   "lemma",
+   "samid-1",
+   "en"
+  ],
+  [
+   "lalai",
+   "lemma",
+   "samid-1",
+   "ms"
+  ],
+  [
+   "fat",
+   "lemma",
+   "samin-1",
+   "en"
+  ],
+  [
+   "gemuk",
+   "lemma",
+   "samin-1",
+   "ms"
+  ],
+  [
+   "one who talks at night",
+   "lemma",
+   "samir-1",
+   "en"
+  ],
+  [
+   "orang yang berbual malam",
+   "lemma",
+   "samir-1",
+   "ms"
+  ],
+  [
+   "as-samiri",
+   "lemma",
+   "samiri-1",
+   "ms"
+  ],
+  [
+   "the samiri (the samaritan)",
+   "lemma",
+   "samiri-1",
+   "en"
+  ],
+  [
+   "namesake; equal (in name)",
+   "lemma",
+   "samiyy-1",
+   "en"
+  ],
+  [
+   "yang senama",
+   "lemma",
+   "samiyy-1",
+   "ms"
+  ],
+  [
+   "height",
+   "lemma",
+   "samk-1",
+   "en"
+  ],
+  [
+   "ketinggian",
+   "lemma",
+   "samk-1",
+   "ms"
+  ],
+  [
+   "menamakan",
+   "lemma",
+   "samma-1",
+   "ms"
+  ],
+  [
+   "to name",
+   "lemma",
+   "samma-1",
+   "en"
+  ],
+  [
+   "menjadi tuli",
+   "lemma",
+   "samma-2",
+   "ms"
+  ],
+  [
+   "to be deaf",
+   "lemma",
+   "samma-2",
+   "en"
+  ],
+  [
+   "one who listens eagerly",
+   "lemma",
+   "sammaa-1",
+   "en"
+  ],
+  [
+   "yang suka mendengar",
+   "lemma",
+   "sammaa-1",
+   "ms"
+  ],
+  [
+   "a scorching wind",
+   "lemma",
+   "samum-1",
+   "en"
+  ],
+  [
+   "angin panas",
+   "lemma",
+   "samum-1",
+   "ms"
+  ],
+  [
    "tahun",
    "lemma",
    "sana-1",
@@ -11848,6 +64103,426 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "brightness; flash",
+   "lemma",
+   "sana-2",
+   "en"
+  ],
+  [
+   "cahaya",
+   "lemma",
+   "sana-2",
+   "ms"
+  ],
+  [
+   "membuat",
+   "lemma",
+   "sanaa-1",
+   "ms"
+  ],
+  [
+   "to make; to do (skilfully)",
+   "lemma",
+   "sanaa-1",
+   "en"
+  ],
+  [
+   "an idol",
+   "lemma",
+   "sanam-1",
+   "en"
+  ],
+  [
+   "berhala",
+   "lemma",
+   "sanam-1",
+   "ms"
+  ],
+  [
+   "a shank; the leg",
+   "lemma",
+   "saq-1",
+   "en"
+  ],
+  [
+   "betis",
+   "lemma",
+   "saq-1",
+   "ms"
+  ],
+  [
+   "menghalau",
+   "lemma",
+   "saqa-3",
+   "ms"
+  ],
+  [
+   "to drive",
+   "lemma",
+   "saqa-3",
+   "en"
+  ],
+  [
+   "memberi minum",
+   "lemma",
+   "saqaa-1",
+   "ms"
+  ],
+  [
+   "to give to drink; to water",
+   "lemma",
+   "saqaa-1",
+   "en"
+  ],
+  [
+   "saqar",
+   "lemma",
+   "saqar-1",
+   "ms"
+  ],
+  [
+   "saqar (hell)",
+   "lemma",
+   "saqar-1",
+   "en"
+  ],
+  [
+   "gugur",
+   "lemma",
+   "saqata-1",
+   "ms"
+  ],
+  [
+   "to fall",
+   "lemma",
+   "saqata-1",
+   "en"
+  ],
+  [
+   "a roof",
+   "lemma",
+   "saqf-1",
+   "en"
+  ],
+  [
+   "bumbung",
+   "lemma",
+   "saqf-1",
+   "ms"
+  ],
+  [
+   "sakit",
+   "lemma",
+   "saqim-1",
+   "ms"
+  ],
+  [
+   "sick",
+   "lemma",
+   "saqim-1",
+   "en"
+  ],
+  [
+   "menyuakan",
+   "lemma",
+   "sara-1",
+   "ms"
+  ],
+  [
+   "to incline (towards)",
+   "lemma",
+   "sara-1",
+   "en"
+  ],
+  [
+   "bersegera; berlumba",
+   "lemma",
+   "saraa-1",
+   "ms"
+  ],
+  [
+   "to hasten; to vie in speed",
+   "lemma",
+   "saraa-1",
+   "en"
+  ],
+  [
+   "berjalan pada waktu malam",
+   "lemma",
+   "saraa-2",
+   "ms"
+  ],
+  [
+   "to travel by night",
+   "lemma",
+   "saraa-2",
+   "en"
+  ],
+  [
+   "pelepasan",
+   "lemma",
+   "saraah-1",
+   "ms"
+  ],
+  [
+   "release",
+   "lemma",
+   "saraah-1",
+   "en"
+  ],
+  [
+   "a mirage",
+   "lemma",
+   "sarab-1",
+   "en"
+  ],
+  [
+   "fatamorgana",
+   "lemma",
+   "sarab-1",
+   "ms"
+  ],
+  [
+   "a tunnel; a passage",
+   "lemma",
+   "sarab-2",
+   "en"
+  ],
+  [
+   "lorong",
+   "lemma",
+   "sarab-2",
+   "ms"
+  ],
+  [
+   "memalingkan",
+   "lemma",
+   "sarafa-1",
+   "ms"
+  ],
+  [
+   "to turn away; to divert",
+   "lemma",
+   "sarafa-1",
+   "en"
+  ],
+  [
+   "menghalau ke padang ragut",
+   "lemma",
+   "saraha-1",
+   "ms"
+  ],
+  [
+   "to pasture in the morning",
+   "lemma",
+   "saraha-1",
+   "en"
+  ],
+  [
+   "mencuri",
+   "lemma",
+   "saraqa-1",
+   "ms"
+  ],
+  [
+   "to steal",
+   "lemma",
+   "saraqa-1",
+   "en"
+  ],
+  [
+   "pemalingan",
+   "lemma",
+   "sarf-1",
+   "ms"
+  ],
+  [
+   "turning away; averting",
+   "lemma",
+   "sarf-1",
+   "en"
+  ],
+  [
+   "a lofty palace",
+   "lemma",
+   "sarh-1",
+   "en"
+  ],
+  [
+   "mahligai tinggi",
+   "lemma",
+   "sarh-1",
+   "ms"
+  ],
+  [
+   "cepat",
+   "lemma",
+   "sari-1",
+   "ms"
+  ],
+  [
+   "swift; quick",
+   "lemma",
+   "sari-1",
+   "en"
+  ],
+  [
+   "one who goes about openly",
+   "lemma",
+   "sarib-1",
+   "en"
+  ],
+  [
+   "yang berjalan terang-terangan",
+   "lemma",
+   "sarib-1",
+   "ms"
+  ],
+  [
+   "harvesting",
+   "lemma",
+   "sarim-1",
+   "en"
+  ],
+  [
+   "menuai",
+   "lemma",
+   "sarim-1",
+   "ms"
+  ],
+  [
+   "a thief",
+   "lemma",
+   "sariq-1",
+   "en"
+  ],
+  [
+   "pencuri",
+   "lemma",
+   "sariq-1",
+   "ms"
+  ],
+  [
+   "couch; throne",
+   "lemma",
+   "sarir-1",
+   "en"
+  ],
+  [
+   "dipan; singgahsana",
+   "lemma",
+   "sarir-1",
+   "ms"
+  ],
+  [
+   "a brook; a stream",
+   "lemma",
+   "sariyy-1",
+   "en"
+  ],
+  [
+   "anak sungai",
+   "lemma",
+   "sariyy-1",
+   "ms"
+  ],
+  [
+   "berterusan",
+   "lemma",
+   "sarmad-1",
+   "ms"
+  ],
+  [
+   "perpetual",
+   "lemma",
+   "sarmad-1",
+   "en"
+  ],
+  [
+   "ease; prosperity",
+   "lemma",
+   "sarra-2",
+   "en"
+  ],
+  [
+   "kesenangan",
+   "lemma",
+   "sarra-2",
+   "ms"
+  ],
+  [
+   "menggembirakan",
+   "lemma",
+   "sarra-3",
+   "ms"
+  ],
+  [
+   "to please",
+   "lemma",
+   "sarra-3",
+   "en"
+  ],
+  [
+   "mempelbagaikan; memalingkan",
+   "lemma",
+   "sarrafa-1",
+   "ms"
+  ],
+  [
+   "to vary; to turn about",
+   "lemma",
+   "sarrafa-1",
+   "en"
+  ],
+  [
+   "melepaskan",
+   "lemma",
+   "sarraha-1",
+   "ms"
+  ],
+  [
+   "to release; to set free",
+   "lemma",
+   "sarraha-1",
+   "en"
+  ],
+  [
+   "a roaring wind",
+   "lemma",
+   "sarsar-1",
+   "en"
+  ],
+  [
+   "angin kencang",
+   "lemma",
+   "sarsar-1",
+   "ms"
+  ],
+  [
+   "menyerang",
+   "lemma",
+   "sata-1",
+   "ms"
+  ],
+  [
+   "to assault",
+   "lemma",
+   "sata-1",
+   "en"
+  ],
+  [
+   "a private part; nakedness",
+   "lemma",
+   "sawa-1",
+   "en"
+  ],
+  [
+   "aurat",
+   "lemma",
+   "sawa-1",
+   "ms"
+  ],
+  [
    "equal; alike",
    "lemma",
    "sawaa-1",
@@ -11857,6 +64532,30 @@ const QM_SEARCH_INDEX = {
    "sama; serupa",
    "lemma",
    "sawaa-1",
+   "ms"
+  ],
+  [
+   "menyamakan",
+   "lemma",
+   "sawaa-2",
+   "ms"
+  ],
+  [
+   "to make level",
+   "lemma",
+   "sawaa-2",
+   "en"
+  ],
+  [
+   "what is right",
+   "lemma",
+   "sawab-1",
+   "en"
+  ],
+  [
+   "yang benar",
+   "lemma",
+   "sawab-1",
    "ms"
   ],
   [
@@ -11872,6 +64571,210 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "sempurna; sihat",
+   "lemma",
+   "sawiyy-1",
+   "ms"
+  ],
+  [
+   "well-proportioned; sound",
+   "lemma",
+   "sawiyy-1",
+   "en"
+  ],
+  [
+   "fasting",
+   "lemma",
+   "sawm-1",
+   "en"
+  ],
+  [
+   "puasa",
+   "lemma",
+   "sawm-1",
+   "ms"
+  ],
+  [
+   "a voice; a sound",
+   "lemma",
+   "sawt-1",
+   "en"
+  ],
+  [
+   "suara",
+   "lemma",
+   "sawt-1",
+   "ms"
+  ],
+  [
+   "a scourge; a lash",
+   "lemma",
+   "sawt-2",
+   "en"
+  ],
+  [
+   "cemeti",
+   "lemma",
+   "sawt-2",
+   "ms"
+  ],
+  [
+   "menyempurnakan; meratakan",
+   "lemma",
+   "sawwa-1",
+   "ms"
+  ],
+  [
+   "to fashion; to make level",
+   "lemma",
+   "sawwa-1",
+   "en"
+  ],
+  [
+   "menyamakan; membentuk",
+   "lemma",
+   "sawwaa-1",
+   "ms"
+  ],
+  [
+   "to make equal; to fashion",
+   "lemma",
+   "sawwaa-1",
+   "en"
+  ],
+  [
+   "menghiaskan (kejahatan)",
+   "lemma",
+   "sawwala-1",
+   "ms"
+  ],
+  [
+   "to make (an evil) seem attractive",
+   "lemma",
+   "sawwala-1",
+   "en"
+  ],
+  [
+   "membentuk",
+   "lemma",
+   "sawwara-1",
+   "ms"
+  ],
+  [
+   "to fashion; to form",
+   "lemma",
+   "sawwara-1",
+   "en"
+  ],
+  [
+   "striving; effort",
+   "lemma",
+   "say-1",
+   "en"
+  ],
+  [
+   "usaha",
+   "lemma",
+   "say-1",
+   "ms"
+  ],
+  [
+   "buruan",
+   "lemma",
+   "sayd-1",
+   "ms"
+  ],
+  [
+   "hunting; game",
+   "lemma",
+   "sayd-1",
+   "en"
+  ],
+  [
+   "musim panas",
+   "lemma",
+   "sayf-1",
+   "ms"
+  ],
+  [
+   "summer",
+   "lemma",
+   "sayf-1",
+   "en"
+  ],
+  [
+   "a (mighty) cry; blast",
+   "lemma",
+   "sayha-1",
+   "en"
+  ],
+  [
+   "pekikan; jeritan yang dahsyat",
+   "lemma",
+   "sayha-1",
+   "ms"
+  ],
+  [
+   "a flood",
+   "lemma",
+   "sayl-1",
+   "en"
+  ],
+  [
+   "banjir",
+   "lemma",
+   "sayl-1",
+   "ms"
+  ],
+  [
+   "perjalanan",
+   "lemma",
+   "sayr-1",
+   "ms"
+  ],
+  [
+   "travelling; journeying",
+   "lemma",
+   "sayr-1",
+   "en"
+  ],
+  [
+   "a caravan; travellers",
+   "lemma",
+   "sayyara-1",
+   "en"
+  ],
+  [
+   "kafilah; para musafir",
+   "lemma",
+   "sayyara-1",
+   "ms"
+  ],
+  [
+   "menjalankan",
+   "lemma",
+   "sayyara-2",
+   "ms"
+  ],
+  [
+   "to make (someone) travel; to set in motion",
+   "lemma",
+   "sayyara-2",
+   "en"
+  ],
+  [
+   "evil; the evil",
+   "lemma",
+   "sayyi-1",
+   "en"
+  ],
+  [
+   "kejahatan",
+   "lemma",
+   "sayyi-1",
+   "ms"
+  ],
+  [
    "evil deed; bad deed",
    "lemma",
    "sayyia-1",
@@ -11881,6 +64784,30 @@ const QM_SEARCH_INDEX = {
    "perbuatan buruk; kejahatan",
    "lemma",
    "sayyia-1",
+   "ms"
+  ],
+  [
+   "a rain-cloud; downpour",
+   "lemma",
+   "sayyib-1",
+   "en"
+  ],
+  [
+   "hujan lebat",
+   "lemma",
+   "sayyib-1",
+   "ms"
+  ],
+  [
+   "a master; a chief",
+   "lemma",
+   "sayyid-1",
+   "en"
+  ],
+  [
+   "ketua; tuan",
+   "lemma",
+   "sayyid-1",
    "ms"
   ],
   [
@@ -11896,6 +64823,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menentang",
+   "lemma",
+   "shaaqqa-1",
+   "ms"
+  ],
+  [
+   "to oppose; to be at odds with",
+   "lemma",
+   "shaaqqa-1",
+   "en"
+  ],
+  [
    "menyedari",
    "lemma",
    "shaara-1",
@@ -11905,6 +64844,42 @@ const QM_SEARCH_INDEX = {
    "to perceive; to be aware",
    "lemma",
    "shaara-1",
+   "en"
+  ],
+  [
+   "mensyariatkan",
+   "lemma",
+   "shaaraa-1",
+   "ms"
+  ],
+  [
+   "to ordain",
+   "lemma",
+   "shaaraa-1",
+   "en"
+  ],
+  [
+   "bersekutu dengan",
+   "lemma",
+   "shaaraka-1",
+   "ms"
+  ],
+  [
+   "to share with",
+   "lemma",
+   "shaaraka-1",
+   "en"
+  ],
+  [
+   "menguatkan; mengikat",
+   "lemma",
+   "shadda-1",
+   "ms"
+  ],
+  [
+   "to strengthen; to tie",
+   "lemma",
+   "shadda-1",
    "en"
   ],
   [
@@ -11918,6 +64893,126 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "shadid-1",
    "en"
+  ],
+  [
+   "the even",
+   "lemma",
+   "shaf-1",
+   "en"
+  ],
+  [
+   "yang genap",
+   "lemma",
+   "shaf-1",
+   "ms"
+  ],
+  [
+   "brink; edge",
+   "lemma",
+   "shafa-1",
+   "en"
+  ],
+  [
+   "tepi; tebing",
+   "lemma",
+   "shafa-1",
+   "ms"
+  ],
+  [
+   "menyembuhkan",
+   "lemma",
+   "shafa-2",
+   "ms"
+  ],
+  [
+   "to heal",
+   "lemma",
+   "shafa-2",
+   "en"
+  ],
+  [
+   "a lip",
+   "lemma",
+   "shafa-3",
+   "en"
+  ],
+  [
+   "bibir",
+   "lemma",
+   "shafa-3",
+   "ms"
+  ],
+  [
+   "memberi syafaat",
+   "lemma",
+   "shafaa-1",
+   "ms"
+  ],
+  [
+   "to intercede",
+   "lemma",
+   "shafaa-1",
+   "en"
+  ],
+  [
+   "intercession",
+   "lemma",
+   "shafaa-2",
+   "en"
+  ],
+  [
+   "syafaat",
+   "lemma",
+   "shafaa-2",
+   "ms"
+  ],
+  [
+   "senja",
+   "lemma",
+   "shafaq-1",
+   "ms"
+  ],
+  [
+   "the twilight",
+   "lemma",
+   "shafaq-1",
+   "en"
+  ],
+  [
+   "intercessor",
+   "lemma",
+   "shafi-1",
+   "en"
+  ],
+  [
+   "pemberi syafaat",
+   "lemma",
+   "shafi-1",
+   "ms"
+  ],
+  [
+   "an intercessor",
+   "lemma",
+   "shafi-2",
+   "en"
+  ],
+  [
+   "pemberi syafaat",
+   "lemma",
+   "shafi-2",
+   "ms"
+  ],
+  [
+   "an intercessor",
+   "lemma",
+   "shafia-1",
+   "en"
+  ],
+  [
+   "pemberi syafaat",
+   "lemma",
+   "shafia-1",
+   "ms"
   ],
   [
    "kesaksian; alam nyata",
@@ -11956,6 +65051,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a drawing in of breath (braying)",
+   "lemma",
+   "shahiq-1",
+   "en"
+  ],
+  [
+   "tarikan nafas",
+   "lemma",
+   "shahiq-1",
+   "ms"
+  ],
+  [
+   "bulan",
+   "lemma",
+   "shahr-1",
+   "ms"
+  ],
+  [
+   "month",
+   "lemma",
+   "shahr-1",
+   "en"
+  ],
+  [
+   "desire; lust",
+   "lemma",
+   "shahwa-1",
+   "en"
+  ],
+  [
+   "keinginan; syahwat",
+   "lemma",
+   "shahwa-1",
+   "ms"
+  ],
+  [
+   "a poet",
+   "lemma",
+   "shair-1",
+   "en"
+  ],
+  [
+   "penyair",
+   "lemma",
+   "shair-1",
+   "ms"
+  ],
+  [
+   "a rite; a sign",
+   "lemma",
+   "shaira-1",
+   "en"
+  ],
+  [
+   "syiar",
+   "lemma",
+   "shaira-1",
+   "ms"
+  ],
+  [
+   "pokok-pokok",
+   "lemma",
+   "shajar-1",
+   "ms"
+  ],
+  [
+   "trees (collectively)",
+   "lemma",
+   "shajar-1",
+   "en"
+  ],
+  [
    "pokok",
    "lemma",
    "shajara-1",
@@ -11980,6 +65147,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "cara; perangai",
+   "lemma",
+   "shakila-1",
+   "ms"
+  ],
+  [
+   "one's manner; disposition",
+   "lemma",
+   "shakila-1",
+   "en"
+  ],
+  [
+   "bersyukur",
+   "lemma",
+   "shakir-1",
+   "ms"
+  ],
+  [
+   "grateful; thankful",
+   "lemma",
+   "shakir-1",
+   "en"
+  ],
+  [
    "doubt",
    "lemma",
    "shakk-1",
@@ -11992,6 +65183,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a kind; a form",
+   "lemma",
+   "shakl-1",
+   "en"
+  ],
+  [
+   "bentuk; jenis",
+   "lemma",
+   "shakl-1",
+   "ms"
+  ],
+  [
+   "maha mensyukuri",
+   "lemma",
+   "shakur-1",
+   "ms"
+  ],
+  [
+   "most grateful; appreciative",
+   "lemma",
+   "shakur-1",
+   "en"
+  ],
+  [
    "matahari",
    "lemma",
    "shams-1",
@@ -12001,6 +65216,78 @@ const QM_SEARCH_INDEX = {
    "sun",
    "lemma",
    "shams-1",
+   "en"
+  ],
+  [
+   "hal; urusan",
+   "lemma",
+   "shan-1",
+   "ms"
+  ],
+  [
+   "matter; affair",
+   "lemma",
+   "shan-1",
+   "en"
+  ],
+  [
+   "hatred",
+   "lemma",
+   "shanan-1",
+   "en"
+  ],
+  [
+   "kebencian",
+   "lemma",
+   "shanan-1",
+   "ms"
+  ],
+  [
+   "membelah",
+   "lemma",
+   "shaqaqa-1",
+   "ms"
+  ],
+  [
+   "to split",
+   "lemma",
+   "shaqaqa-1",
+   "en"
+  ],
+  [
+   "menjadi celaka",
+   "lemma",
+   "shaqiya-1",
+   "ms"
+  ],
+  [
+   "to be wretched",
+   "lemma",
+   "shaqiya-1",
+   "en"
+  ],
+  [
+   "celaka; malang",
+   "lemma",
+   "shaqiyy-1",
+   "ms"
+  ],
+  [
+   "wretched; unfortunate",
+   "lemma",
+   "shaqiyy-1",
+   "en"
+  ],
+  [
+   "pembelahan",
+   "lemma",
+   "shaqq-1",
+   "ms"
+  ],
+  [
+   "splitting",
+   "lemma",
+   "shaqq-1",
    "en"
   ],
   [
@@ -12016,6 +65303,102 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "bulu",
+   "lemma",
+   "shar-2",
+   "ms"
+  ],
+  [
+   "hair; wool",
+   "lemma",
+   "shar-2",
+   "en"
+  ],
+  [
+   "menjual",
+   "lemma",
+   "shara-1",
+   "ms"
+  ],
+  [
+   "to sell; to barter",
+   "lemma",
+   "shara-1",
+   "en"
+  ],
+  [
+   "drink; beverage",
+   "lemma",
+   "sharab-1",
+   "en"
+  ],
+  [
+   "minuman",
+   "lemma",
+   "sharab-1",
+   "ms"
+  ],
+  [
+   "minum",
+   "lemma",
+   "sharaba-1",
+   "ms"
+  ],
+  [
+   "to drink",
+   "lemma",
+   "sharaba-1",
+   "en"
+  ],
+  [
+   "melapangkan (dada)",
+   "lemma",
+   "sharaha-1",
+   "ms"
+  ],
+  [
+   "to expand (the breast)",
+   "lemma",
+   "sharaha-1",
+   "en"
+  ],
+  [
+   "percikan api",
+   "lemma",
+   "sharar-1",
+   "ms"
+  ],
+  [
+   "sparks",
+   "lemma",
+   "sharar-1",
+   "en"
+  ],
+  [
+   "a clear path (law)",
+   "lemma",
+   "sharia-1",
+   "en"
+  ],
+  [
+   "jalan yang jelas (syariat)",
+   "lemma",
+   "sharia-1",
+   "ms"
+  ],
+  [
+   "drinker",
+   "lemma",
+   "sharib-1",
+   "en"
+  ],
+  [
+   "peminum",
+   "lemma",
+   "sharib-1",
+   "ms"
+  ],
+  [
    "partner; associate",
    "lemma",
    "sharik-1",
@@ -12025,6 +65408,114 @@ const QM_SEARCH_INDEX = {
    "sekutu",
    "lemma",
    "sharik-1",
+   "ms"
+  ],
+  [
+   "eastern",
+   "lemma",
+   "sharqiyy-1",
+   "en"
+  ],
+  [
+   "timur",
+   "lemma",
+   "sharqiyy-1",
+   "ms"
+  ],
+  [
+   "an extravagance; wrong",
+   "lemma",
+   "shatat-1",
+   "en"
+  ],
+  [
+   "melampau",
+   "lemma",
+   "shatat-1",
+   "ms"
+  ],
+  [
+   "arah; separuh",
+   "lemma",
+   "shatr-1",
+   "ms"
+  ],
+  [
+   "direction; half",
+   "lemma",
+   "shatr-1",
+   "en"
+  ],
+  [
+   "berbeza-beza",
+   "lemma",
+   "shatta-1",
+   "ms"
+  ],
+  [
+   "diverse",
+   "lemma",
+   "shatta-1",
+   "en"
+  ],
+  [
+   "kulit kepala",
+   "lemma",
+   "shawa-1",
+   "ms"
+  ],
+  [
+   "the scalp; extremities",
+   "lemma",
+   "shawa-1",
+   "en"
+  ],
+  [
+   "memanggang",
+   "lemma",
+   "shawa-2",
+   "ms"
+  ],
+  [
+   "to scorch; to roast",
+   "lemma",
+   "shawa-2",
+   "en"
+  ],
+  [
+   "bermesyuarat",
+   "lemma",
+   "shawara-1",
+   "ms"
+  ],
+  [
+   "to consult",
+   "lemma",
+   "shawara-1",
+   "en"
+  ],
+  [
+   "a mixture",
+   "lemma",
+   "shawb-1",
+   "en"
+  ],
+  [
+   "campuran",
+   "lemma",
+   "shawb-1",
+   "ms"
+  ],
+  [
+   "a thorn; armed might",
+   "lemma",
+   "shawka-1",
+   "en"
+  ],
+  [
+   "duri; kekuatan",
+   "lemma",
+   "shawka-1",
    "ms"
   ],
   [
@@ -12040,6 +65531,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "hoariness",
+   "lemma",
+   "shayb-1",
+   "en"
+  ],
+  [
+   "uban",
+   "lemma",
+   "shayb-1",
+   "ms"
+  ],
+  [
+   "an old man",
+   "lemma",
+   "shaykh-1",
+   "en"
+  ],
+  [
+   "orang tua",
+   "lemma",
+   "shaykh-1",
+   "ms"
+  ],
+  [
    "devil; satan",
    "lemma",
    "shaytan-1",
@@ -12049,6 +65564,246 @@ const QM_SEARCH_INDEX = {
    "syaitan",
    "lemma",
    "shaytan-1",
+   "ms"
+  ],
+  [
+   "golongan; puak",
+   "lemma",
+   "shia-1",
+   "ms"
+  ],
+  [
+   "party; sect; faction",
+   "lemma",
+   "shia-1",
+   "en"
+  ],
+  [
+   "healing; cure",
+   "lemma",
+   "shifa-1",
+   "en"
+  ],
+  [
+   "penyembuhan; penawar",
+   "lemma",
+   "shifa-1",
+   "ms"
+  ],
+  [
+   "a flame; a shooting star",
+   "lemma",
+   "shihab-1",
+   "en"
+  ],
+  [
+   "api; bintang berapi",
+   "lemma",
+   "shihab-1",
+   "ms"
+  ],
+  [
+   "left (side)",
+   "lemma",
+   "shimal-1",
+   "en"
+  ],
+  [
+   "sebelah kiri",
+   "lemma",
+   "shimal-1",
+   "ms"
+  ],
+  [
+   "perpecahan; penentangan",
+   "lemma",
+   "shiqaq-1",
+   "ms"
+  ],
+  [
+   "schism; opposition",
+   "lemma",
+   "shiqaq-1",
+   "en"
+  ],
+  [
+   "poetry",
+   "lemma",
+   "shir-1",
+   "en"
+  ],
+  [
+   "syair",
+   "lemma",
+   "shir-1",
+   "ms"
+  ],
+  [
+   "bintang syi'ra (sirius)",
+   "lemma",
+   "shira-1",
+   "ms"
+  ],
+  [
+   "sirius (the dog-star)",
+   "lemma",
+   "shira-1",
+   "en"
+  ],
+  [
+   "a law; a way",
+   "lemma",
+   "shira-2",
+   "en"
+  ],
+  [
+   "hukum; peraturan",
+   "lemma",
+   "shira-2",
+   "ms"
+  ],
+  [
+   "drinking; a share of water",
+   "lemma",
+   "shirb-1",
+   "en"
+  ],
+  [
+   "minum; bahagian air",
+   "lemma",
+   "shirb-1",
+   "ms"
+  ],
+  [
+   "association (of partners with god)",
+   "lemma",
+   "shirk-1",
+   "en"
+  ],
+  [
+   "syirik",
+   "lemma",
+   "shirk-1",
+   "ms"
+  ],
+  [
+   "musim sejuk",
+   "lemma",
+   "shita-1",
+   "ms"
+  ],
+  [
+   "winter",
+   "lemma",
+   "shita-1",
+   "en"
+  ],
+  [
+   "a branch; a people",
+   "lemma",
+   "shuab-1",
+   "en"
+  ],
+  [
+   "cabang; bangsa",
+   "lemma",
+   "shuab-1",
+   "ms"
+  ],
+  [
+   "nabi syuaib",
+   "lemma",
+   "shuayb-1",
+   "ms"
+  ],
+  [
+   "shu'ayb",
+   "lemma",
+   "shuayb-1",
+   "en"
+  ],
+  [
+   "kebakhilan",
+   "lemma",
+   "shuhh-1",
+   "ms"
+  ],
+  [
+   "miserliness",
+   "lemma",
+   "shuhh-1",
+   "en"
+  ],
+  [
+   "gratitude; thanks",
+   "lemma",
+   "shukr-1",
+   "en"
+  ],
+  [
+   "kesyukuran",
+   "lemma",
+   "shukr-1",
+   "ms"
+  ],
+  [
+   "consultation",
+   "lemma",
+   "shura-1",
+   "en"
+  ],
+  [
+   "permesyuaratan",
+   "lemma",
+   "shura-1",
+   "ms"
+  ],
+  [
+   "showing on the surface",
+   "lemma",
+   "shurra-1",
+   "en"
+  ],
+  [
+   "terapung di permukaan",
+   "lemma",
+   "shurra-1",
+   "ms"
+  ],
+  [
+   "a dye; a hue",
+   "lemma",
+   "sibgha-1",
+   "en"
+  ],
+  [
+   "celupan",
+   "lemma",
+   "sibgha-1",
+   "ms"
+  ],
+  [
+   "a tribe (of israel)",
+   "lemma",
+   "sibt-1",
+   "en"
+  ],
+  [
+   "suku",
+   "lemma",
+   "sibt-1",
+   "ms"
+  ],
+  [
+   "truthful; one who affirms the truth",
+   "lemma",
+   "siddiq-1",
+   "en"
+  ],
+  [
+   "yang sangat benar",
+   "lemma",
+   "siddiq-1",
    "ms"
   ],
   [
@@ -12064,6 +65819,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "pokok bidara",
+   "lemma",
+   "sidr-1",
+   "ms"
+  ],
+  [
+   "the lote-tree",
+   "lemma",
+   "sidr-1",
+   "en"
+  ],
+  [
    "magic; sorcery",
    "lemma",
    "sihr-1",
@@ -12073,6 +65840,186 @@ const QM_SEARCH_INDEX = {
    "sihir",
    "lemma",
    "sihr-1",
+   "ms"
+  ],
+  [
+   "ipar",
+   "lemma",
+   "sihr-2",
+   "ms"
+  ],
+  [
+   "relatives by marriage",
+   "lemma",
+   "sihr-2",
+   "en"
+  ],
+  [
+   "sijjin",
+   "lemma",
+   "sijjin-1",
+   "ms"
+  ],
+  [
+   "sijjin (the register of the wicked)",
+   "lemma",
+   "sijjin-1",
+   "en"
+  ],
+  [
+   "penjara",
+   "lemma",
+   "sijn-1",
+   "ms"
+  ],
+  [
+   "prison",
+   "lemma",
+   "sijn-1",
+   "en"
+  ],
+  [
+   "ejekan",
+   "lemma",
+   "sikhriyy-1",
+   "ms"
+  ],
+  [
+   "mockery; ridicule",
+   "lemma",
+   "sikhriyy-1",
+   "en"
+  ],
+  [
+   "a knife",
+   "lemma",
+   "sikkin-1",
+   "en"
+  ],
+  [
+   "pisau",
+   "lemma",
+   "sikkin-1",
+   "ms"
+  ],
+  [
+   "a weapon",
+   "lemma",
+   "silah-1",
+   "en"
+  ],
+  [
+   "senjata",
+   "lemma",
+   "silah-1",
+   "ms"
+  ],
+  [
+   "keamanan; penyerahan",
+   "lemma",
+   "silm-1",
+   "ms"
+  ],
+  [
+   "peace; submission",
+   "lemma",
+   "silm-1",
+   "en"
+  ],
+  [
+   "a chain",
+   "lemma",
+   "silsila-1",
+   "en"
+  ],
+  [
+   "rantai",
+   "lemma",
+   "silsila-1",
+   "ms"
+  ],
+  [
+   "mark; sign (by which one is known)",
+   "lemma",
+   "sima-1",
+   "en"
+  ],
+  [
+   "tanda; ciri",
+   "lemma",
+   "sima-1",
+   "ms"
+  ],
+  [
+   "sinai (sinin)",
+   "lemma",
+   "sina-1",
+   "en"
+  ],
+  [
+   "sinai (sinin)",
+   "lemma",
+   "sina-1",
+   "ms"
+  ],
+  [
+   "berumpun",
+   "lemma",
+   "sinwan-1",
+   "ms"
+  ],
+  [
+   "clustered (palms)",
+   "lemma",
+   "sinwan-1",
+   "en"
+  ],
+  [
+   "a drinking cup; the giving of water",
+   "lemma",
+   "siqaya-1",
+   "en"
+  ],
+  [
+   "piala minum; pemberian minum",
+   "lemma",
+   "siqaya-1",
+   "ms"
+  ],
+  [
+   "bergegas",
+   "lemma",
+   "sira-1",
+   "ms"
+  ],
+  [
+   "swift; hastening",
+   "lemma",
+   "sira-1",
+   "en"
+  ],
+  [
+   "a state; a way",
+   "lemma",
+   "sira-2",
+   "en"
+  ],
+  [
+   "keadaan",
+   "lemma",
+   "sira-2",
+   "ms"
+  ],
+  [
+   "lamp",
+   "lemma",
+   "siraj-1",
+   "en"
+  ],
+  [
+   "pelita",
+   "lemma",
+   "siraj-1",
    "ms"
   ],
   [
@@ -12088,6 +66035,102 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a garment",
+   "lemma",
+   "sirbal-1",
+   "en"
+  ],
+  [
+   "pakaian",
+   "lemma",
+   "sirbal-1",
+   "ms"
+  ],
+  [
+   "rahsia",
+   "lemma",
+   "sirr-1",
+   "ms"
+  ],
+  [
+   "secret",
+   "lemma",
+   "sirr-1",
+   "en"
+  ],
+  [
+   "a biting cold",
+   "lemma",
+   "sirr-2",
+   "en"
+  ],
+  [
+   "angin dingin yang membakar",
+   "lemma",
+   "sirr-2",
+   "ms"
+  ],
+  [
+   "a covering",
+   "lemma",
+   "sitr-1",
+   "en"
+  ],
+  [
+   "penutup",
+   "lemma",
+   "sitr-1",
+   "ms"
+  ],
+  [
+   "enam",
+   "lemma",
+   "sitta-1",
+   "ms"
+  ],
+  [
+   "six",
+   "lemma",
+   "sitta-1",
+   "en"
+  ],
+  [
+   "enam puluh",
+   "lemma",
+   "sittun-1",
+   "ms"
+  ],
+  [
+   "sixty",
+   "lemma",
+   "sittun-1",
+   "en"
+  ],
+  [
+   "bracelet",
+   "lemma",
+   "siwar-1",
+   "en"
+  ],
+  [
+   "gelang",
+   "lemma",
+   "siwar-1",
+   "ms"
+  ],
+  [
+   "fasting",
+   "lemma",
+   "siyam-1",
+   "en"
+  ],
+  [
+   "puasa",
+   "lemma",
+   "siyam-1",
+   "ms"
+  ],
+  [
    "evil; harm",
    "lemma",
    "su-1",
@@ -12097,6 +66140,66 @@ const QM_SEARCH_INDEX = {
    "kejahatan; keburukan",
    "lemma",
    "su-1",
+   "ms"
+  ],
+  [
+   "rehat; tidur",
+   "lemma",
+   "subat-1",
+   "ms"
+  ],
+  [
+   "rest; sleep",
+   "lemma",
+   "subat-1",
+   "en"
+  ],
+  [
+   "morning; dawn",
+   "lemma",
+   "subh-1",
+   "en"
+  ],
+  [
+   "subuh; pagi",
+   "lemma",
+   "subh-1",
+   "ms"
+  ],
+  [
+   "glory be (to); exalted is",
+   "lemma",
+   "subhan-1",
+   "en"
+  ],
+  [
+   "maha suci",
+   "lemma",
+   "subhan-1",
+   "ms"
+  ],
+  [
+   "in vain; without purpose",
+   "lemma",
+   "suda-1",
+   "en"
+  ],
+  [
+   "sia-sia",
+   "lemma",
+   "suda-1",
+   "ms"
+  ],
+  [
+   "aversion",
+   "lemma",
+   "suddud-1",
+   "en"
+  ],
+  [
+   "penolakan",
+   "lemma",
+   "suddud-1",
    "ms"
   ],
   [
@@ -12112,6 +66215,138 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a sixth",
+   "lemma",
+   "sudus-1",
+   "en"
+  ],
+  [
+   "seperenam",
+   "lemma",
+   "sudus-1",
+   "ms"
+  ],
+  [
+   "bulu biri-biri",
+   "lemma",
+   "suf-1",
+   "ms"
+  ],
+  [
+   "wool",
+   "lemma",
+   "suf-1",
+   "en"
+  ],
+  [
+   "foolish person",
+   "lemma",
+   "sufaha-1",
+   "en"
+  ],
+  [
+   "orang yang bodoh",
+   "lemma",
+   "sufaha-1",
+   "ms"
+  ],
+  [
+   "melebur",
+   "lemma",
+   "suhira-1",
+   "ms"
+  ],
+  [
+   "to melt",
+   "lemma",
+   "suhira-1",
+   "en"
+  ],
+  [
+   "binasalah",
+   "lemma",
+   "suhq-1",
+   "ms"
+  ],
+  [
+   "destruction; away with",
+   "lemma",
+   "suhq-1",
+   "en"
+  ],
+  [
+   "harta haram",
+   "lemma",
+   "suht-1",
+   "ms"
+  ],
+  [
+   "unlawful gain",
+   "lemma",
+   "suht-1",
+   "en"
+  ],
+  [
+   "prostration",
+   "lemma",
+   "sujud-1",
+   "en"
+  ],
+  [
+   "sujud",
+   "lemma",
+   "sujud-1",
+   "ms"
+  ],
+  [
+   "drunk",
+   "lemma",
+   "sukara-1",
+   "en"
+  ],
+  [
+   "mabuk",
+   "lemma",
+   "sukara-1",
+   "ms"
+  ],
+  [
+   "ejekan",
+   "lemma",
+   "sukhriyy-1",
+   "ms"
+  ],
+  [
+   "mockery",
+   "lemma",
+   "sukhriyy-1",
+   "en"
+  ],
+  [
+   "a request",
+   "lemma",
+   "sul-1",
+   "en"
+  ],
+  [
+   "permintaan",
+   "lemma",
+   "sul-1",
+   "ms"
+  ],
+  [
+   "an extract; a quintessence",
+   "lemma",
+   "sulala-1",
+   "en"
+  ],
+  [
+   "pati",
+   "lemma",
+   "sulala-1",
+   "ms"
+  ],
+  [
    "nabi sulaiman",
    "lemma",
    "sulayman-1",
@@ -12124,6 +66359,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "the loins; the backbone",
+   "lemma",
+   "sulb-1",
+   "en"
+  ],
+  [
+   "tulang belakang",
+   "lemma",
+   "sulb-1",
+   "ms"
+  ],
+  [
+   "ladder",
+   "lemma",
+   "sullam-1",
+   "en"
+  ],
+  [
+   "tangga",
+   "lemma",
+   "sullam-1",
+   "ms"
+  ],
+  [
    "authority; clear proof",
    "lemma",
    "sultan-1",
@@ -12133,6 +66392,42 @@ const QM_SEARCH_INDEX = {
    "kuasa; bukti yang nyata",
    "lemma",
    "sultan-1",
+   "ms"
+  ],
+  [
+   "deaf",
+   "lemma",
+   "summ-1",
+   "en"
+  ],
+  [
+   "pekak",
+   "lemma",
+   "summ-1",
+   "ms"
+  ],
+  [
+   "an ear of grain",
+   "lemma",
+   "sunbula-1",
+   "en"
+  ],
+  [
+   "tangkai gandum",
+   "lemma",
+   "sunbula-1",
+   "ms"
+  ],
+  [
+   "fine silk",
+   "lemma",
+   "sundus-1",
+   "en"
+  ],
+  [
+   "sutera halus",
+   "lemma",
+   "sundus-1",
    "ms"
   ],
   [
@@ -12148,6 +66443,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a market",
+   "lemma",
+   "suq-1",
+   "en"
+  ],
+  [
+   "pasar",
+   "lemma",
+   "suq-1",
+   "ms"
+  ],
+  [
+   "gugur",
+   "lemma",
+   "suqita-1",
+   "ms"
+  ],
+  [
+   "to fall",
+   "lemma",
+   "suqita-1",
+   "en"
+  ],
+  [
+   "minuman",
+   "lemma",
+   "suqiya-1",
+   "ms"
+  ],
+  [
+   "watering; drink",
+   "lemma",
+   "suqiya-1",
+   "en"
+  ],
+  [
    "sangkakala",
    "lemma",
    "sur-1",
@@ -12157,6 +66488,174 @@ const QM_SEARCH_INDEX = {
    "the trumpet",
    "lemma",
    "sur-1",
+   "en"
+  ],
+  [
+   "a wall",
+   "lemma",
+   "sur-2",
+   "en"
+  ],
+  [
+   "tembok",
+   "lemma",
+   "sur-2",
+   "ms"
+  ],
+  [
+   "chapter (sura)",
+   "lemma",
+   "sura-1",
+   "en"
+  ],
+  [
+   "surah",
+   "lemma",
+   "sura-1",
+   "ms"
+  ],
+  [
+   "a loud cry",
+   "lemma",
+   "surra-1",
+   "en"
+  ],
+  [
+   "jeritan",
+   "lemma",
+   "surra-1",
+   "ms"
+  ],
+  [
+   "joy",
+   "lemma",
+   "surur-1",
+   "en"
+  ],
+  [
+   "kegembiraan",
+   "lemma",
+   "surur-1",
+   "ms"
+  ],
+  [
+   "kegilaan; api yang menyala",
+   "lemma",
+   "suur-1",
+   "ms"
+  ],
+  [
+   "madness; blazing fires",
+   "lemma",
+   "suur-1",
+   "en"
+  ],
+  [
+   "a fair settlement; tuwa-like level",
+   "lemma",
+   "suw-1",
+   "en"
+  ],
+  [
+   "yang adil; sama rata",
+   "lemma",
+   "suw-1",
+   "ms"
+  ],
+  [
+   "the worst (end)",
+   "lemma",
+   "suwa-1",
+   "en"
+  ],
+  [
+   "yang paling buruk",
+   "lemma",
+   "suwa-1",
+   "ms"
+  ],
+  [
+   "suwa (an idol)",
+   "lemma",
+   "suwa-2",
+   "en"
+  ],
+  [
+   "suwa' (berhala)",
+   "lemma",
+   "suwa-2",
+   "ms"
+  ],
+  [
+   "a form; a shape",
+   "lemma",
+   "suwar-1",
+   "en"
+  ],
+  [
+   "rupa",
+   "lemma",
+   "suwar-1",
+   "ms"
+  ],
+  [
+   "by (particle of oath)",
+   "lemma",
+   "ta-1",
+   "en"
+  ],
+  [
+   "demi (huruf sumpah)",
+   "lemma",
+   "ta-1",
+   "ms"
+  ],
+  [
+   "ketaatan",
+   "lemma",
+   "taa-1",
+   "ms"
+  ],
+  [
+   "obedience",
+   "lemma",
+   "taa-1",
+   "en"
+  ],
+  [
+   "ditaati",
+   "lemma",
+   "taa-2",
+   "ms"
+  ],
+  [
+   "to be obeyed",
+   "lemma",
+   "taa-2",
+   "en"
+  ],
+  [
+   "melampaui batas",
+   "lemma",
+   "taadda-1",
+   "ms"
+  ],
+  [
+   "to transgress",
+   "lemma",
+   "taadda-1",
+   "en"
+  ],
+  [
+   "mengisytiharkan",
+   "lemma",
+   "taadhdhana-1",
+   "ms"
+  ],
+  [
+   "to proclaim",
+   "lemma",
+   "taadhdhana-1",
    "en"
   ],
   [
@@ -12172,6 +66671,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "mempelajari",
+   "lemma",
+   "taallama-1",
+   "ms"
+  ],
+  [
+   "to learn",
+   "lemma",
+   "taallama-1",
+   "en"
+  ],
+  [
    "food",
    "lemma",
    "taam-1",
@@ -12184,6 +66695,66 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "mencela",
+   "lemma",
+   "taana-1",
+   "ms"
+  ],
+  [
+   "to revile; to thrust",
+   "lemma",
+   "taana-1",
+   "en"
+  ],
+  [
+   "terbang",
+   "lemma",
+   "taara-1",
+   "ms"
+  ],
+  [
+   "to fly",
+   "lemma",
+   "taara-1",
+   "en"
+  ],
+  [
+   "berkenal-kenalan",
+   "lemma",
+   "taarafa-1",
+   "ms"
+  ],
+  [
+   "to know one another",
+   "lemma",
+   "taarafa-1",
+   "en"
+  ],
+  [
+   "accusation of sin",
+   "lemma",
+   "taathim-1",
+   "en"
+  ],
+  [
+   "tuduhan berdosa",
+   "lemma",
+   "taathim-1",
+   "ms"
+  ],
+  [
+   "bekerjasama",
+   "lemma",
+   "taawana-1",
+   "ms"
+  ],
+  [
+   "to cooperate",
+   "lemma",
+   "taawana-1",
+   "en"
+  ],
+  [
    "bertaubat",
    "lemma",
    "taba-1",
@@ -12193,6 +66764,198 @@ const QM_SEARCH_INDEX = {
    "to repent; to turn in repentance",
    "lemma",
    "taba-1",
+   "en"
+  ],
+  [
+   "followers",
+   "lemma",
+   "taba-2",
+   "en"
+  ],
+  [
+   "pengikut",
+   "lemma",
+   "taba-2",
+   "ms"
+  ],
+  [
+   "menjadi baik",
+   "lemma",
+   "taba-3",
+   "ms"
+  ],
+  [
+   "to be good",
+   "lemma",
+   "taba-3",
+   "en"
+  ],
+  [
+   "mengunci; mengecap",
+   "lemma",
+   "tabaa-1",
+   "ms"
+  ],
+  [
+   "to seal; to set a seal",
+   "lemma",
+   "tabaa-1",
+   "en"
+  ],
+  [
+   "berjual beli",
+   "lemma",
+   "tabaaya-1",
+   "ms"
+  ],
+  [
+   "to trade with one another",
+   "lemma",
+   "tabaaya-1",
+   "en"
+  ],
+  [
+   "kebinasaan",
+   "lemma",
+   "tabab-1",
+   "ms"
+  ],
+  [
+   "ruin; perdition",
+   "lemma",
+   "tabab-1",
+   "en"
+  ],
+  [
+   "menukar",
+   "lemma",
+   "tabaddala-1",
+   "ms"
+  ],
+  [
+   "to exchange",
+   "lemma",
+   "tabaddala-1",
+   "en"
+  ],
+  [
+   "a stage; a layer",
+   "lemma",
+   "tabaq-1",
+   "en"
+  ],
+  [
+   "peringkat",
+   "lemma",
+   "tabaq-1",
+   "ms"
+  ],
+  [
+   "destruction",
+   "lemma",
+   "tabar-1",
+   "en"
+  ],
+  [
+   "kebinasaan",
+   "lemma",
+   "tabar-1",
+   "ms"
+  ],
+  [
+   "maha suci dan maha berkat",
+   "lemma",
+   "tabaraka-1",
+   "ms"
+  ],
+  [
+   "to be blessed; to be exalted",
+   "lemma",
+   "tabaraka-1",
+   "en"
+  ],
+  [
+   "berlepas diri",
+   "lemma",
+   "tabarraa-1",
+   "ms"
+  ],
+  [
+   "to disown; to free oneself",
+   "lemma",
+   "tabarraa-1",
+   "en"
+  ],
+  [
+   "bersolek berlebihan",
+   "lemma",
+   "tabarraja-1",
+   "ms"
+  ],
+  [
+   "to make a wanton display",
+   "lemma",
+   "tabarraja-1",
+   "en"
+  ],
+  [
+   "berhias secara berlebihan",
+   "lemma",
+   "tabarruj-1",
+   "ms"
+  ],
+  [
+   "wanton display",
+   "lemma",
+   "tabarruj-1",
+   "en"
+  ],
+  [
+   "tersenyum",
+   "lemma",
+   "tabassama-1",
+   "ms"
+  ],
+  [
+   "to smile",
+   "lemma",
+   "tabassama-1",
+   "en"
+  ],
+  [
+   "menumpukan diri",
+   "lemma",
+   "tabattala-1",
+   "ms"
+  ],
+  [
+   "to devote oneself",
+   "lemma",
+   "tabattala-1",
+   "en"
+  ],
+  [
+   "menetap di",
+   "lemma",
+   "tabawwaa-1",
+   "ms"
+  ],
+  [
+   "to settle in; to take as a dwelling",
+   "lemma",
+   "tabawwaa-1",
+   "en"
+  ],
+  [
+   "menjadi jelas",
+   "lemma",
+   "tabayyana-1",
+   "ms"
+  ],
+  [
+   "to become clear",
+   "lemma",
+   "tabayyana-1",
    "en"
   ],
   [
@@ -12208,6 +66971,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memusnahkan",
+   "lemma",
+   "tabbara-1",
+   "ms"
+  ],
+  [
+   "to destroy utterly",
+   "lemma",
+   "tabbara-1",
+   "en"
+  ],
+  [
+   "pembaziran",
+   "lemma",
+   "tabdhir-1",
+   "ms"
+  ],
+  [
+   "squandering",
+   "lemma",
+   "tabdhir-1",
+   "en"
+  ],
+  [
+   "change; replacement",
+   "lemma",
+   "tabdil-1",
+   "en"
+  ],
+  [
+   "perubahan; penggantian",
+   "lemma",
+   "tabdil-1",
+   "ms"
+  ],
+  [
+   "follower",
+   "lemma",
+   "tabi-1",
+   "en"
+  ],
+  [
+   "pengikut",
+   "lemma",
+   "tabi-1",
+   "ms"
+  ],
+  [
+   "a defender; one who follows up",
+   "lemma",
+   "tabi-2",
+   "en"
+  ],
+  [
+   "pembela",
+   "lemma",
+   "tabi-2",
+   "ms"
+  ],
+  [
    "mengikuti",
    "lemma",
    "tabia-1",
@@ -12218,6 +67041,78 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "tabia-1",
    "en"
+  ],
+  [
+   "a reminder; insight",
+   "lemma",
+   "tabsira-1",
+   "en"
+  ],
+  [
+   "peringatan",
+   "lemma",
+   "tabsira-1",
+   "ms"
+  ],
+  [
+   "peti",
+   "lemma",
+   "tabut-1",
+   "ms"
+  ],
+  [
+   "the ark",
+   "lemma",
+   "tabut-1",
+   "en"
+  ],
+  [
+   "memikirkan",
+   "lemma",
+   "tadabbara-1",
+   "ms"
+  ],
+  [
+   "to ponder",
+   "lemma",
+   "tadabbara-1",
+   "en"
+  ],
+  [
+   "menjangkau",
+   "lemma",
+   "tadaraka-1",
+   "ms"
+  ],
+  [
+   "to reach; to overtake",
+   "lemma",
+   "tadaraka-1",
+   "en"
+  ],
+  [
+   "merayu dengan rendah diri",
+   "lemma",
+   "tadarraa-1",
+   "ms"
+  ],
+  [
+   "to supplicate humbly",
+   "lemma",
+   "tadarraa-1",
+   "en"
+  ],
+  [
+   "humble supplication",
+   "lemma",
+   "tadarru-1",
+   "en"
+  ],
+  [
+   "rayuan dengan merendah diri",
+   "lemma",
+   "tadarru-1",
+   "ms"
   ],
   [
    "mengambil peringatan; mengingati",
@@ -12232,6 +67127,378 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "peringatan",
+   "lemma",
+   "tadhkir-1",
+   "ms"
+  ],
+  [
+   "reminding",
+   "lemma",
+   "tadhkir-1",
+   "en"
+  ],
+  [
+   "peringatan",
+   "lemma",
+   "tadhkira-1",
+   "ms"
+  ],
+  [
+   "reminder; admonition",
+   "lemma",
+   "tadhkira-1",
+   "en"
+  ],
+  [
+   "destroying",
+   "lemma",
+   "tadmir-1",
+   "en"
+  ],
+  [
+   "pemusnahan",
+   "lemma",
+   "tadmir-1",
+   "ms"
+  ],
+  [
+   "mengelilingi; bertawaf",
+   "lemma",
+   "tafa-1",
+   "ms"
+  ],
+  [
+   "to go around; to circle",
+   "lemma",
+   "tafa-1",
+   "en"
+  ],
+  [
+   "memadamkan",
+   "lemma",
+   "tafaa-1",
+   "ms"
+  ],
+  [
+   "to extinguish",
+   "lemma",
+   "tafaa-1",
+   "en"
+  ],
+  [
+   "hendak melebihi",
+   "lemma",
+   "tafaddala-1",
+   "ms"
+  ],
+  [
+   "to seek superiority",
+   "lemma",
+   "tafaddala-1",
+   "en"
+  ],
+  [
+   "berbangga-bangga",
+   "lemma",
+   "tafakhur-1",
+   "ms"
+  ],
+  [
+   "mutual boasting",
+   "lemma",
+   "tafakhur-1",
+   "en"
+  ],
+  [
+   "berfikir; merenung",
+   "lemma",
+   "tafakkara-1",
+   "ms"
+  ],
+  [
+   "to reflect; to think deeply",
+   "lemma",
+   "tafakkara-1",
+   "en"
+  ],
+  [
+   "berpecah",
+   "lemma",
+   "tafarraqa-1",
+   "ms"
+  ],
+  [
+   "to be divided; to disperse",
+   "lemma",
+   "tafarraqa-1",
+   "en"
+  ],
+  [
+   "terbelah",
+   "lemma",
+   "tafattara-1",
+   "ms"
+  ],
+  [
+   "to be rent asunder",
+   "lemma",
+   "tafattara-1",
+   "en"
+  ],
+  [
+   "disparity; discrepancy",
+   "lemma",
+   "tafawut-1",
+   "en"
+  ],
+  [
+   "ketidaksamaan",
+   "lemma",
+   "tafawut-1",
+   "ms"
+  ],
+  [
+   "pengutamaan",
+   "lemma",
+   "tafdil-1",
+   "ms"
+  ],
+  [
+   "preferment; favouring",
+   "lemma",
+   "tafdil-1",
+   "en"
+  ],
+  [
+   "mula",
+   "lemma",
+   "tafiqa-1",
+   "ms"
+  ],
+  [
+   "to begin",
+   "lemma",
+   "tafiqa-1",
+   "en"
+  ],
+  [
+   "causing to gush forth",
+   "lemma",
+   "tafjir-1",
+   "en"
+  ],
+  [
+   "memancarkan",
+   "lemma",
+   "tafjir-1",
+   "ms"
+  ],
+  [
+   "dividing",
+   "lemma",
+   "tafriq-1",
+   "en"
+  ],
+  [
+   "memecahbelahkan",
+   "lemma",
+   "tafriq-1",
+   "ms"
+  ],
+  [
+   "detailed explanation",
+   "lemma",
+   "tafsil-1",
+   "en"
+  ],
+  [
+   "penjelasan terperinci",
+   "lemma",
+   "tafsil-1",
+   "ms"
+  ],
+  [
+   "melampaui batas",
+   "lemma",
+   "tagha-1",
+   "ms"
+  ],
+  [
+   "to transgress; to exceed all bounds",
+   "lemma",
+   "tagha-1",
+   "en"
+  ],
+  [
+   "one who transgresses",
+   "lemma",
+   "taghin-1",
+   "en"
+  ],
+  [
+   "yang melampaui batas",
+   "lemma",
+   "taghin-1",
+   "ms"
+  ],
+  [
+   "azab yang melampaui batas",
+   "lemma",
+   "taghiya-1",
+   "ms"
+  ],
+  [
+   "the overwhelming blast",
+   "lemma",
+   "taghiya-1",
+   "en"
+  ],
+  [
+   "idols; false deities; tyranny",
+   "lemma",
+   "taghut-1",
+   "en"
+  ],
+  [
+   "taghut; berhala; kezaliman",
+   "lemma",
+   "taghut-1",
+   "ms"
+  ],
+  [
+   "kederhakaan",
+   "lemma",
+   "taghwa-1",
+   "ms"
+  ],
+  [
+   "transgression",
+   "lemma",
+   "taghwa-1",
+   "en"
+  ],
+  [
+   "mengembara bingung",
+   "lemma",
+   "taha-1",
+   "ms"
+  ],
+  [
+   "to wander in confusion",
+   "lemma",
+   "taha-1",
+   "en"
+  ],
+  [
+   "berbantah-bantah",
+   "lemma",
+   "tahajja-1",
+   "ms"
+  ],
+  [
+   "to dispute with one another",
+   "lemma",
+   "tahajja-1",
+   "en"
+  ],
+  [
+   "bertahkim",
+   "lemma",
+   "tahakama-1",
+   "ms"
+  ],
+  [
+   "to seek judgement",
+   "lemma",
+   "tahakama-1",
+   "en"
+  ],
+  [
+   "mencari",
+   "lemma",
+   "tahara-1",
+   "ms"
+  ],
+  [
+   "to seek out",
+   "lemma",
+   "tahara-1",
+   "en"
+  ],
+  [
+   "mencari-cari",
+   "lemma",
+   "tahassasa-1",
+   "ms"
+  ],
+  [
+   "to search out",
+   "lemma",
+   "tahassasa-1",
+   "en"
+  ],
+  [
+   "chastity",
+   "lemma",
+   "tahassun-1",
+   "en"
+  ],
+  [
+   "menjaga kehormatan",
+   "lemma",
+   "tahassun-1",
+   "ms"
+  ],
+  [
+   "menyucikan",
+   "lemma",
+   "tahhara-1",
+   "ms"
+  ],
+  [
+   "to purify",
+   "lemma",
+   "tahhara-1",
+   "en"
+  ],
+  [
+   "a release (from an oath)",
+   "lemma",
+   "tahilla-1",
+   "en"
+  ],
+  [
+   "pelepasan sumpah",
+   "lemma",
+   "tahilla-1",
+   "ms"
+  ],
+  [
+   "a greeting",
+   "lemma",
+   "tahiyya-1",
+   "en"
+  ],
+  [
+   "salam",
+   "lemma",
+   "tahiyya-1",
+   "ms"
+  ],
+  [
+   "freeing (of a slave)",
+   "lemma",
+   "tahrir-1",
+   "en"
+  ],
+  [
+   "pembebasan",
+   "lemma",
+   "tahrir-1",
+   "ms"
+  ],
+  [
    "beneath; under",
    "lemma",
    "tahta-1",
@@ -12241,6 +67508,54 @@ const QM_SEARCH_INDEX = {
    "di bawah",
    "lemma",
    "tahta-1",
+   "ms"
+  ],
+  [
+   "purifying; pure",
+   "lemma",
+   "tahur-1",
+   "en"
+  ],
+  [
+   "yang menyucikan",
+   "lemma",
+   "tahur-1",
+   "ms"
+  ],
+  [
+   "menjadi suci",
+   "lemma",
+   "tahura-1",
+   "ms"
+  ],
+  [
+   "to be pure",
+   "lemma",
+   "tahura-1",
+   "en"
+  ],
+  [
+   "changing; turning aside",
+   "lemma",
+   "tahwil-1",
+   "en"
+  ],
+  [
+   "pengubahan; pemindahan",
+   "lemma",
+   "tahwil-1",
+   "ms"
+  ],
+  [
+   "one who repents",
+   "lemma",
+   "taib-1",
+   "en"
+  ],
+  [
+   "orang yang bertaubat",
+   "lemma",
+   "taib-1",
    "ms"
   ],
   [
@@ -12256,6 +67571,258 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a bird; an omen",
+   "lemma",
+   "tair-1",
+   "en"
+  ],
+  [
+   "burung; petanda",
+   "lemma",
+   "tair-1",
+   "ms"
+  ],
+  [
+   "menjauhkan diri",
+   "lemma",
+   "tajafa-1",
+   "ms"
+  ],
+  [
+   "to draw away",
+   "lemma",
+   "tajafa-1",
+   "en"
+  ],
+  [
+   "menjauhi",
+   "lemma",
+   "tajannaba-1",
+   "ms"
+  ],
+  [
+   "to avoid",
+   "lemma",
+   "tajannaba-1",
+   "en"
+  ],
+  [
+   "merayu",
+   "lemma",
+   "tajara-1",
+   "ms"
+  ],
+  [
+   "to cry out (for help)",
+   "lemma",
+   "tajara-1",
+   "en"
+  ],
+  [
+   "meneguk dengan susah",
+   "lemma",
+   "tajarraa-1",
+   "ms"
+  ],
+  [
+   "to sip with difficulty",
+   "lemma",
+   "tajarraa-1",
+   "en"
+  ],
+  [
+   "mengintip",
+   "lemma",
+   "tajassasa-1",
+   "ms"
+  ],
+  [
+   "to spy",
+   "lemma",
+   "tajassasa-1",
+   "en"
+  ],
+  [
+   "mengabaikan",
+   "lemma",
+   "tajawaza-1",
+   "ms"
+  ],
+  [
+   "to overlook; to pass over",
+   "lemma",
+   "tajawaza-1",
+   "en"
+  ],
+  [
+   "bersegera",
+   "lemma",
+   "tajjala-1",
+   "ms"
+  ],
+  [
+   "to hasten",
+   "lemma",
+   "tajjala-1",
+   "en"
+  ],
+  [
+   "menyombong",
+   "lemma",
+   "takabbara-1",
+   "ms"
+  ],
+  [
+   "to be arrogant",
+   "lemma",
+   "takabbara-1",
+   "en"
+  ],
+  [
+   "bercakap",
+   "lemma",
+   "takallama-1",
+   "ms"
+  ],
+  [
+   "to speak",
+   "lemma",
+   "takallama-1",
+   "en"
+  ],
+  [
+   "bercakap secara langsung",
+   "lemma",
+   "takallum-1",
+   "ms"
+  ],
+  [
+   "speaking directly",
+   "lemma",
+   "takallum-1",
+   "en"
+  ],
+  [
+   "berlumba-lumba memperbanyak",
+   "lemma",
+   "takathur-1",
+   "ms"
+  ],
+  [
+   "rivalry in worldly increase",
+   "lemma",
+   "takathur-1",
+   "en"
+  ],
+  [
+   "magnifying",
+   "lemma",
+   "takbir-1",
+   "en"
+  ],
+  [
+   "membesarkan",
+   "lemma",
+   "takbir-1",
+   "ms"
+  ],
+  [
+   "menjadikan gila",
+   "lemma",
+   "takhabbata-1",
+   "ms"
+  ],
+  [
+   "to strike (as with madness)",
+   "lemma",
+   "takhabbata-1",
+   "en"
+  ],
+  [
+   "berbisik-bisik",
+   "lemma",
+   "takhafata-1",
+   "ms"
+  ],
+  [
+   "to speak in low tones",
+   "lemma",
+   "takhafata-1",
+   "en"
+  ],
+  [
+   "terkemudian",
+   "lemma",
+   "takhara-1",
+   "ms"
+  ],
+  [
+   "to lag behind",
+   "lemma",
+   "takhara-1",
+   "en"
+  ],
+  [
+   "menyambar",
+   "lemma",
+   "takhattafa-1",
+   "ms"
+  ],
+  [
+   "to snatch away",
+   "lemma",
+   "takhattafa-1",
+   "en"
+  ],
+  [
+   "berkurang sedikit demi sedikit",
+   "lemma",
+   "takhawwuf-1",
+   "ms"
+  ],
+  [
+   "gradual diminution (taking by degrees)",
+   "lemma",
+   "takhawwuf-1",
+   "en"
+  ],
+  [
+   "jatuh",
+   "lemma",
+   "takhirru-1",
+   "ms"
+  ],
+  [
+   "to fall down",
+   "lemma",
+   "takhirru-1",
+   "en"
+  ],
+  [
+   "kerugian",
+   "lemma",
+   "takhsir-1",
+   "ms"
+  ],
+  [
+   "ruin",
+   "lemma",
+   "takhsir-1",
+   "en"
+  ],
+  [
+   "frightening",
+   "lemma",
+   "takhwif-1",
+   "en"
+  ],
+  [
+   "menakut-nakuti",
+   "lemma",
+   "takhwif-1",
+   "ms"
+  ],
+  [
    "membaca; mengikuti",
    "lemma",
    "tala-1",
@@ -12265,6 +67832,570 @@ const QM_SEARCH_INDEX = {
    "to recite; to follow",
    "lemma",
    "tala-1",
+   "en"
+  ],
+  [
+   "terbit",
+   "lemma",
+   "tala-2",
+   "ms"
+  ],
+  [
+   "to rise (of the sun)",
+   "lemma",
+   "tala-2",
+   "en"
+  ],
+  [
+   "menjadi panjang",
+   "lemma",
+   "tala-3",
+   "ms"
+  ],
+  [
+   "to be long",
+   "lemma",
+   "tala-3",
+   "en"
+  ],
+  [
+   "menjenguk",
+   "lemma",
+   "talaa-2",
+   "ms"
+  ],
+  [
+   "to look out; to rise",
+   "lemma",
+   "talaa-2",
+   "en"
+  ],
+  [
+   "pencarian",
+   "lemma",
+   "talab-1",
+   "ms"
+  ],
+  [
+   "seeking",
+   "lemma",
+   "talab-1",
+   "en"
+  ],
+  [
+   "mencari",
+   "lemma",
+   "talaba-1",
+   "ms"
+  ],
+  [
+   "to seek",
+   "lemma",
+   "talaba-1",
+   "en"
+  ],
+  [
+   "mengabaikan",
+   "lemma",
+   "talahha-1",
+   "ms"
+  ],
+  [
+   "to pay no heed",
+   "lemma",
+   "talahha-1",
+   "en"
+  ],
+  [
+   "hari pertemuan",
+   "lemma",
+   "talaq-1",
+   "ms"
+  ],
+  [
+   "the day of meeting",
+   "lemma",
+   "talaq-1",
+   "en"
+  ],
+  [
+   "divorce",
+   "lemma",
+   "talaq-2",
+   "en"
+  ],
+  [
+   "talak",
+   "lemma",
+   "talaq-2",
+   "ms"
+  ],
+  [
+   "menerima",
+   "lemma",
+   "talaqqa-1",
+   "ms"
+  ],
+  [
+   "to receive",
+   "lemma",
+   "talaqqa-1",
+   "en"
+  ],
+  [
+   "mayang kurma",
+   "lemma",
+   "talh-1",
+   "ms"
+  ],
+  [
+   "spathe; flower-cluster of the palm",
+   "lemma",
+   "talh-1",
+   "en"
+  ],
+  [
+   "one who seeks",
+   "lemma",
+   "talib-1",
+   "en"
+  ],
+  [
+   "pencari",
+   "lemma",
+   "talib-1",
+   "ms"
+  ],
+  [
+   "those that recite",
+   "lemma",
+   "taliyat-1",
+   "en"
+  ],
+  [
+   "yang membaca",
+   "lemma",
+   "taliyat-1",
+   "ms"
+  ],
+  [
+   "agar tidak",
+   "lemma",
+   "talla-1",
+   "ms"
+  ],
+  [
+   "so that not",
+   "lemma",
+   "talla-1",
+   "en"
+  ],
+  [
+   "menelungkupkan",
+   "lemma",
+   "tallahu-1",
+   "ms"
+  ],
+  [
+   "to throw down (on the forehead)",
+   "lemma",
+   "tallahu-1",
+   "en"
+  ],
+  [
+   "menceraikan",
+   "lemma",
+   "tallaqa-1",
+   "ms"
+  ],
+  [
+   "to divorce",
+   "lemma",
+   "tallaqa-1",
+   "en"
+  ],
+  [
+   "talut",
+   "lemma",
+   "talut-1",
+   "ms"
+  ],
+  [
+   "talut (saul)",
+   "lemma",
+   "talut-1",
+   "en"
+  ],
+  [
+   "rasa",
+   "lemma",
+   "tam-1",
+   "ms"
+  ],
+  [
+   "taste",
+   "lemma",
+   "tam-1",
+   "en"
+  ],
+  [
+   "harapan; keinginan",
+   "lemma",
+   "tama-1",
+   "ms"
+  ],
+  [
+   "hope; desire",
+   "lemma",
+   "tama-1",
+   "en"
+  ],
+  [
+   "berbantah sesama sendiri",
+   "lemma",
+   "tamaara-1",
+   "ms"
+  ],
+  [
+   "to dispute with one another",
+   "lemma",
+   "tamaara-1",
+   "en"
+  ],
+  [
+   "bersentuhan",
+   "lemma",
+   "tamaassa-1",
+   "ms"
+  ],
+  [
+   "to touch one another",
+   "lemma",
+   "tamaassa-1",
+   "en"
+  ],
+  [
+   "completeness",
+   "lemma",
+   "tamam-1",
+   "en"
+  ],
+  [
+   "kesempurnaan",
+   "lemma",
+   "tamam-1",
+   "ms"
+  ],
+  [
+   "mengharapkan; berangan",
+   "lemma",
+   "tamanna-1",
+   "ms"
+  ],
+  [
+   "to wish for; to long for",
+   "lemma",
+   "tamanna-1",
+   "en"
+  ],
+  [
+   "ragu",
+   "lemma",
+   "tamara-1",
+   "ms"
+  ],
+  [
+   "to doubt",
+   "lemma",
+   "tamara-1",
+   "en"
+  ],
+  [
+   "menghapuskan",
+   "lemma",
+   "tamasa-1",
+   "ms"
+  ],
+  [
+   "to efface; to blot out",
+   "lemma",
+   "tamasa-1",
+   "en"
+  ],
+  [
+   "menyentuh (perempuan)",
+   "lemma",
+   "tamatha-1",
+   "ms"
+  ],
+  [
+   "to touch (a woman)",
+   "lemma",
+   "tamatha-1",
+   "en"
+  ],
+  [
+   "bersenang-senang; menikmati",
+   "lemma",
+   "tamattaa-1",
+   "ms"
+  ],
+  [
+   "to enjoy; to take one's enjoyment",
+   "lemma",
+   "tamattaa-1",
+   "en"
+  ],
+  [
+   "makan; merasa",
+   "lemma",
+   "tamia-1",
+   "ms"
+  ],
+  [
+   "to eat; to taste",
+   "lemma",
+   "tamia-1",
+   "en"
+  ],
+  [
+   "one who eats",
+   "lemma",
+   "tamim-1",
+   "en"
+  ],
+  [
+   "orang yang makan",
+   "lemma",
+   "tamim-1",
+   "ms"
+  ],
+  [
+   "menjadi sempurna",
+   "lemma",
+   "tamma-1",
+   "ms"
+  ],
+  [
+   "to be completed; to be fulfilled",
+   "lemma",
+   "tamma-1",
+   "en"
+  ],
+  [
+   "malapetaka yang besar",
+   "lemma",
+   "tamma-2",
+   "ms"
+  ],
+  [
+   "the overwhelming (calamity)",
+   "lemma",
+   "tamma-2",
+   "en"
+  ],
+  [
+   "celaan",
+   "lemma",
+   "tan-1",
+   "ms"
+  ],
+  [
+   "reviling",
+   "lemma",
+   "tan-1",
+   "en"
+  ],
+  [
+   "saling memanggil",
+   "lemma",
+   "tanada-1",
+   "ms"
+  ],
+  [
+   "to call out to one another",
+   "lemma",
+   "tanada-1",
+   "en"
+  ],
+  [
+   "berbisik",
+   "lemma",
+   "tanajaa-1",
+   "ms"
+  ],
+  [
+   "to converse secretly",
+   "lemma",
+   "tanajaa-1",
+   "en"
+  ],
+  [
+   "berbantah",
+   "lemma",
+   "tanazaa-1",
+   "ms"
+  ],
+  [
+   "to dispute with one another",
+   "lemma",
+   "tanazaa-1",
+   "en"
+  ],
+  [
+   "to descend gradually",
+   "lemma",
+   "tanazzala-1",
+   "en"
+  ],
+  [
+   "turun beransur-ansur",
+   "lemma",
+   "tanazzala-1",
+   "ms"
+  ],
+  [
+   "lalai",
+   "lemma",
+   "taniya-1",
+   "ms"
+  ],
+  [
+   "to slacken",
+   "lemma",
+   "taniya-1",
+   "en"
+  ],
+  [
+   "tanur",
+   "lemma",
+   "tannur-1",
+   "ms"
+  ],
+  [
+   "the oven (tannur)",
+   "lemma",
+   "tannur-1",
+   "en"
+  ],
+  [
+   "penurunan; wahyu",
+   "lemma",
+   "tanzil-1",
+   "ms"
+  ],
+  [
+   "revelation; sending down",
+   "lemma",
+   "tanzil-1",
+   "en"
+  ],
+  [
+   "ability; capacity",
+   "lemma",
+   "taqa-1",
+   "en"
+  ],
+  [
+   "kemampuan",
+   "lemma",
+   "taqa-1",
+   "ms"
+  ],
+  [
+   "menerima",
+   "lemma",
+   "taqabbala-1",
+   "ms"
+  ],
+  [
+   "to accept",
+   "lemma",
+   "taqabbala-1",
+   "en"
+  ],
+  [
+   "mendahului",
+   "lemma",
+   "taqaddama-1",
+   "ms"
+  ],
+  [
+   "to go forward",
+   "lemma",
+   "taqaddama-1",
+   "en"
+  ],
+  [
+   "berbolak-balik",
+   "lemma",
+   "taqallaba-1",
+   "ms"
+  ],
+  [
+   "to turn about",
+   "lemma",
+   "taqallaba-1",
+   "en"
+  ],
+  [
+   "pergerakan",
+   "lemma",
+   "taqallub-1",
+   "ms"
+  ],
+  [
+   "turning about",
+   "lemma",
+   "taqallub-1",
+   "en"
+  ],
+  [
+   "terputus; berpecah",
+   "lemma",
+   "taqattaa-1",
+   "ms"
+  ],
+  [
+   "to be cut off; to be divided",
+   "lemma",
+   "taqattaa-1",
+   "en"
+  ],
+  [
+   "mereka-reka perkataan",
+   "lemma",
+   "taqawwala-1",
+   "ms"
+  ],
+  [
+   "to invent a saying",
+   "lemma",
+   "taqawwala-1",
+   "en"
+  ],
+  [
+   "ordaining; decree",
+   "lemma",
+   "taqdir-1",
+   "en"
+  ],
+  [
+   "penentuan; takdir",
+   "lemma",
+   "taqdir-1",
+   "ms"
+  ],
+  [
+   "bertakwa",
+   "lemma",
+   "taqiyy-1",
+   "ms"
+  ],
+  [
+   "god-fearing; pious",
+   "lemma",
+   "taqiyy-1",
    "en"
   ],
   [
@@ -12280,6 +68411,102 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bentuk yang sebaik-baiknya",
+   "lemma",
+   "taqwim-1",
+   "ms"
+  ],
+  [
+   "proportion; the best mould",
+   "lemma",
+   "taqwim-1",
+   "en"
+  ],
+  [
+   "a time; another time",
+   "lemma",
+   "tara-1",
+   "en"
+  ],
+  [
+   "sekali lagi",
+   "lemma",
+   "tara-1",
+   "ms"
+  ],
+  [
+   "menunggu",
+   "lemma",
+   "tarabbasa-1",
+   "ms"
+  ],
+  [
+   "to wait; to lie in wait",
+   "lemma",
+   "tarabbasa-1",
+   "en"
+  ],
+  [
+   "penantian",
+   "lemma",
+   "tarabbus-1",
+   "ms"
+  ],
+  [
+   "waiting",
+   "lemma",
+   "tarabbus-1",
+   "en"
+  ],
+  [
+   "menghalau",
+   "lemma",
+   "tarada-1",
+   "ms"
+  ],
+  [
+   "to drive away",
+   "lemma",
+   "tarada-1",
+   "en"
+  ],
+  [
+   "bersetuju",
+   "lemma",
+   "taradaa-1",
+   "ms"
+  ],
+  [
+   "to agree mutually",
+   "lemma",
+   "taradaa-1",
+   "en"
+  ],
+  [
+   "terjatuh binasa",
+   "lemma",
+   "taradda-1",
+   "ms"
+  ],
+  [
+   "to fall headlong; to perish",
+   "lemma",
+   "taradda-1",
+   "en"
+  ],
+  [
+   "an end; an extremity",
+   "lemma",
+   "taraf-1",
+   "en"
+  ],
+  [
+   "hujung",
+   "lemma",
+   "taraf-1",
+   "ms"
+  ],
+  [
    "meninggalkan",
    "lemma",
    "taraka-1",
@@ -12289,6 +68516,426 @@ const QM_SEARCH_INDEX = {
    "to leave; to abandon",
    "lemma",
    "taraka-1",
+   "en"
+  ],
+  [
+   "the collar-bones",
+   "lemma",
+   "taraqi-1",
+   "en"
+  ],
+  [
+   "tulang selangka",
+   "lemma",
+   "taraqi-1",
+   "ms"
+  ],
+  [
+   "menunggu dengan berwaspada",
+   "lemma",
+   "taraqqaba-1",
+   "ms"
+  ],
+  [
+   "to wait watchfully",
+   "lemma",
+   "taraqqaba-1",
+   "en"
+  ],
+  [
+   "a glance; the eye",
+   "lemma",
+   "tarf-1",
+   "en"
+  ],
+  [
+   "pandangan",
+   "lemma",
+   "tarf-1",
+   "ms"
+  ],
+  [
+   "one who leaves",
+   "lemma",
+   "tarik-1",
+   "en"
+  ],
+  [
+   "orang yang meninggalkan",
+   "lemma",
+   "tarik-1",
+   "ms"
+  ],
+  [
+   "a way; a path",
+   "lemma",
+   "tariq-1",
+   "en"
+  ],
+  [
+   "jalan",
+   "lemma",
+   "tariq-1",
+   "ms"
+  ],
+  [
+   "the night-comer (tariq)",
+   "lemma",
+   "tariq-2",
+   "en"
+  ],
+  [
+   "yang datang pada waktu malam",
+   "lemma",
+   "tariq-2",
+   "ms"
+  ],
+  [
+   "jalan",
+   "lemma",
+   "tariqa-1",
+   "ms"
+  ],
+  [
+   "paths; a way",
+   "lemma",
+   "tariqa-1",
+   "en"
+  ],
+  [
+   "fresh; tender",
+   "lemma",
+   "tariyy-1",
+   "en"
+  ],
+  [
+   "segar",
+   "lemma",
+   "tariyy-1",
+   "ms"
+  ],
+  [
+   "bacaan tartil",
+   "lemma",
+   "tartil-1",
+   "ms"
+  ],
+  [
+   "slow, measured recitation",
+   "lemma",
+   "tartil-1",
+   "en"
+  ],
+  [
+   "bertanya sesama sendiri",
+   "lemma",
+   "tasaala-1",
+   "ms"
+  ],
+  [
+   "to ask one another",
+   "lemma",
+   "tasaala-1",
+   "en"
+  ],
+  [
+   "melayani",
+   "lemma",
+   "tasadda-1",
+   "ms"
+  ],
+  [
+   "to attend eagerly",
+   "lemma",
+   "tasadda-1",
+   "en"
+  ],
+  [
+   "bersedekah",
+   "lemma",
+   "tasaddaqa-1",
+   "ms"
+  ],
+  [
+   "to give in charity",
+   "lemma",
+   "tasaddaqa-1",
+   "en"
+  ],
+  [
+   "memanjat",
+   "lemma",
+   "tasawwara-1",
+   "ms"
+  ],
+  [
+   "to scale (a wall)",
+   "lemma",
+   "tasawwara-1",
+   "en"
+  ],
+  [
+   "glorification",
+   "lemma",
+   "tasbih-1",
+   "en"
+  ],
+  [
+   "tasbih",
+   "lemma",
+   "tasbih-1",
+   "ms"
+  ],
+  [
+   "confirmation",
+   "lemma",
+   "tasdiq-1",
+   "en"
+  ],
+  [
+   "pengesahan",
+   "lemma",
+   "tasdiq-1",
+   "ms"
+  ],
+  [
+   "clapping",
+   "lemma",
+   "tasdiya-1",
+   "en"
+  ],
+  [
+   "tepukan",
+   "lemma",
+   "tasdiya-1",
+   "ms"
+  ],
+  [
+   "serupa",
+   "lemma",
+   "tashabaha-1",
+   "ms"
+  ],
+  [
+   "to resemble one another",
+   "lemma",
+   "tashabaha-1",
+   "en"
+  ],
+  [
+   "terbelah",
+   "lemma",
+   "tashaqqaqa-1",
+   "ms"
+  ],
+  [
+   "to split open",
+   "lemma",
+   "tashaqqaqa-1",
+   "en"
+  ],
+  [
+   "bermesyuarat",
+   "lemma",
+   "tashawur-1",
+   "ms"
+  ],
+  [
+   "mutual consultation",
+   "lemma",
+   "tashawur-1",
+   "en"
+  ],
+  [
+   "penyerahan; salam",
+   "lemma",
+   "taslim-1",
+   "ms"
+  ],
+  [
+   "submission; salutation",
+   "lemma",
+   "taslim-1",
+   "en"
+  ],
+  [
+   "burning in the fire",
+   "lemma",
+   "tasliya-1",
+   "en"
+  ],
+  [
+   "pembakaran di api",
+   "lemma",
+   "tasliya-1",
+   "ms"
+  ],
+  [
+   "naming",
+   "lemma",
+   "tasmiya-1",
+   "en"
+  ],
+  [
+   "penamaan",
+   "lemma",
+   "tasmiya-1",
+   "ms"
+  ],
+  [
+   "pelbagai corak",
+   "lemma",
+   "tasrif-1",
+   "ms"
+  ],
+  [
+   "variation; turning about",
+   "lemma",
+   "tasrif-1",
+   "en"
+  ],
+  [
+   "pelepasan",
+   "lemma",
+   "tasrih-1",
+   "ms"
+  ],
+  [
+   "releasing; divorce",
+   "lemma",
+   "tasrih-1",
+   "en"
+  ],
+  [
+   "bersuci",
+   "lemma",
+   "tatahhara-1",
+   "ms"
+  ],
+  [
+   "to purify oneself",
+   "lemma",
+   "tatahhara-1",
+   "en"
+  ],
+  [
+   "menganggap alamat buruk",
+   "lemma",
+   "tatayyara-1",
+   "ms"
+  ],
+  [
+   "to augur ill omens",
+   "lemma",
+   "tatayyara-1",
+   "en"
+  ],
+  [
+   "kerugian",
+   "lemma",
+   "tatbib-1",
+   "ms"
+  ],
+  [
+   "ruin",
+   "lemma",
+   "tatbib-1",
+   "en"
+  ],
+  [
+   "destruction",
+   "lemma",
+   "tatbir-1",
+   "en"
+  ],
+  [
+   "kemusnahan",
+   "lemma",
+   "tatbir-1",
+   "ms"
+  ],
+  [
+   "pengukuhan",
+   "lemma",
+   "tathbit-1",
+   "ms"
+  ],
+  [
+   "strengthening",
+   "lemma",
+   "tathbit-1",
+   "en"
+  ],
+  [
+   "penyucian",
+   "lemma",
+   "tathir-1",
+   "ms"
+  ],
+  [
+   "purification",
+   "lemma",
+   "tathir-1",
+   "en"
+  ],
+  [
+   "celaan",
+   "lemma",
+   "tathrib-1",
+   "ms"
+  ],
+  [
+   "reproach",
+   "lemma",
+   "tathrib-1",
+   "en"
+  ],
+  [
+   "berturut-turut",
+   "lemma",
+   "tatra-1",
+   "ms"
+  ],
+  [
+   "in succession",
+   "lemma",
+   "tatra-1",
+   "en"
+  ],
+  [
+   "sukarela; patuh",
+   "lemma",
+   "taw-1",
+   "ms"
+  ],
+  [
+   "willingness; obedience",
+   "lemma",
+   "taw-1",
+   "en"
+  ],
+  [
+   "mewafatkan; mengambil sepenuhnya",
+   "lemma",
+   "tawaffa-1",
+   "ms"
+  ],
+  [
+   "to take in full; to cause to die",
+   "lemma",
+   "tawaffa-1",
+   "en"
+  ],
+  [
+   "menghadap",
+   "lemma",
+   "tawajjaha-1",
+   "ms"
+  ],
+  [
+   "to turn one's face",
+   "lemma",
+   "tawajjaha-1",
    "en"
   ],
   [
@@ -12316,6 +68963,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "tersembunyi",
+   "lemma",
+   "tawara-1",
+   "ms"
+  ],
+  [
+   "to be hidden; to disappear",
+   "lemma",
+   "tawara-1",
+   "en"
+  ],
+  [
+   "berpesan-pesan",
+   "lemma",
+   "tawasa-1",
+   "ms"
+  ],
+  [
+   "to enjoin one another",
+   "lemma",
+   "tawasa-1",
+   "en"
+  ],
+  [
+   "repentance",
+   "lemma",
+   "tawb-1",
+   "en"
+  ],
+  [
+   "taubat",
+   "lemma",
+   "tawb-1",
+   "ms"
+  ],
+  [
+   "repentance",
+   "lemma",
+   "tawba-1",
+   "en"
+  ],
+  [
+   "taubat",
+   "lemma",
+   "tawba-1",
+   "ms"
+  ],
+  [
+   "granting success; reconciliation",
+   "lemma",
+   "tawfiq-1",
+   "en"
+  ],
+  [
+   "taufik",
+   "lemma",
+   "tawfiq-1",
+   "ms"
+  ],
+  [
    "interpretation; final outcome",
    "lemma",
    "tawil-1",
@@ -12328,6 +69035,42 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "long",
+   "lemma",
+   "tawil-2",
+   "en"
+  ],
+  [
+   "panjang",
+   "lemma",
+   "tawil-2",
+   "ms"
+  ],
+  [
+   "bounty; capacity",
+   "lemma",
+   "tawl-1",
+   "en"
+  ],
+  [
+   "kurnia; kemampuan",
+   "lemma",
+   "tawl-1",
+   "ms"
+  ],
+  [
+   "a stage",
+   "lemma",
+   "tawr-1",
+   "en"
+  ],
+  [
+   "peringkat",
+   "lemma",
+   "tawr-1",
+   "ms"
+  ],
+  [
    "kitab taurat",
    "lemma",
    "tawra-1",
@@ -12337,6 +69080,114 @@ const QM_SEARCH_INDEX = {
    "the torah (tawrat)",
    "lemma",
    "tawra-1",
+   "en"
+  ],
+  [
+   "bequeathing",
+   "lemma",
+   "tawsiya-1",
+   "en"
+  ],
+  [
+   "berwasiat",
+   "lemma",
+   "tawsiya-1",
+   "ms"
+  ],
+  [
+   "menjadikan mudah",
+   "lemma",
+   "tawwaa-1",
+   "ms"
+  ],
+  [
+   "to make easy; to prompt",
+   "lemma",
+   "tawwaa-1",
+   "en"
+  ],
+  [
+   "melakukan dengan sukarela",
+   "lemma",
+   "tawwaa-2",
+   "ms"
+  ],
+  [
+   "to volunteer; to do more than required",
+   "lemma",
+   "tawwaa-2",
+   "en"
+  ],
+  [
+   "oft-returning; accepting repentance",
+   "lemma",
+   "tawwab-1",
+   "en"
+  ],
+  [
+   "penerima taubat",
+   "lemma",
+   "tawwab-1",
+   "ms"
+  ],
+  [
+   "one who goes about",
+   "lemma",
+   "tawwaf-1",
+   "en"
+  ],
+  [
+   "yang berkeliling",
+   "lemma",
+   "tawwaf-1",
+   "ms"
+  ],
+  [
+   "dikalungkan",
+   "lemma",
+   "tawwaqa-1",
+   "ms"
+  ],
+  [
+   "to encircle with a collar",
+   "lemma",
+   "tawwaqa-1",
+   "en"
+  ],
+  [
+   "memilih",
+   "lemma",
+   "tayakhkhara-1",
+   "ms"
+  ],
+  [
+   "to choose",
+   "lemma",
+   "tayakhkhara-1",
+   "en"
+  ],
+  [
+   "menuju; bertayamum",
+   "lemma",
+   "tayammama-1",
+   "ms"
+  ],
+  [
+   "to aim at; to perform tayammum",
+   "lemma",
+   "tayammama-1",
+   "en"
+  ],
+  [
+   "mudah",
+   "lemma",
+   "tayassara-1",
+   "ms"
+  ],
+  [
+   "to be easy; to be available",
+   "lemma",
+   "tayassara-1",
    "en"
   ],
   [
@@ -12364,6 +69215,102 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "saling membantu",
+   "lemma",
+   "tazaahara-1",
+   "ms"
+  ],
+  [
+   "to back one another",
+   "lemma",
+   "tazaahara-1",
+   "en"
+  ],
+  [
+   "menyucikan diri",
+   "lemma",
+   "tazakka-1",
+   "ms"
+  ],
+  [
+   "to purify oneself",
+   "lemma",
+   "tazakka-1",
+   "en"
+  ],
+  [
+   "membawa bekalan",
+   "lemma",
+   "tazawwada-1",
+   "ms"
+  ],
+  [
+   "to take provisions",
+   "lemma",
+   "tazawwada-1",
+   "en"
+  ],
+  [
+   "terpisah",
+   "lemma",
+   "tazayyala-1",
+   "ms"
+  ],
+  [
+   "to be separated",
+   "lemma",
+   "tazayyala-1",
+   "en"
+  ],
+  [
+   "memisahkan",
+   "lemma",
+   "tazayyala-2",
+   "ms"
+  ],
+  [
+   "to separate",
+   "lemma",
+   "tazayyala-2",
+   "en"
+  ],
+  [
+   "teguh",
+   "lemma",
+   "thabata-1",
+   "ms"
+  ],
+  [
+   "to stand firm",
+   "lemma",
+   "thabata-1",
+   "en"
+  ],
+  [
+   "meneguhkan",
+   "lemma",
+   "thabbata-1",
+   "ms"
+  ],
+  [
+   "to make firm",
+   "lemma",
+   "thabbata-1",
+   "en"
+  ],
+  [
+   "firm; fixed",
+   "lemma",
+   "thabit-1",
+   "en"
+  ],
+  [
+   "teguh",
+   "lemma",
+   "thabit-1",
+   "ms"
+  ],
+  [
    "three",
    "lemma",
    "thalatha-1",
@@ -12373,6 +69320,42 @@ const QM_SEARCH_INDEX = {
    "tiga",
    "lemma",
    "thalatha-1",
+   "ms"
+  ],
+  [
+   "ketiga",
+   "lemma",
+   "thalith-1",
+   "ms"
+  ],
+  [
+   "third",
+   "lemma",
+   "thalith-1",
+   "en"
+  ],
+  [
+   "harga; nilai",
+   "lemma",
+   "thaman-1",
+   "ms"
+  ],
+  [
+   "price; value",
+   "lemma",
+   "thaman-1",
+   "en"
+  ],
+  [
+   "eight",
+   "lemma",
+   "thamaniya-1",
+   "en"
+  ],
+  [
+   "lapan",
+   "lemma",
+   "thamaniya-1",
    "ms"
   ],
   [
@@ -12388,6 +69371,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "the eighth",
+   "lemma",
+   "thamin-1",
+   "en"
+  ],
+  [
+   "yang kelapan",
+   "lemma",
+   "thamin-1",
+   "ms"
+  ],
+  [
    "kaum tsamud",
    "lemma",
    "thamud-1",
@@ -12400,6 +69395,246 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "melipat",
+   "lemma",
+   "thana-1",
+   "ms"
+  ],
+  [
+   "to fold; to turn",
+   "lemma",
+   "thana-1",
+   "en"
+  ],
+  [
+   "the second",
+   "lemma",
+   "thani-1",
+   "en"
+  ],
+  [
+   "yang kedua",
+   "lemma",
+   "thani-1",
+   "ms"
+  ],
+  [
+   "a weighty creation (men or jinn)",
+   "lemma",
+   "thaqal-1",
+   "en"
+  ],
+  [
+   "makhluk yang berat bebannya",
+   "lemma",
+   "thaqal-1",
+   "ms"
+  ],
+  [
+   "menembusi",
+   "lemma",
+   "thaqib-1",
+   "ms"
+  ],
+  [
+   "piercing",
+   "lemma",
+   "thaqib-1",
+   "en"
+  ],
+  [
+   "menemui",
+   "lemma",
+   "thaqifa-1",
+   "ms"
+  ],
+  [
+   "to overtake; to come upon",
+   "lemma",
+   "thaqifa-1",
+   "en"
+  ],
+  [
+   "berat",
+   "lemma",
+   "thaqil-1",
+   "ms"
+  ],
+  [
+   "heavy",
+   "lemma",
+   "thaqil-1",
+   "en"
+  ],
+  [
+   "menjadi berat",
+   "lemma",
+   "thaqula-1",
+   "ms"
+  ],
+  [
+   "to be heavy",
+   "lemma",
+   "thaqula-1",
+   "en"
+  ],
+  [
+   "moist earth",
+   "lemma",
+   "thara-1",
+   "en"
+  ],
+  [
+   "tanah yang lembap",
+   "lemma",
+   "thara-1",
+   "ms"
+  ],
+  [
+   "ganjaran; pahala",
+   "lemma",
+   "thawab-1",
+   "ms"
+  ],
+  [
+   "reward",
+   "lemma",
+   "thawab-1",
+   "en"
+  ],
+  [
+   "garment",
+   "lemma",
+   "thawb-1",
+   "en"
+  ],
+  [
+   "pakaian",
+   "lemma",
+   "thawb-1",
+   "ms"
+  ],
+  [
+   "one who dwells",
+   "lemma",
+   "thawiyy-1",
+   "en"
+  ],
+  [
+   "yang bermukim",
+   "lemma",
+   "thawiyy-1",
+   "ms"
+  ],
+  [
+   "membalas",
+   "lemma",
+   "thawwaba-1",
+   "ms"
+  ],
+  [
+   "to reward",
+   "lemma",
+   "thawwaba-1",
+   "en"
+  ],
+  [
+   "janda",
+   "lemma",
+   "thayyib-1",
+   "ms"
+  ],
+  [
+   "previously married (woman)",
+   "lemma",
+   "thayyib-1",
+   "en"
+  ],
+  [
+   "a burden",
+   "lemma",
+   "thiql-1",
+   "en"
+  ],
+  [
+   "beban",
+   "lemma",
+   "thiql-1",
+   "ms"
+  ],
+  [
+   "a serpent",
+   "lemma",
+   "thuban-1",
+   "en"
+  ],
+  [
+   "ular besar",
+   "lemma",
+   "thuban-1",
+   "ms"
+  ],
+  [
+   "detachments (of troops)",
+   "lemma",
+   "thubat-1",
+   "en"
+  ],
+  [
+   "kumpulan-kumpulan",
+   "lemma",
+   "thubat-1",
+   "ms"
+  ],
+  [
+   "destruction; ruin",
+   "lemma",
+   "thubur-1",
+   "en"
+  ],
+  [
+   "kebinasaan",
+   "lemma",
+   "thubur-1",
+   "ms"
+  ],
+  [
+   "firmness",
+   "lemma",
+   "thubut-1",
+   "en"
+  ],
+  [
+   "keteguhan",
+   "lemma",
+   "thubut-1",
+   "ms"
+  ],
+  [
+   "a company; a multitude",
+   "lemma",
+   "thulla-1",
+   "en"
+  ],
+  [
+   "kumpulan",
+   "lemma",
+   "thulla-1",
+   "ms"
+  ],
+  [
+   "one third",
+   "lemma",
+   "thuluth-1",
+   "en"
+  ],
+  [
+   "satu pertiga",
+   "lemma",
+   "thuluth-1",
+   "ms"
+  ],
+  [
    "kemudian; selanjutnya",
    "lemma",
    "thumma-1",
@@ -12409,6 +69644,78 @@ const QM_SEARCH_INDEX = {
    "then; moreover",
    "lemma",
    "thumma-1",
+   "en"
+  ],
+  [
+   "an eighth",
+   "lemma",
+   "thumun-1",
+   "en"
+  ],
+  [
+   "satu perlapan",
+   "lemma",
+   "thumun-1",
+   "ms"
+  ],
+  [
+   "lapisan",
+   "lemma",
+   "tibaq-1",
+   "ms"
+  ],
+  [
+   "layers; tiers",
+   "lemma",
+   "tibaq-1",
+   "en"
+  ],
+  [
+   "an exposition; clarification",
+   "lemma",
+   "tibyan-1",
+   "en"
+  ],
+  [
+   "penjelasan",
+   "lemma",
+   "tibyan-1",
+   "ms"
+  ],
+  [
+   "a child",
+   "lemma",
+   "tifl-1",
+   "en"
+  ],
+  [
+   "kanak-kanak",
+   "lemma",
+   "tifl-1",
+   "ms"
+  ],
+  [
+   "perniagaan",
+   "lemma",
+   "tijara-1",
+   "ms"
+  ],
+  [
+   "trade; commerce",
+   "lemma",
+   "tijara-1",
+   "en"
+  ],
+  [
+   "bacaan",
+   "lemma",
+   "tilawa-1",
+   "ms"
+  ],
+  [
+   "recitation",
+   "lemma",
+   "tilawa-1",
    "en"
   ],
   [
@@ -12424,6 +69731,318 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "arah; hadapan",
+   "lemma",
+   "tilqaa-1",
+   "ms"
+  ],
+  [
+   "direction; facing",
+   "lemma",
+   "tilqaa-1",
+   "en"
+  ],
+  [
+   "a statue",
+   "lemma",
+   "timthal-1",
+   "en"
+  ],
+  [
+   "patung",
+   "lemma",
+   "timthal-1",
+   "ms"
+  ],
+  [
+   "clay; mud",
+   "lemma",
+   "tin-1",
+   "en"
+  ],
+  [
+   "tanah liat",
+   "lemma",
+   "tin-1",
+   "ms"
+  ],
+  [
+   "buah tin",
+   "lemma",
+   "tin-2",
+   "ms"
+  ],
+  [
+   "the fig",
+   "lemma",
+   "tin-2",
+   "en"
+  ],
+  [
+   "a person of the same age",
+   "lemma",
+   "tirb-1",
+   "en"
+  ],
+  [
+   "sebaya",
+   "lemma",
+   "tirb-1",
+   "ms"
+  ],
+  [
+   "nine",
+   "lemma",
+   "tis-1",
+   "en"
+  ],
+  [
+   "sembilan",
+   "lemma",
+   "tis-1",
+   "ms"
+  ],
+  [
+   "ninety",
+   "lemma",
+   "tisun-1",
+   "en"
+  ],
+  [
+   "sembilan puluh",
+   "lemma",
+   "tisun-1",
+   "ms"
+  ],
+  [
+   "mengosongkan diri",
+   "lemma",
+   "tkhalla-1",
+   "ms"
+  ],
+  [
+   "to empty itself",
+   "lemma",
+   "tkhalla-1",
+   "en"
+  ],
+  [
+   "blessedness (tuba)",
+   "lemma",
+   "tuba-1",
+   "en"
+  ],
+  [
+   "kebahagiaan",
+   "lemma",
+   "tuba-1",
+   "ms"
+  ],
+  [
+   "tubba'",
+   "lemma",
+   "tubba-1",
+   "ms"
+  ],
+  [
+   "tubba' (a title of the kings of yemen)",
+   "lemma",
+   "tubba-1",
+   "en"
+  ],
+  [
+   "taufan",
+   "lemma",
+   "tufan-1",
+   "ms"
+  ],
+  [
+   "the flood",
+   "lemma",
+   "tufan-1",
+   "en"
+  ],
+  [
+   "kezaliman; keangkuhan",
+   "lemma",
+   "tughyan-1",
+   "ms"
+  ],
+  [
+   "transgression; rebellion",
+   "lemma",
+   "tughyan-1",
+   "en"
+  ],
+  [
+   "ketinggian",
+   "lemma",
+   "tul-1",
+   "ms"
+  ],
+  [
+   "length; height",
+   "lemma",
+   "tul-1",
+   "en"
+  ],
+  [
+   "rising (of the sun)",
+   "lemma",
+   "tulu-1",
+   "en"
+  ],
+  [
+   "terbit",
+   "lemma",
+   "tulu-1",
+   "ms"
+  ],
+  [
+   "guarding oneself; fear (of god)",
+   "lemma",
+   "tuqat-1",
+   "en"
+  ],
+  [
+   "menjaga diri",
+   "lemma",
+   "tuqat-1",
+   "ms"
+  ],
+  [
+   "gunung tur",
+   "lemma",
+   "tur-1",
+   "ms"
+  ],
+  [
+   "mount (tur)",
+   "lemma",
+   "tur-1",
+   "en"
+  ],
+  [
+   "dust; soil",
+   "lemma",
+   "turab-1",
+   "en"
+  ],
+  [
+   "tanah; debu",
+   "lemma",
+   "turab-1",
+   "ms"
+  ],
+  [
+   "harta pusaka",
+   "lemma",
+   "turath-1",
+   "ms"
+  ],
+  [
+   "inheritance",
+   "lemma",
+   "turath-1",
+   "en"
+  ],
+  [
+   "tuwa (lembah suci)",
+   "lemma",
+   "tuwa-1",
+   "ms"
+  ],
+  [
+   "tuwa (the sacred valley)",
+   "lemma",
+   "tuwa-1",
+   "en"
+  ],
+  [
+   "an excuse; a warning",
+   "lemma",
+   "udhr-1",
+   "en"
+  ],
+  [
+   "uzur; peringatan",
+   "lemma",
+   "udhr-1",
+   "ms"
+  ],
+  [
+   "bank; side",
+   "lemma",
+   "udwa-1",
+   "en"
+  ],
+  [
+   "tebing; sisi",
+   "lemma",
+   "udwa-1",
+   "ms"
+  ],
+  [
+   "aggression; hostility",
+   "lemma",
+   "udwan-1",
+   "en"
+  ],
+  [
+   "permusuhan; pencerobohan",
+   "lemma",
+   "udwan-1",
+   "ms"
+  ],
+  [
+   "cis! (ungkapan jelek)",
+   "lemma",
+   "uff-1",
+   "ms"
+  ],
+  [
+   "fie! (an expression of disgust)",
+   "lemma",
+   "uff-1",
+   "en"
+  ],
+  [
+   "a horizon",
+   "lemma",
+   "ufuq-1",
+   "en"
+  ],
+  [
+   "ufuk",
+   "lemma",
+   "ufuq-1",
+   "ms"
+  ],
+  [
+   "astonishing",
+   "lemma",
+   "ujab-1",
+   "en"
+  ],
+  [
+   "menghairankan",
+   "lemma",
+   "ujab-1",
+   "ms"
+  ],
+  [
+   "masin; payau",
+   "lemma",
+   "ujaj-1",
+   "ms"
+  ],
+  [
+   "salty; bitter (water)",
+   "lemma",
+   "ujaj-1",
+   "en"
+  ],
+  [
    "other; another (feminine)",
    "lemma",
    "ukhra-1",
@@ -12433,6 +70052,30 @@ const QM_SEARCH_INDEX = {
    "yang lain (perempuan)",
    "lemma",
    "ukhra-1",
+   "ms"
+  ],
+  [
+   "a sister",
+   "lemma",
+   "ukht-1",
+   "en"
+  ],
+  [
+   "saudara perempuan",
+   "lemma",
+   "ukht-1",
+   "ms"
+  ],
+  [
+   "fruit; produce; food",
+   "lemma",
+   "ukul-1",
+   "en"
+  ],
+  [
+   "hasil; buah",
+   "lemma",
+   "ukul-1",
    "ms"
   ],
   [
@@ -12472,6 +70115,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "ketinggian; kesombongan",
+   "lemma",
+   "uluww-1",
+   "ms"
+  ],
+  [
+   "loftiness; arrogance",
+   "lemma",
+   "uluww-1",
+   "en"
+  ],
+  [
+   "the highest",
+   "lemma",
+   "ulya-1",
+   "en"
+  ],
+  [
+   "yang tertinggi",
+   "lemma",
+   "ulya-1",
+   "ms"
+  ],
+  [
    "ibu",
    "lemma",
    "umm-1",
@@ -12496,6 +70163,66 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "ummi; tidak pandai membaca",
+   "lemma",
+   "ummiyy-1",
+   "ms"
+  ],
+  [
+   "unlettered; (of the) gentile (people)",
+   "lemma",
+   "ummiyy-1",
+   "en"
+  ],
+  [
+   "a wish; a vain desire",
+   "lemma",
+   "umniyya-1",
+   "en"
+  ],
+  [
+   "angan-angan",
+   "lemma",
+   "umniyya-1",
+   "ms"
+  ],
+  [
+   "the lesser pilgrimage (umra)",
+   "lemma",
+   "umra-1",
+   "en"
+  ],
+  [
+   "umrah",
+   "lemma",
+   "umra-1",
+   "ms"
+  ],
+  [
+   "lifetime; age",
+   "lemma",
+   "umur-1",
+   "en"
+  ],
+  [
+   "usia; hayat",
+   "lemma",
+   "umur-1",
+   "ms"
+  ],
+  [
+   "orang ramai",
+   "lemma",
+   "unas-1",
+   "ms"
+  ],
+  [
+   "people; folk",
+   "lemma",
+   "unas-1",
+   "en"
+  ],
+  [
    "female",
    "lemma",
    "untha-1",
@@ -12508,6 +70235,258 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a neck",
+   "lemma",
+   "unuq-1",
+   "en"
+  ],
+  [
+   "leher",
+   "lemma",
+   "unuq-1",
+   "ms"
+  ],
+  [
+   "kesudahan",
+   "lemma",
+   "uqb-1",
+   "ms"
+  ],
+  [
+   "outcome",
+   "lemma",
+   "uqb-1",
+   "en"
+  ],
+  [
+   "final outcome; issue",
+   "lemma",
+   "uqba-1",
+   "en"
+  ],
+  [
+   "kesudahan; hasil akhir",
+   "lemma",
+   "uqba-1",
+   "ms"
+  ],
+  [
+   "a knot; a bond",
+   "lemma",
+   "uqda-1",
+   "en"
+  ],
+  [
+   "simpulan",
+   "lemma",
+   "uqda-1",
+   "ms"
+  ],
+  [
+   "ditetapkan waktunya",
+   "lemma",
+   "uqqita-1",
+   "ms"
+  ],
+  [
+   "to be given a time",
+   "lemma",
+   "uqqita-1",
+   "en"
+  ],
+  [
+   "an object (of your oaths)",
+   "lemma",
+   "urdha-1",
+   "en"
+  ],
+  [
+   "sasaran",
+   "lemma",
+   "urdha-1",
+   "ms"
+  ],
+  [
+   "kebaikan; adat; tempat tinggi",
+   "lemma",
+   "urf-1",
+   "ms"
+  ],
+  [
+   "what is customary; good; a height",
+   "lemma",
+   "urf-1",
+   "en"
+  ],
+  [
+   "handhold; firm grip",
+   "lemma",
+   "urwa-1",
+   "en"
+  ],
+  [
+   "tali pegangan",
+   "lemma",
+   "urwa-1",
+   "ms"
+  ],
+  [
+   "a band; a company",
+   "lemma",
+   "usba-1",
+   "en"
+  ],
+  [
+   "kumpulan",
+   "lemma",
+   "usba-1",
+   "ms"
+  ],
+  [
+   "diresapkan",
+   "lemma",
+   "ushriba-1",
+   "ms"
+  ],
+  [
+   "to be made to drink (into the hearts)",
+   "lemma",
+   "ushriba-1",
+   "en"
+  ],
+  [
+   "hardship",
+   "lemma",
+   "usr-1",
+   "en"
+  ],
+  [
+   "kesukaran",
+   "lemma",
+   "usr-1",
+   "ms"
+  ],
+  [
+   "hardship",
+   "lemma",
+   "usra-1",
+   "en"
+  ],
+  [
+   "kesusahan",
+   "lemma",
+   "usra-1",
+   "ms"
+  ],
+  [
+   "jalan yang lebih sukar",
+   "lemma",
+   "usra-2",
+   "ms"
+  ],
+  [
+   "the harder (way)",
+   "lemma",
+   "usra-2",
+   "en"
+  ],
+  [
+   "example; model",
+   "lemma",
+   "uswa-1",
+   "en"
+  ],
+  [
+   "teladan",
+   "lemma",
+   "uswa-1",
+   "ms"
+  ],
+  [
+   "terjumpa",
+   "lemma",
+   "uthira-1",
+   "ms"
+  ],
+  [
+   "to stumble upon",
+   "lemma",
+   "uthira-1",
+   "en"
+  ],
+  [
+   "coarse; ruthless",
+   "lemma",
+   "utul-1",
+   "en"
+  ],
+  [
+   "kasar; kejam",
+   "lemma",
+   "utul-1",
+   "ms"
+  ],
+  [
+   "insolence; arrogance",
+   "lemma",
+   "utuww-1",
+   "en"
+  ],
+  [
+   "keangkuhan",
+   "lemma",
+   "utuww-1",
+   "ms"
+  ],
+  [
+   "duduk",
+   "lemma",
+   "uud-1",
+   "ms"
+  ],
+  [
+   "sitting",
+   "lemma",
+   "uud-1",
+   "en"
+  ],
+  [
+   "uzair",
+   "lemma",
+   "uzayr-1",
+   "ms"
+  ],
+  [
+   "uzayr (ezra)",
+   "lemma",
+   "uzayr-1",
+   "en"
+  ],
+  [
+   "dikumpulkan",
+   "lemma",
+   "uzia-1",
+   "ms"
+  ],
+  [
+   "to be marshalled",
+   "lemma",
+   "uzia-1",
+   "en"
+  ],
+  [
+   "al-uzza (an idol)",
+   "lemma",
+   "uzza-1",
+   "en"
+  ],
+  [
+   "al-uzza (berhala)",
+   "lemma",
+   "uzza-1",
+   "ms"
+  ],
+  [
    "berjanji",
    "lemma",
    "waada-1",
@@ -12517,6 +70496,102 @@ const QM_SEARCH_INDEX = {
    "to promise",
    "lemma",
    "waada-1",
+   "en"
+  ],
+  [
+   "berjanji untuk bertemu",
+   "lemma",
+   "waada-2",
+   "ms"
+  ],
+  [
+   "to make a rendezvous; to promise",
+   "lemma",
+   "waada-2",
+   "en"
+  ],
+  [
+   "berkasih sayang dengan",
+   "lemma",
+   "waadda-1",
+   "ms"
+  ],
+  [
+   "to show affection to",
+   "lemma",
+   "waadda-1",
+   "en"
+  ],
+  [
+   "menyembunyikan; menutup",
+   "lemma",
+   "waara-1",
+   "ms"
+  ],
+  [
+   "to conceal; to cover",
+   "lemma",
+   "waara-1",
+   "en"
+  ],
+  [
+   "menyesuaikan bilangan",
+   "lemma",
+   "waata-1",
+   "ms"
+  ],
+  [
+   "to agree in number with",
+   "lemma",
+   "waata-1",
+   "en"
+  ],
+  [
+   "akibat buruk",
+   "lemma",
+   "wabal-1",
+   "ms"
+  ],
+  [
+   "evil consequence",
+   "lemma",
+   "wabal-1",
+   "en"
+  ],
+  [
+   "bulu unta",
+   "lemma",
+   "wabar-1",
+   "ms"
+  ],
+  [
+   "camel-hair",
+   "lemma",
+   "wabar-1",
+   "en"
+  ],
+  [
+   "heavy downpour",
+   "lemma",
+   "wabil-1",
+   "en"
+  ],
+  [
+   "hujan lebat",
+   "lemma",
+   "wabil-1",
+   "ms"
+  ],
+  [
+   "berat; dahsyat",
+   "lemma",
+   "wabil-2",
+   "ms"
+  ],
+  [
+   "heavy; grievous",
+   "lemma",
+   "wabil-2",
    "en"
   ],
   [
@@ -12544,6 +70619,186 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "meninggalkan",
+   "lemma",
+   "wadaa-2",
+   "ms"
+  ],
+  [
+   "to leave alone; to forsake",
+   "lemma",
+   "wadaa-2",
+   "en"
+  ],
+  [
+   "wadd (an idol)",
+   "lemma",
+   "wadd-2",
+   "en"
+  ],
+  [
+   "wadd (berhala)",
+   "lemma",
+   "wadd-2",
+   "ms"
+  ],
+  [
+   "mengingini; menyukai",
+   "lemma",
+   "wadda-1",
+   "ms"
+  ],
+  [
+   "to wish; to like",
+   "lemma",
+   "wadda-1",
+   "en"
+  ],
+  [
+   "lembah",
+   "lemma",
+   "wadi-1",
+   "ms"
+  ],
+  [
+   "valley",
+   "lemma",
+   "wadi-1",
+   "en"
+  ],
+  [
+   "hujan",
+   "lemma",
+   "wadq-1",
+   "ms"
+  ],
+  [
+   "rain",
+   "lemma",
+   "wadq-1",
+   "en"
+  ],
+  [
+   "maha pengasih",
+   "lemma",
+   "wadud-1",
+   "ms"
+  ],
+  [
+   "the most loving",
+   "lemma",
+   "wadud-1",
+   "en"
+  ],
+  [
+   "a delegation",
+   "lemma",
+   "wafd-1",
+   "en"
+  ],
+  [
+   "rombongan",
+   "lemma",
+   "wafd-1",
+   "ms"
+  ],
+  [
+   "membayar sepenuhnya",
+   "lemma",
+   "waffa-1",
+   "ms"
+  ],
+  [
+   "to pay in full; to give in full",
+   "lemma",
+   "waffa-1",
+   "en"
+  ],
+  [
+   "memberi taufik",
+   "lemma",
+   "waffaqa-1",
+   "ms"
+  ],
+  [
+   "to grant success; to reconcile",
+   "lemma",
+   "waffaqa-1",
+   "en"
+  ],
+  [
+   "mengurniakan",
+   "lemma",
+   "waha-1",
+   "ms"
+  ],
+  [
+   "to grant",
+   "lemma",
+   "waha-1",
+   "en"
+  ],
+  [
+   "mengurniakan",
+   "lemma",
+   "wahaba-1",
+   "ms"
+  ],
+  [
+   "to grant; to bestow",
+   "lemma",
+   "wahaba-1",
+   "en"
+  ],
+  [
+   "menjadi lemah",
+   "lemma",
+   "wahana-1",
+   "ms"
+  ],
+  [
+   "to become weak",
+   "lemma",
+   "wahana-1",
+   "en"
+  ],
+  [
+   "aloneness; oneness",
+   "lemma",
+   "wahd-1",
+   "en"
+  ],
+  [
+   "keesaan; bersendirian",
+   "lemma",
+   "wahd-1",
+   "ms"
+  ],
+  [
+   "maha pemberi",
+   "lemma",
+   "wahhab-1",
+   "ms"
+  ],
+  [
+   "the bestower",
+   "lemma",
+   "wahhab-1",
+   "en"
+  ],
+  [
+   "blazing",
+   "lemma",
+   "wahhaj-1",
+   "en"
+  ],
+  [
+   "menyala-nyala",
+   "lemma",
+   "wahhaj-1",
+   "ms"
+  ],
+  [
    "one; single",
    "lemma",
    "wahid-1",
@@ -12554,6 +70809,102 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "wahid-1",
    "ms"
+  ],
+  [
+   "alone",
+   "lemma",
+   "wahid-2",
+   "en"
+  ],
+  [
+   "bersendirian",
+   "lemma",
+   "wahid-2",
+   "ms"
+  ],
+  [
+   "frail; flimsy",
+   "lemma",
+   "wahiya-1",
+   "en"
+  ],
+  [
+   "lemah",
+   "lemma",
+   "wahiya-1",
+   "ms"
+  ],
+  [
+   "kelemahan",
+   "lemma",
+   "wahn-1",
+   "ms"
+  ],
+  [
+   "weakness",
+   "lemma",
+   "wahn-1",
+   "en"
+  ],
+  [
+   "binatang liar",
+   "lemma",
+   "wahsh-1",
+   "ms"
+  ],
+  [
+   "wild beasts",
+   "lemma",
+   "wahsh-1",
+   "en"
+  ],
+  [
+   "revelation; inspiration",
+   "lemma",
+   "wahy-1",
+   "en"
+  ],
+  [
+   "wahyu; ilham",
+   "lemma",
+   "wahy-1",
+   "ms"
+  ],
+  [
+   "ancaman azab",
+   "lemma",
+   "waid-1",
+   "ms"
+  ],
+  [
+   "warning of punishment; threat",
+   "lemma",
+   "waid-1",
+   "en"
+  ],
+  [
+   "retentive (ear)",
+   "lemma",
+   "waiya-1",
+   "en"
+  ],
+  [
+   "yang mengingat",
+   "lemma",
+   "waiya-1",
+   "ms"
+  ],
+  [
+   "jatuh; wajib",
+   "lemma",
+   "wajaba-1",
+   "ms"
+  ],
+  [
+   "to fall (to be due)",
+   "lemma",
+   "wajaba-1",
+   "en"
   ],
   [
    "mendapati; menjumpai",
@@ -12578,6 +70929,42 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "wajh-1",
    "ms"
+  ],
+  [
+   "honoured; eminent",
+   "lemma",
+   "wajih-1",
+   "en"
+  ],
+  [
+   "terhormat",
+   "lemma",
+   "wajih-1",
+   "ms"
+  ],
+  [
+   "fearful",
+   "lemma",
+   "wajil-1",
+   "en"
+  ],
+  [
+   "takut",
+   "lemma",
+   "wajil-1",
+   "ms"
+  ],
+  [
+   "takut",
+   "lemma",
+   "wajila-1",
+   "ms"
+  ],
+  [
+   "to be afraid",
+   "lemma",
+   "wajila-1",
+   "en"
   ],
   [
    "guardian; disposer of affairs",
@@ -12616,6 +71003,102 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "masuk",
+   "lemma",
+   "walaja-1",
+   "ms"
+  ],
+  [
+   "to enter",
+   "lemma",
+   "walaja-1",
+   "en"
+  ],
+  [
+   "guardianship; protection",
+   "lemma",
+   "walaya-1",
+   "en"
+  ],
+  [
+   "perlindungan",
+   "lemma",
+   "walaya-1",
+   "ms"
+  ],
+  [
+   "a protector; a guardian",
+   "lemma",
+   "wali-1",
+   "en"
+  ],
+  [
+   "pelindung",
+   "lemma",
+   "wali-1",
+   "ms"
+  ],
+  [
+   "ibu atau bapa; yang melahirkan",
+   "lemma",
+   "walid-1",
+   "ms"
+  ],
+  [
+   "parent; begetter",
+   "lemma",
+   "walid-1",
+   "en"
+  ],
+  [
+   "a new-born child",
+   "lemma",
+   "walid-2",
+   "en"
+  ],
+  [
+   "bayi",
+   "lemma",
+   "walid-2",
+   "ms"
+  ],
+  [
+   "a mother",
+   "lemma",
+   "walida-1",
+   "en"
+  ],
+  [
+   "ibu",
+   "lemma",
+   "walida-1",
+   "ms"
+  ],
+  [
+   "a confidant",
+   "lemma",
+   "walija-1",
+   "en"
+  ],
+  [
+   "orang kepercayaan",
+   "lemma",
+   "walija-1",
+   "ms"
+  ],
+  [
+   "berhampiran",
+   "lemma",
+   "waliya-1",
+   "ms"
+  ],
+  [
+   "to be next to",
+   "lemma",
+   "waliya-1",
+   "en"
+  ],
+  [
    "berpaling; melantik",
    "lemma",
    "wallaa-1",
@@ -12628,6 +71111,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memelihara; melindungi",
+   "lemma",
+   "waqa-1",
+   "ms"
+  ],
+  [
+   "to protect; to guard",
+   "lemma",
+   "waqa-1",
+   "en"
+  ],
+  [
+   "an event; the event",
+   "lemma",
+   "waqa-2",
+   "en"
+  ],
+  [
+   "hari yang pasti berlaku",
+   "lemma",
+   "waqa-2",
+   "ms"
+  ],
+  [
    "jatuh; berlaku",
    "lemma",
    "waqaa-1",
@@ -12637,6 +71144,102 @@ const QM_SEARCH_INDEX = {
    "to fall; to occur",
    "lemma",
    "waqaa-1",
+   "en"
+  ],
+  [
+   "berhenti",
+   "lemma",
+   "waqafa-1",
+   "ms"
+  ],
+  [
+   "to stand; to halt",
+   "lemma",
+   "waqafa-1",
+   "en"
+  ],
+  [
+   "dignity",
+   "lemma",
+   "waqar-1",
+   "en"
+  ],
+  [
+   "kewibawaan",
+   "lemma",
+   "waqar-1",
+   "ms"
+  ],
+  [
+   "befalling; certain to occur",
+   "lemma",
+   "waqi-1",
+   "en"
+  ],
+  [
+   "yang pasti berlaku",
+   "lemma",
+   "waqi-1",
+   "ms"
+  ],
+  [
+   "pelindung",
+   "lemma",
+   "waqin-1",
+   "ms"
+  ],
+  [
+   "protector",
+   "lemma",
+   "waqin-1",
+   "en"
+  ],
+  [
+   "memuliakan",
+   "lemma",
+   "waqqara-1",
+   "ms"
+  ],
+  [
+   "to revere",
+   "lemma",
+   "waqqara-1",
+   "en"
+  ],
+  [
+   "deafness; heaviness (in the ears)",
+   "lemma",
+   "waqr-1",
+   "en"
+  ],
+  [
+   "pekak; berat",
+   "lemma",
+   "waqr-1",
+   "ms"
+  ],
+  [
+   "a time; an appointed time",
+   "lemma",
+   "waqt-1",
+   "en"
+  ],
+  [
+   "waktu",
+   "lemma",
+   "waqt-1",
+   "ms"
+  ],
+  [
+   "bahan api",
+   "lemma",
+   "waqud-1",
+   "ms"
+  ],
+  [
+   "fuel",
+   "lemma",
+   "waqud-1",
    "en"
   ],
   [
@@ -12652,6 +71255,198 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "tiba di (mata air); sampai",
+   "lemma",
+   "warada-1",
+   "ms"
+  ],
+  [
+   "to come to (water); to arrive",
+   "lemma",
+   "warada-1",
+   "en"
+  ],
+  [
+   "daun",
+   "lemma",
+   "waraq-1",
+   "ms"
+  ],
+  [
+   "leaves",
+   "lemma",
+   "waraq-1",
+   "en"
+  ],
+  [
+   "a leaf",
+   "lemma",
+   "waraqa-1",
+   "en"
+  ],
+  [
+   "daun",
+   "lemma",
+   "waraqa-1",
+   "ms"
+  ],
+  [
+   "heirs",
+   "lemma",
+   "waratha-1",
+   "en"
+  ],
+  [
+   "waris",
+   "lemma",
+   "waratha-1",
+   "ms"
+  ],
+  [
+   "a rose",
+   "lemma",
+   "warda-1",
+   "en"
+  ],
+  [
+   "bunga ros",
+   "lemma",
+   "warda-1",
+   "ms"
+  ],
+  [
+   "the jugular vein",
+   "lemma",
+   "warid-1",
+   "en"
+  ],
+  [
+   "urat leher",
+   "lemma",
+   "warid-1",
+   "ms"
+  ],
+  [
+   "one who comes to (water)",
+   "lemma",
+   "warid-2",
+   "en"
+  ],
+  [
+   "yang tiba",
+   "lemma",
+   "warid-2",
+   "ms"
+  ],
+  [
+   "silver coin",
+   "lemma",
+   "wariq-1",
+   "en"
+  ],
+  [
+   "wang perak",
+   "lemma",
+   "wariq-1",
+   "ms"
+  ],
+  [
+   "heir",
+   "lemma",
+   "warith-1",
+   "en"
+  ],
+  [
+   "pewaris",
+   "lemma",
+   "warith-1",
+   "ms"
+  ],
+  [
+   "mewarisi",
+   "lemma",
+   "waritha-1",
+   "ms"
+  ],
+  [
+   "to inherit",
+   "lemma",
+   "waritha-1",
+   "en"
+  ],
+  [
+   "memerihalkan; menyifatkan",
+   "lemma",
+   "wasafa-1",
+   "ms"
+  ],
+  [
+   "to describe; to attribute",
+   "lemma",
+   "wasafa-1",
+   "en"
+  ],
+  [
+   "sampai; menyambung",
+   "lemma",
+   "wasala-1",
+   "ms"
+  ],
+  [
+   "to reach; to connect",
+   "lemma",
+   "wasala-1",
+   "en"
+  ],
+  [
+   "mengumpulkan",
+   "lemma",
+   "wasaqa-1",
+   "ms"
+  ],
+  [
+   "to gather; to enfold",
+   "lemma",
+   "wasaqa-1",
+   "en"
+  ],
+  [
+   "pertengahan",
+   "lemma",
+   "wasat-1",
+   "ms"
+  ],
+  [
+   "the middle; moderate",
+   "lemma",
+   "wasat-1",
+   "en"
+  ],
+  [
+   "menerobos ke tengah",
+   "lemma",
+   "wasata-1",
+   "ms"
+  ],
+  [
+   "to penetrate into the middle",
+   "lemma",
+   "wasata-1",
+   "en"
+  ],
+  [
+   "luas; maha luas",
+   "lemma",
+   "wasi-1",
+   "ms"
+  ],
+  [
+   "vast; all-encompassing",
+   "lemma",
+   "wasi-1",
+   "en"
+  ],
+  [
    "meliputi; muat",
    "lemma",
    "wasia-1",
@@ -12661,6 +71456,78 @@ const QM_SEARCH_INDEX = {
    "to encompass; to be wide enough for",
    "lemma",
    "wasia-1",
+   "en"
+  ],
+  [
+   "berterusan",
+   "lemma",
+   "wasib-1",
+   "ms"
+  ],
+  [
+   "constant; perpetual",
+   "lemma",
+   "wasib-1",
+   "en"
+  ],
+  [
+   "ambang",
+   "lemma",
+   "wasid-1",
+   "ms"
+  ],
+  [
+   "the threshold; the entrance",
+   "lemma",
+   "wasid-1",
+   "en"
+  ],
+  [
+   "a means of approach",
+   "lemma",
+   "wasila-1",
+   "en"
+  ],
+  [
+   "wasilah; jalan mendekatkan diri",
+   "lemma",
+   "wasila-1",
+   "ms"
+  ],
+  [
+   "a wasila (a she-camel set free)",
+   "lemma",
+   "wasila-2",
+   "en"
+  ],
+  [
+   "wasilah (unta yang dilepaskan)",
+   "lemma",
+   "wasila-2",
+   "ms"
+  ],
+  [
+   "bequest; charge",
+   "lemma",
+   "wasiyya-1",
+   "en"
+  ],
+  [
+   "wasiat",
+   "lemma",
+   "wasiyya-1",
+   "ms"
+  ],
+  [
+   "berwasiat",
+   "lemma",
+   "wassaa-1",
+   "ms"
+  ],
+  [
+   "to enjoin; to charge",
+   "lemma",
+   "wassaa-1",
    "en"
   ],
   [
@@ -12688,6 +71555,114 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "pijakan",
+   "lemma",
+   "wat-1",
+   "ms"
+  ],
+  [
+   "treading; impression",
+   "lemma",
+   "wat-1",
+   "en"
+  ],
+  [
+   "a peg; a stake",
+   "lemma",
+   "watad-1",
+   "en"
+  ],
+  [
+   "pasak",
+   "lemma",
+   "watad-1",
+   "ms"
+  ],
+  [
+   "hajat; keperluan",
+   "lemma",
+   "watar-1",
+   "ms"
+  ],
+  [
+   "need; desire",
+   "lemma",
+   "watar-1",
+   "en"
+  ],
+  [
+   "mengurangi",
+   "lemma",
+   "watara-1",
+   "ms"
+  ],
+  [
+   "to wrong; to diminish",
+   "lemma",
+   "watara-1",
+   "en"
+  ],
+  [
+   "an idol",
+   "lemma",
+   "wathan-1",
+   "en"
+  ],
+  [
+   "berhala",
+   "lemma",
+   "wathan-1",
+   "ms"
+  ],
+  [
+   "a binding; a fetter",
+   "lemma",
+   "wathaq-1",
+   "en"
+  ],
+  [
+   "ikatan",
+   "lemma",
+   "wathaq-1",
+   "ms"
+  ],
+  [
+   "the aorta",
+   "lemma",
+   "watin-1",
+   "en"
+  ],
+  [
+   "urat nadi jantung",
+   "lemma",
+   "watin-1",
+   "ms"
+  ],
+  [
+   "memijak",
+   "lemma",
+   "watiya-1",
+   "ms"
+  ],
+  [
+   "to tread upon",
+   "lemma",
+   "watiya-1",
+   "en"
+  ],
+  [
+   "the odd (number)",
+   "lemma",
+   "watr-1",
+   "en"
+  ],
+  [
+   "yang ganjil",
+   "lemma",
+   "watr-1",
+   "ms"
+  ],
+  [
    "celaka; kebinasaan",
    "lemma",
    "wayl-1",
@@ -12700,6 +71675,210 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menasihati",
+   "lemma",
+   "waza-1",
+   "ms"
+  ],
+  [
+   "to admonish; to exhort",
+   "lemma",
+   "waza-1",
+   "en"
+  ],
+  [
+   "menimbang",
+   "lemma",
+   "wazana-1",
+   "ms"
+  ],
+  [
+   "to weigh",
+   "lemma",
+   "wazana-1",
+   "en"
+  ],
+  [
+   "memikul beban",
+   "lemma",
+   "wazara-1",
+   "ms"
+  ],
+  [
+   "to bear a burden",
+   "lemma",
+   "wazara-1",
+   "en"
+  ],
+  [
+   "one who admonishes",
+   "lemma",
+   "wazi-1",
+   "en"
+  ],
+  [
+   "pemberi nasihat",
+   "lemma",
+   "wazi-1",
+   "ms"
+  ],
+  [
+   "menteri; pembantu",
+   "lemma",
+   "wazir-1",
+   "ms"
+  ],
+  [
+   "minister; helper",
+   "lemma",
+   "wazir-1",
+   "en"
+  ],
+  [
+   "one who bears (a burden)",
+   "lemma",
+   "waziru-1",
+   "en"
+  ],
+  [
+   "yang memikul",
+   "lemma",
+   "waziru-1",
+   "ms"
+  ],
+  [
+   "timbangan",
+   "lemma",
+   "wazn-1",
+   "ms"
+  ],
+  [
+   "weight; measure",
+   "lemma",
+   "wazn-1",
+   "en"
+  ],
+  [
+   "a bag; a container",
+   "lemma",
+   "wiaa-1",
+   "en"
+  ],
+  [
+   "karung; bekas",
+   "lemma",
+   "wiaa-1",
+   "ms"
+  ],
+  [
+   "a fitting recompense",
+   "lemma",
+   "wifaq-1",
+   "en"
+  ],
+  [
+   "balasan yang setimpal",
+   "lemma",
+   "wifaq-1",
+   "ms"
+  ],
+  [
+   "a burden; a load",
+   "lemma",
+   "wiqr-1",
+   "en"
+  ],
+  [
+   "muatan",
+   "lemma",
+   "wiqr-1",
+   "ms"
+  ],
+  [
+   "a watering-place; a herd driven to water",
+   "lemma",
+   "wird-1",
+   "en"
+  ],
+  [
+   "tempat air; kumpulan yang dibawa minum",
+   "lemma",
+   "wird-1",
+   "ms"
+  ],
+  [
+   "beban; dosa",
+   "lemma",
+   "wizr-1",
+   "ms"
+  ],
+  [
+   "burden; load of sin",
+   "lemma",
+   "wizr-1",
+   "en"
+  ],
+  [
+   "affection; love",
+   "lemma",
+   "wudd-1",
+   "en"
+  ],
+  [
+   "kasih sayang",
+   "lemma",
+   "wudd-1",
+   "ms"
+  ],
+  [
+   "mewakilkan",
+   "lemma",
+   "wukkila-1",
+   "ms"
+  ],
+  [
+   "to entrust",
+   "lemma",
+   "wukkila-1",
+   "en"
+  ],
+  [
+   "capacity; ability",
+   "lemma",
+   "wus-1",
+   "en"
+  ],
+  [
+   "kemampuan",
+   "lemma",
+   "wus-1",
+   "ms"
+  ],
+  [
+   "the middle one",
+   "lemma",
+   "wusta-1",
+   "en"
+  ],
+  [
+   "yang pertengahan",
+   "lemma",
+   "wusta-1",
+   "ms"
+  ],
+  [
+   "the most firm",
+   "lemma",
+   "wuthqa-1",
+   "en"
+  ],
+  [
+   "yang paling kukuh",
+   "lemma",
+   "wuthqa-1",
+   "ms"
+  ],
+  [
    "o (you who ...)",
    "lemma",
    "ya-1",
@@ -12709,6 +71888,30 @@ const QM_SEARCH_INDEX = {
    "wahai (orang-orang yang ...)",
    "lemma",
    "ya-1",
+   "ms"
+  ],
+  [
+   "dryness",
+   "lemma",
+   "yabas-1",
+   "en"
+  ],
+  [
+   "kekeringan",
+   "lemma",
+   "yabas-1",
+   "ms"
+  ],
+  [
+   "dry",
+   "lemma",
+   "yabis-1",
+   "en"
+  ],
+  [
+   "kering",
+   "lemma",
+   "yabis-1",
    "ms"
   ],
   [
@@ -12724,6 +71927,90 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "yaghuth (an idol)",
+   "lemma",
+   "yaghuth-1",
+   "en"
+  ],
+  [
+   "yaghuth (berhala)",
+   "lemma",
+   "yaghuth-1",
+   "ms"
+  ],
+  [
+   "orang yahudi",
+   "lemma",
+   "yahud-1",
+   "ms"
+  ],
+  [
+   "the jews",
+   "lemma",
+   "yahud-1",
+   "en"
+  ],
+  [
+   "a jew",
+   "lemma",
+   "yahudiyy-1",
+   "en"
+  ],
+  [
+   "seorang yahudi",
+   "lemma",
+   "yahudiyy-1",
+   "ms"
+  ],
+  [
+   "yahya",
+   "lemma",
+   "yahya-1",
+   "ms"
+  ],
+  [
+   "yahya (john)",
+   "lemma",
+   "yahya-1",
+   "en"
+  ],
+  [
+   "berputus asa",
+   "lemma",
+   "yaisa-1",
+   "ms"
+  ],
+  [
+   "to despair",
+   "lemma",
+   "yaisa-1",
+   "en"
+  ],
+  [
+   "mendorong",
+   "lemma",
+   "yajrimanna-1",
+   "ms"
+  ],
+  [
+   "to incite; to bring (upon)",
+   "lemma",
+   "yajrimanna-1",
+   "en"
+  ],
+  [
+   "ya'juj (gog)",
+   "lemma",
+   "yajuj-1",
+   "en"
+  ],
+  [
+   "yakjuj",
+   "lemma",
+   "yajuj-1",
+   "ms"
+  ],
+  [
    "right hand; oath",
    "lemma",
    "yamin-1",
@@ -12733,6 +72020,54 @@ const QM_SEARCH_INDEX = {
    "tangan kanan; sumpah",
    "lemma",
    "yamin-1",
+   "ms"
+  ],
+  [
+   "laut; sungai",
+   "lemma",
+   "yamm-1",
+   "ms"
+  ],
+  [
+   "sea; river",
+   "lemma",
+   "yamm-1",
+   "en"
+  ],
+  [
+   "a spring",
+   "lemma",
+   "yanbu-1",
+   "en"
+  ],
+  [
+   "mata air",
+   "lemma",
+   "yanbu-1",
+   "ms"
+  ],
+  [
+   "certainty",
+   "lemma",
+   "yaqin-1",
+   "en"
+  ],
+  [
+   "keyakinan",
+   "lemma",
+   "yaqin-1",
+   "ms"
+  ],
+  [
+   "a gourd plant",
+   "lemma",
+   "yaqtin-1",
+   "en"
+  ],
+  [
+   "pokok labu",
+   "lemma",
+   "yaqtin-1",
    "ms"
   ],
   [
@@ -12748,6 +72083,54 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "ruby",
+   "lemma",
+   "yaqut-1",
+   "en"
+  ],
+  [
+   "yakut",
+   "lemma",
+   "yaqut-1",
+   "ms"
+  ],
+  [
+   "elisha",
+   "lemma",
+   "yasa-1",
+   "en"
+  ],
+  [
+   "ilyasa'",
+   "lemma",
+   "yasa-1",
+   "ms"
+  ],
+  [
+   "easy",
+   "lemma",
+   "yasir-1",
+   "en"
+  ],
+  [
+   "mudah",
+   "lemma",
+   "yasir-1",
+   "ms"
+  ],
+  [
+   "memudahkan",
+   "lemma",
+   "yassara-1",
+   "ms"
+  ],
+  [
+   "to make easy",
+   "lemma",
+   "yassara-1",
+   "en"
+  ],
+  [
    "anak yatim",
    "lemma",
    "yatim-1",
@@ -12757,6 +72140,18 @@ const QM_SEARCH_INDEX = {
    "orphan",
    "lemma",
    "yatim-1",
+   "en"
+  ],
+  [
+   "berputus asa",
+   "lemma",
+   "yaus-1",
+   "ms"
+  ],
+  [
+   "despairing",
+   "lemma",
+   "yaus-1",
    "en"
   ],
   [
@@ -12770,6 +72165,54 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "yawm-1",
    "ms"
+  ],
+  [
+   "bergegas",
+   "lemma",
+   "yazifun-1",
+   "ms"
+  ],
+  [
+   "to rush",
+   "lemma",
+   "yazifun-1",
+   "en"
+  ],
+  [
+   "jonah (yunus)",
+   "lemma",
+   "yunus-1",
+   "en"
+  ],
+  [
+   "nabi yunus",
+   "lemma",
+   "yunus-1",
+   "ms"
+  ],
+  [
+   "ease",
+   "lemma",
+   "yusr-1",
+   "en"
+  ],
+  [
+   "kemudahan",
+   "lemma",
+   "yusr-1",
+   "ms"
+  ],
+  [
+   "jalan yang lebih mudah",
+   "lemma",
+   "yusra-1",
+   "ms"
+  ],
+  [
+   "the easier (way)",
+   "lemma",
+   "yusra-1",
+   "en"
   ],
   [
    "joseph (yusuf)",
@@ -12796,6 +72239,234 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menyokong; menzihar",
+   "lemma",
+   "zaahara-1",
+   "ms"
+  ],
+  [
+   "to support; to back up",
+   "lemma",
+   "zaahara-1",
+   "en"
+  ],
+  [
+   "mendakwa",
+   "lemma",
+   "zaama-1",
+   "ms"
+  ],
+  [
+   "to claim; to allege",
+   "lemma",
+   "zaama-1",
+   "en"
+  ],
+  [
+   "buih",
+   "lemma",
+   "zabad-1",
+   "ms"
+  ],
+  [
+   "froth; scum",
+   "lemma",
+   "zabad-1",
+   "en"
+  ],
+  [
+   "kitab; zabur",
+   "lemma",
+   "zabur-1",
+   "ms"
+  ],
+  [
+   "scripture; the psalms (zabur)",
+   "lemma",
+   "zabur-1",
+   "en"
+  ],
+  [
+   "bekalan",
+   "lemma",
+   "zad-1",
+   "ms"
+  ],
+  [
+   "provisions",
+   "lemma",
+   "zad-1",
+   "en"
+  ],
+  [
+   "hembusan nafas",
+   "lemma",
+   "zafir-1",
+   "ms"
+  ],
+  [
+   "sighing; wailing",
+   "lemma",
+   "zafir-1",
+   "en"
+  ],
+  [
+   "menyimpang",
+   "lemma",
+   "zagha-1",
+   "ms"
+  ],
+  [
+   "to swerve; to deviate",
+   "lemma",
+   "zagha-1",
+   "en"
+  ],
+  [
+   "lenyap",
+   "lemma",
+   "zahaqa-1",
+   "ms"
+  ],
+  [
+   "to vanish; to perish",
+   "lemma",
+   "zahaqa-1",
+   "en"
+  ],
+  [
+   "menjadi jelas; muncul",
+   "lemma",
+   "zahara-1",
+   "ms"
+  ],
+  [
+   "to appear; to become clear",
+   "lemma",
+   "zahara-1",
+   "en"
+  ],
+  [
+   "vanishing",
+   "lemma",
+   "zahiq-1",
+   "en"
+  ],
+  [
+   "yang lenyap",
+   "lemma",
+   "zahiq-1",
+   "ms"
+  ],
+  [
+   "apparent; manifest",
+   "lemma",
+   "zahir-1",
+   "en"
+  ],
+  [
+   "nyata; zahir",
+   "lemma",
+   "zahir-1",
+   "ms"
+  ],
+  [
+   "helper; supporter",
+   "lemma",
+   "zahir-2",
+   "en"
+  ],
+  [
+   "penolong",
+   "lemma",
+   "zahir-2",
+   "ms"
+  ],
+  [
+   "back",
+   "lemma",
+   "zahr-1",
+   "en"
+  ],
+  [
+   "belakang",
+   "lemma",
+   "zahr-1",
+   "ms"
+  ],
+  [
+   "bound to vanish",
+   "lemma",
+   "zahuq-1",
+   "en"
+  ],
+  [
+   "pasti lenyap",
+   "lemma",
+   "zahuq-1",
+   "ms"
+  ],
+  [
+   "guarantor; leader",
+   "lemma",
+   "zaim-1",
+   "en"
+  ],
+  [
+   "penjamin; ketua",
+   "lemma",
+   "zaim-1",
+   "ms"
+  ],
+  [
+   "those that drive away sharply",
+   "lemma",
+   "zajir-1",
+   "en"
+  ],
+  [
+   "yang menghardik",
+   "lemma",
+   "zajir-1",
+   "ms"
+  ],
+  [
+   "a single cry",
+   "lemma",
+   "zajra-1",
+   "en"
+  ],
+  [
+   "satu jeritan",
+   "lemma",
+   "zajra-1",
+   "ms"
+  ],
+  [
+   "menjadi suci",
+   "lemma",
+   "zaka-1",
+   "ms"
+  ],
+  [
+   "to be pure",
+   "lemma",
+   "zaka-1",
+   "en"
+  ],
+  [
+   "zakaria",
+   "lemma",
+   "zakariyya-1",
+   "ms"
+  ],
+  [
+   "zakariyya (zechariah)",
+   "lemma",
+   "zakariyya-1",
+   "en"
+  ],
+  [
    "zakat; penyucian",
    "lemma",
    "zakat-1",
@@ -12805,6 +72476,42 @@ const QM_SEARCH_INDEX = {
    "zakat; purification",
    "lemma",
    "zakat-1",
+   "en"
+  ],
+  [
+   "pure",
+   "lemma",
+   "zakiyy-1",
+   "en"
+  ],
+  [
+   "suci",
+   "lemma",
+   "zakiyy-1",
+   "ms"
+  ],
+  [
+   "menyucikan",
+   "lemma",
+   "zakka-1",
+   "ms"
+  ],
+  [
+   "to purify; to make pure",
+   "lemma",
+   "zakka-1",
+   "en"
+  ],
+  [
+   "berhenti; (la yazalu: terus)",
+   "lemma",
+   "zala-1",
+   "ms"
+  ],
+  [
+   "to cease; (la yazalu: to continue)",
+   "lemma",
+   "zala-1",
    "en"
   ],
   [
@@ -12820,6 +72527,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "shady; thick shade",
+   "lemma",
+   "zalil-1",
+   "en"
+  ],
+  [
+   "teduh",
+   "lemma",
+   "zalil-1",
+   "ms"
+  ],
+  [
    "orang zalim",
    "lemma",
    "zalim-1",
@@ -12829,6 +72548,54 @@ const QM_SEARCH_INDEX = {
    "wrongdoer; unjust",
    "lemma",
    "zalim-1",
+   "en"
+  ],
+  [
+   "terus-menerus",
+   "lemma",
+   "zalla-1",
+   "ms"
+  ],
+  [
+   "to remain; to continue",
+   "lemma",
+   "zalla-1",
+   "en"
+  ],
+  [
+   "menaungi",
+   "lemma",
+   "zallala-1",
+   "ms"
+  ],
+  [
+   "to shade; to overshadow",
+   "lemma",
+   "zallala-1",
+   "en"
+  ],
+  [
+   "sangat zalim",
+   "lemma",
+   "zallam-1",
+   "ms"
+  ],
+  [
+   "unjust (greatly)",
+   "lemma",
+   "zallam-1",
+   "en"
+  ],
+  [
+   "amat zalim",
+   "lemma",
+   "zalum-1",
+   "ms"
+  ],
+  [
+   "very unjust",
+   "lemma",
+   "zalum-1",
    "en"
   ],
   [
@@ -12842,6 +72609,66 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "zalzala-1",
    "en"
+  ],
+  [
+   "claim; assertion",
+   "lemma",
+   "zam-1",
+   "en"
+  ],
+  [
+   "dakwaan",
+   "lemma",
+   "zam-1",
+   "ms"
+  ],
+  [
+   "orang yang dahaga",
+   "lemma",
+   "zam-2",
+   "ms"
+  ],
+  [
+   "thirsty",
+   "lemma",
+   "zam-2",
+   "en"
+  ],
+  [
+   "dahaga",
+   "lemma",
+   "zama-1",
+   "ms"
+  ],
+  [
+   "thirst",
+   "lemma",
+   "zama-1",
+   "en"
+  ],
+  [
+   "berzina",
+   "lemma",
+   "zana-1",
+   "ms"
+  ],
+  [
+   "to commit fornication",
+   "lemma",
+   "zana-1",
+   "en"
+  ],
+  [
+   "one who commits fornication",
+   "lemma",
+   "zani-1",
+   "en"
+  ],
+  [
+   "penzina",
+   "lemma",
+   "zani-1",
+   "ms"
   ],
   [
    "conjecture; assumption",
@@ -12868,6 +72695,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "pokok zakum",
+   "lemma",
+   "zaqqum-1",
+   "ms"
+  ],
+  [
+   "the zaqqum (tree)",
+   "lemma",
+   "zaqqum-1",
+   "en"
+  ],
+  [
+   "crops; sown field",
+   "lemma",
+   "zar-1",
+   "en"
+  ],
+  [
+   "tanaman",
+   "lemma",
+   "zar-1",
+   "ms"
+  ],
+  [
+   "a sower; a farmer",
+   "lemma",
+   "zari-1",
+   "en"
+  ],
+  [
+   "penanam",
+   "lemma",
+   "zari-1",
+   "ms"
+  ],
+  [
+   "ceasing",
+   "lemma",
+   "zawal-1",
+   "en"
+  ],
+  [
+   "kelenyapan",
+   "lemma",
+   "zawal-1",
+   "ms"
+  ],
+  [
    "pasangan; isteri",
    "lemma",
    "zawj-1",
@@ -12878,6 +72753,66 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "zawj-1",
    "en"
+  ],
+  [
+   "mengahwinkan; memasangkan",
+   "lemma",
+   "zawwaja-1",
+   "ms"
+  ],
+  [
+   "to join in marriage; to pair",
+   "lemma",
+   "zawwaja-1",
+   "en"
+  ],
+  [
+   "zaid",
+   "lemma",
+   "zayd-1",
+   "ms"
+  ],
+  [
+   "zayd",
+   "lemma",
+   "zayd-1",
+   "en"
+  ],
+  [
+   "deviation",
+   "lemma",
+   "zaygh-1",
+   "en"
+  ],
+  [
+   "penyimpangan",
+   "lemma",
+   "zaygh-1",
+   "ms"
+  ],
+  [
+   "minyak",
+   "lemma",
+   "zayt-1",
+   "ms"
+  ],
+  [
+   "oil",
+   "lemma",
+   "zayt-1",
+   "en"
+  ],
+  [
+   "the olive",
+   "lemma",
+   "zaytun-1",
+   "en"
+  ],
+  [
+   "zaitun",
+   "lemma",
+   "zaytun-1",
+   "ms"
   ],
   [
    "menghias",
@@ -12892,6 +72827,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "behind one's back",
+   "lemma",
+   "zihriyy-1",
+   "en"
+  ],
+  [
+   "di belakang",
+   "lemma",
+   "zihriyy-1",
+   "ms"
+  ],
+  [
+   "shade; shadow",
+   "lemma",
+   "zill-1",
+   "en"
+  ],
+  [
+   "teduhan; bayang",
+   "lemma",
+   "zill-1",
+   "ms"
+  ],
+  [
    "gegaran kuat; gempa",
    "lemma",
    "zilzal-1",
@@ -12902,6 +72861,102 @@ const QM_SEARCH_INDEX = {
    "lemma",
    "zilzal-1",
    "en"
+  ],
+  [
+   "adornment; ornament",
+   "lemma",
+   "zina-1",
+   "en"
+  ],
+  [
+   "perhiasan",
+   "lemma",
+   "zina-1",
+   "ms"
+  ],
+  [
+   "fornication",
+   "lemma",
+   "zina-2",
+   "en"
+  ],
+  [
+   "zina",
+   "lemma",
+   "zina-2",
+   "ms"
+  ],
+  [
+   "an addition; increase",
+   "lemma",
+   "ziyada-1",
+   "en"
+  ],
+  [
+   "tambahan",
+   "lemma",
+   "ziyada-1",
+   "ms"
+  ],
+  [
+   "a nail",
+   "lemma",
+   "zufur-1",
+   "en"
+  ],
+  [
+   "kuku",
+   "lemma",
+   "zufur-1",
+   "ms"
+  ],
+  [
+   "a glass",
+   "lemma",
+   "zujaj-1",
+   "en"
+  ],
+  [
+   "kaca",
+   "lemma",
+   "zujaj-1",
+   "ms"
+  ],
+  [
+   "emas; perhiasan",
+   "lemma",
+   "zukhruf-1",
+   "ms"
+  ],
+  [
+   "gold; adornment",
+   "lemma",
+   "zukhruf-1",
+   "en"
+  ],
+  [
+   "kedekatan",
+   "lemma",
+   "zulfa-1",
+   "ms"
+  ],
+  [
+   "nearness; closeness",
+   "lemma",
+   "zulfa-1",
+   "en"
+  ],
+  [
+   "a canopy; a covering",
+   "lemma",
+   "zulla-1",
+   "en"
+  ],
+  [
+   "naungan",
+   "lemma",
+   "zulla-1",
+   "ms"
   ],
   [
    "kezaliman",
@@ -12928,6 +72983,42 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "berkumpulan-kumpulan",
+   "lemma",
+   "zumar-1",
+   "ms"
+  ],
+  [
+   "throngs; groups",
+   "lemma",
+   "zumar-1",
+   "en"
+  ],
+  [
+   "dusta; saksi palsu",
+   "lemma",
+   "zur-1",
+   "ms"
+  ],
+  [
+   "falsehood; perjury",
+   "lemma",
+   "zur-1",
+   "en"
+  ],
+  [
+   "pasture",
+   "root",
+   "root-2-b-b",
+   "en"
+  ],
+  [
+   "rumput",
+   "root",
+   "root-2-b-b",
+   "ms"
+  ],
+  [
    "forever",
    "root",
    "root-2-b-d",
@@ -12938,6 +73029,54 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-2-b-d",
    "ms"
+  ],
+  [
+   "camels",
+   "root",
+   "root-2-b-l",
+   "en"
+  ],
+  [
+   "unta",
+   "root",
+   "root-2-b-l",
+   "ms"
+  ],
+  [
+   "melarikan diri",
+   "root",
+   "root-2-b-q",
+   "ms"
+  ],
+  [
+   "to abscond",
+   "root",
+   "root-2-b-q",
+   "en"
+  ],
+  [
+   "a monstrous thing",
+   "root",
+   "root-2-d-d",
+   "en"
+  ],
+  [
+   "perkara yang dahsyat",
+   "root",
+   "root-2-d-d",
+   "ms"
+  ],
+  [
+   "menunaikan",
+   "root",
+   "root-2-d-y",
+   "ms"
+  ],
+  [
+   "to pay; to render",
+   "root",
+   "root-2-d-y",
+   "en"
   ],
   [
    "ear; to permit",
@@ -12952,6 +73091,54 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "menyakiti; kemudaratan",
+   "root",
+   "root-2-dh-y",
+   "ms"
+  ],
+  [
+   "to harm; harm",
+   "root",
+   "root-2-dh-y",
+   "en"
+  ],
+  [
+   "memalingkan; berdusta",
+   "root",
+   "root-2-f-k",
+   "ms"
+  ],
+  [
+   "to turn away; to lie",
+   "root",
+   "root-2-f-k",
+   "en"
+  ],
+  [
+   "terbenam; lenyap",
+   "root",
+   "root-2-f-l",
+   "ms"
+  ],
+  [
+   "to set; to vanish",
+   "root",
+   "root-2-f-l",
+   "en"
+  ],
+  [
+   "a horizon",
+   "root",
+   "root-2-f-q",
+   "en"
+  ],
+  [
+   "ufuk",
+   "root",
+   "root-2-f-q",
+   "ms"
+  ],
+  [
    "family; people of",
    "root",
    "root-2-h-l",
@@ -12962,6 +73149,18 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-2-h-l",
    "ms"
+  ],
+  [
+   "membakar",
+   "root",
+   "root-2-j-j",
+   "ms"
+  ],
+  [
+   "to burn; to be scorching",
+   "root",
+   "root-2-j-j",
+   "en"
   ],
   [
    "appointed term; to delay",
@@ -13024,6 +73223,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "brother",
+   "root",
+   "root-2-kh-w",
+   "en"
+  ],
+  [
+   "saudara",
+   "root",
+   "root-2-kh-w",
+   "ms"
+  ],
+  [
+   "seribu; menyatukan",
+   "root",
+   "root-2-l-f",
+   "ms"
+  ],
+  [
+   "thousand; to unite",
+   "root",
+   "root-2-l-f",
+   "en"
+  ],
+  [
+   "kinship; pledge",
+   "root",
+   "root-2-l-l",
+   "en"
+  ],
+  [
+   "pertalian; perjanjian",
+   "root",
+   "root-2-l-l",
+   "ms"
+  ],
+  [
    "kesakitan",
    "root",
    "root-2-l-m",
@@ -13033,6 +73268,18 @@ const QM_SEARCH_INDEX = {
    "pain",
    "root",
    "root-2-l-m",
+   "en"
+  ],
+  [
+   "melembutkan",
+   "root",
+   "root-2-l-n",
+   "ms"
+  ],
+  [
+   "to soften",
+   "root",
+   "root-2-l-n",
    "en"
   ],
   [
@@ -13046,6 +73293,30 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-2-l-w",
    "ms"
+  ],
+  [
+   "tempoh; had masa",
+   "root",
+   "root-2-m-d",
+   "ms"
+  ],
+  [
+   "term; limit of time",
+   "root",
+   "root-2-m-d",
+   "en"
+  ],
+  [
+   "berharap",
+   "root",
+   "root-2-m-l",
+   "ms"
+  ],
+  [
+   "to hope",
+   "root",
+   "root-2-m-l",
+   "en"
   ],
   [
    "ibu; umat; menuju",
@@ -13084,6 +73355,66 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "semalam",
+   "root",
+   "root-2-m-s",
+   "ms"
+  ],
+  [
+   "yesterday",
+   "root",
+   "root-2-m-s",
+   "en"
+  ],
+  [
+   "a female slave",
+   "root",
+   "root-2-m-w",
+   "en"
+  ],
+  [
+   "hamba perempuan",
+   "root",
+   "root-2-m-w",
+   "ms"
+  ],
+  [
+   "a nose; just now",
+   "root",
+   "root-2-n-f",
+   "en"
+  ],
+  [
+   "hidung; baru sebentar tadi",
+   "root",
+   "root-2-n-f",
+   "ms"
+  ],
+  [
+   "mankind",
+   "root",
+   "root-2-n-m",
+   "en"
+  ],
+  [
+   "manusia",
+   "root",
+   "root-2-n-m",
+   "ms"
+  ],
+  [
+   "mesra; melihat",
+   "root",
+   "root-2-n-s",
+   "ms"
+  ],
+  [
+   "to be sociable; to perceive",
+   "root",
+   "root-2-n-s",
+   "en"
+  ],
+  [
    "female",
    "root",
    "root-2-n-th",
@@ -13096,6 +73427,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a vessel; the time",
+   "root",
+   "root-2-n-y",
+   "en"
+  ],
+  [
+   "bekas; masa",
+   "root",
+   "root-2-n-y",
+   "ms"
+  ],
+  [
+   "hajat; kepandaian",
+   "root",
+   "root-2-r-b",
+   "ms"
+  ],
+  [
+   "need; skill",
+   "root",
+   "root-2-r-b",
+   "en"
+  ],
+  [
    "bumi, tanah",
    "root",
    "root-2-r-d2",
@@ -13105,6 +73460,126 @@ const QM_SEARCH_INDEX = {
    "earth, land, ground",
    "root",
    "root-2-r-d2",
+   "en"
+  ],
+  [
+   "couch; to recline",
+   "root",
+   "root-2-r-k",
+   "en"
+  ],
+  [
+   "dipan; bersandar",
+   "root",
+   "root-2-r-k",
+   "ms"
+  ],
+  [
+   "bersedih; dukacita",
+   "root",
+   "root-2-s-f",
+   "ms"
+  ],
+  [
+   "to grieve; sorrow",
+   "root",
+   "root-2-s-f",
+   "en"
+  ],
+  [
+   "berbau busuk",
+   "root",
+   "root-2-s-n",
+   "ms"
+  ],
+  [
+   "to be stagnant",
+   "root",
+   "root-2-s-n",
+   "en"
+  ],
+  [
+   "mengikat; menawan",
+   "root",
+   "root-2-s-r",
+   "ms"
+  ],
+  [
+   "to bind; to capture",
+   "root",
+   "root-2-s-r",
+   "en"
+  ],
+  [
+   "mengasaskan",
+   "root",
+   "root-2-s-s",
+   "ms"
+  ],
+  [
+   "to found",
+   "root",
+   "root-2-s-s",
+   "en"
+  ],
+  [
+   "example; to console",
+   "root",
+   "root-2-s-w",
+   "en"
+  ],
+  [
+   "teladan; menghibur",
+   "root",
+   "root-2-s-w",
+   "ms"
+  ],
+  [
+   "berdukacita",
+   "root",
+   "root-2-s-y",
+   "ms"
+  ],
+  [
+   "to grieve",
+   "root",
+   "root-2-s-y",
+   "en"
+  ],
+  [
+   "akar; asal; petang",
+   "root",
+   "root-2-s2-l",
+   "ms"
+  ],
+  [
+   "root; origin; evening",
+   "root",
+   "root-2-s2-l",
+   "en"
+  ],
+  [
+   "mengikat; beban",
+   "root",
+   "root-2-s2-r",
+   "ms"
+  ],
+  [
+   "to bind; a burden",
+   "root",
+   "root-2-s2-r",
+   "en"
+  ],
+  [
+   "bongkak",
+   "root",
+   "root-2-sh-r",
+   "ms"
+  ],
+  [
+   "to be insolent",
+   "root",
+   "root-2-sh-r",
    "en"
   ],
   [
@@ -13132,6 +73607,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "kesan; jejak; mengutamakan",
+   "root",
+   "root-2-th-r",
+   "ms"
+  ],
+  [
+   "trace; track; to prefer",
+   "root",
+   "root-2-th-r",
+   "en"
+  ],
+  [
+   "furnishings",
+   "root",
+   "root-2-th-th",
+   "en"
+  ],
+  [
+   "perabot",
+   "root",
+   "root-2-th-th",
+   "ms"
+  ],
+  [
+   "kembali",
+   "root",
+   "root-2-w-b",
+   "ms"
+  ],
+  [
+   "to return",
+   "root",
+   "root-2-w-b",
+   "en"
+  ],
+  [
+   "membebani",
+   "root",
+   "root-2-w-d",
+   "ms"
+  ],
+  [
+   "to burden; to weigh down",
+   "root",
+   "root-2-w-d",
+   "en"
+  ],
+  [
+   "mengeluh; lembut hati",
+   "root",
+   "root-2-w-h",
+   "ms"
+  ],
+  [
+   "to sigh; to be tender-hearted",
+   "root",
+   "root-2-w-h",
+   "en"
+  ],
+  [
    "first; to interpret",
    "root",
    "root-2-w-l",
@@ -13156,6 +73691,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "kekuatan; menyokong",
+   "root",
+   "root-2-y-d",
+   "ms"
+  ],
+  [
+   "strength; to support",
+   "root",
+   "root-2-y-d",
+   "en"
+  ],
+  [
+   "a thicket",
+   "root",
+   "root-2-y-k",
+   "en"
+  ],
+  [
+   "belukar",
+   "root",
+   "root-2-y-k",
+   "ms"
+  ],
+  [
+   "a single woman",
+   "root",
+   "root-2-y-m",
+   "en"
+  ],
+  [
+   "wanita tidak bersuami",
+   "root",
+   "root-2-y-m",
+   "ms"
+  ],
+  [
+   "hampir",
+   "root",
+   "root-2-z-f",
+   "ms"
+  ],
+  [
+   "to draw near",
+   "root",
+   "root-2-z-f",
+   "en"
+  ],
+  [
+   "kekuatan",
+   "root",
+   "root-2-z-r",
+   "ms"
+  ],
+  [
+   "strength",
+   "root",
+   "root-2-z-r",
+   "en"
+  ],
+  [
+   "menghasut",
+   "root",
+   "root-2-z-z",
+   "ms"
+  ],
+  [
+   "to incite",
+   "root",
+   "root-2-z-z",
+   "en"
+  ],
+  [
    "ibadah, penghambaan",
    "root",
    "root-3-b-d",
@@ -13165,6 +73772,30 @@ const QM_SEARCH_INDEX = {
    "worship, servitude",
    "root",
    "root-3-b-d",
+   "en"
+  ],
+  [
+   "menyeberang; pengajaran",
+   "root",
+   "root-3-b-r",
+   "ms"
+  ],
+  [
+   "to cross; a lesson",
+   "root",
+   "root-3-b-r",
+   "en"
+  ],
+  [
+   "bermasam muka",
+   "root",
+   "root-3-b-s",
+   "ms"
+  ],
+  [
+   "to frown",
+   "root",
+   "root-3-b-s",
    "en"
   ],
   [
@@ -13192,6 +73823,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menetap; adn",
+   "root",
+   "root-3-d-n",
+   "ms"
+  ],
+  [
+   "to stay; eden",
+   "root",
+   "root-3-d-n",
+   "en"
+  ],
+  [
    "melampaui batas; musuh",
    "root",
    "root-3-d-w",
@@ -13201,6 +73844,54 @@ const QM_SEARCH_INDEX = {
    "to transgress; enemy",
    "root",
    "root-3-d-w",
+   "en"
+  ],
+  [
+   "menggigit",
+   "root",
+   "root-3-d2-d2",
+   "ms"
+  ],
+  [
+   "to bite",
+   "root",
+   "root-3-d2-d2",
+   "en"
+  ],
+  [
+   "an arm; support",
+   "root",
+   "root-3-d2-d",
+   "en"
+  ],
+  [
+   "lengan; sokongan",
+   "root",
+   "root-3-d2-d",
+   "ms"
+  ],
+  [
+   "menghalang",
+   "root",
+   "root-3-d2-l",
+   "ms"
+  ],
+  [
+   "to hinder",
+   "root",
+   "root-3-d2-l",
+   "en"
+  ],
+  [
+   "memecah-mecah",
+   "root",
+   "root-3-d2-w",
+   "ms"
+  ],
+  [
+   "to divide into parts",
+   "root",
+   "root-3-d2-w",
    "en"
   ],
   [
@@ -13216,6 +73907,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "an excuse",
+   "root",
+   "root-3-dh-r",
+   "en"
+  ],
+  [
+   "uzur",
+   "root",
+   "root-3-dh-r",
+   "ms"
+  ],
+  [
+   "menahan diri",
+   "root",
+   "root-3-f-f",
+   "ms"
+  ],
+  [
+   "to abstain",
+   "root",
+   "root-3-f-f",
+   "en"
+  ],
+  [
+   "memaafkan; menghapuskan",
+   "root",
+   "root-3-f-w",
+   "ms"
+  ],
+  [
+   "to pardon; to efface",
+   "root",
+   "root-3-f-w",
+   "en"
+  ],
+  [
    "berjanji; perjanjian",
    "root",
    "root-3-h-d",
@@ -13225,6 +73952,42 @@ const QM_SEARCH_INDEX = {
    "to promise; covenant",
    "root",
    "root-3-h-d",
+   "en"
+  ],
+  [
+   "bulu",
+   "root",
+   "root-3-h-n",
+   "ms"
+  ],
+  [
+   "wool",
+   "root",
+   "root-3-h-n",
+   "en"
+  ],
+  [
+   "kehairanan",
+   "root",
+   "root-3-j-b",
+   "ms"
+  ],
+  [
+   "wonder; amazement",
+   "root",
+   "root-3-j-b",
+   "en"
+  ],
+  [
+   "kurus",
+   "root",
+   "root-3-j-f",
+   "ms"
+  ],
+  [
+   "lean",
+   "root",
+   "root-3-j-f",
    "en"
   ],
   [
@@ -13240,6 +74003,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bukan arab; bisu",
+   "root",
+   "root-3-j-m",
+   "ms"
+  ],
+  [
+   "non-arab; dumb",
+   "root",
+   "root-3-j-m",
+   "en"
+  ],
+  [
+   "tidak berdaya; melemahkan",
+   "root",
+   "root-3-j-z",
+   "ms"
+  ],
+  [
+   "to be unable; to incapacitate",
+   "root",
+   "root-3-j-z",
+   "en"
+  ],
+  [
+   "menetap; beriktikaf",
+   "root",
+   "root-3-k-f",
+   "ms"
+  ],
+  [
+   "to stay devoted",
+   "root",
+   "root-3-k-f",
+   "en"
+  ],
+  [
    "ilmu, pengetahuan; alam/dunia (makna leksikal yang berbeza dan khusus — rujuk nota lemma alam-1)",
    "root",
    "root-3-l-m",
@@ -13249,6 +74048,30 @@ const QM_SEARCH_INDEX = {
    "knowledge; a world/realm (a distinct, lexically specialized sense — see the alam-1 lemma note)",
    "root",
    "root-3-l-m",
+   "en"
+  ],
+  [
+   "terbuka; mengumumkan",
+   "root",
+   "root-3-l-n",
+   "ms"
+  ],
+  [
+   "to be open; to announce",
+   "root",
+   "root-3-l-n",
+   "en"
+  ],
+  [
+   "melekat",
+   "root",
+   "root-3-l-q",
+   "ms"
+  ],
+  [
+   "to cling",
+   "root",
+   "root-3-l-q",
    "en"
   ],
   [
@@ -13264,6 +74087,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "sengaja",
+   "root",
+   "root-3-m-d",
+   "ms"
+  ],
+  [
+   "to intend",
+   "root",
+   "root-3-m-d",
+   "en"
+  ],
+  [
+   "mengembara membuta tuli",
+   "root",
+   "root-3-m-h",
+   "ms"
+  ],
+  [
+   "to wander blindly",
+   "root",
+   "root-3-m-h",
+   "en"
+  ],
+  [
    "melakukan; bekerja",
    "root",
    "root-3-m-l",
@@ -13273,6 +74120,30 @@ const QM_SEARCH_INDEX = {
    "to do; to work",
    "root",
    "root-3-m-l",
+   "en"
+  ],
+  [
+   "a paternal aunt",
+   "root",
+   "root-3-m-m",
+   "en"
+  ],
+  [
+   "emak saudara sebelah bapa",
+   "root",
+   "root-3-m-m",
+   "ms"
+  ],
+  [
+   "hidup lama; membangun; usia",
+   "root",
+   "root-3-m-r",
+   "ms"
+  ],
+  [
+   "to live long; to build; life",
+   "root",
+   "root-3-m-r",
    "en"
   ],
   [
@@ -13288,6 +74159,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "anggur",
+   "root",
+   "root-3-n-b",
+   "ms"
+  ],
+  [
+   "grape",
+   "root",
+   "root-3-n-b",
+   "en"
+  ],
+  [
    "being at; in the presence of",
    "root",
    "root-3-n-d",
@@ -13298,6 +74181,30 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-3-n-d",
    "ms"
+  ],
+  [
+   "a neck",
+   "root",
+   "root-3-n-q",
+   "en"
+  ],
+  [
+   "leher",
+   "root",
+   "root-3-n-q",
+   "ms"
+  ],
+  [
+   "kesukaran",
+   "root",
+   "root-3-n-t",
+   "ms"
+  ],
+  [
+   "to be hard",
+   "root",
+   "root-3-n-t",
+   "en"
   ],
   [
    "mengikuti; kesudahan",
@@ -13312,6 +74219,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "mengikat; perjanjian",
+   "root",
+   "root-3-q-d",
+   "ms"
+  ],
+  [
+   "to tie; a contract",
+   "root",
+   "root-3-q-d",
+   "en"
+  ],
+  [
    "memahami; berfikir",
    "root",
    "root-3-q-l",
@@ -13321,6 +74240,42 @@ const QM_SEARCH_INDEX = {
    "to understand; to reason",
    "root",
    "root-3-q-l",
+   "en"
+  ],
+  [
+   "mandul",
+   "root",
+   "root-3-q-m",
+   "ms"
+  ],
+  [
+   "to be barren",
+   "root",
+   "root-3-q-m",
+   "en"
+  ],
+  [
+   "menyembelih (unta); mandul",
+   "root",
+   "root-3-q-r",
+   "ms"
+  ],
+  [
+   "to hamstring; barren",
+   "root",
+   "root-3-q-r",
+   "en"
+  ],
+  [
+   "arab; bahasa yang jelas",
+   "root",
+   "root-3-r-b",
+   "ms"
+  ],
+  [
+   "arab; clear speech",
+   "root",
+   "root-3-r-b",
    "en"
   ],
   [
@@ -13348,6 +74303,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "naik; tempang",
+   "root",
+   "root-3-r-j",
+   "ms"
+  ],
+  [
+   "to ascend; to limp",
+   "root",
+   "root-3-r-j",
+   "en"
+  ],
+  [
    "singgahsana; membina bumbung",
    "root",
    "root-3-r-sh",
@@ -13357,6 +74324,30 @@ const QM_SEARCH_INDEX = {
    "throne; to build a roof",
    "root",
    "root-3-r-sh",
+   "en"
+  ],
+  [
+   "open ground; to befall",
+   "root",
+   "root-3-r-w",
+   "en"
+  ],
+  [
+   "tanah lapang; menimpa",
+   "root",
+   "root-3-r-w",
+   "ms"
+  ],
+  [
+   "sukar",
+   "root",
+   "root-3-s-r",
+   "ms"
+  ],
+  [
+   "to be difficult",
+   "root",
+   "root-3-s-r",
    "en"
   ],
   [
@@ -13372,6 +74363,162 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a band; to be dire",
+   "root",
+   "root-3-s2-b",
+   "en"
+  ],
+  [
+   "kumpulan; dahsyat",
+   "root",
+   "root-3-s2-b",
+   "ms"
+  ],
+  [
+   "a strong wind; chaff",
+   "root",
+   "root-3-s2-f",
+   "en"
+  ],
+  [
+   "angin kencang; sekam",
+   "root",
+   "root-3-s2-f",
+   "ms"
+  ],
+  [
+   "berpegang teguh",
+   "root",
+   "root-3-s2-m",
+   "ms"
+  ],
+  [
+   "to hold fast",
+   "root",
+   "root-3-s2-m",
+   "en"
+  ],
+  [
+   "memeras; petang; zaman",
+   "root",
+   "root-3-s2-r",
+   "ms"
+  ],
+  [
+   "to squeeze; the afternoon; an age",
+   "root",
+   "root-3-s2-r",
+   "en"
+  ],
+  [
+   "staff; rod",
+   "root",
+   "root-3-s2-w",
+   "en"
+  ],
+  [
+   "tongkat",
+   "root",
+   "root-3-s2-w",
+   "ms"
+  ],
+  [
+   "menderhaka",
+   "root",
+   "root-3-s2-y",
+   "ms"
+  ],
+  [
+   "to disobey",
+   "root",
+   "root-3-s2-y",
+   "en"
+  ],
+  [
+   "sepuluh",
+   "root",
+   "root-3-sh-r",
+   "ms"
+  ],
+  [
+   "ten",
+   "root",
+   "root-3-sh-r",
+   "en"
+  ],
+  [
+   "evening",
+   "root",
+   "root-3-sh-w",
+   "en"
+  ],
+  [
+   "petang",
+   "root",
+   "root-3-sh-w",
+   "ms"
+  ],
+  [
+   "menegur; meminta reda",
+   "root",
+   "root-3-t-b",
+   "ms"
+  ],
+  [
+   "to blame; to seek favour",
+   "root",
+   "root-3-t-b",
+   "en"
+  ],
+  [
+   "menyediakan",
+   "root",
+   "root-3-t-d",
+   "ms"
+  ],
+  [
+   "to prepare",
+   "root",
+   "root-3-t-d",
+   "en"
+  ],
+  [
+   "menyeret",
+   "root",
+   "root-3-t-l",
+   "ms"
+  ],
+  [
+   "to drag",
+   "root",
+   "root-3-t-l",
+   "en"
+  ],
+  [
+   "ancient; to free",
+   "root",
+   "root-3-t-q",
+   "en"
+  ],
+  [
+   "purba; membebaskan",
+   "root",
+   "root-3-t-q",
+   "ms"
+  ],
+  [
+   "melampaui batas",
+   "root",
+   "root-3-t-w",
+   "ms"
+  ],
+  [
+   "to be insolent",
+   "root",
+   "root-3-t-w",
+   "en"
+  ],
+  [
    "memberi",
    "root",
    "root-3-t2-w",
@@ -13381,6 +74528,42 @@ const QM_SEARCH_INDEX = {
    "to give",
    "root",
    "root-3-t2-w",
+   "en"
+  ],
+  [
+   "terjumpa",
+   "root",
+   "root-3-th-r",
+   "ms"
+  ],
+  [
+   "to stumble upon",
+   "root",
+   "root-3-th-r",
+   "en"
+  ],
+  [
+   "berbuat kerosakan",
+   "root",
+   "root-3-th-w",
+   "ms"
+  ],
+  [
+   "to act wickedly",
+   "root",
+   "root-3-th-w",
+   "en"
+  ],
+  [
+   "memohon perlindungan",
+   "root",
+   "root-3-w-dh",
+   "ms"
+  ],
+  [
+   "to seek refuge",
+   "root",
+   "root-3-w-dh",
    "en"
   ],
   [
@@ -13396,6 +74579,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bengkok",
+   "root",
+   "root-3-w-j",
+   "ms"
+  ],
+  [
+   "to be crooked",
+   "root",
+   "root-3-w-j",
+   "en"
+  ],
+  [
+   "menanggung; condong",
+   "root",
+   "root-3-w-l",
+   "ms"
+  ],
+  [
+   "to be burdened; to incline",
+   "root",
+   "root-3-w-l",
+   "en"
+  ],
+  [
+   "tahun; terapung",
+   "root",
+   "root-3-w-m",
+   "ms"
+  ],
+  [
+   "year; to float",
+   "root",
+   "root-3-w-m",
+   "en"
+  ],
+  [
    "bantuan, pertolongan, sokongan",
    "root",
    "root-3-w-n",
@@ -13405,6 +74624,54 @@ const QM_SEARCH_INDEX = {
    "help, assistance, support",
    "root",
    "root-3-w-n",
+   "en"
+  ],
+  [
+   "a nakedness; a weak point",
+   "root",
+   "root-3-w-r",
+   "en"
+  ],
+  [
+   "aurat; kelemahan",
+   "root",
+   "root-3-w-r",
+   "ms"
+  ],
+  [
+   "berlindung",
+   "root",
+   "root-3-y-dh",
+   "ms"
+  ],
+  [
+   "to seek refuge",
+   "root",
+   "root-3-y-dh",
+   "en"
+  ],
+  [
+   "kembali; perayaan",
+   "root",
+   "root-3-y-d",
+   "ms"
+  ],
+  [
+   "to return; a feast",
+   "root",
+   "root-3-y-d",
+   "en"
+  ],
+  [
+   "kemiskinan; keperluan",
+   "root",
+   "root-3-y-l",
+   "ms"
+  ],
+  [
+   "poverty; need",
+   "root",
+   "root-3-y-l",
    "en"
   ],
   [
@@ -13418,6 +74685,78 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-3-y-n",
    "ms"
+  ],
+  [
+   "caravan",
+   "root",
+   "root-3-y-r",
+   "en"
+  ],
+  [
+   "kafilah",
+   "root",
+   "root-3-y-r",
+   "ms"
+  ],
+  [
+   "hidup",
+   "root",
+   "root-3-y-sh",
+   "ms"
+  ],
+  [
+   "to live",
+   "root",
+   "root-3-y-sh",
+   "en"
+  ],
+  [
+   "tersembunyi",
+   "root",
+   "root-3-z-b",
+   "ms"
+  ],
+  [
+   "to be absent",
+   "root",
+   "root-3-z-b",
+   "en"
+  ],
+  [
+   "menjauhkan diri",
+   "root",
+   "root-3-z-l",
+   "ms"
+  ],
+  [
+   "to withdraw",
+   "root",
+   "root-3-z-l",
+   "en"
+  ],
+  [
+   "berazam",
+   "root",
+   "root-3-z-m",
+   "ms"
+  ],
+  [
+   "to resolve",
+   "root",
+   "root-3-z-m",
+   "en"
+  ],
+  [
+   "memuliakan",
+   "root",
+   "root-3-z-r",
+   "ms"
+  ],
+  [
+   "to honour",
+   "root",
+   "root-3-z-r",
+   "en"
   ],
   [
    "perkasa",
@@ -13441,6 +74780,30 @@ const QM_SEARCH_INDEX = {
    "to be great",
    "root",
    "root-3-z2-m",
+   "en"
+  ],
+  [
+   "a well",
+   "root",
+   "root-b-2-r",
+   "en"
+  ],
+  [
+   "perigi",
+   "root",
+   "root-b-2-r",
+   "ms"
+  ],
+  [
+   "kekuatan; kesusahan; kegagahan",
+   "root",
+   "root-b-2-s",
+   "ms"
+  ],
+  [
+   "might; hardship; severity",
+   "root",
+   "root-b-2-s",
    "en"
   ],
   [
@@ -13468,6 +74831,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a husband",
+   "root",
+   "root-b-3-l",
+   "en"
+  ],
+  [
+   "suami",
+   "root",
+   "root-b-3-l",
+   "ms"
+  ],
+  [
+   "camel",
+   "root",
+   "root-b-3-r",
+   "en"
+  ],
+  [
+   "unta",
+   "root",
+   "root-b-3-r",
+   "ms"
+  ],
+  [
    "membangkitkan; mengutus",
    "root",
    "root-b-3-th",
@@ -13477,6 +74864,30 @@ const QM_SEARCH_INDEX = {
    "to raise; to send",
    "root",
    "root-b-3-th",
+   "en"
+  ],
+  [
+   "memulakan",
+   "root",
+   "root-b-d-2",
+   "ms"
+  ],
+  [
+   "to begin",
+   "root",
+   "root-b-d-2",
+   "en"
+  ],
+  [
+   "mencipta tanpa contoh",
+   "root",
+   "root-b-d-3",
+   "ms"
+  ],
+  [
+   "to originate",
+   "root",
+   "root-b-d-3",
    "en"
   ],
   [
@@ -13492,6 +74903,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a camel offered for sacrifice",
+   "root",
+   "root-b-d-n",
+   "en"
+  ],
+  [
+   "unta korban",
+   "root",
+   "root-b-d-n",
+   "ms"
+  ],
+  [
+   "badar",
+   "root",
+   "root-b-d-r",
+   "ms"
+  ],
+  [
+   "badr",
+   "root",
+   "root-b-d-r",
+   "en"
+  ],
+  [
    "kelihatan",
    "root",
    "root-b-d-w",
@@ -13501,6 +74936,66 @@ const QM_SEARCH_INDEX = {
    "to appear",
    "root",
    "root-b-d-w",
+   "en"
+  ],
+  [
+   "a few; goods",
+   "root",
+   "root-b-d2-3",
+   "en"
+  ],
+  [
+   "beberapa; barang",
+   "root",
+   "root-b-d2-3",
+   "ms"
+  ],
+  [
+   "membazir",
+   "root",
+   "root-b-dh-r",
+   "ms"
+  ],
+  [
+   "to squander",
+   "root",
+   "root-b-dh-r",
+   "en"
+  ],
+  [
+   "hatred",
+   "root",
+   "root-b-gh-d2",
+   "en"
+  ],
+  [
+   "kebencian",
+   "root",
+   "root-b-gh-d2",
+   "ms"
+  ],
+  [
+   "a mule",
+   "root",
+   "root-b-gh-l",
+   "en"
+  ],
+  [
+   "baghal",
+   "root",
+   "root-b-gh-l",
+   "ms"
+  ],
+  [
+   "secara tiba-tiba",
+   "root",
+   "root-b-gh-t",
+   "ms"
+  ],
+  [
+   "suddenness",
+   "root",
+   "root-b-gh-t",
    "en"
   ],
   [
@@ -13516,6 +75011,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menggembirakan",
+   "root",
+   "root-b-h-j",
+   "ms"
+  ],
+  [
+   "to delight",
+   "root",
+   "root-b-h-j",
+   "en"
+  ],
+  [
+   "bisu; kabur",
+   "root",
+   "root-b-h-m",
+   "ms"
+  ],
+  [
+   "to be dumb; obscure",
+   "root",
+   "root-b-h-m",
+   "en"
+  ],
+  [
+   "terdiam; fitnah",
+   "root",
+   "root-b-h-t",
+   "ms"
+  ],
+  [
+   "to be dumbfounded; slander",
+   "root",
+   "root-b-h-t",
+   "en"
+  ],
+  [
    "laut",
    "root",
    "root-b-h2-r",
@@ -13525,6 +75056,114 @@ const QM_SEARCH_INDEX = {
    "sea",
    "root",
    "root-b-h2-r",
+   "en"
+  ],
+  [
+   "menggali",
+   "root",
+   "root-b-h2-th",
+   "ms"
+  ],
+  [
+   "to search",
+   "root",
+   "root-b-h2-th",
+   "en"
+  ],
+  [
+   "bisu",
+   "root",
+   "root-b-k-m",
+   "ms"
+  ],
+  [
+   "to be dumb",
+   "root",
+   "root-b-k-m",
+   "en"
+  ],
+  [
+   "awal pagi",
+   "root",
+   "root-b-k-r",
+   "ms"
+  ],
+  [
+   "early morning",
+   "root",
+   "root-b-k-r",
+   "en"
+  ],
+  [
+   "menangis",
+   "root",
+   "root-b-k-y",
+   "ms"
+  ],
+  [
+   "to weep",
+   "root",
+   "root-b-k-y",
+   "en"
+  ],
+  [
+   "membinasakan diri",
+   "root",
+   "root-b-kh-3",
+   "ms"
+  ],
+  [
+   "to destroy oneself (with grief)",
+   "root",
+   "root-b-kh-3",
+   "en"
+  ],
+  [
+   "kedekut",
+   "root",
+   "root-b-kh-l",
+   "ms"
+  ],
+  [
+   "to be stingy",
+   "root",
+   "root-b-kh-l",
+   "en"
+  ],
+  [
+   "mengurangkan",
+   "root",
+   "root-b-kh-s",
+   "ms"
+  ],
+  [
+   "to diminish",
+   "root",
+   "root-b-kh-s",
+   "en"
+  ],
+  [
+   "a trial",
+   "root",
+   "root-b-l-2",
+   "en"
+  ],
+  [
+   "ujian",
+   "root",
+   "root-b-l-2",
+   "ms"
+  ],
+  [
+   "menelan",
+   "root",
+   "root-b-l-3",
+   "ms"
+  ],
+  [
+   "to swallow",
+   "root",
+   "root-b-l-3",
    "en"
   ],
   [
@@ -13552,6 +75191,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "keadaan",
+   "root",
+   "root-b-l-l",
+   "ms"
+  ],
+  [
+   "state",
+   "root",
+   "root-b-l-l",
+   "en"
+  ],
+  [
+   "putus asa",
+   "root",
+   "root-b-l-s",
+   "ms"
+  ],
+  [
+   "to despair",
+   "root",
+   "root-b-l-s",
+   "en"
+  ],
+  [
    "menguji",
    "root",
    "root-b-l-w",
@@ -13562,6 +75225,30 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-b-l-w",
    "en"
+  ],
+  [
+   "lusuh",
+   "root",
+   "root-b-l-y",
+   "ms"
+  ],
+  [
+   "to wear out",
+   "root",
+   "root-b-l-y",
+   "en"
+  ],
+  [
+   "fingertips",
+   "root",
+   "root-b-n-n",
+   "en"
+  ],
+  [
+   "hujung jari",
+   "root",
+   "root-b-n-n",
+   "ms"
   ],
   [
    "membina",
@@ -13576,6 +75263,126 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a spot",
+   "root",
+   "root-b-q-3",
+   "en"
+  ],
+  [
+   "bidang",
+   "root",
+   "root-b-q-3",
+   "ms"
+  ],
+  [
+   "cow; to split open",
+   "root",
+   "root-b-q-r",
+   "en"
+  ],
+  [
+   "lembu; membelah",
+   "root",
+   "root-b-q-r",
+   "ms"
+  ],
+  [
+   "kekal; berbaki",
+   "root",
+   "root-b-q-y",
+   "ms"
+  ],
+  [
+   "to remain; to last",
+   "root",
+   "root-b-q-y",
+   "en"
+  ],
+  [
+   "bebas daripada",
+   "root",
+   "root-b-r-2",
+   "ms"
+  ],
+  [
+   "to be free from",
+   "root",
+   "root-b-r-2",
+   "en"
+  ],
+  [
+   "sejuk",
+   "root",
+   "root-b-r-d",
+   "ms"
+  ],
+  [
+   "to be cold",
+   "root",
+   "root-b-r-d",
+   "en"
+  ],
+  [
+   "berhenti",
+   "root",
+   "root-b-r-h2",
+   "ms"
+  ],
+  [
+   "to cease",
+   "root",
+   "root-b-r-h2",
+   "en"
+  ],
+  [
+   "menara; buruj",
+   "root",
+   "root-b-r-j",
+   "ms"
+  ],
+  [
+   "tower; constellation",
+   "root",
+   "root-b-r-j",
+   "en"
+  ],
+  [
+   "diberkati; melutut",
+   "root",
+   "root-b-r-k",
+   "ms"
+  ],
+  [
+   "to be blessed; to kneel",
+   "root",
+   "root-b-r-k",
+   "en"
+  ],
+  [
+   "menetapkan",
+   "root",
+   "root-b-r-m",
+   "ms"
+  ],
+  [
+   "to contrive",
+   "root",
+   "root-b-r-m",
+   "en"
+  ],
+  [
+   "kilat; terpana",
+   "root",
+   "root-b-r-q",
+   "ms"
+  ],
+  [
+   "lightning; to be dazzled",
+   "root",
+   "root-b-r-q",
+   "en"
+  ],
+  [
    "berbakti; daratan",
    "root",
    "root-b-r-r",
@@ -13586,6 +75393,126 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-b-r-r",
    "en"
+  ],
+  [
+   "leprosy",
+   "root",
+   "root-b-r-s2",
+   "en"
+  ],
+  [
+   "sopak",
+   "root",
+   "root-b-r-s2",
+   "ms"
+  ],
+  [
+   "a creature",
+   "root",
+   "root-b-r-y",
+   "en"
+  ],
+  [
+   "makhluk",
+   "root",
+   "root-b-r-y",
+   "ms"
+  ],
+  [
+   "keluar; muncul",
+   "root",
+   "root-b-r-z",
+   "ms"
+  ],
+  [
+   "to come forth",
+   "root",
+   "root-b-r-z",
+   "en"
+  ],
+  [
+   "dibinasakan",
+   "root",
+   "root-b-s-l",
+   "ms"
+  ],
+  [
+   "to be given up to ruin",
+   "root",
+   "root-b-s-l",
+   "en"
+  ],
+  [
+   "tersenyum",
+   "root",
+   "root-b-s-m",
+   "ms"
+  ],
+  [
+   "to smile",
+   "root",
+   "root-b-s-m",
+   "en"
+  ],
+  [
+   "menjulang",
+   "root",
+   "root-b-s-q",
+   "ms"
+  ],
+  [
+   "to be tall",
+   "root",
+   "root-b-s-q",
+   "en"
+  ],
+  [
+   "bermasam",
+   "root",
+   "root-b-s-r",
+   "ms"
+  ],
+  [
+   "to frown",
+   "root",
+   "root-b-s-r",
+   "en"
+  ],
+  [
+   "menjadi serbuk",
+   "root",
+   "root-b-s-s",
+   "ms"
+  ],
+  [
+   "to crumble; to be dust",
+   "root",
+   "root-b-s-s",
+   "en"
+  ],
+  [
+   "membentangkan; melapangkan",
+   "root",
+   "root-b-s-t2",
+   "ms"
+  ],
+  [
+   "to spread out; to extend",
+   "root",
+   "root-b-s-t2",
+   "en"
+  ],
+  [
+   "an onion",
+   "root",
+   "root-b-s2-l",
+   "en"
+  ],
+  [
+   "bawang",
+   "root",
+   "root-b-s2-l",
+   "ms"
   ],
   [
    "penglihatan; melihat",
@@ -13612,6 +75539,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menumpukan diri",
+   "root",
+   "root-b-t-l",
+   "ms"
+  ],
+  [
+   "to devote oneself",
+   "root",
+   "root-b-t-l",
+   "en"
+  ],
+  [
+   "terputus",
+   "root",
+   "root-b-t-r",
+   "ms"
+  ],
+  [
+   "to cut off",
+   "root",
+   "root-b-t-r",
+   "en"
+  ],
+  [
+   "berlambat-lambat",
+   "root",
+   "root-b-t2-2",
+   "ms"
+  ],
+  [
+   "to lag behind",
+   "root",
+   "root-b-t2-2",
+   "en"
+  ],
+  [
    "batil; sia-sia",
    "root",
    "root-b-t2-l",
@@ -13621,6 +75584,66 @@ const QM_SEARCH_INDEX = {
    "to be false; void",
    "root",
    "root-b-t2-l",
+   "en"
+  ],
+  [
+   "belly; inner; hidden",
+   "root",
+   "root-b-t2-n",
+   "en"
+  ],
+  [
+   "perut; batin; tersembunyi",
+   "root",
+   "root-b-t2-n",
+   "ms"
+  ],
+  [
+   "bongkak",
+   "root",
+   "root-b-t2-r",
+   "ms"
+  ],
+  [
+   "to be insolent",
+   "root",
+   "root-b-t2-r",
+   "en"
+  ],
+  [
+   "menyerang",
+   "root",
+   "root-b-t2-sh",
+   "ms"
+  ],
+  [
+   "to seize",
+   "root",
+   "root-b-t2-sh",
+   "en"
+  ],
+  [
+   "bertaburan",
+   "root",
+   "root-b-th-th",
+   "ms"
+  ],
+  [
+   "to scatter",
+   "root",
+   "root-b-th-th",
+   "en"
+  ],
+  [
+   "menempatkan",
+   "root",
+   "root-b-w-2",
+   "ms"
+  ],
+  [
+   "to settle; to lodge",
+   "root",
+   "root-b-w-2",
    "en"
   ],
   [
@@ -13634,6 +75657,54 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-b-w-b",
    "ms"
+  ],
+  [
+   "binasa",
+   "root",
+   "root-b-w-r",
+   "ms"
+  ],
+  [
+   "to perish",
+   "root",
+   "root-b-w-r",
+   "en"
+  ],
+  [
+   "menjual",
+   "root",
+   "root-b-y-3",
+   "ms"
+  ],
+  [
+   "to sell",
+   "root",
+   "root-b-y-3",
+   "en"
+  ],
+  [
+   "putih",
+   "root",
+   "root-b-y-d2",
+   "ms"
+  ],
+  [
+   "white",
+   "root",
+   "root-b-y-d2",
+   "en"
+  ],
+  [
+   "binasa",
+   "root",
+   "root-b-y-d",
+   "ms"
+  ],
+  [
+   "to perish",
+   "root",
+   "root-b-y-d",
+   "en"
   ],
   [
    "antara; jelas",
@@ -13660,6 +75731,42 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "terbit",
+   "root",
+   "root-b-z-gh",
+   "ms"
+  ],
+  [
+   "to rise (of the sun)",
+   "root",
+   "root-b-z-gh",
+   "en"
+  ],
+  [
+   "habit; custom",
+   "root",
+   "root-d-2-b",
+   "en"
+  ],
+  [
+   "kebiasaan",
+   "root",
+   "root-d-2-b",
+   "ms"
+  ],
+  [
+   "menolak dengan kasar",
+   "root",
+   "root-d-3-3",
+   "ms"
+  ],
+  [
+   "to push away violently",
+   "root",
+   "root-d-3-3",
+   "en"
+  ],
+  [
    "menyeru; berdoa",
    "root",
    "root-d-3-w",
@@ -13684,6 +75791,114 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "back; to manage",
+   "root",
+   "root-d-b-r",
+   "en"
+  ],
+  [
+   "belakang; mengurus",
+   "root",
+   "root-d-b-r",
+   "ms"
+  ],
+  [
+   "menolak",
+   "root",
+   "root-d-f-3",
+   "ms"
+  ],
+  [
+   "to repel",
+   "root",
+   "root-d-f-3",
+   "en"
+  ],
+  [
+   "berkompromi; minyak",
+   "root",
+   "root-d-h-n",
+   "ms"
+  ],
+  [
+   "to compromise; oil",
+   "root",
+   "root-d-h-n",
+   "en"
+  ],
+  [
+   "masa",
+   "root",
+   "root-d-h-r",
+   "ms"
+  ],
+  [
+   "time",
+   "root",
+   "root-d-h-r",
+   "en"
+  ],
+  [
+   "licik",
+   "root",
+   "root-d-h-y",
+   "ms"
+  ],
+  [
+   "to be cunning",
+   "root",
+   "root-d-h-y",
+   "en"
+  ],
+  [
+   "membatalkan",
+   "root",
+   "root-d-h2-d2",
+   "ms"
+  ],
+  [
+   "to refute",
+   "root",
+   "root-d-h2-d2",
+   "en"
+  ],
+  [
+   "terhina",
+   "root",
+   "root-d-h2-r",
+   "ms"
+  ],
+  [
+   "to be cast out",
+   "root",
+   "root-d-h2-r",
+   "en"
+  ],
+  [
+   "menghamparkan",
+   "root",
+   "root-d-h2-w",
+   "ms"
+  ],
+  [
+   "to spread out",
+   "root",
+   "root-d-h2-w",
+   "en"
+  ],
+  [
+   "menghancurkan",
+   "root",
+   "root-d-k-k",
+   "ms"
+  ],
+  [
+   "to pound",
+   "root",
+   "root-d-k-k",
+   "en"
+  ],
+  [
    "masuk",
    "root",
    "root-d-kh-l",
@@ -13696,6 +75911,102 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "asap",
+   "root",
+   "root-d-kh-n",
+   "ms"
+  ],
+  [
+   "smoke",
+   "root",
+   "root-d-kh-n",
+   "en"
+  ],
+  [
+   "hina",
+   "root",
+   "root-d-kh-r",
+   "ms"
+  ],
+  [
+   "to be humble",
+   "root",
+   "root-d-kh-r",
+   "en"
+  ],
+  [
+   "tergelincir",
+   "root",
+   "root-d-l-k",
+   "ms"
+  ],
+  [
+   "to decline (the sun)",
+   "root",
+   "root-d-l-k",
+   "en"
+  ],
+  [
+   "menunjuk",
+   "root",
+   "root-d-l-l",
+   "ms"
+  ],
+  [
+   "to guide; to point",
+   "root",
+   "root-d-l-l",
+   "en"
+  ],
+  [
+   "a bucket; to let down",
+   "root",
+   "root-d-l-w",
+   "en"
+  ],
+  [
+   "timba; menurunkan",
+   "root",
+   "root-d-l-w",
+   "ms"
+  ],
+  [
+   "a tear",
+   "root",
+   "root-d-m-3",
+   "en"
+  ],
+  [
+   "air mata",
+   "root",
+   "root-d-m-3",
+   "ms"
+  ],
+  [
+   "memusnahkan",
+   "root",
+   "root-d-m-r",
+   "ms"
+  ],
+  [
+   "to destroy",
+   "root",
+   "root-d-m-r",
+   "en"
+  ],
+  [
+   "blood",
+   "root",
+   "root-d-m-w",
+   "en"
+  ],
+  [
+   "darah",
+   "root",
+   "root-d-m-w",
+   "ms"
+  ],
+  [
    "dekat; rendah",
    "root",
    "root-d-n-w",
@@ -13705,6 +76016,18 @@ const QM_SEARCH_INDEX = {
    "near; lower",
    "root",
    "root-d-n-w",
+   "en"
+  ],
+  [
+   "menolak",
+   "root",
+   "root-d-r-2",
+   "ms"
+  ],
+  [
+   "to ward off",
+   "root",
+   "root-d-r-2",
    "en"
   ],
   [
@@ -13720,6 +76043,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "mencapai; lapisan",
+   "root",
+   "root-d-r-k",
+   "ms"
+  ],
+  [
+   "to reach; the depth",
+   "root",
+   "root-d-r-k",
+   "en"
+  ],
+  [
+   "mencurah-curah",
+   "root",
+   "root-d-r-r",
+   "ms"
+  ],
+  [
+   "to flow copiously",
+   "root",
+   "root-d-r-r",
+   "en"
+  ],
+  [
+   "mempelajari; terhakis",
+   "root",
+   "root-d-r-s",
+   "ms"
+  ],
+  [
+   "to study; to wear away",
+   "root",
+   "root-d-r-s",
+   "en"
+  ],
+  [
    "mengetahui",
    "root",
    "root-d-r-y",
@@ -13729,6 +76088,42 @@ const QM_SEARCH_INDEX = {
    "to know; to perceive",
    "root",
    "root-d-r-y",
+   "en"
+  ],
+  [
+   "menanam; mengotorkan",
+   "root",
+   "root-d-s-s",
+   "ms"
+  ],
+  [
+   "to bury; to corrupt",
+   "root",
+   "root-d-s-s",
+   "en"
+  ],
+  [
+   "bergilir; giliran",
+   "root",
+   "root-d-w-l",
+   "ms"
+  ],
+  [
+   "to alternate; a turn",
+   "root",
+   "root-d-w-l",
+   "en"
+  ],
+  [
+   "kekal",
+   "root",
+   "root-d-w-m",
+   "ms"
+  ],
+  [
+   "to continue",
+   "root",
+   "root-d-w-m",
    "en"
   ],
   [
@@ -13768,6 +76163,114 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "a dweller; a house",
+   "root",
+   "root-d-y-r",
+   "en"
+  ],
+  [
+   "penghuni; rumah",
+   "root",
+   "root-d-y-r",
+   "ms"
+  ],
+  [
+   "blood-money",
+   "root",
+   "root-d-y-y",
+   "en"
+  ],
+  [
+   "diat",
+   "root",
+   "root-d-y-y",
+   "ms"
+  ],
+  [
+   "biri-biri",
+   "root",
+   "root-d2-2-n",
+   "ms"
+  ],
+  [
+   "sheep",
+   "root",
+   "root-d2-2-n",
+   "en"
+  ],
+  [
+   "lemah; berganda",
+   "root",
+   "root-d2-3-f",
+   "ms"
+  ],
+  [
+   "to be weak; to double",
+   "root",
+   "root-d2-3-f",
+   "en"
+  ],
+  [
+   "dendam",
+   "root",
+   "root-d2-gh-n",
+   "ms"
+  ],
+  [
+   "rancour",
+   "root",
+   "root-d2-gh-n",
+   "en"
+  ],
+  [
+   "a bundle",
+   "root",
+   "root-d2-gh-th",
+   "en"
+  ],
+  [
+   "seikat",
+   "root",
+   "root-d2-gh-th",
+   "ms"
+  ],
+  [
+   "ketawa",
+   "root",
+   "root-d2-h2-k",
+   "ms"
+  ],
+  [
+   "to laugh",
+   "root",
+   "root-d2-h2-k",
+   "en"
+  ],
+  [
+   "forenoon",
+   "root",
+   "root-d2-h2-w",
+   "en"
+  ],
+  [
+   "waktu dhuha",
+   "root",
+   "root-d2-h2-w",
+   "ms"
+  ],
+  [
+   "berbaring",
+   "root",
+   "root-d2-j-3",
+   "ms"
+  ],
+  [
+   "to lie down",
+   "root",
+   "root-d2-j-3",
+   "en"
+  ],
+  [
    "going astray, error",
    "root",
    "root-d2-l-l",
@@ -13778,6 +76281,42 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-d2-l-l",
    "ms"
+  ],
+  [
+   "merapatkan",
+   "root",
+   "root-d2-m-m",
+   "ms"
+  ],
+  [
+   "to draw close",
+   "root",
+   "root-d2-m-m",
+   "en"
+  ],
+  [
+   "kedekut",
+   "root",
+   "root-d2-n-n",
+   "ms"
+  ],
+  [
+   "to be stingy",
+   "root",
+   "root-d2-n-n",
+   "en"
+  ],
+  [
+   "merendah diri; merayu",
+   "root",
+   "root-d2-r-3",
+   "ms"
+  ],
+  [
+   "to humble oneself; to implore",
+   "root",
+   "root-d2-r-3",
+   "en"
   ],
   [
    "memukul; mengemukakan",
@@ -13801,6 +76340,102 @@ const QM_SEARCH_INDEX = {
    "to harm",
    "root",
    "root-d2-r-r",
+   "en"
+  ],
+  [
+   "bersinar",
+   "root",
+   "root-d2-w-2",
+   "ms"
+  ],
+  [
+   "to shine",
+   "root",
+   "root-d2-w-2",
+   "en"
+  ],
+  [
+   "hilang; mensia-siakan",
+   "root",
+   "root-d2-y-3",
+   "ms"
+  ],
+  [
+   "to be lost; to waste",
+   "root",
+   "root-d2-y-3",
+   "en"
+  ],
+  [
+   "a guest",
+   "root",
+   "root-d2-y-f",
+   "en"
+  ],
+  [
+   "tetamu",
+   "root",
+   "root-d2-y-f",
+   "ms"
+  ],
+  [
+   "sempit; kesempitan",
+   "root",
+   "root-d2-y-q",
+   "ms"
+  ],
+  [
+   "to be narrow; distress",
+   "root",
+   "root-d2-y-q",
+   "en"
+  ],
+  [
+   "memudaratkan",
+   "root",
+   "root-d2-y-r",
+   "ms"
+  ],
+  [
+   "to harm",
+   "root",
+   "root-d2-y-r",
+   "en"
+  ],
+  [
+   "a wolf",
+   "root",
+   "root-dh-2-b",
+   "en"
+  ],
+  [
+   "serigala",
+   "root",
+   "root-dh-2-b",
+   "ms"
+  ],
+  [
+   "a fly",
+   "root",
+   "root-dh-b-b",
+   "en"
+  ],
+  [
+   "lalat",
+   "root",
+   "root-dh-b-b",
+   "ms"
+  ],
+  [
+   "menyembelih",
+   "root",
+   "root-dh-b-h2",
+   "ms"
+  ],
+  [
+   "to slaughter",
+   "root",
+   "root-dh-b-h2",
    "en"
   ],
   [
@@ -13828,6 +76463,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "hina; merendah",
+   "root",
+   "root-dh-l-l",
+   "ms"
+  ],
+  [
+   "to be lowly; humble",
+   "root",
+   "root-dh-l-l",
+   "en"
+  ],
+  [
+   "a pledge; obligation",
+   "root",
+   "root-dh-m-m",
+   "en"
+  ],
+  [
+   "tanggungan",
+   "root",
+   "root-dh-m-m",
+   "ms"
+  ],
+  [
    "dosa; ekor",
    "root",
    "root-dh-n-b",
@@ -13840,6 +76499,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a chin",
+   "root",
+   "root-dh-q-n",
+   "en"
+  ],
+  [
+   "dagu",
+   "root",
+   "root-dh-q-n",
+   "ms"
+  ],
+  [
+   "mencipta; membiakkan",
+   "root",
+   "root-dh-r-2",
+   "ms"
+  ],
+  [
+   "to create; to multiply",
+   "root",
+   "root-dh-r-2",
+   "en"
+  ],
+  [
+   "an arm's length; a cubit",
+   "root",
+   "root-dh-r-3",
+   "en"
+  ],
+  [
+   "sehasta; ukuran lengan",
+   "root",
+   "root-dh-r-3",
+   "ms"
+  ],
+  [
    "menaburkan; keturunan",
    "root",
    "root-dh-r-r",
@@ -13849,6 +76544,18 @@ const QM_SEARCH_INDEX = {
    "to scatter; offspring",
    "root",
    "root-dh-r-r",
+   "en"
+  ],
+  [
+   "menerbangkan",
+   "root",
+   "root-dh-r-w",
+   "ms"
+  ],
+  [
+   "to scatter",
+   "root",
+   "root-dh-r-w",
    "en"
   ],
   [
@@ -13876,6 +76583,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "hati",
+   "root",
+   "root-f-2-d",
+   "ms"
+  ],
+  [
+   "heart",
+   "root",
+   "root-f-2-d",
+   "en"
+  ],
+  [
+   "golongan; kembali",
+   "root",
+   "root-f-2-y",
+   "ms"
+  ],
+  [
+   "group; to return",
+   "root",
+   "root-f-2-y",
+   "en"
+  ],
+  [
    "doing, acting",
    "root",
    "root-f-3-l",
@@ -13886,6 +76617,30 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-f-3-l",
    "ms"
+  ],
+  [
+   "a ransom",
+   "root",
+   "root-f-d-y",
+   "en"
+  ],
+  [
+   "tebusan",
+   "root",
+   "root-f-d-y",
+   "ms"
+  ],
+  [
+   "perak",
+   "root",
+   "root-f-d2-d2",
+   "ms"
+  ],
+  [
+   "silver",
+   "root",
+   "root-f-d2-d2",
+   "en"
   ],
   [
    "bounty; excellence",
@@ -13900,6 +76655,126 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "lapang; sampai",
+   "root",
+   "root-f-d2-w",
+   "ms"
+  ],
+  [
+   "to be open; to reach",
+   "root",
+   "root-f-d2-w",
+   "en"
+  ],
+  [
+   "indecency; excess",
+   "root",
+   "root-f-h2-sh",
+   "en"
+  ],
+  [
+   "kekejian; keterlaluan",
+   "root",
+   "root-f-h2-sh",
+   "ms"
+  ],
+  [
+   "a wide path",
+   "root",
+   "root-f-j-j",
+   "en"
+  ],
+  [
+   "lorong luas",
+   "root",
+   "root-f-j-j",
+   "ms"
+  ],
+  [
+   "memancar; fajar",
+   "root",
+   "root-f-j-r",
+   "ms"
+  ],
+  [
+   "to break forth; dawn",
+   "root",
+   "root-f-j-r",
+   "en"
+  ],
+  [
+   "an open space",
+   "root",
+   "root-f-j-w",
+   "en"
+  ],
+  [
+   "ruang lapang",
+   "root",
+   "root-f-j-w",
+   "ms"
+  ],
+  [
+   "buah-buahan",
+   "root",
+   "root-f-k-h",
+   "ms"
+  ],
+  [
+   "fruit",
+   "root",
+   "root-f-k-h",
+   "en"
+  ],
+  [
+   "membebaskan",
+   "root",
+   "root-f-k-k",
+   "ms"
+  ],
+  [
+   "to free",
+   "root",
+   "root-f-k-k",
+   "en"
+  ],
+  [
+   "berfikir; merenung",
+   "root",
+   "root-f-k-r",
+   "ms"
+  ],
+  [
+   "to think; to reflect",
+   "root",
+   "root-f-k-r",
+   "en"
+  ],
+  [
+   "berbangga",
+   "root",
+   "root-f-kh-r",
+   "ms"
+  ],
+  [
+   "to boast; pride",
+   "root",
+   "root-f-kh-r",
+   "en"
+  ],
+  [
+   "berjaya; beruntung",
+   "root",
+   "root-f-l-h2",
+   "ms"
+  ],
+  [
+   "to succeed; to prosper",
+   "root",
+   "root-f-l-h2",
+   "en"
+  ],
+  [
    "kapal; orbit",
    "root",
    "root-f-l-k",
@@ -13912,6 +76787,150 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "membelah",
+   "root",
+   "root-f-l-q",
+   "ms"
+  ],
+  [
+   "to split; to cleave",
+   "root",
+   "root-f-l-q",
+   "en"
+  ],
+  [
+   "a branch; an art",
+   "root",
+   "root-f-n-n",
+   "en"
+  ],
+  [
+   "dahan; seni",
+   "root",
+   "root-f-n-n",
+   "ms"
+  ],
+  [
+   "binasa",
+   "root",
+   "root-f-n-y",
+   "ms"
+  ],
+  [
+   "to perish",
+   "root",
+   "root-f-n-y",
+   "en"
+  ],
+  [
+   "kuning terang",
+   "root",
+   "root-f-q-3",
+   "ms"
+  ],
+  [
+   "to be bright (yellow)",
+   "root",
+   "root-f-q-3",
+   "en"
+  ],
+  [
+   "memahami",
+   "root",
+   "root-f-q-h",
+   "ms"
+  ],
+  [
+   "to understand",
+   "root",
+   "root-f-q-h",
+   "en"
+  ],
+  [
+   "miskin; memerlukan",
+   "root",
+   "root-f-q-r",
+   "ms"
+  ],
+  [
+   "poor; in need",
+   "root",
+   "root-f-q-r",
+   "en"
+  ],
+  [
+   "mewajibkan; fardu",
+   "root",
+   "root-f-r-d2",
+   "ms"
+  ],
+  [
+   "to ordain; to be obligatory",
+   "root",
+   "root-f-r-d2",
+   "en"
+  ],
+  [
+   "bersendirian; tunggal",
+   "root",
+   "root-f-r-d",
+   "ms"
+  ],
+  [
+   "single; alone",
+   "root",
+   "root-f-r-d",
+   "en"
+  ],
+  [
+   "lapang; kosong",
+   "root",
+   "root-f-r-gh",
+   "ms"
+  ],
+  [
+   "to be free; empty",
+   "root",
+   "root-f-r-gh",
+   "en"
+  ],
+  [
+   "bergembira",
+   "root",
+   "root-f-r-h2",
+   "ms"
+  ],
+  [
+   "to rejoice",
+   "root",
+   "root-f-r-h2",
+   "en"
+  ],
+  [
+   "mahir",
+   "root",
+   "root-f-r-h",
+   "ms"
+  ],
+  [
+   "to be skilful",
+   "root",
+   "root-f-r-h",
+   "en"
+  ],
+  [
+   "celah; kemaluan; kelapangan",
+   "root",
+   "root-f-r-j",
+   "ms"
+  ],
+  [
+   "opening; private part; relief",
+   "root",
+   "root-f-r-j",
+   "en"
+  ],
+  [
    "memisahkan",
    "root",
    "root-f-r-q",
@@ -13921,6 +76940,54 @@ const QM_SEARCH_INDEX = {
    "to separate",
    "root",
    "root-f-r-q",
+   "en"
+  ],
+  [
+   "lari",
+   "root",
+   "root-f-r-r",
+   "ms"
+  ],
+  [
+   "to flee",
+   "root",
+   "root-f-r-r",
+   "en"
+  ],
+  [
+   "membentang; hamparan",
+   "root",
+   "root-f-r-sh",
+   "ms"
+  ],
+  [
+   "to spread; a bed",
+   "root",
+   "root-f-r-sh",
+   "en"
+  ],
+  [
+   "lalai",
+   "root",
+   "root-f-r-t2",
+   "ms"
+  ],
+  [
+   "to be neglectful",
+   "root",
+   "root-f-r-t2",
+   "en"
+  ],
+  [
+   "air tawar",
+   "root",
+   "root-f-r-t",
+   "ms"
+  ],
+  [
+   "sweet water",
+   "root",
+   "root-f-r-t",
    "en"
   ],
   [
@@ -13948,6 +77015,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memberi ruang",
+   "root",
+   "root-f-s-h2",
+   "ms"
+  ],
+  [
+   "to make room",
+   "root",
+   "root-f-s-h2",
+   "en"
+  ],
+  [
+   "melanggar; keluar daripada ketaatan",
+   "root",
+   "root-f-s-q",
+   "ms"
+  ],
+  [
+   "to transgress; to depart from obedience",
+   "root",
+   "root-f-s-q",
+   "en"
+  ],
+  [
+   "memisahkan; memutuskan",
+   "root",
+   "root-f-s2-l",
+   "ms"
+  ],
+  [
+   "to separate; to decide",
+   "root",
+   "root-f-s2-l",
+   "en"
+  ],
+  [
+   "berputus asa",
+   "root",
+   "root-f-sh-l",
+   "ms"
+  ],
+  [
+   "to lose heart",
+   "root",
+   "root-f-sh-l",
+   "en"
+  ],
+  [
    "membuka",
    "root",
    "root-f-t-h2",
@@ -13957,6 +77072,18 @@ const QM_SEARCH_INDEX = {
    "to open",
    "root",
    "root-f-t-h2",
+   "en"
+  ],
+  [
+   "memintal; benang",
+   "root",
+   "root-f-t-l",
+   "ms"
+  ],
+  [
+   "to twist; a thread",
+   "root",
+   "root-f-t-l",
    "en"
   ],
   [
@@ -13972,6 +77099,90 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menjadi lemah",
+   "root",
+   "root-f-t-r",
+   "ms"
+  ],
+  [
+   "to slacken",
+   "root",
+   "root-f-t-r",
+   "en"
+  ],
+  [
+   "memberi fatwa",
+   "root",
+   "root-f-t-w",
+   "ms"
+  ],
+  [
+   "to give a ruling",
+   "root",
+   "root-f-t-w",
+   "en"
+  ],
+  [
+   "muda; pemuda",
+   "root",
+   "root-f-t-y",
+   "ms"
+  ],
+  [
+   "young; youth",
+   "root",
+   "root-f-t-y",
+   "en"
+  ],
+  [
+   "mencipta; membelah",
+   "root",
+   "root-f-t2-r",
+   "ms"
+  ],
+  [
+   "to originate; to split",
+   "root",
+   "root-f-t2-r",
+   "en"
+  ],
+  [
+   "menyerahkan",
+   "root",
+   "root-f-w-d2",
+   "ms"
+  ],
+  [
+   "to entrust",
+   "root",
+   "root-f-w-d2",
+   "en"
+  ],
+  [
+   "mouth",
+   "root",
+   "root-f-w-h",
+   "en"
+  ],
+  [
+   "mulut",
+   "root",
+   "root-f-w-h",
+   "ms"
+  ],
+  [
+   "a throng; a group",
+   "root",
+   "root-f-w-j",
+   "en"
+  ],
+  [
+   "kumpulan",
+   "root",
+   "root-f-w-j",
+   "ms"
+  ],
+  [
    "above",
    "root",
    "root-f-w-q",
@@ -13984,6 +77195,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "mendidih; memancar",
+   "root",
+   "root-f-w-r",
+   "ms"
+  ],
+  [
+   "to boil; to gush",
+   "root",
+   "root-f-w-r",
+   "en"
+  ],
+  [
+   "terlepas",
+   "root",
+   "root-f-w-t",
+   "ms"
+  ],
+  [
+   "to pass; to miss",
+   "root",
+   "root-f-w-t",
+   "en"
+  ],
+  [
    "berjaya",
    "root",
    "root-f-w-z",
@@ -13993,6 +77228,30 @@ const QM_SEARCH_INDEX = {
    "to succeed",
    "root",
    "root-f-w-z",
+   "en"
+  ],
+  [
+   "kembali; naungan",
+   "root",
+   "root-f-y-2",
+   "ms"
+  ],
+  [
+   "to return; shade",
+   "root",
+   "root-f-y-2",
+   "en"
+  ],
+  [
+   "melimpah",
+   "root",
+   "root-f-y-d2",
+   "ms"
+  ],
+  [
+   "to overflow",
+   "root",
+   "root-f-y-d2",
    "en"
   ],
   [
@@ -14008,6 +77267,42 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "terkejut",
+   "root",
+   "root-f-z-3",
+   "ms"
+  ],
+  [
+   "to be terrified",
+   "root",
+   "root-f-z-3",
+   "en"
+  ],
+  [
+   "tertinggal; debu",
+   "root",
+   "root-gh-b-r",
+   "ms"
+  ],
+  [
+   "to remain behind; dust",
+   "root",
+   "root-gh-b-r",
+   "en"
+  ],
+  [
+   "esok; pagi",
+   "root",
+   "root-gh-d-w",
+   "ms"
+  ],
+  [
+   "tomorrow; morning",
+   "root",
+   "root-gh-d-w",
+   "en"
+  ],
+  [
    "anger, wrath",
    "root",
    "root-gh-d2-b",
@@ -14020,6 +77315,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "menundukkan",
+   "root",
+   "root-gh-d2-d2",
+   "ms"
+  ],
+  [
+   "to lower",
+   "root",
+   "root-gh-d2-d2",
+   "en"
+  ],
+  [
+   "lalai",
+   "root",
+   "root-gh-f-l",
+   "ms"
+  ],
+  [
+   "to be heedless",
+   "root",
+   "root-gh-f-l",
+   "en"
+  ],
+  [
    "mengampuni; menutupi",
    "root",
    "root-gh-f-r",
@@ -14029,6 +77348,126 @@ const QM_SEARCH_INDEX = {
    "to forgive; to cover",
    "root",
    "root-gh-f-r",
+   "en"
+  ],
+  [
+   "mengalahkan; menang",
+   "root",
+   "root-gh-l-b",
+   "ms"
+  ],
+  [
+   "to overcome; to prevail",
+   "root",
+   "root-gh-l-b",
+   "en"
+  ],
+  [
+   "tertutup",
+   "root",
+   "root-gh-l-f",
+   "ms"
+  ],
+  [
+   "uncircumcised; covered",
+   "root",
+   "root-gh-l-f",
+   "en"
+  ],
+  [
+   "a fetter",
+   "root",
+   "root-gh-l-l",
+   "en"
+  ],
+  [
+   "belenggu",
+   "root",
+   "root-gh-l-l",
+   "ms"
+  ],
+  [
+   "boy; youth",
+   "root",
+   "root-gh-l-m",
+   "en"
+  ],
+  [
+   "budak lelaki; pemuda",
+   "root",
+   "root-gh-l-m",
+   "ms"
+  ],
+  [
+   "melampaui batas",
+   "root",
+   "root-gh-l-w",
+   "ms"
+  ],
+  [
+   "to exceed bounds",
+   "root",
+   "root-gh-l-w",
+   "en"
+  ],
+  [
+   "mendidih",
+   "root",
+   "root-gh-l-y",
+   "ms"
+  ],
+  [
+   "to boil",
+   "root",
+   "root-gh-l-y",
+   "en"
+  ],
+  [
+   "tebal; kasar",
+   "root",
+   "root-gh-l-z2",
+   "ms"
+  ],
+  [
+   "to be thick; harsh",
+   "root",
+   "root-gh-l-z2",
+   "en"
+  ],
+  [
+   "distress",
+   "root",
+   "root-gh-m-m",
+   "en"
+  ],
+  [
+   "kesusahan",
+   "root",
+   "root-gh-m-m",
+   "ms"
+  ],
+  [
+   "a flood; a deep water",
+   "root",
+   "root-gh-m-r",
+   "en"
+  ],
+  [
+   "banjir; air dalam",
+   "root",
+   "root-gh-m-r",
+   "ms"
+  ],
+  [
+   "mendapat rampasan",
+   "root",
+   "root-gh-n-m",
+   "ms"
+  ],
+  [
+   "to take as spoil",
+   "root",
+   "root-gh-n-m",
    "en"
   ],
   [
@@ -14044,6 +77483,222 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "terbenam; barat",
+   "root",
+   "root-gh-r-b",
+   "ms"
+  ],
+  [
+   "to set (sun); west",
+   "root",
+   "root-gh-r-b",
+   "en"
+  ],
+  [
+   "a chamber; to scoop",
+   "root",
+   "root-gh-r-f",
+   "en"
+  ],
+  [
+   "bilik; menciduk",
+   "root",
+   "root-gh-r-f",
+   "ms"
+  ],
+  [
+   "a debt",
+   "root",
+   "root-gh-r-m",
+   "en"
+  ],
+  [
+   "hutang",
+   "root",
+   "root-gh-r-m",
+   "ms"
+  ],
+  [
+   "tenggelam; menenggelamkan",
+   "root",
+   "root-gh-r-q",
+   "ms"
+  ],
+  [
+   "to sink; to drown",
+   "root",
+   "root-gh-r-q",
+   "en"
+  ],
+  [
+   "deception",
+   "root",
+   "root-gh-r-r",
+   "en"
+  ],
+  [
+   "tipu daya",
+   "root",
+   "root-gh-r-r",
+   "ms"
+  ],
+  [
+   "menghasut",
+   "root",
+   "root-gh-r-y",
+   "ms"
+  ],
+  [
+   "to incite",
+   "root",
+   "root-gh-r-y",
+   "en"
+  ],
+  [
+   "membasuh",
+   "root",
+   "root-gh-s-l",
+   "ms"
+  ],
+  [
+   "to wash",
+   "root",
+   "root-gh-s-l",
+   "en"
+  ],
+  [
+   "gelap; mengalir",
+   "root",
+   "root-gh-s-q",
+   "ms"
+  ],
+  [
+   "to be dark; to flow",
+   "root",
+   "root-gh-s-q",
+   "en"
+  ],
+  [
+   "menutupi",
+   "root",
+   "root-gh-sh-w",
+   "ms"
+  ],
+  [
+   "to cover",
+   "root",
+   "root-gh-sh-w",
+   "en"
+  ],
+  [
+   "menyelubungi; meliputi",
+   "root",
+   "root-gh-sh-y",
+   "ms"
+  ],
+  [
+   "to cover; to overwhelm",
+   "root",
+   "root-gh-sh-y",
+   "en"
+  ],
+  [
+   "a covering",
+   "root",
+   "root-gh-t2-w",
+   "en"
+  ],
+  [
+   "penutup",
+   "root",
+   "root-gh-t2-w",
+   "ms"
+  ],
+  [
+   "buih; sampah",
+   "root",
+   "root-gh-th-w",
+   "ms"
+  ],
+  [
+   "flotsam; scum",
+   "root",
+   "root-gh-th-w",
+   "en"
+  ],
+  [
+   "harm; intoxication",
+   "root",
+   "root-gh-w-l",
+   "en"
+  ],
+  [
+   "kemudaratan; mabuk",
+   "root",
+   "root-gh-w-l",
+   "ms"
+  ],
+  [
+   "menyusut; dalam",
+   "root",
+   "root-gh-w-r",
+   "ms"
+  ],
+  [
+   "to sink; to go deep",
+   "root",
+   "root-gh-w-r",
+   "en"
+  ],
+  [
+   "menyelam",
+   "root",
+   "root-gh-w-s2",
+   "ms"
+  ],
+  [
+   "to dive",
+   "root",
+   "root-gh-w-s2",
+   "en"
+  ],
+  [
+   "a low ground; excrement",
+   "root",
+   "root-gh-w-t2",
+   "en"
+  ],
+  [
+   "tanah rendah",
+   "root",
+   "root-gh-w-t2",
+   "ms"
+  ],
+  [
+   "menolong; hujan",
+   "root",
+   "root-gh-w-th",
+   "ms"
+  ],
+  [
+   "to help; rain",
+   "root",
+   "root-gh-w-th",
+   "en"
+  ],
+  [
+   "sesat",
+   "root",
+   "root-gh-w-y",
+   "ms"
+  ],
+  [
+   "to go astray",
+   "root",
+   "root-gh-w-y",
+   "en"
+  ],
+  [
    "ghaib; tiada",
    "root",
    "root-gh-y-b",
@@ -14053,6 +77708,18 @@ const QM_SEARCH_INDEX = {
    "unseen; absent",
    "root",
    "root-gh-y-b",
+   "en"
+  ],
+  [
+   "surut",
+   "root",
+   "root-gh-y-d2",
+   "ms"
+  ],
+  [
+   "to subside",
+   "root",
+   "root-gh-y-d2",
    "en"
   ],
   [
@@ -14068,6 +77735,66 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "hujan; pertolongan",
+   "root",
+   "root-gh-y-th",
+   "ms"
+  ],
+  [
+   "rain; succour",
+   "root",
+   "root-gh-y-th",
+   "en"
+  ],
+  [
+   "kemarahan",
+   "root",
+   "root-gh-y-z2",
+   "ms"
+  ],
+  [
+   "rage",
+   "root",
+   "root-gh-y-z2",
+   "en"
+  ],
+  [
+   "to go down; to descend",
+   "root",
+   "root-h-b-t2",
+   "en"
+  ],
+  [
+   "turun",
+   "root",
+   "root-h-b-t2",
+   "ms"
+  ],
+  [
+   "debu halus",
+   "root",
+   "root-h-b-w",
+   "ms"
+  ],
+  [
+   "dust-motes",
+   "root",
+   "root-h-b-w",
+   "en"
+  ],
+  [
+   "a flood; crumbling",
+   "root",
+   "root-h-d-d",
+   "en"
+  ],
+  [
+   "runtuh",
+   "root",
+   "root-h-d-d",
+   "ms"
+  ],
+  [
    "guidance",
    "root",
    "root-h-d-y",
@@ -14080,6 +77807,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "lembut",
+   "root",
+   "root-h-d2-m",
+   "ms"
+  ],
+  [
+   "to be delicate",
+   "root",
+   "root-h-d2-m",
+   "en"
+  ],
+  [
+   "meninggalkan; berhijrah",
+   "root",
+   "root-h-j-r",
+   "ms"
+  ],
+  [
+   "to leave; to emigrate",
+   "root",
+   "root-h-j-r",
+   "en"
+  ],
+  [
    "binasa",
    "root",
    "root-h-l-k",
@@ -14089,6 +77840,114 @@ const QM_SEARCH_INDEX = {
    "to perish",
    "root",
    "root-h-l-k",
+   "en"
+  ],
+  [
+   "kelihatan (anak bulan); meninggikan suara",
+   "root",
+   "root-h-l-l",
+   "ms"
+  ],
+  [
+   "to appear (the new moon); to raise the voice",
+   "root",
+   "root-h-l-l",
+   "en"
+  ],
+  [
+   "berniat; prihatin",
+   "root",
+   "root-h-m-m",
+   "ms"
+  ],
+  [
+   "to intend; to be concerned",
+   "root",
+   "root-h-m-m",
+   "en"
+  ],
+  [
+   "mengawasi",
+   "root",
+   "root-h-m-n",
+   "ms"
+  ],
+  [
+   "to watch over",
+   "root",
+   "root-h-m-n",
+   "en"
+  ],
+  [
+   "mengumpat",
+   "root",
+   "root-h-m-z",
+   "ms"
+  ],
+  [
+   "to backbite",
+   "root",
+   "root-h-m-z",
+   "en"
+  ],
+  [
+   "sedap",
+   "root",
+   "root-h-n-2",
+   "ms"
+  ],
+  [
+   "to be wholesome",
+   "root",
+   "root-h-n-2",
+   "en"
+  ],
+  [
+   "bergegas",
+   "root",
+   "root-h-r-3",
+   "ms"
+  ],
+  [
+   "to hasten",
+   "root",
+   "root-h-r-3",
+   "en"
+  ],
+  [
+   "menghancurkan",
+   "root",
+   "root-h-sh-m",
+   "ms"
+  ],
+  [
+   "to crush",
+   "root",
+   "root-h-sh-m",
+   "en"
+  ],
+  [
+   "bergegas dengan leher terjulur",
+   "root",
+   "root-h-t2-3",
+   "ms"
+  ],
+  [
+   "to hasten with the neck stretched",
+   "root",
+   "root-h-t2-3",
+   "en"
+  ],
+  [
+   "menjadi yahudi; kembali bertaubat",
+   "root",
+   "root-h-w-d",
+   "ms"
+  ],
+  [
+   "to be jewish; to return in repentance",
+   "root",
+   "root-h-w-d",
    "en"
   ],
   [
@@ -14104,6 +77963,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "runtuh",
+   "root",
+   "root-h-w-r",
+   "ms"
+  ],
+  [
+   "to collapse",
+   "root",
+   "root-h-w-r",
+   "en"
+  ],
+  [
    "jatuh; hawa nafsu",
    "root",
    "root-h-w-y",
@@ -14113,6 +77984,102 @@ const QM_SEARCH_INDEX = {
    "to fall; desire",
    "root",
    "root-h-w-y",
+   "en"
+  ],
+  [
+   "menyediakan",
+   "root",
+   "root-h-y-2",
+   "ms"
+  ],
+  [
+   "to prepare",
+   "root",
+   "root-h-y-2",
+   "en"
+  ],
+  [
+   "kering; bergelora",
+   "root",
+   "root-h-y-j",
+   "ms"
+  ],
+  [
+   "to dry up; to stir",
+   "root",
+   "root-h-y-j",
+   "en"
+  ],
+  [
+   "mencurah; runtuh",
+   "root",
+   "root-h-y-l",
+   "ms"
+  ],
+  [
+   "to pour; to crumble",
+   "root",
+   "root-h-y-l",
+   "en"
+  ],
+  [
+   "mengembara bingung",
+   "root",
+   "root-h-y-m",
+   "ms"
+  ],
+  [
+   "to wander distractedly",
+   "root",
+   "root-h-y-m",
+   "en"
+  ],
+  [
+   "bawalah (suruhan)",
+   "root",
+   "root-h-y-t",
+   "ms"
+  ],
+  [
+   "to bring (imperative)",
+   "root",
+   "root-h-y-t",
+   "en"
+  ],
+  [
+   "mengejek",
+   "root",
+   "root-h-z-2",
+   "ms"
+  ],
+  [
+   "to mock",
+   "root",
+   "root-h-z-2",
+   "en"
+  ],
+  [
+   "menewaskan",
+   "root",
+   "root-h-z-m",
+   "ms"
+  ],
+  [
+   "to rout",
+   "root",
+   "root-h-z-m",
+   "en"
+  ],
+  [
+   "bergoncang",
+   "root",
+   "root-h-z-z",
+   "ms"
+  ],
+  [
+   "to shake",
+   "root",
+   "root-h-z-z",
    "en"
   ],
   [
@@ -14128,6 +78095,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a rope",
+   "root",
+   "root-h2-b-l",
+   "en"
+  ],
+  [
+   "tali",
+   "root",
+   "root-h2-b-l",
+   "ms"
+  ],
+  [
+   "bergembira",
+   "root",
+   "root-h2-b-r",
+   "ms"
+  ],
+  [
+   "to rejoice",
+   "root",
+   "root-h2-b-r",
+   "en"
+  ],
+  [
+   "menahan",
+   "root",
+   "root-h2-b-s",
+   "ms"
+  ],
+  [
+   "to detain",
+   "root",
+   "root-h2-b-s",
+   "en"
+  ],
+  [
+   "menjadi sia-sia",
+   "root",
+   "root-h2-b-t2",
+   "ms"
+  ],
+  [
+   "to come to nothing",
+   "root",
+   "root-h2-b-t2",
+   "en"
+  ],
+  [
    "had; sempadan",
    "root",
    "root-h2-d-d",
@@ -14138,6 +78153,18 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-h2-d-d",
    "en"
+  ],
+  [
+   "a garden",
+   "root",
+   "root-h2-d-q",
+   "en"
+  ],
+  [
+   "kebun",
+   "root",
+   "root-h2-d-q",
+   "ms"
   ],
   [
    "berlaku; baharu; perbualan",
@@ -14152,6 +78179,138 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "mendorong",
+   "root",
+   "root-h2-d2-d2",
+   "ms"
+  ],
+  [
+   "to urge",
+   "root",
+   "root-h2-d2-d2",
+   "en"
+  ],
+  [
+   "hadir",
+   "root",
+   "root-h2-d2-r",
+   "ms"
+  ],
+  [
+   "to be present",
+   "root",
+   "root-h2-d2-r",
+   "en"
+  ],
+  [
+   "berwaspada",
+   "root",
+   "root-h2-dh-r",
+   "ms"
+  ],
+  [
+   "to beware; caution",
+   "root",
+   "root-h2-dh-r",
+   "en"
+  ],
+  [
+   "mengelilingi",
+   "root",
+   "root-h2-f-f",
+   "ms"
+  ],
+  [
+   "to surround",
+   "root",
+   "root-h2-f-f",
+   "en"
+  ],
+  [
+   "a pit",
+   "root",
+   "root-h2-f-r",
+   "en"
+  ],
+  [
+   "lubang",
+   "root",
+   "root-h2-f-r",
+   "ms"
+  ],
+  [
+   "mesra; mendesak",
+   "root",
+   "root-h2-f-w",
+   "ms"
+  ],
+  [
+   "to be gracious; to press",
+   "root",
+   "root-h2-f-w",
+   "en"
+  ],
+  [
+   "menjaga; memelihara",
+   "root",
+   "root-h2-f-z2",
+   "ms"
+  ],
+  [
+   "to guard; to preserve",
+   "root",
+   "root-h2-f-z2",
+   "en"
+  ],
+  [
+   "menutup; tabir",
+   "root",
+   "root-h2-j-b",
+   "ms"
+  ],
+  [
+   "to veil; to screen",
+   "root",
+   "root-h2-j-b",
+   "en"
+  ],
+  [
+   "menuju; haji",
+   "root",
+   "root-h2-j-j",
+   "ms"
+  ],
+  [
+   "to set out for; pilgrimage",
+   "root",
+   "root-h2-j-j",
+   "en"
+  ],
+  [
+   "batu",
+   "root",
+   "root-h2-j-r",
+   "ms"
+  ],
+  [
+   "stone",
+   "root",
+   "root-h2-j-r",
+   "en"
+  ],
+  [
+   "a barrier",
+   "root",
+   "root-h2-j-z",
+   "en"
+  ],
+  [
+   "penghalang",
+   "root",
+   "root-h2-j-z",
+   "ms"
+  ],
+  [
    "menghukum; hikmah",
    "root",
    "root-h2-k-m",
@@ -14162,6 +78321,78 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-h2-k-m",
    "en"
+  ],
+  [
+   "bersumpah",
+   "root",
+   "root-h2-l-f",
+   "ms"
+  ],
+  [
+   "to swear",
+   "root",
+   "root-h2-l-f",
+   "en"
+  ],
+  [
+   "halal; meleraikan; singgah",
+   "root",
+   "root-h2-l-l",
+   "ms"
+  ],
+  [
+   "to be lawful; to untie; to alight",
+   "root",
+   "root-h2-l-l",
+   "en"
+  ],
+  [
+   "forbearance",
+   "root",
+   "root-h2-l-m",
+   "en"
+  ],
+  [
+   "kesabaran; kelembutan",
+   "root",
+   "root-h2-l-m",
+   "ms"
+  ],
+  [
+   "mencukur",
+   "root",
+   "root-h2-l-q",
+   "ms"
+  ],
+  [
+   "to shave",
+   "root",
+   "root-h2-l-q",
+   "en"
+  ],
+  [
+   "ornament; jewellery",
+   "root",
+   "root-h2-l-y",
+   "en"
+  ],
+  [
+   "perhiasan",
+   "root",
+   "root-h2-l-y",
+   "ms"
+  ],
+  [
+   "black mud",
+   "root",
+   "root-h2-m-2",
+   "en"
+  ],
+  [
+   "lumpur hitam",
+   "root",
+   "root-h2-m-2",
+   "ms"
   ],
   [
    "praise, commendation",
@@ -14200,6 +78431,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "merah; keldai",
+   "root",
+   "root-h2-m-r",
+   "ms"
+  ],
+  [
+   "red; a donkey",
+   "root",
+   "root-h2-m-r",
+   "en"
+  ],
+  [
+   "melindungi; panas",
+   "root",
+   "root-h2-m-y",
+   "ms"
+  ],
+  [
+   "to protect; to be hot",
+   "root",
+   "root-h2-m-y",
+   "en"
+  ],
+  [
+   "cenderung; lurus",
+   "root",
+   "root-h2-n-f",
+   "ms"
+  ],
+  [
+   "to incline; upright",
+   "root",
+   "root-h2-n-f",
+   "en"
+  ],
+  [
+   "belas kasihan",
+   "root",
+   "root-h2-n-n",
+   "ms"
+  ],
+  [
+   "compassion",
+   "root",
+   "root-h2-n-n",
+   "en"
+  ],
+  [
+   "melanggar sumpah",
+   "root",
+   "root-h2-n-th",
+   "ms"
+  ],
+  [
+   "to break an oath",
+   "root",
+   "root-h2-n-th",
+   "en"
+  ],
+  [
+   "an age",
+   "root",
+   "root-h2-q-b",
+   "en"
+  ],
+  [
+   "zaman yang panjang",
+   "root",
+   "root-h2-q-b",
+   "ms"
+  ],
+  [
    "kebenaran, hak",
    "root",
    "root-h2-q-q",
@@ -14209,6 +78512,66 @@ const QM_SEARCH_INDEX = {
    "truth, right, due",
    "root",
    "root-h2-q-q",
+   "en"
+  ],
+  [
+   "a sanctuary; to wage war",
+   "root",
+   "root-h2-r-b",
+   "en"
+  ],
+  [
+   "mihrab; berperang",
+   "root",
+   "root-h2-r-b",
+   "ms"
+  ],
+  [
+   "menggalakkan",
+   "root",
+   "root-h2-r-d2",
+   "ms"
+  ],
+  [
+   "to urge",
+   "root",
+   "root-h2-r-d2",
+   "en"
+  ],
+  [
+   "mengubah; huruf",
+   "root",
+   "root-h2-r-f",
+   "ms"
+  ],
+  [
+   "to distort; a letter",
+   "root",
+   "root-h2-r-f",
+   "en"
+  ],
+  [
+   "kesempitan; kesulitan",
+   "root",
+   "root-h2-r-j",
+   "ms"
+  ],
+  [
+   "narrowness; difficulty",
+   "root",
+   "root-h2-r-j",
+   "en"
+  ],
+  [
+   "menggerakkan",
+   "root",
+   "root-h2-r-k",
+   "ms"
+  ],
+  [
+   "to move",
+   "root",
+   "root-h2-r-k",
    "en"
   ],
   [
@@ -14224,6 +78587,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "membakar",
+   "root",
+   "root-h2-r-q",
+   "ms"
+  ],
+  [
+   "to burn",
+   "root",
+   "root-h2-r-q",
+   "en"
+  ],
+  [
+   "free; heat",
+   "root",
+   "root-h2-r-r",
+   "en"
+  ],
+  [
+   "merdeka; panas",
+   "root",
+   "root-h2-r-r",
+   "ms"
+  ],
+  [
+   "bersungguh-sungguh",
+   "root",
+   "root-h2-r-s2",
+   "ms"
+  ],
+  [
+   "to be eager",
+   "root",
+   "root-h2-r-s2",
+   "en"
+  ],
+  [
+   "membajak; tanah tanaman",
+   "root",
+   "root-h2-r-th",
+   "ms"
+  ],
+  [
+   "to plough; tilled land",
+   "root",
+   "root-h2-r-th",
+   "en"
+  ],
+  [
+   "mencari",
+   "root",
+   "root-h2-r-y",
+   "ms"
+  ],
+  [
+   "to seek out",
+   "root",
+   "root-h2-r-y",
+   "en"
+  ],
+  [
    "menyangka; mengira",
    "root",
    "root-h2-s-b",
@@ -14233,6 +78656,18 @@ const QM_SEARCH_INDEX = {
    "to think; to reckon",
    "root",
    "root-h2-s-b",
+   "en"
+  ],
+  [
+   "dengki",
+   "root",
+   "root-h2-s-d",
+   "ms"
+  ],
+  [
+   "to envy",
+   "root",
+   "root-h2-s-d",
    "en"
   ],
   [
@@ -14248,6 +78683,282 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menyesal",
+   "root",
+   "root-h2-s-r",
+   "ms"
+  ],
+  [
+   "to regret",
+   "root",
+   "root-h2-s-r",
+   "en"
+  ],
+  [
+   "merasa; mencari",
+   "root",
+   "root-h2-s-s",
+   "ms"
+  ],
+  [
+   "to feel; to search",
+   "root",
+   "root-h2-s-s",
+   "en"
+  ],
+  [
+   "melontar batu",
+   "root",
+   "root-h2-s2-b",
+   "ms"
+  ],
+  [
+   "to pelt with stones",
+   "root",
+   "root-h2-s2-b",
+   "en"
+  ],
+  [
+   "menuai",
+   "root",
+   "root-h2-s2-d",
+   "ms"
+  ],
+  [
+   "to reap",
+   "root",
+   "root-h2-s2-d",
+   "en"
+  ],
+  [
+   "melindungi; kubu",
+   "root",
+   "root-h2-s2-n",
+   "ms"
+  ],
+  [
+   "to protect; fortress",
+   "root",
+   "root-h2-s2-n",
+   "en"
+  ],
+  [
+   "menyekat; mengepung",
+   "root",
+   "root-h2-s2-r",
+   "ms"
+  ],
+  [
+   "to confine; to besiege",
+   "root",
+   "root-h2-s2-r",
+   "en"
+  ],
+  [
+   "menghitung",
+   "root",
+   "root-h2-s2-y",
+   "ms"
+  ],
+  [
+   "to count",
+   "root",
+   "root-h2-s2-y",
+   "en"
+  ],
+  [
+   "mengumpulkan; menghimpun",
+   "root",
+   "root-h2-sh-r",
+   "ms"
+  ],
+  [
+   "to gather; to assemble",
+   "root",
+   "root-h2-sh-r",
+   "en"
+  ],
+  [
+   "a decree",
+   "root",
+   "root-h2-t-m",
+   "en"
+  ],
+  [
+   "ketetapan",
+   "root",
+   "root-h2-t-m",
+   "ms"
+  ],
+  [
+   "firewood",
+   "root",
+   "root-h2-t2-b",
+   "en"
+  ],
+  [
+   "kayu api",
+   "root",
+   "root-h2-t2-b",
+   "ms"
+  ],
+  [
+   "menghancurkan",
+   "root",
+   "root-h2-t2-m",
+   "ms"
+  ],
+  [
+   "to crush",
+   "root",
+   "root-h2-t2-m",
+   "en"
+  ],
+  [
+   "menghapus",
+   "root",
+   "root-h2-t2-t2",
+   "ms"
+  ],
+  [
+   "to put down (sins)",
+   "root",
+   "root-h2-t2-t2",
+   "en"
+  ],
+  [
+   "a sin",
+   "root",
+   "root-h2-w-b",
+   "en"
+  ],
+  [
+   "dosa",
+   "root",
+   "root-h2-w-b",
+   "ms"
+  ],
+  [
+   "keperluan",
+   "root",
+   "root-h2-w-j",
+   "ms"
+  ],
+  [
+   "need",
+   "root",
+   "root-h2-w-j",
+   "en"
+  ],
+  [
+   "berpusing; sekeliling; tahun",
+   "root",
+   "root-h2-w-l",
+   "ms"
+  ],
+  [
+   "to turn; around; year",
+   "root",
+   "root-h2-w-l",
+   "en"
+  ],
+  [
+   "kembali; putih; berbual",
+   "root",
+   "root-h2-w-r",
+   "ms"
+  ],
+  [
+   "to return; white; to converse",
+   "root",
+   "root-h2-w-r",
+   "en"
+  ],
+  [
+   "binatang liar",
+   "root",
+   "root-h2-w-sh",
+   "ms"
+  ],
+  [
+   "wild beasts",
+   "root",
+   "root-h2-w-sh",
+   "en"
+  ],
+  [
+   "mengelilingi; meliputi",
+   "root",
+   "root-h2-w-t2",
+   "ms"
+  ],
+  [
+   "to surround; to encompass",
+   "root",
+   "root-h2-w-t2",
+   "en"
+  ],
+  [
+   "a fish",
+   "root",
+   "root-h2-w-t",
+   "en"
+  ],
+  [
+   "ikan",
+   "root",
+   "root-h2-w-t",
+   "ms"
+  ],
+  [
+   "mengumpul; hijau gelap",
+   "root",
+   "root-h2-w-y",
+   "ms"
+  ],
+  [
+   "to gather; green-dark",
+   "root",
+   "root-h2-w-y",
+   "en"
+  ],
+  [
+   "haid",
+   "root",
+   "root-h2-y-d2",
+   "ms"
+  ],
+  [
+   "to menstruate",
+   "root",
+   "root-h2-y-d2",
+   "en"
+  ],
+  [
+   "lari",
+   "root",
+   "root-h2-y-d",
+   "ms"
+  ],
+  [
+   "to shun",
+   "root",
+   "root-h2-y-d",
+   "en"
+  ],
+  [
+   "a device; to intervene",
+   "root",
+   "root-h2-y-l",
+   "en"
+  ],
+  [
+   "tipu daya; menghalang",
+   "root",
+   "root-h2-y-l",
+   "ms"
+  ],
+  [
    "masa; ketika",
    "root",
    "root-h2-y-n",
@@ -14257,6 +78968,42 @@ const QM_SEARCH_INDEX = {
    "time; while",
    "root",
    "root-h2-y-n",
+   "en"
+  ],
+  [
+   "meliputi; menimpa",
+   "root",
+   "root-h2-y-q",
+   "ms"
+  ],
+  [
+   "to encompass; to befall",
+   "root",
+   "root-h2-y-q",
+   "en"
+  ],
+  [
+   "kebingungan",
+   "root",
+   "root-h2-y-r",
+   "ms"
+  ],
+  [
+   "to be bewildered",
+   "root",
+   "root-h2-y-r",
+   "en"
+  ],
+  [
+   "menyimpang; melarikan diri",
+   "root",
+   "root-h2-y-s2",
+   "ms"
+  ],
+  [
+   "to turn aside; escape",
+   "root",
+   "root-h2-y-s2",
    "en"
   ],
   [
@@ -14272,6 +79019,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "golongan; parti",
+   "root",
+   "root-h2-z-b",
+   "ms"
+  ],
+  [
+   "party; faction",
+   "root",
+   "root-h2-z-b",
+   "en"
+  ],
+  [
    "bersedih",
    "root",
    "root-h2-z-n",
@@ -14281,6 +79040,30 @@ const QM_SEARCH_INDEX = {
    "to grieve",
    "root",
    "root-h2-z-n",
+   "en"
+  ],
+  [
+   "bahagian",
+   "root",
+   "root-h2-z2-z2",
+   "ms"
+  ],
+  [
+   "share; portion",
+   "root",
+   "root-h2-z2-z2",
+   "en"
+  ],
+  [
+   "menjerit",
+   "root",
+   "root-j-2-r",
+   "ms"
+  ],
+  [
+   "to cry out",
+   "root",
+   "root-j-2-r",
    "en"
   ],
   [
@@ -14296,6 +79079,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a well",
+   "root",
+   "root-j-b-b",
+   "en"
+  ],
+  [
+   "perigi",
+   "root",
+   "root-j-b-b",
+   "ms"
+  ],
+  [
    "gunung",
    "root",
    "root-j-b-l",
@@ -14305,6 +79100,150 @@ const QM_SEARCH_INDEX = {
    "mountain",
    "root",
    "root-j-b-l",
+   "en"
+  ],
+  [
+   "a forehead",
+   "root",
+   "root-j-b-n",
+   "en"
+  ],
+  [
+   "dahi",
+   "root",
+   "root-j-b-n",
+   "ms"
+  ],
+  [
+   "memaksa; memperbaiki",
+   "root",
+   "root-j-b-r",
+   "ms"
+  ],
+  [
+   "to compel; to mend",
+   "root",
+   "root-j-b-r",
+   "en"
+  ],
+  [
+   "berhala",
+   "root",
+   "root-j-b-t",
+   "ms"
+  ],
+  [
+   "idols",
+   "root",
+   "root-j-b-t",
+   "en"
+  ],
+  [
+   "mengutip",
+   "root",
+   "root-j-b-w",
+   "ms"
+  ],
+  [
+   "to levy; to collect",
+   "root",
+   "root-j-b-w",
+   "en"
+  ],
+  [
+   "memilih; mengutip",
+   "root",
+   "root-j-b-y",
+   "ms"
+  ],
+  [
+   "to choose; to collect",
+   "root",
+   "root-j-b-y",
+   "en"
+  ],
+  [
+   "baharu",
+   "root",
+   "root-j-d-d",
+   "ms"
+  ],
+  [
+   "to be new",
+   "root",
+   "root-j-d-d",
+   "en"
+  ],
+  [
+   "berbahas; berdebat",
+   "root",
+   "root-j-d-l",
+   "ms"
+  ],
+  [
+   "to dispute; to argue",
+   "root",
+   "root-j-d-l",
+   "en"
+  ],
+  [
+   "a wall; worthy",
+   "root",
+   "root-j-d-r",
+   "en"
+  ],
+  [
+   "dinding; layak",
+   "root",
+   "root-j-d-r",
+   "ms"
+  ],
+  [
+   "a grave",
+   "root",
+   "root-j-d-th",
+   "en"
+  ],
+  [
+   "kubur",
+   "root",
+   "root-j-d-th",
+   "ms"
+  ],
+  [
+   "a trunk (of a palm)",
+   "root",
+   "root-j-dh-3",
+   "en"
+  ],
+  [
+   "batang",
+   "root",
+   "root-j-dh-3",
+   "ms"
+  ],
+  [
+   "a large dish",
+   "root",
+   "root-j-f-n",
+   "en"
+  ],
+  [
+   "talam besar",
+   "root",
+   "root-j-f-n",
+   "ms"
+  ],
+  [
+   "buih",
+   "root",
+   "root-j-f-w",
+   "ms"
+  ],
+  [
+   "scum; froth",
+   "root",
+   "root-j-f-w",
    "en"
   ],
   [
@@ -14320,6 +79259,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "jahil",
+   "root",
+   "root-j-h-l",
+   "ms"
+  ],
+  [
+   "to be ignorant",
+   "root",
+   "root-j-h-l",
+   "en"
+  ],
+  [
+   "terang-terangan; lantang",
+   "root",
+   "root-j-h-r",
+   "ms"
+  ],
+  [
+   "to be open; loud",
+   "root",
+   "root-j-h-r",
+   "en"
+  ],
+  [
+   "melengkapkan",
+   "root",
+   "root-j-h-z",
+   "ms"
+  ],
+  [
+   "to equip",
+   "root",
+   "root-j-h-z",
+   "en"
+  ],
+  [
+   "menafikan; menolak",
+   "root",
+   "root-j-h2-d",
+   "ms"
+  ],
+  [
+   "to deny; to reject",
+   "root",
+   "root-j-h2-d",
+   "en"
+  ],
+  [
    "menyala",
    "root",
    "root-j-h2-m",
@@ -14329,6 +79316,42 @@ const QM_SEARCH_INDEX = {
    "to blaze",
    "root",
    "root-j-h2-m",
+   "en"
+  ],
+  [
+   "kulit; menyebat",
+   "root",
+   "root-j-l-d",
+   "ms"
+  ],
+  [
+   "skin; to flog",
+   "root",
+   "root-j-l-d",
+   "en"
+  ],
+  [
+   "keagungan",
+   "root",
+   "root-j-l-l",
+   "ms"
+  ],
+  [
+   "majesty",
+   "root",
+   "root-j-l-l",
+   "en"
+  ],
+  [
+   "menzahirkan",
+   "root",
+   "root-j-l-w",
+   "ms"
+  ],
+  [
+   "to reveal",
+   "root",
+   "root-j-l-w",
    "en"
   ],
   [
@@ -14342,6 +79365,18 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-j-m-3",
    "en"
+  ],
+  [
+   "beauty; to be beautiful",
+   "root",
+   "root-j-m-l",
+   "en"
+  ],
+  [
+   "keindahan; cantik",
+   "root",
+   "root-j-m-l",
+   "ms"
   ],
   [
    "side; to avoid",
@@ -14392,6 +79427,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memetik",
+   "root",
+   "root-j-n-y",
+   "ms"
+  ],
+  [
+   "to pick (fruit)",
+   "root",
+   "root-j-n-y",
+   "en"
+  ],
+  [
+   "meneguk",
+   "root",
+   "root-j-r-3",
+   "ms"
+  ],
+  [
+   "to gulp",
+   "root",
+   "root-j-r-3",
+   "en"
+  ],
+  [
+   "belalang",
+   "root",
+   "root-j-r-d",
+   "ms"
+  ],
+  [
+   "locusts",
+   "root",
+   "root-j-r-d",
+   "en"
+  ],
+  [
+   "melukai",
+   "root",
+   "root-j-r-h2",
+   "ms"
+  ],
+  [
+   "to wound",
+   "root",
+   "root-j-r-h2",
+   "en"
+  ],
+  [
    "melakukan jenayah",
    "root",
    "root-j-r-m",
@@ -14401,6 +79484,18 @@ const QM_SEARCH_INDEX = {
    "to commit a crime",
    "root",
    "root-j-r-m",
+   "en"
+  ],
+  [
+   "menarik",
+   "root",
+   "root-j-r-r",
+   "ms"
+  ],
+  [
+   "to drag",
+   "root",
+   "root-j-r-r",
    "en"
   ],
   [
@@ -14416,6 +79511,162 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "barren",
+   "root",
+   "root-j-r-z",
+   "en"
+  ],
+  [
+   "gersang",
+   "root",
+   "root-j-r-z",
+   "ms"
+  ],
+  [
+   "body",
+   "root",
+   "root-j-s-d",
+   "en"
+  ],
+  [
+   "jasad; badan",
+   "root",
+   "root-j-s-d",
+   "ms"
+  ],
+  [
+   "a body",
+   "root",
+   "root-j-s-m",
+   "en"
+  ],
+  [
+   "tubuh",
+   "root",
+   "root-j-s-m",
+   "ms"
+  ],
+  [
+   "mengintip",
+   "root",
+   "root-j-s-s",
+   "ms"
+  ],
+  [
+   "to spy",
+   "root",
+   "root-j-s-s",
+   "en"
+  ],
+  [
+   "mendekam",
+   "root",
+   "root-j-th-m",
+   "ms"
+  ],
+  [
+   "to crouch",
+   "root",
+   "root-j-th-m",
+   "en"
+  ],
+  [
+   "melutut",
+   "root",
+   "root-j-th-w",
+   "ms"
+  ],
+  [
+   "to kneel",
+   "root",
+   "root-j-th-w",
+   "en"
+  ],
+  [
+   "lapar",
+   "root",
+   "root-j-w-3",
+   "ms"
+  ],
+  [
+   "to hunger",
+   "root",
+   "root-j-w-3",
+   "en"
+  ],
+  [
+   "menjawab; merentasi",
+   "root",
+   "root-j-w-b",
+   "ms"
+  ],
+  [
+   "to answer; to traverse",
+   "root",
+   "root-j-w-b",
+   "en"
+  ],
+  [
+   "bahagian dalam",
+   "root",
+   "root-j-w-f",
+   "ms"
+  ],
+  [
+   "the inside; a hollow",
+   "root",
+   "root-j-w-f",
+   "en"
+  ],
+  [
+   "berjiran; menzalimi",
+   "root",
+   "root-j-w-r",
+   "ms"
+  ],
+  [
+   "to neighbour; to be unjust",
+   "root",
+   "root-j-w-r",
+   "en"
+  ],
+  [
+   "menjelajah",
+   "root",
+   "root-j-w-s",
+   "ms"
+  ],
+  [
+   "to search through",
+   "root",
+   "root-j-w-s",
+   "en"
+  ],
+  [
+   "ruang udara",
+   "root",
+   "root-j-w-y",
+   "ms"
+  ],
+  [
+   "the sky; atmosphere",
+   "root",
+   "root-j-w-y",
+   "en"
+  ],
+  [
+   "melintasi",
+   "root",
+   "root-j-w-z",
+   "ms"
+  ],
+  [
+   "to cross; to pass",
+   "root",
+   "root-j-w-z",
+   "en"
+  ],
+  [
    "datang",
    "root",
    "root-j-y-2",
@@ -14425,6 +79676,54 @@ const QM_SEARCH_INDEX = {
    "to come",
    "root",
    "root-j-y-2",
+   "en"
+  ],
+  [
+   "a bosom; to answer",
+   "root",
+   "root-j-y-b",
+   "en"
+  ],
+  [
+   "dada baju; menjawab",
+   "root",
+   "root-j-y-b",
+   "ms"
+  ],
+  [
+   "a neck; excellent",
+   "root",
+   "root-j-y-d",
+   "en"
+  ],
+  [
+   "leher; baik",
+   "root",
+   "root-j-y-d",
+   "ms"
+  ],
+  [
+   "bahagian",
+   "root",
+   "root-j-z-2",
+   "ms"
+  ],
+  [
+   "part; portion",
+   "root",
+   "root-j-z-2",
+   "en"
+  ],
+  [
+   "gelisah",
+   "root",
+   "root-j-z-3",
+   "ms"
+  ],
+  [
+   "to be impatient",
+   "root",
+   "root-j-z-3",
    "en"
   ],
   [
@@ -14440,6 +79739,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "cawan",
+   "root",
+   "root-k-2-s",
+   "ms"
+  ],
+  [
+   "cup",
+   "root",
+   "root-k-2-s",
+   "en"
+  ],
+  [
+   "kaabah",
+   "root",
+   "root-k-3-b",
+   "ms"
+  ],
+  [
+   "the ka'ba",
+   "root",
+   "root-k-3-b",
+   "en"
+  ],
+  [
    "besar; sombong",
    "root",
    "root-k-b-r",
@@ -14449,6 +79772,42 @@ const QM_SEARCH_INDEX = {
    "to be great; to be proud",
    "root",
    "root-k-b-r",
+   "en"
+  ],
+  [
+   "menghinakan",
+   "root",
+   "root-k-b-t",
+   "ms"
+  ],
+  [
+   "to humble",
+   "root",
+   "root-k-b-t",
+   "en"
+  ],
+  [
+   "bersusah payah",
+   "root",
+   "root-k-d-h2",
+   "ms"
+  ],
+  [
+   "to labour",
+   "root",
+   "root-k-d-h2",
+   "en"
+  ],
+  [
+   "hampir",
+   "root",
+   "root-k-d-y",
+   "ms"
+  ],
+  [
+   "to be about to",
+   "root",
+   "root-k-d-y",
    "en"
   ],
   [
@@ -14464,6 +79823,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menahan; semuanya",
+   "root",
+   "root-k-f-f",
+   "ms"
+  ],
+  [
+   "to restrain; all",
+   "root",
+   "root-k-f-f",
+   "en"
+  ],
+  [
+   "menjaga",
+   "root",
+   "root-k-f-l",
+   "ms"
+  ],
+  [
+   "to take charge",
+   "root",
+   "root-k-f-l",
+   "en"
+  ],
+  [
    "tidak percaya; menutupi",
    "root",
    "root-k-f-r",
@@ -14476,6 +79859,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menghimpun",
+   "root",
+   "root-k-f-t",
+   "ms"
+  ],
+  [
+   "to gather together",
+   "root",
+   "root-k-f-t",
+   "en"
+  ],
+  [
    "mencukupi",
    "root",
    "root-k-f-y",
@@ -14485,6 +79880,78 @@ const QM_SEARCH_INDEX = {
    "to suffice",
    "root",
    "root-k-f-y",
+   "en"
+  ],
+  [
+   "cave",
+   "root",
+   "root-k-h-f",
+   "en"
+  ],
+  [
+   "gua",
+   "root",
+   "root-k-h-f",
+   "ms"
+  ],
+  [
+   "middle-aged",
+   "root",
+   "root-k-h-l",
+   "en"
+  ],
+  [
+   "separuh umur",
+   "root",
+   "root-k-h-l",
+   "ms"
+  ],
+  [
+   "menenung",
+   "root",
+   "root-k-h-n",
+   "ms"
+  ],
+  [
+   "to divine",
+   "root",
+   "root-k-h-n",
+   "en"
+  ],
+  [
+   "a dog",
+   "root",
+   "root-k-l-b",
+   "en"
+  ],
+  [
+   "anjing",
+   "root",
+   "root-k-l-b",
+   "ms"
+  ],
+  [
+   "membebani",
+   "root",
+   "root-k-l-f",
+   "ms"
+  ],
+  [
+   "to burden",
+   "root",
+   "root-k-l-f",
+   "en"
+  ],
+  [
+   "masam muka",
+   "root",
+   "root-k-l-h2",
+   "ms"
+  ],
+  [
+   "to grimace",
+   "root",
+   "root-k-l-h2",
    "en"
   ],
   [
@@ -14512,6 +79979,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "buta sejak lahir",
+   "root",
+   "root-k-m-h",
+   "ms"
+  ],
+  [
+   "to be born blind",
+   "root",
+   "root-k-m-h",
+   "en"
+  ],
+  [
+   "sempurna",
+   "root",
+   "root-k-m-l",
+   "ms"
+  ],
+  [
+   "to be complete",
+   "root",
+   "root-k-m-l",
+   "en"
+  ],
+  [
+   "a sleeve; a spathe",
+   "root",
+   "root-k-m-m",
+   "en"
+  ],
+  [
+   "lengan baju; seludang",
+   "root",
+   "root-k-m-m",
+   "ms"
+  ],
+  [
+   "menutup; melindungi",
+   "root",
+   "root-k-n-n",
+   "ms"
+  ],
+  [
+   "to cover; to shelter",
+   "root",
+   "root-k-n-n",
+   "en"
+  ],
+  [
+   "menyimpan; harta",
+   "root",
+   "root-k-n-z",
+   "ms"
+  ],
+  [
+   "to hoard; a treasure",
+   "root",
+   "root-k-n-z",
+   "en"
+  ],
+  [
+   "distress",
+   "root",
+   "root-k-r-b",
+   "en"
+  ],
+  [
+   "kesusahan",
+   "root",
+   "root-k-r-b",
+   "ms"
+  ],
+  [
    "tidak suka",
    "root",
    "root-k-r-h",
@@ -14536,6 +80075,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "berulang; giliran",
+   "root",
+   "root-k-r-r",
+   "ms"
+  ],
+  [
+   "to return; a turn",
+   "root",
+   "root-k-r-r",
+   "en"
+  ],
+  [
+   "a seat; a throne",
+   "root",
+   "root-k-r-s",
+   "en"
+  ],
+  [
+   "kerusi; singgahsana",
+   "root",
+   "root-k-r-s",
+   "ms"
+  ],
+  [
    "memperoleh",
    "root",
    "root-k-s-b",
@@ -14545,6 +80108,66 @@ const QM_SEARCH_INDEX = {
    "to earn",
    "root",
    "root-k-s-b",
+   "en"
+  ],
+  [
+   "lembab (perniagaan)",
+   "root",
+   "root-k-s-d",
+   "ms"
+  ],
+  [
+   "to be slack (of trade)",
+   "root",
+   "root-k-s-d",
+   "en"
+  ],
+  [
+   "memotong; kepingan",
+   "root",
+   "root-k-s-f",
+   "ms"
+  ],
+  [
+   "to cut off; fragment",
+   "root",
+   "root-k-s-f",
+   "en"
+  ],
+  [
+   "malas",
+   "root",
+   "root-k-s-l",
+   "ms"
+  ],
+  [
+   "to be lazy",
+   "root",
+   "root-k-s-l",
+   "en"
+  ],
+  [
+   "memakaikan",
+   "root",
+   "root-k-s-w",
+   "ms"
+  ],
+  [
+   "to clothe",
+   "root",
+   "root-k-s-w",
+   "en"
+  ],
+  [
+   "menyingkap; menghilangkan",
+   "root",
+   "root-k-sh-f",
+   "ms"
+  ],
+  [
+   "to uncover; to remove",
+   "root",
+   "root-k-sh-f",
    "en"
   ],
   [
@@ -14560,6 +80183,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menyembunyikan",
+   "root",
+   "root-k-t-m",
+   "ms"
+  ],
+  [
+   "to conceal",
+   "root",
+   "root-k-t-m",
+   "en"
+  ],
+  [
+   "a dune",
+   "root",
+   "root-k-th-b",
+   "en"
+  ],
+  [
+   "bukit pasir",
+   "root",
+   "root-k-th-b",
+   "ms"
+  ],
+  [
    "banyak",
    "root",
    "root-k-th-r",
@@ -14570,6 +80217,18 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-k-th-r",
    "en"
+  ],
+  [
+   "a goblet",
+   "root",
+   "root-k-w-b",
+   "en"
+  ],
+  [
+   "gelas",
+   "root",
+   "root-k-w-b",
+   "ms"
   ],
   [
    "hampir",
@@ -14596,6 +80255,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "melilit",
+   "root",
+   "root-k-w-r",
+   "ms"
+  ],
+  [
+   "to wind round",
+   "root",
+   "root-k-w-r",
+   "en"
+  ],
+  [
+   "menyetrika",
+   "root",
+   "root-k-w-y",
+   "ms"
+  ],
+  [
+   "to brand",
+   "root",
+   "root-k-w-y",
+   "en"
+  ],
+  [
    "merancang tipu muslihat",
    "root",
    "root-k-y-d",
@@ -14608,6 +80291,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "measure; to measure",
+   "root",
+   "root-k-y-l",
+   "en"
+  ],
+  [
+   "sukatan; menyukat",
+   "root",
+   "root-k-y-l",
+   "ms"
+  ],
+  [
+   "menahan (marah)",
+   "root",
+   "root-k-z2-m",
+   "ms"
+  ],
+  [
+   "to suppress (anger)",
+   "root",
+   "root-k-z2-m",
+   "en"
+  ],
+  [
+   "corruption",
+   "root",
+   "root-kh-b-l",
+   "en"
+  ],
+  [
+   "kerosakan",
+   "root",
+   "root-kh-b-l",
+   "ms"
+  ],
+  [
    "mengetahui secara mendalam; berita",
    "root",
    "root-kh-b-r",
@@ -14617,6 +80336,150 @@ const QM_SEARCH_INDEX = {
    "to know thoroughly; news",
    "root",
    "root-kh-b-r",
+   "en"
+  ],
+  [
+   "memukul",
+   "root",
+   "root-kh-b-t2",
+   "ms"
+  ],
+  [
+   "to strike",
+   "root",
+   "root-kh-b-t2",
+   "en"
+  ],
+  [
+   "buruk; najis",
+   "root",
+   "root-kh-b-th",
+   "ms"
+  ],
+  [
+   "to be vile; impure",
+   "root",
+   "root-kh-b-th",
+   "en"
+  ],
+  [
+   "merendah diri",
+   "root",
+   "root-kh-b-t",
+   "ms"
+  ],
+  [
+   "to be humble",
+   "root",
+   "root-kh-b-t",
+   "en"
+  ],
+  [
+   "reda",
+   "root",
+   "root-kh-b-w",
+   "ms"
+  ],
+  [
+   "to subside",
+   "root",
+   "root-kh-b-w",
+   "en"
+  ],
+  [
+   "menipu",
+   "root",
+   "root-kh-d-3",
+   "ms"
+  ],
+  [
+   "to deceive",
+   "root",
+   "root-kh-d-3",
+   "en"
+  ],
+  [
+   "a lover",
+   "root",
+   "root-kh-d-n",
+   "en"
+  ],
+  [
+   "teman gelap",
+   "root",
+   "root-kh-d-n",
+   "ms"
+  ],
+  [
+   "green",
+   "root",
+   "root-kh-d2-r",
+   "en"
+  ],
+  [
+   "hijau",
+   "root",
+   "root-kh-d2-r",
+   "ms"
+  ],
+  [
+   "meninggalkan",
+   "root",
+   "root-kh-dh-l",
+   "ms"
+  ],
+  [
+   "to forsake",
+   "root",
+   "root-kh-dh-l",
+   "en"
+  ],
+  [
+   "merendahkan",
+   "root",
+   "root-kh-f-d2",
+   "ms"
+  ],
+  [
+   "to lower",
+   "root",
+   "root-kh-f-d2",
+   "en"
+  ],
+  [
+   "ringan",
+   "root",
+   "root-kh-f-f",
+   "ms"
+  ],
+  [
+   "to be light",
+   "root",
+   "root-kh-f-f",
+   "en"
+  ],
+  [
+   "berbisik",
+   "root",
+   "root-kh-f-t",
+   "ms"
+  ],
+  [
+   "to speak softly",
+   "root",
+   "root-kh-f-t",
+   "en"
+  ],
+  [
+   "tersembunyi",
+   "root",
+   "root-kh-f-y",
+   "ms"
+  ],
+  [
+   "to be hidden",
+   "root",
+   "root-kh-f-y",
    "en"
   ],
   [
@@ -14644,6 +80507,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "intimate friendship; gap",
+   "root",
+   "root-kh-l-l",
+   "en"
+  ],
+  [
+   "persahabatan karib; celah",
+   "root",
+   "root-kh-l-l",
+   "ms"
+  ],
+  [
    "creation; to create",
    "root",
    "root-kh-l-q",
@@ -14668,6 +80543,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bercampur",
+   "root",
+   "root-kh-l-t2",
+   "ms"
+  ],
+  [
+   "to mix",
+   "root",
+   "root-kh-l-t2",
+   "en"
+  ],
+  [
    "kosong; berlalu",
    "root",
    "root-kh-l-w",
@@ -14677,6 +80564,78 @@ const QM_SEARCH_INDEX = {
    "to be empty; to pass",
    "root",
    "root-kh-l-w",
+   "en"
+  ],
+  [
+   "padam",
+   "root",
+   "root-kh-m-d",
+   "ms"
+  ],
+  [
+   "to be extinguished",
+   "root",
+   "root-kh-m-d",
+   "en"
+  ],
+  [
+   "menutup; menapai",
+   "root",
+   "root-kh-m-r",
+   "ms"
+  ],
+  [
+   "to cover; to ferment",
+   "root",
+   "root-kh-m-r",
+   "en"
+  ],
+  [
+   "hunger",
+   "root",
+   "root-kh-m-s2",
+   "en"
+  ],
+  [
+   "kelaparan",
+   "root",
+   "root-kh-m-s2",
+   "ms"
+  ],
+  [
+   "five",
+   "root",
+   "root-kh-m-s",
+   "en"
+  ],
+  [
+   "lima",
+   "root",
+   "root-kh-m-s",
+   "ms"
+  ],
+  [
+   "bersembunyi",
+   "root",
+   "root-kh-n-s",
+   "ms"
+  ],
+  [
+   "to withdraw",
+   "root",
+   "root-kh-n-s",
+   "en"
+  ],
+  [
+   "memusnahkan",
+   "root",
+   "root-kh-r-b",
+   "ms"
+  ],
+  [
+   "to ruin",
+   "root",
+   "root-kh-r-b",
    "en"
   ],
   [
@@ -14692,6 +80651,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menembusi",
+   "root",
+   "root-kh-r-q",
+   "ms"
+  ],
+  [
+   "to pierce",
+   "root",
+   "root-kh-r-q",
+   "en"
+  ],
+  [
+   "jatuh tersungkur",
+   "root",
+   "root-kh-r-r",
+   "ms"
+  ],
+  [
+   "to fall down",
+   "root",
+   "root-kh-r-r",
+   "en"
+  ],
+  [
+   "menduga",
+   "root",
+   "root-kh-r-s2",
+   "ms"
+  ],
+  [
+   "to conjecture",
+   "root",
+   "root-kh-r-s2",
+   "en"
+  ],
+  [
+   "terhina",
+   "root",
+   "root-kh-s-2",
+   "ms"
+  ],
+  [
+   "to be driven away",
+   "root",
+   "root-kh-s-2",
+   "en"
+  ],
+  [
+   "membenamkan",
+   "root",
+   "root-kh-s-f",
+   "ms"
+  ],
+  [
+   "to cause to sink",
+   "root",
+   "root-kh-s-f",
+   "en"
+  ],
+  [
    "rugi",
    "root",
    "root-kh-s-r",
@@ -14701,6 +80720,162 @@ const QM_SEARCH_INDEX = {
    "to lose",
    "root",
    "root-kh-s-r",
+   "en"
+  ],
+  [
+   "menampal",
+   "root",
+   "root-kh-s2-f",
+   "ms"
+  ],
+  [
+   "to stitch together",
+   "root",
+   "root-kh-s2-f",
+   "en"
+  ],
+  [
+   "berbalah; lawan",
+   "root",
+   "root-kh-s2-m",
+   "ms"
+  ],
+  [
+   "to dispute; adversary",
+   "root",
+   "root-kh-s2-m",
+   "en"
+  ],
+  [
+   "mengkhususkan",
+   "root",
+   "root-kh-s2-s2",
+   "ms"
+  ],
+  [
+   "to single out",
+   "root",
+   "root-kh-s2-s2",
+   "en"
+  ],
+  [
+   "to be humble; to be submissive",
+   "root",
+   "root-kh-sh-3",
+   "en"
+  ],
+  [
+   "tunduk; khusyuk",
+   "root",
+   "root-kh-sh-3",
+   "ms"
+  ],
+  [
+   "takut (dengan hormat)",
+   "root",
+   "root-kh-sh-y",
+   "ms"
+  ],
+  [
+   "to fear (with awe)",
+   "root",
+   "root-kh-sh-y",
+   "en"
+  ],
+  [
+   "angkuh",
+   "root",
+   "root-kh-t-l",
+   "ms"
+  ],
+  [
+   "to be conceited",
+   "root",
+   "root-kh-t-l",
+   "en"
+  ],
+  [
+   "memeteraikan",
+   "root",
+   "root-kh-t-m",
+   "ms"
+  ],
+  [
+   "to seal",
+   "root",
+   "root-kh-t-m",
+   "en"
+  ],
+  [
+   "mengkhianati",
+   "root",
+   "root-kh-t-r",
+   "ms"
+  ],
+  [
+   "to betray",
+   "root",
+   "root-kh-t-r",
+   "en"
+  ],
+  [
+   "melakukan kesilapan",
+   "root",
+   "root-kh-t2-2",
+   "ms"
+  ],
+  [
+   "to err",
+   "root",
+   "root-kh-t2-2",
+   "en"
+  ],
+  [
+   "berucap; urusan",
+   "root",
+   "root-kh-t2-b",
+   "ms"
+  ],
+  [
+   "to address; affair",
+   "root",
+   "root-kh-t2-b",
+   "en"
+  ],
+  [
+   "menyambar",
+   "root",
+   "root-kh-t2-f",
+   "ms"
+  ],
+  [
+   "to snatch",
+   "root",
+   "root-kh-t2-f",
+   "en"
+  ],
+  [
+   "langkah",
+   "root",
+   "root-kh-t2-w",
+   "ms"
+  ],
+  [
+   "step; to step",
+   "root",
+   "root-kh-t2-w",
+   "en"
+  ],
+  [
+   "menyelam; terjun",
+   "root",
+   "root-kh-w-d2",
+   "ms"
+  ],
+  [
+   "to plunge; to wade in",
+   "root",
+   "root-kh-w-d2",
    "en"
   ],
   [
@@ -14716,6 +80891,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a maternal uncle; to bestow",
+   "root",
+   "root-kh-w-l",
+   "en"
+  ],
+  [
+   "bapa saudara sebelah ibu; mengurniakan",
+   "root",
+   "root-kh-w-l",
+   "ms"
+  ],
+  [
+   "mengkhianati",
+   "root",
+   "root-kh-w-n",
+   "ms"
+  ],
+  [
+   "to betray",
+   "root",
+   "root-kh-w-n",
+   "en"
+  ],
+  [
+   "melenguh; lemah",
+   "root",
+   "root-kh-w-r",
+   "ms"
+  ],
+  [
+   "to low; to be weak",
+   "root",
+   "root-kh-w-r",
+   "en"
+  ],
+  [
+   "kosong; runtuh",
+   "root",
+   "root-kh-w-y",
+   "ms"
+  ],
+  [
+   "to be empty; fallen",
+   "root",
+   "root-kh-w-y",
+   "en"
+  ],
+  [
+   "kecewa",
+   "root",
+   "root-kh-y-b",
+   "ms"
+  ],
+  [
+   "to be disappointed",
+   "root",
+   "root-kh-y-b",
+   "en"
+  ],
+  [
+   "a horse; imagination",
+   "root",
+   "root-kh-y-l",
+   "en"
+  ],
+  [
+   "kuda; khayalan",
+   "root",
+   "root-kh-y-l",
+   "ms"
+  ],
+  [
    "baik; lebih baik",
    "root",
    "root-kh-y-r",
@@ -14725,6 +80972,54 @@ const QM_SEARCH_INDEX = {
    "good; better",
    "root",
    "root-kh-y-r",
+   "en"
+  ],
+  [
+   "a thread",
+   "root",
+   "root-kh-y-t2",
+   "en"
+  ],
+  [
+   "benang",
+   "root",
+   "root-kh-y-t2",
+   "ms"
+  ],
+  [
+   "menyimpan; perbendaharaan",
+   "root",
+   "root-kh-z-n",
+   "ms"
+  ],
+  [
+   "to store; treasury",
+   "root",
+   "root-kh-z-n",
+   "en"
+  ],
+  [
+   "disgrace",
+   "root",
+   "root-kh-z-y",
+   "en"
+  ],
+  [
+   "kehinaan",
+   "root",
+   "root-kh-z-y",
+   "ms"
+  ],
+  [
+   "bermain",
+   "root",
+   "root-l-3-b",
+   "ms"
+  ],
+  [
+   "to play",
+   "root",
+   "root-l-3-b",
    "en"
   ],
   [
@@ -14752,6 +81047,198 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "bertimbun",
+   "root",
+   "root-l-b-d",
+   "ms"
+  ],
+  [
+   "heaped up",
+   "root",
+   "root-l-b-d",
+   "en"
+  ],
+  [
+   "milk",
+   "root",
+   "root-l-b-n",
+   "en"
+  ],
+  [
+   "susu",
+   "root",
+   "root-l-b-n",
+   "ms"
+  ],
+  [
+   "memakai; mengelirukan",
+   "root",
+   "root-l-b-s",
+   "ms"
+  ],
+  [
+   "to put on; to confuse",
+   "root",
+   "root-l-b-s",
+   "en"
+  ],
+  [
+   "tinggal; berdiam",
+   "root",
+   "root-l-b-th",
+   "ms"
+  ],
+  [
+   "to stay; to remain",
+   "root",
+   "root-l-b-th",
+   "en"
+  ],
+  [
+   "pembantah",
+   "root",
+   "root-l-d-d",
+   "ms"
+  ],
+  [
+   "quarrelsome",
+   "root",
+   "root-l-d-d",
+   "en"
+  ],
+  [
+   "delight",
+   "root",
+   "root-l-dh-dh",
+   "en"
+  ],
+  [
+   "kenikmatan",
+   "root",
+   "root-l-dh-dh",
+   "ms"
+  ],
+  [
+   "berbelit",
+   "root",
+   "root-l-f-f",
+   "ms"
+  ],
+  [
+   "entangled",
+   "root",
+   "root-l-f-f",
+   "en"
+  ],
+  [
+   "menoleh",
+   "root",
+   "root-l-f-t",
+   "ms"
+  ],
+  [
+   "to turn around",
+   "root",
+   "root-l-f-t",
+   "en"
+  ],
+  [
+   "mendapati",
+   "root",
+   "root-l-f-w",
+   "ms"
+  ],
+  [
+   "to find",
+   "root",
+   "root-l-f-w",
+   "en"
+  ],
+  [
+   "fatigue",
+   "root",
+   "root-l-gh-b",
+   "en"
+  ],
+  [
+   "keletihan",
+   "root",
+   "root-l-gh-b",
+   "ms"
+  ],
+  [
+   "idle talk",
+   "root",
+   "root-l-gh-w",
+   "en"
+  ],
+  [
+   "percakapan sia-sia",
+   "root",
+   "root-l-gh-w",
+   "ms"
+  ],
+  [
+   "a flame",
+   "root",
+   "root-l-h-b",
+   "en"
+  ],
+  [
+   "api yang menyala",
+   "root",
+   "root-l-h-b",
+   "ms"
+  ],
+  [
+   "mengah",
+   "root",
+   "root-l-h-th",
+   "ms"
+  ],
+  [
+   "to pant",
+   "root",
+   "root-l-h-th",
+   "en"
+  ],
+  [
+   "amusement; diversion",
+   "root",
+   "root-l-h-w",
+   "en"
+  ],
+  [
+   "hiburan; kelalaian",
+   "root",
+   "root-l-h-w",
+   "ms"
+  ],
+  [
+   "menyimpang",
+   "root",
+   "root-l-h2-d",
+   "ms"
+  ],
+  [
+   "to deviate",
+   "root",
+   "root-l-h2-d",
+   "en"
+  ],
+  [
+   "mendesak",
+   "root",
+   "root-l-h2-f",
+   "ms"
+  ],
+  [
+   "to press",
+   "root",
+   "root-l-h2-f",
+   "en"
+  ],
+  [
    "daging",
    "root",
    "root-l-h2-m",
@@ -14761,6 +81248,114 @@ const QM_SEARCH_INDEX = {
    "meat; flesh",
    "root",
    "root-l-h2-m",
+   "en"
+  ],
+  [
+   "menyertai",
+   "root",
+   "root-l-h2-q",
+   "ms"
+  ],
+  [
+   "to join",
+   "root",
+   "root-l-h2-q",
+   "en"
+  ],
+  [
+   "berlindung",
+   "root",
+   "root-l-j-2",
+   "ms"
+  ],
+  [
+   "to take refuge",
+   "root",
+   "root-l-j-2",
+   "en"
+  ],
+  [
+   "a deep sea",
+   "root",
+   "root-l-j-j",
+   "en"
+  ],
+  [
+   "laut dalam",
+   "root",
+   "root-l-j-j",
+   "ms"
+  ],
+  [
+   "a glance",
+   "root",
+   "root-l-m-h2",
+   "en"
+  ],
+  [
+   "sekelip mata",
+   "root",
+   "root-l-m-h2",
+   "ms"
+  ],
+  [
+   "mengumpul; melahap",
+   "root",
+   "root-l-m-m",
+   "ms"
+  ],
+  [
+   "to gather; to devour",
+   "root",
+   "root-l-m-m",
+   "en"
+  ],
+  [
+   "menyentuh",
+   "root",
+   "root-l-m-s",
+   "ms"
+  ],
+  [
+   "to touch",
+   "root",
+   "root-l-m-s",
+   "en"
+  ],
+  [
+   "mencela",
+   "root",
+   "root-l-m-z",
+   "ms"
+  ],
+  [
+   "to find fault",
+   "root",
+   "root-l-m-z",
+   "en"
+  ],
+  [
+   "menelan",
+   "root",
+   "root-l-q-f",
+   "ms"
+  ],
+  [
+   "to swallow up",
+   "root",
+   "root-l-q-f",
+   "en"
+  ],
+  [
+   "menelan",
+   "root",
+   "root-l-q-m",
+   "ms"
+  ],
+  [
+   "to swallow",
+   "root",
+   "root-l-q-m",
    "en"
   ],
   [
@@ -14776,6 +81371,90 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "lidah; bahasa",
+   "root",
+   "root-l-s-n",
+   "ms"
+  ],
+  [
+   "tongue; language",
+   "root",
+   "root-l-s-n",
+   "en"
+  ],
+  [
+   "lembut; halus",
+   "root",
+   "root-l-t2-f",
+   "ms"
+  ],
+  [
+   "to be gentle; subtle",
+   "root",
+   "root-l-t2-f",
+   "en"
+  ],
+  [
+   "berlindung",
+   "root",
+   "root-l-w-dh",
+   "ms"
+  ],
+  [
+   "to take refuge",
+   "root",
+   "root-l-w-dh",
+   "en"
+  ],
+  [
+   "a tablet; to scorch",
+   "root",
+   "root-l-w-h2",
+   "en"
+  ],
+  [
+   "papan; membakar",
+   "root",
+   "root-l-w-h2",
+   "ms"
+  ],
+  [
+   "mencela",
+   "root",
+   "root-l-w-m",
+   "ms"
+  ],
+  [
+   "to blame",
+   "root",
+   "root-l-w-m",
+   "en"
+  ],
+  [
+   "colour",
+   "root",
+   "root-l-w-n",
+   "en"
+  ],
+  [
+   "warna",
+   "root",
+   "root-l-w-n",
+   "ms"
+  ],
+  [
+   "memutar; memalingkan",
+   "root",
+   "root-l-w-y",
+   "ms"
+  ],
+  [
+   "to twist; to turn",
+   "root",
+   "root-l-w-y",
+   "en"
+  ],
+  [
    "malam",
    "root",
    "root-l-y-l",
@@ -14786,6 +81465,66 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-l-y-l",
    "en"
+  ],
+  [
+   "lembut",
+   "root",
+   "root-l-y-n",
+   "ms"
+  ],
+  [
+   "to be soft",
+   "root",
+   "root-l-y-n",
+   "en"
+  ],
+  [
+   "melekat",
+   "root",
+   "root-l-z-m",
+   "ms"
+  ],
+  [
+   "to cling; adherence",
+   "root",
+   "root-l-z-m",
+   "en"
+  ],
+  [
+   "a hundred",
+   "root",
+   "root-m-2-y",
+   "en"
+  ],
+  [
+   "seratus",
+   "root",
+   "root-m-2-y",
+   "ms"
+  ],
+  [
+   "air mengalir",
+   "root",
+   "root-m-3-n",
+   "ms"
+  ],
+  [
+   "flowing water",
+   "root",
+   "root-m-3-n",
+   "en"
+  ],
+  [
+   "intestines",
+   "root",
+   "root-m-3-y",
+   "en"
+  ],
+  [
+   "usus",
+   "root",
+   "root-m-3-y",
+   "ms"
   ],
   [
    "membentang, menghulurkan",
@@ -14812,6 +81551,114 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "mengunyah; seketul daging",
+   "root",
+   "root-m-d2-gh",
+   "ms"
+  ],
+  [
+   "to chew; a morsel",
+   "root",
+   "root-m-d2-gh",
+   "en"
+  ],
+  [
+   "meneruskan",
+   "root",
+   "root-m-d2-y",
+   "ms"
+  ],
+  [
+   "to go on",
+   "root",
+   "root-m-d2-y",
+   "en"
+  ],
+  [
+   "membentangkan; hamparan",
+   "root",
+   "root-m-h-d",
+   "ms"
+  ],
+  [
+   "to spread; a bed",
+   "root",
+   "root-m-h-d",
+   "en"
+  ],
+  [
+   "perlahan; logam cair",
+   "root",
+   "root-m-h-l",
+   "ms"
+  ],
+  [
+   "to be slow; molten metal",
+   "root",
+   "root-m-h-l",
+   "en"
+  ],
+  [
+   "kuat; tipu daya",
+   "root",
+   "root-m-h2-l",
+   "ms"
+  ],
+  [
+   "to be mighty; to plot",
+   "root",
+   "root-m-h2-l",
+   "en"
+  ],
+  [
+   "menghapuskan",
+   "root",
+   "root-m-h2-q",
+   "ms"
+  ],
+  [
+   "to blot out",
+   "root",
+   "root-m-h2-q",
+   "en"
+  ],
+  [
+   "memadamkan",
+   "root",
+   "root-m-h2-w",
+   "ms"
+  ],
+  [
+   "to erase",
+   "root",
+   "root-m-h2-w",
+   "en"
+  ],
+  [
+   "mulia",
+   "root",
+   "root-m-j-d",
+   "ms"
+  ],
+  [
+   "to be glorious",
+   "root",
+   "root-m-j-d",
+   "en"
+  ],
+  [
+   "mampu; kedudukan",
+   "root",
+   "root-m-k-n",
+   "ms"
+  ],
+  [
+   "to be able; position",
+   "root",
+   "root-m-k-n",
+   "en"
+  ],
+  [
    "merancang tipu daya",
    "root",
    "root-m-k-r",
@@ -14821,6 +81668,42 @@ const QM_SEARCH_INDEX = {
    "to plot; to scheme",
    "root",
    "root-m-k-r",
+   "en"
+  ],
+  [
+   "tinggal",
+   "root",
+   "root-m-k-th",
+   "ms"
+  ],
+  [
+   "to stay",
+   "root",
+   "root-m-k-th",
+   "en"
+  ],
+  [
+   "bersiul",
+   "root",
+   "root-m-k-w",
+   "ms"
+  ],
+  [
+   "to whistle",
+   "root",
+   "root-m-k-w",
+   "en"
+  ],
+  [
+   "membelah (ombak)",
+   "root",
+   "root-m-kh-r",
+   "ms"
+  ],
+  [
+   "to cleave (the waves)",
+   "root",
+   "root-m-kh-r",
    "en"
   ],
   [
@@ -14836,6 +81719,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "garam",
+   "root",
+   "root-m-l-h2",
+   "ms"
+  ],
+  [
+   "salt",
+   "root",
+   "root-m-l-h2",
+   "en"
+  ],
+  [
    "ownership, dominion, sovereignty",
    "root",
    "root-m-l-k",
@@ -14848,6 +81743,162 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "agama; cara hidup",
+   "root",
+   "root-m-l-l",
+   "ms"
+  ],
+  [
+   "creed; way",
+   "root",
+   "root-m-l-l",
+   "en"
+  ],
+  [
+   "papa",
+   "root",
+   "root-m-l-q",
+   "ms"
+  ],
+  [
+   "to be penniless",
+   "root",
+   "root-m-l-q",
+   "en"
+  ],
+  [
+   "a long time; to grant respite",
+   "root",
+   "root-m-l-w",
+   "en"
+  ],
+  [
+   "masa yang lama; memberi tangguh",
+   "root",
+   "root-m-l-w",
+   "ms"
+  ],
+  [
+   "menghalang; melarang",
+   "root",
+   "root-m-n-3",
+   "ms"
+  ],
+  [
+   "to prevent; to forbid",
+   "root",
+   "root-m-n-3",
+   "en"
+  ],
+  [
+   "mengurniakan; memotong",
+   "root",
+   "root-m-n-n",
+   "ms"
+  ],
+  [
+   "to bestow favour; to cut",
+   "root",
+   "root-m-n-n",
+   "en"
+  ],
+  [
+   "menghitung; menetapkan",
+   "root",
+   "root-m-n-w",
+   "ms"
+  ],
+  [
+   "to count; to decree",
+   "root",
+   "root-m-n-w",
+   "en"
+  ],
+  [
+   "berangan-angan",
+   "root",
+   "root-m-n-y",
+   "ms"
+  ],
+  [
+   "to wish; to desire",
+   "root",
+   "root-m-n-y",
+   "en"
+  ],
+  [
+   "membenci",
+   "root",
+   "root-m-q-t",
+   "ms"
+  ],
+  [
+   "to abhor",
+   "root",
+   "root-m-q-t",
+   "en"
+  ],
+  [
+   "a woman",
+   "root",
+   "root-m-r-2",
+   "en"
+  ],
+  [
+   "perempuan",
+   "root",
+   "root-m-r-2",
+   "ms"
+  ],
+  [
+   "sakit",
+   "root",
+   "root-m-r-d2",
+   "ms"
+  ],
+  [
+   "to be ill",
+   "root",
+   "root-m-r-d2",
+   "en"
+  ],
+  [
+   "membangkang",
+   "root",
+   "root-m-r-d",
+   "ms"
+  ],
+  [
+   "to be rebellious",
+   "root",
+   "root-m-r-d",
+   "en"
+  ],
+  [
+   "bongkak",
+   "root",
+   "root-m-r-h2",
+   "ms"
+  ],
+  [
+   "to be exultant",
+   "root",
+   "root-m-r-h2",
+   "en"
+  ],
+  [
+   "melepaskan; mencampur",
+   "root",
+   "root-m-r-j",
+   "ms"
+  ],
+  [
+   "to let loose; to mix",
+   "root",
+   "root-m-r-j",
+   "en"
+  ],
+  [
    "berlalu",
    "root",
    "root-m-r-r",
@@ -14857,6 +81908,102 @@ const QM_SEARCH_INDEX = {
    "to pass",
    "root",
    "root-m-r-r",
+   "en"
+  ],
+  [
+   "a flint stone",
+   "root",
+   "root-m-r-w",
+   "en"
+  ],
+  [
+   "batu api",
+   "root",
+   "root-m-r-w",
+   "ms"
+  ],
+  [
+   "doubt; to dispute",
+   "root",
+   "root-m-r-y",
+   "en"
+  ],
+  [
+   "keraguan; berbantah",
+   "root",
+   "root-m-r-y",
+   "ms"
+  ],
+  [
+   "palm fibre",
+   "root",
+   "root-m-s-d",
+   "en"
+  ],
+  [
+   "sabut",
+   "root",
+   "root-m-s-d",
+   "ms"
+  ],
+  [
+   "menyapu",
+   "root",
+   "root-m-s-h2",
+   "ms"
+  ],
+  [
+   "to wipe",
+   "root",
+   "root-m-s-h2",
+   "en"
+  ],
+  [
+   "memegang; menahan",
+   "root",
+   "root-m-s-k",
+   "ms"
+  ],
+  [
+   "to hold; to grasp",
+   "root",
+   "root-m-s-k",
+   "en"
+  ],
+  [
+   "menyentuh",
+   "root",
+   "root-m-s-s",
+   "ms"
+  ],
+  [
+   "to touch",
+   "root",
+   "root-m-s-s",
+   "en"
+  ],
+  [
+   "berpetang",
+   "root",
+   "root-m-s-w",
+   "ms"
+  ],
+  [
+   "to be at evening",
+   "root",
+   "root-m-s-w",
+   "en"
+  ],
+  [
+   "berjalan",
+   "root",
+   "root-m-sh-y",
+   "ms"
+  ],
+  [
+   "to walk",
+   "root",
+   "root-m-sh-y",
    "en"
   ],
   [
@@ -14872,6 +82019,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "kukuh",
+   "root",
+   "root-m-t-n",
+   "ms"
+  ],
+  [
+   "to be firm; strong",
+   "root",
+   "root-m-t-n",
+   "en"
+  ],
+  [
+   "bengkok",
+   "root",
+   "root-m-t-t",
+   "ms"
+  ],
+  [
+   "to be crooked",
+   "root",
+   "root-m-t-t",
+   "en"
+  ],
+  [
+   "hujan",
+   "root",
+   "root-m-t2-r",
+   "ms"
+  ],
+  [
+   "rain",
+   "root",
+   "root-m-t2-r",
+   "en"
+  ],
+  [
    "likeness; example",
    "root",
    "root-m-th-l",
@@ -14884,6 +82067,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "air",
+   "root",
+   "root-m-w-h",
+   "ms"
+  ],
+  [
+   "water",
+   "root",
+   "root-m-w-h",
+   "en"
+  ],
+  [
+   "bergelora",
+   "root",
+   "root-m-w-j",
+   "ms"
+  ],
+  [
+   "to surge",
+   "root",
+   "root-m-w-j",
+   "en"
+  ],
+  [
    "harta; kekayaan",
    "root",
    "root-m-w-l",
@@ -14893,6 +82100,30 @@ const QM_SEARCH_INDEX = {
    "wealth; property",
    "root",
    "root-m-w-l",
+   "en"
+  ],
+  [
+   "keperluan kecil",
+   "root",
+   "root-m-w-n",
+   "ms"
+  ],
+  [
+   "necessaries; small aid",
+   "root",
+   "root-m-w-n",
+   "en"
+  ],
+  [
+   "bergegar",
+   "root",
+   "root-m-w-r",
+   "ms"
+  ],
+  [
+   "to sway",
+   "root",
+   "root-m-w-r",
    "en"
   ],
   [
@@ -14908,6 +82139,78 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "bergoncang",
+   "root",
+   "root-m-y-d",
+   "ms"
+  ],
+  [
+   "to sway; to shake",
+   "root",
+   "root-m-y-d",
+   "en"
+  ],
+  [
+   "condong",
+   "root",
+   "root-m-y-l",
+   "ms"
+  ],
+  [
+   "to incline",
+   "root",
+   "root-m-y-l",
+   "en"
+  ],
+  [
+   "membezakan",
+   "root",
+   "root-m-y-z",
+   "ms"
+  ],
+  [
+   "to distinguish",
+   "root",
+   "root-m-y-z",
+   "en"
+  ],
+  [
+   "mencampur",
+   "root",
+   "root-m-z-j",
+   "ms"
+  ],
+  [
+   "to mix",
+   "root",
+   "root-m-z-j",
+   "en"
+  ],
+  [
+   "mencarik",
+   "root",
+   "root-m-z-q",
+   "ms"
+  ],
+  [
+   "to tear apart",
+   "root",
+   "root-m-z-q",
+   "en"
+  ],
+  [
+   "a ewe",
+   "root",
+   "root-n-3-j",
+   "en"
+  ],
+  [
+   "kambing betina",
+   "root",
+   "root-n-3-j",
+   "ms"
+  ],
+  [
    "blessing, favor, bestowal",
    "root",
    "root-n-3-m",
@@ -14918,6 +82221,18 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-n-3-m",
    "ms"
+  ],
+  [
+   "mengantuk",
+   "root",
+   "root-n-3-s",
+   "ms"
+  ],
+  [
+   "to doze",
+   "root",
+   "root-n-3-s",
+   "en"
   ],
   [
    "berita; bernubuat",
@@ -14932,6 +82247,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memancar",
+   "root",
+   "root-n-b-3",
+   "ms"
+  ],
+  [
+   "to gush",
+   "root",
+   "root-n-b-3",
+   "en"
+  ],
+  [
+   "mencampak",
+   "root",
+   "root-n-b-dh",
+   "ms"
+  ],
+  [
+   "to cast away",
+   "root",
+   "root-n-b-dh",
+   "en"
+  ],
+  [
+   "to grow (plants)",
+   "root",
+   "root-n-b-t",
+   "en"
+  ],
+  [
+   "tumbuh (tumbuhan)",
+   "root",
+   "root-n-b-t",
+   "ms"
+  ],
+  [
+   "equal; rival",
+   "root",
+   "root-n-d-d",
+   "en"
+  ],
+  [
+   "setara; saingan",
+   "root",
+   "root-n-d-d",
+   "ms"
+  ],
+  [
+   "menyesal",
+   "root",
+   "root-n-d-m",
+   "ms"
+  ],
+  [
+   "to regret",
+   "root",
+   "root-n-d-m",
+   "en"
+  ],
+  [
    "menyeru",
    "root",
    "root-n-d-y",
@@ -14941,6 +82316,30 @@ const QM_SEARCH_INDEX = {
    "to call out",
    "root",
    "root-n-d-y",
+   "en"
+  ],
+  [
+   "menyusun",
+   "root",
+   "root-n-d2-d",
+   "ms"
+  ],
+  [
+   "to pile up",
+   "root",
+   "root-n-d2-d",
+   "en"
+  ],
+  [
+   "berseri-seri",
+   "root",
+   "root-n-d2-r",
+   "ms"
+  ],
+  [
+   "radiance",
+   "root",
+   "root-n-d2-r",
    "en"
   ],
   [
@@ -14968,6 +82367,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "habis",
+   "root",
+   "root-n-f-d",
+   "ms"
+  ],
+  [
+   "menembusi",
+   "root",
+   "root-n-f-dh",
+   "ms"
+  ],
+  [
+   "to penetrate",
+   "root",
+   "root-n-f-dh",
+   "en"
+  ],
+  [
+   "to be exhausted",
+   "root",
+   "root-n-f-d",
+   "en"
+  ],
+  [
+   "meniup",
+   "root",
+   "root-n-f-kh",
+   "ms"
+  ],
+  [
+   "to blow",
+   "root",
+   "root-n-f-kh",
+   "en"
+  ],
+  [
+   "a bonus; spoils",
+   "root",
+   "root-n-f-l",
+   "en"
+  ],
+  [
+   "tambahan; rampasan",
+   "root",
+   "root-n-f-l",
+   "ms"
+  ],
+  [
    "membelanjakan; berlalu",
    "root",
    "root-n-f-q",
@@ -14977,6 +82424,18 @@ const QM_SEARCH_INDEX = {
    "to spend; to pass away",
    "root",
    "root-n-f-q",
+   "en"
+  ],
+  [
+   "lari; menjauhi",
+   "root",
+   "root-n-f-r",
+   "ms"
+  ],
+  [
+   "to flee; to be averse",
+   "root",
+   "root-n-f-r",
    "en"
   ],
   [
@@ -14992,6 +82451,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "membuang",
+   "root",
+   "root-n-f-y",
+   "ms"
+  ],
+  [
+   "to banish",
+   "root",
+   "root-n-f-y",
+   "en"
+  ],
+  [
    "day; river",
    "root",
    "root-n-h-r",
@@ -15002,6 +82473,66 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-n-h-r",
    "ms"
+  ],
+  [
+   "melarang",
+   "root",
+   "root-n-h-y",
+   "ms"
+  ],
+  [
+   "to forbid",
+   "root",
+   "root-n-h-y",
+   "en"
+  ],
+  [
+   "memberi dengan ikhlas",
+   "root",
+   "root-n-h2-l",
+   "ms"
+  ],
+  [
+   "to give freely",
+   "root",
+   "root-n-h2-l",
+   "en"
+  ],
+  [
+   "brass; ill-omened",
+   "root",
+   "root-n-h2-s",
+   "en"
+  ],
+  [
+   "tembaga; malang",
+   "root",
+   "root-n-h2-s",
+   "ms"
+  ],
+  [
+   "memahat",
+   "root",
+   "root-n-h2-t",
+   "ms"
+  ],
+  [
+   "to hew",
+   "root",
+   "root-n-h2-t",
+   "en"
+  ],
+  [
+   "bintang; muncul",
+   "root",
+   "root-n-j-m",
+   "ms"
+  ],
+  [
+   "star; to emerge",
+   "root",
+   "root-n-j-m",
+   "en"
   ],
   [
    "selamat",
@@ -15016,6 +82547,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menolak dengan angkuh",
+   "root",
+   "root-n-k-f",
+   "ms"
+  ],
+  [
+   "to disdain",
+   "root",
+   "root-n-k-f",
+   "en"
+  ],
+  [
+   "berkahwin",
+   "root",
+   "root-n-k-h2",
+   "ms"
+  ],
+  [
+   "to marry",
+   "root",
+   "root-n-k-h2",
+   "en"
+  ],
+  [
+   "an exemplary punishment",
+   "root",
+   "root-n-k-l",
+   "en"
+  ],
+  [
+   "azab pengajaran",
+   "root",
+   "root-n-k-l",
+   "ms"
+  ],
+  [
    "mengingkari; tidak mengenali",
    "root",
    "root-n-k-r",
@@ -15025,6 +82592,210 @@ const QM_SEARCH_INDEX = {
    "to deny; to disapprove",
    "root",
    "root-n-k-r",
+   "en"
+  ],
+  [
+   "menundukkan kepala",
+   "root",
+   "root-n-k-s",
+   "ms"
+  ],
+  [
+   "to bow down",
+   "root",
+   "root-n-k-s",
+   "en"
+  ],
+  [
+   "memungkiri",
+   "root",
+   "root-n-k-th",
+   "ms"
+  ],
+  [
+   "to break (a pledge)",
+   "root",
+   "root-n-k-th",
+   "en"
+  ],
+  [
+   "palm tree",
+   "root",
+   "root-n-kh-l",
+   "en"
+  ],
+  [
+   "pokok kurma",
+   "root",
+   "root-n-kh-l",
+   "ms"
+  ],
+  [
+   "an ant; a fingertip",
+   "root",
+   "root-n-m-l",
+   "en"
+  ],
+  [
+   "semut; hujung jari",
+   "root",
+   "root-n-m-l",
+   "ms"
+  ],
+  [
+   "menebuk; ketua",
+   "root",
+   "root-n-q-b",
+   "ms"
+  ],
+  [
+   "to pierce; a chief",
+   "root",
+   "root-n-q-b",
+   "en"
+  ],
+  [
+   "memecahkan; membatalkan",
+   "root",
+   "root-n-q-d2",
+   "ms"
+  ],
+  [
+   "to break; to undo",
+   "root",
+   "root-n-q-d2",
+   "en"
+  ],
+  [
+   "menyelamatkan",
+   "root",
+   "root-n-q-dh",
+   "ms"
+  ],
+  [
+   "to save",
+   "root",
+   "root-n-q-dh",
+   "en"
+  ],
+  [
+   "membalas dendam",
+   "root",
+   "root-n-q-m",
+   "ms"
+  ],
+  [
+   "to take vengeance",
+   "root",
+   "root-n-q-m",
+   "en"
+  ],
+  [
+   "a speck; to blow (the trumpet)",
+   "root",
+   "root-n-q-r",
+   "en"
+  ],
+  [
+   "bintik; meniup",
+   "root",
+   "root-n-q-r",
+   "ms"
+  ],
+  [
+   "mengurangi",
+   "root",
+   "root-n-q-s2",
+   "ms"
+  ],
+  [
+   "to diminish",
+   "root",
+   "root-n-q-s2",
+   "en"
+  ],
+  [
+   "menangguhkan",
+   "root",
+   "root-n-s-2",
+   "ms"
+  ],
+  [
+   "to postpone",
+   "root",
+   "root-n-s-2",
+   "en"
+  ],
+  [
+   "keturunan",
+   "root",
+   "root-n-s-b",
+   "ms"
+  ],
+  [
+   "lineage",
+   "root",
+   "root-n-s-b",
+   "en"
+  ],
+  [
+   "menerbangkan",
+   "root",
+   "root-n-s-f",
+   "ms"
+  ],
+  [
+   "to scatter",
+   "root",
+   "root-n-s-f",
+   "en"
+  ],
+  [
+   "beribadat; manasik",
+   "root",
+   "root-n-s-k",
+   "ms"
+  ],
+  [
+   "memansuhkan; menanggalkan",
+   "root",
+   "root-n-s-kh",
+   "ms"
+  ],
+  [
+   "to abrogate; to strip",
+   "root",
+   "root-n-s-kh",
+   "en"
+  ],
+  [
+   "to worship; a rite",
+   "root",
+   "root-n-s-k",
+   "en"
+  ],
+  [
+   "to descend; offspring",
+   "root",
+   "root-n-s-l",
+   "en"
+  ],
+  [
+   "turun; zuriat",
+   "root",
+   "root-n-s-l",
+   "ms"
+  ],
+  [
+   "wanita",
+   "root",
+   "root-n-s-w",
+   "ms"
+  ],
+  [
+   "women",
+   "root",
+   "root-n-s-w",
    "en"
   ],
   [
@@ -15052,6 +82823,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "half",
+   "root",
+   "root-n-s2-f",
+   "en"
+  ],
+  [
+   "separuh",
+   "root",
+   "root-n-s2-f",
+   "ms"
+  ],
+  [
+   "menasihati dengan ikhlas",
+   "root",
+   "root-n-s2-h2",
+   "ms"
+  ],
+  [
+   "to counsel sincerely",
+   "root",
+   "root-n-s2-h2",
+   "en"
+  ],
+  [
    "menolong",
    "root",
    "root-n-s2-r",
@@ -15062,6 +82857,30 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-n-s2-r",
    "en"
+  ],
+  [
+   "diam",
+   "root",
+   "root-n-s2-t",
+   "ms"
+  ],
+  [
+   "to be silent",
+   "root",
+   "root-n-s2-t",
+   "en"
+  ],
+  [
+   "a forelock",
+   "root",
+   "root-n-s2-y",
+   "en"
+  ],
+  [
+   "ubun-ubun",
+   "root",
+   "root-n-s2-y",
+   "ms"
   ],
   [
    "menciptakan",
@@ -15076,6 +82895,126 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menyebar; membangkitkan",
+   "root",
+   "root-n-sh-r",
+   "ms"
+  ],
+  [
+   "to spread; to resurrect",
+   "root",
+   "root-n-sh-r",
+   "en"
+  ],
+  [
+   "mencabut dengan lembut",
+   "root",
+   "root-n-sh-t2",
+   "ms"
+  ],
+  [
+   "to draw out gently",
+   "root",
+   "root-n-sh-t2",
+   "en"
+  ],
+  [
+   "bangun; engkar",
+   "root",
+   "root-n-sh-z",
+   "ms"
+  ],
+  [
+   "to rise; ill-will",
+   "root",
+   "root-n-sh-z",
+   "en"
+  ],
+  [
+   "menitis; setitik",
+   "root",
+   "root-n-t2-f",
+   "ms"
+  ],
+  [
+   "to drip; a drop",
+   "root",
+   "root-n-t2-f",
+   "en"
+  ],
+  [
+   "bercakap",
+   "root",
+   "root-n-t2-q",
+   "ms"
+  ],
+  [
+   "to speak",
+   "root",
+   "root-n-t2-q",
+   "en"
+  ],
+  [
+   "menaburkan",
+   "root",
+   "root-n-th-r",
+   "ms"
+  ],
+  [
+   "to scatter",
+   "root",
+   "root-n-th-r",
+   "en"
+  ],
+  [
+   "berpaling; bergilir",
+   "root",
+   "root-n-w-b",
+   "ms"
+  ],
+  [
+   "to turn; to take turns",
+   "root",
+   "root-n-w-b",
+   "en"
+  ],
+  [
+   "sleep",
+   "root",
+   "root-n-w-m",
+   "en"
+  ],
+  [
+   "tidur",
+   "root",
+   "root-n-w-m",
+   "ms"
+  ],
+  [
+   "a fish; the letter nun",
+   "root",
+   "root-n-w-n",
+   "en"
+  ],
+  [
+   "ikan; huruf nun",
+   "root",
+   "root-n-w-n",
+   "ms"
+  ],
+  [
+   "a she-camel",
+   "root",
+   "root-n-w-q",
+   "en"
+  ],
+  [
+   "unta betina",
+   "root",
+   "root-n-w-q",
+   "ms"
+  ],
+  [
    "api; cahaya",
    "root",
    "root-n-w-r",
@@ -15085,6 +83024,78 @@ const QM_SEARCH_INDEX = {
    "fire; light",
    "root",
    "root-n-w-r",
+   "en"
+  ],
+  [
+   "a date-stone; to intend",
+   "root",
+   "root-n-w-y",
+   "en"
+  ],
+  [
+   "biji kurma; berniat",
+   "root",
+   "root-n-w-y",
+   "ms"
+  ],
+  [
+   "kembali bertaubat",
+   "root",
+   "root-n-y-b",
+   "ms"
+  ],
+  [
+   "to turn in repentance",
+   "root",
+   "root-n-y-b",
+   "en"
+  ],
+  [
+   "mencapai",
+   "root",
+   "root-n-y-l",
+   "ms"
+  ],
+  [
+   "to attain",
+   "root",
+   "root-n-y-l",
+   "en"
+  ],
+  [
+   "mencabut; mengeluarkan",
+   "root",
+   "root-n-z-3",
+   "ms"
+  ],
+  [
+   "to pull out; to remove",
+   "root",
+   "root-n-z-3",
+   "en"
+  ],
+  [
+   "habis",
+   "root",
+   "root-n-z-f",
+   "ms"
+  ],
+  [
+   "to be exhausted",
+   "root",
+   "root-n-z-f",
+   "en"
+  ],
+  [
+   "menghasut",
+   "root",
+   "root-n-z-gh",
+   "ms"
+  ],
+  [
+   "to incite",
+   "root",
+   "root-n-z-gh",
    "en"
   ],
   [
@@ -15112,6 +83123,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "duduk; tinggal di belakang",
+   "root",
+   "root-q-3-d",
+   "ms"
+  ],
+  [
+   "to sit; to stay behind",
+   "root",
+   "root-q-3-d",
+   "en"
+  ],
+  [
+   "menggenggam; menarik",
+   "root",
+   "root-q-b-d2",
+   "ms"
+  ],
+  [
+   "to grasp; to contract",
+   "root",
+   "root-q-b-d2",
+   "en"
+  ],
+  [
    "before; to accept; to face",
    "root",
    "root-q-b-l",
@@ -15121,6 +83156,30 @@ const QM_SEARCH_INDEX = {
    "sebelum; menerima; menghadap",
    "root",
    "root-q-b-l",
+   "ms"
+  ],
+  [
+   "grave",
+   "root",
+   "root-q-b-r",
+   "en"
+  ],
+  [
+   "kubur",
+   "root",
+   "root-q-b-r",
+   "ms"
+  ],
+  [
+   "a firebrand",
+   "root",
+   "root-q-b-s",
+   "en"
+  ],
+  [
+   "bara api",
+   "root",
+   "root-q-b-s",
    "ms"
   ],
   [
@@ -15148,6 +83207,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "holiness; to be sacred",
+   "root",
+   "root-q-d-s",
+   "en"
+  ],
+  [
+   "kesucian",
+   "root",
+   "root-q-d-s",
+   "ms"
+  ],
+  [
+   "runtuh; menerkam",
+   "root",
+   "root-q-d2-d2",
+   "ms"
+  ],
+  [
+   "to fall down; to pounce",
+   "root",
+   "root-q-d2-d2",
+   "en"
+  ],
+  [
    "menetapkan; menghukum",
    "root",
    "root-q-d2-y",
@@ -15157,6 +83240,42 @@ const QM_SEARCH_INDEX = {
    "to decree; to judge",
    "root",
    "root-q-d2-y",
+   "en"
+  ],
+  [
+   "mencampak",
+   "root",
+   "root-q-dh-f",
+   "ms"
+  ],
+  [
+   "to cast; to hurl",
+   "root",
+   "root-q-dh-f",
+   "en"
+  ],
+  [
+   "mengikuti",
+   "root",
+   "root-q-f-w",
+   "ms"
+  ],
+  [
+   "to follow",
+   "root",
+   "root-q-f-w",
+   "en"
+  ],
+  [
+   "menguasai",
+   "root",
+   "root-q-h-r",
+   "ms"
+  ],
+  [
+   "to overpower",
+   "root",
+   "root-q-h-r",
    "en"
   ],
   [
@@ -15172,6 +83291,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a garland",
+   "root",
+   "root-q-l-d",
+   "en"
+  ],
+  [
+   "kalungan",
+   "root",
+   "root-q-l-d",
+   "ms"
+  ],
+  [
    "sedikit",
    "root",
    "root-q-l-l",
@@ -15181,6 +83312,30 @@ const QM_SEARCH_INDEX = {
    "to be few",
    "root",
    "root-q-l-l",
+   "en"
+  ],
+  [
+   "a pen",
+   "root",
+   "root-q-l-m",
+   "en"
+  ],
+  [
+   "pena",
+   "root",
+   "root-q-l-m",
+   "ms"
+  ],
+  [
+   "membenci",
+   "root",
+   "root-q-l-y",
+   "ms"
+  ],
+  [
+   "to hate",
+   "root",
+   "root-q-l-y",
    "en"
   ],
   [
@@ -15196,6 +83351,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "baju",
+   "root",
+   "root-q-m-s2",
+   "ms"
+  ],
+  [
+   "shirt",
+   "root",
+   "root-q-m-s2",
+   "en"
+  ],
+  [
+   "berputus asa",
+   "root",
+   "root-q-n-t2",
+   "ms"
+  ],
+  [
+   "to despair",
+   "root",
+   "root-q-n-t2",
+   "en"
+  ],
+  [
+   "patuh; khusyuk",
+   "root",
+   "root-q-n-t",
+   "ms"
+  ],
+  [
+   "to be devout; obedient",
+   "root",
+   "root-q-n-t",
+   "en"
+  ],
+  [
+   "a cluster of dates",
+   "root",
+   "root-q-n-w",
+   "en"
+  ],
+  [
+   "tandan kurma",
+   "root",
+   "root-q-n-w",
+   "ms"
+  ],
+  [
    "membaca; bacaan",
    "root",
    "root-q-r-2",
@@ -15205,6 +83408,18 @@ const QM_SEARCH_INDEX = {
    "to recite; to read",
    "root",
    "root-q-r-2",
+   "en"
+  ],
+  [
+   "mengetuk; malapetaka",
+   "root",
+   "root-q-r-3",
+   "ms"
+  ],
+  [
+   "to strike; a calamity",
+   "root",
+   "root-q-r-3",
    "en"
   ],
   [
@@ -15220,6 +83435,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memberi pinjaman; pinjaman",
+   "root",
+   "root-q-r-d2",
+   "ms"
+  ],
+  [
+   "to lend; a loan",
+   "root",
+   "root-q-r-d2",
+   "en"
+  ],
+  [
+   "an ape",
+   "root",
+   "root-q-r-d",
+   "en"
+  ],
+  [
+   "monyet",
+   "root",
+   "root-q-r-d",
+   "ms"
+  ],
+  [
+   "melakukan; mengusahakan",
+   "root",
+   "root-q-r-f",
+   "ms"
+  ],
+  [
+   "to commit; to acquire",
+   "root",
+   "root-q-r-f",
+   "en"
+  ],
+  [
+   "a wound",
+   "root",
+   "root-q-r-h2",
+   "en"
+  ],
+  [
+   "luka",
+   "root",
+   "root-q-r-h2",
+   "ms"
+  ],
+  [
    "menyambung; generasi",
    "root",
    "root-q-r-n",
@@ -15229,6 +83492,18 @@ const QM_SEARCH_INDEX = {
    "to join; generation",
    "root",
    "root-q-r-n",
+   "en"
+  ],
+  [
+   "menetap; teguh",
+   "root",
+   "root-q-r-r",
+   "ms"
+  ],
+  [
+   "to settle; to be firm",
+   "root",
+   "root-q-r-r",
    "en"
   ],
   [
@@ -15244,6 +83519,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "membahagi; bersumpah",
+   "root",
+   "root-q-s-m",
+   "ms"
+  ],
+  [
+   "to divide; to swear",
+   "root",
+   "root-q-s-m",
+   "en"
+  ],
+  [
    "adil; bahagian",
    "root",
    "root-q-s-t2",
@@ -15256,6 +83543,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "keras",
+   "root",
+   "root-q-s-w",
+   "ms"
+  ],
+  [
+   "to be hard",
+   "root",
+   "root-q-s-w",
+   "en"
+  ],
+  [
+   "bersederhana",
+   "root",
+   "root-q-s2-d",
+   "ms"
+  ],
+  [
+   "to be moderate",
+   "root",
+   "root-q-s2-d",
+   "en"
+  ],
+  [
+   "a palace; to be short",
+   "root",
+   "root-q-s2-r",
+   "en"
+  ],
+  [
+   "istana; pendek",
+   "root",
+   "root-q-s2-r",
+   "ms"
+  ],
+  [
+   "menceritakan; mengikuti jejak",
+   "root",
+   "root-q-s2-s2",
+   "ms"
+  ],
+  [
+   "to narrate; to follow",
+   "root",
+   "root-q-s2-s2",
+   "en"
+  ],
+  [
+   "far; remote",
+   "root",
+   "root-q-s2-w",
+   "en"
+  ],
+  [
+   "jauh",
+   "root",
+   "root-q-s2-w",
+   "ms"
+  ],
+  [
    "membunuh",
    "root",
    "root-q-t-l",
@@ -15266,6 +83613,78 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-q-t-l",
    "en"
+  ],
+  [
+   "kedekut; debu",
+   "root",
+   "root-q-t-r",
+   "ms"
+  ],
+  [
+   "to be miserly; dust",
+   "root",
+   "root-q-t-r",
+   "en"
+  ],
+  [
+   "memotong",
+   "root",
+   "root-q-t2-3",
+   "ms"
+  ],
+  [
+   "to cut",
+   "root",
+   "root-q-t2-3",
+   "en"
+  ],
+  [
+   "memetik",
+   "root",
+   "root-q-t2-f",
+   "ms"
+  ],
+  [
+   "to pluck",
+   "root",
+   "root-q-t2-f",
+   "en"
+  ],
+  [
+   "a region; molten copper",
+   "root",
+   "root-q-t2-r",
+   "en"
+  ],
+  [
+   "kawasan; tembaga cair",
+   "root",
+   "root-q-t2-r",
+   "ms"
+  ],
+  [
+   "a gourd",
+   "root",
+   "root-q-t2-y",
+   "en"
+  ],
+  [
+   "labu",
+   "root",
+   "root-q-t2-y",
+   "ms"
+  ],
+  [
+   "a plain",
+   "root",
+   "root-q-w-3",
+   "en"
+  ],
+  [
+   "tanah datar",
+   "root",
+   "root-q-w-3",
+   "ms"
   ],
   [
    "berkata; percakapan",
@@ -15292,6 +83711,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a bow",
+   "root",
+   "root-q-w-s",
+   "en"
+  ],
+  [
+   "busur",
+   "root",
+   "root-q-w-s",
+   "ms"
+  ],
+  [
+   "menyara",
+   "root",
+   "root-q-w-t",
+   "ms"
+  ],
+  [
+   "to sustain",
+   "root",
+   "root-q-w-t",
+   "en"
+  ],
+  [
    "kuat",
    "root",
    "root-q-w-y",
@@ -15304,6 +83747,66 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a plain",
+   "root",
+   "root-q-y-3",
+   "en"
+  ],
+  [
+   "tanah rata",
+   "root",
+   "root-q-y-3",
+   "ms"
+  ],
+  [
+   "a distance",
+   "root",
+   "root-q-y-b",
+   "en"
+  ],
+  [
+   "jarak",
+   "root",
+   "root-q-y-b",
+   "ms"
+  ],
+  [
+   "menugaskan",
+   "root",
+   "root-q-y-d2",
+   "ms"
+  ],
+  [
+   "to assign",
+   "root",
+   "root-q-y-d2",
+   "en"
+  ],
+  [
+   "belas kasihan",
+   "root",
+   "root-r-2-f",
+   "ms"
+  ],
+  [
+   "compassion",
+   "root",
+   "root-r-2-f",
+   "en"
+  ],
+  [
+   "head; chief",
+   "root",
+   "root-r-2-s",
+   "en"
+  ],
+  [
+   "kepala; ketua",
+   "root",
+   "root-r-2-s",
+   "ms"
+  ],
+  [
    "melihat, memerhati (turut berhamzah pada huruf tengah)",
    "root",
    "root-r-2-y",
@@ -15313,6 +83816,54 @@ const QM_SEARCH_INDEX = {
    "seeing, perceiving (also hamzated on the middle radical)",
    "root",
    "root-r-2-y",
+   "en"
+  ],
+  [
+   "kegerunan",
+   "root",
+   "root-r-3-b",
+   "ms"
+  ],
+  [
+   "terror",
+   "root",
+   "root-r-3-b",
+   "en"
+  ],
+  [
+   "guruh",
+   "root",
+   "root-r-3-d",
+   "ms"
+  ],
+  [
+   "thunder",
+   "root",
+   "root-r-3-d",
+   "en"
+  ],
+  [
+   "menggembala; menjaga",
+   "root",
+   "root-r-3-y",
+   "ms"
+  ],
+  [
+   "to pasture; to heed",
+   "root",
+   "root-r-3-y",
+   "en"
+  ],
+  [
+   "empat",
+   "root",
+   "root-r-b-3",
+   "ms"
+  ],
+  [
+   "four",
+   "root",
+   "root-r-b-3",
    "en"
   ],
   [
@@ -15328,6 +83879,102 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menunggu",
+   "root",
+   "root-r-b-s2",
+   "ms"
+  ],
+  [
+   "to wait; to lie in wait",
+   "root",
+   "root-r-b-s2",
+   "en"
+  ],
+  [
+   "mengikat; berkawal",
+   "root",
+   "root-r-b-t2",
+   "ms"
+  ],
+  [
+   "to bind; to be stationed",
+   "root",
+   "root-r-b-t2",
+   "en"
+  ],
+  [
+   "bertambah; berkembang",
+   "root",
+   "root-r-b-w",
+   "ms"
+  ],
+  [
+   "to grow; to increase",
+   "root",
+   "root-r-b-w",
+   "en"
+  ],
+  [
+   "menyokong",
+   "root",
+   "root-r-d-2",
+   "ms"
+  ],
+  [
+   "to support",
+   "root",
+   "root-r-d-2",
+   "en"
+  ],
+  [
+   "mengembalikan; menolak",
+   "root",
+   "root-r-d-d",
+   "ms"
+  ],
+  [
+   "to return; to repel",
+   "root",
+   "root-r-d-d",
+   "en"
+  ],
+  [
+   "mengikuti",
+   "root",
+   "root-r-d-f",
+   "ms"
+  ],
+  [
+   "to follow close behind",
+   "root",
+   "root-r-d-f",
+   "en"
+  ],
+  [
+   "binasa; jatuh",
+   "root",
+   "root-r-d-y",
+   "ms"
+  ],
+  [
+   "to perish; to fall",
+   "root",
+   "root-r-d-y",
+   "en"
+  ],
+  [
+   "menyusu",
+   "root",
+   "root-r-d2-3",
+   "ms"
+  ],
+  [
+   "to suckle",
+   "root",
+   "root-r-d2-3",
+   "en"
+  ],
+  [
    "reda",
    "root",
    "root-r-d2-w",
@@ -15338,6 +83985,186 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-r-d2-w",
    "en"
+  ],
+  [
+   "reda",
+   "root",
+   "root-r-d2-y",
+   "ms"
+  ],
+  [
+   "to be pleased",
+   "root",
+   "root-r-d2-y",
+   "en"
+  ],
+  [
+   "hina",
+   "root",
+   "root-r-dh-l",
+   "ms"
+  ],
+  [
+   "to be base",
+   "root",
+   "root-r-dh-l",
+   "en"
+  ],
+  [
+   "mengangkat",
+   "root",
+   "root-r-f-3",
+   "ms"
+  ],
+  [
+   "to raise; to lift",
+   "root",
+   "root-r-f-3",
+   "en"
+  ],
+  [
+   "lembut; sandaran",
+   "root",
+   "root-r-f-q",
+   "ms"
+  ],
+  [
+   "to be kind; a support",
+   "root",
+   "root-r-f-q",
+   "en"
+  ],
+  [
+   "hancur",
+   "root",
+   "root-r-f-t",
+   "ms"
+  ],
+  [
+   "indecent talk; marital relations",
+   "root",
+   "root-r-f-th",
+   "en"
+  ],
+  [
+   "kata keji; bercampur",
+   "root",
+   "root-r-f-th",
+   "ms"
+  ],
+  [
+   "to crumble",
+   "root",
+   "root-r-f-t",
+   "en"
+  ],
+  [
+   "berhasrat",
+   "root",
+   "root-r-gh-b",
+   "ms"
+  ],
+  [
+   "to desire",
+   "root",
+   "root-r-gh-b",
+   "en"
+  ],
+  [
+   "melimpah ruah",
+   "root",
+   "root-r-gh-d",
+   "ms"
+  ],
+  [
+   "plenty",
+   "root",
+   "root-r-gh-d",
+   "en"
+  ],
+  [
+   "kerahiban",
+   "root",
+   "root-r-h-b",
+   "ms"
+  ],
+  [
+   "monasticism",
+   "root",
+   "root-r-h-b",
+   "en"
+  ],
+  [
+   "a pledge",
+   "root",
+   "root-r-h-n",
+   "en"
+  ],
+  [
+   "gadaian",
+   "root",
+   "root-r-h-n",
+   "ms"
+  ],
+  [
+   "membebani; menimpa",
+   "root",
+   "root-r-h-q",
+   "ms"
+  ],
+  [
+   "to overburden; to overtake",
+   "root",
+   "root-r-h-q",
+   "en"
+  ],
+  [
+   "a clan",
+   "root",
+   "root-r-h-t2",
+   "en"
+  ],
+  [
+   "kaum kerabat",
+   "root",
+   "root-r-h-t2",
+   "ms"
+  ],
+  [
+   "calm; open",
+   "root",
+   "root-r-h-w",
+   "en"
+  ],
+  [
+   "tenang",
+   "root",
+   "root-r-h-w",
+   "ms"
+  ],
+  [
+   "luas",
+   "root",
+   "root-r-h2-b",
+   "ms"
+  ],
+  [
+   "to be spacious",
+   "root",
+   "root-r-h2-b",
+   "en"
+  ],
+  [
+   "a saddle; a journey",
+   "root",
+   "root-r-h2-l",
+   "en"
+  ],
+  [
+   "pelana; perjalanan",
+   "root",
+   "root-r-h2-l",
+   "ms"
   ],
   [
    "mercy, compassion, gentleness",
@@ -15352,6 +84179,18 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "menangguhkan",
+   "root",
+   "root-r-j-2",
+   "ms"
+  ],
+  [
+   "to defer",
+   "root",
+   "root-r-j-2",
+   "en"
+  ],
+  [
    "kembali",
    "root",
    "root-r-j-3",
@@ -15361,6 +84200,30 @@ const QM_SEARCH_INDEX = {
    "to return",
    "root",
    "root-r-j-3",
+   "en"
+  ],
+  [
+   "bergegar",
+   "root",
+   "root-r-j-f",
+   "ms"
+  ],
+  [
+   "to quake",
+   "root",
+   "root-r-j-f",
+   "en"
+  ],
+  [
+   "menggegarkan",
+   "root",
+   "root-r-j-j",
+   "ms"
+  ],
+  [
+   "to shake",
+   "root",
+   "root-r-j-j",
    "en"
   ],
   [
@@ -15376,6 +84239,222 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "melontar batu; mengutuk",
+   "root",
+   "root-r-j-m",
+   "ms"
+  ],
+  [
+   "to stone; to curse",
+   "root",
+   "root-r-j-m",
+   "en"
+  ],
+  [
+   "filth; abomination",
+   "root",
+   "root-r-j-s",
+   "en"
+  ],
+  [
+   "kekotoran; kekejian",
+   "root",
+   "root-r-j-s",
+   "ms"
+  ],
+  [
+   "berharap",
+   "root",
+   "root-r-j-w",
+   "ms"
+  ],
+  [
+   "to hope",
+   "root",
+   "root-r-j-w",
+   "en"
+  ],
+  [
+   "filth; punishment",
+   "root",
+   "root-r-j-z",
+   "en"
+  ],
+  [
+   "kekotoran; azab",
+   "root",
+   "root-r-j-z",
+   "ms"
+  ],
+  [
+   "rukuk",
+   "root",
+   "root-r-k-3",
+   "ms"
+  ],
+  [
+   "to bow",
+   "root",
+   "root-r-k-3",
+   "en"
+  ],
+  [
+   "menunggang",
+   "root",
+   "root-r-k-b",
+   "ms"
+  ],
+  [
+   "to ride",
+   "root",
+   "root-r-k-b",
+   "en"
+  ],
+  [
+   "berlari; menghentak",
+   "root",
+   "root-r-k-d2",
+   "ms"
+  ],
+  [
+   "to run; to strike with the foot",
+   "root",
+   "root-r-k-d2",
+   "en"
+  ],
+  [
+   "menindih",
+   "root",
+   "root-r-k-m",
+   "ms"
+  ],
+  [
+   "to heap up",
+   "root",
+   "root-r-k-m",
+   "en"
+  ],
+  [
+   "cenderung",
+   "root",
+   "root-r-k-n",
+   "ms"
+  ],
+  [
+   "to lean upon",
+   "root",
+   "root-r-k-n",
+   "en"
+  ],
+  [
+   "menjatuhkan",
+   "root",
+   "root-r-k-s",
+   "ms"
+  ],
+  [
+   "to overturn",
+   "root",
+   "root-r-k-s",
+   "en"
+  ],
+  [
+   "abu",
+   "root",
+   "root-r-m-d",
+   "ms"
+  ],
+  [
+   "ashes",
+   "root",
+   "root-r-m-d",
+   "en"
+  ],
+  [
+   "decayed; iram",
+   "root",
+   "root-r-m-m",
+   "en"
+  ],
+  [
+   "reput; iram",
+   "root",
+   "root-r-m-m",
+   "ms"
+  ],
+  [
+   "delima",
+   "root",
+   "root-r-m-n",
+   "ms"
+  ],
+  [
+   "pomegranate",
+   "root",
+   "root-r-m-n",
+   "en"
+  ],
+  [
+   "mengawasi; leher",
+   "root",
+   "root-r-q-b",
+   "ms"
+  ],
+  [
+   "to watch; neck",
+   "root",
+   "root-r-q-b",
+   "en"
+  ],
+  [
+   "menulis",
+   "root",
+   "root-r-q-m",
+   "ms"
+  ],
+  [
+   "to inscribe",
+   "root",
+   "root-r-q-m",
+   "en"
+  ],
+  [
+   "lembaran; nipis",
+   "root",
+   "root-r-q-q",
+   "ms"
+  ],
+  [
+   "parchment; to be thin",
+   "root",
+   "root-r-q-q",
+   "en"
+  ],
+  [
+   "naik; jampi",
+   "root",
+   "root-r-q-y",
+   "ms"
+  ],
+  [
+   "to ascend; incantation",
+   "root",
+   "root-r-q-y",
+   "en"
+  ],
+  [
+   "teguh",
+   "root",
+   "root-r-s-kh",
+   "ms"
+  ],
+  [
+   "to be firmly rooted",
+   "root",
+   "root-r-s-kh",
+   "en"
+  ],
+  [
    "mengutus; rasul",
    "root",
    "root-r-s-l",
@@ -15386,6 +84465,102 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-r-s-l",
    "en"
+  ],
+  [
+   "a well",
+   "root",
+   "root-r-s-s",
+   "en"
+  ],
+  [
+   "perigi",
+   "root",
+   "root-r-s-s",
+   "ms"
+  ],
+  [
+   "teguh; berlabuh",
+   "root",
+   "root-r-s-w",
+   "ms"
+  ],
+  [
+   "to be firm; to anchor",
+   "root",
+   "root-r-s-w",
+   "en"
+  ],
+  [
+   "mengintai",
+   "root",
+   "root-r-s2-d",
+   "ms"
+  ],
+  [
+   "to lie in wait",
+   "root",
+   "root-r-s2-d",
+   "en"
+  ],
+  [
+   "petunjuk yang benar",
+   "root",
+   "root-r-sh-d",
+   "ms"
+  ],
+  [
+   "right guidance",
+   "root",
+   "root-r-sh-d",
+   "en"
+  ],
+  [
+   "membaca dengan tartil",
+   "root",
+   "root-r-t-l",
+   "ms"
+  ],
+  [
+   "to recite slowly",
+   "root",
+   "root-r-t-l",
+   "en"
+  ],
+  [
+   "fresh dates",
+   "root",
+   "root-r-t2-b",
+   "en"
+  ],
+  [
+   "kurma basah",
+   "root",
+   "root-r-t2-b",
+   "ms"
+  ],
+  [
+   "fright",
+   "root",
+   "root-r-w-3",
+   "en"
+  ],
+  [
+   "ketakutan",
+   "root",
+   "root-r-w-3",
+   "ms"
+  ],
+  [
+   "a garden",
+   "root",
+   "root-r-w-d2",
+   "en"
+  ],
+  [
+   "taman",
+   "root",
+   "root-r-w-d2",
+   "ms"
   ],
   [
    "mahu; mencari",
@@ -15412,6 +84587,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bangsa rom",
+   "root",
+   "root-r-w-m",
+   "ms"
+  ],
+  [
+   "the romans",
+   "root",
+   "root-r-w-m",
+   "en"
+  ],
+  [
+   "a height",
+   "root",
+   "root-r-y-3",
+   "en"
+  ],
+  [
+   "tempat tinggi",
+   "root",
+   "root-r-y-3",
+   "ms"
+  ],
+  [
    "doubt, suspicion",
    "root",
    "root-r-y-b",
@@ -15422,6 +84621,42 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-r-y-b",
    "ms"
+  ],
+  [
+   "a wind; fragrance",
+   "root",
+   "root-r-y-h2",
+   "en"
+  ],
+  [
+   "angin; wangian",
+   "root",
+   "root-r-y-h2",
+   "ms"
+  ],
+  [
+   "menutupi (hati)",
+   "root",
+   "root-r-y-n",
+   "ms"
+  ],
+  [
+   "to cover over (the heart)",
+   "root",
+   "root-r-y-n",
+   "en"
+  ],
+  [
+   "bulu; perhiasan",
+   "root",
+   "root-r-y-sh",
+   "ms"
+  ],
+  [
+   "feathers; finery",
+   "root",
+   "root-r-y-sh",
+   "en"
   ],
   [
    "provision; sustenance",
@@ -15448,6 +84683,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "jemu",
+   "root",
+   "root-s-2-m",
+   "ms"
+  ],
+  [
+   "to be weary",
+   "root",
+   "root-s-2-m",
+   "en"
+  ],
+  [
+   "berbahagia",
+   "root",
+   "root-s-3-d",
+   "ms"
+  ],
+  [
+   "to be happy",
+   "root",
+   "root-s-3-d",
+   "en"
+  ],
+  [
+   "menyala; api marak",
+   "root",
+   "root-s-3-r",
+   "ms"
+  ],
+  [
+   "to blaze; flame",
+   "root",
+   "root-s-3-r",
+   "en"
+  ],
+  [
+   "berusaha; bergegas",
+   "root",
+   "root-s-3-y",
+   "ms"
+  ],
+  [
+   "to strive; to hasten",
+   "root",
+   "root-s-3-y",
+   "en"
+  ],
+  [
    "seven",
    "root",
    "root-s-b-3",
@@ -15457,6 +84740,18 @@ const QM_SEARCH_INDEX = {
    "tujuh",
    "root",
    "root-s-b-3",
+   "ms"
+  ],
+  [
+   "cause; means; rope",
+   "root",
+   "root-s-b-b",
+   "en"
+  ],
+  [
+   "sebab; jalan; tali",
+   "root",
+   "root-s-b-b",
    "ms"
   ],
   [
@@ -15484,6 +84779,210 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "mendahului",
+   "root",
+   "root-s-b-q",
+   "ms"
+  ],
+  [
+   "to precede; to outstrip",
+   "root",
+   "root-s-b-q",
+   "en"
+  ],
+  [
+   "a tribe; lank (hair)",
+   "root",
+   "root-s-b-t2",
+   "en"
+  ],
+  [
+   "suku; lurus",
+   "root",
+   "root-s-b-t2",
+   "ms"
+  ],
+  [
+   "sabbath; rest",
+   "root",
+   "root-s-b-t",
+   "en"
+  ],
+  [
+   "sabtu; berehat",
+   "root",
+   "root-s-b-t",
+   "ms"
+  ],
+  [
+   "betul; sekatan",
+   "root",
+   "root-s-d-d",
+   "ms"
+  ],
+  [
+   "to be right; a barrier",
+   "root",
+   "root-s-d-d",
+   "en"
+  ],
+  [
+   "a lote-tree",
+   "root",
+   "root-s-d-r",
+   "en"
+  ],
+  [
+   "pokok bidara",
+   "root",
+   "root-s-d-r",
+   "ms"
+  ],
+  [
+   "enam",
+   "root",
+   "root-s-d-s",
+   "ms"
+  ],
+  [
+   "six",
+   "root",
+   "root-s-d-s",
+   "en"
+  ],
+  [
+   "dibiarkan sia-sia",
+   "root",
+   "root-s-d-y",
+   "ms"
+  ],
+  [
+   "to leave unrestrained",
+   "root",
+   "root-s-d-y",
+   "en"
+  ],
+  [
+   "mencurah; berzina",
+   "root",
+   "root-s-f-h2",
+   "ms"
+  ],
+  [
+   "to pour forth; fornication",
+   "root",
+   "root-s-f-h2",
+   "en"
+  ],
+  [
+   "foolishness",
+   "root",
+   "root-s-f-h",
+   "en"
+  ],
+  [
+   "kebodohan",
+   "root",
+   "root-s-f-h",
+   "ms"
+  ],
+  [
+   "rendah",
+   "root",
+   "root-s-f-l",
+   "ms"
+  ],
+  [
+   "to be low",
+   "root",
+   "root-s-f-l",
+   "en"
+  ],
+  [
+   "a ship",
+   "root",
+   "root-s-f-n",
+   "en"
+  ],
+  [
+   "kapal",
+   "root",
+   "root-s-f-n",
+   "ms"
+  ],
+  [
+   "bermusafir",
+   "root",
+   "root-s-f-r",
+   "ms"
+  ],
+  [
+   "to travel",
+   "root",
+   "root-s-f-r",
+   "en"
+  ],
+  [
+   "mudah; dataran",
+   "root",
+   "root-s-h-l",
+   "ms"
+  ],
+  [
+   "to be easy; a plain",
+   "root",
+   "root-s-h-l",
+   "en"
+  ],
+  [
+   "membuat undian",
+   "root",
+   "root-s-h-m",
+   "ms"
+  ],
+  [
+   "to draw lots",
+   "root",
+   "root-s-h-m",
+   "en"
+  ],
+  [
+   "lalai",
+   "root",
+   "root-s-h-w",
+   "ms"
+  ],
+  [
+   "to be heedless",
+   "root",
+   "root-s-h-w",
+   "en"
+  ],
+  [
+   "menyeret; awan",
+   "root",
+   "root-s-h2-b",
+   "ms"
+  ],
+  [
+   "to drag; cloud",
+   "root",
+   "root-s-h2-b",
+   "en"
+  ],
+  [
+   "jauh; menghancurkan",
+   "root",
+   "root-s-h2-q",
+   "ms"
+  ],
+  [
+   "to be far; to crush",
+   "root",
+   "root-s-h2-q",
+   "en"
+  ],
+  [
    "magic; before dawn",
    "root",
    "root-s-h2-r",
@@ -15493,6 +84992,30 @@ const QM_SEARCH_INDEX = {
    "sihir; sebelum fajar",
    "root",
    "root-s-h2-r",
+   "ms"
+  ],
+  [
+   "membinasakan; harta haram",
+   "root",
+   "root-s-h2-t",
+   "ms"
+  ],
+  [
+   "to destroy; unlawful gain",
+   "root",
+   "root-s-h2-t",
+   "en"
+  ],
+  [
+   "a courtyard",
+   "root",
+   "root-s-h2-w",
+   "en"
+  ],
+  [
+   "halaman",
+   "root",
+   "root-s-h2-w",
    "ms"
   ],
   [
@@ -15508,6 +85031,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "penjara",
+   "root",
+   "root-s-j-n",
+   "ms"
+  ],
+  [
+   "prison",
+   "root",
+   "root-s-j-n",
+   "en"
+  ],
+  [
+   "tenang",
+   "root",
+   "root-s-j-w",
+   "ms"
+  ],
+  [
+   "to be calm",
+   "root",
+   "root-s-j-w",
+   "en"
+  ],
+  [
+   "a knife",
+   "root",
+   "root-s-k-k",
+   "en"
+  ],
+  [
+   "pisau",
+   "root",
+   "root-s-k-k",
+   "ms"
+  ],
+  [
    "tenang; miskin",
    "root",
    "root-s-k-n",
@@ -15517,6 +85076,18 @@ const QM_SEARCH_INDEX = {
    "to be still; poor",
    "root",
    "root-s-k-n",
+   "en"
+  ],
+  [
+   "mabuk",
+   "root",
+   "root-s-k-r",
+   "ms"
+  ],
+  [
+   "to be drunk",
+   "root",
+   "root-s-k-r",
    "en"
   ],
   [
@@ -15532,6 +85103,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "murka",
+   "root",
+   "root-s-kh-t2",
+   "ms"
+  ],
+  [
+   "to be displeased",
+   "root",
+   "root-s-kh-t2",
+   "en"
+  ],
+  [
+   "mendahului; berlalu",
+   "root",
+   "root-s-l-f",
+   "ms"
+  ],
+  [
+   "to precede; to be past",
+   "root",
+   "root-s-l-f",
+   "en"
+  ],
+  [
+   "a weapon",
+   "root",
+   "root-s-l-h2",
+   "en"
+  ],
+  [
+   "senjata",
+   "root",
+   "root-s-l-h2",
+   "ms"
+  ],
+  [
+   "menanggalkan",
+   "root",
+   "root-s-l-kh",
+   "ms"
+  ],
+  [
+   "to strip off",
+   "root",
+   "root-s-l-kh",
+   "en"
+  ],
+  [
+   "memasukkan",
+   "root",
+   "root-s-l-k",
+   "ms"
+  ],
+  [
+   "to enter",
+   "root",
+   "root-s-l-k",
+   "en"
+  ],
+  [
+   "an extract",
+   "root",
+   "root-s-l-l",
+   "en"
+  ],
+  [
+   "pati",
+   "root",
+   "root-s-l-l",
+   "ms"
+  ],
+  [
    "peace; to submit",
    "root",
    "root-s-l-m",
@@ -15542,6 +85185,18 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-s-l-m",
    "ms"
+  ],
+  [
+   "menyakiti dengan lidah",
+   "root",
+   "root-s-l-q",
+   "ms"
+  ],
+  [
+   "to flay",
+   "root",
+   "root-s-l-q",
+   "en"
   ],
   [
    "berkuasa",
@@ -15556,6 +85211,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menghibur; burung puyuh",
+   "root",
+   "root-s-l-w",
+   "ms"
+  ],
+  [
+   "to console; quail",
+   "root",
+   "root-s-l-w",
+   "en"
+  ],
+  [
    "mendengar",
    "root",
    "root-s-m-3",
@@ -15565,6 +85232,66 @@ const QM_SEARCH_INDEX = {
    "to hear",
    "root",
    "root-s-m-3",
+   "en"
+  ],
+  [
+   "angkuh",
+   "root",
+   "root-s-m-d",
+   "ms"
+  ],
+  [
+   "to be proud",
+   "root",
+   "root-s-m-d",
+   "en"
+  ],
+  [
+   "meninggikan",
+   "root",
+   "root-s-m-k",
+   "ms"
+  ],
+  [
+   "to raise high",
+   "root",
+   "root-s-m-k",
+   "en"
+  ],
+  [
+   "a scorching wind; poison",
+   "root",
+   "root-s-m-m",
+   "en"
+  ],
+  [
+   "angin panas; bisa",
+   "root",
+   "root-s-m-m",
+   "ms"
+  ],
+  [
+   "gemuk",
+   "root",
+   "root-s-m-n",
+   "ms"
+  ],
+  [
+   "to be fat",
+   "root",
+   "root-s-m-n",
+   "en"
+  ],
+  [
+   "bersembang waktu malam",
+   "root",
+   "root-s-m-r",
+   "ms"
+  ],
+  [
+   "to talk at night",
+   "root",
+   "root-s-m-r",
    "en"
   ],
   [
@@ -15604,6 +85331,198 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a roof",
+   "root",
+   "root-s-q-f",
+   "en"
+  ],
+  [
+   "bumbung",
+   "root",
+   "root-s-q-f",
+   "ms"
+  ],
+  [
+   "sakit",
+   "root",
+   "root-s-q-m",
+   "ms"
+  ],
+  [
+   "to be ill",
+   "root",
+   "root-s-q-m",
+   "en"
+  ],
+  [
+   "saqar (hell)",
+   "root",
+   "root-s-q-r",
+   "en"
+  ],
+  [
+   "saqar (neraka)",
+   "root",
+   "root-s-q-r",
+   "ms"
+  ],
+  [
+   "gugur",
+   "root",
+   "root-s-q-t2",
+   "ms"
+  ],
+  [
+   "to fall",
+   "root",
+   "root-s-q-t2",
+   "en"
+  ],
+  [
+   "meminta air",
+   "root",
+   "root-s-q-y",
+   "ms"
+  ],
+  [
+   "to ask for water",
+   "root",
+   "root-s-q-y",
+   "en"
+  ],
+  [
+   "bersegera; kepantasan",
+   "root",
+   "root-s-r-3",
+   "ms"
+  ],
+  [
+   "to hasten; speed",
+   "root",
+   "root-s-r-3",
+   "en"
+  ],
+  [
+   "a mirage; to go away",
+   "root",
+   "root-s-r-b",
+   "en"
+  ],
+  [
+   "fatamorgana; keluar",
+   "root",
+   "root-s-r-b",
+   "ms"
+  ],
+  [
+   "berlebih-lebihan",
+   "root",
+   "root-s-r-f",
+   "ms"
+  ],
+  [
+   "to be extravagant",
+   "root",
+   "root-s-r-f",
+   "en"
+  ],
+  [
+   "melepaskan",
+   "root",
+   "root-s-r-h2",
+   "ms"
+  ],
+  [
+   "to release",
+   "root",
+   "root-s-r-h2",
+   "en"
+  ],
+  [
+   "lamp",
+   "root",
+   "root-s-r-j",
+   "en"
+  ],
+  [
+   "pelita",
+   "root",
+   "root-s-r-j",
+   "ms"
+  ],
+  [
+   "mencuri",
+   "root",
+   "root-s-r-q",
+   "ms"
+  ],
+  [
+   "to steal",
+   "root",
+   "root-s-r-q",
+   "en"
+  ],
+  [
+   "rahsia; menyembunyikan",
+   "root",
+   "root-s-r-r",
+   "ms"
+  ],
+  [
+   "secret; to conceal",
+   "root",
+   "root-s-r-r",
+   "en"
+  ],
+  [
+   "berjalan pada waktu malam",
+   "root",
+   "root-s-r-y",
+   "ms"
+  ],
+  [
+   "to travel by night",
+   "root",
+   "root-s-r-y",
+   "en"
+  ],
+  [
+   "menutup",
+   "root",
+   "root-s-t-r",
+   "ms"
+  ],
+  [
+   "to cover",
+   "root",
+   "root-s-t-r",
+   "en"
+  ],
+  [
+   "menulis; baris",
+   "root",
+   "root-s-t2-r",
+   "ms"
+  ],
+  [
+   "to write; lines",
+   "root",
+   "root-s-t2-r",
+   "en"
+  ],
+  [
+   "menyerang",
+   "root",
+   "root-s-t2-w",
+   "ms"
+  ],
+  [
+   "to assault",
+   "root",
+   "root-s-t2-w",
+   "en"
+  ],
+  [
    "buruk; jahat",
    "root",
    "root-s-w-2",
@@ -15628,6 +85547,90 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "hitam; menjadi tuan",
+   "root",
+   "root-s-w-d",
+   "ms"
+  ],
+  [
+   "to be black; to be master",
+   "root",
+   "root-s-w-d",
+   "en"
+  ],
+  [
+   "sedap ditelan",
+   "root",
+   "root-s-w-gh",
+   "ms"
+  ],
+  [
+   "to be palatable",
+   "root",
+   "root-s-w-gh",
+   "en"
+  ],
+  [
+   "menghias-hiaskan",
+   "root",
+   "root-s-w-l",
+   "ms"
+  ],
+  [
+   "to make attractive",
+   "root",
+   "root-s-w-l",
+   "en"
+  ],
+  [
+   "menandai",
+   "root",
+   "root-s-w-m",
+   "ms"
+  ],
+  [
+   "to mark",
+   "root",
+   "root-s-w-m",
+   "en"
+  ],
+  [
+   "menghalau",
+   "root",
+   "root-s-w-q",
+   "ms"
+  ],
+  [
+   "to drive",
+   "root",
+   "root-s-w-q",
+   "en"
+  ],
+  [
+   "bracelet; wall; to leap",
+   "root",
+   "root-s-w-r",
+   "en"
+  ],
+  [
+   "gelang; tembok; melompat",
+   "root",
+   "root-s-w-r",
+   "ms"
+  ],
+  [
+   "a whip; to mix",
+   "root",
+   "root-s-w-t2",
+   "en"
+  ],
+  [
+   "cemeti; mencampur",
+   "root",
+   "root-s-w-t2",
+   "ms"
+  ],
+  [
    "sama; rata",
    "root",
    "root-s-w-y",
@@ -15640,6 +85643,150 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "buruk",
+   "root",
+   "root-s-y-2",
+   "ms"
+  ],
+  [
+   "to be evil",
+   "root",
+   "root-s-y-2",
+   "en"
+  ],
+  [
+   "bebas berkeliaran",
+   "root",
+   "root-s-y-b",
+   "ms"
+  ],
+  [
+   "to roam freely",
+   "root",
+   "root-s-y-b",
+   "en"
+  ],
+  [
+   "mengembara",
+   "root",
+   "root-s-y-h2",
+   "ms"
+  ],
+  [
+   "to roam",
+   "root",
+   "root-s-y-h2",
+   "en"
+  ],
+  [
+   "mengalir",
+   "root",
+   "root-s-y-l",
+   "ms"
+  ],
+  [
+   "to flow",
+   "root",
+   "root-s-y-l",
+   "en"
+  ],
+  [
+   "mengembara; berjalan",
+   "root",
+   "root-s-y-r",
+   "ms"
+  ],
+  [
+   "to travel; to walk",
+   "root",
+   "root-s-y-r",
+   "en"
+  ],
+  [
+   "naik; permukaan tanah",
+   "root",
+   "root-s2-3-d",
+   "ms"
+  ],
+  [
+   "to ascend; ground",
+   "root",
+   "root-s2-3-d",
+   "en"
+  ],
+  [
+   "terpukul petir",
+   "root",
+   "root-s2-3-q",
+   "ms"
+  ],
+  [
+   "to be thunderstruck",
+   "root",
+   "root-s2-3-q",
+   "en"
+  ],
+  [
+   "keluar agama",
+   "root",
+   "root-s2-b-2",
+   "ms"
+  ],
+  [
+   "to change religion",
+   "root",
+   "root-s2-b-2",
+   "en"
+  ],
+  [
+   "a finger",
+   "root",
+   "root-s2-b-3",
+   "en"
+  ],
+  [
+   "jari",
+   "root",
+   "root-s2-b-3",
+   "ms"
+  ],
+  [
+   "menuang",
+   "root",
+   "root-s2-b-b",
+   "ms"
+  ],
+  [
+   "to pour",
+   "root",
+   "root-s2-b-b",
+   "en"
+  ],
+  [
+   "a dye; a hue",
+   "root",
+   "root-s2-b-gh",
+   "en"
+  ],
+  [
+   "celupan",
+   "root",
+   "root-s2-b-gh",
+   "ms"
+  ],
+  [
+   "morning; to become",
+   "root",
+   "root-s2-b-h2",
+   "en"
+  ],
+  [
+   "pagi; menjadi",
+   "root",
+   "root-s2-b-h2",
+   "ms"
+  ],
+  [
    "bersabar",
    "root",
    "root-s2-b-r",
@@ -15649,6 +85796,54 @@ const QM_SEARCH_INDEX = {
    "to be patient",
    "root",
    "root-s2-b-r",
+   "en"
+  ],
+  [
+   "cenderung; budak",
+   "root",
+   "root-s2-b-w",
+   "ms"
+  ],
+  [
+   "to incline; boy",
+   "root",
+   "root-s2-b-w",
+   "en"
+  ],
+  [
+   "membelah; menyatakan",
+   "root",
+   "root-s2-d-3",
+   "ms"
+  ],
+  [
+   "to split; to proclaim",
+   "root",
+   "root-s2-d-3",
+   "en"
+  ],
+  [
+   "menghalang; berpaling",
+   "root",
+   "root-s2-d-d",
+   "ms"
+  ],
+  [
+   "to turn away; to hinder",
+   "root",
+   "root-s2-d-d",
+   "en"
+  ],
+  [
+   "berpaling; tebing",
+   "root",
+   "root-s2-d-f",
+   "ms"
+  ],
+  [
+   "to turn away; a mountain-side",
+   "root",
+   "root-s2-d-f",
    "en"
   ],
   [
@@ -15676,6 +85871,102 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "bertepuk; menyahut",
+   "root",
+   "root-s2-d-y",
+   "ms"
+  ],
+  [
+   "to clap; to respond",
+   "root",
+   "root-s2-d-y",
+   "en"
+  ],
+  [
+   "a fetter",
+   "root",
+   "root-s2-f-d",
+   "en"
+  ],
+  [
+   "belenggu",
+   "root",
+   "root-s2-f-d",
+   "ms"
+  ],
+  [
+   "barisan; saf",
+   "root",
+   "root-s2-f-f",
+   "ms"
+  ],
+  [
+   "row; rank",
+   "root",
+   "root-s2-f-f",
+   "en"
+  ],
+  [
+   "memaafkan; berpaling",
+   "root",
+   "root-s2-f-h2",
+   "ms"
+  ],
+  [
+   "to forgive; to turn away",
+   "root",
+   "root-s2-f-h2",
+   "en"
+  ],
+  [
+   "kuning",
+   "root",
+   "root-s2-f-r",
+   "ms"
+  ],
+  [
+   "yellow",
+   "root",
+   "root-s2-f-r",
+   "en"
+  ],
+  [
+   "jernih; batu licin",
+   "root",
+   "root-s2-f-w",
+   "ms"
+  ],
+  [
+   "to be pure; a rock",
+   "root",
+   "root-s2-f-w",
+   "en"
+  ],
+  [
+   "kecil; hina",
+   "root",
+   "root-s2-gh-r",
+   "ms"
+  ],
+  [
+   "to be small; lowly",
+   "root",
+   "root-s2-gh-r",
+   "en"
+  ],
+  [
+   "melebur; ipar",
+   "root",
+   "root-s2-h-r",
+   "ms"
+  ],
+  [
+   "to melt; relatives by marriage",
+   "root",
+   "root-s2-h-r",
+   "en"
+  ],
+  [
    "companionship, accompanying",
    "root",
    "root-s2-h2-b",
@@ -15686,6 +85977,42 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-s2-h2-b",
    "ms"
+  ],
+  [
+   "lembaran; naskhah",
+   "root",
+   "root-s2-h2-f",
+   "ms"
+  ],
+  [
+   "page; scroll",
+   "root",
+   "root-s2-h2-f",
+   "en"
+  ],
+  [
+   "a rock",
+   "root",
+   "root-s2-kh-r",
+   "en"
+  ],
+  [
+   "batu besar",
+   "root",
+   "root-s2-kh-r",
+   "ms"
+  ],
+  [
+   "menyalib",
+   "root",
+   "root-s2-l-b",
+   "ms"
+  ],
+  [
+   "to crucify",
+   "root",
+   "root-s2-l-b",
+   "en"
   ],
   [
    "baik; soleh",
@@ -15712,6 +86039,18 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "membakar; terbakar",
+   "root",
+   "root-s2-l-y",
+   "ms"
+  ],
+  [
+   "to burn; to roast",
+   "root",
+   "root-s2-l-y",
+   "en"
+  ],
+  [
    "being self-sufficient; being the one all turn to",
    "root",
    "root-s2-m-d",
@@ -15722,6 +86061,114 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-s2-m-d",
    "ms"
+  ],
+  [
+   "deaf; solid",
+   "root",
+   "root-s2-m-m",
+   "en"
+  ],
+  [
+   "pekak; padat",
+   "root",
+   "root-s2-m-m",
+   "ms"
+  ],
+  [
+   "membuat; mencipta",
+   "root",
+   "root-s2-n-3",
+   "ms"
+  ],
+  [
+   "to make; to craft",
+   "root",
+   "root-s2-n-3",
+   "en"
+  ],
+  [
+   "an idol",
+   "root",
+   "root-s2-n-m",
+   "en"
+  ],
+  [
+   "berhala",
+   "root",
+   "root-s2-n-m",
+   "ms"
+  ],
+  [
+   "a twin palm",
+   "root",
+   "root-s2-n-w",
+   "en"
+  ],
+  [
+   "pokok berkembar",
+   "root",
+   "root-s2-n-w",
+   "ms"
+  ],
+  [
+   "memalingkan; mempelbagaikan",
+   "root",
+   "root-s2-r-f",
+   "ms"
+  ],
+  [
+   "to turn; to vary",
+   "root",
+   "root-s2-r-f",
+   "en"
+  ],
+  [
+   "a tower",
+   "root",
+   "root-s2-r-h2",
+   "en"
+  ],
+  [
+   "mahligai",
+   "root",
+   "root-s2-r-h2",
+   "ms"
+  ],
+  [
+   "menjerit",
+   "root",
+   "root-s2-r-kh",
+   "ms"
+  ],
+  [
+   "to cry out",
+   "root",
+   "root-s2-r-kh",
+   "en"
+  ],
+  [
+   "memetik; gelap",
+   "root",
+   "root-s2-r-m",
+   "ms"
+  ],
+  [
+   "to pluck; dark",
+   "root",
+   "root-s2-r-m",
+   "en"
+  ],
+  [
+   "menyuakan",
+   "root",
+   "root-s2-r-r",
+   "ms"
+  ],
+  [
+   "to incline",
+   "root",
+   "root-s2-r-r",
+   "en"
   ],
   [
    "a path, a way",
@@ -15748,6 +86195,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bulu biri-biri",
+   "root",
+   "root-s2-w-f",
+   "ms"
+  ],
+  [
+   "wool",
+   "root",
+   "root-s2-w-f",
+   "en"
+  ],
+  [
+   "berpuasa",
+   "root",
+   "root-s2-w-m",
+   "ms"
+  ],
+  [
+   "to fast",
+   "root",
+   "root-s2-w-m",
+   "en"
+  ],
+  [
    "membentuk; sangkakala",
    "root",
    "root-s2-w-r",
@@ -15757,6 +86228,54 @@ const QM_SEARCH_INDEX = {
    "to shape; horn",
    "root",
    "root-s2-w-r",
+   "en"
+  ],
+  [
+   "a voice",
+   "root",
+   "root-s2-w-t",
+   "en"
+  ],
+  [
+   "suara",
+   "root",
+   "root-s2-w-t",
+   "ms"
+  ],
+  [
+   "hunting; game",
+   "root",
+   "root-s2-y-d",
+   "en"
+  ],
+  [
+   "memburu; buruan",
+   "root",
+   "root-s2-y-d",
+   "ms"
+  ],
+  [
+   "musim panas",
+   "root",
+   "root-s2-y-f",
+   "ms"
+  ],
+  [
+   "summer",
+   "root",
+   "root-s2-y-f",
+   "en"
+  ],
+  [
+   "menjerit; jeritan",
+   "root",
+   "root-s2-y-h2",
+   "ms"
+  ],
+  [
+   "to shout; a cry",
+   "root",
+   "root-s2-y-h2",
    "en"
   ],
   [
@@ -15772,6 +86291,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "kiri; malang",
+   "root",
+   "root-sh-2-m",
+   "ms"
+  ],
+  [
+   "the left side; ill omen",
+   "root",
+   "root-sh-2-m",
+   "en"
+  ],
+  [
+   "hal; urusan",
+   "root",
+   "root-sh-2-n",
+   "ms"
+  ],
+  [
+   "matter; state",
+   "root",
+   "root-sh-2-n",
+   "en"
+  ],
+  [
+   "a branch; a people",
+   "root",
+   "root-sh-3-b",
+   "en"
+  ],
+  [
+   "cabang; bangsa",
+   "root",
+   "root-sh-3-b",
+   "ms"
+  ],
+  [
    "menyedari",
    "root",
    "root-sh-3-r",
@@ -15781,6 +86336,18 @@ const QM_SEARCH_INDEX = {
    "to perceive",
    "root",
    "root-sh-3-r",
+   "en"
+  ],
+  [
+   "menyerupai",
+   "root",
+   "root-sh-b-h",
+   "ms"
+  ],
+  [
+   "to resemble",
+   "root",
+   "root-sh-b-h",
    "en"
   ],
   [
@@ -15796,6 +86363,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memberi syafaat; berpasangan",
+   "root",
+   "root-sh-f-3",
+   "ms"
+  ],
+  [
+   "to intercede; to pair",
+   "root",
+   "root-sh-f-3",
+   "en"
+  ],
+  [
+   "a lip",
+   "root",
+   "root-sh-f-h",
+   "en"
+  ],
+  [
+   "bibir",
+   "root",
+   "root-sh-f-h",
+   "ms"
+  ],
+  [
+   "bimbang; belas",
+   "root",
+   "root-sh-f-q",
+   "ms"
+  ],
+  [
+   "to be concerned; compassion",
+   "root",
+   "root-sh-f-q",
+   "en"
+  ],
+  [
+   "brink; edge",
+   "root",
+   "root-sh-f-w",
+   "en"
+  ],
+  [
+   "tebing",
+   "root",
+   "root-sh-f-w",
+   "ms"
+  ],
+  [
+   "menyembuhkan",
+   "root",
+   "root-sh-f-y",
+   "ms"
+  ],
+  [
+   "to heal",
+   "root",
+   "root-sh-f-y",
+   "en"
+  ],
+  [
+   "a flame; a meteor",
+   "root",
+   "root-sh-h-b",
+   "en"
+  ],
+  [
+   "api; bintang berapi",
+   "root",
+   "root-sh-h-b",
+   "ms"
+  ],
+  [
    "menyaksikan; bersaksi",
    "root",
    "root-sh-h-d",
@@ -15805,6 +86444,66 @@ const QM_SEARCH_INDEX = {
    "to witness; to testify",
    "root",
    "root-sh-h-d",
+   "en"
+  ],
+  [
+   "a braying; an inhaling",
+   "root",
+   "root-sh-h-q",
+   "en"
+  ],
+  [
+   "tarikan nafas",
+   "root",
+   "root-sh-h-q",
+   "ms"
+  ],
+  [
+   "bulan; mempopularkan",
+   "root",
+   "root-sh-h-r",
+   "ms"
+  ],
+  [
+   "month; to make known",
+   "root",
+   "root-sh-h-r",
+   "en"
+  ],
+  [
+   "mengingini",
+   "root",
+   "root-sh-h-w",
+   "ms"
+  ],
+  [
+   "to desire; to crave",
+   "root",
+   "root-sh-h-w",
+   "en"
+  ],
+  [
+   "kedekut",
+   "root",
+   "root-sh-h2-h2",
+   "ms"
+  ],
+  [
+   "to be stingy",
+   "root",
+   "root-sh-h2-h2",
+   "en"
+  ],
+  [
+   "memuat",
+   "root",
+   "root-sh-h2-n",
+   "ms"
+  ],
+  [
+   "to load",
+   "root",
+   "root-sh-h2-n",
    "en"
   ],
   [
@@ -15832,6 +86531,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a manner; a shape",
+   "root",
+   "root-sh-k-l",
+   "en"
+  ],
+  [
+   "cara; bentuk",
+   "root",
+   "root-sh-k-l",
+   "ms"
+  ],
+  [
    "bersyukur",
    "root",
    "root-sh-k-r",
@@ -15844,6 +86555,30 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "mengadu",
+   "root",
+   "root-sh-k-w",
+   "ms"
+  ],
+  [
+   "to complain",
+   "root",
+   "root-sh-k-w",
+   "en"
+  ],
+  [
+   "left side; to encompass",
+   "root",
+   "root-sh-m-l",
+   "en"
+  ],
+  [
+   "sebelah kiri; meliputi",
+   "root",
+   "root-sh-m-l",
+   "ms"
+  ],
+  [
    "matahari",
    "root",
    "root-sh-m-s",
@@ -15853,6 +86588,78 @@ const QM_SEARCH_INDEX = {
    "sun",
    "root",
    "root-sh-m-s",
+   "en"
+  ],
+  [
+   "hatred",
+   "root",
+   "root-sh-n-2",
+   "en"
+  ],
+  [
+   "kebencian",
+   "root",
+   "root-sh-n-2",
+   "ms"
+  ],
+  [
+   "membelah; perpecahan",
+   "root",
+   "root-sh-q-q",
+   "ms"
+  ],
+  [
+   "to split; schism",
+   "root",
+   "root-sh-q-q",
+   "en"
+  ],
+  [
+   "celaka",
+   "root",
+   "root-sh-q-w",
+   "ms"
+  ],
+  [
+   "to be wretched",
+   "root",
+   "root-sh-q-w",
+   "en"
+  ],
+  [
+   "mensyariatkan; jalan",
+   "root",
+   "root-sh-r-3",
+   "ms"
+  ],
+  [
+   "to ordain; a path",
+   "root",
+   "root-sh-r-3",
+   "en"
+  ],
+  [
+   "minum",
+   "root",
+   "root-sh-r-b",
+   "ms"
+  ],
+  [
+   "to drink",
+   "root",
+   "root-sh-r-b",
+   "en"
+  ],
+  [
+   "melapangkan (dada)",
+   "root",
+   "root-sh-r-h2",
+   "ms"
+  ],
+  [
+   "to expand (the breast)",
+   "root",
+   "root-sh-r-h2",
    "en"
   ],
   [
@@ -15868,6 +86675,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "terbit; timur",
+   "root",
+   "root-sh-r-q",
+   "ms"
+  ],
+  [
+   "to rise (sun); east",
+   "root",
+   "root-sh-r-q",
+   "en"
+  ],
+  [
    "evil",
    "root",
    "root-sh-r-r",
@@ -15878,6 +86697,18 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-sh-r-r",
    "ms"
+  ],
+  [
+   "menjual; membeli",
+   "root",
+   "root-sh-r-w",
+   "ms"
+  ],
+  [
+   "to sell; to buy",
+   "root",
+   "root-sh-r-w",
+   "en"
   ],
   [
    "membeli",
@@ -15892,6 +86723,102 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "bercerai-berai",
+   "root",
+   "root-sh-t-t",
+   "ms"
+  ],
+  [
+   "to be scattered",
+   "root",
+   "root-sh-t-t",
+   "en"
+  ],
+  [
+   "musim sejuk",
+   "root",
+   "root-sh-t-w",
+   "ms"
+  ],
+  [
+   "winter",
+   "root",
+   "root-sh-t-w",
+   "en"
+  ],
+  [
+   "half; direction",
+   "root",
+   "root-sh-t2-r",
+   "en"
+  ],
+  [
+   "separuh; arah",
+   "root",
+   "root-sh-t2-r",
+   "ms"
+  ],
+  [
+   "exorbitant",
+   "root",
+   "root-sh-t2-t2",
+   "en"
+  ],
+  [
+   "melampau",
+   "root",
+   "root-sh-t2-t2",
+   "ms"
+  ],
+  [
+   "a mixture",
+   "root",
+   "root-sh-w-b",
+   "en"
+  ],
+  [
+   "campuran",
+   "root",
+   "root-sh-w-b",
+   "ms"
+  ],
+  [
+   "a thorn",
+   "root",
+   "root-sh-w-k",
+   "en"
+  ],
+  [
+   "duri",
+   "root",
+   "root-sh-w-k",
+   "ms"
+  ],
+  [
+   "bermesyuarat; menunjuk",
+   "root",
+   "root-sh-w-r",
+   "ms"
+  ],
+  [
+   "to consult; to point",
+   "root",
+   "root-sh-w-r",
+   "en"
+  ],
+  [
+   "membakar; kulit kepala",
+   "root",
+   "root-sh-w-y",
+   "ms"
+  ],
+  [
+   "to roast; a scalp",
+   "root",
+   "root-sh-w-y",
+   "en"
+  ],
+  [
    "sesuatu; berkehendak",
    "root",
    "root-sh-y-2",
@@ -15902,6 +86829,54 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-sh-y-2",
    "en"
+  ],
+  [
+   "menyebar; mengikuti",
+   "root",
+   "root-sh-y-3",
+   "ms"
+  ],
+  [
+   "to spread; follow",
+   "root",
+   "root-sh-y-3",
+   "en"
+  ],
+  [
+   "beruban",
+   "root",
+   "root-sh-y-b",
+   "ms"
+  ],
+  [
+   "to be hoary",
+   "root",
+   "root-sh-y-b",
+   "en"
+  ],
+  [
+   "membina tinggi",
+   "root",
+   "root-sh-y-d",
+   "ms"
+  ],
+  [
+   "to build high",
+   "root",
+   "root-sh-y-d",
+   "en"
+  ],
+  [
+   "an old man",
+   "root",
+   "root-sh-y-kh",
+   "en"
+  ],
+  [
+   "orang tua",
+   "root",
+   "root-sh-y-kh",
+   "ms"
   ],
   [
    "mengikut",
@@ -15928,6 +86903,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "memusnahkan",
+   "root",
+   "root-t-b-r",
+   "ms"
+  ],
+  [
+   "to destroy",
+   "root",
+   "root-t-b-r",
+   "en"
+  ],
+  [
    "beneath",
    "root",
    "root-t-h2-t",
@@ -15940,6 +86927,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "perniagaan",
+   "root",
+   "root-t-j-r",
+   "ms"
+  ],
+  [
+   "trade",
+   "root",
+   "root-t-j-r",
+   "en"
+  ],
+  [
+   "menjatuhkan",
+   "root",
+   "root-t-l-l",
+   "ms"
+  ],
+  [
+   "to throw down",
+   "root",
+   "root-t-l-l",
+   "en"
+  ],
+  [
    "mengikuti; membaca",
    "root",
    "root-t-l-w",
@@ -15949,6 +86960,54 @@ const QM_SEARCH_INDEX = {
    "to follow; to recite",
    "root",
    "root-t-l-w",
+   "en"
+  ],
+  [
+   "sempurna",
+   "root",
+   "root-t-m-m",
+   "ms"
+  ],
+  [
+   "to be complete",
+   "root",
+   "root-t-m-m",
+   "en"
+  ],
+  [
+   "menyempurnakan",
+   "root",
+   "root-t-q-n",
+   "ms"
+  ],
+  [
+   "to perfect",
+   "root",
+   "root-t-q-n",
+   "en"
+  ],
+  [
+   "dust; soil",
+   "root",
+   "root-t-r-b",
+   "en"
+  ],
+  [
+   "tanah; debu",
+   "root",
+   "root-t-r-b",
+   "ms"
+  ],
+  [
+   "bermewah-mewah",
+   "root",
+   "root-t-r-f",
+   "ms"
+  ],
+  [
+   "to be pampered",
+   "root",
+   "root-t-r-f",
    "en"
   ],
   [
@@ -15964,6 +87023,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "nine",
+   "root",
+   "root-t-s-3",
+   "en"
+  ],
+  [
+   "sembilan",
+   "root",
+   "root-t-s-3",
+   "ms"
+  ],
+  [
    "bertaubat",
    "root",
    "root-t-w-b",
@@ -15976,6 +87047,42 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "kali; muncul",
+   "root",
+   "root-t-w-r",
+   "ms"
+  ],
+  [
+   "time; to appear",
+   "root",
+   "root-t-w-r",
+   "en"
+  ],
+  [
+   "tersesat",
+   "root",
+   "root-t-y-h",
+   "ms"
+  ],
+  [
+   "to wander",
+   "root",
+   "root-t-y-h",
+   "en"
+  ],
+  [
+   "buah ara",
+   "root",
+   "root-t-y-n",
+   "ms"
+  ],
+  [
+   "fig",
+   "root",
+   "root-t-y-n",
+   "en"
+  ],
+  [
    "makan; makanan",
    "root",
    "root-t2-3-m",
@@ -15985,6 +87092,258 @@ const QM_SEARCH_INDEX = {
    "to eat; food",
    "root",
    "root-t2-3-m",
+   "en"
+  ],
+  [
+   "menikam; mencela",
+   "root",
+   "root-t2-3-n",
+   "ms"
+  ],
+  [
+   "to thrust; to revile",
+   "root",
+   "root-t2-3-n",
+   "en"
+  ],
+  [
+   "mengecap; menutup",
+   "root",
+   "root-t2-b-3",
+   "ms"
+  ],
+  [
+   "to seal; to stamp",
+   "root",
+   "root-t2-b-3",
+   "en"
+  ],
+  [
+   "a layer; a stage",
+   "root",
+   "root-t2-b-q",
+   "en"
+  ],
+  [
+   "lapisan; peringkat",
+   "root",
+   "root-t2-b-q",
+   "ms"
+  ],
+  [
+   "memadamkan",
+   "root",
+   "root-t2-f-2",
+   "ms"
+  ],
+  [
+   "to extinguish",
+   "root",
+   "root-t2-f-2",
+   "en"
+  ],
+  [
+   "a child",
+   "root",
+   "root-t2-f-l",
+   "en"
+  ],
+  [
+   "kanak-kanak",
+   "root",
+   "root-t2-f-l",
+   "ms"
+  ],
+  [
+   "mula",
+   "root",
+   "root-t2-f-q",
+   "ms"
+  ],
+  [
+   "to begin",
+   "root",
+   "root-t2-f-q",
+   "en"
+  ],
+  [
+   "melampaui batas",
+   "root",
+   "root-t2-gh-w",
+   "ms"
+  ],
+  [
+   "to transgress",
+   "root",
+   "root-t2-gh-w",
+   "en"
+  ],
+  [
+   "melampaui batas; menderhaka",
+   "root",
+   "root-t2-gh-y",
+   "ms"
+  ],
+  [
+   "to transgress; to rebel",
+   "root",
+   "root-t2-gh-y",
+   "en"
+  ],
+  [
+   "suci",
+   "root",
+   "root-t2-h-r",
+   "ms"
+  ],
+  [
+   "to be pure",
+   "root",
+   "root-t2-h-r",
+   "en"
+  ],
+  [
+   "terbit; naik",
+   "root",
+   "root-t2-l-3",
+   "ms"
+  ],
+  [
+   "to rise; to ascend",
+   "root",
+   "root-t2-l-3",
+   "en"
+  ],
+  [
+   "mencari",
+   "root",
+   "root-t2-l-b",
+   "ms"
+  ],
+  [
+   "to seek",
+   "root",
+   "root-t2-l-b",
+   "en"
+  ],
+  [
+   "bebas; menceraikan",
+   "root",
+   "root-t2-l-q",
+   "ms"
+  ],
+  [
+   "to be free; to divorce",
+   "root",
+   "root-t2-l-q",
+   "en"
+  ],
+  [
+   "mengharap; ingin",
+   "root",
+   "root-t2-m-3",
+   "ms"
+  ],
+  [
+   "to desire; hope",
+   "root",
+   "root-t2-m-3",
+   "en"
+  ],
+  [
+   "menenggelami",
+   "root",
+   "root-t2-m-m",
+   "ms"
+  ],
+  [
+   "to overwhelm",
+   "root",
+   "root-t2-m-m",
+   "en"
+  ],
+  [
+   "tenang",
+   "root",
+   "root-t2-m-n",
+   "ms"
+  ],
+  [
+   "to be at rest",
+   "root",
+   "root-t2-m-n",
+   "en"
+  ],
+  [
+   "menghapuskan",
+   "root",
+   "root-t2-m-s",
+   "ms"
+  ],
+  [
+   "to efface",
+   "root",
+   "root-t2-m-s",
+   "en"
+  ],
+  [
+   "menyentuh",
+   "root",
+   "root-t2-m-th",
+   "ms"
+  ],
+  [
+   "to deflower",
+   "root",
+   "root-t2-m-th",
+   "en"
+  ],
+  [
+   "menghalau",
+   "root",
+   "root-t2-r-d",
+   "ms"
+  ],
+  [
+   "to drive away",
+   "root",
+   "root-t2-r-d",
+   "en"
+  ],
+  [
+   "an edge; a glance",
+   "root",
+   "root-t2-r-f",
+   "en"
+  ],
+  [
+   "hujung; pandangan",
+   "root",
+   "root-t2-r-f",
+   "ms"
+  ],
+  [
+   "a path",
+   "root",
+   "root-t2-r-q",
+   "en"
+  ],
+  [
+   "jalan",
+   "root",
+   "root-t2-r-q",
+   "ms"
+  ],
+  [
+   "segar",
+   "root",
+   "root-t2-r-w",
+   "ms"
+  ],
+  [
+   "to be fresh",
+   "root",
+   "root-t2-r-w",
    "en"
   ],
   [
@@ -16012,6 +87371,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "panjang",
+   "root",
+   "root-t2-w-l",
+   "ms"
+  ],
+  [
+   "to be long",
+   "root",
+   "root-t2-w-l",
+   "en"
+  ],
+  [
+   "mampu; mengalungkan",
+   "root",
+   "root-t2-w-q",
+   "ms"
+  ],
+  [
+   "to be able; to encircle",
+   "root",
+   "root-t2-w-q",
+   "en"
+  ],
+  [
+   "gunung; peringkat",
+   "root",
+   "root-t2-w-r",
+   "ms"
+  ],
+  [
+   "mountain; stage",
+   "root",
+   "root-t2-w-r",
+   "en"
+  ],
+  [
+   "melipat",
+   "root",
+   "root-t2-w-y",
+   "ms"
+  ],
+  [
+   "to fold",
+   "root",
+   "root-t2-w-y",
+   "en"
+  ],
+  [
    "baik; suci",
    "root",
    "root-t2-y-b",
@@ -16022,6 +87429,18 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-t2-y-b",
    "en"
+  ],
+  [
+   "clay; mud",
+   "root",
+   "root-t2-y-n",
+   "en"
+  ],
+  [
+   "tanah liat; lumpur",
+   "root",
+   "root-t2-y-n",
+   "ms"
   ],
   [
    "terbang; burung",
@@ -16036,6 +87455,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "a serpent",
+   "root",
+   "root-th-3-b",
+   "en"
+  ],
+  [
+   "ular besar",
+   "root",
+   "root-th-3-b",
+   "ms"
+  ],
+  [
+   "destruction",
+   "root",
+   "root-th-b-r",
+   "en"
+  ],
+  [
+   "kebinasaan",
+   "root",
+   "root-th-b-r",
+   "ms"
+  ],
+  [
+   "teguh",
+   "root",
+   "root-th-b-t",
+   "ms"
+  ],
+  [
+   "to be firm",
+   "root",
+   "root-th-b-t",
+   "en"
+  ],
+  [
+   "a group",
+   "root",
+   "root-th-l-l",
+   "en"
+  ],
+  [
+   "kumpulan",
+   "root",
+   "root-th-l-l",
+   "ms"
+  ],
+  [
    "three",
    "root",
    "root-th-l-th",
@@ -16048,6 +87515,18 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "harga",
+   "root",
+   "root-th-m-n",
+   "ms"
+  ],
+  [
+   "price",
+   "root",
+   "root-th-m-n",
+   "en"
+  ],
+  [
    "buah",
    "root",
    "root-th-m-r",
@@ -16057,6 +87536,138 @@ const QM_SEARCH_INDEX = {
    "fruit",
    "root",
    "root-th-m-r",
+   "en"
+  ],
+  [
+   "melipat; dua",
+   "root",
+   "root-th-n-y",
+   "ms"
+  ],
+  [
+   "to fold; two",
+   "root",
+   "root-th-n-y",
+   "en"
+  ],
+  [
+   "menembusi",
+   "root",
+   "root-th-q-b",
+   "ms"
+  ],
+  [
+   "to pierce",
+   "root",
+   "root-th-q-b",
+   "en"
+  ],
+  [
+   "menemui",
+   "root",
+   "root-th-q-f",
+   "ms"
+  ],
+  [
+   "to overtake",
+   "root",
+   "root-th-q-f",
+   "en"
+  ],
+  [
+   "berat",
+   "root",
+   "root-th-q-l",
+   "ms"
+  ],
+  [
+   "to be heavy",
+   "root",
+   "root-th-q-l",
+   "en"
+  ],
+  [
+   "celaan",
+   "root",
+   "root-th-r-b",
+   "ms"
+  ],
+  [
+   "reproach",
+   "root",
+   "root-th-r-b",
+   "en"
+  ],
+  [
+   "moist earth",
+   "root",
+   "root-th-r-y",
+   "en"
+  ],
+  [
+   "tanah lembap",
+   "root",
+   "root-th-r-y",
+   "ms"
+  ],
+  [
+   "kembali; ganjaran",
+   "root",
+   "root-th-w-b",
+   "ms"
+  ],
+  [
+   "to return; reward",
+   "root",
+   "root-th-w-b",
+   "en"
+  ],
+  [
+   "menggerakkan",
+   "root",
+   "root-th-w-r",
+   "ms"
+  ],
+  [
+   "to stir up",
+   "root",
+   "root-th-w-r",
+   "en"
+  ],
+  [
+   "menetap",
+   "root",
+   "root-th-w-y",
+   "ms"
+  ],
+  [
+   "to dwell",
+   "root",
+   "root-th-w-y",
+   "en"
+  ],
+  [
+   "a non-virgin; to reward",
+   "root",
+   "root-th-y-b",
+   "en"
+  ],
+  [
+   "janda; membalas",
+   "root",
+   "root-th-y-b",
+   "ms"
+  ],
+  [
+   "menanam hidup-hidup",
+   "root",
+   "root-w-2-d",
+   "ms"
+  ],
+  [
+   "to bury alive",
+   "root",
+   "root-w-2-d",
    "en"
   ],
   [
@@ -16072,6 +87683,114 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menyimpan",
+   "root",
+   "root-w-3-y",
+   "ms"
+  ],
+  [
+   "to retain",
+   "root",
+   "root-w-3-y",
+   "en"
+  ],
+  [
+   "menasihati",
+   "root",
+   "root-w-3-z2",
+   "ms"
+  ],
+  [
+   "to exhort",
+   "root",
+   "root-w-3-z2",
+   "en"
+  ],
+  [
+   "akibat yang berat",
+   "root",
+   "root-w-b-l",
+   "ms"
+  ],
+  [
+   "heavy consequence",
+   "root",
+   "root-w-b-l",
+   "en"
+  ],
+  [
+   "membinasakan",
+   "root",
+   "root-w-b-q",
+   "ms"
+  ],
+  [
+   "to destroy",
+   "root",
+   "root-w-b-q",
+   "en"
+  ],
+  [
+   "bulu unta",
+   "root",
+   "root-w-b-r",
+   "ms"
+  ],
+  [
+   "wool; camel hair",
+   "root",
+   "root-w-b-r",
+   "en"
+  ],
+  [
+   "meninggalkan; mengucap selamat tinggal",
+   "root",
+   "root-w-d-3",
+   "ms"
+  ],
+  [
+   "to leave; to bid farewell",
+   "root",
+   "root-w-d-3",
+   "en"
+  ],
+  [
+   "mengasihi; mengingini",
+   "root",
+   "root-w-d-d",
+   "ms"
+  ],
+  [
+   "to love; to wish",
+   "root",
+   "root-w-d-d",
+   "en"
+  ],
+  [
+   "hujan",
+   "root",
+   "root-w-d-q",
+   "ms"
+  ],
+  [
+   "rain",
+   "root",
+   "root-w-d-q",
+   "en"
+  ],
+  [
+   "lembah",
+   "root",
+   "root-w-d-y",
+   "ms"
+  ],
+  [
+   "valley",
+   "root",
+   "root-w-d-y",
+   "en"
+  ],
+  [
    "meletakkan",
    "root",
    "root-w-d2-3",
@@ -16081,6 +87800,126 @@ const QM_SEARCH_INDEX = {
    "to put down",
    "root",
    "root-w-d2-3",
+   "en"
+  ],
+  [
+   "membiarkan; meninggalkan",
+   "root",
+   "root-w-dh-r",
+   "ms"
+  ],
+  [
+   "to leave; to let be",
+   "root",
+   "root-w-dh-r",
+   "en"
+  ],
+  [
+   "bergegas",
+   "root",
+   "root-w-f-d2",
+   "ms"
+  ],
+  [
+   "to hasten",
+   "root",
+   "root-w-f-d2",
+   "en"
+  ],
+  [
+   "a delegation",
+   "root",
+   "root-w-f-d",
+   "en"
+  ],
+  [
+   "rombongan",
+   "root",
+   "root-w-f-d",
+   "ms"
+  ],
+  [
+   "bersesuaian; memberi taufik",
+   "root",
+   "root-w-f-q",
+   "ms"
+  ],
+  [
+   "to agree; to grant success",
+   "root",
+   "root-w-f-q",
+   "en"
+  ],
+  [
+   "mencukupi",
+   "root",
+   "root-w-f-r",
+   "ms"
+  ],
+  [
+   "to be ample",
+   "root",
+   "root-w-f-r",
+   "en"
+  ],
+  [
+   "menunaikan; menyempurnakan",
+   "root",
+   "root-w-f-y",
+   "ms"
+  ],
+  [
+   "to fulfil; to complete",
+   "root",
+   "root-w-f-y",
+   "en"
+  ],
+  [
+   "mengurniakan; memberi",
+   "root",
+   "root-w-h-b",
+   "ms"
+  ],
+  [
+   "to give; to grant",
+   "root",
+   "root-w-h-b",
+   "en"
+  ],
+  [
+   "menyala",
+   "root",
+   "root-w-h-j",
+   "ms"
+  ],
+  [
+   "to blaze",
+   "root",
+   "root-w-h-j",
+   "en"
+  ],
+  [
+   "lemah",
+   "root",
+   "root-w-h-n",
+   "ms"
+  ],
+  [
+   "to be faint",
+   "root",
+   "root-w-h-n",
+   "en"
+  ],
+  [
+   "lemah",
+   "root",
+   "root-w-h-y",
+   "ms"
+  ],
+  [
+   "to be frail",
+   "root",
+   "root-w-h-y",
    "en"
   ],
   [
@@ -16108,6 +87947,18 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "to be obligatory",
+   "root",
+   "root-w-j-b",
+   "en"
+  ],
+  [
+   "wajib",
+   "root",
+   "root-w-j-b",
+   "ms"
+  ],
+  [
    "mendapati",
    "root",
    "root-w-j-d",
@@ -16130,6 +87981,42 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-w-j-h",
    "ms"
+  ],
+  [
+   "takut",
+   "root",
+   "root-w-j-l",
+   "ms"
+  ],
+  [
+   "to fear",
+   "root",
+   "root-w-j-l",
+   "en"
+  ],
+  [
+   "merasai (takut)",
+   "root",
+   "root-w-j-s",
+   "ms"
+  ],
+  [
+   "to feel (fear)",
+   "root",
+   "root-w-j-s",
+   "en"
+  ],
+  [
+   "bersandar",
+   "root",
+   "root-w-k-2",
+   "ms"
+  ],
+  [
+   "to recline",
+   "root",
+   "root-w-k-2",
+   "en"
   ],
   [
    "menyerahkan; wakil",
@@ -16156,6 +88043,18 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "masuk; memasukkan",
+   "root",
+   "root-w-l-j",
+   "ms"
+  ],
+  [
+   "to enter; to merge",
+   "root",
+   "root-w-l-j",
+   "en"
+  ],
+  [
    "dekat; berpaling",
    "root",
    "root-w-l-y",
@@ -16165,6 +88064,18 @@ const QM_SEARCH_INDEX = {
    "to be near; to turn away",
    "root",
    "root-w-l-y",
+   "en"
+  ],
+  [
+   "lalai; lemah",
+   "root",
+   "root-w-n-y",
+   "ms"
+  ],
+  [
+   "to slacken; to be weary",
+   "root",
+   "root-w-n-y",
    "en"
   ],
   [
@@ -16180,6 +88091,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "menyalakan",
+   "root",
+   "root-w-q-d",
+   "ms"
+  ],
+  [
+   "to kindle",
+   "root",
+   "root-w-q-d",
+   "en"
+  ],
+  [
+   "berdiri; berhenti",
+   "root",
+   "root-w-q-f",
+   "ms"
+  ],
+  [
+   "to stand; to halt",
+   "root",
+   "root-w-q-f",
+   "en"
+  ],
+  [
+   "berat; kewibawaan",
+   "root",
+   "root-w-q-r",
+   "ms"
+  ],
+  [
+   "heaviness; dignity",
+   "root",
+   "root-w-q-r",
+   "en"
+  ],
+  [
+   "a fixed time",
+   "root",
+   "root-w-q-t",
+   "en"
+  ],
+  [
+   "waktu yang ditetapkan",
+   "root",
+   "root-w-q-t",
+   "ms"
+  ],
+  [
    "guarding, protecting, being mindful of",
    "root",
    "root-w-q-y",
@@ -16190,6 +88149,42 @@ const QM_SEARCH_INDEX = {
    "root",
    "root-w-q-y",
    "ms"
+  ],
+  [
+   "tiba di mata air; sampai",
+   "root",
+   "root-w-r-d",
+   "ms"
+  ],
+  [
+   "to come to water; to arrive",
+   "root",
+   "root-w-r-d",
+   "en"
+  ],
+  [
+   "a leaf",
+   "root",
+   "root-w-r-q",
+   "en"
+  ],
+  [
+   "daun",
+   "root",
+   "root-w-r-q",
+   "ms"
+  ],
+  [
+   "mewarisi",
+   "root",
+   "root-w-r-th",
+   "ms"
+  ],
+  [
+   "to inherit",
+   "root",
+   "root-w-r-th",
+   "en"
   ],
   [
    "di belakang; menyembunyikan",
@@ -16213,6 +88208,186 @@ const QM_SEARCH_INDEX = {
    "keluasan, meliputi",
    "root",
    "root-w-s-3",
+   "ms"
+  ],
+  [
+   "mendekatkan diri",
+   "root",
+   "root-w-s-l",
+   "ms"
+  ],
+  [
+   "to seek nearness",
+   "root",
+   "root-w-s-l",
+   "en"
+  ],
+  [
+   "mengumpulkan",
+   "root",
+   "root-w-s-q",
+   "ms"
+  ],
+  [
+   "to gather",
+   "root",
+   "root-w-s-q",
+   "en"
+  ],
+  [
+   "middle",
+   "root",
+   "root-w-s-t2",
+   "en"
+  ],
+  [
+   "tengah",
+   "root",
+   "root-w-s-t2",
+   "ms"
+  ],
+  [
+   "berterusan",
+   "root",
+   "root-w-s2-b",
+   "ms"
+  ],
+  [
+   "constant",
+   "root",
+   "root-w-s2-b",
+   "en"
+  ],
+  [
+   "tertutup",
+   "root",
+   "root-w-s2-d",
+   "ms"
+  ],
+  [
+   "to close over",
+   "root",
+   "root-w-s2-d",
+   "en"
+  ],
+  [
+   "memerihalkan",
+   "root",
+   "root-w-s2-f",
+   "ms"
+  ],
+  [
+   "to describe",
+   "root",
+   "root-w-s2-f",
+   "en"
+  ],
+  [
+   "sampai; menyambung",
+   "root",
+   "root-w-s2-l",
+   "ms"
+  ],
+  [
+   "to reach; to connect",
+   "root",
+   "root-w-s2-l",
+   "en"
+  ],
+  [
+   "berwasiat",
+   "root",
+   "root-w-s2-y",
+   "ms"
+  ],
+  [
+   "to charge; to bequeath",
+   "root",
+   "root-w-s2-y",
+   "en"
+  ],
+  [
+   "a peg; a stake",
+   "root",
+   "root-w-t-d",
+   "en"
+  ],
+  [
+   "pasak",
+   "root",
+   "root-w-t-d",
+   "ms"
+  ],
+  [
+   "the aorta",
+   "root",
+   "root-w-t-n",
+   "en"
+  ],
+  [
+   "urat nadi",
+   "root",
+   "root-w-t-n",
+   "ms"
+  ],
+  [
+   "menzalimi; ganjil",
+   "root",
+   "root-w-t-r",
+   "ms"
+  ],
+  [
+   "to wrong; odd",
+   "root",
+   "root-w-t-r",
+   "en"
+  ],
+  [
+   "memijak",
+   "root",
+   "root-w-t2-2",
+   "ms"
+  ],
+  [
+   "to tread",
+   "root",
+   "root-w-t2-2",
+   "en"
+  ],
+  [
+   "a station",
+   "root",
+   "root-w-t2-n",
+   "en"
+  ],
+  [
+   "tempat",
+   "root",
+   "root-w-t2-n",
+   "ms"
+  ],
+  [
+   "hajat",
+   "root",
+   "root-w-t2-r",
+   "ms"
+  ],
+  [
+   "need; purpose",
+   "root",
+   "root-w-t2-r",
+   "en"
+  ],
+  [
+   "an idol",
+   "root",
+   "root-w-th-n",
+   "en"
+  ],
+  [
+   "berhala",
+   "root",
+   "root-w-th-n",
    "ms"
   ],
   [
@@ -16240,6 +88415,78 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "mengumpulkan; mengilhamkan",
+   "root",
+   "root-w-z-3",
+   "ms"
+  ],
+  [
+   "to marshal; to inspire",
+   "root",
+   "root-w-z-3",
+   "en"
+  ],
+  [
+   "berat; menimbang",
+   "root",
+   "root-w-z-n",
+   "ms"
+  ],
+  [
+   "weight; to weigh",
+   "root",
+   "root-w-z-n",
+   "en"
+  ],
+  [
+   "memikul beban",
+   "root",
+   "root-w-z-r",
+   "ms"
+  ],
+  [
+   "to bear a burden",
+   "root",
+   "root-w-z-r",
+   "en"
+  ],
+  [
+   "putus asa",
+   "root",
+   "root-y-2-s",
+   "ms"
+  ],
+  [
+   "to despair",
+   "root",
+   "root-y-2-s",
+   "en"
+  ],
+  [
+   "kering",
+   "root",
+   "root-y-b-s",
+   "ms"
+  ],
+  [
+   "to be dry",
+   "root",
+   "root-y-b-s",
+   "en"
+  ],
+  [
+   "laut; menuju",
+   "root",
+   "root-y-m-m",
+   "ms"
+  ],
+  [
+   "sea; to aim",
+   "root",
+   "root-y-m-m",
+   "en"
+  ],
+  [
    "right hand; oath; blessing",
    "root",
    "root-y-m-n",
@@ -16249,6 +88496,54 @@ const QM_SEARCH_INDEX = {
    "tangan kanan; sumpah; berkat",
    "root",
    "root-y-m-n",
+   "ms"
+  ],
+  [
+   "certainty",
+   "root",
+   "root-y-q-n",
+   "en"
+  ],
+  [
+   "keyakinan",
+   "root",
+   "root-y-q-n",
+   "ms"
+  ],
+  [
+   "a ruby",
+   "root",
+   "root-y-q-t",
+   "en"
+  ],
+  [
+   "yakut",
+   "root",
+   "root-y-q-t",
+   "ms"
+  ],
+  [
+   "elisha",
+   "root",
+   "root-y-s-3",
+   "en"
+  ],
+  [
+   "ilyasa'",
+   "root",
+   "root-y-s-3",
+   "ms"
+  ],
+  [
+   "ease; to be easy",
+   "root",
+   "root-y-s-r",
+   "en"
+  ],
+  [
+   "kemudahan; mudah",
+   "root",
+   "root-y-s-r",
    "ms"
   ],
   [
@@ -16276,6 +88571,126 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "mendakwa",
+   "root",
+   "root-z-3-m",
+   "ms"
+  ],
+  [
+   "to claim; to assert",
+   "root",
+   "root-z-3-m",
+   "en"
+  ],
+  [
+   "buih",
+   "root",
+   "root-z-b-d",
+   "ms"
+  ],
+  [
+   "froth; scum",
+   "root",
+   "root-z-b-d",
+   "en"
+  ],
+  [
+   "menulis; kitab",
+   "root",
+   "root-z-b-r",
+   "ms"
+  ],
+  [
+   "to write; scripture",
+   "root",
+   "root-z-b-r",
+   "en"
+  ],
+  [
+   "bergegas",
+   "root",
+   "root-z-f-f",
+   "ms"
+  ],
+  [
+   "to hasten",
+   "root",
+   "root-z-f-f",
+   "en"
+  ],
+  [
+   "a sighing",
+   "root",
+   "root-z-f-r",
+   "en"
+  ],
+  [
+   "hembusan nafas",
+   "root",
+   "root-z-f-r",
+   "ms"
+  ],
+  [
+   "lenyap",
+   "root",
+   "root-z-h-q",
+   "ms"
+  ],
+  [
+   "to vanish",
+   "root",
+   "root-z-h-q",
+   "en"
+  ],
+  [
+   "glass",
+   "root",
+   "root-z-j-j",
+   "en"
+  ],
+  [
+   "kaca",
+   "root",
+   "root-z-j-j",
+   "ms"
+  ],
+  [
+   "menghardik; jeritan",
+   "root",
+   "root-z-j-r",
+   "ms"
+  ],
+  [
+   "to rebuke; a blast",
+   "root",
+   "root-z-j-r",
+   "en"
+  ],
+  [
+   "tidak berharga",
+   "root",
+   "root-z-j-w",
+   "ms"
+  ],
+  [
+   "to be of little worth",
+   "root",
+   "root-z-j-w",
+   "en"
+  ],
+  [
+   "menghalau perlahan",
+   "root",
+   "root-z-j-y",
+   "ms"
+  ],
+  [
+   "to drive gently",
+   "root",
+   "root-z-j-y",
+   "en"
+  ],
+  [
    "kesucian; pertumbuhan",
    "root",
    "root-z-k-w",
@@ -16285,6 +88700,90 @@ const QM_SEARCH_INDEX = {
    "purity; growth",
    "root",
    "root-z-k-w",
+   "en"
+  ],
+  [
+   "mendekat",
+   "root",
+   "root-z-l-f",
+   "ms"
+  ],
+  [
+   "to draw near",
+   "root",
+   "root-z-l-f",
+   "en"
+  ],
+  [
+   "anak panah ramalan",
+   "root",
+   "root-z-l-m",
+   "ms"
+  ],
+  [
+   "arrows for divination",
+   "root",
+   "root-z-l-m",
+   "en"
+  ],
+  [
+   "a throng; a flute",
+   "root",
+   "root-z-m-r",
+   "en"
+  ],
+  [
+   "kumpulan; seruling",
+   "root",
+   "root-z-m-r",
+   "ms"
+  ],
+  [
+   "berzina",
+   "root",
+   "root-z-n-y",
+   "ms"
+  ],
+  [
+   "to commit adultery",
+   "root",
+   "root-z-n-y",
+   "en"
+  ],
+  [
+   "pokok zakum",
+   "root",
+   "root-z-q-m",
+   "ms"
+  ],
+  [
+   "the zaqqum tree",
+   "root",
+   "root-z-q-m",
+   "en"
+  ],
+  [
+   "menyemai; tanaman",
+   "root",
+   "root-z-r-3",
+   "ms"
+  ],
+  [
+   "to sow; crops",
+   "root",
+   "root-z-r-3",
+   "en"
+  ],
+  [
+   "bekalan",
+   "root",
+   "root-z-w-d",
+   "ms"
+  ],
+  [
+   "provisions",
+   "root",
+   "root-z-w-d",
    "en"
   ],
   [
@@ -16300,6 +88799,30 @@ const QM_SEARCH_INDEX = {
    "ms"
   ],
   [
+   "berhenti; berganjak",
+   "root",
+   "root-z-w-l",
+   "ms"
+  ],
+  [
+   "to cease; to move away",
+   "root",
+   "root-z-w-l",
+   "en"
+  ],
+  [
+   "dusta; menziarahi",
+   "root",
+   "root-z-w-r",
+   "ms"
+  ],
+  [
+   "falsehood; to visit",
+   "root",
+   "root-z-w-r",
+   "en"
+  ],
+  [
    "bertambah",
    "root",
    "root-z-y-d",
@@ -16309,6 +88832,30 @@ const QM_SEARCH_INDEX = {
    "to increase",
    "root",
    "root-z-y-d",
+   "en"
+  ],
+  [
+   "menyimpang",
+   "root",
+   "root-z-y-gh",
+   "ms"
+  ],
+  [
+   "to swerve",
+   "root",
+   "root-z-y-gh",
+   "en"
+  ],
+  [
+   "memisahkan",
+   "root",
+   "root-z-y-l",
+   "ms"
+  ],
+  [
+   "to separate",
+   "root",
+   "root-z-y-l",
    "en"
   ],
   [
@@ -16324,6 +88871,54 @@ const QM_SEARCH_INDEX = {
    "en"
   ],
   [
+   "minyak; zaitun",
+   "root",
+   "root-z-y-t",
+   "ms"
+  ],
+  [
+   "oil; olive",
+   "root",
+   "root-z-y-t",
+   "en"
+  ],
+  [
+   "a nail; to give victory",
+   "root",
+   "root-z2-f-r",
+   "en"
+  ],
+  [
+   "kuku; memberi kemenangan",
+   "root",
+   "root-z2-f-r",
+   "ms"
+  ],
+  [
+   "to appear; back",
+   "root",
+   "root-z2-h-r",
+   "en"
+  ],
+  [
+   "zahir; belakang",
+   "root",
+   "root-z2-h-r",
+   "ms"
+  ],
+  [
+   "shade; shadow",
+   "root",
+   "root-z2-l-l",
+   "en"
+  ],
+  [
+   "teduh; bayang",
+   "root",
+   "root-z2-l-l",
+   "ms"
+  ],
+  [
    "menzalimi; kegelapan",
    "root",
    "root-z2-l-m",
@@ -16333,6 +88928,18 @@ const QM_SEARCH_INDEX = {
    "to wrong; darkness",
    "root",
    "root-z2-l-m",
+   "en"
+  ],
+  [
+   "dahaga",
+   "root",
+   "root-z2-m-2",
+   "ms"
+  ],
+  [
+   "to be thirsty",
+   "root",
+   "root-z2-m-2",
    "en"
   ],
   [

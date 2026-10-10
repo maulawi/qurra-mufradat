@@ -38,16 +38,23 @@ const QMData = (function () {
   // A pilot analysis of a specific token always wins over the default for its spelling.
   const RULE_FORMS = D.rule_forms || [];
   const RULE_BY_SURFACE = new Map(RULE_FORMS.map(r => [r[1], r]));
-  const RULE_BY_ID = new Map(RULE_FORMS.map(r => ["frm-sd-" + r[0], r]));
+  // Readings chosen for ONE token (a spelling with several readings): same compact record + the token id. They win over the spelling's default.
+  const CONTEXT_FORMS = D.context_forms || [];
+  const CONTEXT_BY_TOKEN = new Map(CONTEXT_FORMS.map(r => [r[6], r]));
+  const RULE_BY_ID = new Map(RULE_FORMS.concat(CONTEXT_FORMS).map(r => ["frm-sd-" + r[0], r]));
+  const RES_NAME = { k: "confident", p: "provisional", x: "context_dependent", u: "unresolved" };
+  const CONTEXT_TOKENS = new Set(D.context_tokens || []);          // pilot tokens with competing analyses
   const POS_NAME = { n: "noun", v: "verb", p: "particle" }, SEG_TYPE = { p: "proclitic", s: "stem", e: "enclitic" };
   const ruleCache = new Map();
   function expandRule(r) {
     const id = "frm-sd-" + r[0];
     let f = ruleCache.get(id);
     if (!f) {
-      f = { form_id: id, surface: r[1], morphology: r[3], status: "provisional", basis: "rule_default", provenance: { form: { source_id: "QURRA_RULE_ANALYSIS" }, morphology: { source_id: "QURRA_RULE_ANALYSIS" } },
+      const meta = r[5] || null;
+      f = { form_id: id, surface: r[1], morphology: r[3], status: meta && meta[4] ? "unresolved" : "provisional", basis: r[6] ? "rule_context" : "rule_default",
+        resolution: meta ? RES_NAME[meta[0]] : "confident", alternatives: meta && meta[1] ? meta[1] : undefined, candidates: meta && meta[2] ? meta[2] : undefined, source_review_required: !!(meta && meta[3]), provenance: { form: { source_id: "QURRA_RULE_ANALYSIS" }, morphology: { source_id: "QURRA_RULE_ANALYSIS" } },
         segmentation_note: r[4] || undefined,
-        segments: r[2].map((s, i) => { const o = { segment_id: id + ".s" + (i + 1), type: SEG_TYPE[s[0]], surface: s[1], pos: POS_NAME[s[2]] };
+        segments: r[2].map((s, i) => { const o = { segment_id: id + ".s" + (i + 1), type: SEG_TYPE[s[0]], surface: s[1], pos: POS_NAME[s[2]] || null };
           if (s[3]) o.function = s[3]; if (s[0] === "s") o.lemma_id = s[4] || null;
           if (s[5]) o.pronoun_features = { person: s[5][0], number: s[5][1], ...(s[5][2] ? { gender: s[5][2] } : {}) }; return o; }) };
       ruleCache.set(id, f);
@@ -58,8 +65,10 @@ const QMData = (function () {
   function formAssignment(tokenId, word) {
     const tf = TOKEN_FORM.get(tokenId);
     if (tf) return tf;
+    const c = CONTEXT_BY_TOKEN.get(tokenId);
+    if (c) return { token_id: tokenId, form_id: "frm-sd-" + c[0], status: "provisional", basis: "rule_context", provenance: { form: { source_id: "QURRA_RULE_ANALYSIS" } } };
     const r = RULE_BY_SURFACE.get(word);
-    return r ? { token_id: tokenId, form_id: "frm-sd-" + r[0], status: "provisional", basis: "rule_default", provenance: { form: { source_id: "QURRA_RULE_ANALYSIS" } } } : null;
+    return r ? { token_id: tokenId, form_id: "frm-sd-" + r[0], status: r[5] && r[5][4] ? "unresolved" : "provisional", basis: "rule_default", provenance: { form: { source_id: "QURRA_RULE_ANALYSIS" } } } : null;
   }
   const LEMMA = index(D.lemmas, "lemma_id");
   const ROOT = index(D.roots, "root_id");
@@ -120,6 +129,7 @@ const QMData = (function () {
     if (last && last.surahId === a.surah && last.to === a.ayah - 1) { last.to = a.ayah; last.count++; }
     else rs.push({ surahId: a.surah, from: a.ayah, to: a.ayah, count: 1 });
   });
+  const RESOLUTION_BY_SURAH = new Map(), RESOLUTION_BY_JUZ = new Map();   // number -> { confident, provisional, context_dependent, unresolved }
   const ANALYSED_AYAHS = new Map();        // surah number -> sorted ayah numbers with at least one analysed token
   const ANALYSED_BY_JUZ = new Map();       // juz number -> count of such ayahs
   const TOKENS_BY_SURAH = new Map(), ANALYSED_TOKENS_BY_SURAH = new Map();   // surah number -> words / analysed words
@@ -129,7 +139,17 @@ const QMData = (function () {
     D.ayahs.forEach(a => {
       const words = a.text.split(" ");
       let analysed = 0;
-      words.forEach((w, i) => { if (TOKEN_FORM.has(a.ayah_id + ":" + (i + 1)) || RULE_BY_SURFACE.has(w)) analysed++; });
+      const tally = (m, k, res) => { let o = m.get(k); if (!o) { o = { confident: 0, provisional: 0, context_dependent: 0, unresolved: 0 }; m.set(k, o); } o[res]++; };
+      words.forEach((w, i) => {
+        const tid = a.ayah_id + ":" + (i + 1), tf = TOKEN_FORM.get(tid), rr = CONTEXT_BY_TOKEN.get(tid) || RULE_BY_SURFACE.get(w);
+        if (!tf && !rr) return;
+        analysed++;
+        let res;
+        if (CONTEXT_TOKENS.has(tid)) res = "context_dependent";
+        else if (tf) res = (FORM.get(tf.form_id) || {}).resolution || "provisional";
+        else res = RES_NAME[(rr[5] || ["k"])[0]];
+        tally(RESOLUTION_BY_SURAH, a.surah, res); tally(RESOLUTION_BY_JUZ, a.juz, res);
+      });
       bump(TOKENS_BY_SURAH, a.surah, words.length); bump(ANALYSED_TOKENS_BY_SURAH, a.surah, analysed);
       bump(TOKENS_BY_JUZ, a.juz, words.length); bump(ANALYSED_TOKENS_BY_JUZ, a.juz, analysed);
       if (analysed) {
@@ -147,14 +167,15 @@ const QMData = (function () {
       id: s.surah_id, number: s.number, nameAr: s.name_ar, nameEn: s.name_en, nameMs: s.name_ms, meaningEn: s.meaning_en,
       ayahCount: s.ayah_count, revelation: s.revelation, revelationOrder: s.revelation_order, status: s.status,
       analysedAyahs: (ANALYSED_AYAHS.get(s.number) || []).slice(),    // ayahs with at least one analysed word
-      tokenCount: TOKENS_BY_SURAH.get(s.number) || 0, analysedTokenCount: ANALYSED_TOKENS_BY_SURAH.get(s.number) || 0
+      tokenCount: TOKENS_BY_SURAH.get(s.number) || 0, analysedTokenCount: ANALYSED_TOKENS_BY_SURAH.get(s.number) || 0,
+      resolution: { ...(RESOLUTION_BY_SURAH.get(s.number) || {}) }
     };
   }
   function juzView(j) {
     const surahIds = Array.from(JUZ_SURAHS.get(j.juz) || []).sort((a, b) => a - b);
     const ranges = (JUZ_RANGES.get(j.juz) || []).map(r => ({ ...r }));
     const first = ranges[0], last = ranges[ranges.length - 1];
-    return { number: j.juz, nameAr: j.name_ar, start: { ...j.start }, surahIds, note: j.note, analysedAyahCount: ANALYSED_BY_JUZ.get(j.juz) || 0, tokenCount: TOKENS_BY_JUZ.get(j.juz) || 0, analysedTokenCount: ANALYSED_TOKENS_BY_JUZ.get(j.juz) || 0,
+    return { number: j.juz, nameAr: j.name_ar, start: { ...j.start }, surahIds, note: j.note, analysedAyahCount: ANALYSED_BY_JUZ.get(j.juz) || 0, tokenCount: TOKENS_BY_JUZ.get(j.juz) || 0, analysedTokenCount: ANALYSED_TOKENS_BY_JUZ.get(j.juz) || 0, resolution: { ...(RESOLUTION_BY_JUZ.get(j.juz) || {}) },
       ranges, totalAyahs: ranges.reduce((n, r) => n + r.count, 0),
       firstAyah: first ? { surah: first.surahId, ayah: first.from } : null, lastAyah: last ? { surah: last.surahId, ayah: last.to } : null };
   }
@@ -245,7 +266,8 @@ const QMData = (function () {
       pos: primary ? primary.pos : null,
       morphology: camelDeep(f.morphology),
       segmentationNote: f.segmentation_note || null,
-      status: f.status, provenance: f.provenance
+      status: f.status, provenance: f.provenance,
+      resolution: f.resolution || "provisional", alternatives: f.alternatives || [], candidates: f.candidates || [], sourceReviewRequired: !!f.source_review_required
     };
   }
 
@@ -275,6 +297,8 @@ const QMData = (function () {
       segmentationNote: form ? form.segmentationNote : null,
       formId: form ? form.id : null, stemCount: form ? form.stemCount : 0,
       status: tf ? tf.status : "imported",
+      resolution: form ? (CONTEXT_TOKENS.has(tokenId) ? "context_dependent" : form.resolution) : null,   // confident | provisional | context_dependent | unresolved
+      alternatives: form ? form.alternatives : [], candidates: form ? form.candidates : [], sourceReviewRequired: form ? form.sourceReviewRequired : false,
       analysisBasis: tf ? (tf.basis || "pilot") : null,       // "rule_default" (default reading of the spelling) | "pilot" (analysed for this token)
       lemma,
       sourceIds: sourceIdsForToken(ayah, form, lemma),

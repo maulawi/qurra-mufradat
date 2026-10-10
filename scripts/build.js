@@ -9,7 +9,7 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 function run(label, args) {
   console.log(`\n== ${label}`);
-  const r = spawnSync(process.execPath, args, { cwd: ROOT, stdio: "inherit" });
+  const r = spawnSync(process.execPath, ["--max-old-space-size=8192", ...args], { cwd: ROOT, stdio: "inherit" });
   if (r.status !== 0) { console.error(`\nbuild: step failed: ${label}`); process.exit(r.status || 1); }
 }
 

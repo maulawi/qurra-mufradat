@@ -77,7 +77,15 @@ const QMRender = (function () {
   function pctOf(n, d) { return d ? (Math.round(1000 * n / d) / 10).toString() : "0"; }
   function coverageOf(surahs) {
     const analysed = surahs.reduce((n, x) => n + x.analysedTokenCount, 0), total = surahs.reduce((n, x) => n + x.tokenCount, 0);
-    return { analysed, total, pct: pctOf(analysed, total) };
+    const by = { confident: 0, provisional: 0, context_dependent: 0, unresolved: 0 };
+    surahs.forEach(x => Object.keys(by).forEach(k => { by[k] += (x.resolution && x.resolution[k]) || 0; }));
+    return { analysed, total, pct: pctOf(analysed, total), complete: total > 0 && analysed === total, by };
+  }
+  const nf = n => n.toLocaleString("en-US");
+  /** "Complete" once every word has an analysis record; otherwise the percentage. Uncertainty is shown separately, never hidden. */
+  function coverageLabel(analysed, total) { return analysed === total && total > 0 ? QMI18n.t("juzCard.complete") : pctOf(analysed, total) + "%"; }
+  function coverageNote(c, key) {
+    return QMI18n.t(key, { total: nf(c.total), confident: nf(c.by.confident), provisional: nf(c.by.provisional), context: nf(c.by.context_dependent), unresolved: nf(c.by.unresolved) });
   }
 
   function occCaption(total, shown) {
@@ -86,18 +94,22 @@ const QMRender = (function () {
 
   /* ---------------- Home ---------------- */
 
-  function renderHome() {
-    const juzList = QMData.listJuz();
-    const cov = coverageOf(QMData.listSurahs());
-
-    const juzGrid = juzList.map(j => `
+  function juzCards(juzList) {
+    return juzList.map(j => `
       <a href="#/juz/${j.number}" class="qm-card qm-card--interactive qm-juz-card" data-route-link>
         <span class="qm-juz-card__number">${j.number}</span>
         <span class="qm-juz-card__ar qm-arabic">${j.nameAr}</span>
         ${j.analysedTokenCount > 0
-          ? `<span class="qm-badge qm-badge--demo">${QMI18n.t("juzCard.analysed")} · ${pctOf(j.analysedTokenCount, j.tokenCount)}%</span>`
+          ? `<span class="qm-badge qm-badge--demo" data-coverage="${j.analysedTokenCount === j.tokenCount ? "complete" : "partial"}">${QMI18n.t("juzCard.analysed")} · ${coverageLabel(j.analysedTokenCount, j.tokenCount)}</span>${j.analysedTokenCount === j.tokenCount ? `<span class="qm-muted" style="font-size:var(--qm-fs-xs)">${QMI18n.t("juzCard.provisionalIncluded")}</span>` : ""}`
           : `<span class="qm-badge qm-muted">${QMI18n.t("juzCard.textOnly")}</span>`}
       </a>`).join("");
+  }
+
+  function renderHome() {
+    const juzList = QMData.listJuz();
+    const cov = coverageOf(QMData.listSurahs());
+
+    const juzGrid = juzCards(juzList);
 
     const html = `
       <section class="qm-hero">
@@ -112,7 +124,7 @@ const QMRender = (function () {
         </div>
       </section>
 
-      ${demoNote(QMI18n.t("home.demoNoteTemplate", { analysed: cov.analysed.toLocaleString("en-US"), total: cov.total.toLocaleString("en-US"), pct: cov.pct }))}
+      ${cov.complete ? demoNote(coverageNote(cov, "home.demoNoteCompleteTemplate")) : demoNote(QMI18n.t("home.demoNoteTemplate", { analysed: cov.analysed.toLocaleString("en-US"), total: cov.total.toLocaleString("en-US"), pct: cov.pct }))}
 
       <h2>${QMI18n.t("home.browseByJuz")}</h2>
       <div class="qm-grid">${juzGrid}</div>
@@ -125,6 +137,32 @@ const QMRender = (function () {
   function juzMeta(juz) {
     const first = QMData.getSurah(juz.start.surah);
     return QMI18n.t("juz.startsAtTemplate", { surah: first ? first.nameEn : juz.start.surah, ayah: juz.start.ayah });
+  }
+
+  /** #/juz — every Juz, from the existing Juz data. */
+  function renderJuzIndex() {
+    const header = pageHeader({
+      eyebrow: QMI18n.t("juz.eyebrow"),
+      title: QMI18n.t("juz.indexTitle"),
+      breadcrumbs: [{ label: QMI18n.t("nav.home"), href: "#/home" }, { label: QMI18n.t("nav.juz") }],
+      meta: QMI18n.t("juz.indexIntro")
+    });
+    return { html: `${header}<div class="qm-grid" data-juz-index>${juzCards(QMData.listJuz())}</div>` };
+  }
+
+  /** Previous / next Juz links and a strip of all Juz, so any Juz is one click away. */
+  function juzSwitcher(current) {
+    const all = QMData.listJuz();
+    const prev = all.find(j => j.number === current - 1), next = all.find(j => j.number === current + 1);
+    const nav = `<div class="qm-row" style="justify-content:space-between;gap:.5rem;margin:.75rem 0">
+        ${prev ? `<a class="qm-btn qm-btn--secondary" href="#/juz/${prev.number}" data-route-link data-juz-prev>${QMI18n.t("juz.prevJuz", { n: prev.number })}</a>` : "<span></span>"}
+        <a class="qm-btn qm-btn--secondary" href="#/juz" data-route-link>${QMI18n.t("juz.allJuz")}</a>
+        ${next ? `<a class="qm-btn qm-btn--secondary" href="#/juz/${next.number}" data-route-link data-juz-next>${QMI18n.t("juz.nextJuz", { n: next.number })}</a>` : "<span></span>"}
+      </div>`;
+    const strip = `<nav class="qm-row" style="flex-wrap:wrap;gap:.35rem;margin-bottom:1rem" aria-label="${QMI18n.t("juz.allJuz")}" data-juz-strip>
+        ${all.map(j => `<a class="qm-btn qm-btn--secondary" style="padding:.15rem .55rem${j.number === current ? ";font-weight:700" : ""}" href="#/juz/${j.number}" data-route-link${j.number === current ? ' aria-current="page"' : ""}>${j.number}</a>`).join("")}
+      </nav>`;
+    return nav + strip;
   }
 
   function renderJuz(juzNumber) {
@@ -153,7 +191,7 @@ const QMRender = (function () {
       body = `<h2>${QMI18n.t("juz.surahsInJuz")}</h2><div class="qm-stack">${juz.ranges.map(r => rangeCard(r, juz.number)).join("")}</div>`;
     }
 
-    return { html: `${header}${body}` };
+    return { html: `${header}${juzSwitcher(juz.number)}${body}` };
   }
 
   /** One surah's share of a Juz: "Al-Baqarah 1–141", linking to just that range. */
@@ -183,7 +221,7 @@ const QMRender = (function () {
           <span class="qm-surah-card__ar qm-arabic">${s.nameAr}</span>
           <span class="qm-surah-card__en">${esc(s.nameEn)} · ${QMI18n.t("enum.revelation." + s.revelation)}</span>
         </span>
-        <span class="qm-surah-card__meta">${s.analysedTokenCount ? QMI18n.t("surahCard.ayahsAnalysedTemplate", { total: s.ayahCount, pct: pctOf(s.analysedTokenCount, s.tokenCount) }) : QMI18n.t("surahCard.ayahsTemplate", { total: s.ayahCount })}</span>
+        <span class="qm-surah-card__meta">${s.analysedTokenCount ? (s.analysedTokenCount === s.tokenCount ? QMI18n.t("surahCard.ayahsCompleteTemplate", { total: s.ayahCount }) : QMI18n.t("surahCard.ayahsAnalysedTemplate", { total: s.ayahCount, pct: pctOf(s.analysedTokenCount, s.tokenCount) })) : QMI18n.t("surahCard.ayahsTemplate", { total: s.ayahCount })}</span>
       </a>`;
   }
 
@@ -267,7 +305,9 @@ const QMRender = (function () {
       title: surah.nameEn,
       titleAr: surah.nameAr,
       breadcrumbs,
-      meta: juzRange ? QMI18n.t("juz.surahInJuzTemplate", { juz: juz.number, from: juzRange.from, to: juzRange.to, total: surah.ayahCount }) : surah.analysedTokenCount
+      meta: juzRange ? QMI18n.t("juz.surahInJuzTemplate", { juz: juz.number, from: juzRange.from, to: juzRange.to, total: surah.ayahCount }) : surah.analysedTokenCount === surah.tokenCount && surah.tokenCount > 0
+        ? QMI18n.t("surah.metaCompleteTemplate", { revelation: QMI18n.t("enum.revelation." + surah.revelation), ayahCount: surah.ayahCount, tokenCount: nf(surah.tokenCount) })
+        : surah.analysedTokenCount
         ? QMI18n.t("surah.metaAnalysedTemplate", { revelation: QMI18n.t("enum.revelation." + surah.revelation), ayahCount: surah.ayahCount, analysedCount: surah.analysedTokenCount.toLocaleString("en-US"), tokenCount: surah.tokenCount.toLocaleString("en-US") })
         : QMI18n.t("surah.metaTemplate", { revelation: QMI18n.t("enum.revelation." + surah.revelation), ayahCount: surah.ayahCount })
     });
@@ -285,7 +325,10 @@ const QMRender = (function () {
       };
     }
 
-    const note = surah.analysedTokenCount
+    const surahCov = { total: surah.tokenCount, by: { confident: 0, provisional: 0, context_dependent: 0, unresolved: 0, ...(surah.resolution || {}) } };
+    const note = surah.analysedTokenCount === surah.tokenCount && surah.tokenCount > 0
+      ? demoNote(coverageNote(surahCov, "surah.demoNoteCompleteTemplate"))
+      : surah.analysedTokenCount
       ? demoNote(QMI18n.t("surah.demoNoteTemplate", { analysedCount: surah.analysedTokenCount.toLocaleString("en-US"), tokenCount: surah.tokenCount.toLocaleString("en-US"), pct: pctOf(surah.analysedTokenCount, surah.tokenCount) }))
       : demoNote(QMI18n.t("surah.textOnlyNote"));
 
@@ -469,7 +512,7 @@ const QMRender = (function () {
   }
 
   return {
-    renderHome, renderJuz, renderSurahs, renderSurah,
+    renderHome, renderJuz, renderJuzIndex, renderSurahs, renderSurah,
     renderRoots, renderRoot, renderLemmas, renderLemma,
     notFound, applyFilterToWords, esc
   };

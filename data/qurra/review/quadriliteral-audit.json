@@ -5,7 +5,7 @@
     {
       "letters": 3,
       "category": "thulathi",
-      "count": 285
+      "count": 1329
     }
   ],
   "B_lemmas_with_four_letter_root_candidates": [
@@ -83,6 +83,286 @@
         "ز ل ل"
       ],
       "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "ankabut-1",
+      "form": "عَنكَبُوت",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ع ن ك ب"
+      ],
+      "all_candidates": [
+        "ع ن ك ب"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "barzakh-1",
+      "form": "بَرْزَخ",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ب ر ز خ"
+      ],
+      "all_candidates": [
+        "ب ر ز خ"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "buthira-1",
+      "form": "بُعْثِرَ",
+      "pos": "verb",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ب ع ث ر"
+      ],
+      "all_candidates": [
+        "ب ع ث ر"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "firdaws-1",
+      "form": "فِرْدَوْس",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ف ر د س"
+      ],
+      "all_candidates": [
+        "ف ر د س"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "hanjara-1",
+      "form": "حَنْجَرَة",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ح ن ج ر"
+      ],
+      "all_candidates": [
+        "ح ن ج ر"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "hayya-1",
+      "form": "هَيْهَات",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ه ي ه ت"
+      ],
+      "all_candidates": [
+        "ه ي ه ت"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "imsak-1",
+      "form": "إِمْسَاك",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ء م س ك"
+      ],
+      "all_candidates": [
+        "ء م س ك"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "kawkab-1",
+      "form": "كَوْكَب",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ك و ك ب"
+      ],
+      "all_candidates": [
+        "ك و ك ب"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "khardal-1",
+      "form": "خَرْدَل",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "خ ر د ل"
+      ],
+      "all_candidates": [
+        "خ ر د ل"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "khinzir-1",
+      "form": "خِنزِير",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "خ ن ز ر"
+      ],
+      "all_candidates": [
+        "خ ن ز ر"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "lulu-1",
+      "form": "لُؤْلُؤ",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ل ء ل ء"
+      ],
+      "all_candidates": [
+        "ل ء ل ء"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "qintar-1",
+      "form": "قِنطَار",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ق ن ط ر"
+      ],
+      "all_candidates": [
+        "ق ن ط ر"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "qirtas-1",
+      "form": "قِرْطَاس",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ق ر ط س"
+      ],
+      "all_candidates": [
+        "ق ر ط س"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "qistas-1",
+      "form": "قِسْطَاس",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ق س ط س"
+      ],
+      "all_candidates": [
+        "ق س ط س"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "sarmad-1",
+      "form": "سَرْمَد",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "س ر م د"
+      ],
+      "all_candidates": [
+        "س ر م د"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "silsila-1",
+      "form": "سِلْسِلَة",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "س ل س ل"
+      ],
+      "all_candidates": [
+        "س ل س ل"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "sirbal-1",
+      "form": "سِرْبَال",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "س ر ب ل"
+      ],
+      "all_candidates": [
+        "س ر ب ل"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "sunbula-1",
+      "form": "سُنۢبُلَة",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "س ن ب ل"
+      ],
+      "all_candidates": [
+        "س ن ب ل"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "sundus-1",
+      "form": "سُنْدُس",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "س ن د س"
+      ],
+      "all_candidates": [
+        "س ن د س"
+      ],
+      "note": "recorded as disputed; no root assigned"
+    },
+    {
+      "lemma_id": "zukhruf-1",
+      "form": "زُخْرُف",
+      "pos": "noun",
+      "status": "unresolved",
+      "root_id": null,
+      "four_letter_candidates": [
+        "ز خ ر ف"
+      ],
+      "all_candidates": [
+        "ز خ ر ف"
+      ],
+      "note": "recorded as disputed; no root assigned"
     }
   ],
   "C_lemma_spellings_flagged": [
@@ -155,6 +435,52 @@
         "ز ل ز ل",
         "ز ل ل"
       ],
+      "reasons": [
+        "reduplicated spelling (c1 c2 c1 c2)"
+      ]
+    },
+    {
+      "lemma_id": "lulu-1",
+      "form": "لُؤْلُؤ",
+      "pos": "noun",
+      "skeleton": "لؤلؤ",
+      "root_status": "unresolved",
+      "candidates": [
+        "ل ء ل ء"
+      ],
+      "reasons": [
+        "reduplicated spelling (c1 c2 c1 c2)"
+      ]
+    },
+    {
+      "lemma_id": "salsal-1",
+      "form": "صَلْصَٰل",
+      "pos": "noun",
+      "skeleton": "صلصل",
+      "root_status": "unresolved",
+      "candidates": [],
+      "reasons": [
+        "reduplicated spelling (c1 c2 c1 c2)"
+      ]
+    },
+    {
+      "lemma_id": "sarsar-1",
+      "form": "صَرْصَر",
+      "pos": "noun",
+      "skeleton": "صرصر",
+      "root_status": "provisional",
+      "candidates": [],
+      "reasons": [
+        "reduplicated spelling (c1 c2 c1 c2)"
+      ]
+    },
+    {
+      "lemma_id": "wadud-1",
+      "form": "وَدُود",
+      "pos": "noun",
+      "skeleton": "ودود",
+      "root_status": "provisional",
+      "candidates": [],
       "reasons": [
         "reduplicated spelling (c1 c2 c1 c2)"
       ]

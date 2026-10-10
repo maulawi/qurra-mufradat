@@ -32,15 +32,18 @@ ok("the whole dataset validates", validate(ds).errors.length === 0, validate(ds)
 }
 
 /* ---------- every token resolves to an explicit state ---------- */
-const ruleSurfaces = new Set(ds.forms.filter(f => f.basis === "rule_default").map(f => f.surface));
+const ruleSurfaces = new Set(ds.forms.filter(f => f.basis === "rule_default").map(f => f.surface));          // every spelling has a record
+const resolvedSurfaces = new Set(ds.forms.filter(f => f.basis === "rule_default" && f.status !== "unresolved").map(f => f.surface));
 const pilotIds = new Set(ds.effectiveTokenForms.map(t => t.token_id));
 let analysed = 0, unanalysed = 0, bad = [];
 for (let s = 1; s <= 114; s++) for (const a of D.listAyahsInSurah(s)) for (const t of a.tokens) {
-  const expectAnalysed = pilotIds.has(t.id) || ruleSurfaces.has(t.surfaceForm);
+  const expectAnalysed = pilotIds.has(t.id) || ruleSurfaces.has(t.surfaceForm);   // all of them
   if (t.analysed !== expectAnalysed) bad.push(t.id + " analysed=" + t.analysed);
   if (t.analysed) {
     analysed++;
-    if (!t.pos || !t.segments.length || !t.formId || !["provisional", "reviewed", "verified"].includes(t.status) || !t.analysisBasis) bad.push(t.id + " incomplete");
+    if (t.status === "unresolved") {
+      if (t.pos !== null || t.lemma !== null || t.segments.length !== 1 || t.segments[0].lemmaId !== null || !["unresolved", "context_dependent"].includes(t.resolution) || !t.formId || !t.sourceReviewRequired) bad.push(t.id + " unresolved record claims something");
+    } else if (!t.pos || !t.segments.length || !t.formId || !["provisional", "reviewed", "verified"].includes(t.status) || !t.analysisBasis) bad.push(t.id + " incomplete");
     if (t.coverage.form !== "available") bad.push(t.id + " coverage.form");
   } else {
     unanalysed++;
@@ -50,14 +53,14 @@ for (let s = 1; s <= 114; s++) for (const a of D.listAyahsInSurah(s)) for (const
 ok("every one of 77,441 tokens is explicitly analysed or explicitly unanalysed", analysed + unanalysed === 77441, String(analysed + unanalysed));
 ok("analysed state matches the source files for every token (pilot assignment or spelling default)", bad.length === 0, bad.slice(0, 3).join(", "));
 ok("a large share of the Qur'an is analysed (expansion happened)", analysed > 40000, String(analysed));
-ok("some tokens are honestly unanalysed (nothing is guessed to reach 100%)", unanalysed > 0);
+ok("every token has an analysis record (100% coverage of the analysis system)", unanalysed === 0 && analysed === 77441, String(unanalysed));
 
 /* ---------- analysed tokens resolve ---------- */
 {
   const t = D.getToken("2:6:3");                         // كَفَرُوا۟
   ok("a verb resolves: pos, lemma, aspect/person/number, meaning, provisional", t.analysed && t.pos === "verb" && t.lemma && t.lemma.id === "kafara-1" && t.morphology.aspect === "maadi" && t.morphology.person === 3 && t.morphology.number === "jama" && t.status === "provisional" && t.coverage.glossEn && t.coverage.glossMs);
   const p = D.getToken("2:7:5");                         // a particle with a function
-  ok("every analysed token has a status and a basis; none is claimed reviewed", analysed > 0 && [...document_statuses()].every(s => s === "provisional"));
+  ok("every analysed token has a status and a basis; none is claimed reviewed", analysed > 0 && [...document_statuses()].every(s => s === "provisional" || s === "unresolved"));
   function* document_statuses() { for (const f of ds.forms) if (f.basis) yield f.status; }
   const withEnclitic = (() => { for (let s = 1; s <= 3; s++) for (const a of D.listAyahsInSurah(s)) for (const x of a.tokens) if (x.segments.some(g => g.type === "enclitic") && x.analysisBasis === "rule_default") return x; return null; })();
   ok("an attached pronoun is its own enclitic segment with person and number", withEnclitic && withEnclitic.segments.some(g => g.type === "enclitic" && g.pronounFeatures && g.pronounFeatures.person && g.pronounFeatures.number));
@@ -113,7 +116,7 @@ ok("some tokens are honestly unanalysed (nothing is guessed to reach 100%)", una
   ok("a deliberately unanalysed pilot token stays unanalysed (not filled by a default)", nullChosen.every(s => { const t = D.getToken(s.token_id); return !ds.forms.some(f => f.basis === "rule_default" && f.surface === t.surfaceForm) || t.analysed === true; }) || true);
   const rep = JSON.parse(read("data/qurra/generated/report.json"));
   ok("where a default differs from a pilot analysis it is reported, not applied (every pilot token still carries its own form)", Array.isArray(rep.pilot_conflicts) && rep.pilot_conflicts.length >= 1 && ds.effectiveTokenForms.every(t => D.getToken(t.token_id).formId === t.form_id));
-  ok("spellings with two readings are reported as ambiguous and left unanalysed", Array.isArray(rep.ambiguous_top) && rep.ambiguous_top.every(a => !ruleSurfaces.has(a.surface)));
+  ok("spellings with two readings are reported as ambiguous and left unanalysed", Array.isArray(rep.ambiguous_top) && rep.ambiguous_top.every(a => !resolvedSurfaces.has(a.surface)));
 }
 
 /* ---------- search over analysed content ---------- */

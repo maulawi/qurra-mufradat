@@ -54,6 +54,7 @@ These are open. The pilot contains records that touch each of them, and none has
 12. **Classification of `ي و م`:** stored as `lafif_maqrun`, a type this project defines for the 2nd and 3rd letters.
 13. **Is the alternative analysis of `كان` genuine:** the "auxiliary particle" alternative at `2:34:11` (recorded conflict `cf-pos-kaana`) may not be a position any scholar holds.
 14. **Is the `إله` alternative genuine:** the `اللَّه` alternative at `2:255:3` (recorded conflict `cf-lemma-ilah`).
+15. **Feminine elative as lemma:** whether a feminine elative (`كُبْرَىٰ`, `أُخْرَىٰ`, `دُنْيَا`, `أُولَىٰ`) is its own lemma or a form of the masculine (`أَكْبَر`, `ءَاخَر`, `أَدْنَىٰ`, `أَوَّل`). The pilot keeps them separate and the coverage expansion followed it (see `docs/lemma-fragmentation-audit.md`).
 
 ## 4. Root length and source indexing (model note)
 
