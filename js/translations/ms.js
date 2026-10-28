@@ -23,7 +23,7 @@ const QM_I18N_MS = {
   },
 
   badge: {
-    demo: "Prototaip · Analisis perkataan sementara"
+    demo: "Versi beta"
   },
 
   nav: {
@@ -39,19 +39,18 @@ const QM_I18N_MS = {
   },
 
   home: {
-    tagline: "Terokai setiap patah kata dalam al-Quran, Juzuk demi Juzuk.",
-    description: "QURRA Mufradat ialah penjelajah kosa kata al-Quran: teks al-Quran yang lengkap, perkataan demi perkataan, Juzuk demi Juzuk. Analisis perkataan (lemma, akar kata, bentuk tatabahasa, makna) meliputi sebahagian besar teks dan bersifat sementara: ditulis oleh QURRA dan dijana melalui peraturan, belum disemak oleh sarjana.",
-    ctaExplore: "Terokai al-Quran",
-    ctaBrowse: "Layari Kosa Kata",
-    demoNoteCompleteTemplate: 'Teks al-Quran yang lengkap (114 surah, 6,236 ayat) disertakan, dan <strong>setiap satu daripada {total} perkataan mempunyai rekod analisis perkataan</strong>. Mengikut bacaan: {confident} satu bacaan, {provisional} sementara (akar kata masih terbuka), {context} bergantung pada konteks, {unresolved} belum selesai dan ditandakan "semakan pakar diperlukan". Liputan lengkap tidak bermaksud kepastian lengkap: semua analisis ditulis oleh QURRA, dijana oleh peraturan, dan belum disemak oleh sarjana.',
-    demoNoteTemplate: 'Teks al-Quran yang lengkap (114 surah, 6,236 ayat) disertakan. Analisis perkataan sementara (lemma, akar kata, morfologi, makna) meliputi <strong>{pct}% perkataan</strong> ({analysed} daripada {total}). Ia ditulis oleh QURRA dan dijana melalui peraturan, belum disemak oleh sarjana. Perkataan tanpa analisis hanya memaparkan teksnya, ditanda "belum dianalisis".',
-    browseByJuz: "Layari mengikut Juzuk"
+    tagline: "Terokai al-Quran, perkataan demi perkataan.",
+    sectionsLabel: "Terokai QURRA Mufradat",
+    cardJuz: "Layari mengikut Juzuk",
+    cardSurahs: "Semua 114 Surah",
+    cardRoots: "Terokai akar kata",
+    cardLemmas: "Bentuk kamus",
+    betaTitle: "Versi beta",
+    betaBody: "Pengesahan sedang dijalankan."
   },
 
   juzCard: {
     analysed: "Analisis perkataan",
-    complete: "Lengkap",
-    provisionalIncluded: "Termasuk analisis sementara",
     textOnly: "Teks sahaja"
   },
 
@@ -63,43 +62,38 @@ const QM_I18N_MS = {
     surahInJuzTemplate: "Juz {juz}: ayat {from}–{to} daripada {total}",
     eyebrow: "JUZUK",
     indexTitle: "Juzuk 1–30",
-    indexIntro: "Pilih juzuk untuk melihat surah dan julat ayat di dalamnya.",
+    indexIntro: "Pilih juzuk untuk melihat surahnya.",
     allJuz: "Semua juzuk",
     prevJuz: "← Juzuk {n}",
     nextJuz: "Juzuk {n} →",
     titleTemplate: "Juzuk {n}",
-    notAvailableTitle: "Belum tersedia dalam prototaip ini",
-    notAvailableBody: "Juzuk ini masih belum mempunyai data perkataan demo. Liputan penuh al-Quran adalah peringkat pembangunan akan datang — rujuk ROADMAP.md dalam fail projek.",
-    viewJuz1: "Lihat demo Juzuk 1",
-    viewJuz30: "Lihat demo Juzuk 30",
+    notAvailableTitle: "Belum tersedia",
+    notAvailableBody: "Juzuk ini belum mempunyai data perkataan.",
+    viewJuz1: "Lihat Juzuk 1",
+    viewJuz30: "Lihat Juzuk 30",
     surahsInJuz: "Surah dalam Juzuk ini",
-    startsAtTemplate: "Bermula di {surah} {ayah}",
-    unavailableNote: "Belum tersedia dalam prototaip ini. Liputan penuh adalah peringkat akan datang — rujuk ROADMAP.md."
+    startsAtTemplate: "Bermula di {surah} {ayah}"
   },
 
   surahs: {
     eyebrow: "KOSA KATA",
-    title: "Surah",
-    noteTemplate: "Kesemua 114 surah disertakan. Analisis perkataan sementara meliputi {pct}% semua perkataan; setiap perkataan teks dipaparkan."
+    title: "Surah"
   },
 
   surahCard: {
     ayahsTemplate: "{total} ayat",
-    ayahsAnalysedTemplate: "{total} ayat · {pct}% perkataan dianalisis",
-    ayahsCompleteTemplate: "{total} ayat · analisis perkataan lengkap"
+    ayahsAnalysedTemplate: "{total} ayat · {pct}% dianalisis"
   },
 
   surah: {
     metaTemplate: "{revelation} · {ayahCount} ayat",
-    metaCompleteTemplate: "{revelation} · {ayahCount} ayat — analisis perkataan lengkap: semua {tokenCount} perkataan (termasuk analisis sementara)",
-    demoNoteCompleteTemplate: "Setiap satu daripada {total} perkataan dalam surah ini mempunyai rekod analisis perkataan. Mengikut bacaan: {confident} satu bacaan, {provisional} sementara (akar kata masih terbuka), {context} bergantung pada konteks, {unresolved} belum selesai (semakan pakar diperlukan). Semua analisis bersifat sementara: ditulis oleh QURRA, dijana oleh peraturan, belum disemak oleh sarjana.",
-    metaAnalysedTemplate: "{revelation} · {ayahCount} ayat — {analysedCount} daripada {tokenCount} perkataan dianalisis (sementara)",
-    demoNoteTemplate: "Analisis perkataan meliputi {analysedCount} daripada {tokenCount} perkataan ({pct}%) dalam surah ini. Ia bersifat sementara: ditulis oleh QURRA dan dijana melalui peraturan, belum disemak oleh sarjana. Perkataan tanpa analisis hanya memaparkan teks al-Quran.",
-    textOnlyNote: "Belum ada analisis perkataan demi perkataan bagi surah ini. Perkataan hanya memaparkan teks al-Quran.",
+    metaAnalysedTemplate: "{revelation} · {ayahCount} ayat · {analysedCount} daripada {tokenCount} perkataan dianalisis",
+    demoNoteTemplate: "Sesetengah perkataan belum dianalisis.",
+    textOnlyNote: "Teks al-Quran sahaja; belum ada analisis perkataan.",
     showTranslation: "Tunjuk terjemahan",
     langName: { en: "Inggeris", ms: "Melayu" },
-    noTranslationInLang: "Tiada terjemahan dalam bahasa pilihan anda untuk ayat ini (terjemahan Bahasa Melayu yang dibenarkan belum ada).",
-    translationNote: "Terjemahan kerja yang ditulis untuk prototaip ini — bukan terjemahan yang berautoriti.",
+    noTranslationInLang: "Terjemahan dalam bahasa anda belum ada untuk ayat ini.",
+    translationNote: "Terjemahan kerja; bukan terjemahan yang berautoriti.",
     ayahMissingTitle: "Ayat {ayah} tiada dalam surah ini",
     ayahMissingBody: "{surah} mempunyai {count} ayat.",
     viewSurahTemplate: "Lihat {surah}"
@@ -108,23 +102,21 @@ const QM_I18N_MS = {
   roots: {
     eyebrow: "KOSA KATA",
     title: "Akar Kata",
-    demoNoteTemplate: "{count} akar kata direkodkan, setiap satu dipautkan kepada lemma yang menggunakannya. Ini leksikon sementara QURRA, bukan indeks akar kata yang lengkap.",
-    provisionalNote: "Setiap akar kata yang dipaparkan di sini bersifat sementara: ditetapkan oleh penyunting QURRA, belum disemak di bawah proses pengesahan akar kata QURRA. Akar kata yang dipertikaikan atau tidak pasti tidak dipaparkan sebagai akar kata."
+    provisionalNote: "Semua akar kata bersifat sementara. Akar kata yang dipertikaikan tidak disenaraikan."
   },
 
   root: {
     eyebrow: "AKAR KATA",
     relatedLemmas: "Lemma Berkaitan",
     occurrencesTitle: "Kemunculan dalam al-Quran",
-    noOccurrences: "Tiada lemma bagi akar kata ini yang muncul dalam set data demo buat masa ini.",
-    noLemmas: "Tiada lemma direkodkan bagi akar kata ini dalam set data demo.",
-    coreFieldSourceTemplate: "Sumber makna teras: {name} — {status}"
+    noOccurrences: "Tiada kemunculan direkodkan.",
+    noLemmas: "Tiada lemma direkodkan.",
+    coreFieldSourceTemplate: "Sumber makna teras: {name}"
   },
 
   lemmas: {
     eyebrow: "KOSA KATA",
-    title: "Lemma",
-    demoNoteTemplate: "{count} lemma (bentuk kamus) direkodkan. Ini leksikon sementara QURRA dan bertambah dengan setiap keluaran."
+    title: "Lemma"
   },
 
   lemma: {
@@ -135,10 +127,10 @@ const QM_I18N_MS = {
     fieldDerivation: "Terbitan",
     fieldVerbForm: "Wazan",
     fieldRoot: "Akar Kata",
-    noRoot: "Tiada direkodkan (lazim bagi kata tugas dan beberapa bentuk beku)",
+    noRoot: "Tiada direkodkan",
     fieldLearnerNote: "Nota pelajar",
     occurrencesTitle: "Kemunculan (Juzuk / Surah / Ayat)",
-    noOccurrences: "Lemma ini tiada kemunculan perkataan dalam set data demo semasa — disertakan untuk menunjukkan bagaimana struktur lemma/akar kata kekal jujur tentang jurang liputan data, bukan mereka-reka contoh."
+    noOccurrences: "Tiada kemunculan direkodkan."
   },
 
   notfound: {
@@ -159,24 +151,24 @@ const QM_I18N_MS = {
   },
 
   detail: {
-    status: {"provisional":"Analisis sementara","reviewed":"Telah disemak","verified":"Telah disahkan","imported":"Diimport","unresolved":"Belum selesai"},
-    resolution: {"confident":"Satu bacaan","provisional":"Sementara: akar kata masih terbuka","context_dependent":"Bergantung pada konteks","unresolved":"Belum selesai: semakan pakar diperlukan"},
-    unresolvedTitle: "Analisis belum selesai: semakan pakar diperlukan",
-    unresolvedBody: "Perkataan ini mempunyai rekod analisis, tetapi QURRA tidak dapat menganalisisnya dengan selamat. Tiada lemma, akar kata atau morfologi ditetapkan, dan tiada apa yang diteka.",
-    contextTitle: "Bergantung pada konteks: semakan pakar diperlukan",
-    contextBody: "Lebih daripada satu bacaan mungkin di sini dan ayat menentukannya. Tiada bacaan ditetapkan.",
-    candidatesLabel: "Lemma yang mungkin (petunjuk sahaja, tidak ditetapkan)",
-    alternativesLabel: "Bacaan lain yang mungkin (bacaan yang dipaparkan ialah bacaan lalai bagi ejaan ini)",
-    sourceReviewNote: "Semakan sumber diperlukan: seorang pakar atau sumber klasik perlu meneliti rekod ini.",
-    basisUnresolved: "Tiada analisis ditetapkan.",
-    basis: {"rule_context":"Bacaan yang dikehendaki oleh ayat ini, dipilih oleh QURRA (ejaan ini mempunyai bacaan lain); belum disemak oleh sarjana.","rule_default":"Bacaan lalai bagi ejaan ini (ditulis oleh QURRA); mungkin berbeza dalam ayat ini.","pilot":"Dianalisis oleh QURRA bagi perkataan ini; belum disemak oleh sarjana."},
+    status: {"provisional":"Sementara","reviewed":"Telah disemak","verified":"Telah disahkan","imported":"Diimport","unresolved":"Belum selesai"},
+    resolution: {"confident":"Satu bacaan","provisional":"Akar kata masih terbuka","context_dependent":"Bergantung pada konteks","unresolved":"Belum selesai"},
+    unresolvedTitle: "Semakan pakar diperlukan",
+    unresolvedBody: "Belum ada analisis ditetapkan.",
+    contextTitle: "Semakan pakar diperlukan",
+    contextBody: "Beberapa bacaan mungkin; ayat menentukannya.",
+    candidatesLabel: "Lemma yang mungkin (tidak ditetapkan)",
+    alternativesLabel: "Bacaan lain yang mungkin",
+    sourceReviewNote: "Semakan sumber diperlukan.",
+    basisUnresolved: "Belum ada analisis ditetapkan.",
+    basis: {"rule_context":"Dipilih untuk ayat ini; ada bacaan lain.","rule_default":"Analisis lalai; konteks mungkin berbeza.","pilot":"Dianalisis oleh QURRA."},
     morphDetails: "Butiran Morfologi",
     breakdown: "Pecahan Perkataan",
     lemmaRoot: "Lemma &amp; Akar Kata",
     sourceInfo: "Maklumat Sumber",
-    singleUnit: "Perkataan ini merupakan satu unit morfologi sahaja — tiada awalan atau akhiran yang bergabung.",
-    conjugationWithheld: "Tasrif asas tidak dipaparkan — belum disahkan oleh pakar (rujuk peraturan paparan dalam cetak biru §8).",
-    noRootRecorded: "Perkataan ini tiada akar kata direkodkan — lazim bagi kata tugas dan beberapa bentuk beku (rujuk DATA_SCHEMA.md).",
+    singleUnit: "Satu unit; tiada awalan atau akhiran.",
+    conjugationWithheld: "Tasrif ditahan sehingga disemak.",
+    noRootRecorded: "Tiada akar kata direkodkan.",
     viewLemma: "Lihat Lemma",
     viewRoot: "Lihat Akar Kata",
     viewInQuran: "Lihat dalam al-Quran",
@@ -184,9 +176,9 @@ const QM_I18N_MS = {
     wordNotFoundTitle: "Perkataan Tidak Dijumpai",
     wordNotFoundBody: "Perkataan ini tidak wujud.",
     pronounTemplate: "Kata ganti nama {person}",
-    lemmaUnresolved: "Lemma bagi perkataan ini belum dikenal pasti.",
-    notAnalysedTitle: "Analisis perkataan belum tersedia",
-    notAnalysedBody: "Perkataan ini belum mempunyai lemma, akar kata atau morfologi yang direkodkan. Tiada apa yang diteka. Liputan sedang bertambah, dan setiap analisis datang daripada leksikon QURRA sendiri serta ditanda sementara sehingga disemak oleh sarjana.",
+    lemmaUnresolved: "Lemma belum ditetapkan.",
+    notAnalysedTitle: "Belum dianalisis",
+    notAnalysedBody: "Hanya teks al-Quran dan lokasinya dipaparkan.",
     licenceLabel: "Status lesen",
     inUseNote: "Sedang digunakan"
   },
@@ -355,13 +347,13 @@ const QM_I18N_MS = {
 
   rootState: {
     provisionalBadge: "Sementara",
-    provisionalNote: "Akar kata sementara (pemegang tempat): belum ditetapkan di bawah proses pengesahan akar kata QURRA dan belum disemak.",
+    provisionalNote: "Belum disemak.",
     underReview: "Akar kata dalam semakan",
     notApplicable: "Tiada akar kata ditetapkan bagi jenis perkataan ini."
   },
 
   status: {
     attribution: "Teks al-Quran: Projek Tanzil (tanzil.net), Creative Commons Attribution 3.0.",
-    conjugationProvisional: "Sementara — belum disemak."
+    conjugationProvisional: "Belum disemak."
   }
 };

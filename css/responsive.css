@@ -4,7 +4,7 @@
    ========================================================================== */
 
 /* ---- Base (mobile, < 768px): top bar + bottom nav, sidebar hidden ---- */
-.qm-main { padding-bottom: calc(var(--qm-bottomnav-height) + var(--qm-space-6)); }
+.qm-main { padding-bottom: calc(var(--qm-bottomnav-height) + env(safe-area-inset-bottom, 0px) + var(--qm-space-6)); }
 
 @media (min-width: 560px) {
   .qm-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
@@ -21,10 +21,22 @@
     padding: var(--qm-space-6) var(--qm-space-6) var(--qm-space-8);
   }
 
-  .qm-hero { padding: var(--qm-space-8) var(--qm-space-6); }
+  .qm-hero { padding: var(--qm-space-8) var(--qm-space-7); min-height: 18rem; }
+  .qm-hero__content { max-width: 32rem; }
+  .qm-hero__art { opacity: 0.4; max-width: 50%; inset-inline-end: var(--qm-space-6); }
   .qm-hero__arabic { font-size: 3.2rem; }
+  .qm-hero__tagline { font-size: 2.9rem; }
 
   .qm-detail-panel { width: 440px; }
+}
+
+/* ---- Homepage cards: horizontal rows when there is room, four across on wide screens ---- */
+@media (min-width: 440px) {
+  .qm-home-card { flex-direction: row; align-items: center; min-height: 6.25rem; padding-inline-end: var(--qm-space-6); }
+  .qm-home-card__chevron { inset-block-start: 50%; margin-top: -9px; inset-inline-end: var(--qm-space-3); }
+}
+@media (min-width: 1500px) {
+  .qm-home-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 
 /* ---- Desktop (>= 1280px): slightly roomier content column ---- */
@@ -36,8 +48,7 @@
 /* ---- Small phones (<= 390px): tighten spacing, smaller Arabic display size still comfortable ---- */
 @media (max-width: 390px) {
   .qm-main { padding-left: var(--qm-space-3); padding-right: var(--qm-space-3); }
-  .qm-hero { padding: var(--qm-space-6) var(--qm-space-3); }
-  .qm-hero__arabic { font-size: 2.1rem; }
+  .qm-hero { padding: var(--qm-space-6) var(--qm-space-4); }
   .qm-ayah__text { font-size: 1.5rem; line-height: 2.1; }
   .qm-fieldlist { grid-template-columns: 1fr; }
   .qm-fieldlist dt { font-weight: 600; }

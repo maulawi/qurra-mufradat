@@ -142,7 +142,7 @@ ok("the homograph defaults are recorded with their other readings", audit.homogr
   ok("CONTEXT: 'asra' is captives in 8:67 and the verb 'travelled by night' in 17:1", T("8:67:7").lemma.id === "asir-1" && T("17:1:3").lemma.id === "asra-1");
   ok("CONTEXT: a contextual reading never changes the pilot tokens", ds.effectiveTokenForms.every(t => T(t.token_id).analysisBasis === "pilot"));
   ok("CONTEXT: every contextual reading is a provisional QURRA_RULE_ANALYSIS form on an existing token with the same text", ds.forms.filter(f => f.basis === "rule_context").every(f => f.status === "provisional" && f.provenance.form.source_id === "QURRA_RULE_ANALYSIS" && ds.tokens.some(t => t.token_id === f.context_token && t.text === f.surface)));
-  ok("COVERAGE: the Juz cards show 'Complete', not a percentage, once every word has a record", (() => { const r = fs.readFileSync(path.join(ROOT, "js/render.js"), "utf8"); return /coverageLabel\(j\.analysedTokenCount, j\.tokenCount\)/.test(r) && /juzCard\.complete/.test(r); })());
+  ok("COVERAGE: a Juz card shows a percentage only while a Juz is not fully analysed; a complete Juz shows no coverage badge", (() => { const r = fs.readFileSync(path.join(ROOT, "js/render.js"), "utf8"); return /j\.analysedTokenCount < j\.tokenCount/.test(r) && /coverageLabel\(j\.analysedTokenCount, j\.tokenCount\)/.test(r) && !/juzCard\.complete/.test(r); })());
 }
 
 console.log(`test-coverage: ${passed} passed, ${failed} failed`);

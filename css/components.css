@@ -208,17 +208,10 @@
 }
 .qm-empty-state h3 { color: var(--qm-ink-700); margin-bottom: var(--qm-space-2); }
 
-.qm-demo-note {
-  display: flex;
-  gap: var(--qm-space-2);
-  align-items: flex-start;
-  background: var(--qm-demo-bg);
-  border: 1px solid var(--qm-demo-border);
-  color: var(--qm-demo-text);
-  border-radius: var(--qm-radius-md);
-  padding: var(--qm-space-3) var(--qm-space-4);
+.qm-info-note {
+  margin: 0 0 var(--qm-space-4);
   font-size: var(--qm-fs-sm);
-  margin-bottom: var(--qm-space-4);
+  color: var(--qm-ink-500);
 }
 
 /* ---------------- Filter chips ---------------- */

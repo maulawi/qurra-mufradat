@@ -6,44 +6,120 @@
 
 /* ---------------- Home hero ---------------- */
 .qm-hero {
-  text-align: center;
-  padding: var(--qm-space-7) var(--qm-space-4) var(--qm-space-6);
-  border-radius: var(--qm-radius-lg);
+  text-align: start;
+  padding: var(--qm-space-7) var(--qm-space-5) var(--qm-space-6);
+  min-height: 15rem;
+  display: flex;
+  align-items: center;
+  border-radius: 22px;
   background:
-    radial-gradient(circle at 50% 0%, rgba(180, 136, 58, 0.10), transparent 60%),
+    radial-gradient(circle at 12% 0%, rgba(180, 136, 58, 0.14), transparent 55%),
     var(--qm-green-900);
   color: var(--qm-cream-50);
   position: relative;
   overflow: hidden;
-  margin-bottom: var(--qm-space-6);
+  margin-bottom: var(--qm-space-5);
 }
-.qm-hero::before {
-  content: "";
+/* Local architectural artwork, kept faint and faded toward the text so contrast is never reduced. */
+.qm-hero__art {
   position: absolute;
-  inset: 0;
-  background-image:
-    repeating-linear-gradient(45deg, rgba(226,200,138,0.05) 0 2px, transparent 2px 28px),
-    repeating-linear-gradient(-45deg, rgba(226,200,138,0.05) 0 2px, transparent 2px 28px);
+  inset-block: 0;
+  inset-inline-end: -1.5rem;
+  height: 100%;
+  width: auto;
+  max-width: 62%;
+  color: var(--qm-gold-300);
+  opacity: 0.3;
   pointer-events: none;
+  -webkit-mask-image: linear-gradient(to left, #000 35%, transparent 100%);
+  mask-image: linear-gradient(to left, #000 35%, transparent 100%);
 }
-.qm-hero__content { position: relative; max-width: 560px; margin: 0 auto; }
+[dir="rtl"] .qm-hero__art { transform: scaleX(-1); }
+.qm-hero__content { position: relative; max-width: 26rem; margin: 0; }
 .qm-hero__arabic {
   font-family: var(--qm-font-arabic);
-  font-size: var(--qm-fs-arabic-xl);
+  font-size: clamp(2.1rem, 9vw, 2.75rem);
+  line-height: 1.5;
   direction: rtl;
+  text-align: left; /* sits on the same left edge as the headline, as in the approved design */
   color: var(--qm-gold-300);
   margin-bottom: var(--qm-space-2);
 }
 .qm-hero__tagline {
   font-family: var(--qm-font-heading);
-  font-size: var(--qm-fs-xl);
+  font-weight: 600;
+  font-size: clamp(1.75rem, 7.4vw, 2.5rem);
+  line-height: 1.15;
   color: var(--qm-cream-50);
-  margin-bottom: var(--qm-space-3);
+  margin-bottom: var(--qm-space-4);
+  text-wrap: balance;
 }
-.qm-hero__desc { color: rgba(250,245,234,0.82); margin-bottom: var(--qm-space-5); }
-.qm-hero__actions { display: flex; justify-content: center; gap: var(--qm-space-3); flex-wrap: wrap; }
-.qm-hero .qm-btn--secondary { color: var(--qm-cream-50); border-color: rgba(250,245,234,0.4); }
-.qm-hero .qm-btn--secondary:hover { border-color: var(--qm-gold-300); color: var(--qm-gold-300); }
+.qm-hero__rule { display: flex; align-items: center; gap: var(--qm-space-2); width: 11rem; max-width: 100%; }
+.qm-hero__rule span { flex: 1; height: 1px; background: var(--qm-gold-500); }
+.qm-hero__rule i { width: 7px; height: 7px; border: 1.5px solid var(--qm-gold-300); transform: rotate(45deg); flex-shrink: 0; }
+
+/* ---------------- Home destination cards ---------------- */
+.qm-icon { width: 1.35em; height: 1.35em; flex-shrink: 0; display: inline-block; vertical-align: middle; }
+.qm-home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  gap: var(--qm-space-3);
+  margin-bottom: var(--qm-space-4);
+}
+.qm-home-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--qm-space-3);
+  min-height: 7.5rem;
+  padding: var(--qm-space-4);
+  background: var(--qm-cream-50);
+  border: 1px solid var(--qm-border);
+  border-radius: var(--qm-radius-lg);
+  box-shadow: var(--qm-shadow-sm);
+  color: var(--qm-ink-900);
+  transition: border-color var(--qm-duration-base) var(--qm-ease), box-shadow var(--qm-duration-base) var(--qm-ease), transform var(--qm-duration-base) var(--qm-ease);
+}
+.qm-home-card:hover, .qm-home-card:focus-visible {
+  border-color: var(--qm-gold-500);
+  box-shadow: var(--qm-shadow-md);
+  transform: translateY(-1px);
+}
+.qm-home-card:focus-visible { outline: 2px solid var(--qm-gold-500); outline-offset: 2px; }
+.qm-home-card__icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; border-radius: 50%;
+  background: var(--qm-cream-200);
+  color: var(--qm-gold-700);
+  flex-shrink: 0;
+}
+.qm-home-card__icon .qm-icon { width: 24px; height: 24px; }
+.qm-home-card__text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.qm-home-card__title { font-family: var(--qm-font-heading); font-weight: 700; font-size: var(--qm-fs-xl); line-height: 1.15; color: var(--qm-green-900); }
+.qm-home-card__sub { font-size: var(--qm-fs-sm); line-height: 1.35; color: var(--qm-ink-700); }
+.qm-home-card__chevron {
+  position: absolute; inset-block-start: var(--qm-space-4); inset-inline-end: var(--qm-space-3);
+  width: 18px; height: 18px; color: var(--qm-gold-700);
+}
+[dir="rtl"] .qm-home-card__chevron { transform: scaleX(-1); }
+
+/* ---------------- Beta status banner ---------------- */
+.qm-beta-banner {
+  display: flex;
+  align-items: center;
+  gap: var(--qm-space-3);
+  padding: var(--qm-space-3) var(--qm-space-4);
+  background: var(--qm-demo-bg);
+  border: 1px solid var(--qm-demo-border);
+  border-radius: var(--qm-radius-lg);
+  color: var(--qm-demo-text);
+}
+.qm-beta-banner__icon { width: 26px; height: 26px; color: var(--qm-gold-700); }
+.qm-beta-banner__text { display: flex; flex-direction: column; line-height: 1.35; }
+.qm-beta-banner__text strong { font-size: var(--qm-fs-md); font-weight: 700; color: var(--qm-demo-text); }
+.qm-beta-banner__text span { font-size: var(--qm-fs-sm); }
 
 /* ---------------- Ayah block (Surah/Ayah screen) ---------------- */
 .qm-ayah {

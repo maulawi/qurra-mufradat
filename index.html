@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>QURRA Mufradat al-Qur'an — Qur'anic Vocabulary Explorer</title>
 <meta name="description" content="Explore the vocabulary of the Qur'an systematically — Juz by Juz, Surah by Ayah, word by word. A QURRA product prototype." />
 
@@ -22,6 +22,18 @@
 <link rel="stylesheet" href="css/responsive.css" />
 </head>
 <body>
+
+<!-- Icon sprite: inline, local, stroke-based (inherits currentColor). Used by the mobile bottom nav, search toggle and homepage cards. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="qm-i-home" viewBox="0 0 24 24"><path d="M3.5 11 12 4l8.5 7M5.5 9.7V20h5v-5.5h3V20h5V9.7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="qm-i-juz" viewBox="0 0 24 24"><path d="M12 6.2C9.8 4.9 7.2 4.2 3.8 4.2v13.6c3.4 0 6 .7 8.2 2 2.2-1.3 4.8-2 8.2-2V4.2c-3.4 0-6 .7-8.2 2zM12 6.2v13.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="qm-i-surahs" viewBox="0 0 24 24"><path d="M5.5 4h11.2a1.8 1.8 0 0 1 1.8 1.8V20H7.3a1.8 1.8 0 0 1-1.8-1.8zM5.5 18.2A1.8 1.8 0 0 1 7.3 16.4h11.2M9.2 8.2h5.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="qm-i-roots" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5.5" r="2.3"/><circle cx="5.5" cy="18" r="2.3"/><circle cx="18.5" cy="18" r="2.3"/><path d="M12 7.8v4.2M12 12l-5 4.2M12 12l5 4.2"/></g></symbol>
+  <symbol id="qm-i-lemmas" viewBox="0 0 24 24"><path d="M7 3.5h7.5L19 8v12.5H7zM14.5 3.5V8H19M10 12.2h6M10 15.8h6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="qm-i-search" viewBox="0 0 24 24"><path d="m20.5 20.5-4.6-4.6M10.8 17.6a6.8 6.8 0 1 1 0-13.6 6.8 6.8 0 0 1 0 13.6z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="qm-i-info" viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 11v5.4M12 7.6v.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="qm-i-chevron" viewBox="0 0 24 24"><path d="m9 5.5 6.5 6.5L9 18.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
 
 <a class="qm-skip-link" href="#qm-main" data-i18n="common.skipToMain">Skip to main content</a>
 
@@ -69,7 +81,7 @@
         <span class="qm-lang-switch__sep" aria-hidden="true">|</span>
         <button type="button" class="qm-lang-switch__btn" data-lang-switch="ms" data-i18n-aria-label="common.languageMs" aria-label="Bahasa Melayu">BM</button>
       </div>
-      <span class="qm-badge qm-badge--demo" data-i18n="badge.demo">Prototype · Demo data</span>
+      <span class="qm-badge qm-badge--demo" data-i18n="badge.demo">Beta version</span>
     </div>
   </header>
 
@@ -85,7 +97,7 @@
       <button type="button" class="qm-lang-switch__btn" data-lang-switch="ms" data-i18n-aria-label="common.languageMs" aria-label="Bahasa Melayu">BM</button>
     </div>
     <button type="button" class="qm-topbar__search-toggle" id="qm-mobile-search-toggle" data-i18n-aria-label="common.search" aria-label="Search" aria-expanded="false" aria-controls="qm-mobile-search">
-      <span aria-hidden="true">⌕</span>
+      <svg class="qm-icon" aria-hidden="true"><use href="#qm-i-search"/></svg>
     </button>
   </header>
   <div class="qm-mobile-search" id="qm-mobile-search" hidden>
@@ -105,19 +117,19 @@
   <!-- ===================== Mobile bottom navigation ===================== -->
   <nav class="qm-bottomnav" aria-label="Sections">
     <a href="#/home" class="qm-bottomnav__link" data-route-link data-nav="home">
-      <span class="qm-nav-icon" aria-hidden="true">⌂</span><span data-i18n="nav.home">Home</span>
+      <svg class="qm-icon qm-nav-icon" aria-hidden="true"><use href="#qm-i-home"/></svg><span data-i18n="nav.home">Home</span>
     </a>
     <a href="#/juz" class="qm-bottomnav__link" data-route-link data-nav="juz">
-      <span class="qm-nav-icon" aria-hidden="true">◫</span><span data-i18n="nav.juz">Juz</span>
+      <svg class="qm-icon qm-nav-icon" aria-hidden="true"><use href="#qm-i-juz"/></svg><span data-i18n="nav.juz">Juz</span>
     </a>
     <a href="#/surahs" class="qm-bottomnav__link" data-route-link data-nav="surahs">
-      <span class="qm-nav-icon" aria-hidden="true">﴾﴿</span><span data-i18n="nav.surahs">Surahs</span>
+      <svg class="qm-icon qm-nav-icon" aria-hidden="true"><use href="#qm-i-surahs"/></svg><span data-i18n="nav.surahs">Surahs</span>
     </a>
     <a href="#/roots" class="qm-bottomnav__link" data-route-link data-nav="roots">
-      <span class="qm-nav-icon" aria-hidden="true">⟨⟩</span><span data-i18n="nav.roots">Roots</span>
+      <svg class="qm-icon qm-nav-icon" aria-hidden="true"><use href="#qm-i-roots"/></svg><span data-i18n="nav.roots">Roots</span>
     </a>
     <a href="#/lemmas" class="qm-bottomnav__link" data-route-link data-nav="lemmas">
-      <span class="qm-nav-icon" aria-hidden="true">⌘</span><span data-i18n="nav.lemmas">Lemmas</span>
+      <svg class="qm-icon qm-nav-icon" aria-hidden="true"><use href="#qm-i-lemmas"/></svg><span data-i18n="nav.lemmas">Lemmas</span>
     </a>
   </nav>
 

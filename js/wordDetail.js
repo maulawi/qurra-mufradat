@@ -165,10 +165,7 @@ const QMWordDetail = (function () {
         <div class="qm-worddetail__surface qm-arabic" id="qm-detail-title" lang="ar">${token.surfaceForm}</div>
         <div class="qm-worddetail__location">${locationText} — ${locationHtml}</div>
       </div>
-      <div class="qm-card" style="margin-bottom:var(--qm-space-4)">
-        <p style="margin:0"><strong>${QMI18n.t("detail.notAnalysedTitle")}</strong></p>
-        <p class="qm-muted" style="margin:var(--qm-space-2) 0 0">${QMI18n.t("detail.notAnalysedBody")}</p>
-      </div>
+      <p class="qm-muted" data-not-analysed><strong>${QMI18n.t("detail.notAnalysedTitle")}.</strong> ${QMI18n.t("detail.notAnalysedBody")}</p>
       ${expandSection("source", QMI18n.t("detail.sourceInfo"), provenanceBlock(token), false)}
     `;
   }
@@ -192,15 +189,12 @@ const QMWordDetail = (function () {
     return `
       <div class="qm-worddetail__header">
         <div class="qm-worddetail__surface qm-arabic" id="qm-detail-title" lang="ar">${token.surfaceForm}</div>
-        <div class="qm-worddetail__status" style="margin:var(--qm-space-2) 0"><span class="qm-badge qm-badge--provisional" data-analysis-status="${token.status}" data-resolution="${token.resolution}">${QMI18n.t("detail.resolution." + (ctxt ? "context_dependent" : "unresolved"))}</span></div>
+        <div class="qm-worddetail__status" style="margin:var(--qm-space-2) 0"><span class="qm-badge qm-badge--provisional" data-analysis-status="${token.status}" data-resolution="${token.resolution}">${QMI18n.t("detail.resolution." + (ctxt ? "context_dependent" : "unresolved"))}</span> <span class="qm-badge">${QMI18n.t(ctxt ? "detail.contextTitle" : "detail.unresolvedTitle")}</span></div>
         <div class="qm-worddetail__location">${locationText} — ${locationHtml}</div>
       </div>
-      <div class="qm-card" style="margin-bottom:var(--qm-space-4)" data-unresolved>
-        <p style="margin:0"><strong>${QMI18n.t(ctxt ? "detail.contextTitle" : "detail.unresolvedTitle")}</strong></p>
-        <p class="qm-muted" style="margin:var(--qm-space-2) 0 0">${QMI18n.t(ctxt ? "detail.contextBody" : "detail.unresolvedBody")}</p>
-        ${token.segmentationNote ? `<p class="qm-muted" style="margin:var(--qm-space-2) 0 0;font-size:var(--qm-fs-xs)">${QMI18n.pick(token.segmentationNote)}</p>` : ""}
+      <div data-unresolved>
+        <p class="qm-muted" style="margin:0">${QMI18n.t(ctxt ? "detail.contextBody" : "detail.unresolvedBody")}</p>
         ${lemmaHints(token.candidates, QMI18n.t("detail.candidatesLabel"))}
-        <p class="qm-muted" style="margin:var(--qm-space-3) 0 0;font-size:var(--qm-fs-xs)">${QMI18n.t("detail.sourceReviewNote")}</p>
       </div>
       ${expandSection("source", QMI18n.t("detail.sourceInfo"), provenanceBlock(token), false)}
     `;

@@ -74,7 +74,7 @@ const rec = (name, ok, msg) => { if (ok) passed++; else { failed++; console.log(
   await go("#/juz/1/surah/2");
   await page.click('.qm-word[data-token="2:6:3"]'); await page.waitForTimeout(250);
   t = await page.evaluate(() => document.getElementById("qm-detail-content").innerText);
-  rec("A verb opens its analysis: Arabic, meaning, POS, status, morphology", /كَفَرُوا/.test(t) && /disbelieve/i.test(t) && /Verb/.test(t) && /Provisional analysis/.test(t) && /3rd person/.test(t) && /Plural/.test(t), t.slice(0, 260).replace(/\n/g, " | "));
+  rec("A verb opens its analysis: Arabic, meaning, POS, status, morphology", /كَفَرُوا/.test(t) && /disbelieve/i.test(t) && /Verb/.test(t) && /Provisional/.test(t) && /3rd person/.test(t) && /Plural/.test(t), t.slice(0, 260).replace(/\n/g, " | "));
   const status = await page.$eval("[data-analysis-status]", e => e.dataset.analysisStatus);
   rec("Its status is provisional, never 'verified'", status === "provisional" && !/Verified/.test(t));
   await page.keyboard.press("Escape");
@@ -95,9 +95,9 @@ const rec = (name, ok, msg) => { if (ok) passed++; else { failed++; console.log(
   const UN = await page.evaluate(() => { for (const a of QMData.listAyahsInSurah(2)) for (const x of a.tokens) if (x.resolution === "unresolved") return x.id; return null; });
   await go("#/word/" + UN);
   t = await page.evaluate(() => document.getElementById("qm-detail-content").innerText);
-  rec("An unresolved word says 'expert review required' and shows no invented lemma or root", /expert review required/i.test(t) && /Possible lemmas|Analysis unresolved/.test(t) && !/Root/.test(t.replace("Source information", "")) && (await page.$("[data-unresolved]")) !== null, t.slice(0, 260).replace(/\n/g, " | "));
+  rec("An unresolved word says 'Expert review needed' and shows no invented lemma or root", /Expert review needed/i.test(t) && /Unresolved/.test(t) && /Possible lemmas|No analysis assigned/.test(t) && !/Root/.test(t.replace("Source information", "")) && (await page.$("[data-unresolved]")) !== null, t.slice(0, 260).replace(/\n/g, " | "));
   /* ---- provisional (root open) and context-dependent words show their real status ---- */
-  for (const [cls, label] of [["provisional", /Provisional: root still open/], ["context_dependent", /Context-dependent/]]) {
+  for (const [cls, label] of [["provisional", /Root still open/], ["context_dependent", /Context-dependent/]]) {
     await go("#/home");
     const id = await page.evaluate(c => { for (const a of QMData.listAyahsInSurah(2)) for (const x of a.tokens) if (x.resolution === c) return x.id; return null; }, cls);
     await go("#/word/" + id);
@@ -105,14 +105,31 @@ const rec = (name, ok, msg) => { if (ok) passed++; else { failed++; console.log(
     rec("A " + cls + " word shows its own status label", id !== null && label.test(t), t.slice(0, 200).replace(/\s+/g, " "));
   }
   await go("#/home");
-  const cards = await page.$$eval(".qm-juz-card .qm-badge", e => e.map(x => x.innerText.trim()));
-  rec("Home: all 30 Juz cards say 'Word analysis · Complete' (no incomplete percentage)", cards.length === 30 && cards.every(c => /Word analysis · Complete/.test(c)), JSON.stringify(cards.slice(0, 3)));
+  const homeText = await view();
+  const homeCards = await page.$$eval("[data-home-card]", e => e.map(x => x.getAttribute("href")));
+  rec("Home: four destination cards (Juz, Surahs, Roots, Lemmas) and the compact beta banner only", homeCards.join() === "#/juz,#/surahs,#/roots,#/lemmas" && /Beta version/.test(homeText) && /Verification in progress\./.test(homeText) && !/scholar|unresolved|expert review/i.test(homeText), homeText.replace(/\s+/g, " ").slice(0, 200));
   await go("#/juz");
+  const cards = await page.$$eval("[data-juz-index] .qm-juz-card .qm-badge", e => e.map(x => x.innerText.trim()));
+  rec("Juz index: fully analysed Juz cards carry no coverage badge (no repeated 'Complete' / percentages)", cards.length === 0, JSON.stringify(cards.slice(0, 3)));
   const cards2 = await page.$$eval("[data-juz-index] .qm-juz-card", e => e.map(x => x.innerText.replace(/\s+/g, " ").trim()));
-  rec("Juz index: 24, 25, 26 and 30 show Complete and 'Provisional analysis included', not 91.7% / 90.7% / 87.6% / 76.9%", [24, 25, 26, 30].every(n => /Complete/.test(cards2[n - 1]) && /Provisional analysis included/.test(cards2[n - 1]) && !/\d%/.test(cards2[n - 1])), JSON.stringify([24, 25, 26, 30].map(n => cards2[n - 1])));
+  rec("Juz index: 24, 25, 26 and 30 show no percentage and no long status text", [24, 25, 26, 30].every(n => !/\d%|Complete|Provisional/.test(cards2[n - 1])), JSON.stringify([24, 25, 26, 30].map(n => cards2[n - 1])));
   await go("#/surah/2");
   t = await view();
-  rec("A surah page says its word analysis is complete and counts the uncertain words", /word analysis complete/i.test(t) && /unresolved/i.test(t), t.slice(0, 300).replace(/\n/g, " | "));
+  rec("A fully analysed surah page has no coverage or disclaimer note", !/word analysis complete|scholar|unresolved|generated by rules/i.test(t) && (await page.$(".qm-info-note, .qm-demo-note")) === null, t.slice(0, 300).replace(/\n/g, " | "));
+  await go("#/surahs"); t = await view();
+  rec("Surahs index: no coverage note", !/%|provisional|scholar|word analysis/i.test(t) && (await page.$(".qm-info-note")) === null, t.slice(0, 160).replace(/\n/g, " | "));
+  await go("#/lemmas"); t = await view();
+  rec("Lemmas index: no lexicon-size or provisional paragraph", !/dictionary-form lemmas are recorded|provisional lexicon/i.test(t) && (await page.$(".qm-info-note")) === null, t.slice(0, 160).replace(/\n/g, " | "));
+  await go("#/roots"); t = await view();
+  rec("Roots index: one short neutral provisional line, no count or process text", (await page.$$eval(".qm-info-note", e => e.map(x => x.innerText))).join() === "All roots are provisional. Contested roots are not listed." && !/verification process/i.test(t) && (await page.$(".qm-demo-note")) === null);
+  await go("#/roots", "ms"); t = await view();
+  rec("Roots index in Bahasa Melayu: the same short line", /Semua akar kata bersifat sementara/.test(t) && !/proses pengesahan/i.test(t));
+  await go("#/word/2:6:3");
+  rec("Word panel basis line is short", /Default analysis; context may differ\.|Chosen for this verse|Analysed by QURRA/.test(await page.evaluate(() => document.getElementById("qm-detail-content").innerText)) && !/not yet reviewed by a scholar/i.test(await page.evaluate(() => document.getElementById("qm-detail-content").innerText)));
+  await go("#/home", "ms"); t = await page.evaluate(() => document.querySelector(".qm-sidebar__footer .qm-badge").innerText);
+  rec("Sidebar badge reads 'Versi beta' in Bahasa Melayu", /Versi beta/.test(t), t);
+  await go("#/home"); t = await page.evaluate(() => document.querySelector(".qm-sidebar__footer .qm-badge").innerText);
+  rec("Sidebar badge reads 'Beta version' in English", /Beta version/.test(t), t);
 
   /* ---- Juz navigation: index, per-Juz routes, switcher, sidebar, history ---- */
   await go("#/juz");
@@ -144,7 +161,7 @@ const rec = (name, ok, msg) => { if (ok) passed++; else { failed++; console.log(
   rec("Juz page in Bahasa Melayu uses ayat", /ayat 1–141/.test(t) && /141 daripada 286 ayat/.test(t), t.slice(0, 220).replace(/\n/g, " | "));
   await go("#/word/2:6:3", "ms");
   t = await page.evaluate(() => document.getElementById("qm-detail-content").innerText);
-  rec("Word panel in Bahasa Melayu: meaning, status", /kufur|ingkar/i.test(t) && /Analisis sementara/.test(t), t.slice(0, 200).replace(/\n/g, " | "));
+  rec("Word panel in Bahasa Melayu: meaning, status", /kufur|ingkar/i.test(t) && /Sementara/.test(t), t.slice(0, 200).replace(/\n/g, " | "));
 
   /* ---- search ---- */
   await go("#/home");
@@ -154,6 +171,35 @@ const rec = (name, ok, msg) => { if (ok) passed++; else { failed++; console.log(
   r = await sq("ك ف ر"); rec("Search finds a provisional root by letters", r.some(h => /root\//.test(h)), JSON.stringify(r.slice(0, 8)));
   r = await sq("2:255"); rec("Search finds an ayah by reference", r.some(h => /surah\/2\/ayah\/255/.test(h)), JSON.stringify(r.slice(0, 8)));
   r = await sq("و س م"); rec("A disputed root candidate is not searchable as a root", !r.some(h => /root\//.test(h)), JSON.stringify(r.slice(0, 8)));
+
+  /* ---- Regression: the long coverage-summary banner (div.qm-demo-note from demoNote()) must never come back ---- */
+  const BANNER_TEXT = /Setiap satu daripada|rekod analisis perkataan|Semua analisis bersifat sementara|Mengikut bacaan|Every one of the [\d,]+ words|word-analysis record|By reading:|generated by rules|dijana oleh peraturan|belum disemak oleh sarjana|not reviewed by a scholar|complete coverage|liputan lengkap|analisis perkataan lengkap|word analysis complete/i;
+  const bannerProbe = () => page.evaluate(() => {
+    const view = document.getElementById("qm-view");
+    const tinted = [...view.querySelectorAll("*")].filter(e => getComputedStyle(e).backgroundColor === "rgb(251, 240, 218)" && !e.closest(".qm-beta-banner") && !e.classList.contains("qm-badge")).length;
+    return { boxes: view.querySelectorAll(".qm-demo-note").length, notes: view.querySelectorAll(".qm-info-note").length, tinted, text: view.innerText };
+  });
+  for (const lang of ["en", "ms"]) {
+    for (const hash of ["#/surah/1", "#/surah/2", "#/surah/114", "#/juz/1", "#/juz/30", "#/juz/1/surah/2", "#/surahs", "#/juz", "#/lemmas", "#/roots"]) {
+      await go(hash, lang);
+      const b = await bannerProbe();
+      const noteOk = hash === "#/roots" ? b.notes === 1 : b.notes === 0;
+      rec(`[${lang}] ${hash}: no coverage-summary banner (no .qm-demo-note, no tinted box, no banner wording)`, b.boxes === 0 && b.tinted === 0 && noteOk && !BANNER_TEXT.test(b.text), `boxes=${b.boxes} tinted=${b.tinted} notes=${b.notes} ${(b.text.match(BANNER_TEXT) || [""])[0]}`);
+    }
+    // the banner's own wording must not appear in any rendered surah, whatever its size
+    const allSurah = await page.evaluate(() => QMData.listSurahs().map(x => x.number));
+    let leaked = [];
+    for (const n of allSurah.filter(n => n % 7 === 1 || n === 114)) { await page.goto(BASE + "#/surah/" + n); await page.waitForTimeout(60); const b = await bannerProbe(); if (b.boxes || b.tinted || BANNER_TEXT.test(b.text)) leaked.push(n); }
+    rec(`[${lang}] sampled surahs (every 7th + 114): none shows the coverage-summary banner`, leaked.length === 0, leaked.join());
+    // word panel: concise status labels, no explanatory card or repeated paragraphs
+    for (const [cls, expect] of [["unresolved", lang === "en" ? /Unresolved/ : /Belum selesai/], ["context_dependent", lang === "en" ? /Context-dependent/ : /Bergantung pada konteks/]]) {
+      const wid = await page.evaluate(c => { for (const a of QMData.listAyahsInSurah(2)) for (const x of a.tokens) if (x.resolution === c) return x.id; return null; }, cls);
+      if (wid === null) continue;
+      await go("#/word/" + wid, lang);
+      const d = await page.evaluate(() => ({ t: document.getElementById("qm-detail-content").innerText, cards: document.querySelectorAll("#qm-detail-content [data-unresolved].qm-card, #qm-detail-content .qm-demo-note").length, ps: document.querySelectorAll("#qm-detail-content [data-unresolved] > p").length }));
+      rec(`[${lang}] ${cls} word panel: status label kept, no explanatory card, at most one plain line`, expect.test(d.t) && d.cards === 0 && d.ps <= 1 && !BANNER_TEXT.test(d.t) && !/Source review needed|Semakan sumber diperlukan/.test(d.t), d.t.slice(0, 200).replace(/\n/g, " | "));
+    }
+  }
 
   /* ---- 360 px: no horizontal overflow on a Juz page ---- */
   await page.setViewportSize({ width: 360, height: 740 });
